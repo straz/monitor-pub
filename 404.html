@@ -5,9 +5,9 @@
     <title>Redirecting...</title>
     <script>
       // GitHub Pages serves this 404.html for deep SPA routes.
-      // Append /index.html so GitHub serves the SPA entry point,
-      // and React Router resolves the original path.
-      window.location.replace(window.location.pathname + "/index.html");
+      // Redirect to /index.html (the only file GitHub actually serves)
+      // with the original path as a query param so the app can navigate there.
+      window.location.replace("/index.html?redirect=" + encodeURIComponent(window.location.pathname));
     </script>
   </head>
   <body>
