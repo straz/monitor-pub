@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR0HWFS0TV902ARMKJXQ1EHR",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "What medical conditions can be misdiagnosed as MDS and can cause left shifted blood cells?",
+  "started_at": "2026-05-07T06:27:00Z",
+  "ended_at": "2026-05-07T06:27:26.284000Z",
+  "duration_ms": 26284,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What medical conditions can be misdiagnosed as MDS and can cause left shifted blood cells?",
+      "started_at": "2026-05-07T06:27:00Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "There are various medical conditions that can be misdiagnosed as myelodysplastic syndrome (MDS) and can cause left shifted blood cells. Some of these conditions include:\n\n1. Infections: Certain infections such as tuberculosis, HIV, and viral hepatitis can cause left shifted blood cells and can sometimes be misdiagnosed as MDS.\n\n2. Autoimmune disorders: Conditions such as rheumatoid arthritis, lupus, and scleroderma can cause left shifted blood cells and can be mistaken for MDS.\n\n3. Nutritional deficiencies: Certain vitamin deficiencies like vitamin B12 and folate deficiency can cause left shifted blood cells and can lead to a misdiagnosis of MDS.\n\n4. Medications: Some medications, such as chemotherapy drugs, can cause left shifted blood cells, which can sometimes be misdiagnosed as MDS.\n\n5. Bone marrow fibrosis: This is a rare condition in which scar tissue forms in the bone marrow, leading to left shifted blood cells and other symptoms similar to MDS.\n\nIt is important to note that proper diagnosis of MDS requires a thorough evaluation of the patient's medical history, physical examination, and laboratory tests, such as blood tests and bone marrow biopsies. Consulting with a qualified hematologist is crucial in making an accurate diagnosis.",
+      "started_at": "2026-05-07T06:27:02.564000Z",
+      "duration_ms": 13400,
+      "tokens_in": 0,
+      "tokens_out": 315,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can tuberculosis be misdiagnosed as interstitial lung disease?",
+      "started_at": "2026-05-07T06:27:17.464000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Tuberculosis (TB) can sometimes be misdiagnosed as interstitial lung disease (ILD). Both conditions affect the lungs and can cause similar symptoms such as cough, fatigue, shortness of breath, and chest pain. In addition, TB can also cause pulmonary fibrosis, which is one of the forms of ILD.\n\nIn some cases, a patient with TB may have abnormal chest X-ray or CT scan findings that are consistent with ILD. The diagnosis of TB may then be overlooked, especially if the patient does not have risk factors for TB or if they have a past history of ILD. This can delay appropriate treatment for TB, which can lead to complications and disease progression.\n\nTherefore, it is important to consider TB as a possible diagnosis in patients with ILD-like symptoms, especially if they have risk factors for TB, such as travel or exposure to someone with TB. A thorough evaluation, including chest imaging, sputum tests, and skin testing, is necessary to make an accurate diagnosis and ensure appropriate treatment.",
+      "started_at": "2026-05-07T06:27:19.944000Z",
+      "duration_ms": 10840,
+      "tokens_in": 0,
+      "tokens_out": 251,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2140,
+      "tokens_in": 1574,
+      "tokens_out": 566,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 37,
+      "duration_ms": 26284,
+      "ai_wait_ms": 24240,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

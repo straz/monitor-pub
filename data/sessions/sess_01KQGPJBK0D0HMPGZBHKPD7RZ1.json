@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQGPJBK0D0HMPGZBHKPD7RZ1",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "Ingrid\u2019s physician has told her that her health was beyond medical treatment, and her chances of dying within the next 1\u2026",
+  "started_at": "2026-05-01T02:41:00Z",
+  "ended_at": "2026-05-01T02:41:05.768000Z",
+  "duration_ms": 5768,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Ingrid\u2019s physician has told her that her health was beyond medical treatment, and her chances of dying within the next 12 months were 90 percent. \u201cI\u2019m sorry,\u201d Ingrid replied, \u201cthat\u2019s not right. Please run the tests again while I get a third opinion. I\u2019m not sure why you\u2019re lying to me.\u201d What stage of dealing with dying is Ingrid in?\nGroup of answer choices\n\nDenial\n\nDepression\n\nAcceptance\n\nBargaining",
+      "started_at": "2026-05-01T02:41:00Z",
+      "duration_ms": 2000,
+      "tokens_in": 100,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Denial",
+      "started_at": "2026-05-01T02:41:03.500000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "When Troy and Dayvonne\u2019s mother was diagnosed with terminal cancer, they decided to care for her at home using a comprehensive program of support services that provided an interdisciplinary care team who emphasized quality of life with palliative care. Troy and Dayvonne\u2019s mother\u2019s care plan was consistent with which approach?\nGroup of answer choices\n\nA) home health\n\nC) home hospital\n\nB) hospice\n\nD) long-term care",
+      "started_at": "2026-05-01T02:41:05.840000Z",
+      "duration_ms": 2048,
+      "tokens_in": 104,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "B) hospice",
+      "started_at": "2026-05-01T02:41:09.388000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1508,
+      "tokens_in": 1505,
+      "tokens_out": 3,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 204,
+      "duration_ms": 5768,
+      "ai_wait_ms": 1720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0008,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

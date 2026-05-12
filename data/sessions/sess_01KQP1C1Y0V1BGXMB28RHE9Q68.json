@@ -1,0 +1,153 @@
+{
+  "id": "sess_01KQP1C1Y0V1BGXMB28RHE9Q68",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "After purchasing crypto via Auto-Invest, where will the funds be stored? Add right",
+  "started_at": "2026-05-03T04:26:00Z",
+  "ended_at": "2026-05-03T04:26:14.700000Z",
+  "duration_ms": 14700,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "After purchasing crypto via Auto-Invest, where will the funds be stored? Add right\n\nFunds will be subscribed to Simple Earn Flexible Product\nFunds will be added to the users' Spot Wallet\nFunds will be subscribed to users' Funding Wallet",
+      "started_at": "2026-05-03T04:26:00Z",
+      "duration_ms": 1508,
+      "tokens_in": 59,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Funds will be added to the users' Spot Wallet.",
+      "started_at": "2026-05-03T04:26:03.008000Z",
+      "duration_ms": 1240,
+      "tokens_in": 0,
+      "tokens_out": 11,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which statement best describes RDNT? Add right\n\nA Peer-to-Peer Electronic Cash System.\nAn Omnichain Money Market Protocol Built on LayerZero.\nA Next-Generation Smart Contract and Decentralized Application Platform.",
+      "started_at": "2026-05-03T04:26:05.748000Z",
+      "duration_ms": 1436,
+      "tokens_in": 53,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "None of the above statements accurately describe RDNT.",
+      "started_at": "2026-05-03T04:26:08.684000Z",
+      "duration_ms": 1320,
+      "tokens_in": 0,
+      "tokens_out": 13,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Which statement best describes RDNT?\n\nA Peer-to-Peer Electronic Cash System.\nAn Omnichain Money Market Protocol Built on LayerZero.\nA Next-Generation Smart Contract and Decentralized Application Platform.",
+      "started_at": "2026-05-03T04:26:11.504000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "I'm sorry, but there is no known cryptocurrency or blockchain project with the acronym \"RDNT.\"",
+      "started_at": "2026-05-03T04:26:14.416000Z",
+      "duration_ms": 1720,
+      "tokens_in": 0,
+      "tokens_out": 23,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": ".\nWhich use case best describes dynamic liquidity provisioning (dLP)?\n\nLocking RDNT liquidity to receive protocol fees\nActivate lending & borrowing RDNT emissions.\nAll of the above\nVote in Radiant DAO governance",
+      "started_at": "2026-05-03T04:26:17.636000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "I'm sorry, but I am not familiar with the specific cryptocurrency or blockchain project called \"RDNT.\" I am an AI language model and do not have access to current developments and events in the cryptocurrency world without being provided with specific information to work with. Can you provide me with more context or information so that I can better understand and answer your question?",
+      "started_at": "2026-05-03T04:26:20.560000Z",
+      "duration_ms": 4640,
+      "tokens_in": 0,
+      "tokens_out": 96,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 42,
+    "ai_cost": 27,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3174,
+      "tokens_in": 3031,
+      "tokens_out": 143,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 215,
+      "duration_ms": 14700,
+      "ai_wait_ms": 8920,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00PGTHG2PGB26DR0SS",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQP1C1Y0V1BGXMB28RHE9Q68",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Which statement best describes RDNT?\n\nA Peer-to-Peer Electronic Cash System.\nAn Omnichain Money Market Protocol Built on LayerZero.\nA Next-Generation Smart Contract and Decentralized Application Platform.",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQP1C1Y0V1BGXMB28RHE9Q68.json",
+        "turn_uri": "data/sessions/sess_01KQP1C1Y0V1BGXMB28RHE9Q68.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.93).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

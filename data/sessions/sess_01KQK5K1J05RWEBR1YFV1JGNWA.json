@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQK5K1J05RWEBR1YFV1JGNWA",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "All steps in order to cash cycle",
+  "started_at": "2026-05-02T01:42:00Z",
+  "ended_at": "2026-05-02T01:42:29.088000Z",
+  "duration_ms": 29088,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "All steps in order to cash cycle",
+      "started_at": "2026-05-02T01:42:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Purchase of raw materials: This is the first step in the cash cycle where a business purchases the raw materials needed to manufacture or produce their product.\n\n2. Production: The raw materials are then used to produce the finished goods that will be sold.\n\n3. Inventory management: The finished goods are stored in inventory until they are sold. Effective inventory management is essential to ensure that the inventory is optimally balanced, and there is no excess inventory or stock-outs.\n\n4. Sales: The finished goods are then sold to customers, generating revenue for the business.\n\n5. Invoicing: The business sends an invoice to the customer for the purchase and the amount due is recorded as accounts receivable.\n\n6. Payment collection: The customer pays the invoice, and the amount is credited to the business's accounts receivable account.\n\n7. Accounts receivable management: The business manages its accounts receivable to ensure that invoices are paid on time, and any overdue payments are addressed.\n\n8. Cash inflow: The payments received from customers represent cash inflows for the business.\n\n9. Payment of debts: The business pays its debts and accounts payable associated with the cash cycle, such as supplier payments, operating expenses, and loans.\n\n10. Cash outflow: The payments made by the business represent cash outflows of the cash cycle.\n\n11. Cash flow management: The business manages its cash flow to ensure that there is adequate cash available to meet its obligations.\n\n12. Repeat: The cash cycle is a continuous process, and the business must repeat the above steps to generate cash flow and sustain its operations.",
+      "started_at": "2026-05-02T01:42:02.396000Z",
+      "duration_ms": 17280,
+      "tokens_in": 0,
+      "tokens_out": 412,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is cash application?",
+      "started_at": "2026-05-02T01:42:21.176000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Cash application is the process of identifying and applying customer payments to their open invoices in a company's account receivable system. It involves matching incoming payments to outstanding invoices in the system to ensure that the customer's account is correctly credited.\n\nThe cash application process is critical for accurate and reliable accounts receivable management as it ensures that payments are correctly applied to customer accounts, preventing errors, and inaccuracies. Efficient cash application reduces the risk of delayed payments, improves cash flow and helps in collections management.\n\nAutomated cash application software is commonly used in modern finance and accounting departments to improve the accuracy and efficiency of the process. The software can automatically match incoming payments to invoices, reducing the need for manual intervention and improving the speed and accuracy of the process.",
+      "started_at": "2026-05-02T01:42:23.548000Z",
+      "duration_ms": 10040,
+      "tokens_in": 0,
+      "tokens_out": 231,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2277,
+      "tokens_in": 1634,
+      "tokens_out": 643,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 14,
+      "duration_ms": 29088,
+      "ai_wait_ms": 27320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

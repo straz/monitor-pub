@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPF77GT0DRWD696J1V8AQYW7",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Write a business capability statement for Tusker Technologies Pty Ltd, which includes shopfitting, structural carpentry,\u2026",
+  "started_at": "2026-04-18T02:38:00Z",
+  "ended_at": "2026-04-18T02:38:41.932000Z",
+  "duration_ms": 41932,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write a business capability statement for Tusker Technologies Pty Ltd, which includes shopfitting, structural carpentry, electrical, plumbing, tiling, waterproofing, design, logistics",
+      "started_at": "2026-04-18T02:38:00Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Business Capability Statement\n\nCompany Name: Tusker Technologies Pty Ltd\n\nCompany Overview:\nTusker Technologies Pty Ltd is a leading, integrated solutions provider specializing in shopfitting, structural carpentry, electrical, plumbing, tiling, waterproofing, design, and logistics. With our years of experience in the industry, we have established ourselves as a trustworthy partner to businesses of all sizes, helping them bring their projects to life, on time and within budget. Our dedicated team of skilled professionals, innovative approach, and commitment to quality have earned us a reputation for excellence in service delivery, as well as long-lasting relationships with our clients.\n\nCapabilities Summary:\n1. Shopfitting:\nAt Tusker Technologies, we take pride in our ability to deliver bespoke, turnkey shopfitting solutions that meet our clients' unique requirements. Our expertise includes custom cabinetry, joinery, display units, and FF&E installations for retail, commercial, and hospitality sectors.\n\n2. Structural Carpentry:\nOur team of experienced structural carpenters provides top-quality workmanship in timber framing and roof truss installation, ensuring the safety and stability of your project. We also offer customized carpentry services for commercial, residential, and industrial clients.\n\n3. Electrical:\nOur licensed electricians can handle all aspects of electrical work, including installation, maintenance, and repairs for our clients. Our electrical services cover lighting and power distribution, automation, access control systems, and renewable energy solutions.\n\n4. Plumbing:\nWe offer a wide range of plumbing services, including the installation, maintenance, and repair of plumbing systems, drainage, and gas fitting. Our team of professionals ensures that all works are carried out in compliance with local building and safety regulations.\n\n5. Tiling:\nTusker Technologies is skilled in delivering high-quality tiling solutions for commercial, residential, and hospitality sectors. Our expertise encompasses wall and floor tiling, mosaics, natural stone, and waterproofing for indoor and outdoor applications.\n\n6. Waterproofing:\nWe specialize in providing effective waterproofing solutions for commercial and residential projects, ensuring protection from water damage and dampness. Our waterproofing services include damp-proofing, tanking, and the installation of waterproof membranes for roofs, walls, and foundations.\n\n7. Design:\nOur talented team of designers works closely with clients to create innovative, functional, and visually appealing interior spaces. We offer a full suite of design services, including concept development, space planning, 3D renders, and technical documentation.\n\n8. Logistics:\nTusker Technologies has a proven track record in managing end-to-end logistics for our clients. Our services include supply chain management, transportation, warehousing, and distribution, ensuring that your project runs smoothly from start to finish.\n\nKey Differentiators:\n- Comprehensive, integrated suite of services under one roof\n- Skilled team with years of industry experience and expertise\n- Commitment to quality, ensuring projects are completed to the highest standards\n- Flexible, tailored approach to meeting our client's individual needs\n- Proven track record in delivering complex projects on time and within budget",
+      "started_at": "2026-04-18T02:38:02.840000Z",
+      "duration_ms": 34560,
+      "tokens_in": 0,
+      "tokens_out": 844,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "format it as a PDF including the Tusker Technologies Pty Ltd logo",
+      "started_at": "2026-04-18T02:38:38.900000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Unfortunately, I am an AI language model and cannot create or edit PDF files directly. However, I can help you with the text, layout, and formatting guidelines for you to create the capability statement in your preferred PDF editing tool. \n\nYou can then include the Tusker Technologies Pty Ltd logo manually, paste the text provided above, and apply formatting as desired before saving/exporting the final document as a PDF.",
+      "started_at": "2026-04-18T02:38:41.392000Z",
+      "duration_ms": 5040,
+      "tokens_in": 0,
+      "tokens_out": 106,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3100,
+      "tokens_in": 2150,
+      "tokens_out": 950,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 61,
+      "duration_ms": 41932,
+      "ai_wait_ms": 39600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1215,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

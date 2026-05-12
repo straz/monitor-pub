@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPME2W60QETTS596S4N8M1YG",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "prepare a list of tasks that a chief financial officer is responsible for",
+  "started_at": "2026-04-20T03:14:00Z",
+  "ended_at": "2026-04-20T03:14:18.140000Z",
+  "duration_ms": 18140,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "prepare a list of tasks that a chief financial officer is responsible for",
+      "started_at": "2026-04-20T03:14:00Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Overseeing financial operations and financial planning\n2. Preparing budgets and financial reports\n3. Analyzing financial data to identify trends and make recommendations\n4. Managing and mitigating financial risks\n5. Ensuring compliance with financial regulations and accounting standards\n6. Making strategic financial decisions that align with company goals\n7. Managing cash flow and developing financial forecasts\n8. Developing and implementing financial policies and procedures\n9. Managing financial relationships with external stakeholders such as investors, banks and auditors\n10. Providing financial guidance to other departments and executives within the company.",
+      "started_at": "2026-04-20T03:14:02.516000Z",
+      "duration_ms": 7520,
+      "tokens_in": 0,
+      "tokens_out": 168,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "prepare a list of tasks that a company controller is responsible for",
+      "started_at": "2026-04-20T03:14:11.536000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Overseeing day-to-day accounting operations\n2. Leading the financial reporting process including preparing the financial statements\n3. Ensuring compliance with accounting regulations and standards\n4. Developing and maintaining accounting policies and procedures\n5. Managing accounting functions including accounts payable and receivable, general ledger, payroll, and tax compliance\n6. Preparing budgets and financial forecasts\n7. Analyzing financial data to identify trends and make recommendations for cost savings and operational improvements\n8. Managing internal and external financial audits\n9. Providing financial guidance to other departments and executives within the company\n10. Developing and implementing internal controls to safeguard company assets and prevent fraud.",
+      "started_at": "2026-04-20T03:14:14.040000Z",
+      "duration_ms": 8600,
+      "tokens_in": 0,
+      "tokens_out": 195,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1784,
+      "tokens_in": 1421,
+      "tokens_out": 363,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 35,
+      "duration_ms": 18140,
+      "ai_wait_ms": 16120,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0089SJFSYXBVENSHBY",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPME2W60QETTS596S4N8M1YG",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "prepare a list of tasks that a company controller is responsible for",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPME2W60QETTS596S4N8M1YG.json",
+        "turn_uri": "data/sessions/sess_01KPME2W60QETTS596S4N8M1YG.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.64).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

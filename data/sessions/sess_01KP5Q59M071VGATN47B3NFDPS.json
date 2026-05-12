@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP5Q59M071VGATN47B3NFDPS",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "hey can you help me with my job search",
+  "started_at": "2026-04-14T10:04:00Z",
+  "ended_at": "2026-04-14T10:04:31.728000Z",
+  "duration_ms": 31728,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "hey can you help me with my job search",
+      "started_at": "2026-04-14T10:04:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Of course! To help you with your job search, first, I need some information from you. \n\n1. What is your current field or industry, and what job are you looking for?\n2. What are your skills, qualifications, and experience?\n3. What is your location or preferred work location?\n\nBased on your response, I can help provide some guidance and recommend resources for your job search.",
+      "started_at": "2026-04-14T10:04:02.408000Z",
+      "duration_ms": 4560,
+      "tokens_in": 0,
+      "tokens_out": 94,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Educational Background:\n\nBachelors in engineering in electronics and communication\nmasters of science in data analytics\n\nWork background:\n\nworked as a computer repair technician for 3 years \nworked as a design engineer for 2 years\nworked as a data analyst for 2 years \n\nMy skills include: \nLanguages : Python, R, C++, Embedded C\nLibraries : Pandas, Numpy, OpenCV, Scikit-learn\nAlgorithms : Linear Regression, Logistic Regression, Decision Trees, Random Forest, KNN, Naive Bayes,\nSVM, CNN\nVisualization\nTools\n: Tableau, PowerBI, Matplotlib, ggplot, plotly\nDatabase tools : MongoDB, PostgreSQL, MySQL, Excel, Apache NiFi, Apache Airflow\nDeveloper Tools: Jupyter Notebook, Git, VS Code, JIRA\nSoft Skills : Analytical, Diligent, Team-oriented, Curious\nPreferred location is in dublin.",
+      "started_at": "2026-04-14T10:04:08.468000Z",
+      "duration_ms": 3140,
+      "tokens_in": 195,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Great! Based on your educational background, work experience, and skill set, you seem to be an ideal fit for positions like Data Analyst, Data Scientist, and Machine Learning Engineer.\n\nHere are some steps you can take to begin your job search in Dublin:\n\n1. Job search websites: Use job search platforms to find open positions related to your field. Popular websites include LinkedIn, Indeed, Glassdoor, and Monster. Make sure to customize your search using keywords like 'data analyst', 'data scientist', or 'machine learning engineer' in Dublin.\n\n2. Company websites: Identify companies in Dublin that are known for being data-driven or have a strong data analytics team. Visit their career websites to check for relevant job openings. Examples include Accenture and Deloitte.\n\n3. Networking: Attend industry events, meetups, and seminars focused on data analytics or data science. Networking will help you in connecting with other professionals and potentially discover job opportunities. Visit meetup.com to find gatherings scheduled in Dublin.\n\n4. Tailor your resume and cover letter: Highlight your relevant work experience, education, and skills specific to each job you apply to. Tailor your resume to include keywords and phrases used in the job description.\n\n5. Prepare for interviews: Research common interview questions related to data analytics, and be ready to showcase your expertise in Python, R, machine learning algorithms, and data visualization tools. Have examples ready to demonstrate your experience and problem-solving abilities.\n\n6. Social media presence: Update your LinkedIn profile to reflect your experience, skills, and education accurately. Engage with data analytics communities and follow companies you're interested in. This visibility will help in increasing your credibility and making connections.\n\n7. Recruitment agencies: Reach out to recruitment agencies specializing in technology or data roles. Examples include Morgan McKinley or Hays in Dublin. They can help you find job opportunities that match your skills and experience.\n\nBy following these steps, you'll increase your chances of finding suitable job opportunities in the data analytics field in Dublin. Good luck with your job search!",
+      "started_at": "2026-04-14T10:04:13.108000Z",
+      "duration_ms": 23120,
+      "tokens_in": 0,
+      "tokens_out": 558,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2159,
+      "tokens_in": 1507,
+      "tokens_out": 652,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 204,
+      "duration_ms": 31728,
+      "ai_wait_ms": 27680,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0843,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

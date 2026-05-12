@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ9Q5XK0H15C3Z41Y1PZBSQF",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_001",
+  "title": "Can you create a title for this prompt?",
+  "started_at": "2026-04-28T09:37:00Z",
+  "ended_at": "2026-04-28T09:37:22.352000Z",
+  "duration_ms": 22352,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Can you create a title for this prompt?\n\n\"It's crazy to think that all I need to make is about an extra ten cents to break even every month. My expenses are still kind of wonky and it hasn't been stable,  but that's because of fees and other liabilities not because of overspending.\n\nChecking my budget and running through my numbers, as I always do, has led me to realize that the latest monthly fee that was added recently is leaving me in the red. My crypto income is enough to offset the expense, but I normally calculate crypto that is more liquid. For example, I'd calculate my earnings in HBD every month instead of calculating my Hive Power growth. Ten cents isn't a whole lot, so I'm feeling pretty confident that this gap can close in just a few more days.\n\nOnce this gets balanced, then my fees will slowly decrease in due time and I'll be in the black for the foreseeable future. After that, I'll be focusing more on growing my credit and taking some loans from my family. I'm going to be very aggressive with financial services now. I'm looking forward to living comfortably off of my cryptocurrency income.\"",
+      "started_at": "2026-04-28T09:37:00Z",
+      "duration_ms": 4160,
+      "tokens_in": 280,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Closing the Gap: Balancing Crypto Income and Monthly Expenses",
+      "started_at": "2026-04-28T09:37:05.660000Z",
+      "duration_ms": 1400,
+      "tokens_in": 0,
+      "tokens_out": 15,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can you write a 200-word article on the importance of saving money",
+      "started_at": "2026-04-28T09:37:08.560000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Saving money is an essential aspect of personal financial management. It is the process of setting aside a portion of your income for future use and creating a financial cushion that can help you deal with unexpected expenses and emergencies. Saving money enables you to achieve your financial goals and provides a sense of financial security that can reduce stress and anxiety.\n\nOne of the most significant advantages of saving money is the ability to build wealth over time. By consistently saving a portion of your income and investing it wisely, you can harness the power of compound interest and grow your wealth significantly over the long term. Saving also provides you with the financial resources you need to make major purchases, such as a home or a car, without having to rely on loans or credit cards.\n\nAnother benefit of saving is the ability to create a safety net that can protect you from unexpected financial shocks. This can include things like medical expenses, car repairs, or sudden job loss. Without savings, you may find yourself in a difficult situation, having to rely on high-interest loans or credit cards to get by.\n\nIn conclusion, saving money is a crucial part of personal financial management. It enables you to build wealth, achieve your financial goals, and provide a safety net against unexpected expenses. By developing good saving habits and making saving a priority, you can secure your financial future and achieve the financial freedom and independence you desire.",
+      "started_at": "2026-04-28T09:37:11.052000Z",
+      "duration_ms": 15800,
+      "tokens_in": 0,
+      "tokens_out": 375,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2181,
+      "tokens_in": 1791,
+      "tokens_out": 390,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 296,
+      "duration_ms": 22352,
+      "ai_wait_ms": 17200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

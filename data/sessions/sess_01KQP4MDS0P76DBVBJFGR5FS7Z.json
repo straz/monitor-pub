@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQP4MDS0P76DBVBJFGR5FS7Z",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "Elinext is a financial software development company with 700+ employees on board and 25 years of experience in providing\u2026",
+  "started_at": "2026-05-03T05:23:00Z",
+  "ended_at": "2026-05-03T05:23:21.816000Z",
+  "duration_ms": 21816,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Elinext is a financial software development company with 700+ employees on board and 25 years of experience in providing financial software & development teams for businesses and banks across the globe.\n\nAt the moment the company is presented in three constantly developing and growing\ndepartments: Web development (PHP, .NET, Java, Python, C++, Front-End, AngularJS, ReactJS,\nNodeJS), Mobile development (iOS, Android, Unity, ReactNative, Xamarin), QA and testing\n(manual and automation). Also, we\u2019re conducting research in IoT, AI, Machine learning, BI and\nBig Data and Blockchain Technologies.   Rewrite and expand",
+      "started_at": "2026-05-03T05:23:00Z",
+      "duration_ms": 2648,
+      "tokens_in": 154,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Elinext is a leading financial software development company that has been providing top-notch financial software solutions and development teams for businesses and banks worldwide for over 25 years. With over 700 skilled and experienced professionals on board, we have continually delivered excellent and cost-effective IT solutions to our clients.\n\nOur company operates under three main departments, including web development, mobile development, and QA and testing. Our web development team specializes in various programming languages, including PHP, .NET, Java, Python, C++, Front-End, AngularJS, ReactJS, and NodeJS. On the other hand, our mobile development department is responsible for developing reliable and engaging mobile applications for different platforms, such as iOS, Android, Unity, React Native, and Xamarin. Additionally, our QA and testing team provides comprehensive manual and automated testing services to ensure that the software we develop meets the highest standards of quality.\n\nAt Elinext, we're also dedicated to conducting research and developing innovative solutions using cutting-edge technologies, such as IoT, AI, machine learning, BI, Big Data, and Blockchain technologies. With our extensive research and expertise, we're confident that we can provide our clients with reliable, customized solutions to meet their ever-evolving business needs.\n\nOverall, Elinext offers a broad range of software development services and solutions necessary to help companies and banks stay competitive in the dynamic and ever-changing financial industry.",
+      "started_at": "2026-05-03T05:23:04.148000Z",
+      "duration_ms": 16520,
+      "tokens_in": 0,
+      "tokens_out": 393,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "reduce word our ",
+      "started_at": "2026-05-03T05:23:22.168000Z",
+      "duration_ms": 848,
+      "tokens_in": 4,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Our company offers software development services for businesses and banks in the financial industry.",
+      "started_at": "2026-05-03T05:23:24.516000Z",
+      "duration_ms": 1800,
+      "tokens_in": 0,
+      "tokens_out": 25,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2323,
+      "tokens_in": 1905,
+      "tokens_out": 418,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 158,
+      "duration_ms": 21816,
+      "ai_wait_ms": 18320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

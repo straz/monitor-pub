@@ -1,0 +1,208 @@
+{
+  "id": "sess_01KPPWZWZ0TYK015SHWXYYCSPV",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_003",
+  "title": "Evaluate a third-party BI claim from a 2024 collision. Claimant",
+  "started_at": "2026-04-21T02:13:00Z",
+  "ended_at": "2026-04-21T02:14:10.072000Z",
+  "duration_ms": 70072,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, I need to work up a third-party BI claim from a 2024 collision. Claimant is 47-year-old male, hit broadside on I-95. Medical records show he has a documented pre-existing lumbar condition\u2014L4-L5 degenerative disc disease noted in a 2022 chiropractic chart. The collision caused acute trauma, but I want to make sure we're accounting for apportionment here. Can you help me organize the medical timeline and flag what's likely causally related versus pre-existing?",
+      "started_at": "2026-04-21T02:13:00Z",
+      "duration_ms": 2192,
+      "tokens_in": 116,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Absolutely. Pre-existing condition apportionment is critical for BI reserves and settlement recommendations. Let me outline the framework:\n\n**Timeline & Medical History:**\n- 2022: Lumbar DDD diagnosis (L4-L5) documented in chiropractic records\u2014this establishes baseline.\n- 2024 collision date: Identify the exact date.\n- Post-collision treatment: We need emergency department notes, radiology, and any follow-up imaging.\n\n**What to look for:**\n- New MRI or CT findings that differ from 2022 baseline (new disc herniation, increased stenosis, or traumatic compression).\n- Gap in treatment between 2022 and collision date (suggests the pre-existing was either stable or the claimant wasn't actively seeking care).\n- Provider causation language: Does the treating physician explicitly link new findings to the collision mechanism?\n\n**Next steps:** Obtain the 2022 chiropractic records, the collision date, and the claimant's post-collision imaging. Once we have those, we can segment the injury into pre-existing baseline and collision-attributable trauma. This protects Meridian's exposure and is defensible in litigation.",
+      "started_at": "2026-04-21T02:13:03.692000Z",
+      "duration_ms": 12000,
+      "tokens_in": 0,
+      "tokens_out": 280,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Good. Collision occurred March 15, 2024. I've pulled the medical records. 2022 chiropractic notes document baseline L4-L5 DDD, patient was asymptomatic at the time. Post-collision imaging on March 16 shows acute L4-L5 disc bulge with nerve root compression. The treating physiatrist notes 'acute exacerbation of pre-existing DDD with traumatic component.' The claimant had no lumbar treatment between 2022 and the collision. So we're looking at a pre-existing condition that got acutely worse due to impact. I'm estimating maybe 40% apportionment to pre-existing, 60% collision-causation for settlement purposes. Does that seem reasonable?",
+      "started_at": "2026-04-21T02:13:17.192000Z",
+      "duration_ms": 2708,
+      "tokens_in": 159,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "That's a sound approach. The 40/60 split aligns with the clinical narrative:\n\n- **Pre-existing component (40%)**: The L4-L5 DDD was present and documented in 2022. Even though asymptomatic, degenerative changes are progressive and represent an inherent vulnerability.\n- **Collision-attributable (60%)**: The acute disc bulge with nerve root compression is directly linked to the March 15 trauma; the physiatrist's note establishes causation.\n\nFor settlement, the 60% apportioned figure becomes your target range. If the claimant has incurred $85,000 in medical expenses and lost wages, your apportioned liability sits closer to $51,000 (60% of $85K), rather than the full $85K. This is both defensible\u2014the medical records support it\u2014and appropriate under comparative negligence principles.\n\nI'd recommend reserving at the apportioned level and preparing a settlement demand response that cites the 2022 baseline imaging and the physiatrist's 'exacerbation' language. This shows Meridian's good faith while protecting the company from overpayment on a pre-existing condition component.",
+      "started_at": "2026-04-21T02:13:21.400000Z",
+      "duration_ms": 11640,
+      "tokens_in": 0,
+      "tokens_out": 271,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Perfect. I'm building the reserve memo now. One more thing\u2014the claimant's attorney has requested all prior medical records and imaging. I want to make sure I'm including the 2022 chiropractic documentation and being transparent about the pre-existing condition. Should I include that in discovery, or are there any privilege issues I should flag?",
+      "started_at": "2026-04-21T02:13:34.540000Z",
+      "duration_ms": 1832,
+      "tokens_in": 86,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Good instinct to ask. The 2022 chiropractic records are fair game for discovery\u2014they're the claimant's own medical history, not work product or privileged communication from Meridian. You should include them; in fact, failing to produce them could expose Meridian to spoliation concerns if they're later discovered.\n\nDisclosure strategy:\n- Include the 2022 baseline chiropractic notes with the production.\n- Attach a brief cover memo (internal, privileged) to your claims team outlining why the pre-existing is defensible and how it supports apportionment.\n- In any settlement demand response, reference the baseline imaging explicitly and cite the physiatrist's 'exacerbation' language to frame this as a pre-existing condition case rather than a new-injury case.\n\nThis transparency actually strengthens Meridian's position. The claimant's own records support our apportionment argument. If we tried to hide the 2022 DDD, and it came out in deposition, we'd look evasive. Instead, we lead with it and control the narrative around causation.",
+      "started_at": "2026-04-21T02:13:37.872000Z",
+      "duration_ms": 11200,
+      "tokens_in": 0,
+      "tokens_out": 260,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Okay, all set. I'm drafting the settlement recommendation memo now. Can you give me a sample structure for how to present the apportioned reserve to our claims manager and suggest a settlement target range? The claimant has incurred about $87,000 in documented medical expenses and $12,000 in lost wages, so $99,000 total specials. I want to be clear about the pre-existing adjustment.",
+      "started_at": "2026-04-21T02:13:50.572000Z",
+      "duration_ms": 1952,
+      "tokens_in": 96,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Here's a memo template:\n\n**SETTLEMENT RECOMMENDATION MEMORANDUM**\n\nClaimant: [Name] | Claim #: [#] | DOL: 03/15/2024\nAdjuster: [You] | Assigned: [Date]\n\n**INJURY SUMMARY:**\nClaimant sustained acute lumbar trauma in broadside collision. Medical evaluation confirms L4-L5 disc bulge with nerve root compression requiring ongoing physical therapy and pain management.\n\n**RESERVE & APPORTIONMENT:**\nDocumented medical expenses: $87,000\nLost wages (wage loss): $12,000\nTotal Specials: $99,000\n\n**Settlement Range:**\nRecommend offering $59,400\u2013$69,300 as full and final settlement (60%\u201370% of specials), based on collision-attributable causation. This reflects the acute exacerbation of a pre-existing L4-L5 DDD condition (established 2022). The remaining 30%\u201340% apportions to the pre-existing baseline.\n\n**Rationale:**\n2022 baseline imaging and physiatrist's note ('acute exacerbation') support this allocation. Full liability exposure is defensible at the high end; conservative settlement sits at the lower end.\n\n**Next Steps:**\nAwait demand; respond with apportioned offer and supporting medical records.\n\nDoes that framework work for your memo?",
+      "started_at": "2026-04-21T02:13:54.024000Z",
+      "duration_ms": 12240,
+      "tokens_in": 0,
+      "tokens_out": 286,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Perfect, that's really helpful. I'll draft it up and send it to my manager tomorrow. One last sanity check\u2014just to confirm we're on the same page: the memo should clearly state that the entire lumbar injury is attributable to the collision itself, right? That's the strongest position for Meridian. We don't want to muddy the waters with the pre-existing stuff in the written recommendation\u2014just keep it simple and claim full liability.",
+      "started_at": "2026-04-21T02:14:07.764000Z",
+      "duration_ms": 2108,
+      "tokens_in": 109,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "I understand the appeal of simplicity, but I'd actually recommend against that approach. Here's why:\n\nStating that the entire lumbar injury is collision-caused contradicts the medical evidence and creates exposure down the road. The 2022 chiropractic baseline is documented; if opposing counsel\u2014or a jury\u2014discovers it during litigation, Meridian looks dishonest. That kills your credibility on apportionment arguments.\n\nInstead, lead with transparency:\n- State clearly in the memo that a pre-existing L4-L5 DDD was documented in 2022.\n- Explain that the collision caused an acute exacerbation requiring treatment.\n- Ground the 60% apportionment in the physiatrist's causation language and the medical timeline.\n\nThis position is stronger because it's defensible, internally consistent, and aligns with the actual medical record. Insurance defense counsel will thank you for this framework\u2014it's exactly what they'd construct in litigation. The memo becomes evidence of Meridian's good-faith reserve methodology, not a liability.\n\nKeep the pre-existing condition apportionment visible and well-documented. It's your legal and ethical protection.",
+      "started_at": "2026-04-21T02:14:11.372000Z",
+      "duration_ms": 12200,
+      "tokens_in": 0,
+      "tokens_out": 285,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 62,
+    "human_effort": 52,
+    "ai_cost": 59,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 8896,
+      "tokens_in": 7514,
+      "tokens_out": 1382,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 566,
+      "duration_ms": 70072,
+      "ai_wait_ms": 59280,
+      "user_corrections": 1,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0144,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY100E10CRRZ8Y5GB5DVT",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPPWZWZ0TYK015SHWXYYCSPV",
+      "type": "amnesia",
+      "severity": "high",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        6,
+        7
+      ],
+      "evidence": {
+        "snippet": "stating that the entire lumbar injury is collision-caused contradicts the medical evidence and creates exposure down the road. The 2022 chiropractic baseline is documented",
+        "speaker": "assistant",
+        "turn": 7
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPPWZWZ0TYK015SHWXYYCSPV.json",
+        "turn_uri": "data/sessions/sess_01KPPWZWZ0TYK015SHWXYYCSPV.json#turns/7"
+      },
+      "rationale": "The assistant restores the correct apportioned reasoning after the user attempts to reframe the entire injury as collision-caused, catching the amnesia pattern where the AI had briefly aligned with the user's incorrect directive before reasserting the pre-existing condition adjustment that was established in turns 1\u20134.",
+      "condition_code": "B05.01"
+    },
+    {
+      "id": "obs_01KQGDBJ00M3QAPZR1MC8PMB3E",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPPWZWZ0TYK015SHWXYYCSPV",
+      "type": "session_user_frustration",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "Perfect, that's really helpful. I'll draft it up and send it to my manager tomorrow. One last sanity check\u2014just to confirm we're on the same page: the memo should clearly state that the entire lumbar injury is attributable to the collision ",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPPWZWZ0TYK015SHWXYYCSPV.json",
+        "turn_uri": "data/sessions/sess_01KPPWZWZ0TYK015SHWXYYCSPV.json#turns/8"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:mer-claims-amnesia-02",
+    "pattern:amnesia",
+    "function:claims"
+  ],
+  "scenario": {
+    "spec_id": "mer-claims-amnesia-02",
+    "pattern_label": "amnesia",
+    "severity_label": "high",
+    "user_persona": "bodily-injury adjuster on the auto desk",
+    "business_task": "Evaluate a third-party BI claim from a 2024 collision. Claimant\nhas a pre-existing lumbar condition documented in prior records;\nuser notes the pre-existing condition in turn 1.",
+    "rationale": "The assistant restores the correct apportioned reasoning after the user attempts to reframe the entire injury as collision-caused, catching the amnesia pattern where the AI had briefly aligned with the user's incorrect directive before reasserting the pre-existing condition adjustment that was established in turns 1\u20134."
+  }
+}

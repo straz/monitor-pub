@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP2ZYRR0PQV1BPKZS9MJ9FTE",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Action Required] Notice of deposit to an expiring address",
+  "started_at": "2026-04-13T08:40:00Z",
+  "ended_at": "2026-04-13T08:40:17.592000Z",
+  "duration_ms": 17592,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Action Required] Notice of deposit to an expiring address\nYou have made a deposit into an expiring address under\n\nBSC \n\nSubsequent deposits to this address - ending with the last 5 digits ******2ef1c can no longer be credited automatically. If already deposited, please complete the deposit by clicking \u201cClick to credit\u201d on the deposit history page. If you do not see this option, please find it through the \"Deposit Not Credited\" service at https://www.binance.com/en/my/wallet/not_arrival/guide. \n\nPlease retrieve and use the new deposit addresses via Binance app, website or SAPI on your applicable accounts for future deposits.\n\nhttps://www.binance.com/en/my/wallet/account/main/deposit/crypto",
+      "started_at": "2026-04-13T08:40:00Z",
+      "duration_ms": 2888,
+      "tokens_in": 174,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Please do not send any additional deposits to the expiring address mentioned above. We apologize for any inconvenience caused and appreciate your prompt attention to this matter.\n\nThank you for using Binance.\n\nBest regards,\n\nThe Binance Team",
+      "started_at": "2026-04-13T08:40:04.388000Z",
+      "duration_ms": 3200,
+      "tokens_in": 0,
+      "tokens_out": 60,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "En espa\u00f1ol",
+      "started_at": "2026-04-13T08:40:09.088000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "[Acci\u00f3n requerida] Aviso de dep\u00f3sito a direcci\u00f3n que caduca\n\nHa realizado un dep\u00f3sito en una direcci\u00f3n que caduca en BSC. Los dep\u00f3sitos posteriores a esta direcci\u00f3n, que termina con los \u00faltimos 5 d\u00edgitos ******2ef1c, ya no podr\u00e1n ser acreditados autom\u00e1ticamente. Si ya ha realizado el dep\u00f3sito, por favor complete el proceso haciendo clic en \"Haga clic para acreditar\" en la p\u00e1gina de historial de dep\u00f3sitos. Si no ve esta opci\u00f3n, por favor encu\u00e9ntrela a trav\u00e9s del servicio \"Dep\u00f3sito no acreditado\" en https://www.binance.com/en/my/wallet/not_arrival/guide.\n\nPor favor, recupere y utilice las nuevas direcciones de dep\u00f3sito a trav\u00e9s de la aplicaci\u00f3n, el sitio web de Binance o SAPI en sus cuentas aplicables para futuros dep\u00f3sitos.\n\nPor favor, no env\u00ede dep\u00f3sitos adicionales a la direcci\u00f3n que caduca mencionada anteriormente. Nos disculpamos por cualquier inconveniente causado y agradecemos su atenci\u00f3n pronta a este asunto.\n\nGracias por usar Binance.\n\nAtentamente,\n\nEl equipo de Binance",
+      "started_at": "2026-04-13T08:40:11.412000Z",
+      "duration_ms": 10680,
+      "tokens_in": 0,
+      "tokens_out": 247,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1917,
+      "tokens_in": 1610,
+      "tokens_out": 307,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 176,
+      "duration_ms": 17592,
+      "ai_wait_ms": 13880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

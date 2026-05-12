@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KNY0FKZ0Q2HFVQTEJ1FM0BV7",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "design practitioner act nsw australia",
+  "started_at": "2026-04-11T10:13:00Z",
+  "ended_at": "2026-04-11T10:13:48.580000Z",
+  "duration_ms": 48580,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "design practitioner act nsw australia",
+      "started_at": "2026-04-11T10:13:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Design practitioners in the Australian Capital Territory (ACT) and New South Wales (NSW) are professionals who specialize in various fields of design such as architecture, interior design, landscape architecture, and industrial design. They are responsible for creating innovative and functional designs that suit the needs of their clients.\n\nIn ACT and NSW, design practitioners must comply with specific rules and regulations that govern their practice. Some of these regulations include the following:\n\n1. Registration: Design practitioners must be registered with the relevant professional bodies, such as the Architects Registration Board in their respective state or territory. This ensures that they meet the required education, experience, and skill levels to practice design.\n\n2. Codes and Standards: Design practitioners must adhere to local and national building codes, such as the National Construction Code (NCC) and the Australian Standards. These codes and standards provide a minimum level of safety and performance for all buildings and structures across Australia.\n\n3. Professional Indemnity Insurance: Design practitioners must have professional indemnity insurance to protect themselves and their clients from any financial loss resulting from negligence, errors or omissions in their work.\n\n4. Continuing Professional Development (CPD): Design practitioners must complete a certain number of CPD hours each year to maintain their registration and stay informed of industry changes and new technologies.\n\n5. Ethical Practice: Design practitioners must adhere to a code of conduct and professional standards when carrying out their work, ensuring that they act ethically and responsibly in their dealings with clients, the public, and other professionals in the industry.\n\nDesigners who fail to comply with these regulations may face disciplinary action, including suspension or removal of their registration. By following these guidelines, design practitioners in ACT and NSW can maintain a high standard of professionalism and contribute to the overall quality and safety of the built environment in Australia.",
+      "started_at": "2026-04-11T10:13:02.408000Z",
+      "duration_ms": 22080,
+      "tokens_in": 0,
+      "tokens_out": 532,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "how does this act affect the construction industry and developers",
+      "started_at": "2026-04-11T10:13:25.988000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Design Practitioner Act in ACT and NSW can have several effects on the construction industry and developers:\n\n1. Improved Quality of Design: By ensuring that all design practitioners are registered, the Act aims to maintain high-quality designs and services within the industry. This can lead to better, safer, and more durable buildings and structures that meet the needs and expectations of clients and end-users.\n\n2. Compliance with Codes and Standards: The Act requires design practitioners to adhere to building codes, standards, and guidelines. This helps to create a safer and more consistent built environment. For the construction industry and developers, it means their projects are less likely to face delays or penalties stemming from non-compliant designs.\n\n3. Risk Management: With the requirement for design practitioners to hold professional indemnity insurance, developers and the construction industry can mitigate potential financial risks that may occur due to negligence, errors, or omissions in design work.\n\n4. Greater Collaboration and Coordination: The Act promotes greater collaboration and coordination among various stakeholders in the construction process, such as architects, engineers, and builders. This can help to streamline the design and construction process, reducing the potential for conflicts and misunderstandings that might lead to delays and cost overruns.\n\n5. Increased Accountability: The Act holds design practitioners accountable for their work, ensuring that they act ethically and responsibly. This can benefit the construction industry and developers by helping to establish trust and good working relationships among project stakeholders.\n\n6. Enhanced Professional Development: As design practitioners must participate in continuing professional development (CPD), the Act contributes to an industry with well-informed professionals who are up-to-date with the latest innovations, technologies, and best practices. This can lead to more efficient and sustainable designs, benefiting both construction firms and developers.\n\nOverall, the Design Practitioner Act helps to create a more professional, efficient, and accountable design and construction industry in ACT and NSW. For developers and the construction industry, this can result in better-quality designs, more streamlined processes, and reduced risks in their projects.",
+      "started_at": "2026-04-11T10:13:28.480000Z",
+      "duration_ms": 24600,
+      "tokens_in": 0,
+      "tokens_out": 595,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2893,
+      "tokens_in": 1766,
+      "tokens_out": 1127,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 25,
+      "duration_ms": 48580,
+      "ai_wait_ms": 46680,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1206,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

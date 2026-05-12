@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQGJ3H90T7VM4KA88EQ17BK0",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Businesses environment introduction",
+  "started_at": "2026-05-01T01:23:00Z",
+  "ended_at": "2026-05-01T01:23:37.320000Z",
+  "duration_ms": 37320,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Businesses environment introduction ",
+      "started_at": "2026-05-01T01:23:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The business environment refers to the external and internal factors that affect the operations, performance, and success of businesses. External factors include economic, social, political, legal, technological, and environmental factors that businesses cannot control but must adapt to. Internal factors include the company's mission, vision, policies, culture, values, structure, resources, and capabilities that businesses have control over and can modify to achieve their goals and objectives.\n\nThe business environment plays a critical role in business success and failure. Businesses must understand the opportunities and threats that exist in the environment, identify the key drivers of change, and anticipate and respond to these changes effectively. In today's dynamic and complex business environment, businesses that can adapt, innovate, and differentiate themselves are more likely to succeed and thrive in the long run.",
+      "started_at": "2026-05-01T01:23:02.408000Z",
+      "duration_ms": 10120,
+      "tokens_in": 0,
+      "tokens_out": 233,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Tesco plc is a British multinational organisation operating as a retail change at global level ",
+      "started_at": "2026-05-01T01:23:14.028000Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Tesco plc is indeed a British multinational organisation that operates as a retail chain at a global level. It is one of the largest retailers in the world, operating in 11 countries and employing over 440,000 people worldwide. Tesco was founded in 1919 and has since grown to become the UK's largest retailer, with over 3,700 stores in the UK alone.\n\nIn addition to its core grocery business, Tesco has expanded into other areas such as clothing, electronics, financial services, and telecommunications. It has also embraced digital transformation, with a focus on online shopping and digital innovation. Tesco has a strong reputation for social responsibility, with commitments to reducing its carbon footprint, supporting local communities, and promoting healthy lifestyles.\n\nDespite facing challenges in recent years, such as intense competition and changes in consumer behaviour, Tesco has remained a dominant force in the retail market. It is focused on adapting to changing trends and investing in innovation to stay ahead of the competition.",
+      "started_at": "2026-05-01T01:23:16.604000Z",
+      "duration_ms": 11280,
+      "tokens_in": 0,
+      "tokens_out": 262,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "You are a recent business graduate who is working fulltime for your chosen academy organisation.the CFO of your organisation is required to give a financial update to the board of directors at the nect board meeting. The cfo has asked you and your team to help gather information for their report . As this is the first year of operations state the accounting equation in $ terms for your company at the end of the financial year 2022.",
+      "started_at": "2026-05-01T01:23:29.384000Z",
+      "duration_ms": 2096,
+      "tokens_in": 108,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to your chosen academy organisation's financial data. However, the accounting equation is a fundamental principle in accounting that states that assets equals liabilities plus equity. This equation must always be in balance, as the value of assets must always equal the claims against those assets. \n\nThe formula in monetary terms can be expressed as follows:\n\nAssets = Liabilities + Equity\n\nWhere:\n\nAssets represent the economic resources that the organisation controls and are expected to generate future economic benefit.\n\nLiabilities represent the debts and obligations owed by the organisation to third parties.\n\nEquity represents the residual interest in the assets of the organisation after deducting its liabilities.\n\nWithout more information about your chosen academy organisation's financial data, it is impossible to state the accounting equation for the end of the financial year 2022 in $ terms. However, the CFO of your organisation should be able to provide this information using the financial statements and financial records of the company.",
+      "started_at": "2026-05-01T01:23:32.980000Z",
+      "duration_ms": 11840,
+      "tokens_in": 0,
+      "tokens_out": 276,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3480,
+      "tokens_in": 2709,
+      "tokens_out": 771,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 140,
+      "duration_ms": 37320,
+      "ai_wait_ms": 33240,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

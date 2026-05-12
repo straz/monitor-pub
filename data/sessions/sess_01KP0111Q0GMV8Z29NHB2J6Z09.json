@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP0111Q0GMV8Z29NHB2J6Z09",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "What are eome common database concepts asked in an interview",
+  "started_at": "2026-04-12T05:01:00Z",
+  "ended_at": "2026-04-12T05:01:58.044000Z",
+  "duration_ms": 58044,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are eome common database concepts asked in an interview ",
+      "started_at": "2026-04-12T05:01:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. What is a database?\n2. What is SQL?\n3. What is a primary key?\n4. What is a foreign key?\n5. What is normalization?\n6. What are the different types of database models?\n7. What is a relational database?\n8. What are the advantages of using a database system over traditional file systems?\n9. What is indexing in databases?\n10. What is data warehousing?\n11. What are data mining and data analytics?\n12. What is a transaction? and what are ACID properties?\n13. What are the different types of database joins?\n14. What are stored procedures?\n15. What is a trigger?\n16. What is a backup and restore in databases?\n17. Why is data integrity important in databases?\n18. What are NoSQL databases?\n19. What is a schema in a database?\n20. What is database replication?",
+      "started_at": "2026-04-12T05:01:02.480000Z",
+      "duration_ms": 8360,
+      "tokens_in": 0,
+      "tokens_out": 189,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Answer them",
+      "started_at": "2026-04-12T05:01:12.340000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. What is a database? \n\nA database is an organized collection of data that can be easily accessed, managed, and updated. It is designed to efficiently store and retrieve large amounts of information.\n\n2. What is SQL? \n\nSQL, or Structured Query Language, is a programming language used to manage and manipulate data in a relational database management system (RDBMS). It is used for tasks such as inserting, updating, querying, and deleting data.\n\n3. What is a primary key? \n\nA primary key is a unique identifier for each record in a database table. It is used to ensure that each record can be identified and accessed, and it is often used as a reference for other tables in the database.\n\n4. What is a foreign key? \n\nA foreign key is a field in one table that refers to the primary key in another table. It is used to establish relationships between tables and enables data to be accessed and manipulated across tables.\n\n5. What is normalization? \n\nNormalization is the process of organizing database tables to minimize redundancy and improve data integrity. It involves dividing larger tables into smaller, more specific tables and creating relationships between them.\n\n6. What are the different types of database models? \n\nThere are several different types of database models including hierarchical, network, relational, and object-oriented.\n\n7. What is a relational database? \n\nA relational database is a database that stores data in tables with rows and columns, and uses relationships between tables to establish connections and access data.\n\n8. What are the advantages of using a database system over traditional file systems? \n\nDatabase systems offer several advantages over traditional file systems, including improved data integrity, increased security, better data organization and storage, easier and more efficient data access, and improved data sharing and collaboration.\n\n9. What is indexing in databases? \n\nIndexing involves creating an index on one or more columns in a database table to help speed up data retrieval. It provides a faster way to locate data, particularly in large tables.\n\n10. What is data warehousing? \n\nData warehousing is the process of collecting, storing, and managing large amounts of data from multiple sources for analysis and business intelligence purposes.\n\n11. What are data mining and data analytics? \n\nData mining refers to the process of analyzing large amounts of data to identify patterns and trends, while data analytics involves using statistical techniques and predictive modeling to extract insights from data.\n\n12. What is a transaction? and what are ACID properties? \n\nA transaction is a series of database operations that are performed together as a single unit of work. The ACID properties - atomicity, consistency, isolation, and durability - ensure that database transactions are processed reliably and accurately.\n\n13. What are the different types of database joins? \n\nThere are several types of database joins including inner join, outer join, left join, and right join. These joins are used to combine data from multiple tables based on common fields.\n\n14. What are stored procedures? \n\nStored procedures are precompiled SQL statements that are stored in a database and can be accessed and executed by multiple applications. They are commonly used to simplify complex database operations and improve performance.\n\n15. What is a trigger? \n\nA trigger is a database object that is automatically executed in response to certain database events, such as when data is inserted, updated, or deleted.\n\n16. What is a backup and restore in databases? \n\nA backup is a copy of a database that is created to protect against data loss or corruption. A restore is the process of copying the backup data back into the database to recover lost or damaged data.\n\n17. Why is data integrity important in databases? \n\nData integrity is important in databases to ensure that data is accurate, consistent, and reliable. It helps to maintain the quality of the data and prevents data corruption or errors.\n\n18. What are NoSQL databases? \n\nNoSQL databases are non-relational databases used to store and manage large amounts of unstructured or semi-structured data. They are designed for scalability, flexibility, and performance.\n\n19. What is a schema in a database? \n\nA schema is a logical structure that defines the organization and composition of a database. It includes the tables, fields, and relationships that make up the database.\n\n20. What is database replication? \n\nDatabase replication is the process of copying data from one database server to another in order to maintain backup copies or to improve performance by distributing data across multiple servers.",
+      "started_at": "2026-04-12T05:01:14.664000Z",
+      "duration_ms": 47880,
+      "tokens_in": 0,
+      "tokens_out": 1177,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2787,
+      "tokens_in": 1421,
+      "tokens_out": 1366,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 17,
+      "duration_ms": 58044,
+      "ai_wait_ms": 56240,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0028,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

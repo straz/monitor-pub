@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KP8862C0EP2BE93Q9AXD3FH9",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "edit: The term \u2018Digital Therapeutics (DTx)\u2019 refers to evidence-based digital interventions that are intended to provide \u2026",
+  "started_at": "2026-04-15T09:40:00Z",
+  "ended_at": "2026-04-15T09:40:20.532000Z",
+  "duration_ms": 20532,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: The term \u2018Digital Therapeutics (DTx)\u2019 refers to evidence-based digital interventions that are intended to provide therapy for specific disease domains and work predominantly by inducing behavioural changes(Dang et al., 2020). After the pandemic started, the adoption of DTx applications in various fields has accelerated many folds. With the incorporation of Artificial Intelligence (AI) and Machine Learning (ML) protocols, DTx products are always available, scalable, and adaptable based on patient requirements(Dang et al., 2021). For the caregivers, DTx can potentially offer a way to connect, engage, and manage patients virtually, thus enabling them to focus their energies on patients who require a higher level of care and intervention. ",
+      "started_at": "2026-04-15T09:40:00Z",
+      "duration_ms": 3044,
+      "tokens_in": 187,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The term 'Digital Therapeutics (DTx)' refers to evidence-based digital interventions that are designed to provide therapeutic benefits for specific diseases by inducing behavioral changes (Dang et al., 2020). Since the outbreak of the pandemic, the adoption of DTx applications has rapidly accelerated across various industries. By incorporating Artificial Intelligence (AI) and Machine Learning (ML) protocols, DTx products are available, scalable, and adaptable based on the patient's individual requirements (Dang et al., 2021). DTx has the potential to offer caregivers a way to connect, engage, and manage patients virtually, freeing up their time to focus on patients who require higher levels of care and intervention.",
+      "started_at": "2026-04-15T09:40:04.544000Z",
+      "duration_ms": 8040,
+      "tokens_in": 0,
+      "tokens_out": 181,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Notwithstanding significant solutions offered by DTx to poorly addressed conditions and substantial evidence proving their clinical value, DTx entities have not yet significantly entered the mainstream healthcare.",
+      "started_at": "2026-04-15T09:40:14.084000Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Despite the substantial clinical value and significant solutions offered by DTx for poorly addressed healthcare conditions, DTx entities have not yet made significant inroads into mainstream healthcare.",
+      "started_at": "2026-04-15T09:40:17.032000Z",
+      "duration_ms": 2800,
+      "tokens_in": 0,
+      "tokens_out": 50,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "edit: Despite the substantial clinical value and significant solutions offered by DTx for addressed healthcare conditions, DTx have not yet made significant inroads into mainstream healthcare and face faces many challenges and barriers to acceptance by patients (Gerke et al. 2020). ",
+      "started_at": "2026-04-15T09:40:21.332000Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Despite the significant clinical value and solutions offered by DTx for poorly addressed healthcare conditions, DTx applications have yet to make significant inroads into mainstream healthcare due to various challenges and barriers to acceptance by patients (Gerke et al., 2020).",
+      "started_at": "2026-04-15T09:40:24.472000Z",
+      "duration_ms": 3560,
+      "tokens_in": 0,
+      "tokens_out": 69,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3251,
+      "tokens_in": 2951,
+      "tokens_out": 300,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 311,
+      "duration_ms": 20532,
+      "ai_wait_ms": 14400,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

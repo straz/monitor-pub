@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KQVTK5X03DWWVS30YPZ8RV5N",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "what is the cost of servicenow for a 5person company",
+  "started_at": "2026-05-05T10:23:00Z",
+  "ended_at": "2026-05-05T10:23:14.364000Z",
+  "duration_ms": 14364,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what is the cost of servicenow for a 5person company",
+      "started_at": "2026-05-05T10:23:00Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Unfortunately, as an AI language model, I do not have access to current pricing information for ServiceNow. However, you can visit their official website or contact their sales team directly to get a personalized quote based on your company's specific needs.",
+      "started_at": "2026-05-05T10:23:02.456000Z",
+      "duration_ms": 3360,
+      "tokens_in": 0,
+      "tokens_out": 64,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "rewrite this to be pithier and more professional: APP double-payment is less concern; AWM model does appear to have double-payment issues worth cleaning up",
+      "started_at": "2026-05-05T10:23:07.316000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Double-payment in the APP is not a major concern, but it is recommended to address any such issues in the AWM model.",
+      "started_at": "2026-05-05T10:23:10.072000Z",
+      "duration_ms": 1960,
+      "tokens_in": 0,
+      "tokens_out": 29,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "rewrite to sound more professional: While Product Specialists and FPCs get paid on the same dollar, they perform different sales motions that contribute to the asset inflow that warrant double-payment.\n",
+      "started_at": "2026-05-05T10:23:13.532000Z",
+      "duration_ms": 1400,
+      "tokens_in": 50,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Although Product Specialists and FPCs receive the same compensation, their respective sales motions add value to asset inflow which may justify the need to avoid double-payment.",
+      "started_at": "2026-05-05T10:23:16.432000Z",
+      "duration_ms": 2560,
+      "tokens_in": 0,
+      "tokens_out": 44,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "make this pithy and professional: Double-payment in APP model is not a major concern, but it is recommended to address such issues in the AWM model",
+      "started_at": "2026-05-05T10:23:20.492000Z",
+      "duration_ms": 1232,
+      "tokens_in": 36,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Double-payment in APP is negligible, yet addressing such concerns in AWM is advised.",
+      "started_at": "2026-05-05T10:23:23.224000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 27,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3154,
+      "tokens_in": 2996,
+      "tokens_out": 158,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 137,
+      "duration_ms": 14364,
+      "ai_wait_ms": 9520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

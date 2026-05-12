@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP0BAMK015X1FMY8K7NR2366",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "\u25cf\tDescribe the company\u2019s non-financial information that is available in the Apple Inc Form 10-K of september 2022",
+  "started_at": "2026-04-12T08:01:00Z",
+  "ended_at": "2026-04-12T08:01:12.608000Z",
+  "duration_ms": 12608,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "\u25cf\tDescribe the company\u2019s non-financial information that is available in the Apple Inc Form 10-K of september 2022",
+      "started_at": "2026-04-12T08:01:00Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot provide information regarding the future, and I do not have access to any specific information; please specify which year and form you are referring to so I can provide the appropriate answer.",
+      "started_at": "2026-04-12T08:01:02.636000Z",
+      "duration_ms": 3040,
+      "tokens_in": 0,
+      "tokens_out": 56,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "\u25cf Describe the Apple Inc non-financial information that is available in the  Form 10-K of the year  2022\n",
+      "started_at": "2026-04-12T08:01:07.176000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot access information from the future. The Form 10-K for Apple Inc. for the year 2022 has not yet been filed as of now, and it should not be available until Apple files it with the Securities and Exchange Commission (SEC). The Form 10-K typically contains detailed financial statements, including information about the company's operations, risks associated with the business, executive compensation, and other non-financial information about the company. Once the Form 10-K is filed, it will be publicly available online, and investors and stakeholders can review it to gain insight into Apple's non-financial information.",
+      "started_at": "2026-04-12T08:01:09.788000Z",
+      "duration_ms": 7320,
+      "tokens_in": 0,
+      "tokens_out": 163,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1557,
+      "tokens_in": 1338,
+      "tokens_out": 219,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 54,
+      "duration_ms": 12608,
+      "ai_wait_ms": 10360,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.001,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00JCW3C2VKHCJCV99H",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP0BAMK015X1FMY8K7NR2366",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "\u25cf Describe the Apple Inc non-financial information that is available in the  Form 10-K of the year  2022\n",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP0BAMK015X1FMY8K7NR2366.json",
+        "turn_uri": "data/sessions/sess_01KP0BAMK015X1FMY8K7NR2366.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.83).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

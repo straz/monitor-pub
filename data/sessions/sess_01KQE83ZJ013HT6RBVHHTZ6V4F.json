@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQE83ZJ013HT6RBVHHTZ6V4F",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "SEMINAR TOPICS FOR ECONOMIC SECTOR",
+  "started_at": "2026-04-30T03:50:00Z",
+  "ended_at": "2026-04-30T03:50:16.040000Z",
+  "duration_ms": 16040,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "SEMINAR TOPICS FOR ECONOMIC SECTOR",
+      "started_at": "2026-04-30T03:50:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. The Impact of Automation on the Labor Market\n2. Economic Inequality: Causes and Solutions\n3. International Trade Policy: Free Trade vs Protectionism\n4. The Economics of Climate Change: Mitigation and Adaptation\n5. The Role of Big Data in Economic Development\n6. The Gig Economy: Opportunities and Challenges for Workers\n7. Immigration and its Economic Effects\n8. The Economics of Healthcare: Access and Affordability\n9. Banking and Finance: Trends and Future Prospects\n10. Entrepreneurship and Innovation: Catalyzing Economic Growth.",
+      "started_at": "2026-04-30T03:50:02.396000Z",
+      "duration_ms": 6160,
+      "tokens_in": 0,
+      "tokens_out": 134,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "SEMINAR TOPICS FOR ECONOMIC AND ENGINEERING FIELD",
+      "started_at": "2026-04-30T03:50:10.056000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Green Engineering: Sustainable Solutions for Economic Growth\n2. The Economics of Infrastructure Development: Balancing Cost and Long-Term Benefits\n3. Financial Analysis for Engineering Projects: Maximizing ROI\n4. Technological Innovation in Manufacturing: Opportunities and Challenges\n5. Economic Evaluation of Renewable Energy Sources\n6. Engineering for Disaster Mitigation and Response: Economic and Social Impacts\n7. The Role of Artificial Intelligence in Engineering and Economics\n8. Transportation Economics and Engineering: Maximizing Efficiency and Accessibility\n9. Design for Circular Economy: A new Approach for Engineers and Economists\n10. Business and Engineering Collaboration for Innovation and Economic Growth.",
+      "started_at": "2026-04-30T03:50:12.500000Z",
+      "duration_ms": 8040,
+      "tokens_in": 0,
+      "tokens_out": 181,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1677,
+      "tokens_in": 1362,
+      "tokens_out": 315,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 20,
+      "duration_ms": 16040,
+      "ai_wait_ms": 14200,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00C2B6T6BS5HA8VBC4",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQE83ZJ013HT6RBVHHTZ6V4F",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "SEMINAR TOPICS FOR ECONOMIC AND ENGINEERING FIELD",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQE83ZJ013HT6RBVHHTZ6V4F.json",
+        "turn_uri": "data/sessions/sess_01KQE83ZJ013HT6RBVHHTZ6V4F.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

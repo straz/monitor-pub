@@ -1,0 +1,159 @@
+{
+  "id": "sess_01KR7V5PG0D3DBWZ7SN83ATGHD",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Explain Saudi Labour Law regarding sick leave",
+  "started_at": "2026-05-10T02:24:00Z",
+  "ended_at": "2026-05-10T02:24:39.208000Z",
+  "duration_ms": 39208,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Explain Saudi Labour Law regarding sick leave",
+      "started_at": "2026-05-10T02:24:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "According to Saudi labour law, every employee is entitled to 30 days of fully paid sick leave each year. If an employee is sick for more than three continuous days, they must provide a medical certificate from an authorized health facility to their employer as proof of their illness. \n\nIf an employee exhausts their 30 days of sick leave in a year and is still unable to work due to illness, they may be granted another 20 days of unpaid sick leave at the discretion of their employer. Additionally, if an employee contracts a contagious disease, they must notify their employer immediately to minimize the risk of further infections in the workplace.\n\nEmployers are not allowed to terminate an employee on sick leave or during the 20 days of unpaid sick leave that they are entitled to, unless the company is closing down. Employees who take sick leave are also protected from discrimination or retaliation by their employer. Failure by an employer to comply with the labour law regarding sick leave can result in penalties and fines. \n\nOverall, the Saudi labour law prioritizes the health and well-being of employees and provides them with a reasonable amount of time off work to recover from illness without losing their income.",
+      "started_at": "2026-05-10T02:24:02.432000Z",
+      "duration_ms": 13120,
+      "tokens_in": 0,
+      "tokens_out": 308,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Explain Saudi Labour Law regarding sick leave in bullet point",
+      "started_at": "2026-05-10T02:24:17.052000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "- Employees are entitled to 30 days of fully paid sick leave per year\n- Medical certificate from an authorized health facility is required for sick leave exceeding 3 continuous days\n- Employees may be granted an additional 20 days of unpaid sick leave if they exhaust their fully paid sick leave and are still unable to work due to illness\n- Employees must notify their employer immediately if they contract a contagious disease\n- Employers cannot terminate an employee on sick leave unless the company is closing down\n- Employees on sick leave are protected from discrimination or retaliation\n- Failure to comply with labour law regarding sick leave can result in penalties and fines",
+      "started_at": "2026-05-10T02:24:19.532000Z",
+      "duration_ms": 7640,
+      "tokens_in": 0,
+      "tokens_out": 171,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Explain Saudi Labour Law regarding sick leave in bullet points along with article / law references in Tabular form",
+      "started_at": "2026-05-10T02:24:28.672000Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "| Topic | Explanation | Article / Law Reference |\n|-------|-------------|-------------------------|\n| Sick leave entitlement | Every employee is entitled to 30 days of fully paid sick leave per year. | Article 114, Saudi Labour Law |\n| Medical certificate requirement | Employees must provide a medical certificate from an authorized health facility as proof of illness for any sick leave exceeding three continuous days. | Article 125, Saudi Labour Law |\n| Unpaid sick leave | If an employee exhausts their 30 days of sick leave and is still unable to work due to illness, they may be granted another 20 days of unpaid sick leave at the discretion of their employer. | Article 114, Saudi Labour Law |\n| Contagious disease notification | Employees must notify their employer immediately if they contract a contagious disease to minimize the risk of further infections in the workplace. | Article 128, Saudi Labour Law |\n| Protection from termination and retaliation | Employers cannot terminate an employee on sick leave, and employees on sick leave are protected from discrimination or retaliation. | Article 83, Saudi Labour Law |\n| Penalties and fines | Failure by an employer to comply with the labour law regarding sick leave can result in penalties and fines. | Article 243, Saudi Labour Law | \n\nNote: The article / law references provided are based on the Saudi Labour Law published in 2020 by the Saudi Ministry of Human Resources and Social Development.",
+      "started_at": "2026-05-10T02:24:31.308000Z",
+      "duration_ms": 15400,
+      "tokens_in": 0,
+      "tokens_out": 365,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 44,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3522,
+      "tokens_in": 2678,
+      "tokens_out": 844,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 54,
+      "duration_ms": 39208,
+      "ai_wait_ms": 36160,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ009FFKC4A2FWD3PTT6",
+      "tenant": "kurson-health",
+      "session": "sess_01KR7V5PG0D3DBWZ7SN83ATGHD",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Explain Saudi Labour Law regarding sick leave in bullet point",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR7V5PG0D3DBWZ7SN83ATGHD.json",
+        "turn_uri": "data/sessions/sess_01KR7V5PG0D3DBWZ7SN83ATGHD.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.70).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00G9BRNNK9Y8B1S2TP",
+      "tenant": "kurson-health",
+      "session": "sess_01KR7V5PG0D3DBWZ7SN83ATGHD",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Explain Saudi Labour Law regarding sick leave in bullet points along with article / law references in Tabular form",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR7V5PG0D3DBWZ7SN83ATGHD.json",
+        "turn_uri": "data/sessions/sess_01KR7V5PG0D3DBWZ7SN83ATGHD.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

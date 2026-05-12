@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KPF612B0PXAYJ816FTYQJA1F",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "What are other message types in AMHS similar FPL?",
+  "started_at": "2026-04-18T02:17:00Z",
+  "ended_at": "2026-04-18T02:18:16.356000Z",
+  "duration_ms": 76356,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are other message types in AMHS similar FPL?",
+      "started_at": "2026-04-18T02:17:00Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Other message types in AMHS similar to FPL are:\n\n1. CLA - ICAO Flight Plan Amendment/Cancellation Messages\n2. DEP - Departure Message\n3. ARR - Arrival Message\n4. CHG - Change Message\n5. DLA - Delay Message\n6. EST - Estimate Message\n7. PBN - Performance Based Navigation Message\n8. RQS - Request Message\n9. CNL - Cancellation Message\n10. DIV - Diversion Message",
+      "started_at": "2026-04-18T02:17:02.444000Z",
+      "duration_ms": 4400,
+      "tokens_in": 0,
+      "tokens_out": 90,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Provide format for FPL, ARR, CHG , DLA and CNL and explain ",
+      "started_at": "2026-04-18T02:17:08.344000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. FPL (Flight Plan Message)\nThe format for FPL message in AMHS is as follows:\n\nMESSAGE TYPE: FPL\nMESSAGE SEQUENCE NUMBER:\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER:\nMESSAGE ORIGINATOR: (ICAO 8-letter location indicator or AFTN address)\nMESSAGE RECIPIENT: (ICAO 8-letter location indicator or AFTN address)\nTIME OF MESSAGE: (UTC time)\nFLIGHT PLAN STRIP/SERIAL NUMBER: (Alpha-numeric identifier assigned by the originator)\nMESSAGE TEXT: (Contains the entire flight plan contents in a specific format as per ICAO regulations)\n\nThe FPL message is used to convey the details of a proposed flight to all the relevant air traffic service units along the intended route of flight. The message helps ATC to plan and manage air traffic in a coordinated and efficient manner.\n\n2. ARR (Arrival Message)\nThe format for ARR message in AMHS is as follows:\n\nMESSAGE TYPE: ARR\nMESSAGE SEQUENCE NUMBER:\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER:\nMESSAGE ORIGINATOR: (ICAO 8-letter location indicator or AFTN address)\nMESSAGE RECIPIENT: (ICAO 8-letter location indicator or AFTN address)\nTIME OF MESSAGE: (UTC time)\nFLIGHT ID: (Identification of the aircraft)\nMESSAGE TEXT: (Contains the details about the arrival of the aircraft at the airport, such as estimated time of arrival, parking stand allocation, etc.)\n\nARR message is used to provide the airport authorities with the necessary information about the arrival of an aircraft at the airport, so that they can prepare the necessary ground handling services.\n\n3. CHG (Change Message)\nThe format for CHG message in AMHS is as follows:\n\nMESSAGE TYPE: CHG\nMESSAGE SEQUENCE NUMBER:\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER:\nMESSAGE ORIGINATOR: (ICAO 8-letter location indicator or AFTN address)\nMESSAGE RECIPIENT: (ICAO 8-letter location indicator or AFTN address)\nTIME OF MESSAGE: (UTC time)\nFLIGHT ID: (Identification of the aircraft)\nMESSAGE TEXT: (Contains the details about the changes made to the flight plan, such as change in route, altitude, destination, etc.)\n\nThe CHG message is used to inform the ATC units along the route of flight about any changes that have been made to the original FPL.\n\n4. DLA (Delay Message)\nThe format for DLA message in AMHS is as follows:\n\nMESSAGE TYPE: DLA\nMESSAGE SEQUENCE NUMBER:\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER:\nMESSAGE ORIGINATOR: (ICAO 8-letter location indicator or AFTN address)\nMESSAGE RECIPIENT: (ICAO 8-letter location indicator or AFTN address)\nTIME OF MESSAGE: (UTC time)\nFLIGHT ID: (Identification of the aircraft)\nMESSAGE TEXT: (Contains the details of the delay, such as the reason for delay, expected time of departure, etc.)\n\nDLA message is used to report any delay that is likely to affect the air traffic flow to the destination airport.\n\n5. CNL (Cancellation Message)\nThe format for CNL message in AMHS is as follows:\n\nMESSAGE TYPE: CNL\nMESSAGE SEQUENCE NUMBER:\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER:\nMESSAGE ORIGINATOR: (ICAO 8-letter location indicator or AFTN address)\nMESSAGE RECIPIENT: (ICAO 8-letter location indicator or AFTN address)\nTIME OF MESSAGE: (UTC time)\nFLIGHT ID: (Identification of the aircraft)\nMESSAGE TEXT: (Provides the reason for the cancellation of the flight)\n\nThe CNL message is used to inform the ATC units that a particular flight has been cancelled for a specific reason. The message helps the ATC units to take necessary action to manage the air traffic flow.",
+      "started_at": "2026-04-18T02:17:10.812000Z",
+      "duration_ms": 35520,
+      "tokens_in": 0,
+      "tokens_out": 868,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Provide format and example for FPL, ARR, CHG , DLA and CNL and explain",
+      "started_at": "2026-04-18T02:17:47.832000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. FPL (Flight Plan Message)\nThe format for FPL message in AMHS is as follows:\n\nMESSAGE TYPE: FPL\nMESSAGE SEQUENCE NUMBER: 123456\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER: ABC123\nMESSAGE ORIGINATOR: EGLLZTZX\nMESSAGE RECIPIENT: EDDFZTZX\nTIME OF MESSAGE: 121500Z\nFLIGHT PLAN STRIP/SERIAL NUMBER: 12345A\nMESSAGE TEXT: \nFPL-EDDF1100-EGLL1100\n-B738/M-SDE2E3FGHIJ3J5M1P1RWXYZ/LB1D1\n-EDDS0300-N0434F330 LISBA DCT\n-ADENU UL603 DIMAL DCT SUMUM/N0408F350 UZ738\n-DIDOR UN858 VESAN UZ10 BOMBI NIKOL1A-EGLL1425\n-PBN/A1B2C3D4O1S2\n-REG/GBXZZ\n-EET/EDVV0024 EBUR0054 LFFF0151 EGTT0221\n-SEL/JLDANGER\n\nThe FPL message is used to convey the details of a proposed flight to all the relevant air traffic service units along the intended route of flight. In this example, the flight is from Frankfurt (EDDF) to London Heathrow (EGLL), using a Boeing 737-800 aircraft with various routing information and performance-based navigation information.\n\n2. ARR (Arrival Message)\nThe format for ARR message in AMHS is as follows:\n\nMESSAGE TYPE: ARR\nMESSAGE SEQUENCE NUMBER: 234567\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER: XYZ456\nMESSAGE ORIGINATOR: EGLLZTZX\nMESSAGE RECIPIENT: EDDFZTZX\nTIME OF MESSAGE: 143000Z\nFLIGHT ID: BA456\nMESSAGE TEXT: \nARR-BA456-EGLL\n-PTS/PARKINGSTAND1234\n-ETA/1435\n-PBN/A1B2C3D4O1S2\n\nARR message is used to provide the airport authorities with the necessary information about the arrival of an aircraft at the airport. In this example, flight BA456 is arriving at London Heathrow (EGLL) and is expected to arrive at 1435.\n\n3. CHG (Change Message)\nThe format for CHG message in AMHS is as follows:\n\nMESSAGE TYPE: CHG\nMESSAGE SEQUENCE NUMBER: 345678\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER: LMN789\nMESSAGE ORIGINATOR: EGLLZTZX\nMESSAGE RECIPIENT: EDDFZTZX\nTIME OF MESSAGE: 150000Z\nFLIGHT ID: BA456\nMESSAGE TEXT: \nCHG-BA456-EGLL\n-ROUTE/PTASO UN491 GIMER DCT\n-ATC/K1234\n\nThe CHG message is used to inform the ATC units along the route of flight about any changes that have been made to the original FPL. In this example, flight BA456 has changed its route to include PTASO, UN491 and GIMER and has a new air traffic control identifier.\n\n4. DLA (Delay Message)\nThe format for DLA message in AMHS is as follows:\n\nMESSAGE TYPE: DLA\nMESSAGE SEQUENCE NUMBER: 456789\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER: OPQ123\nMESSAGE ORIGINATOR: EGLLZTZX\nMESSAGE RECIPIENT: EDDFZTZX\nTIME OF MESSAGE: 154500Z\nFLIGHT ID: BA789\nMESSAGE TEXT: \nDLA-BA789-EGLL\n-DELAY/RUNWAY CLOSURE\n-ETD/1605\n-PBN/A1B2C3D4O1S2\n\nDLA message is used to report any delay that is likely to affect the air traffic flow. In this example, flight BA789 is delayed due to runway closure and its estimated time of departure is now 1605.\n\n5. CNL (Cancellation Message)\nThe format for CNL message in AMHS is as follows:\n\nMESSAGE TYPE: CNL\nMESSAGE SEQUENCE NUMBER: 567890\nMESSAGE TYPE ADDITIONAL INDICATORS: NIL\nREFERENCE NUMBER: RST678\nMESSAGE ORIGINATOR: EGLLZTZX\nMESSAGE RECIPIENT: EDDFZTZX\nTIME OF MESSAGE: 161500Z\nFLIGHT ID: BA123\nMESSAGE TEXT: \nCNL-BA123-EGLL\n-REASON/ENGINE FAILURE\n\nThe CNL message is used to inform the ATC units that a particular flight has been cancelled for a specific reason. In this example, flight BA123 is cancelled due to engine failure.",
+      "started_at": "2026-04-18T02:17:50.336000Z",
+      "duration_ms": 33520,
+      "tokens_in": 0,
+      "tokens_out": 818,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 34,
+    "ai_cost": 32,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4705,
+      "tokens_in": 2929,
+      "tokens_out": 1776,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 43,
+      "duration_ms": 76356,
+      "ai_wait_ms": 73440,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0041,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00DK9B769S2GV8WCVF",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPF612B0PXAYJ816FTYQJA1F",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Provide format and example for FPL, ARR, CHG , DLA and CNL and explain",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPF612B0PXAYJ816FTYQJA1F.json",
+        "turn_uri": "data/sessions/sess_01KPF612B0PXAYJ816FTYQJA1F.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.92).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

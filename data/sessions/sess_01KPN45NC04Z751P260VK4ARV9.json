@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KPN45NC04Z751P260VK4ARV9",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "How can a pulmonologist tell the difference between tuberculosis and interstitial lung disease?",
+  "started_at": "2026-04-20T09:40:00Z",
+  "ended_at": "2026-04-20T09:40:47.260000Z",
+  "duration_ms": 47260,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "How can a pulmonologist tell the difference between tuberculosis and interstitial lung disease?",
+      "started_at": "2026-04-20T09:40:00Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A pulmonologist can tell the difference between tuberculosis and interstitial lung disease through various diagnostic methods such as:\n\n1. Medical history: The pulmonologist will ask about the patient's medical history including any history of TB, immunocompromised status, and exposure to TB.\n\n2. Physical exam: The pulmonologist will perform a physical exam to check for signs of TB or interstitial lung disease, such as shortness of breath, cough, or wheezing.\n\n3. Imaging tests: Imaging tests such as chest X-rays, computed tomography (CT) scans, or magnetic resonance imaging (MRI) can help the pulmonologist determine if the lungs have signs of damage from TB or inflammation from interstitial lung disease.\n\n4. Sputum tests: The pulmonologist may examine sputum (mucus coughed up from the lungs) for the presence of TB bacteria.\n\n5. Blood tests: Blood tests can help determine if the patient has an immune response specific to TB or interstitial lung disease.\n\nIn conclusion, a combination of medical history, physical exam, imaging tests, sputum tests, and blood tests can help a pulmonologist differentiate between tuberculosis and interstitial lung disease.",
+      "started_at": "2026-04-20T09:40:02.576000Z",
+      "duration_ms": 12440,
+      "tokens_in": 0,
+      "tokens_out": 291,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can a pulmonologist tell the difference between TB and ILD from high resolution Imaging alone?",
+      "started_at": "2026-04-20T09:40:16.516000Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "No, a pulmonologist cannot always tell the difference between tuberculosis (TB) and interstitial lung disease (ILD) from high-resolution imaging alone. While high-resolution imaging such as a CT scan can provide valuable information about the appearance of the lungs and any structural changes, the findings are not specific to any particular disease. Both TB and ILD can cause similar radiographic findings such as ground-glass opacities, nodules, and fibrosis. Further diagnostic tests such as sputum tests, blood tests, and pulmonary function tests are usually necessary to determine the underlying cause of the lung abnormalities seen on imaging. Therefore, a pulmonologist will likely perform a comprehensive evaluation including medical history, physical examination, and diagnostic testing to accurately diagnose TB or ILD.",
+      "started_at": "2026-04-20T09:40:19.092000Z",
+      "duration_ms": 9080,
+      "tokens_in": 0,
+      "tokens_out": 207,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is the blood test for TB called?",
+      "started_at": "2026-04-20T09:40:29.672000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The blood test for tuberculosis (TB) is called the tuberculosis blood test or the TB test. It is also referred to as interferon-gamma release assay (IGRA) or the QuantiFERON TB gold test. \n\nThis blood test is used to detect if a person has been infected with the TB bacteria. It works by measuring the immune response to the bacteria. The test is recommended for people who have a higher risk of developing TB, such as people who have been in close contact with someone who has TB or those with reduced immunity, including people living with HIV.\n\nThe TB blood test is different from the tuberculin skin test (TST), which is another method to test for TB infection. However, the blood test is generally preferred over the TST since it requires only one visit and does not require a second visit to interpret the results. Additionally, the blood test is not affected by previous TB vaccination, making it more reliable in vaccinated individuals.",
+      "started_at": "2026-04-20T09:40:32.080000Z",
+      "duration_ms": 10240,
+      "tokens_in": 0,
+      "tokens_out": 236,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "can lung problems cause low blood pressure?",
+      "started_at": "2026-04-20T09:40:43.820000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Yes, lung problems can cause low blood pressure. The lungs and cardiovascular system work together to supply oxygen to the body. Any problems with the lungs can affect the heart's ability to pump blood effectively, leading to low blood pressure.\n\nFor example, chronic obstructive pulmonary disease (COPD) can cause low blood pressure due to decreased blood flow to the heart. COPD leads to the blocking of airways, making it challenging for oxygen to move in and out of the lungs, eventually leading to a drop in oxygen levels in the blood. This can cause the blood vessels to dilate, leading to a drop in blood pressure.\n\nAcute respiratory distress syndrome (ARDS) is another lung disease that can cause low blood pressure, as it can decrease the blood flow to the lungs, reducing the amount of oxygen that reaches the body's organs. When the body's organs do not get enough oxygen, it can lead to a drop in blood pressure.\n\nIn conclusion, any lung problem that affects the exchange of oxygen and carbon dioxide in the lungs has the potential to cause low blood pressure.",
+      "started_at": "2026-04-20T09:40:46.240000Z",
+      "duration_ms": 11520,
+      "tokens_in": 0,
+      "tokens_out": 268,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 37,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5114,
+      "tokens_in": 4112,
+      "tokens_out": 1002,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 65,
+      "duration_ms": 47260,
+      "ai_wait_ms": 43280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0036,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

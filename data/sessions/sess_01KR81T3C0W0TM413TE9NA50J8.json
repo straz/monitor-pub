@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR81T3C0W0TM413TE9NA50J8",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "What are the basic things that needs to be included on assessment report",
+  "started_at": "2026-05-10T04:20:00Z",
+  "ended_at": "2026-05-10T04:20:24.260000Z",
+  "duration_ms": 24260,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are the basic things that needs to be included on assessment report",
+      "started_at": "2026-05-10T04:20:00Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Client information: Basic information about the client, such as their name, age, gender, occupation, address, etc.\n\n2. Referral source: The person or organization that referred the client for assessment should be mentioned.\n\n3. Reason for assessment: It includes the reason for conducting the assessment, such as identifying the client\u2019s strengths and weaknesses, determining the diagnosis, or assessing the risk factors.\n\n4. Background information: It includes any pertinent information about the client\u2019s history, family, education, work, health, social and psychological functioning, or any other relevant factors.\n\n5. Assessment tools/methods used: It includes a description of the assessment tools or methods used during the assessment, such as questionnaires, interviews, observations, standardized tests, or any other relevant tools.\n\n6. Findings: It includes a summary of the assessment results, such as the client\u2019s current condition, diagnosis, strengths, weaknesses, and any other relevant findings.\n\n7. Recommendations: It includes recommendations or suggestions for further treatment, referrals to other services, or any other appropriate interventions.\n\n8. Conclusion: A brief summary and conclusions about the assessment, including the report\u2019s overall significance and relevance to the client.\n\n9. Signature: Signed report by the assessor or evaluator.",
+      "started_at": "2026-05-10T04:20:02.516000Z",
+      "duration_ms": 14480,
+      "tokens_in": 0,
+      "tokens_out": 342,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is an assessment report?",
+      "started_at": "2026-05-10T04:20:18.496000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "An assessment report is a document that summarizes the results of an evaluation or assessment of someone or something. The report typically includes a description of the evaluation methodology, the data obtained, the analysis of the data, and any recommendations based on the assessment results. Assessment reports can be created for many different purposes, such as evaluating the academic performance of a student, assessing the mental health and well-being of a patient, or analyzing the job performance of an employee. They are used by healthcare professionals, educators, employers, and others to make important decisions concerning the welfare or functionality of the individual or entity being assessed.",
+      "started_at": "2026-05-10T04:20:20.880000Z",
+      "duration_ms": 7880,
+      "tokens_in": 0,
+      "tokens_out": 177,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2104,
+      "tokens_in": 1585,
+      "tokens_out": 519,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 25,
+      "duration_ms": 24260,
+      "ai_wait_ms": 22360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

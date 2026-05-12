@@ -1,0 +1,206 @@
+{
+  "id": "sess_01KP4T8KS0S9GSQ16P2JXNARWF",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_008",
+  "title": "Which is not an example of an intangible asset?",
+  "started_at": "2026-04-14T01:39:00Z",
+  "ended_at": "2026-04-14T01:39:25.800000Z",
+  "duration_ms": 25800,
+  "turn_count": 16,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which is not an example of an intangible asset?\n\n\nA patent\nA computer\nA copyright\nA trademark",
+      "started_at": "2026-04-14T01:39:00Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A computer",
+      "started_at": "2026-04-14T01:39:02.576000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which of the following statements about capital structure are correct? Select ALL correct answers.\n\n\nA company needs to consider the current economic climate when making decisions on debt and equity proportions.\nHaving too much equity may dilute earnings and the value of the original investors.\nA company should always finance its business using as much debt as possible in order to optimize the capital structure.\nHaving too little debt may increase the risk of default in repayment",
+      "started_at": "2026-04-14T01:39:04.956000Z",
+      "duration_ms": 2252,
+      "tokens_in": 121,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "A company needs to consider the current economic climate when making decisions on debt and equity proportions.\nHaving too much equity may dilute earnings and the value of the original investors.\nHaving too little debt may increase the risk of default in repayment.",
+      "started_at": "2026-04-14T01:39:08.708000Z",
+      "duration_ms": 3440,
+      "tokens_in": 0,
+      "tokens_out": 66,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Which of the following are examples of institutional investors? Select ALL correct answers.\n\nMutual funds\nHigh net worth individuals\nCompanies that are publicly traded on stock exchanges\nPrivate equity firms",
+      "started_at": "2026-04-14T01:39:13.648000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Mutual funds\nCompanies that are publicly traded on stock exchanges\nPrivate equity firms",
+      "started_at": "2026-04-14T01:39:16.560000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "What does a diagram of a perfectly positive correlation look like?\n\nA curved line that slopes from the bottom left to the top right quardrant\nA perfectly straight line that slopes from the top left to the bottom right quardrant\nA perfectly straight line that slopes from the bottom left to the top right quardrant\nA scatter plot that have dots all over the place",
+      "started_at": "2026-04-14T01:39:19.700000Z",
+      "duration_ms": 1880,
+      "tokens_in": 90,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "A perfectly straight line that slopes from the bottom left to the top right quadrant.",
+      "started_at": "2026-04-14T01:39:23.080000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Which of the following items are not included in working capital?\n\n\nAccounts payable\nInventory\nAccounts receivable\nShort term investments",
+      "started_at": "2026-04-14T01:39:26.220000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Short term investments",
+      "started_at": "2026-04-14T01:39:28.928000Z",
+      "duration_ms": 1000,
+      "tokens_in": 0,
+      "tokens_out": 5,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "Based on the following information from ABC Company\u2019s financial analysis, which one of the following statements is NOT true?\n\n \n\nRatio\n\nYear 1\n\nYear 2\n\nYear 3\n\nYear 4\n\nYear 5\n\nDebt to equity\n\n0.05\n\n0.02\n\n0.01\n\n0.01\n\n0.02\n\nOperating income ratio\n\n15.9%\n\n18.6%\n\n17.5%\n\n19.6%\n\n21.3%\n\n Payable turnover ratio\n\n9.75\n\n10.63\n\n11.24\n\n13,15\n\n13.52\n\nInventory turnover ratio\n\n6.31\n\n5.76\n\n7.28\n\n10.53\n\n15.36\n\nGross profit ratio\n\n58.3%\n\n52.3%\n\n46.9%\n\n49.5%\n\n41.3%\n\nNet profit ratio\n\n13.2%\n\n15.2%\n\n14.1%\n\n15.9%\n\n16.4%\n\nCurrent ratio\n\n7.35\n\n4.96\n\n3.28\n\n2.65\n\n3.14\n\n \n\n\nThe company has very little debt and maybe under-leveraged.\nThe company is selling their inventory faster over the five years.\nThe company\u2019s ability to cover its short-term obligations is getting higher over the five years.\nThe cost of goods sold has been increasing over the five years.",
+      "started_at": "2026-04-14T01:39:31.428000Z",
+      "duration_ms": 3320,
+      "tokens_in": 210,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "The cost of goods sold has been increasing over the five years.",
+      "started_at": "2026-04-14T01:39:36.248000Z",
+      "duration_ms": 1400,
+      "tokens_in": 0,
+      "tokens_out": 15,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Which ratio is not one of the three ratios that multiply together to produce the return on equity ratio?\n\n\nNet profit margin\nFinancial leverage\nTotal asset turnover\nOperating profit margin",
+      "started_at": "2026-04-14T01:39:39.148000Z",
+      "duration_ms": 1364,
+      "tokens_in": 47,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Operating profit margin",
+      "started_at": "2026-04-14T01:39:42.012000Z",
+      "duration_ms": 1000,
+      "tokens_in": 0,
+      "tokens_out": 5,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 14,
+      "speaker": "user",
+      "text": "\nWhen performing a vertical analysis which income statement item do you use to determine the cost contribution for each expense category? (What is the denominator?)\n\n\nGross profit\nOperating expenses\nNet income\nSales\n",
+      "started_at": "2026-04-14T01:39:44.512000Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 15,
+      "speaker": "assistant",
+      "text": "Sales",
+      "started_at": "2026-04-14T01:39:47.460000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 60,
+    "ai_cost": 61,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 16,
+      "tokens_total": 8286,
+      "tokens_in": 8150,
+      "tokens_out": 136,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 8,
+      "raw_user_tokens": 630,
+      "duration_ms": 25800,
+      "ai_wait_ms": 11840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0043,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KQP0CXV0EGWPMFHK07KBJG73",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "edit: . To address this doubt, the study used RBV and developed an empirical model to explore the contribution of IT cap\u2026",
+  "started_at": "2026-05-03T04:09:00Z",
+  "ended_at": "2026-05-03T04:09:23.296000Z",
+  "duration_ms": 23296,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: . To address this doubt, the study used RBV and developed an empirical model to explore the contribution of IT capabilities and resources in facilitating DT in hospitals. ",
+      "started_at": "2026-05-03T04:09:00Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "To alleviate this uncertainty, the research employed the Resource-Based View (RBV) concept and constructed a practical model to investigate the role of IT capabilities and resources in supporting Digital Transformation (DT) initiatives in hospitals.",
+      "started_at": "2026-05-03T04:09:02.828000Z",
+      "duration_ms": 3280,
+      "tokens_in": 0,
+      "tokens_out": 62,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: As a prime illustration, physical IT infrastructure has long been viewed as a core capability in numerous studies, but the rapid growth of digital technologies has questioned this traditional view. To address this uncertainty, the study employed the RBV and developed an empirical model to explore the contribution of IT capabilities and resources in facilitating DT in hospitals. ",
+      "started_at": "2026-05-03T04:09:07.608000Z",
+      "duration_ms": 1952,
+      "tokens_in": 96,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "For instance, in numerous studies, physical IT infrastructure has been considered a fundamental capability. However, the emergence of digital technologies has called into question this conventional notion. To address this issue, the research utilized RBV and formulated an empirical model to investigate the significance of IT capabilities and resources in enabling Digital Transformation (DT) progress in hospitals.",
+      "started_at": "2026-05-03T04:09:11.060000Z",
+      "duration_ms": 4960,
+      "tokens_in": 0,
+      "tokens_out": 104,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "edit: As a prime illustration, physical IT infrastructure has long been viewed as a core capability in numerous studies, but the rapid growth of digital technologies has questioned this traditional view. To address this question, the study employed RBV and developed an empirical model to explore the role of IT capabilities and resources in facilitating DT in hospitals. ",
+      "started_at": "2026-05-03T04:09:17.520000Z",
+      "duration_ms": 1916,
+      "tokens_in": 93,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "A prime example of this is physical IT infrastructure, which has historically been considered a foundational capability in numerous literature; however, the extraordinary expansion of digital technologies has cast doubt on this traditional perspective. To address this query, the research utilized the RBV framework and formulated an empirical model to investigate the role and significance of IT capabilities and resources in promoting Digital Transformation (DT) in hospitals.",
+      "started_at": "2026-05-03T04:09:20.936000Z",
+      "duration_ms": 5560,
+      "tokens_in": 0,
+      "tokens_out": 119,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "edit: To address this uncertainty, the study employed the RBV and developed an empirical model to explore the new roles of IT capabilities dimensions in facilitating DT in hospitals. ",
+      "started_at": "2026-05-03T04:09:27.996000Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "To resolve this uncertainty, the research adopted the RBV approach and created an empirical model to investigate the novel functions of IT capabilities dimensions in promoting Digital Transformation (DT) in hospitals.",
+      "started_at": "2026-05-03T04:09:30.836000Z",
+      "duration_ms": 2960,
+      "tokens_in": 0,
+      "tokens_out": 54,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 52,
+    "ai_cost": 31,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3947,
+      "tokens_in": 3608,
+      "tokens_out": 339,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 278,
+      "duration_ms": 23296,
+      "ai_wait_ms": 16760,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0028V8YTFNWZAGQYWY",
+      "tenant": "kurson-health",
+      "session": "sess_01KQP0CXV0EGWPMFHK07KBJG73",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "edit: To address this uncertainty, the study employed the RBV and developed an empirical model to explore the new roles of IT capabilities dimensions in facilitating DT in hospitals. ",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQP0CXV0EGWPMFHK07KBJG73.json",
+        "turn_uri": "data/sessions/sess_01KQP0CXV0EGWPMFHK07KBJG73.json#turns/6"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.67).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00VDXQREAVFHBSTX4C",
+      "tenant": "kurson-health",
+      "session": "sess_01KQP0CXV0EGWPMFHK07KBJG73",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "edit: As a prime illustration, physical IT infrastructure has long been viewed as a core capability in numerous studies, but the rapid growth of digital technologies has questioned this traditional view. To address this question, the study ",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQP0CXV0EGWPMFHK07KBJG73.json",
+        "turn_uri": "data/sessions/sess_01KQP0CXV0EGWPMFHK07KBJG73.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.92).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

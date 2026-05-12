@@ -1,0 +1,166 @@
+{
+  "id": "sess_01KPAQQ7P0P9W1T2ZZ2CVZJEDE",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_007",
+  "title": "What is the predefined business logic within a blockchain called?",
+  "started_at": "2026-04-16T08:50:00Z",
+  "ended_at": "2026-04-16T08:50:15.320000Z",
+  "duration_ms": 15320,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is the predefined business logic within a blockchain called?\n\n\nsmart contracts\n\n\nencrypting\n\n\nmobile contracts\n\n\nhashing",
+      "started_at": "2026-04-16T08:50:00Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "smart contracts",
+      "started_at": "2026-04-16T08:50:02.672000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "As Accenture explores an end-to-end business flow that has reconciliation between multiple parties, what would we uncover?\n\n\ntransparency\n\n\nshared state\n\n\nownership\n\n\ntrapped value",
+      "started_at": "2026-04-16T08:50:05.092000Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "shared state",
+      "started_at": "2026-04-16T08:50:07.932000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is a core domain for Accenture\u2019s Multi-party Systems practice?\n\n\nsocial networking\n\n\ndigital identity\n\n\nmarketing responsiveness\n\n\nemployee retention",
+      "started_at": "2026-04-16T08:50:10.352000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "digital identity",
+      "started_at": "2026-04-16T08:50:13.108000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "What is one of the reasons to consider implementing a blockchain solution?\n\n\nability to verify that data has not been tampered with since its creation\n\n\nability to work on different versions of the same data\n\n\ninability to track simultaneous updates by multiple users\n\n\ninability to trace and access data of other users",
+      "started_at": "2026-04-16T08:50:15.568000Z",
+      "duration_ms": 1748,
+      "tokens_in": 79,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "ability to verify that data has not been tampered with since its creation",
+      "started_at": "2026-04-16T08:50:18.816000Z",
+      "duration_ms": 1520,
+      "tokens_in": 0,
+      "tokens_out": 18,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "What is Accenture's role in Multi-party Systems?\n\n\nconsulting on new technologies for investment purposes\n\n\ndeveloping a messaging solution between two companies\n\n\nhelping ecosystems reimagine their processes to unlock value\n\n\nhelping a single company develop a data ingress platform",
+      "started_at": "2026-04-16T08:50:21.836000Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "helping ecosystems reimagine their processes to unlock value.",
+      "started_at": "2026-04-16T08:50:24.976000Z",
+      "duration_ms": 1400,
+      "tokens_in": 0,
+      "tokens_out": 15,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "A company wishes to begin the process of implementing a Multi-party System and is looking for other companies with similar interests to join them. With blockchain, every organization sees the same data.\n\nWhat does this provide?\n\n\ntrust\n\n\nownership\n\n\nintent\n\n\nuniqueness",
+      "started_at": "2026-04-16T08:50:27.876000Z",
+      "duration_ms": 1604,
+      "tokens_in": 67,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "trust",
+      "started_at": "2026-04-16T08:50:30.980000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 48,
+    "ai_cost": 41,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 4741,
+      "tokens_in": 4697,
+      "tokens_out": 44,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 330,
+      "duration_ms": 15320,
+      "ai_wait_ms": 6560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

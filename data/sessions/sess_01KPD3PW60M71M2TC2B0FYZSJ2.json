@@ -1,0 +1,159 @@
+{
+  "id": "sess_01KPD3PW60M71M2TC2B0FYZSJ2",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Can I have a summary of the Trust indenture Act",
+  "started_at": "2026-04-17T06:58:00Z",
+  "ended_at": "2026-04-17T06:58:53.992000Z",
+  "duration_ms": 53992,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Can I have a summary of the Trust indenture Act",
+      "started_at": "2026-04-17T06:58:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Trust Indenture Act (TIA) is a federal law that applies to corporate debt securities that are offered for sale to the public in the United States. The main purpose of the TIA is to protect the interests of investors who buy these securities by requiring issuers to meet certain disclosure and other requirements. \n\nThe TIA requires issuers to use a written indenture, or bond agreement, that outlines the terms and conditions of the bond. The indenture must be filed with the Securities and Exchange Commission (SEC) and made available to all bondholders. This ensures that investors have access to important information about the bond, such as the interest rate, maturity date, and how interest payments will be made.\n\nThe TIA also requires issuers to appoint a trustee who will represent the interests of the bondholders. The trustee's responsibilities include ensuring that the issuer complies with the terms of the indenture and taking legal action on behalf of the bondholders if necessary. \n\nAdditionally, the TIA establishes requirements for amendments to the indenture, such as changes to the interest rate or maturity date. These amendments must be approved by a majority of the bondholders, and the trustee must ensure that the amendments are fair to all bondholders. \n\nOverall, the Trust Indenture Act is designed to protect the interests of investors who purchase corporate debt securities by ensuring transparency, fairness, and accountability in the bond issuance process.",
+      "started_at": "2026-04-17T06:58:02.432000Z",
+      "duration_ms": 15680,
+      "tokens_in": 0,
+      "tokens_out": 372,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can I have a summary of the Security Exchange Commission Act",
+      "started_at": "2026-04-17T06:58:19.612000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Securities Exchange Act of 1934 is a federal law that regulates the trading of securities in U.S. financial markets. It created the Securities and Exchange Commission (SEC) to oversee and enforce the law's provisions. \n\nThe act's main purpose is to ensure transparency in securities trading, prevent fraud and manipulation, and protect investors' rights. It requires companies that trade securities on U.S. exchanges to disclose financial information to the public, including financial statements and information about insider trades. \n\nOne of the key provisions of the act is the requirement for companies to register with the SEC and file periodic reports. This ensures that investors have access to accurate and up-to-date information about the companies they invest in. Companies that fail to comply with these requirements can face fines, legal action, or even suspension from trading on U.S. exchanges. \n\nThe act also regulates insider trading, or the buying or selling of securities based on non-public information. This is illegal under the act, and those found guilty can face fines, legal action, and even imprisonment. \n\nFinally, the Securities Exchange Act of 1934 gives the SEC broad powers to oversee and regulate the securities industry, including the ability to investigate potential violations of the law, bring enforcement actions against violators, and set rules and regulations for companies that trade securities on U.S. exchanges. \n\nOverall, the Securities Exchange Act of 1934 is a key piece of legislation that helps ensure transparency, fairness, and accountability in U.S. financial markets.",
+      "started_at": "2026-04-17T06:58:22.092000Z",
+      "duration_ms": 17000,
+      "tokens_in": 0,
+      "tokens_out": 405,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Can I have a summary of the Securities  Act",
+      "started_at": "2026-04-17T06:58:40.592000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The Securities Act of 1933 is a federal law that regulates the sale of securities in the United States. The act's primary purpose is to protect investors by requiring companies to provide full and fair disclosure of all material information related to securities offerings.\n\nThe act requires companies to register with the Securities and Exchange Commission (SEC) before they can offer their securities for sale to the public. This registration process helps ensure that companies provide potential investors with accurate and complete information about the securities being offered, including financial statements, corporate governance information, and other relevant disclosures.\n\nIn addition to registration requirements, the Securities Act of 1933 also establishes liability for companies that make false or misleading statements in connection with securities offerings. Under the act, investors have the right to sue companies that fail to provide accurate and complete information, as well as the company's officers and directors.\n\nThe Securities Act also established the SEC, which is the primary federal regulatory body charged with enforcing securities laws in the United States. The SEC is responsible for reviewing securities registration statements, enforcing disclosure requirements, and taking enforcement action against companies and individuals that violate securities laws.\n\nOverall, the Securities Act of 1933 is an important piece of legislation that helps protect investors by requiring companies to provide full and fair disclosure of information related to securities offerings. The act helps ensure that investors have access to the information they need to make informed investment decisions and protect their interests in the securities markets.",
+      "started_at": "2026-04-17T06:58:43.012000Z",
+      "duration_ms": 18480,
+      "tokens_in": 0,
+      "tokens_out": 442,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 44,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4241,
+      "tokens_in": 3022,
+      "tokens_out": 1219,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 36,
+      "duration_ms": 53992,
+      "ai_wait_ms": 51160,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0033,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00ADQ44VT9TF3VTTRH",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPD3PW60M71M2TC2B0FYZSJ2",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Can I have a summary of the Security Exchange Commission Act",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPD3PW60M71M2TC2B0FYZSJ2.json",
+        "turn_uri": "data/sessions/sess_01KPD3PW60M71M2TC2B0FYZSJ2.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.62).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ004CDX85E3HB06CW63",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPD3PW60M71M2TC2B0FYZSJ2",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Can I have a summary of the Securities  Act",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPD3PW60M71M2TC2B0FYZSJ2.json",
+        "turn_uri": "data/sessions/sess_01KPD3PW60M71M2TC2B0FYZSJ2.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.67).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

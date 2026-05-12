@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR86AR90C0J9KDZ1XY9EJ8S5",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "explain :Disorders of homeostasis:-",
+  "started_at": "2026-05-10T05:39:00Z",
+  "ended_at": "2026-05-10T05:39:29.368000Z",
+  "duration_ms": 29368,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "explain :Disorders of homeostasis:-\nBleeding problems may come to medical:-\n1 - abnormal bleeding in the patient.\n2 - homeostatic abnormalities before under taking a surgical, obstructive, or dental\nprocedure.\nLaboratory's tests:-\nPatients who are hemorrhaging or who have a history suggestive of a haemostatic disorder should have:\n1 - an platelet count.\n2 - bleeding time.\n3 - prothombin time.\n4 - activated partial thromboplastin time (APTT).\nTests that are now rarely used are:-\n1 - the tourniquet test.\n2 - whole blood clotting time.\n3 - prothrombin consumption time.\n4 - thromboplastin generation test.\nFor patients undergo on operation must do:-\n1 - PT.\n2 - PTT.\n3 - nplatelets count.\n4 - bleeding time.\n5 - clotting time.",
+      "started_at": "2026-05-10T05:39:00Z",
+      "duration_ms": 2984,
+      "tokens_in": 182,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Disorders of homeostasis refer to conditions where the body is not able to maintain a balance between different physiological processes. This can lead to various health complications, such as bleeding problems. Abnormal bleeding in a patient may be caused by a haemostatic disorder, where the blood is not able to clot properly, or it may be due to an injury to a blood vessel.\n\nTo diagnose a haemostatic disorder, various laboratory tests may be done, such as a platelet count, bleeding time, prothrombin time, and activated partial thromboplastin time (APTT). Other diagnostic tests that are now rarely used include the tourniquet test, whole blood clotting time, prothrombin consumption time, and thromboplastin generation test. \n\nIf a patient is undergoing surgery, it is important to check their haemostatic function before the procedure. This typically involves checking the patient's platelet count, PT, PTT, bleeding time, and clotting time. By assessing these parameters, healthcare professionals can identify any potential bleeding problems and take appropriate measures to minimize the risk of bleeding during surgery.",
+      "started_at": "2026-05-10T05:39:04.484000Z",
+      "duration_ms": 12080,
+      "tokens_in": 0,
+      "tokens_out": 282,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "explain: Disorders of homeostasis:-\nBleeding problems may come to medical:-\n1 - abnormal bleeding in the patient.\n2 - homeostatic abnormalities before under taking a surgical, obstructive, or dental\nprocedure.",
+      "started_at": "2026-05-10T05:39:18.064000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Disorders of homeostasis refer to a disruption in the balance of physiological processes that are responsible for maintaining normalcy in the body. One common manifestation of these disorders is bleeding problems. \n\nAbnormal bleeding in a patient can occur due to several reasons, such as a genetic tendency towards bleeding disorders, medication side effects, liver disease, or deficiencies in clotting factors. This can lead to excessive or prolonged bleeding even from minor injuries or cuts. \n\nHomeostatic abnormalities before undergoing a surgical, obstructive, or dental procedure can also lead to bleeding problems. Patients with a history of bleeding disorders or those on blood-thinning medications are at a higher risk of developing bleeding complications during and after these procedures.\n\nTherefore, it is important to assess a patient's haemostatic function before any surgical or dental procedures. This may involve checking the patient's platelet count, clotting factors, and bleeding time. If a patient has a bleeding disorder or is at a high risk of bleeding, healthcare professionals may take precautions such as blood transfusions or administering medications that can help control bleeding.",
+      "started_at": "2026-05-10T05:39:20.988000Z",
+      "duration_ms": 12880,
+      "tokens_in": 0,
+      "tokens_out": 302,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2482,
+      "tokens_in": 1898,
+      "tokens_out": 584,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 234,
+      "duration_ms": 29368,
+      "ai_wait_ms": 24960,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

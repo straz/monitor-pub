@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KR5BZGR0JCPQ24JJYYPBCWSV",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "So I have this documentation of database name and the description of it,",
+  "started_at": "2026-05-09T03:20:00Z",
+  "ended_at": "2026-05-09T03:20:28.896000Z",
+  "duration_ms": 28896,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "So I have this documentation of database name and the description of it,\nDP-DTTDR -> THE FOLLOWING DATA ELEMENTS DEFINE NEW TDOA'S, NEW CD'S AMD CONVERSION TIME DEPOSITS\nDP-DTTWA -> THE FOLLOWING DATA ELEMENTS DEFINE TIME DEPOSIT DEBIT AND CREDIT THE TRANSACTIONS\n\ncan you give me a guess for what the abbreviations of dp-dttdr and dp-dttwa ?",
+      "started_at": "2026-05-09T03:20:00Z",
+      "duration_ms": 1820,
+      "tokens_in": 85,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Based on the descriptions provided, DP-DTTDR seems to stand for \"Time Deposit and TDOA Definition, Conversion, and Deposit Transactions\", while DP-DTTWA seems to stand for \"Time Deposit Transactions and Withdrawals Accounting\".",
+      "started_at": "2026-05-09T03:20:03.320000Z",
+      "duration_ms": 3040,
+      "tokens_in": 0,
+      "tokens_out": 56,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what do the R stands for in DP-DTTDR",
+      "started_at": "2026-05-09T03:20:07.860000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Without additional context, it is difficult to definitively determine what the \"R\" stands for in DP-DTTDR. It could stand for \"Reporting\", \"Record\", \"Registry\", or any number of other possibilities.",
+      "started_at": "2026-05-09T03:20:10.268000Z",
+      "duration_ms": 2760,
+      "tokens_in": 0,
+      "tokens_out": 49,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "can you give me a list of possibilities for DP-DTTDR and DP-DTTWA",
+      "started_at": "2026-05-09T03:20:14.528000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Sure, here are some possibilities for both DP-DTTDR and DP-DTTWA:\n\nDP-DTTDR:\n- Time Deposit and TDOA Definition, Record-keeping, and Deposit Transactions\n- Time Deposit and TDOA Definition, Report Generation, and Deposit Transactions\n- Time Deposit and TDOA Definition, Registry Management, and Deposit Transactions\n- Time Deposit and TDOA Definition, Regulatory Compliance, and Deposit Transactions\n- Time Deposit and TDOA Definition, Risk Management, and Deposit Transactions\n\nDP-DTTWA:\n- Time Deposit Transactions and Withdrawals Accounting\n- Time Deposit Transfers and Withdrawals Administration\n- Time Deposit Tracking and Withdrawals Analysis\n- Time Deposit Terminations and Withdrawals Accounting\n- Time Deposit Tiers and Withdrawals Aggregation",
+      "started_at": "2026-05-09T03:20:17.020000Z",
+      "duration_ms": 8320,
+      "tokens_in": 0,
+      "tokens_out": 188,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "which one is better, bart or gpt 4",
+      "started_at": "2026-05-09T03:20:26.840000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "It's difficult to say which one is better as BART and GPT-4 are different types of language models designed for different purposes.\n\nBART is a sequence-to-sequence model that was specifically designed for text summarization and generation tasks. It is particularly good at generating high-quality summaries of long-form text content.\n\nGPT-4, on the other hand, is an upcoming language model and is not yet released at the time of writing this answer. However, it is intended to be a major upgrade to the open-source GPT series of language models, and is expected to be even more advanced and capable than previous versions.\n\nUltimately, which model is better depends on the specific task you're trying to accomplish. If you need to generate high-quality summaries, then BART may be a better choice. If you're looking to develop a more advanced language processing system, then GPT-4 may end up being the better choice once it's released.",
+      "started_at": "2026-05-09T03:20:29.236000Z",
+      "duration_ms": 10160,
+      "tokens_in": 0,
+      "tokens_out": 234,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3788,
+      "tokens_in": 3261,
+      "tokens_out": 527,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 118,
+      "duration_ms": 28896,
+      "ai_wait_ms": 24280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

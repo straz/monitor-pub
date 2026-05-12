@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPW2XYV0VRJWXV4932E2FR5J",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "write a INVESTIGATIONS AND REPORTING POLICY STATEMENT for Urbacon which is signed and dated by senior management",
+  "started_at": "2026-04-23T02:33:00Z",
+  "ended_at": "2026-04-23T02:33:53.436000Z",
+  "duration_ms": 53436,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "write a INVESTIGATIONS AND REPORTING POLICY STATEMENT for Urbacon which is signed and dated by senior management",
+      "started_at": "2026-04-23T02:33:00Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "INVESTIGATIONS AND REPORTING POLICY STATEMENT\n\nAt Urbacon, we strive to maintain an ethical and compliant work environment and we are committed to conducting investigations, reporting violations, and addressing any concerns raised by our employees. Our investigations and reporting policy is designed to comply with all applicable laws and regulations and to promote accountability, transparency, and continuous improvement in our operations.\n\nInvestigations\n\nUrbacon is committed to conducting thorough and impartial investigations of any alleged or suspected misconduct, including fraud, corruption, bribery, harassment, discrimination, or any other violation of our policies or the law. We will investigate all credible reports of suspected or actual misconduct in a timely manner and take appropriate corrective actions based on the findings of the investigation.\n\nReporting\n\nUrbacon encourages all employees to report concerns about potential or actual misconduct, without fear of retaliation. We provide various reporting channels, including a hotline, email, in-person reporting, and anonymous reporting, to ensure that all employees have a safe and confidential way to report any potential or actual violations of policies or laws. We take all reports seriously and will investigate each one thoroughly.\n\nAccountability\n\nUrbacon believes in holding individuals and entities accountable for their actions. We do not tolerate retaliation for good faith reporting or participating in investigations, nor will we tolerate violations of our policies or the law. Anyone found to have violated our policies or the law will be subject to corrective action, up to and including termination of employment, and legal action if necessary.\n\nContinuous Improvement\n\nUrbacon is committed to continuously reviewing and improving our investigations and reporting policies and procedures to ensure that they remain effective and compliant with all applicable laws and regulations. We value feedback from our employees, stakeholders, and external partners, and will use this feedback to enhance our policies, training, and communications.\n\nSigned by Senior Management of Urbacon on [insert date]",
+      "started_at": "2026-04-23T02:33:02.636000Z",
+      "duration_ms": 22640,
+      "tokens_in": 0,
+      "tokens_out": 546,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "write an INVESTIGATIONS AND REPORTING Procedure which includes:",
+      "started_at": "2026-04-23T02:33:26.776000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Investigations and Reporting Procedure outlines the steps that Urbacon will take to investigate and address any potential or actual violations of our policies or the law. This procedure is designed to ensure impartiality, thoroughness, and compliance with all applicable laws and regulations.\n\n1. Reporting\n\nEmployees who wish to report a concern can do so through any of the following channels:\n\na. Hotline: An independent hotline vendor is available to receive employee calls 24/7.\n\nb. Email: Reports can be sent to a designated email address.\n\nc. In-person: Employees can report concerns in person to their supervisor, HR manager, or any senior leader in the organization.\n\nd. Anonymous: Anonymous reporting is permitted via a third-party vendor.\n\n2. Investigation\n\nUpon receipt of a report, the Investigative Committee will review the details and assign an investigator. The investigator will gather facts and evidence, interview witnesses, and document all related activities. The investigation will be conducted in a timely and thorough manner. The investigator will provide multiple progress updates to the Investigative Committee.\n\n3. Reporting\n\nA final report will be prepared which will include the investigation findings and evidence, as well as conclusions and recommendations. The report will be presented to senior management for review and approval. Appropriate and timely corrective actions will be taken as per recommendations from senior management.\n\n4. Communication\n\nThroughout the investigation process, communication will be maintained with the complainant or reporter, witnesses, and other relevant parties, as appropriate and permitted by law. Confidentiality will be maintained to the fullest extent possible, consistent with a thorough investigation.\n\n5. Retaliation Prevention\n\nUrbacon will not tolerate retaliation against employees who report concerns in good faith or who cooperate in an investigation. Retaliation will be investigated and addressed promptly. Employees who engage in retaliation may be subject to disciplinary action and may be held liable for their actions.\n\n6. Continuous Improvement\n\nUrbacon prioritizes continuous improvement of the Investigations and Reporting Procedure. The procedure will be reviewed periodically, and any necessary changes or updates will be made and communicated to all employees.\n\nFinal Thoughts\n\nUrbacon is committed to ensuring that all employees feel safe and comfortable reporting concerns and that investigations are conducted impartially and thoroughly. We expect all employees to cooperate fully with investigations, and we will take all reported concerns seriously and investigate them with the utmost care. Any violation of our policies or the law will be addressed with appropriate corrective action.",
+      "started_at": "2026-04-23T02:33:29.256000Z",
+      "duration_ms": 28680,
+      "tokens_in": 0,
+      "tokens_out": 697,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3060,
+      "tokens_in": 1817,
+      "tokens_out": 1243,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 43,
+      "duration_ms": 53436,
+      "ai_wait_ms": 51320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0028,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

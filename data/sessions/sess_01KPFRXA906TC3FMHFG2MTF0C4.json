@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPFRXA906TC3FMHFG2MTF0C4",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "rewrite this email to be pithier and still professional: Hi Andy & Jaime - as mentioned on call, we'd appreciate your he\u2026",
+  "started_at": "2026-04-18T07:47:00Z",
+  "ended_at": "2026-04-18T07:47:12Z",
+  "duration_ms": 12000,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "rewrite this email to be pithier and still professional: Hi Andy & Jaime - as mentioned on call, we'd appreciate your help collecting FY22 Revenue & FY22 Gross Margin by job family (e.g., how much revenue and profit dollars came from 37x FPC reps across FY22?). Below is a screenshot of the 15 job families. And we understand that the data may be difficult for job families outside of FPCs, but any rough assumptions would be greatly appreciated.\n\nKnow that Jaime mentioned this all might be fairly quick, given the 'Factbook' access. Ideally something over the next few days so we can incorporate into some analysis requested by Erin & Beckey, that would be great.\n\nPlease let me know if you have questions.\n\nThanks,\nCalvin ",
+      "started_at": "2026-04-18T07:47:00Z",
+      "duration_ms": 2972,
+      "tokens_in": 181,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Hi Andy & Jaime, Can you please help us collect FY22 Revenue & Gross Margin by job family (e.g. revenue and profit from 37x FPC reps across FY22)? Here is a screenshot of the 15 job families. We understand data may be difficult for job families outside of FPCs, but any rough assumptions would be appreciated. Jaime mentioned this may be quick given 'Factbook' access. Ideally, we need this in the next few days for analysis requested by Erin & Beckey. Let me know if you have questions. Thanks, Calvin.",
+      "started_at": "2026-04-18T07:47:04.472000Z",
+      "duration_ms": 5800,
+      "tokens_in": 0,
+      "tokens_out": 125,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "rewrite to be pithier and more professional: Profitability varies by job family, with opportunity to refine comp plans to better align to profitability levers",
+      "started_at": "2026-04-18T07:47:11.772000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Profitability differs among job families and can be improved by aligning compensation plans with profitability levers.",
+      "started_at": "2026-04-18T07:47:14.540000Z",
+      "duration_ms": 1960,
+      "tokens_in": 0,
+      "tokens_out": 29,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1880,
+      "tokens_in": 1726,
+      "tokens_out": 154,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 220,
+      "duration_ms": 12000,
+      "ai_wait_ms": 7760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0011,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

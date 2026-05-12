@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KP7XN540EQH87EXB77BV6492",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "he best indicator of ventricular preload?/",
+  "started_at": "2026-04-15T06:36:00Z",
+  "ended_at": "2026-04-15T06:36:15.712000Z",
+  "duration_ms": 15712,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "he best indicator of ventricular preload?/",
+      "started_at": "2026-04-15T06:36:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The best indicator of ventricular preload is the end-diastolic volume (EDV) or end-diastolic pressure (EDP) of the ventricles. EDV is the volume of blood in the ventricles at the end of diastole (just before contraction), while EDP is the pressure within the ventricles at the same time. These measures give an estimate of the amount of blood in the ventricles and hence, the stretch or load experienced by the ventricular walls prior to contraction.",
+      "started_at": "2026-04-15T06:36:02.420000Z",
+      "duration_ms": 5280,
+      "tokens_in": 0,
+      "tokens_out": 112,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which has the highest risk of infection with blood transfusion ?\na. Cytomegalovirus\nb. hepatitis B\nc. hepatitis C\nd. HIV",
+      "started_at": "2026-04-15T06:36:09.200000Z",
+      "duration_ms": 1160,
+      "tokens_in": 30,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "b. Hepatitis B has a higher risk of infection with blood transfusion compared to the other options listed. The risk of infection for each virus has significantly decreased over the years due to improved blood screening procedures. However, hepatitis B still carries a higher risk compared to cytomegalovirus, hepatitis C, and HIV.",
+      "started_at": "2026-04-15T06:36:11.860000Z",
+      "duration_ms": 4080,
+      "tokens_in": 0,
+      "tokens_out": 82,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "in which of the following do you give prophylactic antibiotics for endocarditis ?\na. Pacemaker\nb. Coronary artery bypass (CABG)\nc. Hypertrophic cardiomyopathy\nd. Implanted defibrillators",
+      "started_at": "2026-04-15T06:36:17.440000Z",
+      "duration_ms": 1352,
+      "tokens_in": 46,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "a. Pacemaker\n\nProphylactic antibiotics are recommended for patients undergoing pacemaker insertion or other procedures involving the implantation of intracardiac devices, in order to reduce the risk of endocarditis.",
+      "started_at": "2026-04-15T06:36:20.292000Z",
+      "duration_ms": 2920,
+      "tokens_in": 0,
+      "tokens_out": 53,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2489,
+      "tokens_in": 2242,
+      "tokens_out": 247,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 86,
+      "duration_ms": 15712,
+      "ai_wait_ms": 12280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0821,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

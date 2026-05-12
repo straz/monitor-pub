@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KR3FKRB0NPB89YRYCYNQ335K",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "We are a service provider and entered into a contract with an client. We wish to have the service fee paid to a third pa\u2026",
+  "started_at": "2026-05-08T09:45:00Z",
+  "ended_at": "2026-05-08T09:45:20.864000Z",
+  "duration_ms": 20864,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "We are a service provider and entered into a contract with an client. We wish to have the service fee paid to a third party. The client asks for a statement from us so that they could pay the service fee. Please draft a statement for our company to sign. Thank you.",
+      "started_at": "2026-05-08T09:45:00Z",
+      "duration_ms": 1592,
+      "tokens_in": 66,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Dear Client,\n\nWe, [Company Name], have entered into a contract with your company to provide services. As part of our agreement, we have requested that the service fee be paid to a third party.\n\nWe hereby confirm that the service fee may be paid to [Third Party Name] on our behalf. The details of the third party are as follows:\n\n[Third Party Name]\n[Address]\n[Phone Number]\n[Email]\n\nWe request that you kindly make the necessary arrangements to transfer the service fee directly to the third party. Upon receipt of the payment, we will consider the service fee paid in full.\n\nIf you have any questions or require further clarification, please do not hesitate to contact us.\n\nThank you for your cooperation.\n\nSincerely,\n\n[Your Company Name]",
+      "started_at": "2026-05-08T09:45:03.092000Z",
+      "duration_ms": 8160,
+      "tokens_in": 0,
+      "tokens_out": 184,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "We are a service provider and entered into a contract with an client. We want the client to pay the service fee  to a third party. The client asks for a statement from us so that they could pay the service fee to the third party instead of to us. Please draft a statement for our company to sign. Thank you.",
+      "started_at": "2026-05-08T09:45:12.752000Z",
+      "duration_ms": 1712,
+      "tokens_in": 76,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Dear Client,\n\nWe, [Your Company Name], are pleased to be providing our services to your organization as per the agreement signed by both parties. As we have previously discussed, we request that the service fee for the services rendered be paid directly to the third party, [Third Party Name], and not to our company.\n\nWe hereby confirm that we have authorized [Third Party Name] to receive the service fee payment on our behalf. The details of the third party are as follows:\n\n[Third Party Name]\n[Address]\n[Phone Number]\n[Email]\n\nPlease note that upon receipt of the payment by the third party, we will consider the service fee paid in full, and no further action will be required by your organization.\n\nIf you require any further information or assistance, please do not hesitate to contact us.\n\nThank you for your cooperation.\n\nSincerely,\n\n[Your Company Name]",
+      "started_at": "2026-05-08T09:45:15.964000Z",
+      "duration_ms": 9400,
+      "tokens_in": 0,
+      "tokens_out": 215,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1991,
+      "tokens_in": 1592,
+      "tokens_out": 399,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 142,
+      "duration_ms": 20864,
+      "ai_wait_ms": 17560,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00HN3W9TVFFTAMMK84",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR3FKRB0NPB89YRYCYNQ335K",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "We are a service provider and entered into a contract with an client. We want the client to pay the service fee  to a third party. The client asks for a statement from us so that they could pay the service fee to the third party instead of ",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR3FKRB0NPB89YRYCYNQ335K.json",
+        "turn_uri": "data/sessions/sess_01KR3FKRB0NPB89YRYCYNQ335K.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.80).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

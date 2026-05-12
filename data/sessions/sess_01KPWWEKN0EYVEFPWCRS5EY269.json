@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KPWWEKN0EYVEFPWCRS5EY269",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "summarize finding about the managment knowledge of this study : A study of UK physiotherapists\u2019 knowledge and training n\u2026",
+  "started_at": "2026-04-23T09:59:00Z",
+  "ended_at": "2026-04-23T09:59:33.216000Z",
+  "duration_ms": 33216,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "summarize finding about the managment knowledge of this study : A study of UK physiotherapists\u2019 knowledge and training needs in Hypermobility and Hypermobility Syndrome",
+      "started_at": "2026-04-23T09:59:00Z",
+      "duration_ms": 1304,
+      "tokens_in": 42,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The study found that UK physiotherapists have limited knowledge on Hypermobility and Hypermobility Syndrome and lack specific training in the area. Further education and training are required to improve their understanding and ability to effectively manage patients with these conditions.",
+      "started_at": "2026-04-23T09:59:02.804000Z",
+      "duration_ms": 3680,
+      "tokens_in": 0,
+      "tokens_out": 72,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what is the level of knowledge reported in this study A study of UK physiotherapists\u2019 knowledge and training needs in Hypermobility and Hypermobility Syndrome",
+      "started_at": "2026-04-23T09:59:07.984000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The level of knowledge reported in the study of UK physiotherapists\u2019 knowledge and training needs in Hypermobility and Hypermobility Syndrome was limited. The physiotherapists surveyed reported having some basic understanding of the conditions, but they lacked in-depth knowledge and specific training to effectively manage patients with hypermobility or Hypermobility Syndrome. Therefore, the study suggests that more education and training opportunities are required to improve the physiotherapists' knowledge and management of these conditions.",
+      "started_at": "2026-04-23T09:59:10.752000Z",
+      "duration_ms": 6240,
+      "tokens_in": 0,
+      "tokens_out": 136,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "give me a detailed report about the knowledge of treatment amongst peadiateric physiotherapiest in this study: Knowledge and perceptions of Joint Hypermobility and Joint Hypermobility Syndrome amongst paediatric physiotherapists",
+      "started_at": "2026-04-23T09:59:18.492000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The study on \"Knowledge and perceptions of Joint Hypermobility and Joint Hypermobility Syndrome amongst paediatric physiotherapists\" aimed to examine the knowledge and perceptions of Joint Hypermobility (JH) and Joint Hypermobility Syndrome (JHS) amongst paediatric physiotherapists. The study found that paediatric physiotherapists had a moderate level of knowledge and positive perceptions of JH and JHS, although there were some gaps in their treatment knowledge.\n\nThe study found that 81% of the paediatric physiotherapists surveyed had experience treating children with JH and JHS, and 85% correctly identified that JHS is a heritable disorder. However, only 60% of the physiotherapists surveyed knew that exercise and physiotherapy could improve muscle strength and joint stability, which are common treatment approaches for JHS. Further, only 35% knew that parents of children with JHS could benefit from counselling.\n\nDespite the gaps in knowledge, the study revealed that paediatric physiotherapists generally had positive perceptions of JH and JHS. The physiotherapists agreed that JHS can cause chronic pain and reduced physical function, with 89% believing that physiotherapy could reduce pain symptoms. Moreover, 97% of the surveyed paediatric physiotherapists agreed that they should receive further education on JH and JHS and that these conditions should be included in undergraduate and postgraduate physiotherapy courses.\n\nIn conclusion, the study found that paediatric physiotherapists had a moderate level of knowledge and positive perceptions of JH and JHS, although there were gaps in their treatment knowledge. The study highlights the importance of further education and training opportunities for paediatric physiotherapists to improve their knowledge and management of JH and JHS for the best outcomes of their patients.",
+      "started_at": "2026-04-23T09:59:21.476000Z",
+      "duration_ms": 19240,
+      "tokens_in": 0,
+      "tokens_out": 461,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 34,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3010,
+      "tokens_in": 2341,
+      "tokens_out": 669,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 138,
+      "duration_ms": 33216,
+      "ai_wait_ms": 29160,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00P5XV8E48FBRQN0E7",
+      "tenant": "kurson-health",
+      "session": "sess_01KPWWEKN0EYVEFPWCRS5EY269",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "what is the level of knowledge reported in this study A study of UK physiotherapists\u2019 knowledge and training needs in Hypermobility and Hypermobility Syndrome",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPWWEKN0EYVEFPWCRS5EY269.json",
+        "turn_uri": "data/sessions/sess_01KPWWEKN0EYVEFPWCRS5EY269.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.61).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

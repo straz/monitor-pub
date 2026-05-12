@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP4RQ5R0X50DZGM748JH3YW6",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "better phrasing:",
+  "started_at": "2026-04-14T01:12:00Z",
+  "ended_at": "2026-04-14T01:12:05.684000Z",
+  "duration_ms": 5684,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "better phrasing:\nReview the payment process and align on different team's roles ",
+      "started_at": "2026-04-14T01:12:00Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Evaluate the payment procedure and establish consensus on the roles of various teams.",
+      "started_at": "2026-04-14T01:12:02.540000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Review the payment process and align on the roles of care and operation",
+      "started_at": "2026-04-14T01:12:05.680000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Revise the payment process and reach an agreement regarding the specific responsibilities of the care and operations teams.",
+      "started_at": "2026-04-14T01:12:08.184000Z",
+      "duration_ms": 2000,
+      "tokens_in": 0,
+      "tokens_out": 30,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 12,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1329,
+      "tokens_in": 1278,
+      "tokens_out": 51,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 37,
+      "duration_ms": 5684,
+      "ai_wait_ms": 3640,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0007,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ006PKJY4GYEFCKCDTW",
+      "tenant": "kurson-health",
+      "session": "sess_01KP4RQ5R0X50DZGM748JH3YW6",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Review the payment process and align on the roles of care and operation",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP4RQ5R0X50DZGM748JH3YW6.json",
+        "turn_uri": "data/sessions/sess_01KP4RQ5R0X50DZGM748JH3YW6.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.53).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

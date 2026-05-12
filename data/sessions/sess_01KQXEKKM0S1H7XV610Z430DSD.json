@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQXEKKM0S1H7XV610Z430DSD",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "List of all professional job skills in commerce field.",
+  "started_at": "2026-05-06T01:32:00Z",
+  "ended_at": "2026-05-06T01:32:16.052000Z",
+  "duration_ms": 16052,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "List of all professional job skills in commerce field.",
+      "started_at": "2026-05-06T01:32:00Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Financial analysis and reporting skills\n\n2. Budgeting and forecasting skills\n\n3. Accounting and bookkeeping skills\n\n4. Taxation and audit skills\n\n5. Business valuations and analysis skills\n\n6. Investment analysis and management skills\n\n7. Knowledge of financial markets and instruments\n\n8. Risk management and assessment skills\n\n9. Compliance and regulatory knowledge\n\n10. Financial modeling skills\n\n11. Negotiation and persuasion skills\n\n12. Team management and leadership skills\n\n13. Strategic planning and implementation skills\n\n14. Sales and marketing skills\n\n15. Business development skills\n\n16. Customer relationship management skills\n\n17. Data analysis and statistical skills\n\n18. Information technology skills\n\n19. Communication and presentation skills\n\n20. Interpersonal and networking skills.",
+      "started_at": "2026-05-06T01:32:02.456000Z",
+      "duration_ms": 8840,
+      "tokens_in": 0,
+      "tokens_out": 201,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "List of all interpersonal skills",
+      "started_at": "2026-05-06T01:32:12.796000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Communication Skills\n2. Active Listening\n3. Empathy\n4. Leadership\n5. Teamwork\n6. Conflict Resolution\n7. Collaborative Skills\n8. Networking\n9. Adaptability\n10. Decision-making\n11. Emotional Intelligence\n12. Problem Solving\n13. Time Management\n14. Flexibility\n15. Critical Thinking\n16. Persuasion\n17. Positive Attitude\n18. Cooperation\n19. Feedback Acceptance\n20. Responsibility\n21. Tactfulness\n22. Respectfulness\n23. Courtesy\n24. Honesty\n25. Open-mindedness.",
+      "started_at": "2026-05-06T01:32:15.192000Z",
+      "duration_ms": 5360,
+      "tokens_in": 0,
+      "tokens_out": 114,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1750,
+      "tokens_in": 1435,
+      "tokens_out": 315,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 21,
+      "duration_ms": 16052,
+      "ai_wait_ms": 14200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

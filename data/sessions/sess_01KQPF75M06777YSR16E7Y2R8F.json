@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQPF75M06777YSR16E7Y2R8F",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "how may insurance companies are in rwanda",
+  "started_at": "2026-05-03T08:28:00Z",
+  "ended_at": "2026-05-03T08:28:20.300000Z",
+  "duration_ms": 20300,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "how may insurance companies are in rwanda",
+      "started_at": "2026-05-03T08:28:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to real-time information or statistics. However, according to the latest available data from the Rwanda National Bank, there were 13 licensed insurance companies operating in Rwanda as of December 2020.",
+      "started_at": "2026-05-03T08:28:02.420000Z",
+      "duration_ms": 3280,
+      "tokens_in": 0,
+      "tokens_out": 62,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "give a video of Obama today",
+      "started_at": "2026-05-03T08:28:07.200000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "I'm sorry, but as an AI language model, I cannot provide a video of Obama \"today\" as I do not have access to real-time information. Additionally, without context, I do not know what event or occasion you are referring to. However, you can search for recent videos of Barack Obama on news websites or video-hosting platforms.",
+      "started_at": "2026-05-03T08:28:09.572000Z",
+      "duration_ms": 4040,
+      "tokens_in": 0,
+      "tokens_out": 81,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "give me a sample letter of employement",
+      "started_at": "2026-05-03T08:28:15.112000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Dear [Employee Name],\n\nWe are pleased to offer you the position of [Job Title] with [Company Name]. This is an exciting opportunity for you to join our team in [Location] and become a valued member of our organization.\n\nAs discussed during the interview process, your start date will be [Date]. Your initial job duties and responsibilities will include but are not limited to:\n\n- [Job Duty/Responsibility 1]\n- [Job Duty/Responsibility 2]\n- [Job Duty/Responsibility 3]\n- [Job Duty/Responsibility 4]\n\nYour starting salary will be [Salary] per [Annually/Hourly/Monthly] and you will be paid in accordance with the company's payroll schedule. You will also be eligible for company benefits such as [List of Benefits].\n\nPlease review and sign the enclosed copy of the employment agreement and return it to us by [Date] if you accept the terms and conditions of employment. We look forward to having you on board!\n\nSincerely,\n\n[Employer Name]\n[Company Name]",
+      "started_at": "2026-05-03T08:28:17.520000Z",
+      "duration_ms": 10280,
+      "tokens_in": 0,
+      "tokens_out": 237,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2436,
+      "tokens_in": 2056,
+      "tokens_out": 380,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 25,
+      "duration_ms": 20300,
+      "ai_wait_ms": 17600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

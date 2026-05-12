@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQKGJKJ02Z7FCN3ZYH9XMX78",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "what is global trade compliance for a company?",
+  "started_at": "2026-05-02T04:54:00Z",
+  "ended_at": "2026-05-02T04:54:23.144000Z",
+  "duration_ms": 23144,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what is global trade compliance for a company?",
+      "started_at": "2026-05-02T04:54:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Global trade compliance for a company refers to the adherence to international laws, rules, and regulations governing the movement of goods and services across borders. This includes compliance with customs laws, trade agreements, export controls, trade sanctions, and other regulations. A company that ensures global trade compliance will be able to conduct business smoothly and avoid legal or financial risks associated with non-compliance. It involves establishing policies, procedures, and processes to manage any potential risks associated with global trade such as preventing money laundering, financing of terrorism as well as facilitating smooth trade relations.",
+      "started_at": "2026-05-02T04:54:02.432000Z",
+      "duration_ms": 7480,
+      "tokens_in": 0,
+      "tokens_out": 167,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what are the main roles of trade compliance?",
+      "started_at": "2026-05-02T04:54:11.412000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The main roles of trade compliance are to ensure that a company is following international trade laws and regulations. These roles include:\n\n1. Risk assessment: To identify, evaluate, and manage risks related to trade compliance, such as potential violations of export laws and regulations.\n\n2. Documentation and recordkeeping: To ensure that all necessary documentation is accurate and available, such as import/export licenses, shipment details, and customs declarations.\n\n3. Internal controls: To establish procedures and policies that promote compliance with international trade laws, such as training programs for employees, and an internal audit function.\n\n4. Screening: To screen customers, suppliers, and other third parties against lists of sanctioned persons and entities to ensure that there are no violations of trade sanctions.\n\n5. Reporting: To report any non-compliance to the relevant authorities.\n\n6. Communication: To ensure that all relevant stakeholders, such as suppliers and customs brokers, are aware of the company's trade compliance policies and procedures. \n\nOverall, the main role of trade compliance is to ensure that a company operates within the legal framework of international trade and avoids any legal, financial, and reputational risks associated with non-compliance.",
+      "started_at": "2026-05-02T04:54:13.844000Z",
+      "duration_ms": 13800,
+      "tokens_in": 0,
+      "tokens_out": 325,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1892,
+      "tokens_in": 1400,
+      "tokens_out": 492,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 22,
+      "duration_ms": 23144,
+      "ai_wait_ms": 21280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

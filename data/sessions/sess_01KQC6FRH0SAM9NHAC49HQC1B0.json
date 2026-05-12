@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQC6FRH0SAM9NHAC49HQC1B0",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "edit: (a)\tWhat incentives actually have a significant impact on patients\u2019 intention toward the continued use of digital \u2026",
+  "started_at": "2026-04-29T08:43:00Z",
+  "ended_at": "2026-04-29T08:43:09.612000Z",
+  "duration_ms": 9612,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: (a)\tWhat incentives actually have a significant impact on patients\u2019 intention toward the continued use of digital therapeutics?",
+      "started_at": "2026-04-29T08:43:00Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "What are the incentives that significantly influence patients' intentions to continue using digital therapeutics?",
+      "started_at": "2026-04-29T08:43:02.696000Z",
+      "duration_ms": 1920,
+      "tokens_in": 0,
+      "tokens_out": 28,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Therefore, the research project aims to investigate the factors influencing users' intention to continuously use digital therapeutics through a cross-country vignette study in Canada and Germany with a significant cultural distance in terms of long-term orientation. ",
+      "started_at": "2026-04-29T08:43:06.116000Z",
+      "duration_ms": 1616,
+      "tokens_in": 68,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Therefore, this research project seeks to examine the factors that affect users' willingness to persist in using digital therapeutics through a cross-country vignette study conducted in Canada and Germany. The study will focus on identifying the cultural differences between the two countries, particularly in terms of their long-term orientation, that may impact users' attitudes towards digital therapeutics.",
+      "started_at": "2026-04-29T08:43:09.232000Z",
+      "duration_ms": 4880,
+      "tokens_in": 0,
+      "tokens_out": 102,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1492,
+      "tokens_in": 1362,
+      "tokens_out": 130,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 101,
+      "duration_ms": 9612,
+      "ai_wait_ms": 6800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0009,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

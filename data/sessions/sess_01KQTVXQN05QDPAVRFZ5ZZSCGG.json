@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQTVXQN05QDPAVRFZ5ZZSCGG",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "You work at large custom software development company as a business development manager in fintech field. Write summary \u2026",
+  "started_at": "2026-05-05T01:27:00Z",
+  "ended_at": "2026-05-05T01:27:18.016000Z",
+  "duration_ms": 18016,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "You work at large custom software development company as a business development manager in fintech field. Write summary for linked in about you",
+      "started_at": "2026-05-05T01:27:00Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As a Business Development Manager in the fintech field at a large custom software development company, I have a passion for helping businesses grow and thrive through innovative solutions. With extensive experience in the financial industry, I bring a unique perspective to the table, allowing me to partner with clients to identify key pain points and develop strategic solutions that deliver measurable results. My strong background in customer relationship management, sales, and strategic planning has helped me build a reputation as an exceptional leader and collaborator. I am skilled at building long-lasting relationships with clients, cultivating new business opportunities, and driving revenue growth for my company.",
+      "started_at": "2026-05-05T01:27:02.720000Z",
+      "duration_ms": 8040,
+      "tokens_in": 0,
+      "tokens_out": 181,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "rewrite in reality you are lead generation specialist",
+      "started_at": "2026-05-05T01:27:12.260000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As a lead generation specialist, my primary focus is on driving revenue growth for my company by identifying new business opportunities and cultivating relationships with potential clients. I have a proven track record of success in generating high-quality leads, leveraging marketing strategies and tools to increase visibility and boost engagement. Through my deep understanding of customer needs and preferences, I am able to develop targeted campaigns that effectively communicate our value proposition and attract qualified prospects. With a strong background in sales and customer relationship management, I excel at building long-term partnerships with clients and delivering measurable results.",
+      "started_at": "2026-05-05T01:27:14.716000Z",
+      "duration_ms": 7800,
+      "tokens_in": 0,
+      "tokens_out": 175,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1820,
+      "tokens_in": 1464,
+      "tokens_out": 356,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 48,
+      "duration_ms": 18016,
+      "ai_wait_ms": 15840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

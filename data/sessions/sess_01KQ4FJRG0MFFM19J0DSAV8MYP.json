@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ4FJRG0MFFM19J0DSAV8MYP",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "rewrite and make unique Elinext is a leading financial software development company that has been providing top-notch fi\u2026",
+  "started_at": "2026-04-26T08:48:00Z",
+  "ended_at": "2026-04-26T08:48:32.180000Z",
+  "duration_ms": 32180,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": " rewrite and make unique Elinext is a leading financial software development company that has been providing top-notch financial software solutions and development teams for businesses and banks worldwide for over 25 years. With over 700 skilled and experienced professionals in-house, we have continually delivered excellent and cost-effective IT solutions to our clients.\n\nHere is what issues we address by designing our custom software: Banking, Accounting, Payments, InsurTech, Trading Instruments. We have strong Back-End skills, Front-End (Angular, React.js, etc.), mobile (native and cross-platform), QA and testing, DevOps, UI/UX, PM/Scrum Master, BA, Technical Writer, ML/AI services.\n\nElinext offers a broad range of software development services and solutions to help fintech companies and banks stay competitive in the dynamic financial industry.",
+      "started_at": "2026-04-26T08:48:00Z",
+      "duration_ms": 3368,
+      "tokens_in": 214,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "For the past 25 years, Elinext has been a pioneering financial software development company that caters to the needs of businesses and banks worldwide. With a pool of more than 700 skilled and experienced professionals, we consistently provide exceptional and cost-effective IT solutions to meet our clients' needs.\n\nOur custom software addresses significant financial issues such as banking, accounting, payments, insurtech, and trading instruments. We have extensive background in back-end, front-end (including Angular and React.js), mobile (native and cross-platform), QA and testing, DevOps, UI/UX, PM/Scrum Master, BA, Technical Writer, and ML/AI services.\n\nElinext offers a wide variety of software development services and solutions designed to help fintech companies and banks remain competitive in the ever-changing financial industry.",
+      "started_at": "2026-04-26T08:48:04.868000Z",
+      "duration_ms": 9240,
+      "tokens_in": 0,
+      "tokens_out": 211,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "expand",
+      "started_at": "2026-04-26T08:48:15.608000Z",
+      "duration_ms": 812,
+      "tokens_in": 1,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Elinext is a pioneering financial software development company that has been delivering top-notch financial software solutions and development teams to businesses and banks worldwide for over 25 years. Over the years, we have continuously provided exceptional and cost-effective IT solutions by combining our expertise with innovation, cutting-edge technology, and a deep understanding of the financial industry.\n\nWith our headquarters located in the United States and offices spread across Europe and Asia, Elinext has an impressive team of more than 700 skilled and experienced professionals in-house. From developers to designers, project managers, quality assurance experts, and business analysts, we have assembled a team dedicated to meeting and exceeding our clients' expectations.\n\nAt Elinext, we aim to stay ahead of the curve by addressing significant financial issues such as banking, accounting, payments, insurtech, and trading instruments. Our custom software solutions are built on the latest technology stacks, from back-end to front-end, mobile, QA and testing, DevOps, UI/UX, PM/Scrum Master, BA, Technical Writer, and ML/AI services.\n\nWe take pride in our ability to provide tailored solutions that address our clients' specific requirements, from software development to integration, app development, and more. Our portfolio features multiple successful fintech products and solutions developed and delivered to clients globally.\n\nIn conclusion, Elinext offers a broad range of software development services and solutions designed to help fintech companies and banks stay competitive in the ever-changing financial industry. With our experienced team, innovative ideas, and cutting-edge technology, we are confident in our ability to deliver exceptional results to our clients.",
+      "started_at": "2026-04-26T08:48:17.920000Z",
+      "duration_ms": 18760,
+      "tokens_in": 0,
+      "tokens_out": 449,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2500,
+      "tokens_in": 1840,
+      "tokens_out": 660,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 215,
+      "duration_ms": 32180,
+      "ai_wait_ms": 28000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

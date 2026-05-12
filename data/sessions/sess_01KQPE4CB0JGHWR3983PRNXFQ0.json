@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQPE4CB0JGHWR3983PRNXFQ0",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "can you summarize eu aml package?",
+  "started_at": "2026-05-03T08:09:00Z",
+  "ended_at": "2026-05-03T08:09:22.972000Z",
+  "duration_ms": 22972,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "can you summarize eu aml package?",
+      "started_at": "2026-05-03T08:09:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot produce summaries without a specific and clear context. There are many different EU AML packages related to different directives or regulations that have been issued by the European Union to combat money laundering and terrorism financing. Some of these packages include the 4th and 5th Anti-Money Laundering Directives, the 6th Anti-Money Laundering Directive, and the EU Action Plan for a comprehensive policy on preventing money laundering and terrorism financing. Each package has its specific objectives, scope, and measures to enhance the EU's AML/CFT framework.",
+      "started_at": "2026-05-03T08:09:02.396000Z",
+      "duration_ms": 6800,
+      "tokens_in": 0,
+      "tokens_out": 150,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "I mean future AML package that includes AML Regulation and will replace current directives models. Give me a summary in bullet points",
+      "started_at": "2026-05-03T08:09:10.696000Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here are some key points on the upcoming EU AML/CFT regulatory framework, known as the AML Regulation:\n\n- The AML Regulation is currently being proposed as a reform of the existing EU AML/CFT framework, which includes four separate directives.\n- The new framework aims to create a more harmonized and effective AML/CFT regime across the EU. \n- It will introduce a unified set of rules that would apply directly to all EU member states without the need for transposition or national implementation.\n- Entities subject to the AML Regulation would include financial institutions, virtual asset service providers, and a range of other businesses and professions that are susceptible to money laundering and terrorist financing risks.\n- The focus of the AML Regulation will be on risk-based measures, which should enable a more proportionate and efficient approach to AML/CFT compliance. \n- New supervisory and enforcement mechanisms will also be introduced, including centralized EU-level supervisory and coordination powers.\n- The AML Regulation will extend beyond the traditional AML/CFT requirements to also include measures aimed at enhancing the detection and prevention of tax evasion.\n- The proposal is currently being reviewed by both the EU Council and Parliament, and the final text is expected to be adopted in 2022.",
+      "started_at": "2026-05-03T08:09:13.392000Z",
+      "duration_ms": 14080,
+      "tokens_in": 0,
+      "tokens_out": 332,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1881,
+      "tokens_in": 1399,
+      "tokens_out": 482,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 41,
+      "duration_ms": 22972,
+      "ai_wait_ms": 20880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

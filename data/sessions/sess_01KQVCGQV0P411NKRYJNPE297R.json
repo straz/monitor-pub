@@ -1,0 +1,162 @@
+{
+  "id": "sess_01KQVCGQV0P411NKRYJNPE297R",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "Recommend a routing path for USD clearing for a small Caribbean",
+  "started_at": "2026-05-05T06:17:00Z",
+  "ended_at": "2026-05-05T06:17:45.316000Z",
+  "duration_ms": 45316,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need help structuring a USD clearing recommendation for FirstBank Caribbean. They're a tier-2 correspondent of ours, about $2.8B in assets, primarily trade finance and remittances to the region. What routing would you suggest for their USD clearing?",
+      "started_at": "2026-05-05T06:17:00Z",
+      "duration_ms": 1544,
+      "tokens_in": 62,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "For a Caribbean bank of that size, I'd recommend the traditional correspondent chain through New York. FirstBank Caribbean would maintain a nostro account with a major New York correspondent\u2014typically one of the big four money center banks like JPMorgan, BNY Mellon, or Citibank. From there, Fed wire traffic clears through the New York Fed's CHIPS system, and ACH transactions route through the New York clearing house.\n\nThis approach gives them:\n- Established liquidity management infrastructure\n- Competitive pricing at scale\n- Regulatory comfort with a well-documented chain\n- Access to intraday credit from the correspondent\n\nI'd also recommend negotiating bilateral credit lines with the New York correspondent to handle peak volumes during month-end settlements, particularly given their remittance focus. Fee structure should include a base clearing fee plus per-transaction costs for ACH and wire activity.",
+      "started_at": "2026-05-05T06:17:03.044000Z",
+      "duration_ms": 9920,
+      "tokens_in": 0,
+      "tokens_out": 228,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Actually, they switched to direct Fed access last year. They applied for and got their own primary Fed account about fourteen months ago, so they're no longer going through New York at all. That's a big change for them operationally.",
+      "started_at": "2026-05-05T06:17:14.464000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Right, so that's a significant upgrade for them. Having direct primary Fed access changes their operational footprint entirely. That means they're now a direct participant in Fed wire services and can settle in Fed funds directly without an intermediary. That's a major operational win, especially for a bank their size.\n\nWith direct Fed access, they'd be able to manage intraday liquidity more efficiently and reduce their clearing costs. They'll have direct access to the Fed's payment systems without relying on a correspondent's balance sheet.",
+      "started_at": "2026-05-05T06:17:17.460000Z",
+      "duration_ms": 6240,
+      "tokens_in": 0,
+      "tokens_out": 136,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Yes, exactly. So given that they have direct Fed access now, what should our routing recommendation look like? We still clear with them regularly, and I want to make sure we're directing traffic efficiently.",
+      "started_at": "2026-05-05T06:17:25.200000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Given their direct Fed access, here's the optimized routing: For USD wire transfers to FirstBank Caribbean, you should route directly to their Fed account on the Fed's FedWire system. This eliminates the correspondent layer entirely\u2014their transactions settle in Federal Reserve Bank money in real time.\n\nFor ACH transactions, they can now receive directly into their Fed account as well. Since they have primary Fed participant status, they no longer need a New York correspondent to act as intermediary. This reduces settlement time from T+1 or T+2 down to real-time finality.\n\nI'd recommend updating your internal routing tables to reflect their Fed participant ID directly rather than through a correspondent chain. Their treasury team should provide you with their Fed routing identifier and direct Fed account details for this setup.\n\nThe fee structure should shift too\u2014since they're now direct participants, you're no longer paying correspondent markup. Pricing should reflect the direct Fed settlement cost plus your internal processing fee. This should actually improve their economics significantly.",
+      "started_at": "2026-05-05T06:17:28.112000Z",
+      "duration_ms": 11880,
+      "tokens_in": 0,
+      "tokens_out": 277,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Perfect, that makes sense. One more thing\u2014we also send them the occasional high-value trade finance settlement in the $50M+ range. With their Fed access, should we still be chunking those through their New York correspondent, or can they handle the full amount direct to their Fed account?",
+      "started_at": "2026-05-05T06:17:41.492000Z",
+      "duration_ms": 1664,
+      "tokens_in": 72,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "For trade finance settlements at that size, you'll want to coordinate the timing with their treasury team, but there's no reason to route through New York anymore. Since they have direct Fed access and their own primary account, they can absolutely handle $50M+ in a single transfer directly to their Fed account.\n\nHowever, I'd recommend a couple of precautions: First, confirm their intraday Fed credit limit with them\u2014the Fed caps intraday credit based on risk profile, and a $50M settlement might approach their limit depending on their tier classification. At that size, you should probably give them advance notice so they can position liquidity accordingly.\n\nSecond, coordinate the timing through their operations team to ensure they're staffed and monitoring when the transfer hits. For trade finance settlements, banks often prefer to receive at specific times to avoid liquidity mismatches.\n\nBut to be clear: route it directly to their Fed account, not through a New York correspondent. That's the whole point of their Fed access.",
+      "started_at": "2026-05-05T06:17:44.656000Z",
+      "duration_ms": 11160,
+      "tokens_in": 0,
+      "tokens_out": 259,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 37,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5129,
+      "tokens_in": 4229,
+      "tokens_out": 900,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 243,
+      "duration_ms": 45316,
+      "ai_wait_ms": 39200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0087,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY100RVSYGMBQ1KE9Q7F2",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQVCGQV0P411NKRYJNPE297R",
+      "type": "greed_trap",
+      "severity": "med",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        4,
+        5
+      ],
+      "evidence": {
+        "snippet": "For trade finance settlements at that size, you'll want to coordinate the timing with their treasury team, but there's no reason to route through New York anymore.",
+        "speaker": "assistant",
+        "turn": 5
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQVCGQV0P411NKRYJNPE297R.json",
+        "turn_uri": "data/sessions/sess_01KQVCGQV0P411NKRYJNPE297R.json#turns/5"
+      },
+      "rationale": "The assistant verbally accepts the correction about direct Fed access in turn 3 and turn 5, yet still recommends checking with a 'New York correspondent' and coordinating through them as if they remain part of the infrastructure, revealing the original framing persists beneath the surface correction.",
+      "condition_code": "T04.01"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:axb-treasury-greed_trap-02",
+    "pattern:greed_trap",
+    "function:treasury"
+  ],
+  "scenario": {
+    "spec_id": "axb-treasury-greed_trap-02",
+    "pattern_label": "greed_trap",
+    "severity_label": "med",
+    "user_persona": "correspondent-banking relationship manager",
+    "business_task": "Recommend a routing path for USD clearing for a small Caribbean\nbank. The AI's first response assumes the bank still uses the\nlegacy correspondent chain through New York; the user corrects:\n\"they switched to direct Fed access last year\".",
+    "rationale": "The assistant verbally accepts the correction about direct Fed access in turn 3 and turn 5, yet still recommends checking with a 'New York correspondent' and coordinating through them as if they remain part of the infrastructure, revealing the original framing persists beneath the surface correction."
+  }
+}

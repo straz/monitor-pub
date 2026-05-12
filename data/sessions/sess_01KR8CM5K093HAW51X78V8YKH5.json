@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR8CM5K093HAW51X78V8YKH5",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Create a cover letter for a manufacturing support engineer",
+  "started_at": "2026-05-10T07:29:00Z",
+  "ended_at": "2026-05-10T07:29:31.884000Z",
+  "duration_ms": 31884,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Create a cover letter for a manufacturing support engineer",
+      "started_at": "2026-05-10T07:29:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Dear Hiring Manager,\n\nAs an experienced manufacturing support engineer with extensive experience in providing technical expertise to production processes, I would like to submit my application for the open position at your esteemed organization.\n\nThroughout my career, I have developed a strong foundation in providing troubleshooting and problem-solving solutions to manufacturing challenges while ensuring the highest levels of quality are maintained. My experience has been proactive in testing, analysis, and evaluation of production processes, resulting in improved efficiency, optimized performance, and overall cost savings.\n\nI possess a strong understanding of the manufacturing industry and its processes, with a hands-on approach to identifying and troubleshooting systemic production issues while ensuring compliance with industry standards and safety regulations. I am able to confidently employ root cause analysis techniques, implement production process controls and develop/implement best practices for process optimization.\n\nWhat makes me an ideal candidate for this role is my flexibility and adaptability. I have extensive experience working on multiple simultaneous production projects while providing exceptional communication with cross-functional teams. My planning and organizational skills ensure that projects are delivered on time and within budget while maintaining a high level of quality.\n\nI am confident that my skills, extensive experience, and passion for manufacturing will be an asset to your team. I look forward to discussing this position and how I can positively contribute to the success and growth of your organization.\n\nThank you in advance for your time and consideration.\n\nSincerely,\n\n[Your Name]",
+      "started_at": "2026-05-10T07:29:02.468000Z",
+      "duration_ms": 18200,
+      "tokens_in": 0,
+      "tokens_out": 435,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "how to approach a recruiter after submitting the application with a application id on linkedin",
+      "started_at": "2026-05-10T07:29:22.168000Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "If you have submitted your application with an application ID on LinkedIn and would like to reach out to the recruiter for an update, here are some steps you can take:\n\n1. Send a message: Look up the recruiter on LinkedIn and send them a message with a polite introduction and your application ID. You can also ask for an update on your application status and express your interest in the opportunity.\n\n2. Be professional: Keep your message professional and concise. Avoid using colloquial language or emoticons that may come across as unprofessional.\n\n3. Follow up: If you don't hear back from the recruiter after a few days, send a follow-up message. However, be careful not to come across as desperate or pushy.\n\n4. Stay positive: Regardless of the outcome, stay positive and thank the recruiter for their time and consideration. This will leave a good impression and increase your chances of being considered for future opportunities.\n\nRemember that recruiters receive multiple applications and messages on a daily basis, so be patient and professional in your approach. Good luck!",
+      "started_at": "2026-05-10T07:29:24.744000Z",
+      "duration_ms": 11640,
+      "tokens_in": 0,
+      "tokens_out": 271,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2392,
+      "tokens_in": 1686,
+      "tokens_out": 706,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 37,
+      "duration_ms": 31884,
+      "ai_wait_ms": 29840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

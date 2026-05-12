@@ -1,0 +1,193 @@
+{
+  "id": "sess_01KR5P93M0T3XGA3NK9MCSW2HB",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "Reading Comprehension",
+  "started_at": "2026-05-09T06:20:00Z",
+  "ended_at": "2026-05-09T06:20:37.908000Z",
+  "duration_ms": 37908,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Reading Comprehension\nTask one: The following are ten statements, each of which contains information given in one of the paragraphs of text A (paragraph 8-10 can be regarded as one single part). Match the information with the paragraph(s) from which it is derived. Answer the questions by writing down the corresponding letters. (30\uff05\u00a03\u2019\u00a0each)\n1).\u00a0 paragraph 1_____\u00a0\u00a0 2). paragraph 2_____\u00a0\u00a0 3). paragraph 3_____ 4). paragraph 4_____\n5).\u00a0 paragraph 5 _____\u00a0 6). paragraph 6_____\u00a0\u00a0 7). paragraph 7_____ 8). paragraph8-10_____\n9).\u00a0 paragraph 11______ 10). paragraph 12_____\nA.\u00a0Bob Miller gave away his tennis rackets, which was an ominous sign.\u00a0\nB.\u00a0Our economy is rapidly changing from a money economy to a satisfaction economy.\nC.\u00a0Money is losing its power, and raises, promotions, and overtime pay cannot increase life satisfaction.\nD.\u00a0If one regards work as a calling, he will never stop work even if he gains no money or advancement.\nE.\u00a0By making sure the patients could see beautiful things the moment they wake up, the orderly thinks he takes care of their health.\nF.\u00a0Bob failed to make the regular route run due to a truck accident on one October morning.\nG.\u00a0Education has undergone a sea change in the past 40 years, with humiliation being substituted with a better route to learning.\u00a0\nH.\u00a0One may mark his achievement through both money and advancement if he regards work as a career.\nI.\u00a0When Bob\u2019s doctor asked me for my consent to take off his life support, I found it difficult to make the decision.\nJ.\u00a0The hospital orderly carefully selects prints of masters\u2019 works and puts them on the walls of the hospital ward.",
+      "started_at": "2026-05-09T06:20:00Z",
+      "duration_ms": 5660,
+      "tokens_in": 405,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1) F\n2) G\n3) C\n4) H\n5) E\n6) D\n7) B\n8) A\n9) I\n10) J",
+      "started_at": "2026-05-09T06:20:07.160000Z",
+      "duration_ms": 1280,
+      "tokens_in": 0,
+      "tokens_out": 12,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Task one: Choose a proper word for each of the following sentences. Write the exact word on the answer sheet.\nattachment \u00a0\u00a0surpasses \u00a0 \u00a0\u00a0dissent \u00a0\u00a0retention \u00a0 \u00a0\u00a0unobtrusive\u00a0 \u00a0glazedentails \u00a0\u00a0\u00a0confederates \u00a0\u00a0skeptical \u00a0 \u00a0\u00a0perceive \u00a0\u00a0enormity \u00a0 \u00a0\u00a0fanatical \n1.\u00a0\u00a0\u00a0\u00a0\u00a0China now ________ Europe as a base for spacecraft launches, while India and Japan send up a few every year.\u00a0\n2.\u00a0\u00a0\u00a0\u00a0\u00a0If you are ________ about something, you have doubts about it.\u00a0\n3.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0But what was perhaps most astonishing about Mr. Jobs was the ________ loyalty he managed to inspire in customers.\n4.\u00a0\u00a0\u00a0\u00a0\u00a0People in the whole world are still coming to terms with the _______ of the natural disaster.\u00a0\u00a0\n5.\u00a0\u00a0\u00a0\u00a0\u00a0Can you accept online advertising, if it is ________, relevant and fun?\u00a0\n6.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0If you describe someone's eyes as\u00a0_______, you mean that their expression is dull or dreamy, usually because they are tired or are having difficulty concentrating on something.\u00a0\n7.\u00a0\u00a0\u00a0\u00a0\u00a0When you send an e-mail you can also send a file as a(n)________ and that file can be a graphic, a sound or whatever.\u00a0\u00a0\n8.\u00a0\u00a0\u00a0\u00a0\u00a0As this article has shown, implementing the DAO pattern ______ more than just writing low-level data access code.\u00a0\n9.\u00a0\u00a0\u00a0\u00a0\u00a0For another, frequent recruitment and _________ of suitable employees will cost the organization more expenditure.\n10.\u00a0\u00a0\u00a0Trump government\u2019s policy of epidemic prevention and control has drawn _______ at home and criticism abroad.\u00a0\n11.\u00a0\u00a0\u00a0Someone\u2019s\u00a0________\u00a0are the people they are working with in a secret activity.\n12.\u00a0\u00a0\u00a0How you face and ________ these challenges will determine your stress and anxiety levels throughout this process.\u00a0",
+      "started_at": "2026-05-09T06:20:09.940000Z",
+      "duration_ms": 5672,
+      "tokens_in": 406,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. surpasses\n2. skeptical\n3. fanatical\n4. enormity\n5. unobtrusive\n6. glazed\n7. attachment\n8. entails\n9. retention\n10. dissent\n11. confederates\n12. perceive",
+      "started_at": "2026-05-09T06:20:17.112000Z",
+      "duration_ms": 2320,
+      "tokens_in": 0,
+      "tokens_out": 38,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Task two: Complete the following sentences with the proper forms of the words given in the brackets after each sentence.\n1.\u00a0\u00a0\u00a0\u00a0\u00a0Google receives a resume every two seconds, but the ______staff say they still struggle to find the right people, in part because Google has a reputation for having a tough hiring policy. (recruit)\n2.\u00a0\u00a0\u00a0\u00a0\u00a0Fear of failure, _______or making mistakes hinders our creative impulses and our ability to create extraordinary changes in the world.\u00a0 (humiliate)\n3.\u00a0\u00a0\u00a0\u00a0\u00a0Modernized, urbanized and_______ as many of us are, these photographs remind us of nature's many complexities and subtleties. (alienate)\n4.\u00a0\u00a0\u00a0\u00a0\u00a0You can use these automations to improve the__________ of your team, improve the quality of the solution, and support your governance process. (productive)\n5.\u00a0\u00a0\u00a0\u00a0\u00a0We are ______ that the death rate from COVID-19 has been coming down, and the Chinese top medical staff is determined to keep pushing for more research to develop lifesaving medicines. (gratify)\n6.\u00a0\u00a0\u00a0\u00a0\u00a0Studies in two ________ scientific journals say dark chocolate -- but not white chocolate or milk chocolate -- is good for your health. (prestige)\n7.\u00a0\u00a0\u00a0\u00a0\u00a0China provides the African countries with necessary assistance in ________ with common practices on the basis of humanitarianism. (conform)\n8.\u00a0 \u00a0The fact that the proposal won ________support reflects the deep concern of the international community about the dangers posed by such tests. (unanimity)",
+      "started_at": "2026-05-09T06:20:20.932000Z",
+      "duration_ms": 5144,
+      "tokens_in": 362,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. recruiting\n2. humiliation\n3. alienated\n4. productivity\n5. gratified\n6. prestigious\n7. conformity\n8. unanimous",
+      "started_at": "2026-05-09T06:20:27.576000Z",
+      "duration_ms": 1920,
+      "tokens_in": 0,
+      "tokens_out": 28,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Vocabulary (70\uff05\u00a03.5\u2019each)\nTask one:\u00a0Fill in the blanks\u00a0of the following sentences\u00a0by choosing\u00a0a proper word\u00a0or expression provided in the box.\u00a0Change the form of the word or expression if necessary.\u00a0Each word or expression can be used only ONCE.\nacknowledge \u00a0\u00a0\u00a0assert \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0assimilate\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0diversity \u00a0\u00a0\u00a0\u00a0equivalent \u00a0\u00a0\u00a0\u00a0\u00a0envisionglobal\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0institution \u00a0\u00a0\u00a0\u00a0framework \u00a0\u00a0\u00a0\u00a0transcend \u00a0\u00a0\u00a0\u00a0bound to \u00a0\u00a0\u00a0\u00a0\u00a0\u00a0in this regard \n1.\u00a0Halliday's theoretical __________ has shown that language is a socially constructed system.\n2.\u00a0To believe in the 'superiority' of the American system is the political ___________ in believing in the horoscope or the tooth fairy.\n3.\u00a0This is to __________ that racism is not just a belief, but also an action.\n4.\u00a0Museums and other ___________ of informal learning may be better suited to teach this skill than elementary schools.\n5.\u00a0The company's problems,\u00a0_____________, are certainly not unique.\n6.\u00a0He\u2019s speaking up and ________ himself confidently.\n7.\u00a0All of these changes in the\u00a0________\u00a0market had a dramatic effect on the labour market within Britain.\n8.\u00a0The ethnic populations are so intermingled that there\u2019s __________ be conflict.\n9.\u00a0Few countries have as rich a __________ of habitat as South Africa.\n10.\u00a0There is every sign that new Asian-Americans are just as willing to __________.\n11.\u00a0Through imagination, we are able to _________ distant future.\n12.\u00a0John Kennedy appealed to the idea that humans can _________ what were once considered inherent limitations.",
+      "started_at": "2026-05-09T06:20:30.996000Z",
+      "duration_ms": 5276,
+      "tokens_in": 373,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "1. framework\n2. equivalent\n3. assert\n4. institutions\n5. in this regard\n6. asserting\n7. global\n8. bound to\n9. diversity\n10. assimilate\n11. envision\n12. transcend",
+      "started_at": "2026-05-09T06:20:37.772000Z",
+      "duration_ms": 2400,
+      "tokens_in": 0,
+      "tokens_out": 40,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Task Two\nDirection:\u00a0The\u00a0word\u00a0\u201cyield\u201d\u00a0and\u00a0\u201ccontract\u201d\u00a0have different meanings in different contexts. Read the following sentences and try to find the right definition for the word in each sentence. Put\u00a0the representing letter\u00a0of the definition on the space provided.\nDefinitions of\u00a0\u201cyield\u201d A)\u00a0to give in, as to influence or pressureB)\u00a0to allow someone else to have control or responsibility for somethingC)\u00a0the amount of food produced on an area of land or by a number of animalsD)\u00a0(for a tax or investment) to produce money or profitE)\u00a0to produce a result or a piece of information \n________ 1. The President is now under pressure to\u00a0yield\u00a0power to the republic.\n________ 2. Better irrigation can dramatically improve crop\u00a0yield.\n________ 3. This research has been in progress and has\u00a0yielded\u00a0a great number of positive results.\n________ 4. They often go into fields\u00a0yielding\u00a0greater financial benefits.\n________ 5. If the government does not\u00a0yield, it should face sufficient military force to ensure its certain defeat.\nDefinitions of\u00a0\u201ccontract\u201d F)\u00a0to become smaller or shorterG)\u00a0a legal agreementH)\u00a0to become ill with a serious illness \n________ 6. The service\u00a0contracts\u00a0include unlimited data use.\n________ 7. Blood is only expelled from the heart when it\u00a0contracts.\n________ 8. He\u00a0contracted\u00a0AIDS from a blood transfusion.",
+      "started_at": "2026-05-09T06:20:41.672000Z",
+      "duration_ms": 4772,
+      "tokens_in": 331,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "1. A\n2. C\n3. E\n4. D\n5. A\n6. G\n7. F\n8. H",
+      "started_at": "2026-05-09T06:20:47.944000Z",
+      "duration_ms": 1160,
+      "tokens_in": 0,
+      "tokens_out": 9,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "Direction: Tell whether the following statements are true or false based on the information in Text A.\n1. Globalization seems to threaten the identity of the individual by making us follow others\u2019\u00a0rules.\nA\u5bf9\nB\u9519",
+      "started_at": "2026-05-09T06:20:50.604000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "B. \u9519(False)",
+      "started_at": "2026-05-09T06:20:53.528000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 62,
+    "human_effort": 60,
+    "ai_cost": 77,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 11855,
+      "tokens_in": 11726,
+      "tokens_out": 129,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 1929,
+      "duration_ms": 37908,
+      "ai_wait_ms": 9960,
+      "user_corrections": 1,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0061,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00S4DDZ3MR205S0CNH",
+      "tenant": "axiom-bank",
+      "session": "sess_01KR5P93M0T3XGA3NK9MCSW2HB",
+      "type": "session_user_frustration",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        0,
+        0
+      ],
+      "evidence": {
+        "snippet": "Reading Comprehension\nTask one: The following are ten statements, each of which contains information given in one of the paragraphs of text A (paragraph 8-10 can be regarded as one single part). Match the information with the paragraph(s) f",
+        "speaker": "user",
+        "turn": 0
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR5P93M0T3XGA3NK9MCSW2HB.json",
+        "turn_uri": "data/sessions/sess_01KR5P93M0T3XGA3NK9MCSW2HB.json#turns/0"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

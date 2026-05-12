@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP4Z9R10ZT6TACSJ2FVDQJCV",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "question : \"Companies these days now have the option to control their users very well owing to the",
+  "started_at": "2026-04-14T03:07:00Z",
+  "ended_at": "2026-04-14T03:07:38.808000Z",
+  "duration_ms": 38808,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "question : \"Companies these days now have the option to control their users very well owing to the\nintroduction of token management systems that possess a well-developed database.\nFeatures needed \u2013\n\u25cf This definitely assists in handling tokens in a more simple way\n\u25cf Novices should get acquainted with this as it is one of the best SQL project ideas\nthey can begin with.\"\nmake tables for token booking management system in mysql server code dbms",
+      "started_at": "2026-04-14T03:07:00Z",
+      "duration_ms": 2132,
+      "tokens_in": 111,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "To create a token management system in MySQL, you can start by creating the following tables:\n\n1. `users` - to store user information\n2. `tokens` - to store token details\n3. `token_bookings` - to store token booking details\n\nHere is the SQL code to create these tables:\n\n```sql\n-- Create the users table\nCREATE TABLE users (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    first_name VARCHAR(50) NOT NULL,\n    last_name VARCHAR(50) NOT NULL,\n    email VARCHAR(100) UNIQUE NOT NULL,\n    password_hash VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n);\n\n-- Create the tokens table\nCREATE TABLE tokens (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    name VARCHAR(50) UNIQUE NOT NULL,\n    description TEXT,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP\n);\n\n-- Create the token_bookings table\nCREATE TABLE token_bookings (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    user_id INT NOT NULL,\n    token_id INT NOT NULL,\n    booking_date DATE NOT NULL,\n    booking_time TIME NOT NULL,\n    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,\n    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\n    FOREIGN KEY (user_id) REFERENCES users (id),\n    FOREIGN KEY (token_id) REFERENCES tokens (id)\n);\n```\n\nThese tables will allow you to create a token booking management system where users can book tokens, and you can store their booking information. The_foreign_key_constraints_ensure_proper_relationships_between_the_tables_and_restrict_invalid_operations.",
+      "started_at": "2026-04-14T03:07:03.632000Z",
+      "duration_ms": 17280,
+      "tokens_in": 0,
+      "tokens_out": 412,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "can you write query to show one example , how it works",
+      "started_at": "2026-04-14T03:07:22.412000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here's an example of using the created tables for a token booking management system. Let's insert some sample data into the `users` and `tokens` tables and then create a booking using the `token_bookings` table.\n\n1. Insert sample data into the `users` table:\n\n```sql\nINSERT INTO users (first_name, last_name, email, password_hash)\nVALUES ('John', 'Doe', 'john.doe@example.com', 'hashed_password');\n```\n\n2. Insert sample data into the `tokens` table:\n\n```sql\nINSERT INTO tokens (name, description)\nVALUES ('Token A', 'This is a description for Token A.');\n```\n\n3. Create a booking for the user and token:\n\n```sql\nINSERT INTO token_bookings (user_id, token_id, booking_date, booking_time)\nVALUES (1, 1, '2022-12-01', '10:00:00');\n```\n\n4. Query the database to get the booking details along with user and token information:\n\n```sql\nSELECT CONCAT(u.first_name, ' ', u.last_name) AS user_name, \n       u.email AS user_email, \n       t.name AS token_name, \n       t.description AS token_description, \n       tb.booking_date, \n       tb.booking_time\nFROM token_bookings tb\nJOIN users u ON tb.user_id = u.id\nJOIN tokens t ON tb.token_id = t.id;\n```\n\nThis query will return a result similar to:\n\n| user_name | user_email           | token_name | token_description         | booking_date | booking_time |\n|-----------|----------------------|------------|---------------------------|--------------|--------------|\n| John Doe  | john.doe@example.com | Token A    | This is a description for Token A. | 2022-12-01   | 10:00:00     |\n\nThis example demonstrates how to use the token booking management system to store user information, token details, and token bookings in the created tables. You can modify these queries to create more users, tokens, and bookings as needed.",
+      "started_at": "2026-04-14T03:07:24.868000Z",
+      "duration_ms": 18440,
+      "tokens_in": 0,
+      "tokens_out": 441,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2700,
+      "tokens_in": 1847,
+      "tokens_out": 853,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 124,
+      "duration_ms": 38808,
+      "ai_wait_ms": 35720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1066,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

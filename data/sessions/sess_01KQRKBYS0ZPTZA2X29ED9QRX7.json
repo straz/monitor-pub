@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQRKBYS0ZPTZA2X29ED9QRX7",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_009",
+  "title": "I need to write an information security policy. Specifically, an Acceptable Use Policy. This policy should be written in\u2026",
+  "started_at": "2026-05-04T04:19:00Z",
+  "ended_at": "2026-05-04T04:20:57.272000Z",
+  "duration_ms": 117272,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need to write an information security policy. Specifically, an Acceptable Use Policy. This policy should be written in a way to ensure it is SOC 2 compliant. Please provide maximum text/detail to your character limit. Policy items I would like to see, but not limited to: no local administrator access, no usb storage - blocked by a technical control. No expectation of privacy on work's computers. The computers issue to users are property of the employer. Logging and auditing will be enabled. Do not install any software that is not provided by the employer. Anything else you can think of. Make the policy modular so I can add or remove sections to make it more or less restrictive.  The policy should be written for maximum user restriction. I can always remove or alter the policy to allow for different environments. Mention that the employer will be installing technical end point controls including, but not limited to, edr, dlp, casb, mdm, etc. Mention that mandatory patches cannot be deferred. Mention that the expectation is the end point will remain powered on at all times. That the employer can and will reboot the device (during off hours) to comply with patching. Include definitions. Include roles and responsibilities. Include what is unacceptable use. Let's see how far you get with this.",
+      "started_at": "2026-05-04T04:19:00Z",
+      "duration_ms": 4724,
+      "tokens_in": 327,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1.0 Overview\n\nThe Acceptable Use Policy (AUP) defines the acceptable usage of information technology systems, devices, and networks owned by [Company]. This policy is designed to protect the organization's information assets, reputation, and the integrity, confidentiality, and availability of information stored, processed, or transmitted on company-owned devices.\n\n2.0 Purpose\n\nThe purpose of this policy is to outline the acceptable use of technology resources within [Company] in order to:\n\n- Minimize risks associated with unauthorized use, disclosure, or destruction of company information.\n- Maintain compliance with relevant legal and regulatory requirements, including SOC 2.\n- Define roles, responsibilities, and acceptable use to ensure the proper use of company-owned devices.\n\n3.0 Scope\n\nThis policy applies to all employees, contractors, and temporary staff who access and use [Company] technology resources for the purpose of conducting business on behalf of [Company]. This includes company-owned computers, laptops, mobile devices, networks, and other technology resources.\n\n4.0 Roles and Responsibilities\n\n4.1 Employees\n\n- Adhere to the Acceptable Use Policy by using company technology resources and devices within the established guidelines.\n- Report any suspected or actual violations of this policy to their immediate supervisor or the Information Security department.\n\n4.2 Managers and Supervisors\n\n- Ensure that all staff are made aware of, understand, and comply with the Acceptable Use Policy.\n- Escalate any reported AUP violations to the Information Security department.\n\n4.3 Information Security Department\n\n- Oversee and maintain the Acceptable Use Policy, ensuring it remains up-to-date and in compliance with legal and regulatory requirements.\n- Investigate and address any reported AUP violations and recommend necessary actions for resolution and prevention.\n\n5.0 Acceptable Use\n\n5.1 Restrictions and Requirements\n\nThe following restrictions and requirements apply to the use of [Company] technology resources:\n\n- No local administrator access: Users must not have local administrator access on their assigned devices to ensure the security of company data and systems.\n- No USB storage: USB storage devices are not permitted, as they pose a risk of data loss and malware infection. This will be enforced by a technical control.\n- No expectation of privacy: Users should have no expectation of privacy when using company-owned devices. All data stored or transmitted on these devices is considered the property of [Company]. \n- Logging, auditing, and monitoring: All activity on company-owned devices and networks will be logged, audited, and monitored for security purposes.\n- Authorized software only: Users must not install or use any software on their assigned devices that is not provided or approved by [Company]. \n- Endpoint control installation: [Company] will install endpoint security controls, such as EDR, DLP, CASB, MDM, and others, to protect against security threats.\n- Mandatory patching: All users must ensure their devices are up-to-date with the latest patches and software updates. These updates cannot be deferred.\n- Device availability: Company-owned devices must remain powered on at all times to ensure timely patching and updates. Devices may be remotely rebooted by the employer during off-hours to comply with patching requirements.\n\n5.2 Unacceptable Use\n\nThe following activities are unacceptable when using [Company] technology resources:\n\n- Accessing, transmitting, or storing illegal or inappropriate content.\n- Unauthorized access, disclosure, or sharing of company information and intellectual property.\n- Circumventing or attempting to circumvent security measures implemented by [Company].\n- Engaging in any activity that disrupts, degrades, or interferes with the normal functioning of [Company]'s systems, networks, or services.\n\n6.0Definitions\n\n- EDR: Endpoint Detection and Response.\n- DLP: Data Loss Prevention.\n- CASB: Cloud Access Security Broker.\n- MDM: Mobile Device Management.\n\n7.0 Enforcement\n\nAny employee found to have violated this policy may be subject to disciplinary action, up to and including termination of employment. Illegal activities may be reported to the appropriate authorities.\n\n8.0 Policy Review\n\nThis policy will be reviewed annually and updated as necessary to account for changes in technology, legal and regulatory requirements, or other changes that impact the Acceptable Use Policy.",
+      "started_at": "2026-05-04T04:19:06.224000Z",
+      "duration_ms": 45640,
+      "tokens_in": 0,
+      "tokens_out": 1121,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Thanks. Now, based on the policy you just wrote, can I get an exception process. How does someone apply for exception? Who approves? What is the criteria to have an exception granted? What documentation is required for the exception process? Who stores the exception artifacts for audit purposes? For how long? Is there any limit to an exception? Do some exceptions require CEO or Board approvals? Is there a tiered exception process? Or is there just the exception process that covers all possibilities? ",
+      "started_at": "2026-05-04T04:19:53.364000Z",
+      "duration_ms": 2312,
+      "tokens_in": 126,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "9.0 Exception Process\n\nIn certain circumstances, exceptions to the Acceptable Use Policy may be required. The exception process outlined below establishes a structured approach for requesting, reviewing, and approving exceptions to the policy. It also ensures that proper documentation is maintained for audit purposes and that any granted exceptions are time-limited and appropriately reviewed.\n\n9.1 Requesting an Exception\n\nTo request an exception to the Acceptable Use Policy, the employee must:\n\n1. Submit a written request to their immediate supervisor or manager, detailing the nature of the exception, the specific policy section(s) affected, and the business rationale for the exception.\n2. Provide any relevant supporting documentation, such as technical requirements, project plans, risk assessments, or vendor contracts.\n\n9.2 Approval Process\n\n1. The supervisor or manager must review the exception request and initially determine whether it is justified and within their authority to approve.\n2. If the supervisor or manager deems the exception necessary and within their authority, they may grant the exception and proceed to document the decision. If the exception falls outside their approval authority, the request should be escalated to the appropriate level of management (e.g., department head, executive leadership).\n3. In cases where the exception request involves significant security risk or organization-wide impact, the request may require approval from the CEO or Board of Directors.\n\n9.3 Approval Criteria\n\nFor an exception to be granted, the request must:\n\n1. Demonstrate a clear business need that outweighs the potential security risks.\n2. Identify specific actions, controls, or mitigations to minimize the risks associated with granting the exception.\n3. Establish a timeframe for the exception, including start and end dates.\n\n9.4 Documentation and Record-Keeping\n\nAll granted exceptions must be documented, including the justification, approval, and any associated risk mitigations. This documentation should be stored securely by the Information Security department, with limited access granted only to relevant personnel.\n\n9.5 Duration and Review of Exceptions\n\nExceptions should be time-limited, and the duration must be stated in the exception documentation. Regular reviews should be conducted to ensure that the exception is still warranted and that the associated risks are mitigated effectively. If the exception's purpose has concluded, or the associated risks can no longer be mitigated, the exception must be revoked.\n\n9.6 Tiered Exception Process\n\nThough there is a single exception process, the approval authority is tiered based on the level of risk and the scope of the exception. Lower-risk exceptions may be approved by supervisors or managers, while higher-risk or organization-wide exceptions may require approval from executive leadership, the CEO, or the Board of Directors.\n\n9.7 Expiration and Renewal of Exceptions\n\nExceptions have an expiration date based on their approved duration. If an exception is still required beyond the expiration date, a new request must be submitted, and the approval process followed as outlined above.",
+      "started_at": "2026-05-04T04:19:57.176000Z",
+      "duration_ms": 32680,
+      "tokens_in": 0,
+      "tokens_out": 797,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Still referring to the policy you just wrote. Can I get you to expand on what is permitted or acceptable use/activities for the employees/end user? What activities are allowed? Also, can I get a new section covering \"security and proprietary information\"?",
+      "started_at": "2026-05-04T04:20:31.356000Z",
+      "duration_ms": 1556,
+      "tokens_in": 63,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "5.0 Acceptable Use\n\n5.1 Permitted Activities\n\nThe following activities are permitted and encouraged when using [Company] technology resources, provided they comply with the rest of the policy guidelines, legal and regulatory requirements:\n\n- Conducting [Company] business-related tasks and activities.\n- Accessing and using authorized work-related tools and applications.\n- Communicating with colleagues, customers, or partners through approved channels (e.g., email, messaging apps, or collaboration platforms).\n- Participating in authorized online training, webinars, or conferences to enhance professional skills and knowledge.\n- Storing, managing, and sharing work-related documents and data in authorized repositories or cloud services, with appropriate access controls.\n- Researching and gathering relevant information to support work tasks, product development, or decision-making, in compliance with intellectual property and copyright laws.\n\n5.2 Security and Proprietary Information\n\nTo ensure the security and protection of [Company]'s proprietary information and intellectual property, the following guidelines must be adhered to by all employees:\n\n6.0 Information Classification and Handling\n\n6.1 All [Company] information assets must be appropriately classified according to their sensitivity, confidentiality, and required protection levels, as defined by [Company]'s Information Classification Policy.\n\n6.2 Employees must follow established procedures for handling, storing, and disposing of [Company] proprietary information, including both electronic and physical documents.\n\n6.3 Company-owned devices and networks must be protected using appropriate security measures, such as strong passwords, encryption, secure wi-fi connections, and firewalls.\n\n6.4 Sharing proprietary information with third parties or unauthorized individuals is prohibited, unless specifically authorized by management, and following established processes for third-party access agreements and non-disclosure agreements.\n\n6.5 Confidential or sensitive information must not be sent or discussed through insecure channels, such as personal email, social media, or public messaging applications.\n\n6.6 Employees must immediately report any suspected or actual incidents of information security breaches, unauthorized access, data leaks, or loss of proprietary information to their supervisor and the Information Security department.\n\n6.7 Upon termination of employment or when no longer required to access proprietary information for work reasons, employees must promptly return all [Company] devices, documents, and media containing such information. Employees must not retain copies of proprietary information after the end of their employment or engagement with [Company].\n\n6.8 Employees must complete any required information security training and maintain awareness of current best practices, threats, and trends related to the protection of proprietary information.",
+      "started_at": "2026-05-04T04:20:34.412000Z",
+      "duration_ms": 30360,
+      "tokens_in": 0,
+      "tokens_out": 739,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 52,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 8792,
+      "tokens_in": 6135,
+      "tokens_out": 2657,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 516,
+      "duration_ms": 117272,
+      "ai_wait_ms": 108680,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.3435,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:compliance",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

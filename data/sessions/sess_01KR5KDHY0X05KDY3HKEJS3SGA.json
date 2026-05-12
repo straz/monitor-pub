@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR5KDHY0X05KDY3HKEJS3SGA",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "what kind of company we should not work with?",
+  "started_at": "2026-05-09T05:30:00Z",
+  "ended_at": "2026-05-09T05:30:33.272000Z",
+  "duration_ms": 33272,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what kind of company we should not work with?",
+      "started_at": "2026-05-09T05:30:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot have personal preference or bias towards any company as I am programmed to remain neutral. However, it is essential to avoid working with companies that engage in unethical practices, such as exploitation of workers, environmental damage, discrimination, or any violation of laws and human rights. It is imperative to do proper research and due diligence before joining any organization to avoid compromising one's values and beliefs.",
+      "started_at": "2026-05-09T05:30:02.432000Z",
+      "duration_ms": 5480,
+      "tokens_in": 0,
+      "tokens_out": 117,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what good company should it look like?",
+      "started_at": "2026-05-09T05:30:09.412000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "A good company should prioritize certain values, such as:\n\n1. Fair and ethical practices: The company should adhere to ethical business practices, be transparent, and foster a culture of fair treatment towards all employees, customers, and partners.\n\n2. Positive workplace culture: The company should provide a positive and supportive work environment, with opportunities for growth and development, and a focus on the wellbeing of its employees.\n\n3. Social and environmental responsibility: The company should aim to minimize its negative impact on the environment and contribute to social causes positively.\n\n4. Customer-centric focus: The company should prioritize providing excellent customer service, developing high-quality products or services, and creating value for its customers.\n\n5. Innovation and creativity: The company should encourage innovation, creativity, and adaptability to stay relevant in a constantly changing market.\n\nOverall, a good company should strive to achieve a balance between financial success, social responsibility, and positive cultural impact.",
+      "started_at": "2026-05-09T05:30:11.820000Z",
+      "duration_ms": 11600,
+      "tokens_in": 0,
+      "tokens_out": 270,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what bad company look like",
+      "started_at": "2026-05-09T05:30:24.920000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "A bad company can exhibit several negative characteristics such as:\n\n1. Unethical practices: A bad company can engage in unethical practices like lying to their customers, cutting corners, evading taxes, and exploiting their workers.\n\n2. Toxic workplace culture: A bad company can create a toxic work environment where employees are mistreated, bullied, and overworked. Such a company doesn't foster a positive culture where employees are valued, respected, and given opportunities to grow and develop.\n\n3. Environmental negligence: A bad company will show blatant disregard for the health and safety of the earth and its inhabitants. They disregard environmental safety measures, pollute the environment and cause environmental damage.\n\n4. Poor Customer service: A bad company will not be customer-focused, they tend to have poor customer service, produce low-quality products, and lack integrity.\n\n5. Ignorance to social responsibility: A bad company can be unresponsive to society's needs and social issues, leading to negative impacts on the community they operate in.\n\nOverall, a bad company ignores the values of ethics, fairness, sustainability, and social responsibility. They prioritize making a profit over fulfilling their obligations to society and employees.",
+      "started_at": "2026-05-09T05:30:27.292000Z",
+      "duration_ms": 13480,
+      "tokens_in": 0,
+      "tokens_out": 317,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3065,
+      "tokens_in": 2361,
+      "tokens_out": 704,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 26,
+      "duration_ms": 33272,
+      "ai_wait_ms": 30560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

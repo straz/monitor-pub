@@ -1,0 +1,363 @@
+{
+  "id": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "In Zuora can we add order MRR on the invoice template word document?",
+  "started_at": "2026-04-12T01:44:00Z",
+  "ended_at": "2026-04-12T01:47:13.984000Z",
+  "duration_ms": 193984,
+  "turn_count": 16,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "In Zuora can we add order MRR on the invoice template word document?",
+      "started_at": "2026-04-12T01:44:00Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Yes, you can add order MRR on the invoice template word document in Zuora. \n\nTo do this: \n\n1. Navigate to \"Settings\" menu in your Zuora tenant. \n\n2. Click on \"Billing\" menu option and select \"Manage Invoice Rules\". \n\n3. Choose the invoice rule for which you want to add Order MRR field. \n\n4. Click on \"Edit\" button for that invoice rule and select \"Template\" menu. \n\n5. In the \"Template\" page, you can edit the invoice template word document as per your need. \n\n6. To add order MRR, you can use the merge field syntax \"{{Order.ProductRatePlanCharge.MRR}}\" in your template wherever you want to display the order MRR value on the invoice. \n\n7. Save the changes in the template and preview the invoice to verify if the order MRR field is appearing correctly on the invoice.",
+      "started_at": "2026-04-12T01:44:02.504000Z",
+      "duration_ms": 8480,
+      "tokens_in": 0,
+      "tokens_out": 192,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are changes and testing to be done in pre orders tenant before order harmonization enablement and Invoice settlement feature enablement in zuora tenant on bill runs side and payment runs side?\n",
+      "started_at": "2026-04-12T01:44:12.484000Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Before enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are a few changes and testing that you should perform in your Pre-Order tenant. These changes and testing can help ensure a smooth transition and prevent any unexpected issues.\n\n1. Data Validation: Ensure that all data in your pre-orders tenant is up to date and accurate. Check if all the information such as account owners, subscriptions, billing information and revenue recognition rules are correct. \n\n2. Testing and Verification: You should test the functionality of the Order Harmonization and Invoice Settlement features in your pre-orders tenant to ensure they are working as expected. Test various scenarios, including order cancellation and reactivation, subscription amendments and multiple product purchases. \n\n3. Payment Gateway Integration: Ensure that all the payment gateway integrations in both pre-orders and production tenants are identical for products, features, and functions. Check for any issues with payment processing, currency conversions, and subscription renewals in your pre-orders tenant. \n\n4. Billing and Payment Runs: In your pre-orders tenant, simulate billing and payment runs to ensure that all the charges are calculated correctly. Ensure that all payment gateway integrations are tested and working correctly. \n\n5. Invoice Presentment: Ensure that invoice templates are set up correctly in the pre-orders tenant and that the proper invoice presentation settings are in place. Review the invoice layouts to ensure they are correct. \n\n6. Reporting: Run reports to verify that data is being correctly populated across all the systems and that the reporting tools are functioning as expected. \n\n7. Training: Ensure that your billing and customer service teams are fully trained on the new features and how to use them. \n\nBy performing these changes and testing in your pre-orders tenant, you can ensure that the Order Harmonization and Invoice Settlement features are working optimally before you enable them on your production tenant.",
+      "started_at": "2026-04-12T01:44:15.372000Z",
+      "duration_ms": 21480,
+      "tokens_in": 0,
+      "tokens_out": 517,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What are changes and testing to be done in pre orders tenant right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on bill runs side and payment runs side?",
+      "started_at": "2026-04-12T01:44:38.352000Z",
+      "duration_ms": 1400,
+      "tokens_in": 50,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "After enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are a few changes and testing that you should perform in your pre-orders tenant to ensure everything is working as expected.\n\n1. Data Verification: Verify the account, subscription, and invoice data to ensure that all the data is correct and accurate. Check whether the account and subscription balances are accurate, and the invoices are correctly billed. \n\n2. Payment Gateway Integration: Verify that the payment gateway integrations are correctly migrated from the pre-orders tenant to the production tenant. Ensure that the payment gateway configurations are compatible with Order Harmonization and Invoice Settlement features. \n\n3. Invoice Presentment: Verify that invoice templates are consistent between your pre-orders tenant and production tenant and ensure that the invoice presentation settings are correctly configured. Double-check your invoice layouts to make sure any changes made after the enablement of these features have been implemented correctly. \n\n4. Billing and Payment Runs: Verify that all charges for the subscriptions are being calculated correctly and the campaigns are applied to the subscription, and that all the payment gateway integrations are tested and integrated properly. \n\n5. Reporting: Verify that the latest data is available in the various reports and that the reports accurately reflect the current state of your billing data. Review the reports thoroughly to ensure they are correct. \n\n6. Testing and Verification: Re-test the Order Harmonization and Invoice Settlement features to make sure they're still working correctly. Check for any issues with scenarios such as order cancellation and reactivation, subscription amendments, or multiple product purchases. \n\n7. Documentation: Update the documentation, including any user guides or manuals, to reflect any changes made in the features, and educate your teams accordingly, especially the billing and customer service teams.\n\nBy performing these changes and testing in your pre-orders tenant, you can ensure that the Order Harmonization and Invoice Settlement features are working optimally in your production tenant and that your billing and payment processes are running smoothly.",
+      "started_at": "2026-04-12T01:44:41.252000Z",
+      "duration_ms": 23560,
+      "tokens_in": 0,
+      "tokens_out": 569,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "What are changes and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on payment method updater app?",
+      "started_at": "2026-04-12T01:45:06.312000Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Before and after enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are a few changes and testing that you should perform in your pre-orders tenant with regards to the Payment Method Updater app.\n\nBefore Enablement:\n\n1. Verify the Payment Method Updater app is installed in your pre-orders tenant.\n2. Set up the Payment Method Updater settings in the tenant and enable the automatic payment method update feature.\n3. Review the payment gateway configurations for both pre-orders and production tenants to ensure they are identical.\n4. Perform testing of the Payment Method Updater app in the pre-orders tenant to ensure it is working as expected.\n\nAfter Enablement:\n\n1. Verify that the Payment Method Updater app is still installed in your production tenant.\n2. Setup the Payment Method Updater settings in the production tenant and ensure that the automatic payment method update feature is enabled.\n3. Review the Payment Gateway configurations in your production tenant to ensure they are identical to those in the pre-orders tenant.\n4. Monitor the automated Payment Method Updater feature on an ongoing basis to confirm it's working correctly. \n\nTesting:\n\nBefore and after enabling the Order Harmonization and Invoice Settlement features, you should test the Payment Method Updater app in your pre-orders and production tenants to confirm it's working correctly.\n\n1. Test payment method updates: Verify that the app is successfully updating the credit card or bank account information on file for the customer, as expected.\n\n2. Failure testing: Test various payment methods or gateway responses to ensure that the payment method updater app can update the payment method information correctly. \n\n3. Reporting and analytics: Review the logs and analytics generated by the Payment Method Updater app to confirm that the updated information is correct.\n\nBy performing these changes and testing in your pre-orders and production tenants, you can ensure that the Payment Method Updater app is integrated correctly and the automatic payment method updater feature is working as expected, providing uninterrupted access to your subscription products or services.",
+      "started_at": "2026-04-12T01:45:09.200000Z",
+      "duration_ms": 22800,
+      "tokens_in": 0,
+      "tokens_out": 550,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "What are changes,impact and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on bill runs section?",
+      "started_at": "2026-04-12T01:45:33.500000Z",
+      "duration_ms": 1376,
+      "tokens_in": 48,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Before and after enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are changes and testing you should perform in your pre-orders tenant with regards to bill runs.\n\nBefore Enablement:\n\n1. Verify that all billing and revenue recognition rules in your pre-orders tenant are updated and accurate, including plans, products, charges, and pricing. Make any necessary changes prior to production cutover.\n2. Export current subscription and billing data to your system of record, so you can compare against post-prod data to confirm the accuracy of bill runs in Zuora.\n3. Ensure that your billing schedule settings are correctly configured in pre-orders tenant.\n4. Validate the account information and ensure that the billing and payment information is updated and accurate in the bill runs section.\n5. Perform test bill runs in the pre-orders tenant to confirm a successful validation process.\n\nAfter Enablement:\n\n1. Validate the migrated subscription and billing data in your production tenant to confirm all the data has migrated correctly from the pre-orders tenant.\n2. Set up the billing schedule and generate bill runs on a test-interval basis in the production tenant to ensure it's working correctly.\n3. Review revenue recognition rules and schedule in production to validate whether it's working as expected.\n4. Perform testing to verify that account or billing data is correctly integrated/migrated to other systems and platforms.\n5. Double-check the generated invoice documents, including layout and presentation settings.\n\nTesting:\n\nBefore production cutover, perform testing in the pre-orders tenant with larger sample data sets that will represent your actual production environment. After production, you should perform the following tests.\n\n1. Verify that bill runs are being generated and posted with correct billing schedules, billing cycles, and invoice templates. \n2. Perform testing of various billing scenarios, including and not limited to, charges and adjustments for one-time charges, proration, charge amendments, and plan alterations. \n3. Confirm that the invoice PDFs generated are accurate. Check the invoice template and confirm that your branding and layout are correctly displayed.\n4. Reconcile the bill data in Zuora production with your systems of record to confirm the accuracy and consistency across all systems. \n5. Run various report types to confirm that the data generated during bill runs is available for queries and analysis.\n\nBy performing these changes and testing in your pre-orders and production tenants, you can ensure that the Order Harmonization, Invoice Settlement, and related billing components are configured correctly for supporting your overall billing and customer information management requirements.",
+      "started_at": "2026-04-12T01:45:36.376000Z",
+      "duration_ms": 28720,
+      "tokens_in": 0,
+      "tokens_out": 698,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "What are changes,impact and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on Payment runs section?",
+      "started_at": "2026-04-12T01:46:06.596000Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Before and after enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are changes and testing you should perform in your pre-orders tenant with regards to payment runs.\n\nBefore Enablement:\n\n1. Verify that all accounts and subscriptions are up-to-date and accurate, including the payment methods.\n2. Check payment gateway configurations and ensure they are correct, including the Payment Method Updater app and electronic payments (ACH, PayPal).\n3. Review and update the Payment Gateway settings and ensure your currency settings are correctly configured.\n4. Create test payments and perform a transaction settlement in pre-orders tenant.\n5. Check whether the payment rules are accurate and ensure payment data is integrated with other systems.\n\nAfter Enablement:\n\n1. Verify that all payment information has migrated successfully between pre-orders and production tenant.\n2. Confirm that all billing and payment data is updated correctly, including payment schedules and notifications.\n3. Validate that all payment gateway configurations in production are the same as in pre-orders.\n4. Re-write payment rules as applicable for Order Harmonization and Invoice Settlement checks.\n5. Ensure payment runs automated is correctly integrated with ERP and accounting systems.\n\nTesting:\n\nBefore production cutover, testing should be performed on sample data sets that will represent your actual environment. After production, following testing needs to be performed:\n\n1. Confirm that payment runs can be generated accurately without any errors and that the amounts match what was billed.\n2. Run tests that simulate chargeback and error payments, adjust accordingly, and validate their impact on customer accounts. \n3. Test automatic payment processing to confirm that payments are being processed on time.\n4. Reconcile all payment data in the production to your systems of record, confirming the accuracy of the payments and the impact on your data models.\n5. Run reports, validate and extract all payment data for analysis purposes.\n\nBy performing these changes and testing in your pre-orders and production tenants, you can ensure that your payment runs are processed accurately and efficiently, with all data accurately captured, integrated, and migrated to your financial systems.",
+      "started_at": "2026-04-12T01:46:09.484000Z",
+      "duration_ms": 23920,
+      "tokens_in": 0,
+      "tokens_out": 578,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "What are changes,impact and testing to be done in pre orders tenant before and right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on Payment Gateway?",
+      "started_at": "2026-04-12T01:46:34.904000Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Before and after enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are changes and testing you should perform in your pre-orders tenant with regards to payment gateways.\n\nBefore Enablement:\n\n1. Verify all the payment gateway configurations are accurate and updated in the pre-orders tenant.\n2. Ensure that all payment gateway integrations are thoroughly tested and working correctly.\n3. Identify any customizations or add-ons to payment gateway integration in the pre-orders tenant and ensure they are migrated correctly to the production tenant.\n4. Ensure that the Payment Gateway Updater app and automatic payment updates feature settings are configured correctly.\n5. Check the available payment methods in the pre-orders tenant and validate if they are still feasible for production.\n\nAfter Enablement:\n\n1. Verify that all payment gateway configurations have been accurately migrated from pre-orders to the production tenant.\n2. Ensure that all payment gateway integrations are thoroughly tested and working correctly in your production tenant.\n3. Validate the Payment Gateway Updater app and automatic payment updates feature in your production tenant to confirm that it continues to work correctly.\n4. Confirm payment method availability in the production, and update or add any new payment methods required.\n\nTesting:\n\nBefore production cutover, testing should be performed on sample data sets that will represent your actual environment. After the production cutover, you should perform the following:\n\n1. Verify whether payment gateway integrations are working as expected.\n2. Confirm successful automatic payment updates and whether payment gateway configurations are the same pre- and post-prod rollout.\n3. Test the app and gateway integrations with various currency conversions, taxes, and international transactions. \n4. Verify the Payment Gateway Updater app and automatic payment updates generate and process data in production correctly.\n5. Test for any error cases and ensure that support structures are in place.\n\nBy performing these changes and testing in your pre-orders and production tenants, you can ensure that your payment gateways are integrated correctly and working efficiently, with automatic updates being responded to correctly, payments being processed timely, and your financial systems and reporting capturing all the data accurately.",
+      "started_at": "2026-04-12T01:46:37.792000Z",
+      "duration_ms": 24880,
+      "tokens_in": 0,
+      "tokens_out": 602,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 14,
+      "speaker": "user",
+      "text": "What are changes,impact and testing to be done in pre orders tenant before and right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on Gateway Reconciliation?",
+      "started_at": "2026-04-12T01:47:04.172000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 15,
+      "speaker": "assistant",
+      "text": "Before and after enabling the Order Harmonization and Invoice Settlement features on your Zuora tenant, there are changes and testing you should perform in your pre-orders tenant with regards to gateway reconciliation.\n\nBefore Enablement:\n\n1. Identify the payment gateway configuration in your Zuora pre-orders tenant and enable the automatic reconciliation process.\n2. Ensure all reconciliation settings, including the reconciliation rules and due dates, are correctly configured and updated.\n3. Verify that the gateway's payment activity data is being ingested appropriately, enabling the reconciliation process and data updates.\n4. Perform test reconciliation in your pre-orders tenant to confirm that payment and payment status data is correctly reconciled, including payment exceptions and chargeback reconciliation.\n5. Check the data integration with your accounting systems to ensure that no financial impact is triggered by differences between accounts payable and receivable.\n\nAfter Enablement:\n\n1. Validate that the gateway reconciliation features in your pre-orders tenant have been correctly migrated to your Zuora production tenant.\n2. Confirm that your reconciliation rules settings work correctly in production.\n3. Validate that the payment gateway data is being ingested correctly in the production tenant and is reconciled as anticipated.\n4. Double-check any changes made to reconciliation rules and ensure they are accurately configured post-prod.\n5. Ensure that your gateway reconciliation and accounting systems integration runs correctly and are accurately updated without discrepancy.\n\nTesting:\n\nBefore production cutover, testing should be performed on sample data sets that represent your actual environment. After production cutover, you should perform the following:\n\n1. Verify that the gateway reconciliation process and gateway status updates are processed accurately and efficiently for all payment types and currencies.\n2. Test reconciliation rules, including the different settings and parameters of those rules, to confirm that all the rules and parameters work correctly in production.\n3. Confirm that gateway reconciliation reports are retrieving accurate data from your production environment.\n4. Validate that gateway reconciliation and accounting systems integration work, including performing a full process test to ensure that accounting systems receive accurate and reconciled data\n5. Test various payment gateway events and situations that may trigger reconciliation exceptions and ensure that your support structures are running smoothly. \n\nBy performing these changes and testing in your pre-orders and production tenants, you can ensure that your gateway data is accurately updated and integrated with your accounting systems, providing you with a comprehensive and accurate view of your cash flow and financial data.",
+      "started_at": "2026-04-12T01:47:07.084000Z",
+      "duration_ms": 29400,
+      "tokens_in": 0,
+      "tokens_out": 715,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 0,
+    "human_effort": 100,
+    "ai_cost": 100,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 6
+    },
+    "raw": {
+      "turn_count": 16,
+      "tokens_total": 24076,
+      "tokens_in": 19655,
+      "tokens_out": 4421,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 8,
+      "raw_user_tokens": 362,
+      "duration_ms": 193984,
+      "ai_wait_ms": 183240,
+      "user_corrections": 6,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0165,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00TKKABSCJ2TMDVD36",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "What are changes and testing to be done in pre orders tenant right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on bill runs side and payment runs side?",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.89).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00NZQGWNT206GJXAQZ",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "What are changes and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on payment method updater app?",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.71).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ003GPXZJGH5H3GJ1HH",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "What are changes,impact and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on bill runs section?",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/8"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.70).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00RXE7XZ6D3BDQS98W",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "What are changes,impact and testing to be done in pre orders tenant before and after order harmonization enablement and Invoice settlement feature enablement in zuora tenant on Payment runs section?",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/10"
+      },
+      "rationale": "User restated content from turn 8 (Jaccard 0.92).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00QS14S8Y7C0XBTV0G",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        11,
+        12
+      ],
+      "evidence": {
+        "snippet": "What are changes,impact and testing to be done in pre orders tenant before and right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on Payment Gateway?",
+        "speaker": "user",
+        "turn": 12
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/12"
+      },
+      "rationale": "User restated content from turn 10 (Jaccard 0.85).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00404RR28WTVX5VZA8",
+      "tenant": "axiom-bank",
+      "session": "sess_01KNZNRAR0CBEAPE5PD41Y1GTZ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        13,
+        14
+      ],
+      "evidence": {
+        "snippet": "What are changes,impact and testing to be done in pre orders tenant before and right after order harmonization enablement and Invoice settlement feature enablement in Zuora tenant on Gateway Reconciliation?",
+        "speaker": "user",
+        "turn": 14
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json",
+        "turn_uri": "data/sessions/sess_01KNZNRAR0CBEAPE5PD41Y1GTZ.json#turns/14"
+      },
+      "rationale": "User restated content from turn 12 (Jaccard 0.85).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR5T1YT00S6E4Z2QDBET9NG2",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Design beginner to advance course to learn bookkeeping and accountancy from scratch.",
+  "started_at": "2026-05-09T07:26:00Z",
+  "ended_at": "2026-05-09T07:26:22.848000Z",
+  "duration_ms": 22848,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Design beginner to advance course to learn bookkeeping and accountancy from scratch.",
+      "started_at": "2026-05-09T07:26:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Beginner Level:\n1. Introduction to bookkeeping and accounting\n2. Basic concepts and terminologies\n3. Understanding the accounting process\n4. Double-entry bookkeeping\n5. Financial statements and reports\n6. Journal entries\n7. General ledger and subsidiary ledger\n8. Trial balance\n9. Bank reconciliation\n10. Petty cash management\n\nIntermediate Level:\n1. Cost accounting and management accounting\n2. Inventory management and costing\n3. Payroll accounting\n4. Fixed assets accounting\n5. Budgeting and forecasting\n6. Taxation and compliance\n7. Internal controls and audit\n8. Depreciation and amortization\n9. Accrual accounting\n10. Financial analysis and ratios\n\nAdvanced Level:\n1. Advanced financial reporting and analysis\n2. Consolidation and group accounting\n3. International accounting standards\n4. Financial modeling and valuation\n5. Strategic planning and performance measurement\n6. Auditing and assurance services\n7. Forensic accounting and fraud detection\n8. Corporate finance and investment analysis\n9. Ethics and professional conduct\n10. Accounting information systems.\n\nAdditional Resources:\n1. Online courses and tutorials on bookkeeping and accounting\n2. Accounting textbooks and reference materials\n3. Accounting software and tools\n4. Professional accounting organizations and certifications\n5. Internship or work experience in a relevant industry.",
+      "started_at": "2026-05-09T07:26:02.552000Z",
+      "duration_ms": 14320,
+      "tokens_in": 0,
+      "tokens_out": 338,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Suggest best book to learn bookkeeping and accountancy",
+      "started_at": "2026-05-09T07:26:18.372000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "\"The Accounting Game: Basic Accounting Fresh from the Lemonade Stand\" by Darrell Mullis and Judith Orloff is a great book to learn bookkeeping and accountancy. It uses a unique format of a story, where a young entrepreneur starts a lemonade stand and learns essential accounting concepts along the way that are easy to understand and practical to implement. The book covers everything from basic double-entry bookkeeping to more complex financial statements and ratios. It's written in an engaging and accessible style and is suitable for beginners and intermediate learners.",
+      "started_at": "2026-05-09T07:26:20.828000Z",
+      "duration_ms": 6520,
+      "tokens_in": 0,
+      "tokens_out": 143,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2074,
+      "tokens_in": 1593,
+      "tokens_out": 481,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 34,
+      "duration_ms": 22848,
+      "ai_wait_ms": 20840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

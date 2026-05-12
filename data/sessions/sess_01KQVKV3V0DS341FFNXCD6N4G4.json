@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQVKV3V0DS341FFNXCD6N4G4",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Hi, may i have the data of market share of securities firms  in singapore ?",
+  "started_at": "2026-05-05T08:25:00Z",
+  "ended_at": "2026-05-05T08:25:31.872000Z",
+  "duration_ms": 31872,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, may i have the data of market share of securities firms  in singapore ?",
+      "started_at": "2026-05-05T08:25:00Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'm sorry, but as an AI language model, I am not able to access real-time data or provide up-to-date market share information for securities firms in Singapore. I suggest visiting financial news websites, the Monetary Authority of Singapore's (MAS) website, or checking out recent reports from firms like PwC or Deloitte, which may provide the desired information.",
+      "started_at": "2026-05-05T08:25:02.516000Z",
+      "duration_ms": 4440,
+      "tokens_in": 0,
+      "tokens_out": 91,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "in your expert opinion, what is the Top 10 strengths of Maybank Securities ",
+      "started_at": "2026-05-05T08:25:08.456000Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I may not have real-time or updated information, but I can provide you with some general strengths of Maybank Securities based on the available historical data. Here are the top 10 strengths of Maybank Securities:\n\n1. Strong brand recognition: Maybank is a well-established institution in the Asian region, which brings credibility and trust to its securities division.\n\n2. Widely diversified services: Maybank Securities offers a wide range of services, including stockbroking, investment banking, Islamic finance, and asset management, catering to various customer segments.\n\n3. Vast regional presence: Maybank Group operates in various Southeast Asian countries, which allows Maybank Securities to help its customers access top-tier markets and investment opportunities in the region.\n\n4. Customer-centric approach: Maybank Securities strives to provide personalized and responsive services, tailoring their offerings to meet the unique needs of their customers.\n\n5. Technologically driven: The firm continues to invest and adopt technology, providing customers with user-friendly trading platforms and online tools.\n\n6. Strong research capabilities: Maybank Securities has an experienced research team that provides clients with market insights, financial outlooks, and stock recommendations.\n\n7. Collaborative network: Maybank Group's extensive presence in different financial sectors allows Maybank Securities to work together with other divisions within the group, resulting in cross-selling opportunities and stronger product offerings for clients.\n\n8. Commitment to regulatory compliance: Maybank Securities adheres to high standards of regulatory compliance across all its operations, ensuring transparency and trust in its business practices.\n\n9. Experienced professionals: The company's team of professionals are known for their expertise in local markets and industries, ensuring knowledgeable and relevant advice for clients.\n\n10. Robust risk management: Maybank Securities maintains robust risk management practices to safeguard its business operations and clients' assets, thereby ensuring long-term stability and growth.\n\nThese strengths have helped Maybank Securities establish itself as a leading securities firm in Asia. However, the specific offerings and strengths may change as the institution continues to evolve, so it's essential to keep up-to-date with their latest developments for a more accurate analysis.",
+      "started_at": "2026-05-05T08:25:10.972000Z",
+      "duration_ms": 25400,
+      "tokens_in": 0,
+      "tokens_out": 615,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2051,
+      "tokens_in": 1345,
+      "tokens_out": 706,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 36,
+      "duration_ms": 31872,
+      "ai_wait_ms": 29840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0827,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

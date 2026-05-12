@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPYH1BA0ZWJAWZ6R2VPNST1D",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "For each way tell how it work",
+  "started_at": "2026-04-24T01:18:00Z",
+  "ended_at": "2026-04-24T01:18:21.168000Z",
+  "duration_ms": 21168,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "For each way tell how it work ",
+      "started_at": "2026-04-24T01:18:00Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Sorry, I cannot answer this question without further context. Please provide additional information so I can assist you better.",
+      "started_at": "2026-04-24T01:18:02.384000Z",
+      "duration_ms": 2040,
+      "tokens_in": 0,
+      "tokens_out": 31,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "CNC Milling,\nNC Turning,\nCNC Routers,\nCNC Waterjet Cutting, CNC laser,\nCNC Plasma Cutting,\nCNC Wire Cutting (EDM-Spark),\nEDM and Ultrasonic Cutting.",
+      "started_at": "2026-04-24T01:18:05.924000Z",
+      "duration_ms": 1244,
+      "tokens_in": 37,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here is a brief explanation of each CNC machining process:\n\n1. CNC Milling: A CNC milling machine cuts and drills materials such as plastic, metal, and wood by using rotary cutters. The machine follows a predetermined path to create the desired shape or design.\n\n2. NC Turning: A CNC lathe rotates a material while a cutting tool shapes it into a desired form.\n\n3. CNC Routers: A CNC router machine uses a rotating cutter to remove material from a workpiece to create a specific shape, design or engraving. These machines are capable of cutting or engraving materials like wood, plastic, foam, MDF, and aluminum.\n\n4. CNC Waterjet Cutting: A CNC waterjet uses a high-pressure stream of water mixed with abrasive particles to cut through a wide range of materials, including stone, metal, and plastic.\n\n5. CNC Laser: A CNC laser machine cuts and engraves materials like wood, plastic, and metal by focusing a high-powered laser beam on the workpiece to vaporize or melt the material.\n\n6. CNC Plasma Cutting: A CNC plasma cutting machine uses a plasma torch to cut through metal materials like steel, aluminum, and brass.\n\n7. CNC Wire Cutting (EDM-Spark): In the wire cutting process, a thin copper or brass wire is fed through the material while an electric spark melts and cuts it along a programmed path.\n\n8. EDM and Ultrasonic Cutting: These processes use electric discharges or high-frequency vibrations to create intricate cuts or shapes in material. EDM can cut through any electrically conductive material, while ultrasonic cutting is commonly used to cut through materials like ceramics, glass, and composites.",
+      "started_at": "2026-04-24T01:18:08.668000Z",
+      "duration_ms": 17000,
+      "tokens_in": 0,
+      "tokens_out": 405,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1718,
+      "tokens_in": 1282,
+      "tokens_out": 436,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 44,
+      "duration_ms": 21168,
+      "ai_wait_ms": 19040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

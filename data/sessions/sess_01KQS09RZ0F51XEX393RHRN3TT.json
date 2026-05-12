@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQS09RZ0F51XEX393RHRN3TT",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Give me 5 options for my LinkedIn headline for a Legal Operations Manager role using this formula: Title | Keywords & Sk\u2026",
+  "started_at": "2026-05-04T08:05:00Z",
+  "ended_at": "2026-05-04T08:05:14.964000Z",
+  "duration_ms": 14964,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Give me 5 options for my LinkedIn headline for a Legal Operations Manager role using this formula: Title | Keywords & Skills | Tagline",
+      "started_at": "2026-05-04T08:05:00Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Legal Operations Manager | Contract Management, Legal Tech Expert | Driving Efficiency in Legal Services\n2. Legal Operations Manager | Compliance, Risk Management | Streamlining Legal Operations for Success\n3. Legal Operations Manager | Process Improvement, Legal Strategy | Empowering Law Firms to Excel\n4. Legal Operations Manager | Legal Project Management, Cost Control | Innovating Solutions for Legal Challenges\n5. Legal Operations Manager | Collaboration, Legal Analytics | Unleashing the Power of Law Firm Performance",
+      "started_at": "2026-05-04T08:05:02.696000Z",
+      "duration_ms": 6080,
+      "tokens_in": 0,
+      "tokens_out": 132,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Give me 5 options for my LinkedIn headline for a Senior Litigation Paralegal role using this formula: Title | Keywords & Skills | Tagline",
+      "started_at": "2026-05-04T08:05:10.276000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Senior Litigation Paralegal | Case Management, Legal Research | Your Trusted Partner in Overcoming Legal Complexities\n2. Senior Litigation Paralegal | Document Review, Trial Support | Mastering the Art of Effective Litigation\n3. Senior Litigation Paralegal | Pleadings, Deposition Summaries | Navigating the Legal Labyrinth with Confidence\n4. Senior Litigation Paralegal | eDiscovery, Fact Investigation | Skillfully Bringing Clarity to the Courtroom\n5. Senior Litigation Paralegal | Settlement Negotiations, Client Support | Championing Success in Dispute Resolution",
+      "started_at": "2026-05-04T08:05:12.984000Z",
+      "duration_ms": 6480,
+      "tokens_in": 0,
+      "tokens_out": 142,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1706,
+      "tokens_in": 1432,
+      "tokens_out": 274,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 67,
+      "duration_ms": 14964,
+      "ai_wait_ms": 12560,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0594,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00GA2YRKJWZZ0KDFPQ",
+      "tenant": "kurson-health",
+      "session": "sess_01KQS09RZ0F51XEX393RHRN3TT",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Give me 5 options for my LinkedIn headline for a Senior Litigation Paralegal role using this formula: Title | Keywords & Skills | Tagline",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQS09RZ0F51XEX393RHRN3TT.json",
+        "turn_uri": "data/sessions/sess_01KQS09RZ0F51XEX393RHRN3TT.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.76).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

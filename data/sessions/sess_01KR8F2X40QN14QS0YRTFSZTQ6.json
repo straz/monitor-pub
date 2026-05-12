@@ -1,0 +1,206 @@
+{
+  "id": "sess_01KR8F2X40QN14QS0YRTFSZTQ6",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Which term refers to the process of creating and deploying applications that are secure from the start?",
+  "started_at": "2026-05-10T08:12:00Z",
+  "ended_at": "2026-05-10T08:12:26.228000Z",
+  "duration_ms": 26228,
+  "turn_count": 16,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which term refers to the process of creating and deploying applications that are secure from the start?\n\n\nRisk Management\n\n\nWaterfall\n\n\nDevOps\n\n\nCompliance Assessment",
+      "started_at": "2026-05-10T08:12:00Z",
+      "duration_ms": 1292,
+      "tokens_in": 41,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "DevOps",
+      "started_at": "2026-05-10T08:12:02.792000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which principle is in effect when an analyst has a lower level of access than a Client Account Lead (CAL) working on the same project?\n\n\nThe Privileges and Immunities Principle\n\n\nThe Principle of Known Threat Management\n\n\nThe Principle of Least Privilege\n\n\nThe Principle of Superposition",
+      "started_at": "2026-05-10T08:12:05.132000Z",
+      "duration_ms": 1652,
+      "tokens_in": 71,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Principle of Least Privilege",
+      "started_at": "2026-05-10T08:12:08.284000Z",
+      "duration_ms": 1120,
+      "tokens_in": 0,
+      "tokens_out": 8,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is \"defense in depth\"?\n\n\nsecurity defense that is confidential, integrous, and available\n\n\nwhen security is an ongoing process rather than a one-and-done\n\n\nwhen security is part of the design process and built in from the start\n\n\nsecurity designed with multiple levels of fail-safe practices",
+      "started_at": "2026-05-10T08:12:10.904000Z",
+      "duration_ms": 1688,
+      "tokens_in": 74,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Security designed with multiple levels of fail-safe practices.",
+      "started_at": "2026-05-10T08:12:14.092000Z",
+      "duration_ms": 1400,
+      "tokens_in": 0,
+      "tokens_out": 15,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "An intruder with malicious intent breaks into an office and steals a hard drive containing sensitive information about the company\u2019s business. However, when attempting to access the drive\u2019s contents, the intruder is met with the company\u2019s authentication protocols and data encryption measures.\n\nWhat type of security is illustrated in this example?\n\n\nData Security\n\n\nGovernance\n\n\nProduct Security\n\n\nCyber Intelligence",
+      "started_at": "2026-05-10T08:12:16.992000Z",
+      "duration_ms": 2048,
+      "tokens_in": 104,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Data Security",
+      "started_at": "2026-05-10T08:12:20.540000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Company A acquired Company B and they realize that their standard security policy documents do not match. They escalate this issue to the company\u2019s central Security team, who implements a plan to formalize security strategy, high-level responsibilities, policies and procedures around security of both companies.\n\nWhich security principle is illustrated in this example?\n\n\nCompliance\n\n\nGovernance\n\n\nAvailability\n\n\nRisk Management",
+      "started_at": "2026-05-10T08:12:22.960000Z",
+      "duration_ms": 2084,
+      "tokens_in": 107,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Governance",
+      "started_at": "2026-05-10T08:12:26.544000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "Accenture is helping a major retailer migrate to the Cloud. The client has aggressive timelines and is worried that security will be compromised.\n\nHow can Accenture help the client?\n\n\nAccenture should develop a custom solution and suggest a timeline extension.\n\n\nAccenture has developed accelerators that can deploy specific security controls in hours, a task that used to take months.\n\n\nAccenture should advise the client to wait until the next phase to implement security controls.\n\n\nAccenture recommends that the additional security controls are not needed since the Cloud is secure by default.",
+      "started_at": "2026-05-10T08:12:28.924000Z",
+      "duration_ms": 2588,
+      "tokens_in": 149,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Accenture has developed accelerators that can deploy specific security controls in hours, a task that used to take months.",
+      "started_at": "2026-05-10T08:12:33.012000Z",
+      "duration_ms": 2000,
+      "tokens_in": 0,
+      "tokens_out": 30,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "When companies study the possibility of moving to the Cloud, they often perceive that security is a roadblock to making things happen quickly.\n\nWhat should Accenture tell a client about their capabilities?\n\n\nAccenture integrates security early in the process and implements their own patented innovations to automate processes and migrate in a much shorter period of time.\n\n\nAfter monitoring the security solution, Accenture can provide a few additional personnel to develop workarounds.\n\n\nAccenture\u2019s security solution is so robust that it can be deployed on top of an existing system on the Cloud with no impact.\n\n\nOnce an incident occurs, Accenture establishes controls to block accidental or malicious activities.",
+      "started_at": "2026-05-10T08:12:36.512000Z",
+      "duration_ms": 2948,
+      "tokens_in": 179,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Accenture integrates security early in the process and implements their own patented innovations to automate processes and migrate in a much shorter period of time.",
+      "started_at": "2026-05-10T08:12:40.960000Z",
+      "duration_ms": 2440,
+      "tokens_in": 0,
+      "tokens_out": 41,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 14,
+      "speaker": "user",
+      "text": "Which term refers to a process that is deployed to ensure the confidentiality and integrity of data while being stored or when it is transmitted?\n\n\nSecurity Operations\n\n\nEncryption\n\n\nAccess Management\n\n\nCloud Computing",
+      "started_at": "2026-05-10T08:12:44.900000Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 15,
+      "speaker": "assistant",
+      "text": "Encryption",
+      "started_at": "2026-05-10T08:12:47.848000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 60,
+    "ai_cost": 61,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 16,
+      "tokens_total": 8227,
+      "tokens_in": 8125,
+      "tokens_out": 102,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 8,
+      "raw_user_tokens": 779,
+      "duration_ms": 26228,
+      "ai_wait_ms": 10480,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0042,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

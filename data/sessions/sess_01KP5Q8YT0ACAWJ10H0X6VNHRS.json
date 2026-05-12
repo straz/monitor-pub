@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP5Q8YT0ACAWJ10H0X6VNHRS",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "Please make the following more professional: \"Attached please see the first edition of Quantitative Research Notes on th\u2026",
+  "started_at": "2026-04-14T10:06:00Z",
+  "ended_at": "2026-04-14T10:06:16.480000Z",
+  "duration_ms": 16480,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Please make the following more professional: \"Attached please see the first edition of Quantitative Research Notes on the topic of cost of futures.  The QR Notes are going to be a series of on-going publications by the Quant Research team of key QR research findings from all these research that we do with the portfolio management teams. The QR Notes are meant to be at a high enough level for both technical and non-technical crew to review. If there are any questions or comments, please feel free to reach out. Thanks,\"",
+      "started_at": "2026-04-14T10:06:00Z",
+      "duration_ms": 2360,
+      "tokens_in": 130,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Please find enclosed the inaugural edition of Quantitative Research Notes covering the topic of futures cost. The QR Notes represent an ongoing series of publications by the Quantitative Research team, highlighting key findings emerging from our research collaborations with the portfolio management teams. Our aim with the QR Notes is to provide insights at a level accessible to both technical and non-technical audiences. We welcome any questions or feedback you may have. Thank you.",
+      "started_at": "2026-04-14T10:06:03.860000Z",
+      "duration_ms": 5640,
+      "tokens_in": 0,
+      "tokens_out": 121,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "please revise and make the following better: \"Please find enclosed the first edition of the Quantitative Research Notes covering the topic of the cost of treasury futures. The QR Notes are going to be an ongoing series of publications by the Quant Research team on key findings from our research collaborations with the portfolio management teams. The purpose of the QR Notes is to enhance exchange and understanding of the quantitative research that have investment implications. If there are any questions or comments, please feel free to reach out. Thank you.:",
+      "started_at": "2026-04-14T10:06:11Z",
+      "duration_ms": 2480,
+      "tokens_in": 140,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "We are pleased to present the inaugural edition of Quantitative Research Notes on the topic of treasury futures cost. The QR Notes represent an ongoing publication series by the Quantitative Research team, focused on key findings arising from our research collaborations with portfolio management teams. Our goal with the QR Notes is to foster greater insights and understanding of quantitative research with direct investment implications. We welcome any questions or feedback you may have. Thank you for your interest.",
+      "started_at": "2026-04-14T10:06:14.980000Z",
+      "duration_ms": 6000,
+      "tokens_in": 0,
+      "tokens_out": 130,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1972,
+      "tokens_in": 1721,
+      "tokens_out": 251,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 270,
+      "duration_ms": 16480,
+      "ai_wait_ms": 11640,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00P91AT79R3WGT6RRN",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP5Q8YT0ACAWJ10H0X6VNHRS",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "please revise and make the following better: \"Please find enclosed the first edition of the Quantitative Research Notes covering the topic of the cost of treasury futures. The QR Notes are going to be an ongoing series of publications by th",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP5Q8YT0ACAWJ10H0X6VNHRS.json",
+        "turn_uri": "data/sessions/sess_01KP5Q8YT0ACAWJ10H0X6VNHRS.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

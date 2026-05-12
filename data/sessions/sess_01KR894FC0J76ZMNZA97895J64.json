@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KR894FC0J76ZMNZA97895J64",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Is CMP imprint an imprint of Elsevier?",
+  "started_at": "2026-05-10T06:28:00Z",
+  "ended_at": "2026-05-10T06:28:25.848000Z",
+  "duration_ms": 25848,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Is CMP imprint an imprint of Elsevier?",
+      "started_at": "2026-05-10T06:28:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "No, CMP (Communications and Mass Production) imprint is not an imprint of Elsevier. CMP imprint was a division of the former CMP Media LLC, which published technology magazines, websites, and events. Elsevier is a global information analytics business, which provides scientific, technical, and medical information solutions for researchers, students, and healthcare professionals.",
+      "started_at": "2026-05-10T06:28:02.408000Z",
+      "duration_ms": 4600,
+      "tokens_in": 0,
+      "tokens_out": 95,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "is Excerpta Medica an imprint?",
+      "started_at": "2026-05-10T06:28:08.508000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Excerpta Medica is a brand or division of Elsevier, one of the largest academic publishers in the world. However, it should be noted that Excerpta Medica is not considered an imprint of Elsevier in the traditional sense. Instead, it is used as the name of a medical communications agency that is owned by Elsevier. This agency produces content for pharmaceutical and healthcare companies, and it is possible for this content to be published under the Excerpta Medica name.",
+      "started_at": "2026-05-10T06:28:10.892000Z",
+      "duration_ms": 5520,
+      "tokens_in": 0,
+      "tokens_out": 118,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "is Urban & Fischer an imprint of Elsevier",
+      "started_at": "2026-05-10T06:28:17.912000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Yes, Urban & Fischer is an imprint of Elsevier. It is a publishing brand that focuses on biomedical science and clinical medicine, and it was established in 1971 when two German publishing companies, Urban & Schwarzenberg and Fischer Verlag, merged. In 1999, Urban & Fischer was acquired by the international publishing company Reed Elsevier, which then went on to merge with the British publishing company Elsevier Science to become Elsevier in 2000. Urban & Fischer still exists today as an imprint of Elsevier, with a range of medical and related publications being published under its name.",
+      "started_at": "2026-05-10T06:28:20.332000Z",
+      "duration_ms": 6720,
+      "tokens_in": 0,
+      "tokens_out": 148,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "is ChemTec an imprint of Elsevier",
+      "started_at": "2026-05-10T06:28:28.552000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "No, ChemTec is not an imprint of Elsevier. ChemTec Publishing is a separate and independent publishing company that focuses on chemical engineering and related areas. It was founded in 1992 and is headquartered in Toronto, Canada. Although Elsevier is a major publisher of scientific, technical and medical content in various fields, including chemistry and chemical engineering, ChemTec Publishing is not affiliated with Elsevier and is not one of its imprints.",
+      "started_at": "2026-05-10T06:28:30.948000Z",
+      "duration_ms": 5400,
+      "tokens_in": 0,
+      "tokens_out": 115,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 52,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 2,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3630,
+      "tokens_in": 3154,
+      "tokens_out": 476,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 34,
+      "duration_ms": 25848,
+      "ai_wait_ms": 22240,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00AA5EKW1B3NAQ27CV",
+      "tenant": "kurson-health",
+      "session": "sess_01KR894FC0J76ZMNZA97895J64",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "is ChemTec an imprint of Elsevier",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR894FC0J76ZMNZA97895J64.json",
+        "turn_uri": "data/sessions/sess_01KR894FC0J76ZMNZA97895J64.json#turns/6"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ008FZB37FYB58H01PG",
+      "tenant": "kurson-health",
+      "session": "sess_01KR894FC0J76ZMNZA97895J64",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "is ChemTec an imprint of Elsevier",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR894FC0J76ZMNZA97895J64.json",
+        "turn_uri": "data/sessions/sess_01KR894FC0J76ZMNZA97895J64.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.56).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

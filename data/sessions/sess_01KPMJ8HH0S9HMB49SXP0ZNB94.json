@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPMJ8HH0S9HMB49SXP0ZNB94",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "examples of ethics violations in the work place",
+  "started_at": "2026-04-20T04:27:00Z",
+  "ended_at": "2026-04-20T04:27:22.956000Z",
+  "duration_ms": 22956,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "examples of ethics violations in the work place ",
+      "started_at": "2026-04-20T04:27:00Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Discrimination: Discriminating against someone due to their race, gender, age, disability or religion.\n\n2. Harassment: Sexual harassment, bullying, or any other form of verbal or physical harassment.\n\n3. Theft: Stealing company property or money, or fraudulently taking company funds.\n\n4. Conflict of interest: Accepting bribes, making personal deals or engaging in activities that may negatively affect the business.\n\n5. Insider trading: Using confidential information to make decisions that serve personal interests rather than the interests of the company or shareholders.\n\n6. Misuse of resources: Using company resources for personal reasons, without permission or inappropriately.\n\n7. Making false claims or promises: Misrepresenting products or services to customers, or promising something that cannot be delivered.\n\n8. Inappropriate relationships: Having romantic or unethical relationships with coworkers or supervisors.\n\n9. Lack of safety: Ignoring safety regulations, improperly disposing of hazardous materials or failing to maintain a safe work environment.\n\n10. Privacy violations: Violating confidentiality agreements or sharing confidential information with unauthorized people.",
+      "started_at": "2026-04-20T04:27:02.444000Z",
+      "duration_ms": 12760,
+      "tokens_in": 0,
+      "tokens_out": 299,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "why is integrity important in these situations ",
+      "started_at": "2026-04-20T04:27:16.704000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Integrity is important in these situations because it is the foundation of ethical and moral behavior. It means being honest, transparent and accountable for one's actions. When individuals behave with integrity, they are seen as trustworthy and dependable, and they inspire others to act in a similar manner. This is particularly important in the workplace where trust, respect and ethical behavior are essential for building positive relationships and achieving organizational success. Lack of integrity can lead to breaches of trust and pose risks for individuals and organizations. Therefore, acting with integrity is essential in maintaining a positive work environment and promoting a culture of accountability and ethical behavior in the workplace.",
+      "started_at": "2026-04-20T04:27:19.136000Z",
+      "duration_ms": 8320,
+      "tokens_in": 0,
+      "tokens_out": 188,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2021,
+      "tokens_in": 1534,
+      "tokens_out": 487,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 23,
+      "duration_ms": 22956,
+      "ai_wait_ms": 21080,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

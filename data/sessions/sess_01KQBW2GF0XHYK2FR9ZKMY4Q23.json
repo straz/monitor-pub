@@ -1,0 +1,159 @@
+{
+  "id": "sess_01KQBW2GF0XHYK2FR9ZKMY4Q23",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "provide 10 examples for a medical video tagging platform that is suppeosed to be developed. The name should be funny and\u2026",
+  "started_at": "2026-04-29T05:41:00Z",
+  "ended_at": "2026-04-29T05:41:10.212000Z",
+  "duration_ms": 10212,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "provide 10 examples for a medical video tagging platform that is suppeosed to be developed. The name should be funny and epic.",
+      "started_at": "2026-04-29T05:41:00Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. \"Doctor Tags-a-Lot\"\n2. \"VidMD\"\n3. \"FunkyMed\"\n4. \"VidMedic\"\n5. \"DocuTag\"\n6. \"HealthHilarity\"\n7. \"VidVitals\"\n8. \"Medi-Tag\"\n9. \"DocuComedy\"\n10. \"VidPulse\"",
+      "started_at": "2026-04-29T05:41:02.672000Z",
+      "duration_ms": 2320,
+      "tokens_in": 0,
+      "tokens_out": 38,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "provide 10 examples for a medical video tagging platform that is supposed to be developed. The name should be epic. The name should be short.  The name should be informative.",
+      "started_at": "2026-04-29T05:41:06.492000Z",
+      "duration_ms": 1316,
+      "tokens_in": 43,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. MedTagr\n2. VidoMed\n3. DocuTagz\n4. HealthVidz\n5. TagMyMed\n6. MediClips\n7. VidDiagnose\n8. MedVideoz\n9. DocuClipz\n10. HealthTagz",
+      "started_at": "2026-04-29T05:41:09.308000Z",
+      "duration_ms": 2080,
+      "tokens_in": 0,
+      "tokens_out": 32,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "provide 10 examples for the project_name of medical video tagging platform that is supposed to be developed. The name should be epic. The name should be short. The name should be informative.",
+      "started_at": "2026-04-29T05:41:12.888000Z",
+      "duration_ms": 1364,
+      "tokens_in": 47,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. MedTag\n2. TagVid\n3. DocuClip\n4. HealthTag\n5. MedMarks\n6. DiagVids\n7. MedChip\n8. HealthFlicks\n9. DocuLens\n10. MedGaze",
+      "started_at": "2026-04-29T05:41:15.752000Z",
+      "duration_ms": 1960,
+      "tokens_in": 0,
+      "tokens_out": 29,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 44,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2233,
+      "tokens_in": 2134,
+      "tokens_out": 99,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 121,
+      "duration_ms": 10212,
+      "ai_wait_ms": 6360,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00ADMW21VF6EDCZ1CD",
+      "tenant": "kurson-health",
+      "session": "sess_01KQBW2GF0XHYK2FR9ZKMY4Q23",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "provide 10 examples for a medical video tagging platform that is supposed to be developed. The name should be epic. The name should be short.  The name should be informative.",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQBW2GF0XHYK2FR9ZKMY4Q23.json",
+        "turn_uri": "data/sessions/sess_01KQBW2GF0XHYK2FR9ZKMY4Q23.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.75).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00Y9H6BRNRR9T43Y1M",
+      "tenant": "kurson-health",
+      "session": "sess_01KQBW2GF0XHYK2FR9ZKMY4Q23",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "provide 10 examples for the project_name of medical video tagging platform that is supposed to be developed. The name should be epic. The name should be short. The name should be informative.",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQBW2GF0XHYK2FR9ZKMY4Q23.json",
+        "turn_uri": "data/sessions/sess_01KQBW2GF0XHYK2FR9ZKMY4Q23.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.87).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

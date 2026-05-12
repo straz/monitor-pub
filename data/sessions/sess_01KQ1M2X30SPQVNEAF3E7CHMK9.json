@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KQ1M2X30SPQVNEAF3E7CHMK9",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "Please revise: The resource-based view (RBV) argues that IT capabilities are a source of competitive advantage that cann\u2026",
+  "started_at": "2026-04-25T06:09:00Z",
+  "ended_at": "2026-04-25T06:09:18.952000Z",
+  "duration_ms": 18952,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Please revise: The resource-based view (RBV) argues that IT capabilities are a source of competitive advantage that cannot be easily replicated by competitors, unlike IT resources. However, over time, some of these capabilities may become commoditized and transform into mere IT resources. Physical IT infrastructure has traditionally been viewed as a capability in most studies, the exponential growth of digital technologies, including cloud computing, has led to questions as to whether this traditional perspective remains valid in the context of hospitals, particularly during the process of DT. ",
+      "started_at": "2026-04-25T06:09:00Z",
+      "duration_ms": 2600,
+      "tokens_in": 150,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The resource-based view (RBV) asserts that IT capabilities are a vital source of competitive advantage that cannot be replicated by rivals, unlike IT resources. However, some of these capabilities may gradually become mundane and transition into mere IT resources. Although physical IT infrastructure has typically been deemed a capability in most research, the emergence of digital technologies such as cloud computing has prompted queries on whether the conventional perspective holds sway in hospitals, specifically during the DT process.",
+      "started_at": "2026-04-25T06:09:04.100000Z",
+      "duration_ms": 6200,
+      "tokens_in": 0,
+      "tokens_out": 135,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "maximum in 50 words please  ",
+      "started_at": "2026-04-25T06:09:11.800000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The RBV suggests that IT capabilities are a unique source of competitive advantage. Nonetheless, some of these may become commoditized and turn into IT resources. Although physical IT infrastructure is seen as a capability, the rise of digital technologies, particularly cloud computing, raises queries on its validity during DT in hospitals.",
+      "started_at": "2026-04-25T06:09:14.184000Z",
+      "duration_ms": 4200,
+      "tokens_in": 0,
+      "tokens_out": 85,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "revise: Physical IT infrastructure has traditionally been viewed as a capability in most studies, the exponential growth of digital technologies, including cloud computing, has led to questions as to whether this traditional perspective remains valid in the context of hospitals, particularly during the process of DT.",
+      "started_at": "2026-04-25T06:09:19.884000Z",
+      "duration_ms": 1748,
+      "tokens_in": 79,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "While physical IT infrastructure has been deemed a capability in most research, the rapid development of digital technologies, such as cloud computing, has raised concerns about its relevance in the hospital setting, specifically during the process of DT.",
+      "started_at": "2026-04-25T06:09:23.132000Z",
+      "duration_ms": 3320,
+      "tokens_in": 0,
+      "tokens_out": 63,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 34,
+    "ai_cost": 23,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2981,
+      "tokens_in": 2698,
+      "tokens_out": 283,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 236,
+      "duration_ms": 18952,
+      "ai_wait_ms": 13720,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00WX0096TQ0B5KZFWX",
+      "tenant": "kurson-health",
+      "session": "sess_01KQ1M2X30SPQVNEAF3E7CHMK9",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "revise: Physical IT infrastructure has traditionally been viewed as a capability in most studies, the exponential growth of digital technologies, including cloud computing, has led to questions as to whether this traditional perspective rem",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ1M2X30SPQVNEAF3E7CHMK9.json",
+        "turn_uri": "data/sessions/sess_01KQ1M2X30SPQVNEAF3E7CHMK9.json#turns/4"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.55).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

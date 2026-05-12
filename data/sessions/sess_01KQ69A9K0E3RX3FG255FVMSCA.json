@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ69A9K0E3RX3FG255FVMSCA",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "please, summarize the main thesises of the following text with lenght - up to 1200 symbols:",
+  "started_at": "2026-04-27T01:37:00Z",
+  "ended_at": "2026-04-27T01:37:27.688000Z",
+  "duration_ms": 27688,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "please, summarize the main thesises of the following text with lenght - up to 1200 symbols:\nSystems such as artificial intelligence (AI) ChatGPT will soon influence life and death decisions when they become a standard tool in the hands of doctors. Some are already experimenting with ChatGPT to see if it can diagnose patients and select treatments. Whether this is good or bad depends on how doctors use it.\n\nGPT-4, ChatGPT's latest update, can score A's in medical license exams. He's even good at tasks we thought required human compassion, like choosing the right words to break bad news to patients.\n\nThese systems also develop image processing capabilities. At the moment, you still need a real doctor to feel the bump or assess the condition of the torn ligaments, but the AI can read the MRI or CT scan and make a medical report. Ideally, AI should not replace practical medical work, but complement it, but we still do not understand when and where it will be practical or ethical to follow its recommendations.\n\nWhile we already have more information at our fingertips, public health experts recently cited an abundance of misinformation as one of the reasons for our relatively short life expectancy. And it could get better or worse with the advent of GPT-4.\n\nAccording to Harvard professor of biomedical informatics Andrew Beam, in fact, all such a system does is predict what words should be next, i.e. uses an autocomplete system. And yet it is very similar to thinking. \"The surprising thing is that a lot of the tasks that we think require general intelligence to solve are autocomplete tasks in disguise,\" he said. \"That includes some form of medical inference.\"\n\nA whole class of technology, large language models, must deal exclusively with language, but users have found that teaching them more language helps them solve increasingly complex mathematical equations.\n\nIsaac Kohane, chair of the biomedical informatics program at Harvard Medical School, says one of the most obvious benefits of using AI is that it will help reduce or eliminate the hours of paperwork that now prevents doctors from devoting enough time to patients, which often leads to burnout.\n\nBut he also used the system to help with diagnoses as a pediatric endocrinologist. In one case, he says, the baby was born with indeterminate genitalia, and GPT-4 recommended a hormone test and then a genetic test, which identified the cause as an 11-hydroxylase deficiency. He not only made a quick diagnosis, but also asked for a proper examination at every stage.\n\nLike a human doctor, GPT-4 can make mistakes and is not always honest about the limits of his \"understanding\". You can also get GPT-4 to give different answers by asking him to imagine that he is a doctor who considers surgery a last resort, rather than a less conservative doctor. But in some cases, he is quite stubborn. For example, Kohane tried to persuade him to tell him what medications would help him lose a few pounds, but he was adamant, arguing that no medications are recommended for people who are not more seriously overweight.\n\nDespite his amazing AI abilities, patients and doctors should not rely on him too much or trust him blindly. ChatGPT and others like it are tools that require a lot of skill to use properly. Even those who understand artificial intelligence are trying to understand how a process similar to thinking arises from a simple autocomplete system. The next version, GPT-5, will be even faster and smarter. We are facing big changes in medicine - and we better do everything possible to be ready for them.",
+      "started_at": "2026-04-27T01:37:00Z",
+      "duration_ms": 11576,
+      "tokens_in": 898,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "AI systems like ChatGPT have the potential to significantly impact the medical field, making life and death decisions by helping doctors diagnose patients and select treatments. The latest version, GPT-4, can perform well in medical license exams and even display human-like sensitivity when breaking bad news to patients. The AI's image processing capabilities aid in interpreting MRI and CT scans, complementing practical medical work. However, it is crucial to understand the ethical and practical implications of relying on AI recommendations.\n\nPublic health experts warn of an abundance of misinformation being a possible downside of GPT-4, as it essentially functions as an autocomplete system. Nevertheless, the AI's capacity to provide accurate diagnoses and testing recommendations has been demonstrated in real cases. Although GPT-4 can make mistakes and show differing opinions based on how it is prompted, it remains a valuable tool for doctors. As these AI systems continue to advance, the medical field must prepare to effectively harness their capabilities while addressing ethical concerns.",
+      "started_at": "2026-04-27T01:37:13.076000Z",
+      "duration_ms": 11840,
+      "tokens_in": 0,
+      "tokens_out": 276,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Please, advise me SAUDI ARABIAN cargo seaport on the coast of Gulf",
+      "started_at": "2026-04-27T01:37:26.416000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The King Abdulaziz Port, located in Dammam on the coast of the Arabian Gulf, is a major cargo seaport in Saudi Arabia. It is a significant hub for international trade and handles various types of cargo, including containers, bulk, and general cargo.",
+      "started_at": "2026-04-27T01:37:28.908000Z",
+      "duration_ms": 3280,
+      "tokens_in": 0,
+      "tokens_out": 62,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3626,
+      "tokens_in": 3288,
+      "tokens_out": 338,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 914,
+      "duration_ms": 27688,
+      "ai_wait_ms": 15120,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1189,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

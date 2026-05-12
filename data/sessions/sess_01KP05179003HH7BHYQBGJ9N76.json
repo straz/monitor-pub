@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP05179003HH7BHYQBGJ9N76",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Provide full information about the procedure for conducting investigative activities in corruption cases according to Au\u2026",
+  "started_at": "2026-04-12T06:11:00Z",
+  "ended_at": "2026-04-12T06:11:48.880000Z",
+  "duration_ms": 48880,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Provide full information about the procedure for conducting investigative activities in corruption cases according to Australian legislation",
+      "started_at": "2026-04-12T06:11:00Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The following is an overview of the main procedures for conducting investigative activities in corruption cases according to Australian legislation:\n\n1. Identification of a potential corruption case: Corruption cases can be identified by various means, such as complaints from citizens, whistleblowers, or reports from government agencies.\n\n2. Investigation planning: Once a potential case of corruption has been identified, an investigative plan is developed, which includes identifying potential witnesses and evidence, determining the scope and objectives of the investigation, and assigning roles and responsibilities to the investigating team.\n\n3. Investigative activities: Investigative activities may include searching premises and seizing evidence, interviewing witnesses and suspects, collecting and analyzing financial records, and conducting surveillance.\n\n4. Use of specialized agencies: Specialized agencies such as the Australian Crime Commission and the Australian Federal Police may be involved in the investigation of corruption cases, particularly those involving organized crime or national security issues.\n\n5. Use of coercive powers: In some cases, law enforcement agencies may use coercive powers to compel witnesses or suspects to provide information or attend interviews. These powers are subject to certain safeguards to protect the rights of individuals.\n\n6. Referral to prosecution: If the investigation uncovers evidence of corrupt conduct, the findings may be referred to prosecutorial agencies for consideration of charges and prosecution.\n\n7. Legal proceedings: If charges are laid, the matter will proceed through the court system. Defendants have the right to legal representation, and must be proven guilty beyond a reasonable doubt.\n\n8. Penalties: Penalties for corruption vary depending on the nature and severity of the offense, and may include fines, imprisonment, and disqualification from holding public office. Victims of corruption may also be entitled to compensation or restitution.",
+      "started_at": "2026-04-12T06:11:02.720000Z",
+      "duration_ms": 21040,
+      "tokens_in": 0,
+      "tokens_out": 506,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Provide full information about the procedure for conducting investigative activities in corruption cases according to the laws of Great Britain",
+      "started_at": "2026-04-12T06:11:25.260000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The following is a general overview of the main procedures for conducting investigative activities in corruption cases according to English law:\n\n1. Identification of a potential corruption case: Corruption cases can be identified by various means, such as complaints from citizens, whistleblowers, or reports from government agencies.\n\n2. Investigation planning: Once a potential case of corruption has been identified, an investigative plan is developed. This plan will outline how the investigation will be conducted, including identifying potential witnesses and evidence, determining the scope and objectives of the investigation, and assigning roles and responsibilities to the investigating team.\n\n3. Investigative activities: Investigative activities may include searching premises and seizing evidence, interviewing witnesses and suspects, collecting and analyzing financial records, and conducting surveillance.\n\n4. Use of specialized agencies: Specialized agencies such as the Serious Fraud Office (SFO), the National Crime Agency (NCA), and the City of London Police may be involved in the investigation of corruption cases.\n\n5. Use of coercive powers: Investigators may use certain coercive powers to compel witnesses or suspects to provide information or attend interviews. These powers are subject to certain legal safeguards to protect the rights of individuals.\n\n6. Referral to prosecution: If the investigation uncovers evidence of corrupt conduct, the findings may be referred to prosecutorial agencies for consideration of charges and prosecution.\n\n7. Legal proceedings: If charges are laid, the matter will proceed through the court system. Defendants have the right to legal representation, and must be proven guilty beyond a reasonable doubt.\n\n8. Penalties: Penalties for corruption vary depending on the nature and severity of the offense, and may include fines, imprisonment, and disqualification from holding public office. Victims of corruption may also be entitled to compensation or restitution.\n\nIt is important to note that the investigation and prosecution of corruption offenses in the UK is governed by various legal instruments, including the Bribery Act 2010, the Criminal Law Act 1977, and the Proceeds of Crime Act 2002. These laws provide investigators and prosecutors with a range of tools and powers to combat corruption, including the ability to seize the proceeds of corrupt conduct and use them to compensate victims.",
+      "started_at": "2026-04-12T06:11:27.980000Z",
+      "duration_ms": 25400,
+      "tokens_in": 0,
+      "tokens_out": 615,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2932,
+      "tokens_in": 1811,
+      "tokens_out": 1121,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 70,
+      "duration_ms": 48880,
+      "ai_wait_ms": 46440,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00WS9RMXH1JZB6ZB8Q",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP05179003HH7BHYQBGJ9N76",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Provide full information about the procedure for conducting investigative activities in corruption cases according to the laws of Great Britain",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP05179003HH7BHYQBGJ9N76.json",
+        "turn_uri": "data/sessions/sess_01KP05179003HH7BHYQBGJ9N76.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.71).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

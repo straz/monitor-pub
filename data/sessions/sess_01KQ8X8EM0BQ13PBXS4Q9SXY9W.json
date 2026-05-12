@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KQ8X8EM0BQ13PBXS4Q9SXY9W",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "can you provide me the difference between the engineer who working on aircraft and the engineer/senior engineer who work\u2026",
+  "started_at": "2026-04-28T02:04:00Z",
+  "ended_at": "2026-04-28T02:04:46.320000Z",
+  "duration_ms": 46320,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "can you provide me the difference between the engineer who working on aircraft and the engineer/senior engineer who working on engineering on maintenance /airworthiness aircraft feild .",
+      "started_at": "2026-04-28T02:04:00Z",
+      "duration_ms": 1352,
+      "tokens_in": 46,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The primary difference between an engineer who works on aircraft and an engineer/senior engineer who works on engineering maintenance/airworthiness of aircraft is as follows:\n\n1. Aircraft Engineer: An Aircraft Engineer is responsible for designing and developing new and existing aircraft. They work on the aircraft's mechanical, electrical, and avionics systems. They use computer-aided design (CAD) software to create 3D models of aircraft and their components, and they analyze and test aircraft components to ensure they meet safety and regulatory standards.\n\n2. Engineering Maintenance/Airworthiness Engineer: An Engineering Maintenance/Airworthiness Engineer is responsible for the safe and efficient operation of aircraft. They ensure that aircraft maintenance is performed on-time and to the highest standards, ensuring that the aircraft remains airworthy. They also investigate and troubleshoot aircraft maintenance issues and accidents to identify causes and prevent future incidents.\n\nIn summary, while both types of engineers work within the aviation industry, their core responsibilities vary significantly. while the Aircraft Engineer is dealing with the design and development of the aircraft, the Engineering Maintenance/Airworthiness Engineer mainly focuses on the maintenance aspects, ensuring that the aircraft remains airworthy and safe to fly.",
+      "started_at": "2026-04-28T02:04:02.852000Z",
+      "duration_ms": 14440,
+      "tokens_in": 0,
+      "tokens_out": 341,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "can you provide me the difference between the engineer who carrying out mantenance tasks on aircraft and the engineer/senior engineer who working on engineering on maintenance /airworthiness aircraft feild .",
+      "started_at": "2026-04-28T02:04:18.792000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The main difference between an engineer who carries out maintenance tasks on aircraft and an engineer/senior engineer who works on the engineering of maintenance/airworthiness of aircraft is as follows:\n\n1. Maintenance Engineer: A maintenance engineer is responsible for carrying out routine inspections, repairs, and maintenance tasks on aircraft. They use various tools and equipment to identify and rectify any faults or defects on the aircraft to ensure that it remains safe to operate. They also conduct regular servicing and checks to prevent potential problems and ensure compliance with safety regulations.\n\n2. Engineering Maintenance/Airworthiness Engineer: An Engineering Maintenance/Airworthiness Engineer is responsible for the overall safety and airworthiness of the aircraft. They oversee and plan maintenance activities to ensure the aircraft remains compliant with regulatory requirements, and they identify areas for improvement that may enhance the aircraft's reliability and performance. They also analyze data from maintenance activities to identify trends, patterns, and causes of any technical issues.\n\nIn summary, while both types of engineers work within the maintenance and airworthiness fields, their core responsibilities differ significantly. The maintenance engineer primarily carries out routine maintenance tasks and repair work, while the engineering maintenance/airworthiness engineer oversees and plans maintenance activities to ensure the aircraft remains safe, compliant, and reliable.",
+      "started_at": "2026-04-28T02:04:21.704000Z",
+      "duration_ms": 16000,
+      "tokens_in": 0,
+      "tokens_out": 380,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what does the difference  in wages in canada between an engineer who carries out maintenance tasks on aircraft and an engineer/senior engineer who works on the engineering of maintenance/airworthiness of aircraft?\n",
+      "started_at": "2026-04-28T02:04:39.204000Z",
+      "duration_ms": 1436,
+      "tokens_in": 53,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The wages for an engineer who carries out maintenance tasks on aircraft and an engineer/senior engineer who works on the engineering of maintenance/airworthiness of aircraft in Canada may vary depending on a number of factors, such as experience, location, company, and qualifications. However, in general, an engineering maintenance/airworthiness engineer can expect to earn a higher salary than a maintenance engineer due to the higher level of responsibility and the technical skills required for the position. \n\nAccording to PayScale, the average salary for a maintenance engineer in Canada is around CAD 64,000 per year, while an engineering maintenance/airworthiness engineer can expect to earn an average salary of around CAD 90,000 per year. However, these figures can vary depending on the specific role, company, and location. \n\nIt is also worth noting that the salary of an engineer can increase significantly with experience and additional qualifications. Senior engineers are often paid higher salaries than entry-level engineers due to their level of expertise and experience.",
+      "started_at": "2026-04-28T02:04:42.140000Z",
+      "duration_ms": 11680,
+      "tokens_in": 0,
+      "tokens_out": 272,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 34,
+    "ai_cost": 29,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4148,
+      "tokens_in": 3155,
+      "tokens_out": 993,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 150,
+      "duration_ms": 46320,
+      "ai_wait_ms": 42120,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0031,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0065NS2F07VM0JMXQ9",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQ8X8EM0BQ13PBXS4Q9SXY9W",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "can you provide me the difference between the engineer who carrying out mantenance tasks on aircraft and the engineer/senior engineer who working on engineering on maintenance /airworthiness aircraft feild .",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ8X8EM0BQ13PBXS4Q9SXY9W.json",
+        "turn_uri": "data/sessions/sess_01KQ8X8EM0BQ13PBXS4Q9SXY9W.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.83).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

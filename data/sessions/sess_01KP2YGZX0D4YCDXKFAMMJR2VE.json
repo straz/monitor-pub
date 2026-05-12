@@ -1,0 +1,167 @@
+{
+  "id": "sess_01KP2YGZX0D4YCDXKFAMMJR2VE",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "short explaination what is:",
+  "started_at": "2026-04-13T08:15:00Z",
+  "ended_at": "2026-04-13T08:16:26.576000Z",
+  "duration_ms": 86576,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "short explaination what is:\n1.)Controller Area Network\n2.)Universal Serial Bus (USB)\n3.)Integrated Services Digital networks",
+      "started_at": "2026-04-13T08:15:00Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1) Controller Area Network (CAN) is a communication protocol primarily used in automobiles to enable microcontrollers and devices to communicate with each other within a vehicle. The protocol was initially developed by Bosch in 1983 and has since been adopted as a standard in the automotive industry as well as other industries such as aerospace and industrial automation.\n\n2) Universal Serial Bus (USB) is a communication standard that is used to connect devices such as computers, smartphones, and other electronic devices. The USB standard allows for high-speed data transfer, power delivery, and device charging. USB ports are commonly found on computers, laptops, gaming consoles, and other portable devices.\n\n3) Integrated Services Digital Network (ISDN) is a set of communication standards for simultaneous digital transmission of voice, data, and video over traditional telephone networks. The ISDN standard was developed in the 1980s and uses a circuit-switched network rather than a packet-switched network like the internet. ISDN has largely been replaced by newer technologies such as digital subscriber line (DSL) and fiber-optic broadband.",
+      "started_at": "2026-04-13T08:15:02.672000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "short explaination what is:\n1.)High-Level Data Link Control (HDLC)\n2.)Fiber Distributed Data Interface (FDDI)\n3.)LocalTalk",
+      "started_at": "2026-04-13T08:15:16.492000Z",
+      "duration_ms": 1160,
+      "tokens_in": 30,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1) High-Level Data Link Control (HDLC) is a communication protocol for transmitting data over synchronous serial links. It is a bit-oriented protocol that defines how data is transmitted and received between two devices. HDLC is widely used in telecommunications networks and is the basis for other protocols such as LAPB and ISDN.\n\n2) Fiber Distributed Data Interface (FDDI) is a high-speed LAN technology that uses optical fiber to transmit data. It was developed in the 1980s as a faster and more reliable alternative to Ethernet. FDDI can transmit data at speeds of up to 100 Mbps over a distance of up to 200 km. It was primarily used in mission-critical applications such as government and military networks.\n\n3) LocalTalk is a proprietary networking protocol developed by Apple for Macintosh computers. It uses a serial bus to connect devices and allows for data transfer rates of up to 230.4 kbps. LocalTalk was popular in the 1990s as a low-cost networking option for small businesses and home users. It has since been replaced by Ethernet and Wi-Fi.",
+      "started_at": "2026-04-13T08:15:19.152000Z",
+      "duration_ms": 11360,
+      "tokens_in": 0,
+      "tokens_out": 264,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "short explaination what is:\n1.)OSPF (Open Shortest Path First)\n2.)IPsec (Internet Protocol Security)\n3.)RIP (Routing Information Protocol)",
+      "started_at": "2026-04-13T08:15:32.012000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1) OSPF (Open Shortest Path First) is a link-state routing protocol used to exchange routing information within a single autonomous system (AS). It is widely used in large enterprise networks and provides more efficient routing compared to distance-vector protocols. OSPF uses a hierarchical network design consisting of areas and backbone, allowing for better scalability and faster convergence.\n\n2) IPsec (Internet Protocol Security) is a protocol suite used to secure internet protocol (IP) communications by authenticating and encrypting each IP packet. IPsec provides network-level security and is used to establish secure virtual private network (VPN) connections over the internet. It can be used to protect network traffic from eavesdropping, tampering, and other attacks.\n\n3) RIP (Routing Information Protocol) is a distance-vector routing protocol used to exchange routing information between routers in a network. It is a simple, lightweight protocol suitable for small to medium-sized networks. RIP uses hop count as the metric for determining the best path to a destination, and it has a limit of 15 hops. However, RIP is prone to routing loops and does not scale well, making it less suitable for larger networks.",
+      "started_at": "2026-04-13T08:15:34.720000Z",
+      "duration_ms": 13040,
+      "tokens_in": 0,
+      "tokens_out": 306,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "short explaination what is:\n1.)DCCP - Datagram Congestion Control Protocol\n2.)IL - Fibre Channel Protocol\n3.)RUDP - Reliable User Datagram Protocol",
+      "started_at": "2026-04-13T08:15:49.260000Z",
+      "duration_ms": 1232,
+      "tokens_in": 36,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "1) DCCP (Datagram Congestion Control Protocol) is a transport layer protocol used to send datagrams over an unreliable network, like the internet. It is designed to provide congestion control for applications that require real-time data transmission, such as multimedia streaming and voice over IP. DCCP uses a congestion control mechanism to adjust the rate of data transmission based on the network condition.\n\n2) IL (Fibre Channel Protocol) is a family of communication protocols used to transfer data between computer storage devices and servers over a high-speed Fibre Channel network. It defines how data is framed, transmitted, and received between devices. The Fibre Channel network provides high bandwidth and low latency, making it ideal for storage area networks (SANs) and other high-performance computing applications.\n\n3) RUDP (Reliable User Datagram Protocol) is a transport layer protocol that provides a reliable data delivery service over an unreliable network such as the internet. It is similar to the User Datagram Protocol (UDP) but offers reliability features such as retransmission of lost packets and sequencing of packets to ensure they are delivered in the correct order. RUDP is mainly used for multimedia streaming, online gaming, and other applications that require real-time data transmission.",
+      "started_at": "2026-04-13T08:15:51.992000Z",
+      "duration_ms": 14040,
+      "tokens_in": 0,
+      "tokens_out": 331,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "short explanation what is:\n1.) AppleTalk Data Stream Protocol (ADSP)\n2.) Network Basic Input/Output System (NetBIOS)\n3.) Password Authentication Protocol (PAP)",
+      "started_at": "2026-04-13T08:16:07.532000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "1) AppleTalk Data Stream Protocol (ADSP) is a protocol used to establish and maintain a data stream between two AppleTalk devices. It was a part of Apple's proprietary networking protocol suite used in Apple computers in the 1980s and 1990s. ADSP provided reliable and efficient data transmission by performing flow control, error checking, and retransmissions when needed.\n\n2) Network Basic Input/Output System (NetBIOS) is a protocol used to provide applications with a standardized programming interface for accessing network services. NetBIOS was originally developed for IBM's PC Network in the 1980s and later adopted by Microsoft for its Windows operating system. It allows computers to communicate with each other over a LAN by providing a set of functions to manage network connections, name resolution, and other network-related tasks.\n\n3) Password Authentication Protocol (PAP) is a simple authentication protocol used by Point-to-Point Protocol (PPP) to verify the identity of a user connecting to a network. When a user attempts to establish a PPP connection, PAP sends a challenge request to the user, who responds by sending the username and password. The authentication server then compares the credentials with its database to authenticate the user. PAP is not considered to be a secure authentication protocol as it sends passwords in clear text and does not provide encryption.",
+      "started_at": "2026-04-13T08:16:10.300000Z",
+      "duration_ms": 14760,
+      "tokens_in": 0,
+      "tokens_out": 349,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "short explanation what is:\n1.)  eDonkey - classic file sharing protocol\n2.) DeviceNet\t - automation industry protocol\n3.) DDS\t- Data Distribution Service",
+      "started_at": "2026-04-13T08:16:26.560000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "1) eDonkey is a classic file-sharing protocol founded by Jed McCaleb in 2000. It uses a peer-to-peer network to allow users to share and download files over the internet, including music, movies, software, and other digital content. The protocol allows multiple sources to upload and download files simultaneously, increasing download speeds and reducing the burden on individual users.\n\n2) DeviceNet is an automation industry protocol used to connect and communicate with industrial devices such as sensors, actuators, and controllers. It provides a standardized communications protocol for devices to communicate with each other, allowing for real-time control and monitoring. DeviceNet uses the Controller Area Network (CAN) bus as its physical layer and supports multiple network topologies.\n\n3) DDS (Data Distribution Service) is a middleware protocol used to enable data communication between distributed systems and devices. It provides a real-time infrastructure that allows data to be exchanged between devices in a multi-vendor environment. DDS is used in industrial automation, healthcare, transportation, and other industries where real-time data communication is crucial. It supports high performance, efficiency, and reliability, making it suitable for mission-critical applications.",
+      "started_at": "2026-04-13T08:16:29.316000Z",
+      "duration_ms": 13760,
+      "tokens_in": 0,
+      "tokens_out": 324,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 48,
+    "ai_cost": 70,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 10583,
+      "tokens_in": 8721,
+      "tokens_out": 1862,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 208,
+      "duration_ms": 86576,
+      "ai_wait_ms": 79280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0072,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat",
+    "dup"
+  ]
+}

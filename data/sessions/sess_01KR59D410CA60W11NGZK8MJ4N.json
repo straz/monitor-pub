@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR59D410CA60W11NGZK8MJ4N",
+  "tenant": "kurson-health",
+  "project": "pharmgrid",
+  "user": "u_kur_007",
+  "title": "write a paragraph about the purpose of the presentation was to educate student pharmacists about hospital pharmacy,  a d\u2026",
+  "started_at": "2026-05-09T02:35:00Z",
+  "ended_at": "2026-05-09T02:35:19.888000Z",
+  "duration_ms": 19888,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "write a paragraph about the purpose of the presentation was to educate student pharmacists about hospital pharmacy,  a day in the life '",
+      "started_at": "2026-05-09T02:35:00Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The purpose of the presentation was to educate student pharmacists about the day-to-day operations of hospital pharmacies. The presentation aimed to provide them with an in-depth understanding of the roles and responsibilities of pharmacists in a hospital setting, including medication dispensing, compounding, sterile product preparation, drug information, and patient counseling. Additionally, the presentation highlighted the importance of interprofessional collaboration with physicians, nurses, and other healthcare professionals to ensure optimal patient care. By providing students with a clear understanding of the various aspects and challenges of hospital pharmacy, the presentation aimed to prepare them for their future careers as healthcare professionals.",
+      "started_at": "2026-05-09T02:35:02.708000Z",
+      "duration_ms": 8480,
+      "tokens_in": 0,
+      "tokens_out": 192,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "the presenters also discussed the different paths they took to achieve the postions they have today in hospital pharmacy ",
+      "started_at": "2026-05-09T02:35:12.688000Z",
+      "duration_ms": 1160,
+      "tokens_in": 30,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "In addition to educating the student pharmacists about hospital pharmacy, the presenters also discussed the different paths they took to achieve the positions they have today. The presenters shared their own personal journeys and experiences, including their educational backgrounds, previous work experience, and any additional training or certifications they obtained. By sharing their stories, the presenters hoped to inspire the students and provide insight into the various career paths available in the field of hospital pharmacy. They also highlighted the importance of networking and seeking out mentorship opportunities as a way to further their careers. Overall, the presenters aimed to provide the students with valuable information and advice that they can use as they navigate their own career paths in pharmacy.",
+      "started_at": "2026-05-09T02:35:15.348000Z",
+      "duration_ms": 9040,
+      "tokens_in": 0,
+      "tokens_out": 206,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1888,
+      "tokens_in": 1490,
+      "tokens_out": 398,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 64,
+      "duration_ms": 19888,
+      "ai_wait_ms": 17520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:pharmacy",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

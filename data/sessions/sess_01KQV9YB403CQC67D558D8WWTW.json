@@ -1,0 +1,143 @@
+{
+  "id": "sess_01KQV9YB403CQC67D558D8WWTW",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_001",
+  "title": "top line of credit providers in india",
+  "started_at": "2026-05-05T05:32:00Z",
+  "ended_at": "2026-05-05T05:32:23.960000Z",
+  "duration_ms": 23960,
+  "turn_count": 7,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "top line of credit providers in india",
+      "started_at": "2026-05-05T05:32:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. State Bank of India\n2. HDFC Bank\n3. ICICI Bank\n4. Axis Bank\n5. Kotak Mahindra Bank\n6. Yes Bank\n7. Bajaj Finserv\n8. IndusInd Bank\n9. RBL Bank\n10. IDFC First Bank",
+      "started_at": "2026-05-05T05:32:02.408000Z",
+      "duration_ms": 2400,
+      "tokens_in": 0,
+      "tokens_out": 40,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "top line of credit providers nbfc in india",
+      "started_at": "2026-05-05T05:32:06.308000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Bajaj Finserv\n2. Tata Capital\n3. Mahindra and Mahindra Financial Services\n4. Muthoot Finance\n5. Shriram City Union Finance\n6. L&T Finance\n7. Sundaram Finance\n8. Edelweiss\n9. IIFL Finance\n10. Cholamandalam Investment and Finance Company",
+      "started_at": "2026-05-05T05:32:08.728000Z",
+      "duration_ms": 3160,
+      "tokens_in": 0,
+      "tokens_out": 59,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what are the revenue stream in line of credit'",
+      "started_at": "2026-05-05T05:32:13.388000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The revenue stream in a line of credit can come from:\n\n1. Interest charges: The most significant revenue stream in lines of credit is interest charges. Lenders typically charge interest on the outstanding balance on a monthly basis, and the interest rate varies depending on the borrower's creditworthiness.\n\n2. Fees: Lenders may charge fees for initiating, maintaining, or extending a line of credit. These fees can include origination fees, annual fees, or draw fees.\n\n3. Late payment fees: Lenders may levy late payment fees if the borrower misses a payment or makes a payment that is less than the required minimum payment.\n\n4. Cash advance fees: If the borrower uses a line of credit to withdraw cash, the lender may charge a cash advance fee.\n\n5. Foreign transaction fees: If a borrower uses a credit line for transactions outside their country, the lender may charge a foreign transaction fee.\n\n6. Penalty fees: These fees apply when a borrower exceeds the credit limit of their line of credit or fails to meet the terms and conditions of the agreement.\n\nOverall, the revenue stream in a line of credit is primarily derived from interest payments and fees, and lenders may have different fee structures and interest rates for their lines of credit.",
+      "started_at": "2026-05-05T05:32:15.820000Z",
+      "duration_ms": 13320,
+      "tokens_in": 0,
+      "tokens_out": 313,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "assistant",
+      "text": "I hope I was able to provide you with the help you needed. Let me know if you have any further questions or if there's anything else I can assist you with.",
+      "started_at": "2026-05-05T05:32:30.640000Z",
+      "duration_ms": 2320,
+      "tokens_in": 0,
+      "tokens_out": 38,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 34,
+    "ai_cost": 29,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 7,
+      "tokens_total": 3489,
+      "tokens_in": 3039,
+      "tokens_out": 450,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 30,
+      "duration_ms": 23960,
+      "ai_wait_ms": 21200,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ001C2JK9JFRFDA0TSG",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQV9YB403CQC67D558D8WWTW",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "top line of credit providers nbfc in india",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQV9YB403CQC67D558D8WWTW.json",
+        "turn_uri": "data/sessions/sess_01KQV9YB403CQC67D558D8WWTW.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.88).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

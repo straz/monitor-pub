@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQXKBJX07V33B2SVRN6MMHBV",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Emergency Guide for Dogs and Cats",
+  "started_at": "2026-05-06T02:55:00Z",
+  "ended_at": "2026-05-06T02:55:35.132000Z",
+  "duration_ms": 35132,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Emergency Guide for Dogs and Cats",
+      "started_at": "2026-05-06T02:55:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have personal experiences with most situations or emergencies. However, here are some general tips to follow in case of an emergency involving your dog or cat:\n\n1. Stay calm: Your pet is sensitive to your emotions and may become more agitated if you're panicking.\n\n2. Make sure your pet is safe: Move your pet away from any hazardous areas, such as a busy road or a fire.\n\n3. Assess the situation: Try to determine the severity of the situation and whether your pet needs immediate medical attention. Contact your veterinarian or an emergency animal hospital if you're unsure.\n\n4. Administer first aid: If your pet has a wound, try to clean and stop the bleeding. Use a clean cloth or gauze to apply pressure to the wound. If your pet is choking, check their mouth for any obstructions. If they're not breathing, perform CPR.\n\n5. Transport your pet safely: If your pet needs medical attention, place them in a secure and comfortable carrier. Keep them warm and calm during transport.\n\n6. Contact your veterinarian: Let your veterinarian know about the situation and any treatment your pet has received. Follow up with them as needed.\n\n7. Prepare for emergencies: Keep a first aid kit for your pet and know the location of the nearest emergency animal hospital. Also, make sure your pet's identification tags and microchip information are up to date. \n\nRemember, your pet's safety and health should always be a top priority. Stay alert and prepared for any emergency situations that may arise.",
+      "started_at": "2026-05-06T02:55:02.396000Z",
+      "duration_ms": 16040,
+      "tokens_in": 0,
+      "tokens_out": 381,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Guidelines for Emergency Procedures in Dogs and Cats",
+      "started_at": "2026-05-06T02:55:19.936000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I can provide you with general guidelines to follow in case of an emergency involving your dog or cat:\n\n1. Remain calm and assess the situation.\n\n2. If there is an immediate threat to your pet's life, such as choking or a severe injury, perform first aid or seek immediate veterinary attention.\n\n3. If there are multiple animals or people involved, call for assistance.\n\n4. Determine the best way to transport your pet to the veterinarian. If they are in distress or have suffered a serious injury, consider calling for emergency assistance or an ambulance.\n\n5. If you have first aid supplies, use them to stabilize your pet before transport. This may include stopping any bleeding, stabilizing fractures or burns, or providing oxygen to help the pet breathe.\n\n6. If your pet has ingested a toxin, such as rat poison, call your veterinarian or poison control center immediately.\n\n7. If your pet is experiencing seizure activity, make sure the area around them is cleared of any hazards and try to keep them calm until the seizure passes.\n\n8. Be sure to stay in contact with your veterinarian throughout the emergency. They can provide you with guidance on how to proceed and may need updates on your pet's condition as you transport it to them.\n\n9. Finally, once the immediate crisis is over, be sure to follow up with your veterinarian to assess any ongoing risks or issues related to your pet's health.\n\nRemember, preparation is the best way to handle emergencies with your pet. Keep your pet's vaccinations up to date, stay aware of common hazards in your area, and have a plan in place to manage potential emergencies.",
+      "started_at": "2026-05-06T02:55:22.392000Z",
+      "duration_ms": 17240,
+      "tokens_in": 0,
+      "tokens_out": 411,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2402,
+      "tokens_in": 1610,
+      "tokens_out": 792,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 21,
+      "duration_ms": 35132,
+      "ai_wait_ms": 33280,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00GNN9Q3N52H2DTADR",
+      "tenant": "kurson-health",
+      "session": "sess_01KQXKBJX07V33B2SVRN6MMHBV",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Guidelines for Emergency Procedures in Dogs and Cats",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQXKBJX07V33B2SVRN6MMHBV.json",
+        "turn_uri": "data/sessions/sess_01KQXKBJX07V33B2SVRN6MMHBV.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.56).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

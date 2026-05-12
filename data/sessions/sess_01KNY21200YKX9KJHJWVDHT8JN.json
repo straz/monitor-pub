@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KNY21200YKX9KJHJWVDHT8JN",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "is there any regulation in Canada to reimburse  of digital therapeutics apps for insured patients  ?",
+  "started_at": "2026-04-11T10:40:00Z",
+  "ended_at": "2026-04-11T10:40:13.680000Z",
+  "duration_ms": 13680,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "is there any regulation in Canada to reimburse  of digital therapeutics apps for insured patients  ?",
+      "started_at": "2026-04-11T10:40:00Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Currently, there is no specific regulation in Canada that mandates the reimbursement of digital therapeutics apps for insured patients. However, some insurance providers may offer coverage for certain digital therapies or apps as part of their benefits packages. Additionally, the Canadian government has implemented reimbursement policies for telemedicine services in certain provinces, which may include digital therapeutic services. It is best to check with your insurance provider or healthcare professional to determine coverage options for digital therapeutics.",
+      "started_at": "2026-04-11T10:40:02.600000Z",
+      "duration_ms": 6440,
+      "tokens_in": 0,
+      "tokens_out": 141,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: The new German Digital Healthcare Act (DVG), which incentivizes statutory insured patients through prescription and reimbursement to use certain digital health apps for the long-term treatment of their health condition was passed in December 2019. In the Canada, there are few formal, large-scale mechanisms for the reimbursement of digital health solutions, however, recent developments, including COVID-19, have led to increased coverage of other digitally provided services, such as telehealth. Many challenges and unanswered questions are raised by the recent development in digital solution reimbursement, particularly digital therapeutics apps (DTx). ",
+      "started_at": "2026-04-11T10:40:10.540000Z",
+      "duration_ms": 2780,
+      "tokens_in": 165,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Thank you for the clarification! As an AI language model, it's important to stay up-to-date on the latest regulations and developments in healthcare around the world. If you have any further questions or requests for information, please don't hesitate to ask!",
+      "started_at": "2026-04-11T10:40:14.820000Z",
+      "duration_ms": 3360,
+      "tokens_in": 0,
+      "tokens_out": 64,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1761,
+      "tokens_in": 1556,
+      "tokens_out": 205,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 190,
+      "duration_ms": 13680,
+      "ai_wait_ms": 9800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0011,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

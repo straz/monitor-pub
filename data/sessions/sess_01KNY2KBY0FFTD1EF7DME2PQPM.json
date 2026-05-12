@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KNY2KBY0FFTD1EF7DME2PQPM",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "give me a use case for these two types of data store formats: Document-based:",
+  "started_at": "2026-04-11T10:50:00Z",
+  "ended_at": "2026-04-11T10:50:32.496000Z",
+  "duration_ms": 32496,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "give me a use case for these two types of data store formats: Document-based:\nDocument-based databases store databases as documents, containing all of the data into one document making it more flexible and faster to build upon the databases especially if you nest complicated data. \nColumn based:\nColumn based databases stores tables by columns instead of rows",
+      "started_at": "2026-04-11T10:50:00Z",
+      "duration_ms": 1880,
+      "tokens_in": 90,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": ". This type of data store format is best suited for analytical workloads where there are large amounts of data and complex queries need to be run. For example, a financial analysis firm may use a column-based database to store and analyze stock market data. The database would be optimized to run complex queries such as finding the highest stock prices of a certain company over a certain period of time. This would be much faster in a column-based database than a row-based database.",
+      "started_at": "2026-04-11T10:50:03.380000Z",
+      "duration_ms": 5640,
+      "tokens_in": 0,
+      "tokens_out": 121,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "give me a use case for this type of data store format:  Databases that haves keys that are assigned values.",
+      "started_at": "2026-04-11T10:50:10.520000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The type of data store format you are referring to is called a Key-Value database. \n\nA use case for Key-Value databases is in e-commerce applications. These databases are ideal for storing product information and inventory data. For example, a retailer may use a Key-Value database to store product information like product name, description, pricing details, and inventory levels. The key for each product could be the unique ID assigned to that product, and the values for the key-value store would be the relevant product information. \n\nThese databases are also useful for caching, as the key-value pairs can be stored in memory for quick access. This means that user sessions can be saved to a key-value store, allowing for faster access and reduced loading times for frequently visited web pages. Overall, key-value databases are useful in situations where fast, efficient access to specific data points is required.",
+      "started_at": "2026-04-11T10:50:13.132000Z",
+      "duration_ms": 10000,
+      "tokens_in": 0,
+      "tokens_out": 230,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "give me a use case for this type of data store format: Column based:\nColumn based databases stores tables by columns instead of rows. Column based databases is best suited for situations where there are large amounts of data and complex queries need to be run, For example, a store may use a column-based database to store and analyse the products they have on stock. ",
+      "started_at": "2026-04-11T10:50:24.632000Z",
+      "duration_ms": 1904,
+      "tokens_in": 92,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Another use case for a column-based database is for log data analysis. Many companies generate large volumes of log data, such as website clickstream logs or machine activity logs. In order to make sense of this data, complex queries need to be run to identify patterns or anomalies. \n\nA column-based database is well-suited for this kind of analysis because it can handle very large data sets and query them quickly. In a column-based database, each column corresponds to a single type of data, such as a timestamp or IP address. This design allows for more efficient compression and faster access to specific columns during queries. \n\nFor example, suppose an e-commerce company wants to analyze its website clickstream logs to better understand customer behavior. By storing the clickstream logs in a column-based database, the company could quickly query specific columns such as the time of day, page URL, or the user's location. The database would quickly return results much faster than a row-based database, allowing the company to better understand customer behavior and make more informed business decisions.",
+      "started_at": "2026-04-11T10:50:28.036000Z",
+      "duration_ms": 11960,
+      "tokens_in": 0,
+      "tokens_out": 279,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3316,
+      "tokens_in": 2686,
+      "tokens_out": 630,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 208,
+      "duration_ms": 32496,
+      "ai_wait_ms": 27600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KQRBT8D005JQG46W86Z0511C",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "make a good word, existing data point cheking and labeling charge .  cctv inspection  charge",
+  "started_at": "2026-05-04T02:07:00Z",
+  "ended_at": "2026-05-04T02:07:21.144000Z",
+  "duration_ms": 21144,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "make a good word, existing data point cheking and labeling charge .  cctv inspection  charge",
+      "started_at": "2026-05-04T02:07:00Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "\"Data Verification and Surveillance Service\"",
+      "started_at": "2026-05-04T02:07:02.576000Z",
+      "duration_ms": 1240,
+      "tokens_in": 0,
+      "tokens_out": 11,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "make breef",
+      "started_at": "2026-05-04T02:07:05.316000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Our company offers a comprehensive data verification and surveillance service. This includes checking and labeling existing data points to ensure accuracy and completeness. We also provide CCTV inspection services to enhance your security measures. Our charges are reasonable and tailored to meet individual needs. Trust us to provide top-notch services to protect your valuable assets.",
+      "started_at": "2026-05-04T02:07:07.640000Z",
+      "duration_ms": 4640,
+      "tokens_in": 0,
+      "tokens_out": 96,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "aslo pa system",
+      "started_at": "2026-05-04T02:07:13.780000Z",
+      "duration_ms": 836,
+      "tokens_in": 3,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "We also offer PA system services for events and businesses. Our team of experts will ensure high-quality sound transmission throughout the venue while maintaining clear and crisp audio. Our charges for the PA system service are affordable and can be customized according to your specific needs and budget. Leave the technicalities to us while you focus on delivering an exceptional experience to your audience or customers.",
+      "started_at": "2026-05-04T02:07:16.116000Z",
+      "duration_ms": 5000,
+      "tokens_in": 0,
+      "tokens_out": 105,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "sumesh is ready on tommorow   make a good sentence ",
+      "started_at": "2026-05-04T02:07:22.616000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "\"Sumesh is fully prepared and ready to tackle all the upcoming challenges tomorrow with utmost confidence.\"",
+      "started_at": "2026-05-04T02:07:25.060000Z",
+      "duration_ms": 1840,
+      "tokens_in": 0,
+      "tokens_out": 26,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "as per service request, we visit the site the vdp monitor is complaint replace a new one ",
+      "started_at": "2026-05-04T02:07:28.400000Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "\"Reference to your service request, we have visited the site and found that the VDP monitor is faulty. As per your request, we have replaced the faulty monitor with a new one to ensure seamless functioning. Please do not hesitate to contact us if you have any further queries or concerns.\"",
+      "started_at": "2026-05-04T02:07:30.964000Z",
+      "duration_ms": 3680,
+      "tokens_in": 0,
+      "tokens_out": 72,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 35,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4056,
+      "tokens_in": 3746,
+      "tokens_out": 310,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 62,
+      "duration_ms": 21144,
+      "ai_wait_ms": 16400,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

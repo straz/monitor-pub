@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP0JFGT0HE013R203VZFMDZK",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_001",
+  "title": "Give me a list of names for an application to be developed that would allow home builders to communicate with home owner\u2026",
+  "started_at": "2026-04-12T10:06:00Z",
+  "ended_at": "2026-04-12T10:06:09.036000Z",
+  "duration_ms": 9036,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Give me a list of names for an application to be developed that would allow home builders to communicate with home owners concerning warranty claims.",
+      "started_at": "2026-04-12T10:06:00Z",
+      "duration_ms": 1244,
+      "tokens_in": 37,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. HomeWise\n2. WarrantyWorks\n3. ClaimConnect\n4. BuildAssure\n5. HomeFixer\n6. HouseLink\n7. WarrantyWay\n8. ConstructConnect\n9. HomeGuard\n10. SupportHome\n11. HomeCareX\n12. RelationBuilder\n13. MyFixmate\n14. HomeClaimsX\n15. BuilderBuddy",
+      "started_at": "2026-04-12T10:06:02.744000Z",
+      "duration_ms": 3080,
+      "tokens_in": 0,
+      "tokens_out": 57,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Give me 10 more examples ",
+      "started_at": "2026-04-12T10:06:07.324000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here are 10 more examples of names for an application to allow home builders to communicate with home owners regarding warranty claims:\n\n1. ClaimKeeper\n2. BuildAssist\n3. HomeWarrantyPro\n4. FixFinder\n5. WarrantyTracker\n6. HomeSupportX\n7. BuilderBond\n8. HomeIssueSolver\n9. ClaimBridge\n10. BuildGuardian",
+      "started_at": "2026-04-12T10:06:09.696000Z",
+      "duration_ms": 3840,
+      "tokens_in": 0,
+      "tokens_out": 76,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1470,
+      "tokens_in": 1337,
+      "tokens_out": 133,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 43,
+      "duration_ms": 9036,
+      "ai_wait_ms": 6920,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0009,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:claims",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

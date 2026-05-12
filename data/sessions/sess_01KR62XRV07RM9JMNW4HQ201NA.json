@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR62XRV07RM9JMNW4HQ201NA",
+  "tenant": "meridian-insurance",
+  "project": "riskbench",
+  "user": "u_mer_005",
+  "title": "If a firm cannot invest retained earnings to earn a rate of return _____the required rate of return on retained earnings\u2026",
+  "started_at": "2026-05-09T10:01:00Z",
+  "ended_at": "2026-05-09T10:01:07.852000Z",
+  "duration_ms": 7852,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "If a firm cannot invest retained earnings to earn a rate of return _____the required rate of return on retained earnings, it should return those funds to its stockholders. fill the blank",
+      "started_at": "2026-05-09T10:01:00Z",
+      "duration_ms": 1352,
+      "tokens_in": 46,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "below\n\nless than or equal to",
+      "started_at": "2026-05-09T10:01:02.852000Z",
+      "duration_ms": 1080,
+      "tokens_in": 0,
+      "tokens_out": 7,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "The current risk-free rate of return (rRF\n) is 4.67% while the market risk premium is 6.63%. The D\u2019Amico Company has a beta of 1.56. Using the capital asset pricing model (CAPM) approach, D\u2019Amico\u2019s cost of equity is     .",
+      "started_at": "2026-05-09T10:01:05.432000Z",
+      "duration_ms": 1460,
+      "tokens_in": 55,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The cost of equity using CAPM can be calculated using the formula:\n\nCost of Equity = rRF + (\u03b2 \u00d7 (Market Risk Premium))\n\nPlugging in the given values:\n\nCost of Equity = 4.67% + (1.56 \u00d7 6.63%)\nCost of Equity = 4.67% + 10.35%\nCost of Equity = 14.02%\n\nTherefore, D'Amico's cost of equity using the CAPM approach is 14.02%.",
+      "started_at": "2026-05-09T10:01:08.392000Z",
+      "duration_ms": 3960,
+      "tokens_in": 0,
+      "tokens_out": 79,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1440,
+      "tokens_in": 1354,
+      "tokens_out": 86,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 101,
+      "duration_ms": 7852,
+      "ai_wait_ms": 5040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0008,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:underwriting",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

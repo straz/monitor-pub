@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KP2VTY00072NCZF446E5HBMN",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_007",
+  "title": "Which financial statement's structure is closest to that of the basic accounting equation?",
+  "started_at": "2026-04-13T07:28:00Z",
+  "ended_at": "2026-04-13T07:28:16.208000Z",
+  "duration_ms": 16208,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which financial statement's structure is closest to that of the basic accounting equation?\n\nIncome Statement\n\nStatement Of Stockholders\u2019 Equity\n\nBalance Sheet\n\nRetained Earnings",
+      "started_at": "2026-04-13T07:28:00Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Balance Sheet",
+      "started_at": "2026-04-13T07:28:02.828000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "For its most recent year a company had Sales (all on credit) of $830,000 and Cost of Goods Sold of $525,000. At the beginning of the year its Accounts Receivable were $80,000 and its Inventory was $100,000. At the end of the year its Accounts Receivable were $86,000 and its Inventory was $110,000. The inventory turnover ratio for the year was\u2026\u2026.\n\n4.8\n\n5\n\n7.9\n\n8.5",
+      "started_at": "2026-04-13T07:28:05.248000Z",
+      "duration_ms": 1892,
+      "tokens_in": 91,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The inventory turnover ratio is calculated as Cost of Goods Sold divided by Average Inventory. \n\nAverage Inventory = (Beginning Inventory + Ending Inventory) / 2\n\nBeginning Inventory = $100,000 \nEnding Inventory = $110,000 \n\nAverage Inventory = ($100,000 + $110,000) / 2 = $105,000 \n\nCost of Goods Sold = $525,000 \n\nInventory Turnover Ratio = Cost of Goods Sold / Average Inventory = $525,000 / $105,000 = 5 \n\nTherefore, the inventory turnover ratio for the year is 5.",
+      "started_at": "2026-04-13T07:28:08.640000Z",
+      "duration_ms": 5480,
+      "tokens_in": 0,
+      "tokens_out": 117,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Owned by many people - stockholders, but treated by the law as one person\n\nproprietorship\n\npartnership\n\ncorporation\n\nSole Proprietorship",
+      "started_at": "2026-04-13T07:28:15.620000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "corporation",
+      "started_at": "2026-04-13T07:28:18.328000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "The financial manager main tasks, include:\n\nManager\u2019s most important job is to Make investment decisions\n\nMake financing decisions\n\nManage cash flow from operating activities\n\nAll the above",
+      "started_at": "2026-04-13T07:28:20.708000Z",
+      "duration_ms": 1364,
+      "tokens_in": 47,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "All the above.",
+      "started_at": "2026-04-13T07:28:23.572000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "The combination of Selling Expenses and Administrative Expenses is referred to as\n\nGeneral Expenses\n\nOperating Expenses\n\nTotal Expenses\n\nOperating Income",
+      "started_at": "2026-04-13T07:28:25.992000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Operating Expenses.",
+      "started_at": "2026-04-13T07:28:28.748000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 36,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4317,
+      "tokens_in": 4188,
+      "tokens_out": 129,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 254,
+      "duration_ms": 16208,
+      "ai_wait_ms": 9160,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KP876Y90C6GD32VEKY79JXQ1",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_002",
+  "title": "choose the right answer , Why do private lenders generally operate lower down the capital stack compared to financial in\u2026",
+  "started_at": "2026-04-15T09:23:00Z",
+  "ended_at": "2026-04-15T09:23:16.356000Z",
+  "duration_ms": 16356,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "choose the right answer , Why do private lenders generally operate lower down the capital stack compared to financial institutions?\n\nPrivate lenders obtain funding from investors that require a higher return so they purposely seek riskier borrowers to fulfill that return.\nFinancial institutions are readily accessible and are often the first place companies go for loans, leaving only more risky borrowers for private lenders.\nPrivate lenders prefer to work with riskier borrowers in exchange for higher returns.\nPrivate lenders do not operate lower on the capital stack and often deal in highly secured, low-risk lending transactions.",
+      "started_at": "2026-04-15T09:23:00Z",
+      "duration_ms": 2708,
+      "tokens_in": 159,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Private lenders prefer to work with riskier borrowers in exchange for higher returns.",
+      "started_at": "2026-04-15T09:23:04.208000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Using our risk rating and profitability model, compare two scenarios regarding a loan issuance. Compare the ratios of the two scenarios below:\n\n \tScenario 1 \tScenario 2 \n Debt Service Coverage Ratio\t1.89 \t5.19 \n Adjusted EBITDA/Interest\t8.85 \t9.09 \n Debt/Equity\t0.86 \t0.86 \n Total Liabilities/Tangible Net Worth\t1.78 \t1.78 \n Current Ratio\t2.03 \t2.03 \nIf the company\u2019s balance sheet is the same for both scenarios, what could have caused the changes in the ratios for Scenario 2?\n\nA smaller loan amount in any of the loans.\nLonger amortization period in the loans.\nHigher interest rates charged for any of the loans.\nA higher loan amount in any of the loans.",
+      "started_at": "2026-04-15T09:23:07.348000Z",
+      "duration_ms": 2768,
+      "tokens_in": 164,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "It is not possible to determine the cause of the changes in ratios for Scenario 2 based on the information provided. The ratios may have changed due to a variety of factors including changes in revenue, expenses, or other financial metrics.",
+      "started_at": "2026-04-15T09:23:11.616000Z",
+      "duration_ms": 3200,
+      "tokens_in": 0,
+      "tokens_out": 60,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "choose the right answer , Which of the following are NOT one of the analysis framework tools used to evaluate the qualitative elements (business, industry and management analysis) in our risk rating model?\n\nPorters Five Forces\nBusiness Analysis Scorecard\nPESTEL Analysis\nSensitivity Analysis",
+      "started_at": "2026-04-15T09:23:16.316000Z",
+      "duration_ms": 1664,
+      "tokens_in": 72,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Sensitivity Analysis.",
+      "started_at": "2026-04-15T09:23:19.480000Z",
+      "duration_ms": 1000,
+      "tokens_in": 0,
+      "tokens_out": 5,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "choose the right answer , In risk rating model , we looked at a scenario that improved Atlas\u2019 risk rating from \u201cModerate Risk\u201d to \u201cLow Risk\u201d. As a result, the RAROC for each of its loan facilities increased significantly.\n\nWhich of the following changes to the inputs in the RAROC calculation, in response to the improved risk rating, did NOT contribute to this increase in the RAROC?\n\nA decrease in loss given default\nA decrease in capital requirement\nA decrease in default probability\nA decrease in capital ratio",
+      "started_at": "2026-04-15T09:23:21.980000Z",
+      "duration_ms": 2336,
+      "tokens_in": 128,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "A decrease in capital ratio",
+      "started_at": "2026-04-15T09:23:25.816000Z",
+      "duration_ms": 1040,
+      "tokens_in": 0,
+      "tokens_out": 6,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 32,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 4080,
+      "tokens_in": 3988,
+      "tokens_out": 92,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 523,
+      "duration_ms": 16356,
+      "ai_wait_ms": 6880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

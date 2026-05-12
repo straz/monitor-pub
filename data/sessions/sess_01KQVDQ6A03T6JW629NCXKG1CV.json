@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQVDQ6A03T6JW629NCXKG1CV",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "list some hard skills based on this job description can you use this? The Patient Services Representative communicates w\u2026",
+  "started_at": "2026-05-05T06:38:00Z",
+  "ended_at": "2026-05-05T06:38:32.384000Z",
+  "duration_ms": 32384,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "list some hard skills based on this job description can you use this? The Patient Services Representative communicates with patients and staff using multiple advanced communication tools, including phone calls, online chats, emails, faxes or mail.\nAnswers and resolves patient inquires, in a professional, empathetic and patient-centered way, through the use of effective listening, written and verbal communication skills.\nUtilizes established Practice guidelines to ensure patient issues are addressed in a timely manner and when necessary, transfers the call to the appropriate person at the Practice for additional consultation.\nUses a computerized scheduling system to schedule/reschedule appointments\nProvides accurate and detailed information and updates patient records using Epic\nProvides detailed and clear confirmation to the patient detailing where and when the appointment is, providing directions as needed, providing applicable and language specific home instructions as well as instructions for any required labs or imaging.\nPrepares patients for telemedicine visits by providing clear instructions for the use of phone and video in the place of in-person appointments\nIdentifies opportunities to improve the work processes and environment, and changes in Practice protocols; remains current on new developments in health care.\nApplies critical thinking skills to address any issues that fall outside of an existing protocol or process to meet the needs of the patient\nAttends scheduled training sessions regarding phone support, customer service, systems upgrades, newly acquired clinical systems, or other relevant training sessions, as directed by manager.\nAttends scheduled training sessions to learn to support additional ambulatory practices as directed by manager.\nAssists in the training/orientation of new personnel under the direction of a manager and/or supervisor.\nParticipates in staff meetings/is expected to identify process issues that are obstacles to providing a positive patient experience",
+      "started_at": "2026-05-05T06:38:00Z",
+      "duration_ms": 6872,
+      "tokens_in": 506,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "- Advanced communication skills using multiple tools such as phone calls, online chats, emails, faxes or mail\n- Effective listening, written, and verbal communication skills\n- Utilization of established practice guidelines to address patient inquiries in a timely manner\n- Working knowledge of computerized scheduling systems\n- Accuracy and attention to detail in updating patient records using Epic software\n- Providing clear and detailed confirmation to patients regarding appointments and instructions\n- Preparing patients for telemedicine visits by providing clear instructions for phone and video use\n- Critical thinking skills to address issues outside of existing protocols or processes\n- Ability to identify opportunities for process improvements and changes in practice protocols\n- Participation in scheduled training sessions to support phone support, customer service, and other relevant topics\n- Ability to assist in the training and orientation of new personnel\n- Active participation in staff meetings and identification of process issues hindering a positive patient experience.",
+      "started_at": "2026-05-05T06:38:08.372000Z",
+      "duration_ms": 11720,
+      "tokens_in": 0,
+      "tokens_out": 273,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "list hard skills",
+      "started_at": "2026-05-05T06:38:21.592000Z",
+      "duration_ms": 848,
+      "tokens_in": 4,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "- Operating specific machinery or equipment\n- Proficiency in software or programming languages\n- Data analysis and interpretation\n- Financial analysis and budgeting\n- Project management and organization\n- Quality control and assurance\n- Technical writing and documentation\n- Customer service and support\n- Sales and marketing \n\nNote: These are just a few examples of hard skills. Hard skills can vary based on the specific job or industry.",
+      "started_at": "2026-05-05T06:38:23.940000Z",
+      "duration_ms": 5160,
+      "tokens_in": 0,
+      "tokens_out": 109,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "list more",
+      "started_at": "2026-05-05T06:38:30.600000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "- Mechanical or electrical expertise\n- Medical or healthcare knowledge\n- Design or engineering skills\n- Research capabilities including data collection and analysis\n- Foreign language proficiency\n- Troubleshooting and problem-solving abilities\n- Social media management\n- Public speaking and presentation abilities\n- Time management and organizational skills\n- Legal or regulatory compliance knowledge\n- Interpersonal communication and relationship-building\n- Supply chain management and logistics\n- Negotiation and conflict resolution skills \n- IT or cybersecurity expertise\n- Graphic design or multimedia production.",
+      "started_at": "2026-05-05T06:38:32.924000Z",
+      "duration_ms": 6960,
+      "tokens_in": 0,
+      "tokens_out": 154,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 31,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4519,
+      "tokens_in": 3983,
+      "tokens_out": 536,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 512,
+      "duration_ms": 32384,
+      "ai_wait_ms": 23840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0028,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

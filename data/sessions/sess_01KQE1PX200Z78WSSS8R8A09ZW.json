@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQE1PX200Z78WSSS8R8A09ZW",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "I had a phone conversation with a dealer at Bellevue Chevrolet about purchasing a 2023 Bolt EUV. I was told that they se\u2026",
+  "started_at": "2026-04-30T01:58:00Z",
+  "ended_at": "2026-04-30T01:58:25.128000Z",
+  "duration_ms": 25128,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I had a phone conversation with a dealer at Bellevue Chevrolet about purchasing a 2023 Bolt EUV. I was told that they sell their cars at MSRP. He told me that they had one coming in soon. We agreed that I would purchase this car and I gave him my credit card information so that he could charge a deposit for holding the car for me. Later that day I received another call from the dealership. A different salesperson told me that the first person I talked to was a new guy. He then began to try to sell me a 4000 dollar protection plan for the new car. I told him I was not interested in the protection plan and that I only wanted to purchase the car. He then refused to sell me the car unless I agreed to add the cost of the protection plan into the deal. Is this illegal in the state of Washington?",
+      "started_at": "2026-04-30T01:58:00Z",
+      "duration_ms": 3200,
+      "tokens_in": 200,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "It is not illegal in the state of Washington for a dealership to require customers to purchase a protection plan in order to buy a car. However, it is considered an unethical business practice and is commonly referred to as \"forced add-ons\". It is important to research and understand all the terms and fees associated with purchasing a car before making a commitment to avoid situations like this. If you believe that you were misled or treated unfairly by the dealership, you may want to file a complaint with the Washington State Attorney General's office.",
+      "started_at": "2026-04-30T01:58:04.700000Z",
+      "duration_ms": 6360,
+      "tokens_in": 0,
+      "tokens_out": 139,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "I do want to file a complaint. Can you write one for me?",
+      "started_at": "2026-04-30T01:58:12.560000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Certainly, here is a template for a complaint that you can use as a starting point:\n\n[Your Name]\n[Your Address]\n[City, State ZIP Code]\n[Date]\n\nWashington State Attorney General's Office\nConsumer Protection Division\n800 Fifth Avenue, Suite 2000\nSeattle, WA 98104-3188\n\nDear Sir/Madam,\n\nI am writing to file a complaint against Bellevue Chevrolet, located at [address], for unethical sales practices. On [date], I spoke with a salesperson at the dealership about purchasing a 2023 Bolt EUV. We agreed that I would buy the car and I provided my credit card information for a deposit.\n\nLater that day, I received a call from a different salesperson who attempted to sell me a $4000 protection plan for the car. When I declined, he refused to sell me the car unless I agreed to add the cost of the protection plan into the deal.\n\nI believe that this practice is unethical and constitutes a form of coercion to get customers to purchase unwanted add-ons. I also feel that this behavior is in violation of Washington State's consumer protection laws.\n\nI am requesting that the Attorney General's Office investigate this matter and take appropriate action against Bellevue Chevrolet for this behavior. Please let me know if there is any further information or documentation that I can provide to support my complaint.\n\nThank you for your attention to this matter.\n\nSincerely,\n\n[Your Name]",
+      "started_at": "2026-04-30T01:58:15.028000Z",
+      "duration_ms": 14600,
+      "tokens_in": 0,
+      "tokens_out": 345,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2237,
+      "tokens_in": 1753,
+      "tokens_out": 484,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 214,
+      "duration_ms": 25128,
+      "ai_wait_ms": 20960,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

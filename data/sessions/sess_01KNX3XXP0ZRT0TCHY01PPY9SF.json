@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KNX3XXP0ZRT0TCHY01PPY9SF",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "edit: Despite the increasing importance of digital transformation in healthcare systems, the path towards the digital tr\u2026",
+  "started_at": "2026-04-11T01:54:00Z",
+  "ended_at": "2026-04-11T01:54:31.880000Z",
+  "duration_ms": 31880,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: Despite the increasing importance of digital transformation in healthcare systems, the path towards the digital transformation of hospitals still presents some problems(Raimo et al., 2023),  in such a way that most digital transformation projects have not lived up to expectations (Preko and Boateng, 2020). In this regard, Agarwal et al. (2010) found that health care improvements related to digital transformation often fail to materialize. A recent systematic literature review conducted by Marques and Ferreira (2020) highlighted a sharp increase in the last twenty years of studies on the topic of digital transformation in healthcare originations such as hospitals. However, the authors highlighted that these studies focused mainly on specific issues such as integrated management, medical images, electronic medical records and virtual services. The contributions that dealt with the digital transformation of hospitals from a broader perspective focused mainly on the identification of the different digital technologies implemented, on the advantages and benefits deriving from the implementation of digital technologies and on the barriers and challenges associated with the implementation of these technologies (Tortorella et al., 2020a). However, there is an important gap in the academic literature since only a limited number of studies have examined the drivers capable of influencing the level of digital transformation of hospitals, so empirical research on the drivers of digital transformation of hospitals is still lacking (Raimo et al., 2023; Kraus et al., 2021b).",
+      "started_at": "2026-04-11T01:54:00Z",
+      "duration_ms": 5576,
+      "tokens_in": 398,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Despite the growing recognition of the significance of digital transformation in healthcare systems, the process of digital transformation of hospitals encounters some obstacles. As a result, most projects related to digital transformation have not been able to meet expectations. Despite a significant increase in studies on digital transformation in healthcare organizations such as hospitals, researchers often focus on specific aspects like integrated management, medical images, electronic medical records, and virtual services. However, there is a crucial gap in academic literature as only a few studies have explored the factors influencing the extent of digital transformation in hospitals. Therefore, empirical research on the drivers of digital transformation in hospitals is still insufficient.",
+      "started_at": "2026-04-11T01:54:07.076000Z",
+      "duration_ms": 8840,
+      "tokens_in": 0,
+      "tokens_out": 201,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Despite the increasing importance of digital transformation in healthcare systems, the path towards the digital transformation of hospitals still presents some problems(Raimo et al., 2023). As a result, most digital transformation projects have not lived up to expectations (Preko and Boateng, 2020). A recent systematic literature review conducted by Marques and Ferreira (2020) highlighted a sharp increase in the last twenty years of studies on the topic of digital transformation in healthcare originations such as hospitals. However, the authors highlighted that these studies focused mainly on specific issues such as integrated management, medical images, electronic medical records and virtual services. The contributions that dealt with the digital transformation of hospitals from a broader perspective focused mainly on the identification of the different digital technologies implemented, on the advantages and benefits deriving from the implementation of digital technologies and on the barriers and challenges associated with the implementation of these technologies (Tortorella et al., 2020a). However, there is an important gap in the academic literature since only a limited number of studies have examined the drivers capable of influencing the level of digital transformation of hospitals, so empirical research on the drivers of digital transformation of hospitals is still lacking (Raimo et al., 2023; Kraus et al., 2021b).",
+      "started_at": "2026-04-11T01:54:17.416000Z",
+      "duration_ms": 5144,
+      "tokens_in": 362,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Although digital transformation has become increasingly important in healthcare systems, hospitals still face challenges in achieving it (Raimo et al., 2023). This has resulted in most digital transformation projects failing to meet expectations (Preko and Boateng, 2020). While there has been significant growth in studies on digital transformation in healthcare organizations like hospitals, these studies tend to focus on specific areas such as integrated management, medical images, electronic medical records, and virtual services (Marques and Ferreira, 2020). Broader studies on the digital transformation of hospitals tend to examine the various digital technologies implemented, the advantages and benefits of digital technologies, and the associated barriers and challenges (Tortorella et al., 2020a). However, there is a critical gap in the academic literature related to the limited number of studies that investigate the drivers that influence the level of digital transformation in hospitals. Thus, there is a need for further empirical research on the drivers of digital transformation in hospitals (Raimo et al., 2023; Kraus et al., 2021b).",
+      "started_at": "2026-04-11T01:54:24.060000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3048,
+      "tokens_in": 2559,
+      "tokens_out": 489,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 760,
+      "duration_ms": 31880,
+      "ai_wait_ms": 21160,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00EM55N2EKEV1W1R53",
+      "tenant": "kurson-health",
+      "session": "sess_01KNX3XXP0ZRT0TCHY01PPY9SF",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "edit: Despite the increasing importance of digital transformation in healthcare systems, the path towards the digital transformation of hospitals still presents some problems(Raimo et al., 2023). As a result, most digital transformation pro",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KNX3XXP0ZRT0TCHY01PPY9SF.json",
+        "turn_uri": "data/sessions/sess_01KNX3XXP0ZRT0TCHY01PPY9SF.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.87).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

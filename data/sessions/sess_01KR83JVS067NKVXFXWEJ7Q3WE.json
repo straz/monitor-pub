@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR83JVS067NKVXFXWEJ7Q3WE",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "give me some information about data mining",
+  "started_at": "2026-05-10T04:51:00Z",
+  "ended_at": "2026-05-10T04:52:00.408000Z",
+  "duration_ms": 60408,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "give me some information about data mining ",
+      "started_at": "2026-05-10T04:51:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Data mining is a process of analyzing large data sets to extract useful and valuable information. It is a branch of computer science that combines statistics, machine learning, and database systems to discover patterns, trends, correlations, and insights in data.\n\nThe goal of data mining is to convert raw data into actionable insights that can be utilized for business decision-making, research, and other useful purposes. Data mining algorithms are used to analyze structured, semi-structured, or unstructured data from different sources such as databases, data warehouses, and the internet.\n\nSome examples of data mining applications include fraud detection in financial transactions, customer segmentation for marketing, predictive maintenance in manufacturing, and healthcare research.\n\nAdvancements in big data technology have fueled the growth of data mining in recent years. Machine learning techniques such as neural networks, decision trees, and clustering algorithms have made data mining more efficient and effective.\n\nHowever, data mining is not without its challenges. Issues such as data quality, privacy, and ethical considerations need to be addressed to ensure that data mining is conducted in a responsible manner.",
+      "started_at": "2026-05-10T04:51:02.420000Z",
+      "duration_ms": 13120,
+      "tokens_in": 0,
+      "tokens_out": 308,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "give me  a organizational structual of Data governance department in a big bank",
+      "started_at": "2026-05-10T04:51:17.040000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The organizational structure of a Data Governance department in a big bank may vary depending on the bank's specific requirements, but here is an example of a typical structure:\n\n1. Chief Data Officer (CDO): The CDO is responsible for leading the Data Governance department and ensuring that data-related policies and procedures are put in place and enforced.\n\n2. Data Governance Council: The council includes key stakeholders from various departments of the bank and is responsible for setting the strategic direction of data governance, prioritizing initiatives, and approving policies and standards.\n\n3. Data Stewards: Data stewards are responsible for specific sets of data and ensure that the data is properly defined, documented, and maintained according to established policies and standards.\n\n4. Data Analysts: Data analysts work closely with data stewards to analyze data quality, identify data issues, and recommend solutions.\n\n5. Data Architects: Data architects are responsible for designing and maintaining the bank's data architecture, including data models, metadata, and data integration frameworks.\n\n6. Data Quality Team: The data quality team is responsible for monitoring and improving the quality of data in the bank's systems by setting quality standards and implementing procedures to ensure data is accurate, complete, and consistent.\n\n7. Compliance Team: The compliance team ensures that the bank complies with all applicable data-related regulations, including data protection laws, and recommends procedures to mitigate legal and business risks associated with data management.\n\n8. Metadata Management Team: The metadata management team is responsible for maintaining the bank's metadata repository, which includes data definitions, data lineage, and other important information about the bank's data.\n\n9. Data Privacy Team: The data privacy team ensures that the bank's data is protected and managed in accordance with privacy laws and regulations. They are responsible for managing access to sensitive data and ensuring data is masked or anonymized when necessary.\n\nOverall, the data governance department is responsible for ensuring that data is managed effectively across the organization to enable better decision-making, reduce operational risks, and contribute to the bank's overall success.",
+      "started_at": "2026-05-10T04:51:19.568000Z",
+      "duration_ms": 24040,
+      "tokens_in": 0,
+      "tokens_out": 581,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "translat it in persian ",
+      "started_at": "2026-05-10T04:51:45.108000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "\u0633\u0627\u062e\u062a\u0627\u0631 \u0633\u0627\u0632\u0645\u0627\u0646\u06cc \u0628\u062e\u0634 \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647 \u062f\u0631 \u06cc\u06a9 \u0628\u0627\u0646\u06a9 \u0628\u0632\u0631\u06af \u0645\u0645\u06a9\u0646 \u0627\u0633\u062a \u0628\u0627 \u062a\u0648\u062c\u0647 \u0628\u0647 \u0627\u0644\u0632\u0627\u0645\u0627\u062a \u062e\u0627\u0635 \u0628\u0627\u0646\u06a9 \u0645\u062a\u0641\u0627\u0648\u062a \u0628\u0627\u0634\u062f\u060c \u0627\u0645\u0627 \u062f\u0631 \u0632\u06cc\u0631 \u06cc\u06a9 \u0646\u0645\u0648\u0646\u0647 \u0627\u0632 \u0633\u0627\u062e\u062a\u0627\u0631 \u0645\u0639\u0645\u0648\u0644\u06cc \u0622\u0646 \u0631\u0627 \u0645\u0634\u0627\u0647\u062f\u0647 \u0645\u06cc\u200c\u06a9\u0646\u06cc\u062f:\n\n1. \u0645\u062f\u06cc\u0631\u0639\u0627\u0645\u0644 \u062f\u0627\u062f\u0647 (CDO): \u0645\u062f\u06cc\u0631\u0639\u0627\u0645\u0644 \u062f\u0627\u062f\u0647 \u0645\u0633\u0626\u0648\u0644 \u0631\u0647\u0628\u0631\u06cc \u0628\u062e\u0634 \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u0648 \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u062d\u0627\u0635\u0644 \u0645\u06cc\u200c\u06a9\u0646\u062f \u06a9\u0647 \u0633\u06cc\u0627\u0633\u062a\u200c\u0647\u0627 \u0648 \u0631\u0648\u0634\u200c\u0647\u0627\u06cc \u0645\u0631\u062a\u0628\u0637 \u0628\u0627 \u062f\u0627\u062f\u0647 \u062f\u0631\u0633\u062a \u0628\u06a9\u0627\u0631 \u06af\u0631\u0641\u062a\u0647 \u0648 \u0628\u0631 \u0627\u062c\u0631\u0627\u06cc \u0622\u0646\u0647\u0627 \u0646\u0638\u0627\u0631\u062a \u0645\u06cc\u200c\u0634\u0648\u062f.\n\n2. \u0634\u0648\u0631\u0627\u06cc \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647: \u0627\u06cc\u0646 \u0634\u0648\u0631\u0627 \u0634\u0627\u0645\u0644 \u062f\u0633\u062a\u200c\u0627\u0646\u062f\u0631\u06a9\u0627\u0631\u0627\u0646 \u06a9\u0644\u06cc\u062f\u06cc \u0627\u0632 \u0628\u062e\u0634\u200c\u0647\u0627\u06cc \u0645\u062e\u062a\u0644\u0641 \u0628\u0627\u0646\u06a9 \u0627\u0633\u062a \u0648 \u0645\u0633\u0626\u0648\u0644 \u062a\u0639\u06cc\u06cc\u0646 \u062c\u0647\u062a \u0631\u0627\u0647\u0628\u0631\u062f\u06cc \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647\u060c \u062a\u0639\u06cc\u06cc\u0646 \u0627\u0648\u0644\u0648\u06cc\u062a \u0627\u0642\u062f\u0627\u0645\u0627\u062a \u0648 \u062a\u0623\u06cc\u06cc\u062f \u0633\u06cc\u0627\u0633\u062a\u200c\u0647\u0627 \u0648 \u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u062f\u0647\u0627\u06cc \u0645\u0631\u062a\u0628\u0637 \u0627\u0633\u062a.\n\n3. \u0646\u0627\u0638\u0631\u0627\u0646 \u062f\u0627\u062f\u0647: \u0646\u0627\u0638\u0631\u0627\u0646 \u062f\u0627\u062f\u0647 \u0628\u0631\u0627\u06cc \u0645\u062c\u0645\u0648\u0639\u0647\u200c\u0647\u0627\u06cc \u062e\u0627\u0635\u06cc \u0627\u0632 \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0645\u0633\u0626\u0648\u0644\u06cc\u062a \u062f\u0627\u0631\u0646\u062f \u0648 \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u062d\u0627\u0635\u0644 \u0645\u06cc\u200c\u06a9\u0646\u0646\u062f \u06a9\u0647 \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0628\u0647 \u062f\u0631\u0633\u062a\u06cc \u062a\u0639\u0631\u06cc\u0641\u060c \u0645\u0633\u062a\u0646\u062f\u0633\u0627\u0632\u06cc \u0648 \u062f\u0631 \u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u062f\u0647\u0627 \u0648 \u0633\u06cc\u0627\u0633\u062a\u200c\u0647\u0627\u06cc \u0645\u0639\u06cc\u0646 \u0642\u0631\u0627\u0631 \u062f\u0627\u0631\u0646\u062f.\n\n4. \u062a\u062d\u0644\u06cc\u0644\u06af\u0631\u0627\u0646 \u062f\u0627\u062f\u0647: \u062a\u062d\u0644\u06cc\u0644\u06af\u0631\u0627\u0646 \u062f\u0627\u062f\u0647 \u0628\u0627 \u0646\u0627\u0638\u0631\u0627\u0646 \u062f\u0627\u062f\u0647 \u0647\u0645\u06a9\u0627\u0631\u06cc \u0645\u06cc\u200c\u06a9\u0646\u0646\u062f \u062a\u0627 \u06a9\u06cc\u0641\u06cc\u062a \u062f\u0627\u062f\u0647 \u0631\u0627 \u062a\u062d\u0644\u06cc\u0644 \u06a9\u0631\u062f\u0647\u060c \u0645\u0634\u06a9\u0644\u0627\u062a \u062f\u0627\u062f\u0647 \u0631\u0627 \u0634\u0646\u0627\u0633\u0627\u06cc\u06cc \u0648 \u0631\u0627\u0647\u200c\u062d\u0644\u200c\u0647\u0627\u06cc \u0644\u0627\u0632\u0645 \u0631\u0627 \u067e\u06cc\u0634\u0646\u0647\u0627\u062f \u062f\u0647\u0646\u062f.\n\n5. \u0645\u0639\u0645\u0627\u0631\u0627\u0646 \u062f\u0627\u062f\u0647: \u0645\u0639\u0645\u0627\u0631\u0627\u0646 \u062f\u0627\u062f\u0647 \u0645\u0633\u0626\u0648\u0644 \u0637\u0631\u0627\u062d\u06cc \u0648 \u062d\u0641\u0638 \u0645\u0639\u0645\u0627\u0631\u06cc \u062f\u0627\u062f\u0647 \u0628\u0627\u0646\u06a9\u060c \u0634\u0627\u0645\u0644 \u0645\u062f\u0644\u200c\u0647\u0627\u06cc \u062f\u0627\u062f\u0647\u200c\u0627\u06cc\u060c \u0645\u062a\u0627 \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0648 \u0686\u0627\u0631\u0686\u0648\u0628 \u0627\u062f\u063a\u0627\u0645 \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0647\u0633\u062a\u0646\u062f.\n\n6. \u062a\u06cc\u0645 \u06a9\u06cc\u0641\u06cc\u062a \u062f\u0627\u062f\u0647: \u062a\u06cc\u0645 \u06a9\u06cc\u0641\u06cc\u062a \u062f\u0627\u062f\u0647 \u0645\u0633\u0626\u0648\u0644 \u0646\u0638\u0627\u0631\u062a \u0628\u0631 \u06a9\u06cc\u0641\u06cc\u062a \u062f\u0627\u062f\u0647 \u062f\u0631 \u0633\u06cc\u0633\u062a\u0645\u200c\u0647\u0627\u06cc \u0628\u0627\u0646\u06a9 \u0627\u0633\u062a \u0648 \u0628\u0627 \u062a\u0639\u06cc\u06cc\u0646 \u0627\u0633\u062a\u0627\u0646\u062f\u0627\u0631\u062f\u0647\u0627\u06cc \u06a9\u06cc\u0641\u06cc\u062a \u0628\u0631\u0627\u06cc \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0648 \u067e\u06cc\u0627\u062f\u0647\u200c\u0633\u0627\u0632\u06cc \u0631\u0648\u0634\u200c\u0647\u0627\u06cc \u0644\u0627\u0632\u0645\u060c \u0628\u0631\u0627\u06cc \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u062f\u0642\u06cc\u0642\u060c \u06a9\u0627\u0645\u0644 \u0648 \u06cc\u06a9\u0633\u0627\u0646 \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u062d\u0627\u0635\u0644 \u0645\u06cc\u200c\u06a9\u0646\u0646\u062f.\n\n7. \u062a\u06cc\u0645 \u062a\u0637\u0627\u0628\u0642: \u062a\u06cc\u0645 \u062a\u0637\u0627\u0628\u0642 \u0628\u0627\u0639\u062b \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u0645\u06cc\u200c\u0634\u0648\u062f \u06a9\u0647 \u0628\u0627\u0646\u06a9 \u0628\u0627 \u0647\u0645\u0647 \u0645\u0642\u0631\u0631\u0627\u062a \u0645\u0631\u062a\u0628\u0637 \u0628\u0627 \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u060c \u0627\u0632 \u062c\u0645\u0644\u0647 \u0642\u0648\u0627\u0646\u06cc\u0646 \u062d\u0641\u0627\u0638\u062a \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u060c \u0633\u0627\u0632\u06af\u0627\u0631\u06cc \u062f\u0627\u0631\u062f \u0648 \u0631\u0648\u0634\u200c\u0647\u0627\u06cc\u06cc \u0631\u0627 \u0628\u0631\u0627\u06cc \u06a9\u0627\u0647\u0634 \u062e\u0637\u0631\u0627\u062a \u062d\u0642\u0648\u0642\u06cc \u0648 \u062a\u062c\u0627\u0631\u06cc \u0645\u0631\u0628\u0648\u0637 \u0628\u0647 \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647\u060c \u067e\u06cc\u0634\u0646\u0647\u0627\u062f \u0645\u06cc\u200c\u062f\u0647\u062f.\n\n8. \u062a\u06cc\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062a\u0627\u062f\u0627\u062f\u0647\u200c\u0647\u0627: \u062a\u06cc\u0645 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0645\u062a\u0627\u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0645\u0633\u0626\u0648\u0644 \u062d\u0641\u0638 \u0645\u062e\u0632\u0646 \u0645\u062a\u0627 \u062f\u0627\u062f\u0647 \u0628\u0627\u0646\u06a9 \u0627\u0633\u062a\u060c \u0634\u0627\u0645\u0644 \u062a\u0639\u0627\u0631\u06cc\u0641 \u062f\u0627\u062f\u0647\u060c \u062e\u0637 \u062a\u0628\u0639\u06cc\u062a \u0627\u0632 \u0645\u0635\u062f\u0627\u0642 \u0648 \u0633\u0627\u06cc\u0631 \u0627\u0637\u0644\u0627\u0639\u0627\u062a \u0645\u0647\u0645 \u0645\u0631\u0628\u0648\u0637 \u0628\u0647 \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u0628\u0627\u0646\u06a9.\n\n9. \u062a\u06cc\u0645 \u062d\u0641\u0627\u0638\u062a \u062f\u0627\u062f\u0647: \u062a\u06cc\u0645 \u062d\u0641\u0627\u0638\u062a \u062f\u0627\u062f\u0647 \u0645\u0637\u0645\u0626\u0646 \u0645\u06cc\u200c\u0634\u0648\u062f \u06a9\u0647 \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u0628\u0627\u0646\u06a9 \u062f\u0631 \u0645\u0637\u0627\u0628\u0642\u062a \u0628\u0627 \u0642\u0648\u0627\u0646\u06cc\u0646 \u0648 \u0645\u0642\u0631\u0631\u0627\u062a \u0645\u0631\u0628\u0648\u0637 \u0628\u0647 \u062d\u0641\u0627\u0638\u062a \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u0645\u062f\u06cc\u0631\u06cc\u062a \u0648 \u062d\u0641\u0638 \u0634\u0648\u0646\u062f. \u0622\u0646\u0647\u0627 \u0645\u0633\u0626\u0648\u0644 \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0633\u062a\u0631\u0633\u06cc \u0628\u0647 \u062f\u0627\u062f\u0647\u200c\u0647\u0627\u06cc \u062d\u0633\u0627\u0633 \u0648 \u0627\u0637\u0645\u06cc\u0646\u0627\u0646 \u062d\u0627\u0635\u0644 \u0645\u06cc\u200c\u06a9\u0646\u0646\u062f \u06a9\u0647 \u062f\u0627\u062f\u0647\u200c\u0647\u0627 \u062f\u0631 \u0635\u0648\u0631\u062a \u0644\u0632\u0648\u0645 \u0645\u0627\u0633\u06a9 \u0634\u0648\u0646\u062f \u06cc\u0627 \u0646\u0627\u0634\u0646\u0627\u0633 \u0628\u0627\u0634\u0646\u062f.\n\n\u062f\u0631 \u06a9\u0644\u060c \u0628\u062e\u0634 \u0645\u062f\u06cc\u0631\u06cc\u062a \u062f\u0627\u062f\u0647 \u0645\u0633\u0626\u0648\u0644 \u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0627\u0631\u0622\u0645\u062f \u062f\u0627\u062f\u0647 \u062f\u0631 \u0633\u0631\u0627\u0633\u0631 \u0633\u0627\u0632\u0645\u0627\u0646 \u0627\u0633\u062a \u062a\u0627 \u0628\u062a\u0648\u0627\u0646\u062f \u0628\u0647\u0628\u0648\u062f \u062a\u0635\u0645\u06cc\u0645\u200c\u06af\u06cc\u0631\u06cc\u060c \u06a9\u0627\u0647\u0634 \u062e\u0637\u0631\u0627\u062a \u0639\u0645\u0644\u06cc\u0627\u062a\u06cc \u0648 \u0628\u0647\u0628\u0648\u062f \u06a9\u0644\u06cc \u0628\u0627\u0646\u06a9 \u062f\u0631 \u067e\u06cc\u0634\u0631\u0641\u062a \u06a9\u0645\u06a9 \u06a9\u0646\u062f.",
+      "started_at": "2026-05-10T04:51:47.468000Z",
+      "duration_ms": 20440,
+      "tokens_in": 0,
+      "tokens_out": 491,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 31,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4450,
+      "tokens_in": 3070,
+      "tokens_out": 1380,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 34,
+      "duration_ms": 60408,
+      "ai_wait_ms": 57600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0036,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

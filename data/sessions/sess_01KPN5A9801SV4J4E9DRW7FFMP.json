@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPN5A9801SV4J4E9DRW7FFMP",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Please help me to write  an email to gopuff support team and mention Hi ",
+  "started_at": "2026-04-20T10:00:00Z",
+  "ended_at": "2026-04-20T10:00:28.720000Z",
+  "duration_ms": 28720,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Please help me to write  an email to gopuff support team and mention Hi \nI can\u2019t just be determined, how come, it should be an explanation. Everyday new driver comes to the work. What is the reason . Please look in to it for me . I have never had such a experience. \nI had heart attack and I went to hospital . Because of this letter that I received, I can\u2019t be determined without explanation. At least have should get a noticed . \nIf you don\u2019t help me with the explanation, I\u2019ll get a lawyer and chase it because it\u2019s effect my mental problem and gave me anxiety , I had to have an notice. ",
+      "started_at": "2026-04-20T10:00:00Z",
+      "duration_ms": 2564,
+      "tokens_in": 147,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Hi,\n\nI hope this email finds you well. I am writing to express my concern about the recent changes in drivers at gopuff. I am unable to understand why there are new drivers every day and I think it\u2019s important that you clarify this situation for me.\n\nI have been using gopuff for a while and this is the first time I have experienced anything like this. As a customer, I believe I deserve to know what is going on. Additionally, I recently received a letter that has caused me a great deal of anxiety and stress.\n\nI had a heart attack and had to go to the hospital. Given my current state of health, receiving this letter without any explanation about the new drivers is making it hard for me to be determined and confident while using gopuff. I would appreciate it if you could provide me with some information about this matter.\n\nIf I don't receive an explanation, I will be forced to take legal action. The emotional stress and anxiety caused by this situation have affected my mental condition. I look forward to hearing from you soon.\n\nThank you.\n\nSincerely, \n\n[Your Name]",
+      "started_at": "2026-04-20T10:00:04.064000Z",
+      "duration_ms": 11560,
+      "tokens_in": 0,
+      "tokens_out": 269,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Hi I have been determined to work as a delivery driver for gopuff please help to write an email and say I had heart attack this morning and I went to hospital because I paid for rent, electric and water and gas . If you don\u2019t provide me an explanation why I have been determined and not having notice before , I\u2019ll get a lawyer and chase it down , and I\u2019ll promise that\u2019s effect my mental health and anxiety , you can\u2019t just determined me without further notice just make me jobless in a second ",
+      "started_at": "2026-04-20T10:00:17.124000Z",
+      "duration_ms": 2276,
+      "tokens_in": 123,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Hi,\n\nI hope this email finds you well. I am reaching out to you regarding my recent employment status at gopuff. I have been determined to work as a delivery driver, but this morning I had a heart attack and was taken to the hospital.\n\nAs you can imagine, this medical condition has put me under a lot of financial stress. I have bills to pay, including rent, electricity, water, and gas, and I need my job at gopuff to help me support myself and my family.\n\nHowever, I have not been given any prior notice as to why I have been determined. I don't understand why my employment status has suddenly changed without any explanation. This has caused a lot of emotional distress and anxiety for me, and I believe that I deserve some clarity on this matter.\n\nIf I don't receive an explanation as to why I have been determined without any prior notice, I will be forced to take legal action. This situation is affecting my mental health, and I cannot afford to lose my job without any explanation.\n\nI hope that you will understand my situation and provide me with the information that I need. I look forward to hearing from you soon.\n\nThank you,\n\n[Your Name]",
+      "started_at": "2026-04-20T10:00:20.900000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2443,
+      "tokens_in": 1886,
+      "tokens_out": 557,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 270,
+      "duration_ms": 28720,
+      "ai_wait_ms": 23880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPZFZYH0HGV606R6QJ3TWCPW",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "whats application of chat gpt in ophthalmology?",
+  "started_at": "2026-04-24T10:19:00Z",
+  "ended_at": "2026-04-24T10:19:14.348000Z",
+  "duration_ms": 14348,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "whats application of chat gpt in ophthalmology?",
+      "started_at": "2026-04-24T10:19:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, GPT-3 is not specialized in any field, including ophthalmology. However, it can be used as a tool for chatbots and virtual assistants designed to assist patients with eye problems. For example, the chatbot can ask patients questions about their symptoms and medical history, provide information about the various eye conditions, and recommend the best course of treatment based on the patient's responses. The chatbot can also provide non-medical information such as finding the nearest ophthalmologist or booking an appointment. The application of chat GPT in ophthalmology depends on how it is designed and integrated into the overall healthcare system.",
+      "started_at": "2026-04-24T10:19:02.432000Z",
+      "duration_ms": 7600,
+      "tokens_in": 0,
+      "tokens_out": 170,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what version of chat gpt are you?",
+      "started_at": "2026-04-24T10:19:11.532000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I am currently based on the latest version of OpenAI's GPT, which is GPT-3. However, my specific implementation and configuration may be different from the standard GPT-3 model as I have been developed and trained specifically for the purpose of serving as a virtual assistant for different use cases such as customer service, natural language processing, content creation, and many others.",
+      "started_at": "2026-04-24T10:19:13.928000Z",
+      "duration_ms": 4920,
+      "tokens_in": 0,
+      "tokens_out": 103,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1673,
+      "tokens_in": 1400,
+      "tokens_out": 273,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 19,
+      "duration_ms": 14348,
+      "ai_wait_ms": 12520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0011,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

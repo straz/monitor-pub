@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPJAGCZ0D1YC833DN3PYJGKJ",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Let\u2019s say I have a travel insurance in France that covers third party liability. I went to Spain and damaged my acquaint\u2026",
+  "started_at": "2026-04-19T07:33:00Z",
+  "ended_at": "2026-04-19T07:33:18.096000Z",
+  "duration_ms": 18096,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Let\u2019s say I have a travel insurance in France that covers third party liability. I went to Spain and damaged my acquaintance\u2019s car there. He took the car to a service, they sent me a bill for the repair. In order to be reimbursed for this the insurance company requested the bill from the service from me. Is it possible that the insurance company will try to reach the service to check this information in the bill? If it is, is the service allowed to respond to such requests?",
+      "started_at": "2026-04-19T07:33:00Z",
+      "duration_ms": 2228,
+      "tokens_in": 119,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Yes, it is possible that the insurance company may try to reach the service to verify the information in the bill. This is a common practice by insurance companies to ensure that the claim is legitimate and not fraudulent. The service is allowed to respond to such requests as long as they maintain the confidentiality of any personal information as required by the applicable privacy laws and regulations in both France and Spain. Generally, the service provider would only need to confirm the authenticity of the bill and the work done, without disclosing any sensitive personal information.",
+      "started_at": "2026-04-19T07:33:03.728000Z",
+      "duration_ms": 6720,
+      "tokens_in": 0,
+      "tokens_out": 148,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "can the insurance company try to clarify any details that aren't in the bill?",
+      "started_at": "2026-04-19T07:33:11.948000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Yes, the insurance company can try to clarify any details that aren't in the bill, but this would typically be limited to the scope of the claim and the services provided. The insurance company may inquire about specific items related to the repair or the cost, but it should not ask for information that is unrelated to the claim or beyond the scope of the covered services.\n\nThe service provider should respond within the boundaries of the applicable privacy laws and regulations, and only provide information relevant to the claim. If the insurance company requires additional information that goes beyond the scope or is not allowed according to privacy regulations, the service provider may decline to provide that information.",
+      "started_at": "2026-04-19T07:33:14.476000Z",
+      "duration_ms": 8120,
+      "tokens_in": 0,
+      "tokens_out": 183,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1936,
+      "tokens_in": 1605,
+      "tokens_out": 331,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 138,
+      "duration_ms": 18096,
+      "ai_wait_ms": 14840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.068,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

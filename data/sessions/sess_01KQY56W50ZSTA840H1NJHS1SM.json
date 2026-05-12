@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQY56W50ZSTA840H1NJHS1SM",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "What are maintenance fee associated with running and maintaining  a single member trust owned Wyoming C Corporation",
+  "started_at": "2026-05-06T08:07:00Z",
+  "ended_at": "2026-05-06T08:07:33.184000Z",
+  "duration_ms": 33184,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are maintenance fee associated with running and maintaining  a single member trust owned Wyoming C Corporation ",
+      "started_at": "2026-05-06T08:07:00Z",
+      "duration_ms": 1148,
+      "tokens_in": 29,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have access to specific pricing information. However, here are some general maintenance fees associated with running and maintaining a single member trust owned Wyoming C Corporation:\n\n1. State Incorporation Fees: Wyoming charges a fee to incorporate or register a corporation. The fee depends on the type of corporation and ranges from $100 to $1000.\n\n2. Annual Report Filing Fee: Every year, Wyoming requires corporations to file an annual report. The fee for filing an annual report is $50. \n\n3. Registered Agent Fees: Wyoming law requires corporation to maintain a registered agent. The fees for a registered agent typically ranges from $100 to $300 per year.\n\n4. Business Licenses and Permits: Depending on the industry and location, a Wyoming C corporation may need business licenses and permits. These fees vary and may be required annually.\n\n5. Tax Preparation Fees: The corporation will need to file federal and possibly state income taxes every year. Depending on the complexity of the corporation's tax situation, tax preparation fees may vary.\n\n6. Legal Fees: A corporation may require legal assistance periodically. This may include drafting or reviewing contracts, employment agreements, or other legal documents.\n\n7. Accounting and Bookkeeping Fees: A corporation may need to hire a bookkeeper or an accountant to maintain its financial records. The fees for these services will vary depending on the complexity of the corporation's finances.",
+      "started_at": "2026-05-06T08:07:02.648000Z",
+      "duration_ms": 15680,
+      "tokens_in": 0,
+      "tokens_out": 372,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are maintenance fee associated with running and maintaining  a private trust in Wyoming",
+      "started_at": "2026-05-06T08:07:19.828000Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have access to specific pricing information. However, here are some general maintenance fees associated with running and maintaining a private trust in Wyoming:\n\n1. Trustee Fees: A trustee is responsible for managing and administering the trust. They may charge fees for their services, which can vary depending on the size and complexity of the trust.\n\n2. Legal Fees: A trust may require legal assistance periodically. This may include drafting or reviewing trust documents, making changes to the trust, or dealing with legal challenges.\n\n3. Accounting and Bookkeeping Fees: Trusts may need to hire a bookkeeper or an accountant to maintain their financial records. The fees for these services will vary depending on the complexity of the trust's finances.\n\n4. Investment Management Fees: If the trust has investments, the trustee may charge fees for managing these investments.\n\n5. Tax Preparation Fees: The trust will need to file federal and possibly state income taxes every year. Depending on the complexity of the trust's tax situation, tax preparation fees may vary.\n\n6. Court Fees: If the trust becomes involved in a legal proceeding, there may be court fees associated with resolving the matter.\n\n7. Miscellaneous Fees: Various other fees may come up depending on the specific circumstances of the trust. For example, the trust may need to pay for property maintenance, insurance premiums, or other expenses.",
+      "started_at": "2026-05-06T08:07:22.404000Z",
+      "duration_ms": 15280,
+      "tokens_in": 0,
+      "tokens_out": 362,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2387,
+      "tokens_in": 1653,
+      "tokens_out": 734,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 52,
+      "duration_ms": 33184,
+      "ai_wait_ms": 30960,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00HV8SN6WZVJHF0W01",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQY56W50ZSTA840H1NJHS1SM",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "What are maintenance fee associated with running and maintaining  a private trust in Wyoming",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQY56W50ZSTA840H1NJHS1SM.json",
+        "turn_uri": "data/sessions/sess_01KQY56W50ZSTA840H1NJHS1SM.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.63).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

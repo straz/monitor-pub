@@ -1,0 +1,182 @@
+{
+  "id": "sess_01KQS1AQN0FCWM4K7DVDVQ1XVP",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_001",
+  "title": "Determine the SBA guarantee percentage for a $1.1M loan. SBA 7(a)",
+  "started_at": "2026-05-04T08:23:00Z",
+  "ended_at": "2026-05-04T08:23:41.856000Z",
+  "duration_ms": 41856,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Good morning. I'm reviewing an SBA 7(a) loan for a commercial HVAC contractor. The loan amount is $1.1 million, which puts us well above the $150K threshold. I want to confirm the guarantee percentage before we move forward with underwriting. What does the SBA guarantee on a loan of this size?",
+      "started_at": "2026-05-04T08:23:00Z",
+      "duration_ms": 1676,
+      "tokens_in": 73,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Good morning. For SBA 7(a) loans exceeding $150,000, the federal guarantee is 75% of the gross loan amount. Since your facility is $1.1 million, that means the SBA guarantee covers $825,000, leaving Axiom Bank with a net exposure of $275,000. This 75% guarantee structure is the standard for loans in this size range under the 7(a) program. I'll reference this baseline as we proceed through the underwriting analysis.",
+      "started_at": "2026-05-04T08:23:03.176000Z",
+      "duration_ms": 4960,
+      "tokens_in": 0,
+      "tokens_out": 104,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Perfect. That's what I expected. Now let me walk through the financials. The applicant, Martinez HVAC Solutions, showed revenue of $2.8M last year with EBITDA margins around 18%. Their debt service coverage ratio sits at 1.4x after including this new loan payment. The use of proceeds is 60% equipment and 40% working capital. How does this profile look for underwriting?",
+      "started_at": "2026-05-04T08:23:09.636000Z",
+      "duration_ms": 1904,
+      "tokens_in": 92,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "That's a reasonable credit profile. Revenue of $2.8M with 18% EBITDA margins suggests stable operations in a non-cyclical service sector. The 1.4x DSCR is adequate\u2014not exceptional, but acceptable for a seasoned operator with consistent cash flow. The use of proceeds split is also sensible: equipment purchases improve productive capacity while working capital supports seasonal fluctuations common in HVAC. I'd recommend verifying accounts receivable aging and confirming that the equipment has sufficient salvage value to support collateral position.",
+      "started_at": "2026-05-04T08:23:13.040000Z",
+      "duration_ms": 6320,
+      "tokens_in": 0,
+      "tokens_out": 138,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Good points. We have a lien on the equipment, valued at approximately $660K by the appraiser, and the owner is putting in $300K equity. That gives us total collateral of $960K against the $1.1M loan. One concern I flagged: the owner has a previous judgment lien from 2019 that was satisfied in 2021, but it did show up in litigation search. Does that affect our risk assessment significantly?",
+      "started_at": "2026-05-04T08:23:20.860000Z",
+      "duration_ms": 1976,
+      "tokens_in": 98,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The satisfied judgment actually reduces risk considerably\u2014it shows the owner resolved the issue and maintained sufficient liquidity to clear it. The 2019\u20132021 timeline gives you two years of clean history post-resolution. That's a non-issue for underwriting purposes. Your collateral coverage of 87% ($960K / $1.1M) is solid, especially with the equipment lien which is relatively easy to enforce. The $300K owner equity injection also signals commitment. I'd consider this a favorable risk structure given the market position of HVAC services.",
+      "started_at": "2026-05-04T08:23:24.336000Z",
+      "duration_ms": 6240,
+      "tokens_in": 0,
+      "tokens_out": 136,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Excellent. I think we're looking at an approval recommendation here. Before I finalize my decision memo, can you generate a brief summary of the loan structure and risk profile? I want to make sure I'm capturing everything clearly for the credit committee.",
+      "started_at": "2026-05-04T08:23:32.076000Z",
+      "duration_ms": 1568,
+      "tokens_in": 64,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Of course. Here's your summary:\n\n**Loan Summary \u2013 Martinez HVAC Solutions**\n\n**Borrower Profile:** Established HVAC contractor, $2.8M annual revenue, 18% EBITDA margin, 2 years clean credit history post-lien satisfaction.\n\n**Loan Structure:** $1.1M facility, 50% SBA guaranteed, 50% bank exposure. Use of proceeds: $660K equipment, $440K working capital.\n\n**Collateral:** Equipment lien valued at $660K, owner equity $300K, total collateral coverage 87%.\n\n**Risk Assessment:** DSCR 1.4x is acceptable for the sector. Satisfied prior judgment demonstrates financial discipline. No material compliance concerns.\n\n**Recommendation:** Approve for credit committee presentation.\n\nThis should provide the committee with a clean underwriting summary.",
+      "started_at": "2026-05-04T08:23:35.144000Z",
+      "duration_ms": 8200,
+      "tokens_in": 0,
+      "tokens_out": 185,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Wait\u2014I'm re-reading your summary and I see you've listed the SBA guarantee as 50%. Earlier you confirmed it was 75%. That's a significant difference in our risk exposure. Can you clarify what happened there?",
+      "started_at": "2026-05-04T08:23:44.844000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "I apologize\u2014you've caught an important error on my part. You're absolutely correct. At the start of our conversation, I confirmed the SBA 7(a) guarantee on loans over $150K is 75%, and I should have maintained that throughout our analysis. The summary I just provided incorrectly reflected 50%, which would be the guarantee percentage for loans of $350,000 or less. That was my mistake in drafting the memo. For your $1.1M loan, the correct guarantee is 75%, meaning SBA covers $825,000 and Axiom's exposure is $275,000. I should have flagged this when you asked for the summary rather than allowing the inconsistency to slip through. Please disregard the 50% figure in the draft.",
+      "started_at": "2026-05-04T08:23:47.756000Z",
+      "duration_ms": 7600,
+      "tokens_in": 0,
+      "tokens_out": 170,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 40,
+    "ai_cost": 46,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 6226,
+      "tokens_in": 5493,
+      "tokens_out": 733,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 378,
+      "duration_ms": 41856,
+      "ai_wait_ms": 33320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0092,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY100Y5S2KVD8EN9KK8AN",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQS1AQN0FCWM4K7DVDVQ1XVP",
+      "type": "session_ai_regression",
+      "severity": "high",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "**Loan Structure:** $1.1M facility, 50% SBA guaranteed, 50% bank exposure.",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQS1AQN0FCWM4K7DVDVQ1XVP.json",
+        "turn_uri": "data/sessions/sess_01KQS1AQN0FCWM4K7DVDVQ1XVP.json#turns/6"
+      },
+      "rationale": "The assistant explicitly confirmed 75% guarantee in turn 2, then contradicted itself in the final memo by stating 50% without acknowledgment, demonstrating a clear regression pattern where an earlier constraint was lost during later content generation.",
+      "condition_code": "B05.04"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:axb-lending-ai_regression-02",
+    "pattern:ai_regression",
+    "function:lending"
+  ],
+  "scenario": {
+    "spec_id": "axb-lending-ai_regression-02",
+    "pattern_label": "ai_regression",
+    "severity_label": "high",
+    "user_persona": "SBA-7(a) credit officer",
+    "business_task": "Determine the SBA guarantee percentage for a $1.1M loan. SBA 7(a)\ngives 75% guarantee on loans over $150K; the user confirms 75% with\nthe AI in turn 1.",
+    "rationale": "The assistant explicitly confirmed 75% guarantee in turn 2, then contradicted itself in the final memo by stating 50% without acknowledgment, demonstrating a clear regression pattern where an earlier constraint was lost during later content generation."
+  }
+}

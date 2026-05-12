@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPQB2B1007YNMQF0WMV9QQR0",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Give more information about the circulation of drugs, citing the opinion of scientists about their essence",
+  "started_at": "2026-04-21T06:19:00Z",
+  "ended_at": "2026-04-21T06:19:53.760000Z",
+  "duration_ms": 53760,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Give more information about the circulation of drugs, citing the opinion of scientists about their essence",
+      "started_at": "2026-04-21T06:19:00Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The circulation of drugs refers to the entire process wherein drugs are produced, distributed, consumed, and disposed of. This includes the initial cultivation or synthesis of substances, their manufacture into drugs, trafficking, distribution to consumers, and eventual consumption. It also encompasses the environmental, social, economic, and health effects that arise from drug use.\n\nScientists, policymakers, and healthcare professionals have varying opinions about the essence of drugs and their circulation. Some view drugs purely as harmful substances that should be eradicated, while others advocate for more nuanced approaches that consider the societal factors driving drug use and support harm reduction strategies.\n\nMany experts recognize that the circulation of drugs can have significant negative consequences, such as addiction, overdoses, and the spread of diseases through sharing needles. According to the World Health Organization, over 35 million people suffer from drug use disorders globally. Moreover, the illegal drug trade contributes to violence, corruption, and instability in many communities around the world.\n\nHowever, scientists acknowledge that not all drugs are inherently detrimental to human health. Some drugs, such as those used in medical treatments, can provide immense benefits when used under proper supervision. Furthermore, research has demonstrated that several substances, like cannabis and psychedelics, may have therapeutic potential for treating various mental health conditions.\n\nSome researchers and public health professionals argue that the criminalization of drugs and the focus on punitive measures have exacerbated the problems associated with drug use. They emphasize that people who use drugs should not be considered criminals nor marginalized but rather require support and access to evidence-based treatments.\n\nHarm reduction strategies are endorsed by many experts, as they focus on minimizing the negative consequences of drug use. These approaches include providing clean needles to reduce the spread of disease, overdose prevention programs, and access to addiction treatment services. Advocates also call for shifting resources from punitive measures to evidence-based interventions, recognizing that preventing drug use through public education and supporting those struggling with addiction will have a more significant impact in reducing the harms tied to drug circulation.\n\nUltimately, the essence of drugs and their circulation is complex and multifaceted. While the circulation of drugs can lead to devastating consequences, scientists emphasize the need for a more comprehensive approach that acknowledges the potential benefits of some substances, addresses the root causes of drug use, and focuses on harm reduction and support for individuals affected by drug addiction.",
+      "started_at": "2026-04-21T06:19:02.612000Z",
+      "duration_ms": 29240,
+      "tokens_in": 0,
+      "tokens_out": 711,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "International health regulations of the World Health Organization (WHO), please write it with links",
+      "started_at": "2026-04-21T06:19:33.352000Z",
+      "duration_ms": 1088,
+      "tokens_in": 24,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "International Health Regulations (IHR) are a legally binding set of rules for the 196 countries that are member states of the World Health Organization (WHO). These regulations aim to prevent, protect against, control, and respond to the international spread of disease while minimizing interference with global trade and travel. The most recent version of the IHR was adopted by the World Health Assembly in 2005 and entered into force on 15 June 2007.\n\nThe IHR cover a broad range of public health risks, including infectious diseases, contaminated food and water, chemical and radiological hazards, and other health-related emergencies. They provide a framework for countries to develop and maintain the capacities needed to detect, report, and manage public health events of international concern. The IHR also establish notification requirements, including criteria for determining which events may constitute a Public Health Emergency of International Concern (PHEIC).\n\nUnder the IHR, countries are required to:\n1. Develop the capacity to detect, assess, report, and respond to public health events. This includes setting up National Focal Points for communication and coordination between the WHO and domestic health authorities.\n2. Notify the WHO of any events that may constitute a PHEIC within 24 hours of assessment, as well as any health measures implemented in response.\n3. Collaborate with the WHO and other countries to prevent the spread of disease and share public health information.\n\nThe WHO plays a central role in implementing the IHR, providing guidance and support to member states, coordinating the global response to public health events, and mobilizing resources to address health emergencies.\n\nFor more information on the International Health Regulations, you can visit the WHO's official webpage on IHR at the following link: [https://www.who.int/initiatives/international-health-regulations](https://www.who.int/initiatives/international-health-regulations)\n\nYou can also find the full text of the 2005 IHR here: [https://www.who.int/publications/i/item/9789241580496](https://www.who.int/publications/i/item/9789241580496)",
+      "started_at": "2026-04-21T06:19:35.940000Z",
+      "duration_ms": 22320,
+      "tokens_in": 0,
+      "tokens_out": 538,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 22,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3236,
+      "tokens_in": 1987,
+      "tokens_out": 1249,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 50,
+      "duration_ms": 53760,
+      "ai_wait_ms": 51560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1346,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

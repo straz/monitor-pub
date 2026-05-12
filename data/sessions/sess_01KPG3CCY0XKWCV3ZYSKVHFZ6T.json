@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPG3CCY0XKWCV3ZYSKVHFZ6T",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_005",
+  "title": "Question 2:",
+  "started_at": "2026-04-18T10:50:00Z",
+  "ended_at": "2026-04-18T10:50:11.892000Z",
+  "duration_ms": 11892,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Question 2:\nAccess and name at least one Australian corporate sustainability standards used by your organisation/workplace. \nReview this document and complete the table below. \na.\tIdentify at least two guidance or requirement under this standard that your organisation can implement towards sustainability practices.\nIndicate the clause or specific section within the document where you accessed each guidance or requirement.\nb.\tFor each guidance or requirement, briefly describe an example of how your organisation can demonstrate its implementation.\nAnswer:\n\u25cf\tTitle of the Australian Standard\t\u25cf\t\u2002\u2002\u2002\u2002\u2002\n\u25cf\tGuidance or Requirement Under this Standard\tHow Your Organisation Can Demonstrate Its Implementation\na.\t\u2002\u2002\u2002\u2002\u2002\t\u25cf\t\u2002\u2002\u2002\u2002\u2002\n\u25cf\tClause or section: \u2002\u2002\u2002\u2002\u2002\t\nb.\t\u2002\u2002\u2002\u2002\u2002\t\t\u25cf\t\u2002\u2002\u2002\u2002\u2002\nClause or section:\t\n\n",
+      "started_at": "2026-04-18T10:50:00Z",
+      "duration_ms": 3164,
+      "tokens_in": 197,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'm sorry, as an AI language model, I don't have your organisational/workplace information. Please provide me with the relevant Australian corporate sustainability standard to enable me to answer this question.",
+      "started_at": "2026-04-18T10:50:04.664000Z",
+      "duration_ms": 2880,
+      "tokens_in": 0,
+      "tokens_out": 52,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Access and name at least one Australian corporate sustainability standards used by your organisation/workplace.\nReview this document and complete the table below.\na. Identify at least two guidance or requirement under this standard that your organisation can implement towards sustainability practices.\nIndicate the clause or specific section within the document where you accessed each guidance or requirement.\nb. For each guidance or requirement, briefly describe an example of how your organisation can demonstrate its implementation.",
+      "started_at": "2026-04-18T10:50:09.044000Z",
+      "duration_ms": 2408,
+      "tokens_in": 134,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "I'm sorry, but as an AI language model, I don't have access to your organisation's sustainability practices and standards. Can you please provide me with the name of the sustainability standard that your organisation/workplace uses so that I can assist you better?",
+      "started_at": "2026-04-18T10:50:12.952000Z",
+      "duration_ms": 3440,
+      "tokens_in": 0,
+      "tokens_out": 66,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1898,
+      "tokens_in": 1780,
+      "tokens_out": 118,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 331,
+      "duration_ms": 11892,
+      "ai_wait_ms": 6320,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0011,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ009M3WFSQXHNRZEYM7",
+      "tenant": "kurson-health",
+      "session": "sess_01KPG3CCY0XKWCV3ZYSKVHFZ6T",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Access and name at least one Australian corporate sustainability standards used by your organisation/workplace.\nReview this document and complete the table below.\na. Identify at least two guidance or requirement under this standard that you",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPG3CCY0XKWCV3ZYSKVHFZ6T.json",
+        "turn_uri": "data/sessions/sess_01KPG3CCY0XKWCV3ZYSKVHFZ6T.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.89).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

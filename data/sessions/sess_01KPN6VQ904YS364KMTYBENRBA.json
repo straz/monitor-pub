@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPN6VQ904YS364KMTYBENRBA",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "how many pubs are there in england?",
+  "started_at": "2026-04-20T10:27:00Z",
+  "ended_at": "2026-04-20T10:27:13.020000Z",
+  "duration_ms": 13020,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "how many pubs are there in england?",
+      "started_at": "2026-04-20T10:27:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to current or accurate information on the exact number of pubs in England. However, according to the British Beer and Pub Association, there were 47,600 pubs in the United Kingdom as of 2020.",
+      "started_at": "2026-04-20T10:27:02.396000Z",
+      "duration_ms": 3160,
+      "tokens_in": 0,
+      "tokens_out": 59,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is the LTHT Staff Bank?",
+      "started_at": "2026-04-20T10:27:07.056000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Leeds Teaching Hospitals Trust (LTHT) Staff Bank is a centralized staffing solution that provides flexible staffing services to the LTHT. It works like a temporary staffing agency that supplies the Trust with healthcare professionals on a temporary, flexible basis, depending on the needs of the Trust's wards and departments. The Staff Bank maintains a pool of pre-registered, fully compliant nurses, healthcare assistants, administrative, and other clinical and non-clinical staff, who are ready to work at short notice, including evenings, weekends, and bank holidays. The LTHT Staff Bank aims to ensure that the Trust has access to a reliable workforce to maintain its high levels of patient care, productivity, and safety.",
+      "started_at": "2026-04-20T10:27:09.440000Z",
+      "duration_ms": 8080,
+      "tokens_in": 0,
+      "tokens_out": 182,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1523,
+      "tokens_in": 1282,
+      "tokens_out": 241,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 15,
+      "duration_ms": 13020,
+      "ai_wait_ms": 11240,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.001,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

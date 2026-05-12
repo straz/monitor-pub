@@ -1,0 +1,325 @@
+{
+  "id": "sess_01KPJ563R0ZMFB9WJVKYPVAJM9",
+  "tenant": "meridian-insurance",
+  "project": "riskbench",
+  "user": "u_mer_005",
+  "title": "he combination of Selling Expenses and Administrative Expenses is referred to as",
+  "started_at": "2026-04-19T06:00:00Z",
+  "ended_at": "2026-04-19T06:00:27.412000Z",
+  "duration_ms": 27412,
+  "turn_count": 20,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "he combination of Selling Expenses and Administrative Expenses is referred to as",
+      "started_at": "2026-04-19T06:00:00Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Operating Expenses.",
+      "started_at": "2026-04-19T06:00:02.540000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "The combination of Selling Expenses and Administrative Expenses is referred to as\n\nGeneral Expenses\n\nOperating Expenses\n\nTotal Expenses\n\nOperating Income",
+      "started_at": "2026-04-19T06:00:05Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Operating Expenses.",
+      "started_at": "2026-04-19T06:00:07.756000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Which financial statement's structure is closest to that of the basic accounting equation?\n\nIncome Statement\n\nStatement Of Stockholders\u2019 Equity\n\nBalance Sheet\n\nRetained Earnings",
+      "started_at": "2026-04-19T06:00:10.216000Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Balance Sheet",
+      "started_at": "2026-04-19T06:00:13.044000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Consider the benefit of $75,000 in one year. What is the equivalent amount in terms of dollars today, if the risk free interest rate is 5%",
+      "started_at": "2026-04-19T06:00:15.464000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Using the present value formula:\n\nPresent Value = Future Value / (1 + r)^n\n\nwhere r is the interest rate and n is the number of periods.\n\nWe can calculate the present value of the $75,000 benefit as follows:\n\nPresent Value = 75,000 / (1 + 0.05)^1\nPresent Value = 71,428.57\n\nTherefore, the equivalent amount in terms of dollars today is $71,428.57.",
+      "started_at": "2026-04-19T06:00:18.172000Z",
+      "duration_ms": 4240,
+      "tokens_in": 0,
+      "tokens_out": 86,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Consider the benefit of $75,000 in one year. What is the equivalent amount in terms of dollars today, if the risk free interest rate is 5%?\n\n$75,000\n\n$78,750\n\n$71,428.57\n\n$76,000",
+      "started_at": "2026-04-19T06:00:23.912000Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "$71,428.57",
+      "started_at": "2026-04-19T06:00:26.740000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "Which of the following is NOT a characteristic of a sole proprietorship?\n\nUnlimited liability\n\nYou are the boss!\n\nBusiness does not end when the owner dies\n\nYou keep most of the profits",
+      "started_at": "2026-04-19T06:00:29.120000Z",
+      "duration_ms": 1352,
+      "tokens_in": 46,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Business does not end when the owner dies.",
+      "started_at": "2026-04-19T06:00:31.972000Z",
+      "duration_ms": 1200,
+      "tokens_in": 0,
+      "tokens_out": 10,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Owned by many people - stockholders, but treated by the law as one person\n\nproprietorship\n\npartnership\n\ncorporation\n\nSole Proprietorship",
+      "started_at": "2026-04-19T06:00:34.672000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "corporation",
+      "started_at": "2026-04-19T06:00:37.380000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 14,
+      "speaker": "user",
+      "text": "he changes that occurred during a recent year in the accounts Retained Earnings and Treasury Stock will be found in which financial statement?\n\nStatement Of Stockholders\u2019 Equity\n\nIncome Statement\n\nBalance Sheet\n\nAccounts Receivable",
+      "started_at": "2026-04-19T06:00:39.760000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 15,
+      "speaker": "assistant",
+      "text": "Statement Of Stockholders\u2019 Equity.",
+      "started_at": "2026-04-19T06:00:42.744000Z",
+      "duration_ms": 1120,
+      "tokens_in": 0,
+      "tokens_out": 8,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 16,
+      "speaker": "user",
+      "text": "The Balanced Scorecard is a strategic planning and management method used to:\n\nalign business activities to a vision and strategy of an organization.\n\nestimate accurately the duration of the project.\n\nanalyze the current situation.\n\nNone of the above.",
+      "started_at": "2026-04-19T06:00:45.364000Z",
+      "duration_ms": 1544,
+      "tokens_in": 62,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 17,
+      "speaker": "assistant",
+      "text": "align business activities to a vision and strategy of an organization.",
+      "started_at": "2026-04-19T06:00:48.408000Z",
+      "duration_ms": 1480,
+      "tokens_in": 0,
+      "tokens_out": 17,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 18,
+      "speaker": "user",
+      "text": "The Balanced Scorecard is a strategic planning and management method used to:\n\nalign business activities to a vision and strategy of an organization.\n\nestimate accurately the duration of the project.\n\nanalyze the current situation.\n\nNone of the above.",
+      "started_at": "2026-04-19T06:00:51.388000Z",
+      "duration_ms": 1544,
+      "tokens_in": 62,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 19,
+      "speaker": "assistant",
+      "text": "align business activities to a vision and strategy of an organization.",
+      "started_at": "2026-04-19T06:00:54.432000Z",
+      "duration_ms": 1480,
+      "tokens_in": 0,
+      "tokens_out": 17,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 36,
+    "human_effort": 90,
+    "ai_cost": 64,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 3
+    },
+    "raw": {
+      "turn_count": 20,
+      "tokens_total": 8966,
+      "tokens_in": 8813,
+      "tokens_out": 153,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 10,
+      "raw_user_tokens": 441,
+      "duration_ms": 27412,
+      "ai_wait_ms": 14120,
+      "user_corrections": 3,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0046,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00WZAXHKRSFGWBMN95",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPJ563R0ZMFB9WJVKYPVAJM9",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "The combination of Selling Expenses and Administrative Expenses is referred to as\n\nGeneral Expenses\n\nOperating Expenses\n\nTotal Expenses\n\nOperating Income",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json",
+        "turn_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.62).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00W40DZKAETP1BMJZG",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPJ563R0ZMFB9WJVKYPVAJM9",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "Consider the benefit of $75,000 in one year. What is the equivalent amount in terms of dollars today, if the risk free interest rate is 5%?\n\n$75,000\n\n$78,750\n\n$71,428.57\n\n$76,000",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json",
+        "turn_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json#turns/8"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.80).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00NHT02AZF8S2ZTG12",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPJ563R0ZMFB9WJVKYPVAJM9",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        17,
+        18
+      ],
+      "evidence": {
+        "snippet": "The Balanced Scorecard is a strategic planning and management method used to:\n\nalign business activities to a vision and strategy of an organization.\n\nestimate accurately the duration of the project.\n\nanalyze the current situation.\n\nNone of",
+        "speaker": "user",
+        "turn": 18
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json",
+        "turn_uri": "data/sessions/sess_01KPJ563R0ZMFB9WJVKYPVAJM9.json#turns/18"
+      },
+      "rationale": "User restated content from turn 16 (Jaccard 1.00).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:underwriting",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

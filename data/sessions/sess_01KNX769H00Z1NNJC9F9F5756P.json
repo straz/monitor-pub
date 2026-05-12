@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KNX769H00Z1NNJC9F9F5756P",
+  "tenant": "meridian-insurance",
+  "project": "premium_pilot",
+  "user": "u_mer_007",
+  "title": "What is a ideal recruiter commission if the initial client fee is 40% of the new candidates first year salary, how shoul\u2026",
+  "started_at": "2026-04-11T02:51:00Z",
+  "ended_at": "2026-04-11T02:51:38.140000Z",
+  "duration_ms": 38140,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is a ideal recruiter commission if the initial client fee is 40% of the new candidates first year salary, how should and how much should the recruiter company pay it's self and agent responsible for the lead, sale, or client?",
+      "started_at": "2026-04-11T02:51:00Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The ideal recruiter commission would depend on the agreement between the recruiter company and the agent responsible for the lead, sale, or client. Typically, the recruiter company would pay a percentage of the client fee to the agent as a commission. \n\nAssuming that the recruiter company pays a 20% commission to the agent responsible for the lead, sale, or client, the breakdown of the fees would be as follows:\n\nInitial client fee: 40% of the new candidate's first year salary\nRecruiter company fee: 80% (of the initial client fee)\nAgent commission: 20% (of the initial client fee)\n\nFor example, if the new candidate's first year salary is $100,000, the initial client fee would be $40,000. The recruiter company would receive $32,000 (80% of $40,000), and the agent responsible for the lead, sale, or client would receive $8,000 (20% of $40,000).",
+      "started_at": "2026-04-11T02:51:02.984000Z",
+      "duration_ms": 9280,
+      "tokens_in": 0,
+      "tokens_out": 212,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "If the recruiter company offers two subscription plans priced at option one 525 a year and option two 1050 a year and give the client a discount on the initial client fee option one gives 5% option two gives 10% if the recruiter company want to offer a commission split of 30% to the agent or recruiter that was responsible for the lead,sale, or client subscription how would that look?",
+      "started_at": "2026-04-11T02:51:13.764000Z",
+      "duration_ms": 1952,
+      "tokens_in": 96,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Assuming that the agent or recruiter who was responsible for the lead, sale or client subscription is entitled to a commission split of 30%, the breakdown of fees and commissions would be as follows:\n\nOption One:\n- Client pays $525 for the subscription\n- Initial client fee discount is 5%\n- The recruiter company receives 95% of the initial client fee\n- The agent or recruiter responsible for the subscription would receive a commission of 30% of $525, which would be $157.50\n\nOption Two:\n- Client pays $1050 for the subscription\n- Initial client fee discount is 10%\n- The recruiter company receives 90% of the initial client fee\n- The agent or recruiter responsible for the subscription would receive a commission of 30% of $1050, which would be $315\n\nFor example, if the new candidate's first-year salary is $100,000, and the initial client fee is $40,000, the client would receive a discount of $2,000 (5% of $40,000) for Option One and $4,000 (10% of $40,000) for Option Two.\n\nThe final cost of Option One for the client would be $525 + $38,000 (95% of $40,000) = $38,525\nThe final cost of Option Two for the client would be $1,050 + $36,000 (90% of $40,000) = $37,050",
+      "started_at": "2026-04-11T02:51:17.216000Z",
+      "duration_ms": 12520,
+      "tokens_in": 0,
+      "tokens_out": 293,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "The subscriptions would offer: access to private community of entrepreneurs, Boss Talk an all things business growth conference or web forum, Access to chat with the recruiter team , opportunity to crowdscouce creative solutions, extended access to offers (some exclusion may apply), also access to member-only deals, events, and industry essential or exclusive content",
+      "started_at": "2026-04-11T02:51:31.236000Z",
+      "duration_ms": 1904,
+      "tokens_in": 92,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Thank you for providing additional information about the subscriptions. With the added benefits, the commissions for the agent or recruiter responsible for the lead, sale, or client subscription could be higher. Here's how it could look:\n\nOption One:\n- Client pays $525 for the subscription\n- Initial client fee discount is 5%\n- The recruiter company receives 95% of the initial client fee\n- The agent or recruiter responsible for the subscription would receive a commission of 40% of $525, which would be $210\n\nOption Two:\n- Client pays $1050 for the subscription\n- Initial client fee discount is 10%\n- The recruiter company receives 90% of the initial client fee\n- The agent or recruiter responsible for the subscription would receive a commission of 45% of $1050, which would be $472.50\n\nWith additional benefits like access to a private community, conference/web forum, exclusive deals, events, and content, a higher commission could be justified for the agent or recruiter responsible for bringing in the subscription.",
+      "started_at": "2026-04-11T02:51:34.640000Z",
+      "duration_ms": 11000,
+      "tokens_in": 0,
+      "tokens_out": 255,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 27,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3732,
+      "tokens_in": 2972,
+      "tokens_out": 760,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 245,
+      "duration_ms": 38140,
+      "ai_wait_ms": 32800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:broker",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

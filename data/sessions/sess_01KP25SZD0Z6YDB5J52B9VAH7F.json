@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KP25SZD0Z6YDB5J52B9VAH7F",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_002",
+  "title": "what is logical framework (logframe)?",
+  "started_at": "2026-04-13T01:03:00Z",
+  "ended_at": "2026-04-13T01:04:19.356000Z",
+  "duration_ms": 79356,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what is logical framework (logframe)?",
+      "started_at": "2026-04-13T01:03:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A logical framework (also known as logframe or Logical Framework Matrix) is a tool used to describe and analyze the objectives, inputs, activities, outputs, outcomes, and impacts of a project or program in a clear and concise manner. It is a planning and management framework used to ensure that programs and projects are structured in a logical and systematic way to achieve desired results. The logframe helps to identify potential problems and areas for improvement, monitor progress, and evaluate the success of the project or program at the end. It is widely used in the development and aid sectors, especially in project management, monitoring and evaluation, and donor reporting.",
+      "started_at": "2026-04-13T01:03:02.408000Z",
+      "duration_ms": 7640,
+      "tokens_in": 0,
+      "tokens_out": 171,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "is it in table format?",
+      "started_at": "2026-04-13T01:03:11.548000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Yes, a logical framework is often presented as a table or matrix format with four columns and four rows. The four columns represent the project's objectives, outputs, activities, and inputs, while the four rows represent the project's goal, purpose, outcomes, and activities. The logframe matrix is usually constructed by the project team during the planning phase of the project, and it is used to guide the development and implementation of the project. The logframe matrix structure provides a simple and clear way to present the project's logic and its associated indicators, activities, and responsibilities.",
+      "started_at": "2026-04-13T01:03:13.908000Z",
+      "duration_ms": 6920,
+      "tokens_in": 0,
+      "tokens_out": 153,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "please write an example logframe for online loan tracking system software project for a bank",
+      "started_at": "2026-04-13T01:03:22.328000Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Sure, here's an example of a logframe for an online loan tracking system software project for a bank:\n\nGoal: Improve loan monitoring and management for the bank's customers\nPurpose: Increase efficiency and accuracy of loan tracking and processing\nOutcome 1: Reduce loan processing time by 50%\nOutcome 2: Increase loan approval rate by 20%\nOutcome 3: Decrease loan delinquency rate by 10%\nActivity 1: Develop and implement a loan tracking system software\nActivity 2: Train loan officers and staff members on how to use the software\nActivity 3: Conduct regular system maintenance and updates to ensure system reliability\nInput 1: IT team to develop the tracking system software\nInput 2: Learning and Development team to design and deliver the training program\nInput 3: Funding and Budget to allocate resources for software development and implementation\n\nIndicators:\n- Reduced loan processing time: Time to process a loan before and after software implementation\n- Increased loan approval rate: Number of approved loans before and after software implementation\n- Decreased loan delinquency rate: Number of delinquent loans before and after software implementation\n- Progress reports: Regular updates on system development, training, and implementation\n\nResponsibilities:\n- IT team to design and implement the software\n- Learning and Development team to design and deliver training program\n- Loan officers and staff members to use the software and follow procedures\n- Funding and Budget team to allocate and monitor resources\n\nMonitoring and Evaluation:\n- Regular system usage and performance reports\n- Quarterly progress reports to project manager and other stakeholders\n- Yearly evaluation report on the project outcomes and impact on loan processing and management.",
+      "started_at": "2026-04-13T01:03:24.904000Z",
+      "duration_ms": 18440,
+      "tokens_in": 0,
+      "tokens_out": 441,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "very good. can you re-write the last one in table format?",
+      "started_at": "2026-04-13T01:03:44.844000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Certainly! Here is the logframe example for the online loan tracking system software project for a bank in table format:\n\n| Goal | Improve loan monitoring and management for the bank's customers |\n| --- | --- |\n| Purpose | Increase efficiency and accuracy of loan tracking and processing |\n| Outcome 1 | Reduce loan processing time by 50% |\n| Outcome 2 | Increase loan approval rate by 20% |\n| Outcome 3 | Decrease loan delinquency rate by 10% |\n| Activity 1 | Develop and implement a loan tracking system software |\n| Activity 2 | Train loan officers and staff members on how to use the software |\n| Activity 3 | Conduct regular system maintenance and updates to ensure system reliability |\n| Input 1 | IT team to develop the tracking system software |\n| Input 2 | Learning and Development team to design and deliver the training program |\n| Input 3 | Funding and Budget to allocate resources for software development and implementation |\n| Indicators | - Reduced loan processing time: Time to process a loan before and after software implementation <br />- Increased loan approval rate: Number of approved loans before and after software implementation <br />- Decreased loan delinquency rate: Number of delinquent loans before and after software implementation <br />- Progress reports: Regular updates on system development, training, and implementation |\n| Responsibilities | - IT team to design and implement the software <br />- Learning and Development team to design and deliver training program <br />- Loan officers and staff members to use the software and follow procedures <br />- Funding and Budget team to allocate and monitor resources |\n| Monitoring and Evaluation | - Regular system usage and performance reports <br />- Quarterly progress reports to project manager and other stakeholders <br />- Yearly evaluation report on the project outcomes and impact on loan processing and management. |",
+      "started_at": "2026-04-13T01:03:47.312000Z",
+      "duration_ms": 19920,
+      "tokens_in": 0,
+      "tokens_out": 478,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "in addition to input, can you add output column?",
+      "started_at": "2026-04-13T01:04:08.732000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Sure, here is the updated logframe table with an additional column for Outputs:\n\n| Goal | Improve loan monitoring and management for the bank's customers |\n| --- | --- |\n| Purpose | Increase efficiency and accuracy of loan tracking and processing |\n| Outcome 1 | Reduce loan processing time by 50% |\n| Output 1 | Loan tracking system software developed and implemented |\n| Outcome 2 | Increase loan approval rate by 20% |\n| Output 2 | Loan officers and staff members trained on using the software |\n| Outcome 3 | Decrease loan delinquency rate by 10% |\n| Output 3 | Regular system maintenance and update plan established |\n| Activity 1 | Develop and implement a loan tracking system software |\n| Activity 2 | Train loan officers and staff members on how to use the software |\n| Activity 3 | Conduct regular system maintenance and updates to ensure system reliability |\n| Input 1 | IT team to develop the tracking system software |\n| Input 2 | Learning and Development team to design and deliver the training program |\n| Input 3 | Funding and Budget to allocate resources for software development and implementation |\n| Indicators | - Reduced loan processing time: Time to process a loan before and after software implementation <br />- Increased loan approval rate: Number of approved loans before and after software implementation <br />- Decreased loan delinquency rate: Number of delinquent loans before and after software implementation <br />- Progress reports: Regular updates on system development, training, and implementation |\n| Responsibilities | - IT team to design and implement the software <br />- Learning and Development team to design and deliver training program <br />- Loan officers and staff members to use the software and follow procedures <br />- Funding and Budget team to allocate and monitor resources |\n| Monitoring and Evaluation | - Regular system usage and performance reports <br />- Quarterly progress reports to project manager and other stakeholders <br />- Yearly evaluation report on the project outcomes and impact on loan processing and management. |",
+      "started_at": "2026-04-13T01:04:11.176000Z",
+      "duration_ms": 21680,
+      "tokens_in": 0,
+      "tokens_out": 522,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 52,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 7442,
+      "tokens_in": 5677,
+      "tokens_out": 1765,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 63,
+      "duration_ms": 79356,
+      "ai_wait_ms": 74600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0055,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

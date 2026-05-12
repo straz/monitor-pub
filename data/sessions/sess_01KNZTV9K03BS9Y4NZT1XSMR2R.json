@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KNZTV9K03BS9Y4NZT1XSMR2R",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_005",
+  "title": "What medical conditions can be misdiagnosed as MDS and cause left shifted blood cells?",
+  "started_at": "2026-04-12T03:13:00Z",
+  "ended_at": "2026-04-12T03:13:35.712000Z",
+  "duration_ms": 35712,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What medical conditions can be misdiagnosed as MDS and cause left shifted blood cells?",
+      "started_at": "2026-04-12T03:13:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Myelodysplastic syndromes (MDS) are a group of disorders caused by poorly formed blood cells or ones that don't work properly, leading to an ineffective blood cell production. Several medical conditions can be misdiagnosed as MDS, particularly those that cause left-shifted blood cells. These include:\n\n1. Acute leukemia: Blood cancers that start in the bone marrow, resulting in immature white blood cells, can be confused for MDS due to overlapping symptoms and similar blood tests.\n\n2. Aplastic anemia: A condition where the bone marrow doesn't make enough new blood cells, causing fatigue, higher risk of infections, and uncontrolled bleeding.\n\n3. Myeloproliferative neoplasms (MPNs): A group of disorders that result in the overproduction of blood cells. MPNs can sometimes be misdiagnosed as MDS due to the similarities in the types of cells affected.\n\n4. Megaloblastic anemia: A type of anemia where there's a deficiency of vitamin B12 and/or folic acid, causing the bone marrow to produce unusually large, structurally abnormal red blood cells.\n\n5. Paroxysmal nocturnal hemoglobinuria (PNH): A rare acquired disorder that leads to the premature destruction of red blood cells, and can sometimes be misdiagnosed as MDS due to similarities in symptoms.\n\n6. Infections: Certain infections can result in left-shifted blood cells, such as bacterial or viral infections, tuberculosis, or certain fungal infections.\n\n7. Autoimmune disorders: Some autoimmune disorders, like systemic lupus erythematosus or rheumatoid arthritis, can sometimes cause blood count abnormalities and left-shifted blood cells.\n\n8. Congenital dyserythropoietic anemia: A rare inherited disorder affecting red blood cell production, leading to bone marrow abnormalities similar to MDS.\n\n9. Copper deficiency: Copper is required for many processes in your body, including blood cell production. Low copper levels can lead to various hematologic abnormalities that may be mistaken for MDS.\n\n10. Certain medications or toxins: Some medications or toxins can interfere with blood cell production and function, mimicking MDS.\n\nAs each of the conditions mentioned above presents overlapping features with MDS, it is crucial to consult a healthcare professional and undergo appropriate diagnostic testing to confirm an accurate diagnosis.",
+      "started_at": "2026-04-12T03:13:02.552000Z",
+      "duration_ms": 23840,
+      "tokens_in": 0,
+      "tokens_out": 576,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can low blood pressure cause shortness of breath upon exertion?",
+      "started_at": "2026-04-12T03:13:27.892000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Yes, low blood pressure (hypotension) can cause shortness of breath upon exertion in some cases. Low blood pressure means that the heart is not pumping enough blood and oxygen to the various organs and tissues of the body, including muscles. When you exert yourself, your muscles need more oxygen, and if your blood pressure is too low, your body may not be able to deliver enough oxygen to meet that increased demand. \n\nThis oxygen deficiency can make you feel short of breath, especially during physical activities. Additionally, if low blood pressure results from underlying heart or lung problems, such as heart failure, it can contribute to shortness of breath even further.\n\nHowever, it is essential to consult a healthcare professional for a proper evaluation and diagnosis, as there are several other conditions that can cause shortness of breath upon exertion, such as asthma, anemia, and anxiety.",
+      "started_at": "2026-04-12T03:13:30.372000Z",
+      "duration_ms": 9840,
+      "tokens_in": 0,
+      "tokens_out": 226,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2635,
+      "tokens_in": 1833,
+      "tokens_out": 802,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 36,
+      "duration_ms": 35712,
+      "ai_wait_ms": 33680,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1031,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

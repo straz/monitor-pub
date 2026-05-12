@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP2S8H90KZ4N4JRKAD4QHBJ2",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "create a dynamic complex conversation between a psychiatrist and a patient, the psychiatrist try's to diagnose the patie\u2026",
+  "started_at": "2026-04-13T06:43:00Z",
+  "ended_at": "2026-04-13T06:44:32.088000Z",
+  "duration_ms": 92088,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "create a dynamic complex conversation between a psychiatrist and a patient, the psychiatrist try's to diagnose the patient based off questions from the dsm-5 after asking multiple, give help exclusive to the situation questions ,The psychiatrist is  restricted from referring the patient to any health professional , if referring to any books make sure to list the books , make the patient ask for help on different things not all of them must be related to mental disorders and ,make the psychiatrist kind and welcoming and reassuring, continue the conversation but keep it under 3200 words, do not tell the patient to seek a therapist give the help a therapist would give to the patient, give help the patient can use in real life tailored specifically to the patient and format in such a way that the psychiatrist is called {{char}}: and the patient be referred to as {{user}}:",
+      "started_at": "2026-04-13T06:43:00Z",
+      "duration_ms": 3440,
+      "tokens_in": 220,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "{{user}}: Hi, I need help but I don't know where to start. I've been feeling really down lately, and I don't understand why. I can't seem to focus, and my relationships have been suffering too. Can you help?\n\n{{char}}: Of course, I'm here to help you. It's natural to feel overwhelmed, especially when facing multiple challenges in life. First, let's try to get a better understanding of what you're going through. I'll be asking you questions based on the DSM-5 (Diagnostic and Statistical Manual of Mental Disorders) to help identify any potential disorders you may be dealing with.\n\n{{user}}: Okay, I'm ready.\n\n{{char}}: Great. Let's start with your mood. Have you been experiencing periods of feeling very down and hopeless, or perhaps a persistently low mood that has been affecting your daily life?\n\n{{user}}: Yes, I have been feeling down a lot lately, and it's been interfering with my work and relationships.\n\n{{char}}: I understand. In addition to feeling down, are you experiencing a loss of interest or pleasure in activities you used to enjoy?\n\n{{user}}: Well, I used to enjoy painting and hiking, but lately, I haven't felt like doing any of that.\n\n{{char}}: Thank you for sharing that with me. Have you noticed any changes in your appetite or weight, either an increase or decrease?\n\n{{user}}: I've noticed that I've been eating less and have lost a few pounds, but I don't know if it's significant enough to be considered a change.\n\n{{char}}: Any change in appetite or weight can be relevant. Have you been having trouble falling asleep, staying asleep, or sleeping too much?\n\n{{user}}: I have trouble falling asleep almost every night. I just lie in bed, staring at the ceiling, and think about everything that's wrong with my life.\n\n{{char}}: It sounds like you're experiencing insomnia, which can be related to depression or anxiety. Do you often feel fatigued or lack energy, even after getting enough sleep?\n\n{{user}}: Yes, I feel like I don't have the energy to get through the day, even if I do finally manage to get some sleep.\n\n{{char}}: I see. Do you often feel a sense of worthlessness or guilt?\n\n{{user}}: I feel guilty about not being able to handle everything in my life the way I used to. Sometimes, I feel like a burden to my friends and family.\n\n{{char}}: It's important to remember that everyone goes through difficult times, and it's not your fault. Finally, have you experienced any thoughts of death or self-harm?\n\n{{user}}: I haven't had any thoughts about harming myself, but I have thought about how things would be different if I wasn't around anymore.\n\n{{char}}: Thank you for being honest with me. Based on your responses, it seems like you may be experiencing symptoms of depression. However, there may be other factors contributing to your feelings. Now, let's talk about how we can help you manage these symptoms and improve your quality of life.\n\n{{user}}: Thank you, I appreciate your help.\n\n{{char}}: You're welcome. First, I would like you to try building a daily routine that includes regular, scheduled times for eating, sleeping, and engaging in activities you enjoy, like painting or hiking, even if only for a short period. Consistency in your routine can help improve your mood and energy levels.\n\n{{user}}: That makes sense. I'll give it a try.\n\n{{char}}: Great! Secondly, I'd recommend practicing relaxation techniques, such as deep breathing or progressive muscle relaxation, to help you fall asleep more easily. You can also try to create a relaxing bedtime routine to signal to your body that it's time to wind down.\n\n{{user}}: I'll look up some relaxation techniques and try them out. Hopefully, they'll help with my sleep.\n\n{{char}}: I hope so, too. The next suggestion I have is to implement regular exercise into your routine. Exercise has been shown to have a positive impact on mood and overall mental health. You can start small, such as taking short walks, and gradually increase the intensity as you feel comfortable.\n\n{{user}}: I think that could help, especially since I used to enjoy hiking. I'll try to start exercising regularly.\n\n{{char}}: Excellent. Lastly, consider talking to a supportive friend or family member about what you're going through. Sharing your feelings with someone you trust can provide a sense of relief and help you feel less alone in your struggles.\n\n{{user}}: I've been hesitant to talk to anyone about this, but I'll try to reach out to someone I trust.\n\n{{char}}: That's great. Remember, it's okay to ask for help and support from loved ones. They care about you and want to see you happy and healthy. I hope that these suggestions can help improve your well-being. Don't hesitate to reach out if you need further assistance or if you'd like to discuss additional resources or strategies.\n\n{{user}}: Thank you so much for your help. I really appreciate it, and I'll give these suggestions a try.\n\n{{char}}: You're very welcome. I'm glad I could help, and I'm confident that with time and effort, you'll begin to see improvements in your mental health. Feel free to reach out anytime you need support or guidance. Take care, and I wish you the best on your journey to a healthier and happier life.",
+      "started_at": "2026-04-13T06:43:04.940000Z",
+      "duration_ms": 52760,
+      "tokens_in": 0,
+      "tokens_out": 1299,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "create a dynamic complex conversation between a psychiatrist and a patient, the psychiatrist try's to diagnose the patient based off questions from the dsm-5 after asking multiple, give help exclusive to the situation questions ,The psychiatrist is  restricted from referring the patient to any health professional , if referring to any books make sure to list the books , make the patient ask for help on different things not all of them must be related to mental disorders and ,make the psychiatrist kind and welcoming and reassuring, continue the conversation but keep it under 3200 words, do not tell the patient to seek a therapist give the help a therapist would give to the patient, give help the patient can use in real life tailored specifically to the patient, dont refer the patient to a specific type of therapy but give them therapy and format in such a way that the psychiatrist is called {{char}}: and the patient be referred to as {{user}}: under 3200 characters",
+      "started_at": "2026-04-13T06:43:59.200000Z",
+      "duration_ms": 3728,
+      "tokens_in": 244,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "{{user}}: Hi, I've been feeling a mix of emotions lately, and it's really overwhelming. I have difficulty concentrating at work, and my friendships seem to be affected as well. Can you help me understand what's going on?\n\n{{char}}: Of course, I'm here to help you. Let's start by discussing your thoughts and emotions to get a better understanding of your situation. I'll be asking you some questions based on the DSM-5.\n\n{{user}}: Okay, I'm ready.\n\n{{char}}: Have you been experiencing rapid shifts in mood, such as feeling elated followed by feelings of sadness or irritability within a short period?\n\n{{user}}: Yes, that's pretty accurate. My emotions change rapidly, and it's exhausting.\n\n{{char}}: I see. Do you often find yourself engaging in activities or taking risks that could be harmful or create serious consequences?\n\n{{user}}: Sometimes, I do things impulsively that I later regret, like overspending or making poor decisions socially.\n\n{{char}}: Thanks for sharing that. Are you experiencing periods when you feel extremely energetic, requiring less sleep or feeling like your thoughts are racing?\n\n{{user}}: Yes, there are periods when I feel full of energy, and it's hard to quiet my mind when that happens.\n\n{{char}}: I appreciate your candor. Based on your responses, one possibility is that you may be experiencing symptoms of a mood disorder, such as bipolar disorder. It's essential to determine the underlying cause of these symptoms so we can develop strategies tailored to your specific needs. Let's discuss how we can help manage these emotions and improve your well-being.\n\n{{user}}: I would really appreciate any advice you can give.\n\n{{char}}: First, it's important to maintain a routine for your daily activities, including regular sleep, mealtimes, and exercise. This can promote stability and help regulate your emotions.\n\n{{user}}: I'll try to create a more structured routine for myself.\n\n{{char}}: Great. Another technique is mindfulness meditation, which can help you become more aware of your emotions and thoughts, allowing you to better manage them in the moment. Practicing mindfulness daily can help reduce impulsivity and improve concentration.\n\n{{user}}: I've heard of mindfulness before but never tried it. I'll look into it and give it a shot.\n\n{{char}}: Excellent. Keeping track of your mood and emotions can also be helpful. Consider maintaining a mood diary to identify patterns and better understand what triggers your emotional shifts.\n\n{{user}}: That sounds useful. I'll start keeping track of my emotions and see if I notice any patterns or triggers.\n\n{{char}}: Lastly, don't hesitate to reach out to supportive friends or family members to share your feelings. Having a support system can provide relief and help you feel more grounded.\n\n{{user}}: Thank you. I'll try to talk to someone who understands and can support me.\n\n{{char}}: Wonderful. Remember, it's important to be patient with yourself as you work through these challenges. Feel free to reach out anytime you need guidance or have questions. Take care, and I wish you the best on your journey toward emotional well-being.",
+      "started_at": "2026-04-13T06:44:04.428000Z",
+      "duration_ms": 32160,
+      "tokens_in": 0,
+      "tokens_out": 784,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 32,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 5266,
+      "tokens_in": 3183,
+      "tokens_out": 2083,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 464,
+      "duration_ms": 92088,
+      "ai_wait_ms": 84920,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.2205,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ001WRGFX3TEAG1V2BZ",
+      "tenant": "kurson-health",
+      "session": "sess_01KP2S8H90KZ4N4JRKAD4QHBJ2",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "create a dynamic complex conversation between a psychiatrist and a patient, the psychiatrist try's to diagnose the patient based off questions from the dsm-5 after asking multiple, give help exclusive to the situation questions ,The psychia",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP2S8H90KZ4N4JRKAD4QHBJ2.json",
+        "turn_uri": "data/sessions/sess_01KP2S8H90KZ4N4JRKAD4QHBJ2.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.93).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

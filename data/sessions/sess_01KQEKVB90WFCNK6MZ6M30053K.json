@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQEKVB90WFCNK6MZ6M30053K",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "How Long to Forecast",
+  "started_at": "2026-04-30T07:15:00Z",
+  "ended_at": "2026-04-30T07:15:06.328000Z",
+  "duration_ms": 6328,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "\nHow Long to Forecast\nWhen valuing a company, we typically assume the business is a going concern.\nWhich of the following is the best definition of going concern?\n\n\nThe business will operate for a finite amount of time and we know exactly when the operations will end.\nA going concern means the business is currently cash flow positive.\nA going concern assumes the business operates indefinitely.\nA going concern means the company is concerned it will cease operations in the near future",
+      "started_at": "2026-04-30T07:15:00Z",
+      "duration_ms": 2252,
+      "tokens_in": 121,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A going concern assumes the business operates indefinitely.",
+      "started_at": "2026-04-30T07:15:03.752000Z",
+      "duration_ms": 1360,
+      "tokens_in": 0,
+      "tokens_out": 14,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Introduction to Comparable Valuation Analysis \u2013 Relative Valuation Disadvantages\nRelative valuation has several disadvantages relative to other valuation techniques.\nWhich of the following is a disadvantage of relative valuation?\n\n\nToo simplistic\nEasy to use\nHarder to manipulate compared to a DCF\nMany good peers to the target company",
+      "started_at": "2026-04-30T07:15:06.612000Z",
+      "duration_ms": 1796,
+      "tokens_in": 83,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Too simplistic.",
+      "started_at": "2026-04-30T07:15:09.908000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1556,
+      "tokens_in": 1539,
+      "tokens_out": 17,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 204,
+      "duration_ms": 6328,
+      "ai_wait_ms": 2280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0008,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

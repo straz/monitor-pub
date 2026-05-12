@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQS0MRH0FTD0N9QHK9JXT8RN",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Contact Center massage in hospitals",
+  "started_at": "2026-05-04T08:11:00Z",
+  "ended_at": "2026-05-04T08:11:31.792000Z",
+  "duration_ms": 31792,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Contact Center massage in hospitals",
+      "started_at": "2026-05-04T08:11:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Contact Center massage is becoming increasingly popular in hospitals as a way to provide relaxation and pain relief to patients. Contact Center massage involves the use of therapeutic touch and massage techniques to improve a patient's overall well-being. \n\nMassage therapists, who are specially trained in working with hospital patients, will work with patients to identify areas of tension or discomfort. They will then provide targeted massage to these areas to help alleviate pain and reduce stress. \n\nContact Center massage can also provide other benefits, such as improving circulation, increasing flexibility, and boosting the immune system. It is a non-invasive and drug-free way to provide comfort to patients and can be a great addition to traditional medical treatments.\n\nIn hospitals, Contact Center massage is usually part of a larger program of complementary therapies, which may also include acupuncture, aromatherapy, and meditation. These therapies can be used alongside traditional medical treatments to provide a more holistic approach to patient care. \n\nOverall, Contact Center massage is a safe and effective way to provide relaxation and pain relief to hospital patients. It is a valuable addition to any hospital's patient care program and can help improve patient outcomes and satisfaction.",
+      "started_at": "2026-05-04T08:11:02.396000Z",
+      "duration_ms": 13920,
+      "tokens_in": 0,
+      "tokens_out": 328,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Massage of Hospital Contact Center",
+      "started_at": "2026-05-04T08:11:17.816000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "A Hospital Contact Center massage is a type of massage that is offered through a hospital\u2019s patient care program. It is typically provided by licensed and certified massage therapists who have been specially trained to work with patients in a hospital setting.\n\nThe purpose of a Hospital Contact Center massage is to help patients reduce pain, anxiety, and stress while they are in the hospital. It is a non-invasive, drug-free way to provide comfort and relaxation to patients who may be experiencing discomfort due to their medical condition or treatment.\n\nHospital Contact Center massages can be customized to meet the specific needs and preferences of each patient. Therapists can use a variety of massage techniques, such as gentle strokes or pressure points, to provide pain relief and relaxation.\n\nSome hospitals also offer contact center massages in specialized areas, such as pediatrics or cancer care, to address specific patient needs. For instance, massage therapists specializing in pediatric care may employ age-appropriate techniques with gentle pressure to ease anxiety and help children feel more at ease in hospital settings.\n\nOverall, a Hospital Contact Center massage is an effective way to provide comfort and relaxation to patients in a hospital setting. It may be offered as a standalone service or as part of a larger program of complementary therapies. By incorporating Contact Center massages into their patient care programs, hospitals can help promote overall well-being and improve patient outcomes.",
+      "started_at": "2026-05-04T08:11:20.212000Z",
+      "duration_ms": 16080,
+      "tokens_in": 0,
+      "tokens_out": 382,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2262,
+      "tokens_in": 1552,
+      "tokens_out": 710,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 16,
+      "duration_ms": 31792,
+      "ai_wait_ms": 30000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR09JZP0B5RKSX6CF5FA4E3V",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "List of high paid non technical jobs",
+  "started_at": "2026-05-07T04:02:00Z",
+  "ended_at": "2026-05-07T04:02:40.716000Z",
+  "duration_ms": 40716,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "List of high paid non technical jobs",
+      "started_at": "2026-05-07T04:02:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Management Consultant\n2. Investment Banker\n3. Lawyer\n4. Creative Director\n5. Marketing Director\n6. Public Relations Director\n7. Human Resources Director\n8. Financial Analyst\n9. Real Estate Broker\n10. Patent Attorney\n11. Sales Director\n12. Data Scientist\n13. Actuary\n14. Supply Chain Manager\n15. Hospital Administrator\n16. Project Manager\n17. Executive Chef\n18. Sports Team Manager\n19. Non-Profit Executive Director\n20. Fashion Designer.",
+      "started_at": "2026-05-07T04:02:02.408000Z",
+      "duration_ms": 5160,
+      "tokens_in": 0,
+      "tokens_out": 109,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Design detailed learning course from scratch on \u201cFinancial Analyst\u201d. Break this topic into several subtopics and list the skills required for each subtopic. Suggest top online courses from free platform for each sub topic. Use below points for designing course.\n\n01 Course Title\n02 Learning Objectives\n03 Target Audience\n04 Course Duration\n05 Curriculum Map\n06 Delivery Method\n07 Course Content\n08 Learning Materials",
+      "started_at": "2026-05-07T04:02:09.068000Z",
+      "duration_ms": 2048,
+      "tokens_in": 104,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "01 Course Title: Financial Analyst Masterclass\n\n02 Learning Objectives:\n- To introduce learners to the role and responsibilities of a financial analyst\n- To teach learners how to perform financial analysis and interpret data\n- To provide learners with an understanding of financial statements and financial ratios\n- To teach learners how to evaluate investments and make recommendations\n- To provide learners with an understanding of risk management and portfolio optimization\n\n03 Target Audience: \n- Anyone interested in pursuing a career as a financial analyst\n- Fresh finance graduates seeking a comprehensive understanding of financial analysis\n- Business owners and managers who wish to improve their financial analysis skills\n- Investors who wish to evaluate investment opportunities better\n\n04 Course Duration: 10 weeks (2 hours per week)\n\n05 Curriculum Map:\nWeek 1: Introduction to Financial Analysis\n- Understanding the role of a financial analyst \n- Types of financial analysis (quantitative and qualitative)\n- Setting financial goals\n\nWeek 2: Financial Statements and Analysis\n- Understanding balance sheets and income statements\n- Ratio analysis\n- Analyzing trends\n\nWeek 3: Forecasting and Budgeting\n- Forecasting techniques (Trend, Regression, and Time-Series Analysis)\n- Developing a budget\n- Capital budgeting\n\nWeek 4: Time Value of Money and Discounted Cash Flow\n- Understanding the time value of money\n- Discounted cash flow analysis\n- Present value and future value\n\nWeek 5: Understanding Risk and Return\n- Absolute and relative risk \n- Measuring return \n- Portfolio analysis\n\nWeek 6: Market Analysis \n- Industry analysis \n- Competitive positioning \n- Market share analysis\n\nWeek 7: Equity Analysis\n- Understanding the stock market \n- Valuation methods (Dividend Discount Model, Price/Earnings Ratio, Discounted Cash Flow)\n- Fundamental Analysis via financial statements\n\nWeek 8: Fixed Income Analysis\n- Understanding the bond market \n- Bond valuation (present value, yield to maturity)\n- Yield curve and interest rate analysis\n\nWeek 9: Derivatives\n- Forward contracts \n- Options \n- Futures\n\nWeek 10: International Finance\n- Understanding the foreign exchange market \n- Exchange rate regimes \n- Managing currency risk\n\n06 Delivery Method: Online Learning \n- Videos, lectures and other interactive content to cover theoretical concepts\n- Case studies and real-life examples of financial analysis\n- Interactive exercises and quizzes to evaluate the understanding of students\n\n07 Course Content: \n- Video lectures\n- Reading materials\n- Case studies \n- Interactive exercises and quizzes \n\n08 Learning Materials:\n- Financial Statement Analysis by Martin Fridson and Fernando Alvarez\n- The Analysis and Use of Financial Statements by Gerald I. White, Ashwinpaul C. Sondhi and <PRESIDIO_ANONYMIZED_PERSON>\n- Financial Modeling and Valuation: A Practical Guide to Investment Banking and Private Equity by Paul Pignataro\n\nTop Free Online Courses: \n- Introduction to Financial Analysis by Michigan State University on Coursera\n- Financial Analysis Learning - Advanced Level by Udemy\n- Financial Markets by Yale University on Coursera\n- Financial Management by Khan Academy",
+      "started_at": "2026-05-07T04:02:12.616000Z",
+      "duration_ms": 32600,
+      "tokens_in": 0,
+      "tokens_out": 795,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2335,
+      "tokens_in": 1431,
+      "tokens_out": 904,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 113,
+      "duration_ms": 40716,
+      "ai_wait_ms": 37760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

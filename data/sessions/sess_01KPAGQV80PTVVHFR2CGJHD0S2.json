@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPAGQV80PTVVHFR2CGJHD0S2",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "WITE A PROCUREMENT & CONTRACTOR MANAGEMENT POLICY STATEMENT which is signed and dated by senior management.",
+  "started_at": "2026-04-16T06:48:00Z",
+  "ended_at": "2026-04-16T06:48:45.664000Z",
+  "duration_ms": 45664,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "WITE A PROCUREMENT & CONTRACTOR MANAGEMENT POLICY STATEMENT which is signed and dated by senior management.\n",
+      "started_at": "2026-04-16T06:48:00Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Procurement & Contractor Management Policy Statement\n\nAs an organization, we are committed to conducting all procurement activities in a fair, transparent, and ethical manner and to managing our contractors to ensure they operate in compliance with our values and objectives. The following policy statement outlines our commitments and expectations in relation to procurement and contractor management:\n\nProcurement\n\nOur procurement activities will be based on the principles of fairness and transparency, with a focus on obtaining the best value for money while ensuring compliance with all relevant laws, regulations, and policies. We will strive to maximize opportunities for competitive bidding and will avoid conflicts of interest whenever possible.\n\nIn addition to complying with all relevant laws and regulations, we will ensure that all procurement activities are consistent with our Code of Conduct and Ethics, including our commitment to social responsibility and sustainability.\n\nContractor Management\n\nWe will manage our contractors in a manner consistent with our values and objectives, providing clear and consistent expectations regarding safety, quality, and other performance standards. We will work closely with our contractors to ensure that they comply with all relevant laws and regulations and that they are committed to social responsibility and sustainability.\n\nIn particular, we will ensure that all contractors are subjected to rigorous due diligence and that we have established appropriate communication and escalation protocols to manage any issues that may arise. We will also provide ongoing training and support to our contractors to ensure they are able to meet our performance expectations.\n\nAs senior management, we fully endorse this policy statement and are committed to ensuring that it is effectively implemented throughout our organization. We will regularly review this policy to ensure it remains consistent with our values and objectives and that any necessary updates are made in a timely manner.\n\nSigned:\n\n[Senior Management Signature]\n\n[Date]",
+      "started_at": "2026-04-16T06:48:02.624000Z",
+      "duration_ms": 21680,
+      "tokens_in": 0,
+      "tokens_out": 522,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "rewrite to include importance of OHS in bidding and management",
+      "started_at": "2026-04-16T06:48:25.804000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Procurement & Contractor Management Policy Statement\n\nAs an organization, we recognize the importance of conducting all procurement activities with a strong focus on Occupational Health and Safety (OHS) and providing full contractor management to ensure OHS procedures are followed. The following policy statement outlines our commitments and expectations in relation to procurement and contractor management:\n\nProcurement\n\nOur procurement activities will prioritize contractors who demonstrate a commitment to OHS and those who have documented procedures and systems in place for managing OHS risks. We will work to ensure that their OHS procedures align with our own OHS management policies and procedures, emphasizing the importance of OHS during the bidding and decision-making process.\n\nIn addition to ensuring compliance with all relevant laws and regulations, we will require all contractors to undergo regular OHS training and maintain certifications relevant to their industry. Our procurement activities will be consistent with our Code of Conduct and Ethics, including our commitment to social responsibility and sustainability.\n\nContractor Management\n\nWe will actively manage our contractors to ensure adherence to our OHS expectations, providing clear and consistent information regarding safety requirements, quality, and other performance standards. We will work closely with our contractors to ensure that their OHS procedures are up-to-date, legally compliant, and in line with our standards.\n\nIn particular, we will actively collaborate with contractors to ensure their workers feel comfortable reporting incidents and near misses. We will also require contractors to notify us of any OHS breaches or compliance issues in a timely and effective manner.\n\nAs senior management, we fully endorse this policy statement and are committed to ensuring OHS is an integral aspect of both bidding and contractor management. We will regularly review this policy to ensure that it remains in line with our values, objectives, and regulatory requirements.\n\nSigned:\n\n[Senior Management Signature]\n\n[Date]",
+      "started_at": "2026-04-16T06:48:28.284000Z",
+      "duration_ms": 21880,
+      "tokens_in": 0,
+      "tokens_out": 527,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2840,
+      "tokens_in": 1791,
+      "tokens_out": 1049,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 42,
+      "duration_ms": 45664,
+      "ai_wait_ms": 43560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

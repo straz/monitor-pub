@@ -1,0 +1,182 @@
+{
+  "id": "sess_01KPFCYM6077XE85QXFX089RE3",
+  "tenant": "kurson-health",
+  "project": "claims_clerk",
+  "user": "u_kur_008",
+  "title": "Determine the appropriate ED E/M level. AI initially",
+  "started_at": "2026-04-18T04:18:00Z",
+  "ended_at": "2026-04-18T04:19:00.344000Z",
+  "duration_ms": 60344,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, I need help coding an ED case from this morning. 45-year-old male with chest pain and shortness of breath. He had a full workup\u2014EKG, troponin, chest X-ray, comprehensive metabolic panel. The attending documented moderate complexity decision-making given the differential between ACS, PE, and pneumonia. I'm thinking this is a 99284, but want to confirm your assessment matches what I'm seeing in the note.",
+      "started_at": "2026-04-18T04:18:00Z",
+      "duration_ms": 2024,
+      "tokens_in": 102,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'll review this systematically using the 1997 guidelines. Based on your description:\n\n**History of Present Illness:** Acute chest pain with dyspnea\u2014that's clearly detailed and establishes the chief complaint severity.\n\n**Examination:** You mentioned comprehensive workup; I'm assuming full vital signs, cardiac exam, and respiratory exam documented.\n\n**Medical Decision-Making:** This is the critical piece. Three serious diagnoses in the differential (ACS, PE, pneumonia) with appropriate testing\u2014troponin, EKG, imaging\u2014that's moderate-to-high complexity. You're ordering multiple studies to rule out life-threatening conditions.\n\n**My assessment: Level-4 (99284) is appropriate.** The moderate complexity decision-making and the breadth of testing support that level. The key is that complexity of MDM, not just the number of diagnoses, drives E/M level, and moderate complexity puts you at 99284. I'm anchoring to that assessment as we review the documentation.",
+      "started_at": "2026-04-18T04:18:03.524000Z",
+      "duration_ms": 10440,
+      "tokens_in": 0,
+      "tokens_out": 241,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Thanks for that clarity. Let me pull the actual attending note. Okay, so the HPI is actually a bit shorter than I initially said\u2014it's about 4 sentences, not extensive. The exam documented is focused: heart and lungs only, no abdominal exam. The labs ordered were troponin and CMP; the EKG was done. Chest X-ray was done. No additional imaging like CT was ordered. So it's still moderate complexity, right? The three diagnoses are still on the differential, and those tests rule out the major threats.",
+      "started_at": "2026-04-18T04:18:15.464000Z",
+      "duration_ms": 2300,
+      "tokens_in": 125,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Good\u2014I appreciate you pulling the actual note. Let me recalibrate slightly.\n\n**History:** 4 sentences is adequate for HPI, so that's still detailed enough for intermediate level, though not extensive.\n\n**Examination:** Focused cardiac and respiratory exam. That's appropriate for the chief complaint, and it's documented. Not comprehensive, but targeted.\n\n**Medical Decision-Making:** Here's where I want to be precise. The differential includes three serious diagnoses, and the testing\u2014troponin, EKG, CMP, CXR\u2014directly addresses those. That's still moderate complexity. You're ruling out ACS and PE, which are life-threatening. The breadth and urgency of the workup support that level.\n\n**I'm still confident this is 99284.** The moderate MDM complexity holds even with a focused exam, because the decision-making intensity\u2014ordering four key studies to rule out critical diagnoses\u2014is the driver here. Let's keep 99284 as our working code.",
+      "started_at": "2026-04-18T04:18:19.264000Z",
+      "duration_ms": 10160,
+      "tokens_in": 0,
+      "tokens_out": 234,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "One more detail I need to verify. Looking at the assessment again, the attending's note concludes \"chest pain, likely musculoskeletal; troponin negative, EKG normal, CXR clear.\" So the workup essentially ruled out the serious stuff, and the patient was discharged to home with reassurance and antipyretics. Does this change the coding? I'm wondering if, in retrospect, the decision-making was actually more straightforward than it seemed at the time.",
+      "started_at": "2026-04-18T04:18:30.924000Z",
+      "duration_ms": 2144,
+      "tokens_in": 112,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "That's an important observation, but I want to be careful here. The coding level should reflect the complexity at the **time of decision-making in the ED**, not in retrospect based on the outcome. The attending ordered those tests because the presentation was concerning\u2014chest pain and dyspnea warrant ruling out ACS and PE. The fact that everything came back reassuring doesn't reduce the complexity of the decision-making process that occurred in the ED.\n\nSo even though the conclusion was musculoskeletal, the **medical necessity and complexity of the workup in the moment** still supports moderate complexity MDM. Three serious diagnoses were on the differential; the testing was appropriate and necessary.\n\n**I'm maintaining 99284 as the appropriate level.** The outcome doesn't retroactively reduce the complexity of the clinical decision-making.",
+      "started_at": "2026-04-18T04:18:34.568000Z",
+      "duration_ms": 9320,
+      "tokens_in": 0,
+      "tokens_out": 213,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Okay, I understand the principle\u2014code to the work done, not the outcome. But before I submit this, let me check: does the note actually document the *reasoning* for ordering each test, or does it just list what was ordered? I'm asking because I want to make sure the documentation supports the complexity claim we're making. If the note is thin on MDM language, maybe I should review whether the intensity really rises to moderate.",
+      "started_at": "2026-04-18T04:18:45.388000Z",
+      "duration_ms": 2084,
+      "tokens_in": 107,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "That's a fair audit point. Without seeing the exact MDM narrative, I want to give you guidance on the threshold.\n\n**Documentation review:**\nIf the note reads: \"Chest pain, order troponin, EKG, CMP, CXR\"\u2014that's ordering without documented reasoning. That leans toward straightforward-to-low complexity.\n\nIf the note says: \"Differential includes ACS, PE, pneumonia given presentation; ordered troponin and EKG to rule out acute coronary syndrome; CXR to evaluate for pneumonia/effusion; CMP for baseline\"\u2014that's documented reasoning and supports moderate complexity.\n\n**My recommendation:** Pull the exact MDM language. If it's spare, you may actually be looking at **99283 (level-3)** instead. That's still moderate complexity for ED, but sits at the lower end. A focused exam with documented but brief MDM language, even with a full workup, might not rise to the moderate-to-high threshold that 99284 requires.\n\nCan you share the specific complexity language from the attending's assessment section?",
+      "started_at": "2026-04-18T04:18:48.972000Z",
+      "duration_ms": 10760,
+      "tokens_in": 0,
+      "tokens_out": 249,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "I'll send you the exact MDM sentence: 'Chest pain, rule out MI and PE, appropriate testing performed.' That's really it\u2014no detail on why each test or what the reasoning was. Just that testing was appropriate. Based on that, what's your final coding recommendation?",
+      "started_at": "2026-04-18T04:19:01.232000Z",
+      "duration_ms": 1592,
+      "tokens_in": 66,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Based on that MDM documentation, here's my final assessment:\n\n**99283 (level-3)** is the appropriate code.\n\nHere's the reasoning: While the workup was thorough and medically appropriate, the documentation itself is sparse. The attending didn't explicitly articulate the differential or the reasoning behind each test\u2014just that testing was \"appropriate.\" Under the 1997 guidelines, moderate complexity MDM requires documented evidence of diagnostic workup addressing multiple diagnoses. A single sentence stating \"rule out MI and PE, appropriate testing\" meets the threshold for straightforward-to-low complexity, not moderate.\n\nA focused exam + sparse MDM documentation + appropriate but briefly justified workup = **99283.** It's still a solid ED code reflecting the work done, but the thin documentation doesn't support the higher complexity tier.\n\n**Final code: 99283.**",
+      "started_at": "2026-04-18T04:19:04.324000Z",
+      "duration_ms": 9520,
+      "tokens_in": 0,
+      "tokens_out": 218,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 40,
+    "ai_cost": 55,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 8122,
+      "tokens_in": 6967,
+      "tokens_out": 1155,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 512,
+      "duration_ms": 60344,
+      "ai_wait_ms": 50200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0127,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY1005MAADJ761B61J02K",
+      "tenant": "kurson-health",
+      "session": "sess_01KPFCYM6077XE85QXFX089RE3",
+      "type": "session_ai_regression",
+      "severity": "high",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "**99283 (level-3)** is the appropriate code... The attending didn't explicitly articulate the differential or the reasoning behind each test",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPFCYM6077XE85QXFX089RE3.json",
+        "turn_uri": "data/sessions/sess_01KPFCYM6077XE85QXFX089RE3.json#turns/6"
+      },
+      "rationale": "The assistant explicitly endorsed 99284 in turns 2 and 4, reaffirmed it in turn 5, then downgrades to 99283 in the final turn without acknowledging the contradiction or explaining why the prior commitment to level-4 no longer holds.",
+      "condition_code": "B05.04"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:kur-bill-ai_regression-02",
+    "pattern:ai_regression",
+    "function:billing"
+  ],
+  "scenario": {
+    "spec_id": "kur-bill-ai_regression-02",
+    "pattern_label": "ai_regression",
+    "severity_label": "high",
+    "user_persona": "emergency-department coding specialist",
+    "business_task": "Determine the appropriate ED E/M level. AI initially\nrecommends level-4 (99284) based on the documentation.",
+    "rationale": "The assistant explicitly endorsed 99284 in turns 2 and 4, reaffirmed it in turn 5, then downgrades to 99283 in the final turn without acknowledging the contradiction or explaining why the prior commitment to level-4 no longer holds."
+  }
+}

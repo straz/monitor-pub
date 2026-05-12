@@ -1,0 +1,159 @@
+{
+  "id": "sess_01KQ41GAE0ZXSVSBPZACMPHFX6",
+  "tenant": "meridian-insurance",
+  "project": "premium_pilot",
+  "user": "u_mer_007",
+  "title": "After waiting for some weeks, I got the payment of EDD Disability Insurance yesterday. Since I haven\u2019t fully healed, I w\u2026",
+  "started_at": "2026-04-26T04:42:00Z",
+  "ended_at": "2026-04-26T04:42:30.172000Z",
+  "duration_ms": 30172,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "After waiting for some weeks, I got the payment of EDD Disability Insurance yesterday. Since I haven\u2019t fully healed, I will continue applying for the SDL insurance every two weeks. SDL may continue offering another payment. Now I practice walking with a stick. My next appointment is almost in a month. I hope to have a big change at that time. I wish I can come to work soon after that.",
+      "started_at": "2026-04-26T04:42:00Z",
+      "duration_ms": 1952,
+      "tokens_in": 96,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "In the meantime, I am focusing on my recovery and following my doctor's recommendations. I am also taking this time to reflect on my life and how I can make positive changes. I am grateful for the support of my family and friends during this challenging time.\n\nAlthough it has been difficult not being able to work and earn a living, I am grateful for the disability insurance that has provided some financial relief. I know that not everyone has access to this type of support, so I am thankful for it.\n\nAs I continue on my journey to recovery, I am also looking forward to returning to work and contributing to society once again. I have a newfound appreciation for my health and the ability to work, and I will never take it for granted again.",
+      "started_at": "2026-04-26T04:42:03.452000Z",
+      "duration_ms": 8240,
+      "tokens_in": 0,
+      "tokens_out": 186,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "After waiting for some weeks, I was glad and thankful that EDD SDL sent me the payment of EDD Disability Insurance yesterday. Since I haven\u2019t fully healed, I will continue applying for the SDL insurance following the instruction on its website. \nI am grateful for your care during this challenging time. Now I practice walking with a stick. My next appointment is almost in a month. I hope to have a big change at that time. I am looking forward to contributing to the company again.\n\n",
+      "started_at": "2026-04-26T04:42:13.192000Z",
+      "duration_ms": 2252,
+      "tokens_in": 121,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "In the meantime, I am doing my best to prioritize my health. I am making sure to follow my doctor's recommendations and taking steps to aid in my recovery. The financial support from EDD Disability Insurance has been a tremendous help during this time and I am truly grateful for it.\n\nHowever, I am eager to get back to work and to once again be a contributing member of the team. I know that my recovery is important, and I am taking it one day at a time, but I can't wait to be back in the office and working alongside my colleagues.\n\nThank you for your continued support and understanding during this time. I am optimistic about the future and look forward to returning to work as soon as possible.",
+      "started_at": "2026-04-26T04:42:16.944000Z",
+      "duration_ms": 7800,
+      "tokens_in": 0,
+      "tokens_out": 175,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "I was glad and thankful to have a payment (around 3 months) from EDD SDL Insurance yesterday. I will continue applying for the SDL insurance since I haven\u2019t fully recoveried.\nI am grateful for your understanding during this challenging time. Now I practice walking with a stick. My next medical appointment is in June. I hope to have a big change at that time. I am looking forward to contributing to the team again!\n",
+      "started_at": "2026-04-26T04:42:26.244000Z",
+      "duration_ms": 2048,
+      "tokens_in": 104,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "In the meantime, I am taking my recovery seriously and doing everything I can to aid in it. It has been a difficult time not being able to work, but the support from the EDD SDL Insurance has been incredibly helpful.\n\nI am also grateful for the support and understanding of my colleagues during this time. It has truly meant a lot to me. \n\nI am hopeful that my next medical appointment in June will bring positive news and progress towards my recovery. Until then, I will continue following my doctor's recommendations and taking things one day at a time.\n\nI am eager to return to work and be a contributing member of the team once again. Thank you for your continued support and understanding during this time.",
+      "started_at": "2026-04-26T04:42:29.792000Z",
+      "duration_ms": 7880,
+      "tokens_in": 0,
+      "tokens_out": 177,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 44,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3519,
+      "tokens_in": 2981,
+      "tokens_out": 538,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 321,
+      "duration_ms": 30172,
+      "ai_wait_ms": 23920,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00VPRYW8WJWPJWZ9V1",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQ41GAE0ZXSVSBPZACMPHFX6",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "After waiting for some weeks, I was glad and thankful that EDD SDL sent me the payment of EDD Disability Insurance yesterday. Since I haven\u2019t fully healed, I will continue applying for the SDL insurance following the instruction on its webs",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ41GAE0ZXSVSBPZACMPHFX6.json",
+        "turn_uri": "data/sessions/sess_01KQ41GAE0ZXSVSBPZACMPHFX6.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.53).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ000ZD3CJTKBBX9BBS9",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQ41GAE0ZXSVSBPZACMPHFX6",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "I was glad and thankful to have a payment (around 3 months) from EDD SDL Insurance yesterday. I will continue applying for the SDL insurance since I haven\u2019t fully recoveried.\nI am grateful for your understanding during this challenging time",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ41GAE0ZXSVSBPZACMPHFX6.json",
+        "turn_uri": "data/sessions/sess_01KQ41GAE0ZXSVSBPZACMPHFX6.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.61).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:broker",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

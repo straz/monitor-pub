@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPFXQ4505Z4CG3Q42K949487",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "List of common key skills in Finance and Accounting domain.",
+  "started_at": "2026-04-18T09:11:00Z",
+  "ended_at": "2026-04-18T09:11:18.148000Z",
+  "duration_ms": 18148,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "List of common key skills in Finance and Accounting domain.",
+      "started_at": "2026-04-18T09:11:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Financial analysis and forecasting\n2. Budgeting and cost management\n3. Financial reporting and compliance\n4. Taxation and regulatory compliance\n5. Auditing and internal control\n6. Risk management and credit analysis\n7. Investment management and portfolio analysis\n8. Financial modelling and valuation\n9. Accounting principles and standards\n10. Advanced Excel and data analysis skills\n11. Treasury and cash flow management\n12. Interpersonal and communication skills\n13. Leadership and team management\n14. Strategic thinking and decision-making\n15. Business acumen and commercial awareness.",
+      "started_at": "2026-04-18T09:11:02.468000Z",
+      "duration_ms": 6680,
+      "tokens_in": 0,
+      "tokens_out": 147,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Align below skills on basis of learning beginner to advance.",
+      "started_at": "2026-04-18T09:11:10.648000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The order of skills from beginner to advance may vary depending on personal experience and education. However, here's an attempt to align the skills in a general beginner to advance order:\n\n1. Accounting principles and standards\n2. Interpersonal and communication skills\n3. Advanced Excel and data analysis skills\n4. Financial reporting and compliance\n5. Financial analysis and forecasting\n6. Budgeting and cost management\n7. Taxation and regulatory compliance\n8. Auditing and internal control\n9. Risk management and credit analysis\n10. Investment management and portfolio analysis\n11. Financial modelling and valuation\n12. Treasury and cash flow management\n13. Leadership and team management\n14. Strategic thinking and decision-making\n15. Business acumen and commercial awareness. \n\nNote: This is a subjective list and may vary depending on personal opinion and experience.",
+      "started_at": "2026-04-18T09:11:13.128000Z",
+      "duration_ms": 9520,
+      "tokens_in": 0,
+      "tokens_out": 218,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1755,
+      "tokens_in": 1390,
+      "tokens_out": 365,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 29,
+      "duration_ms": 18148,
+      "ai_wait_ms": 16200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQGV30G07N1ADX3PZAXCY742",
+  "tenant": "kurson-health",
+  "project": "pharmgrid",
+  "user": "u_kur_007",
+  "title": "what is the purpose of the expanded syringe access program",
+  "started_at": "2026-05-01T04:00:00Z",
+  "ended_at": "2026-05-01T04:00:31.904000Z",
+  "duration_ms": 31904,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what is the purpose of the expanded syringe access program",
+      "started_at": "2026-05-01T04:00:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Expanded Syringe Access Program (ESAP) is a public health initiative aimed at reducing the transmission of blood-borne diseases such as HIV/AIDS, Hepatitis B, and Hepatitis C among individuals who inject drugs. The program achieves this by providing access to sterile syringes and needles, promoting safe disposal of used syringes, and connecting individuals with substance use disorders to addiction treatment, medical care, and harm reduction services.\n\nThe main objectives of ESAP are to:\n\n1. Reduce the sharing and reuse of syringes among people who inject drugs, thereby decreasing the risk of transmission of blood-borne diseases.\n\n2. Increase access to sterile needles and syringes, making it easier for individuals to obtain and use them.\n\n3. Provide education on safe injection practices and proper disposal of used syringes to reduce the risk of needlestick injuries and the spread of infections.\n\n4. Connect individuals to appropriate health care services, including addiction treatment, medical care, and harm reduction programs, to help improve their overall health and well-being.\n\n5. Reduce the stigma associated with substance use disorder by promoting a nonjudgmental, public health approach to addressing drug-related issues.\n\nOverall, the purpose of ESAP is to promote public health and safety by reducing the spread of blood-borne diseases, providing access to necessary health services, and fostering a compassionate and inclusive approach to addressing drug use and addiction.",
+      "started_at": "2026-05-01T04:00:02.468000Z",
+      "duration_ms": 15800,
+      "tokens_in": 0,
+      "tokens_out": 375,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can the following individuals write prescriptions for needles/syringes:\na. Physician\nb. Nurse practitioner\nc. Physician Assistant\nd. Midwife\ne. Optometrist",
+      "started_at": "2026-05-01T04:00:19.768000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Prescribing authority for needles and syringes varies depending on the country, state, or jurisdiction. In the United States, the following healthcare professionals generally have the authority to prescribe needles and syringes:\n\na. Physician - Yes, physicians typically have the authority to write prescriptions for needles and syringes.\n\nb. Nurse practitioner - Yes, nurse practitioners can usually prescribe needles and syringes, as they have prescribing authority in many jurisdictions across the United States.\n\nc. Physician Assistant - Yes, physician assistants often have the authority to prescribe needles and syringes under the supervision of a physician or within the scope of their practice and state regulations.\n\nd. Midwife - In some jurisdictions, licensed midwives may have the authority to prescribe needles and syringes as part of their practice. This depends on the specific licensing and regulations in the location where they are practicing.\n\ne. Optometrist - Typically, optometrists do not have the authority to prescribe needles and syringes, as their scope of practice is limited to the care and treatment of the eyes.\n\nHowever, it is essential to check local and state regulations to ensure compliance with prescribing authorities for each healthcare professional, as the rules may vary.",
+      "started_at": "2026-05-01T04:00:22.524000Z",
+      "duration_ms": 13880,
+      "tokens_in": 0,
+      "tokens_out": 327,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2343,
+      "tokens_in": 1641,
+      "tokens_out": 702,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 52,
+      "duration_ms": 31904,
+      "ai_wait_ms": 29680,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0914,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:pharmacy",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

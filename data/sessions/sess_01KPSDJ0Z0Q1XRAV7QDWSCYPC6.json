@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KPSDJ0Z0Q1XRAV7QDWSCYPC6",
+  "tenant": "meridian-insurance",
+  "project": "premium_pilot",
+  "user": "u_mer_007",
+  "title": "hi there can you make a cold call on energy audits",
+  "started_at": "2026-04-22T01:41:00Z",
+  "ended_at": "2026-04-22T01:41:49.164000Z",
+  "duration_ms": 49164,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "hi there can you make a cold call on energy audits",
+      "started_at": "2026-04-22T01:41:00Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Sure, I can make a cold call on energy audits. Here's a sample cold call script:\n\nHello, may I speak with the person in charge of energy management for your company? My name is [Your Name], and I'm calling from [Your Company].\n\nWe specialize in providing energy audits for businesses like yours. Our team of experts can help you identify areas where you may be wasting energy and provide recommendations on how to reduce your energy costs.\n\nOur audits are completely customized to your facility's unique needs, and our approach focuses on creating a sustainable energy plan that will save you money in the long run.\n\nWould you be interested in learning more about our energy audit services? We can provide a free consultation and answer any questions you may have.\n\nThank you for your time, and I look forward to hearing from you soon.",
+      "started_at": "2026-04-22T01:41:02.444000Z",
+      "duration_ms": 9120,
+      "tokens_in": 0,
+      "tokens_out": 208,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "make a better one",
+      "started_at": "2026-04-22T01:41:13.064000Z",
+      "duration_ms": 848,
+      "tokens_in": 4,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Certainly, here is a better cold call script for energy audits:\n\nHello, may I speak with the person in charge of energy management for your company? My name is [Your Name] and I'm calling from [Your Company]. I came across your business and noticed that you would benefit from our energy audit services.\n\nOur energy audit services provide comprehensive energy assessments tailored to your business needs. You may not realize it, but your facility could be wasting energy and increasing your operating costs. With our service, we can help you identify energy-saving opportunities, reduce your energy consumption, and ultimately, save you money.\n\nOur team of experienced energy auditors will perform a thorough analysis of your facility, identify areas where energy efficiency upgrades can be made, and give you a detailed report of our findings. Our goal is to help you understand where you can improve your energy usage and create a customized plan to reduce your energy consumption.\n\nWe offer a free consultation and can answer any questions you may have. Would you be interested in discussing our energy audit services further? \n\nThank you for your time, and I look forward to hearing from you soon.",
+      "started_at": "2026-04-22T01:41:15.412000Z",
+      "duration_ms": 12800,
+      "tokens_in": 0,
+      "tokens_out": 300,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "again but act like im speaking to real astate agent",
+      "started_at": "2026-04-22T01:41:29.712000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Sure, here is a cold call script tailored towards real estate agents:\n\nHello, may I speak with the real estate agent in charge of energy management for your clients' properties? My name is [Your Name] and I'm calling from [Your Company]. I wanted to discuss how our energy audit services can assist your clients in reducing their energy costs.\n\nOur energy audit services include a comprehensive energy assessment tailored to your client's property. Our team of experienced energy auditors will analyze the property, identify areas where energy efficiency upgrades can be made, and provide a detailed report to your clients.\n\nBy conducting an energy audit, your clients can reduce their energy consumption, which could result in lower utility bills, improved property values, and enhanced marketability.\n\nWe offer a free consultation and can answer any questions you or your clients may have. Would you be interested in discussing our energy audit services further and how it can benefit your clients?\n\nThank you for your time, and I look forward to hearing from you soon.",
+      "started_at": "2026-04-22T01:41:32.156000Z",
+      "duration_ms": 11480,
+      "tokens_in": 0,
+      "tokens_out": 267,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "not looking for the person in charge",
+      "started_at": "2026-04-22T01:41:45.136000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Certainly, here's a cold call script tailored towards a real estate agent who may not be the person in charge of energy management:\n\nHello, may I speak with [Real Estate Agent Name], please? My name is [Your Name], and I'm calling from [Your Company]. I wanted to discuss how our energy audit services can benefit your clients in reducing their energy costs.\n\nWe provide energy audit services that include a comprehensive energy assessment tailored to the specific needs of their properties. Our team of experienced energy auditors will analyze their properties, identify areas where energy efficiency upgrades can be made and provide a detailed report, which will help your clients reduce their energy consumption.\n\nBy conducting an energy audit, your clients can reduce their energy bills, which could result in improved property values and enhanced marketability.\n\nWe offer a free consultation and can answer any questions you or your clients may have. Would you be interested in discussing our energy audit services further and how it can benefit your clients?\n\nThank you for your time, and I look forward to hearing from you soon.",
+      "started_at": "2026-04-22T01:41:47.544000Z",
+      "duration_ms": 12120,
+      "tokens_in": 0,
+      "tokens_out": 283,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 37,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5042,
+      "tokens_in": 3984,
+      "tokens_out": 1058,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 37,
+      "duration_ms": 49164,
+      "ai_wait_ms": 45520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0036,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:broker",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

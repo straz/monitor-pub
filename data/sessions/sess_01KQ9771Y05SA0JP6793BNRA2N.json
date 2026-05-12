@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ9771Y05SA0JP6793BNRA2N",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "Write SQL statements for the following. [3\u00d75=15 Marks] ",
+  "started_at": "2026-04-28T04:58:00Z",
+  "ended_at": "2026-04-28T04:58:16.480000Z",
+  "duration_ms": 16480,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write SQL statements for the following. [3\u00d75=15 Marks] \nPatient (patientNo, patName, patAddr, DOB)\nWard (wardNo, wardName, wardType, noOfBeds)\nContains (patientNo, wardNo, admissionDate)\nDrug (drugNo, drugName, costPerUnit)\nPrescribed (patientNo, drugNo, unitsPerDay, startDate, finishDate)\n\n  (1) What is the total cost of Morphine supplied to a patient called \u2018John Smith\u2019 ?\n\n\n(2) For each ward that admitted more than 10 patients today, list the ward number, ward type and number of beds in each ward.\n\n\n(3) List the numbers and names of all patients and the drugNo and number of units of their medication. The list should also include the details of patients that are not prescribed medication.",
+      "started_at": "2026-04-28T04:58:00Z",
+      "duration_ms": 2888,
+      "tokens_in": 174,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "(1) \n\nSELECT SUM(Drug.costPerUnit * Prescribed.unitsPerDay * DATEDIFF(day, Prescribed.startDate, Prescribed.finishDate)) AS TotalCost\nFROM Patient\nINNER JOIN Prescribed ON Patient.patientNo = Prescribed.patientNo\nINNER JOIN Drug ON Prescribed.drugNo = Drug.drugNo\nWHERE Patient.patName = 'John Smith' AND Drug.drugName = 'Morphine'\n\n(2) \n\nSELECT Ward.wardNo, Ward.wardType, Ward.noOfBeds, COUNT(Contains.patientNo) AS NumPatientsAdmitted\nFROM Ward\nINNER JOIN Contains ON Ward.wardNo = Contains.wardNo\nWHERE Contains.admissionDate = CURRENT_DATE\nGROUP BY Ward.wardNo, Ward.wardType, Ward.noOfBeds\nHAVING COUNT(Contains.patientNo) > 10\n\n(3) \n\nSELECT Patient.patientNo, Patient.patName, ISNULL(Prescribed.drugNo, 'N/A') AS drugNo, ISNULL(Prescribed.unitsPerDay, 'N/A') AS unitsPerDay\nFROM Patient\nLEFT JOIN Prescribed ON Patient.patientNo = Prescribed.patientNo\nORDER BY Patient.patientNo, Prescribed.drugNo",
+      "started_at": "2026-04-28T04:58:04.388000Z",
+      "duration_ms": 9840,
+      "tokens_in": 0,
+      "tokens_out": 226,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "\u89e3\u91ca\u7b2c\u4e8c\u95ee\u4e3a\u5565GROUP BY\u540e\u9762\u67093\u4e2a\u53c2\u6570\uff0c\u4e2d\u6587",
+      "started_at": "2026-04-28T04:58:15.728000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "\u7b2c\u4e8c\u95ee\u4e2d\uff0c\u4f7f\u7528\u4e86GROUP BY\u8bed\u53e5\u5bf9Ward\u5173\u7cfb\u4e2d\u7684wardNo\u3001wardType\u548cnoOfBeds\u4e09\u4e2a\u5b57\u6bb5\u8fdb\u884c\u5206\u7ec4\u3002\u8fd9\u4e09\u4e2a\u5b57\u6bb5\u90fd\u88ab\u5305\u542b\u5728SELECT\u8bed\u53e5\u4e2d\uff0c\u56e0\u6b64\u9700\u8981\u8fdb\u884c\u5206\u7ec4\u4ee5\u5728\u6bcf\u4e2a\u7ec4\u4e2d\u663e\u793a\u8fd9\u4e9b\u5b57\u6bb5\u7684\u503c\u3002\u540c\u65f6\uff0c\u67e5\u8be2\u4e2d\u4f7f\u7528\u4e86\u805a\u5408\u51fd\u6570COUNT()\u5bf9\u5728\u6bcf\u4e2a\u5206\u7ec4\u4e2d\u5b58\u5728\u7684Contians\u5173\u7cfb\u4e2d\u7684patientNo\u6570\u91cf\u8fdb\u884c\u8ba1\u6570\u3002\u56e0\u6b64\uff0c\u4e3a\u4e86\u5f97\u5230\u6bcf\u4e2aWard\u7684\u76f8\u5173\u4fe1\u606f\u4ee5\u53ca\u8be5Ward\u4eca\u5929\u63a5\u53d7\u6cbb\u7597\u7684\u60a3\u8005\u6570\u91cf\uff0c\u9700\u8981\u5bf9\u8fd9\u4e09\u4e2a\u5b57\u6bb5\u8fdb\u884c\u5206\u7ec4\u3002",
+      "started_at": "2026-04-28T04:58:18.100000Z",
+      "duration_ms": 2880,
+      "tokens_in": 0,
+      "tokens_out": 52,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2058,
+      "tokens_in": 1780,
+      "tokens_out": 278,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 180,
+      "duration_ms": 16480,
+      "ai_wait_ms": 12720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

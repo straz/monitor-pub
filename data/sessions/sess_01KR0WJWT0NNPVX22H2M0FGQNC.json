@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KR0WJWT0NNPVX22H2M0FGQNC",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "How does cyberpunk red's damage system work?",
+  "started_at": "2026-05-07T09:34:00Z",
+  "ended_at": "2026-05-07T09:34:47.296000Z",
+  "duration_ms": 47296,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "How does cyberpunk red's damage system work?",
+      "started_at": "2026-05-07T09:34:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have the capability to learn or update myself with games that were released recently such as Cyberpunk Red. However, I can provide information on Cyberpunk 2020's damage system as a reference.\n\nIn Cyberpunk 2020, the damage system revolves around hit location and armor. When a character is hit, the location of the hit is determined randomly. The amount of damage is then calculated based on the weapon used and the hit location. The damage is then reduced by the target's armor value, with certain types of armor being more effective against certain types of damage.\n\nIf the damage exceeds the target's remaining hit points, they are considered seriously wounded or dead, depending on the severity of the damage. The amount of damage taken also affects various stats and abilities, such as movement speed and accuracy.",
+      "started_at": "2026-05-07T09:34:02.432000Z",
+      "duration_ms": 9320,
+      "tokens_in": 0,
+      "tokens_out": 213,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "how does to hit work in cyberpunk 2020?",
+      "started_at": "2026-05-07T09:34:13.252000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "In Cyberpunk 2020, to hit an enemy, a player must roll a twenty-sided die (D20) and add their skill level in the appropriate weapon. The total score is then compared to the enemy's defense score. If the player's total score is equal to or greater than the enemy's defense score, the attack hits.\n\nThe defense score is derived from several factors, such as armor type, movement, cover, and the target's reflexes skill. A higher defense score makes it harder to hit the target.\n\nIf the attack hits, the player then rolls damage based on the weapon being used and the hit location. Different hit locations have different amounts of hit points, and various types of armor protect different hit locations.\n\nThe to-hit system is designed to simulate the fast, frenetic action of combat, with quick decisions and swift reactions being essential to survival.",
+      "started_at": "2026-05-07T09:34:15.660000Z",
+      "duration_ms": 9280,
+      "tokens_in": 0,
+      "tokens_out": 212,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "How does armor work in cyberpunk 2020?",
+      "started_at": "2026-05-07T09:34:26.440000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "In Cyberpunk 2020, armor is an important factor in combat, as it can significantly reduce the amount of damage a character takes. Armor is classified into three types: light, medium, and heavy.\n\nWhen a character wearing armor is hit, the armor's stopping power is subtracted from the total damage of the attack. For example, if a character takes 10 points of damage from an attack and their armor has a stopping power of 4, the character takes only 6 points of damage.\n\nDifferent types of armor offer varying levels of protection against different types of damage. For instance, subdermal armor is better at protecting against edged weapons, while heavy synthsteel armor provides excellent protection against gunfire.\n\nArmor also has an encumbrance rating, which affects the character's movement and combat abilities. The more encumbered a character is, the harder it is for them to dodge attacks or fire their own weapons accurately.\n\nOverall, armor in Cyberpunk 2020 is a crucial component of character survival, but characters must balance their armor's protection with its encumbrance and agility penalties in order to achieve maximum effectiveness.",
+      "started_at": "2026-05-07T09:34:28.848000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "How does health work in cyberpunk 2020?",
+      "started_at": "2026-05-07T09:34:42.668000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "In Cyberpunk 2020, health is measured in hit points (HP), which represent a character's physical well-being. When a character takes damage, their hit points are reduced. The amount of damage taken depends on the type of attack and the location of the hit.\n\nEach character has a maximum number of hit points, which is determined by their body type and character creation choices. When a character's hit points drop to zero, they are considered wounded or incapacitated, and if their hit points drop below zero, they are considered mortally wounded or dead.\n\nIn addition to hit points, characters also have a humanity score that represents their mental and emotional well-being. Committing acts of violence or engaging in other morally questionable behavior can lower a character's humanity score, which can have long-term consequences.\n\nCharacters can recover hit points through rest, medical attention, or magical healing. However, some types of damage, such as cyberware damage, may require a higher level of medical expertise to repair.\n\nOverall, managing hit points and maintaining a good level of health is essential for characters to survive the dangers of Cyberpunk 2020's gritty world.",
+      "started_at": "2026-05-07T09:34:45.076000Z",
+      "duration_ms": 12720,
+      "tokens_in": 0,
+      "tokens_out": 298,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 52,
+    "ai_cost": 36,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 4860,
+      "tokens_in": 3849,
+      "tokens_out": 1011,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 38,
+      "duration_ms": 47296,
+      "ai_wait_ms": 43640,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0034,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00BGXSBN72EC6NHXSS",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR0WJWT0NNPVX22H2M0FGQNC",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "How does armor work in cyberpunk 2020?",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR0WJWT0NNPVX22H2M0FGQNC.json",
+        "turn_uri": "data/sessions/sess_01KR0WJWT0NNPVX22H2M0FGQNC.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.67).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00XC61SSB0C3EZSDRV",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR0WJWT0NNPVX22H2M0FGQNC",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "How does health work in cyberpunk 2020?",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR0WJWT0NNPVX22H2M0FGQNC.json",
+        "turn_uri": "data/sessions/sess_01KR0WJWT0NNPVX22H2M0FGQNC.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.75).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

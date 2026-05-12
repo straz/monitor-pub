@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPAAEDY0TAJ5ZXVCZCBREM73",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "act like a sales compensation expert. what's the difference between organic quota carrying and inorganic quota carrying \u2026",
+  "started_at": "2026-04-16T04:58:00Z",
+  "ended_at": "2026-04-16T04:58:25.824000Z",
+  "duration_ms": 25824,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "act like a sales compensation expert. what's the difference between organic quota carrying and inorganic quota carrying sales rep?",
+      "started_at": "2026-04-16T04:58:00Z",
+      "duration_ms": 1184,
+      "tokens_in": 32,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have personal opinions or experiences. However, I can tell you that there is a significant difference between organic and inorganic quota carrying sales rep. \n\nOrganic quota carrying sales rep refers to a salesperson who has been with the company for a long time and has developed a strong rapport with the existing customers. They are familiar with the market and industry, and they have cultivated their territory without assistance from additional resources. In other words, they have built their book of business through their own efforts and reputation, which makes them more likely to achieve their quota and succeed in their roles.\n\nOn the other hand, inorganic quota carrying sales reps refer to sales representatives who are new to the company, territory or market. They rely heavily on company-supported resources such as lead generation, marketing campaigns, and/or incentives to close deals. These sales reps have yet to establish a client base, so they need additional help from the company to achieve their quotas.\n\nIn conclusion, hiring the right mix of organic and inorganic quota carrying sales reps can help a company to achieve its sales goals while also maintaining a strong client portfolio. Organic sales reps provide reliability and stability, while inorganic sales reps bring in new blood and fresh ideas to the organization.",
+      "started_at": "2026-04-16T04:58:02.684000Z",
+      "duration_ms": 14600,
+      "tokens_in": 0,
+      "tokens_out": 345,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "are renewal reps who have to renew existing business considered 'quota carrying'?",
+      "started_at": "2026-04-16T04:58:18.784000Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Yes, renewal reps who have to renew existing business are considered quota carrying. Quota carrying usually means that the sales representative has a set target or quota that they need to achieve in terms of revenue or sales volume. Renewal reps have the responsibility of maintaining and renewing existing business, which puts them in the category of quota carrying reps. The main difference between a renewal rep and an inorganic quota carrying sales rep is that a renewal rep is renewing business that they themselves have previously generated, whereas an inorganic quota carrying rep is generating new business from leads that may have come from marketing campaigns or other resources provided by the company. Nevertheless, both reps have to meet their set quotas and contribute to the company's overall revenue growth.",
+      "started_at": "2026-04-16T04:58:21.324000Z",
+      "duration_ms": 9000,
+      "tokens_in": 0,
+      "tokens_out": 205,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2179,
+      "tokens_in": 1629,
+      "tokens_out": 550,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 52,
+      "duration_ms": 25824,
+      "ai_wait_ms": 23600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP322GQ05TC2HJX6VYKQ20MX",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "prepare a short summary (about 200 words) and a list of about 5-10 keywords covering the section topic. The summary will\u2026",
+  "started_at": "2026-04-13T09:17:00Z",
+  "ended_at": "2026-04-13T09:17:26.140000Z",
+  "duration_ms": 26140,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "prepare a short summary (about 200 words) and a list of about 5-10 keywords covering the section topic. The summary will be helpful for readers to understand our collection.",
+      "started_at": "2026-04-13T09:17:00Z",
+      "duration_ms": 1316,
+      "tokens_in": 43,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "This section provides an overview of the concept of corporate social responsibility (CSR), which refers to the ethical and social obligations that companies have towards society and the environment. CSR encompasses a range of activities, including philanthropy, sustainability efforts, ethical business practices, and stakeholder engagement. The section covers various aspects of CSR, including its evolution over time, its benefits and criticisms, and its implementation in different contexts and industries. It also discusses the role of corporate governance and regulations in driving CSR practices, as well as the challenges and opportunities that companies face in integrating CSR into their business strategies. The section highlights the growing importance of CSR as a key factor in building trust and reputation with stakeholders, as well as in achieving long-term financial success and societal impact.\n\nKeywords: corporate social responsibility, ethics, sustainability, stakeholder engagement, governance, regulation, philanthropy, stakeholder trust, long-term success.",
+      "started_at": "2026-04-13T09:17:02.816000Z",
+      "duration_ms": 11560,
+      "tokens_in": 0,
+      "tokens_out": 269,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "prepare a short summary (about 200 words) about the Section Collection Project of \u201cStroke and Cerebrovascular Disease\u201d and a list of about 5-10 keywords covering the section topic. The summary will be helpful for readers to understand our collection.\n",
+      "started_at": "2026-04-13T09:17:15.876000Z",
+      "duration_ms": 1544,
+      "tokens_in": 62,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Stroke and Cerebrovascular Disease section collection project presents a comprehensive guide to the latest research findings and promising treatments in the field of stroke and cerebrovascular disease. Stroke is a common neurological disorder that can lead to serious long-term disability and mortality. This section collection project covers various topics related to stroke and cerebrovascular disease, including epidemiology, pathophysiology, risk factors, diagnosis, and treatment. Additionally, the collection includes advances in stroke rehabilitation, prevention and innovative research techniques. It also highlights the impact of lifestyle factors on stroke risk and the importance of public health campaigns to raise awareness. The project aims to improve the understanding of this devastating disease and to provide evidence-based treatments and management strategies to healthcare practitioners, researchers, and patients.\n\nKeywords: Stroke, cerebrovascular disease, risk factors, diagnosis, treatment, rehabilitation, prevention, research, lifestyle factors, awareness-raising.",
+      "started_at": "2026-04-13T09:17:18.920000Z",
+      "duration_ms": 11720,
+      "tokens_in": 0,
+      "tokens_out": 273,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2159,
+      "tokens_in": 1617,
+      "tokens_out": 542,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 105,
+      "duration_ms": 26140,
+      "ai_wait_ms": 23280,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0081089BCPHDWDRK1A",
+      "tenant": "kurson-health",
+      "session": "sess_01KP322GQ05TC2HJX6VYKQ20MX",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "prepare a short summary (about 200 words) about the Section Collection Project of \u201cStroke and Cerebrovascular Disease\u201d and a list of about 5-10 keywords covering the section topic. The summary will be helpful for readers to understand our c",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP322GQ05TC2HJX6VYKQ20MX.json",
+        "turn_uri": "data/sessions/sess_01KP322GQ05TC2HJX6VYKQ20MX.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.84).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

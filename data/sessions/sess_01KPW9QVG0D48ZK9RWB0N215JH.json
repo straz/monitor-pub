@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KPW9QVG0D48ZK9RWB0N215JH",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Tell me all kind of Service Level agreements partial KPIs and calculation formula in an ITSM team with ITIL version 4, p\u2026",
+  "started_at": "2026-04-23T04:32:00Z",
+  "ended_at": "2026-04-23T04:33:50.528000Z",
+  "duration_ms": 110528,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Tell me all kind of Service Level agreements partial KPIs and calculation formula in an ITSM team with ITIL version 4, please.\n",
+      "started_at": "2026-04-23T04:32:00Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Service Level Agreements (SLAs) are essential in measuring the performance of IT Service Management (ITSM) teams operating under the Information Technology Infrastructure Library (ITIL) framework version 4. SLAs consist of key performance indicators (KPIs) and their respective calculation formulas. Below are some common SLAs KPIs and their respective calculation formulas in ITSM:\n\n1. Incident response time - The average period taken to respond to an incident after it is logged in the ITSM system.\nCalculation formula: (Total time taken to respond to all incidents) / (Number of incidents)\n\n2. Incident resolution time - The average period taken to resolve an incident after it is logged in the ITSM system.\nCalculation formula: (Total time taken to resolve all incidents) / (Number of incidents)\n\n3. First contact resolution (FCR) rate - The percentage of incidents resolved by the service desk during the first contact with the user.\nCalculation formula: (Number of incidents resolved on first contact) / (Total number of incidents) * 100\n\n4. Service request completion time - The average time taken to complete a service request.\nCalculation formula: (Total time taken to complete all service requests) / (Number of service requests)\n\n5. Change management success rate - The percentage of changes implemented successfully without causing incidents or service disruptions.\nCalculation formula: (Number of successful changes) / (Total number of changes) * 100\n\n6. Availability - The percentage of time a service is available for use relative to the agreed service hours.\nCalculation formula: [(Agreed service hours - Downtime) / Agreed service hours] * 100\n\n7. Mean time between failures (MTBF) - The average length of time a system or service is operational without a failure.\nCalculation formula: (Total operating time) / (Number of failures)\n\n8. Mean time to repair (MTTR) - The average time taken to repair a system or service after a failure.\nCalculation formula: (Total downtime) / (Number of repairs)\n\n9. Customer satisfaction score (CSAT) - A measure of customer satisfaction with the service provided, typically gathered through surveys.\nCalculation formula: (Number of satisfied customers) / (Total number of customers surveyed) * 100\n\n10. Service desk agent utilization - The percentage of time a service desk agent spends on productive work compared to their total working hours.\nCalculation formula: (Total productive work time of all agents) / (Total working hours of all agents) * 100\n\nThese KPIs and calculation formulas can be used by ITSM teams to monitor the success of their service delivery and improve their processes accordingly. However, it's essential to keep in mind that not all KPIs apply to every organization, and they should be tailored to the specific needs and goals of each ITSM team.",
+      "started_at": "2026-04-23T04:32:02.672000Z",
+      "duration_ms": 29000,
+      "tokens_in": 0,
+      "tokens_out": 705,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Extract all KPIs of the Following SLA:\n2- Service levels: According to the customer's needs, the importance of the services, the infrastructure and executive conditions and restrictions of the services are provided in four levels with the following specifications. It should be noted that choosing a higher level of service or changing the specifications of each level, including the level of availability, service delivery time, and response time to events in the table below, has a direct impact on the support price and infrastructure costs.\n3- Response time: acceptable time to respond to each request.\n4- Critical event: an event that affects a wide range of users or customers, seriously disrupts the customer's business and affects service delivery.\n5- Important event: affects a significant number of users and disrupts the customer's business.\n6-Normal event: events that do not disrupt the performance of users and business and can be organized.\n7- Notification of the change program: Any change that leads to interruption or disruption of the service must be notified to its beneficiaries through a specific procedure.\n8- Normal change: change to improve or upgrade the service.\n9- Emergency change: change to fix an error or service problem.\n10- Requesting technical inquiries: Requesting technical inquiries from Fanapsoft regarding the operation or performance of the service, such as announcing the reason for a problem.\n11- Normal request: Normal request related to agreed services.\n12- Requesting reports: Requesting reports related to agreed services.\n13- Support manager: Fanapsoft's role regarding support management of agreed services.\n14- Customer manager: Fanapsoft's role regarding interaction and response to agreed service customers.\n15- Service support: the place to provide support services for the agreed services.\n16- Agreed service time: The service provider is committed to providing his service at this time.\n17- Working hours: The service schedule is from Saturday to Wednesday from 8:00 to 17:00.",
+      "started_at": "2026-04-23T04:32:33.172000Z",
+      "duration_ms": 6884,
+      "tokens_in": 507,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Below are the KPIs extracted from the given SLA:\n\n1. Service Level: \nKPI: Percentage of service level achievement\nCalculation formula: (Number of services delivered at the agreed level) / (Total number of services delivered) * 100\n\n2. Response Time:\nKPI: Average response time to requests\nCalculation formula: (Total time taken to respond to all requests) / (Number of requests)\n\n3. Critical Event:\nKPI: Number of critical events\nCalculation formula: (Total number of critical events)\n\n4. Important Event:\nKPI: Number of important events\nCalculation formula: (Total number of important events)\n\n5. Normal Event:\nKPI: Number of normal events\nCalculation formula: (Total number of normal events)\n\n6. Change Notification Compliance:\nKPI: Percentage of changes notified according to the procedure\nCalculation formula: (Number of changes properly notified) / (Total number of changes) * 100\n\n7. Normal Change:\nKPI: Number of normal changes\nCalculation formula: (Total number of normal changes)\n\n8. Emergency Change:\nKPI: Number of emergency changes\nCalculation formula: (Total number of emergency changes)\n\n9. Technical Inquiry Resolution:\nKPI: Percentage of resolved technical inquiries\nCalculation formula: (Number of technical inquiries resolved) / (Total number of technical inquiries) * 100\n\n10. Normal Request:\nKPI: Number of normal requests\nCalculation formula: (Total number of normal requests)\n\n11. Report Request Fulfillment:\nKPI: Percentage of report requests fulfilled\nCalculation formula: (Number of report requests fulfilled) / (Total number of report requests) * 100\n\n12. Support Manager Performance:\nKPI: Support manager customer satisfaction score\nCalculation formula: (Number of satisfied customers) / (Total number of customers surveyed) * 100\n\n13. Customer Manager Performance:\nKPI: Customer manager interaction and response satisfaction score\nCalculation formula: (Number of satisfied interactions) / (Total number of interactions) * 100\n\n14. Service Support Compliance:\nKPI: Percentage of services supported according to the agreed terms\nCalculation formula: (Number of services supported) / (Total number of services) * 100\n\n15. Agreed Service Time Compliance:\nKPI: Percentage of service provided within the agreed time\nCalculation formula: (Number of services provided within agreed time) / (Total number of services) * 100\n\n16. Working Hours Adherence:\nKPI: Percentage of service delivery within working hours\nCalculation formula: (Number of services delivered within working hours) / (Total number of services delivered) * 100",
+      "started_at": "2026-04-23T04:32:41.556000Z",
+      "duration_ms": 26240,
+      "tokens_in": 0,
+      "tokens_out": 636,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Tell me all kind of Service desk partial and non-partial KPIs and calculation formula in an ITSM team with ITIL version 4, please.\n",
+      "started_at": "2026-04-23T04:33:09.296000Z",
+      "duration_ms": 1184,
+      "tokens_in": 32,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Service Desk KPIs are essential to measure the performance of IT Service Management (ITSM) teams in providing support to end-users within the ITIL version 4 framework. Here are several partial and non-partial Service Desk KPIs along with their respective calculation formulas:\n\nPartial KPIs:\n1. First Contact Resolution (FCR) rate:\nCalculation formula: (Number of incidents resolved on first contact) / (Total number of incidents) * 100\n\n2. Average response time:\nCalculation formula: (Total time taken to respond to all incidents) / (Number of incidents)\n\n3. Average resolution time:\nCalculation formula: (Total time taken to resolve all incidents) / (Number of incidents)\n\n4. Percentage of SLA compliance:\nCalculation formula: (Number of incidents resolved within SLA) / (Total number of incidents) * 100\n\nNon-partial KPIs:\n5. Customer satisfaction (CSAT) score:\nCalculation formula: (Number of satisfied customers) / (Total number of customers surveyed) * 100\n\n6. Agent utilization rate:\nCalculation formula: (Total productive work time of all agents) / (Total working hours of all agents) * 100\n\n7. Tickets per agent:\nCalculation formula: (Total number of tickets) / (Total number of agents)\n\n8. Escalation rate:\nCalculation formula: (Number of escalated incidents) / (Total number of incidents) * 100\n\n9. Backlog size:\nKPI: Total number of open or unresolved incidents\n\n10. Agent turnover rate:\nCalculation formula: (Number of agents leaving the team) / (Average number of agents in the team) * 100\n\n11. Incident reopening rate:\nCalculation formula: (Number of reopened incidents) / (Total number of resolved incidents) * 100\n\n12. Knowledge base usage rate:\nCalculation formula: (Number of incidents resolved using the knowledge base) / (Total number of incidents) * 100\n\n13. Call abandonment rate:\nCalculation formula: (Number of abandoned calls) / (Total number of calls) * 100\n\nThese KPIs can help ITSM teams monitor service desk performance, identify improvement areas, and enhance their processes. It's important to note that not every KPI applies to every organization, and the KPIs should be adapted to the specific needs and goals of each ITSM team.",
+      "started_at": "2026-04-23T04:33:11.980000Z",
+      "duration_ms": 22400,
+      "tokens_in": 0,
+      "tokens_out": 540,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Tell me all kind of B2B support Center partial and non-partial KPIs and calculation formula in an ITSM team with ITIL version 4, please.\n",
+      "started_at": "2026-04-23T04:33:35.880000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "In a B2B support center within the ITIL version 4 framework, the ITSM team focuses on providing support to other businesses. Here are several partial and non-partial KPIs related to the B2B Support Center, along with their respective calculation formulas:\n\nPartial KPIs:\n1. First contact resolution (FCR) rate:\nCalculation formula: (Number of incidents resolved on first contact) / (Total number of incidents) * 100\n\n2. Average response time:\nCalculation formula: (Total time taken to respond to all incidents) / (Number of incidents)\n\n3. Mean time to resolve (MTTR):\nCalculation formula: (Total time taken to resolve all incidents) / (Number of incidents)\n\n4. Percentage of SLA compliance:\nCalculation formula: (Number of incidents resolved within SLA) / (Total number of incidents) * 100\n\n5. Change success rate:\nCalculation formula: (Number of successful changes) / (Total number of changes) * 100\n\nNon-partial KPIs:\n6. Customer satisfaction (CSAT) score:\nCalculation formula: (Number of satisfied customers) / (Total number of customers surveyed) * 100\n\n7. Support agent utilization rate:\nCalculation formula: (Total productive work time of all agents) / (Total working hours of all agents) * 100\n\n8. Escalation rate:\nCalculation formula: (Number of escalated incidents) / (Total number of incidents) * 100\n\n9. Ticket volume:\nKPI: Total number of support tickets\n\n10. Agent turnover rate:\nCalculation formula: (Number of agents leaving the team) / (Average number of agents in the team) * 100\n\n11. Incident reopening rate:\nCalculation formula: (Number of reopened incidents) / (Total number of resolved incidents) * 100\n\n12. Knowledge base usage rate:\nCalculation formula: (Number of incidents resolved using the knowledge base) / (Total number of incidents) * 100\n\n13. Call abandonment rate:\nCalculation formula: (Number of abandoned calls) / (Total number of calls) * 100\n\nThese KPIs can help ITSM teams monitor B2B support center performance, identify areas for improvement, and enhance their processes. It's important to note that not every KPI applies to every organization, and the KPIs should be adapted to the specific needs and goals of each ITSM team.",
+      "started_at": "2026-04-23T04:33:38.588000Z",
+      "duration_ms": 22440,
+      "tokens_in": 0,
+      "tokens_out": 541,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 52,
+    "ai_cost": 64,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 10492,
+      "tokens_in": 8070,
+      "tokens_out": 2422,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 604,
+      "duration_ms": 110528,
+      "ai_wait_ms": 100080,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.3874,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0029BTNWABGTH4F2ER",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPW9QVG0D48ZK9RWB0N215JH",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Tell me all kind of Service desk partial and non-partial KPIs and calculation formula in an ITSM team with ITIL version 4, please.\n",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPW9QVG0D48ZK9RWB0N215JH.json",
+        "turn_uri": "data/sessions/sess_01KPW9QVG0D48ZK9RWB0N215JH.json#turns/4"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.83).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00EEAM5MNW50SM3J8P",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPW9QVG0D48ZK9RWB0N215JH",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "Tell me all kind of B2B support Center partial and non-partial KPIs and calculation formula in an ITSM team with ITIL version 4, please.\n",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPW9QVG0D48ZK9RWB0N215JH.json",
+        "turn_uri": "data/sessions/sess_01KPW9QVG0D48ZK9RWB0N215JH.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.80).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

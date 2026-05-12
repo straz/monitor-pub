@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPMSJXH0F3DEYF9S1GAVGF9C",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "Main things taught in college nursing 10 bullets one sentence each",
+  "started_at": "2026-04-20T06:35:00Z",
+  "ended_at": "2026-04-20T06:35:30.944000Z",
+  "duration_ms": 30944,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Main things taught in college nursing 10 bullets one sentence each",
+      "started_at": "2026-04-20T06:35:00Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Anatomy and Physiology - understanding the structure and function of the body's systems.\n2. Pharmacology - knowledge of drugs and their effects on the body.\n3. Nursing Fundamentals - basic nursing skills such as taking vital signs and administering medication.\n4. Nutrition - understanding the importance of proper nutrition for patients.\n5. Medical-Surgical Nursing - care for patients with various medical conditions and diseases.\n6. Maternal-Child Health Nursing - care for pregnant and postpartum women and newborns.\n7. Psychiatric-Mental Health Nursing - care for patients with mental health disorders.\n8. Community Health Nursing - care for patients in the community and public health settings.\n9. Leadership and Management - skills needed to lead and manage a team of nurses.\n10. Evidence-Based Practice - using research and current knowledge to inform nursing practice.",
+      "started_at": "2026-04-20T06:35:02.492000Z",
+      "duration_ms": 9600,
+      "tokens_in": 0,
+      "tokens_out": 220,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "How much revenue does a skyline franchise earn per year",
+      "started_at": "2026-04-20T06:35:13.592000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have access to the financial records of individual Skyline franchises, so I cannot provide an exact figure on how much revenue a Skyline franchise earns per year. The revenue of a Skyline franchise is influenced by various factors such as location, market demand, size, competition, operating costs, and management expertise. Skyline Chili is a privately held company, so the financial information of individual franchises is not disclosed publicly.",
+      "started_at": "2026-04-20T06:35:16.048000Z",
+      "duration_ms": 5600,
+      "tokens_in": 0,
+      "tokens_out": 120,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "How does someone franchise a restaurant and make money",
+      "started_at": "2026-04-20T06:35:23.148000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Franchising a restaurant involves licensing the right to use an established brand, product, or service to a franchisee for a fee. Franchisees operate their own businesses, but they receive significant support from the franchisor, including training, marketing, and ongoing assistance.\n\nTo make money from franchising a restaurant, the franchisor typically charges an initial franchise fee and ongoing royalty fees. The initial fee covers the cost of training, site selection, equipment, and opening support. The ongoing royalty fee is usually a percentage of sales (usually 4-6%) paid by the franchisee to the franchisor as compensation for ongoing support and use of the brand.\n\nOther potential revenue sources include markups on equipment and supplies sold to franchisees, marketing fees, and area development fees charged to franchisees looking to open multiple locations.\n\nThe success of a franchised restaurant depends on various factors such as site selection, customer service, quality of food, and competition. As a franchisor, it's important to provide ongoing support to franchisees and maintain the quality of the brand to ensure the long-term success and profitability of the franchise network.",
+      "started_at": "2026-04-20T06:35:25.604000Z",
+      "duration_ms": 12840,
+      "tokens_in": 0,
+      "tokens_out": 301,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3088,
+      "tokens_in": 2447,
+      "tokens_out": 641,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 42,
+      "duration_ms": 30944,
+      "ai_wait_ms": 28040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

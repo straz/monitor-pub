@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPHZPAR0A53Q0WBCVC1HZZHT",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Examples of carbon finance related technical assistance services to be offered to organizations in Africa that produce h\u2026",
+  "started_at": "2026-04-19T04:24:00Z",
+  "ended_at": "2026-04-19T04:24:52.012000Z",
+  "duration_ms": 52012,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Examples of carbon finance related technical assistance services to be offered to organizations in Africa that produce high-technology clean cooking solutions",
+      "started_at": "2026-04-19T04:24:00Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Developing a carbon offset project: Organizations can work with technical consultants to develop carbon offset projects that meet the standards of international carbon markets. These projects can be used to generate carbon credits, which can be sold to companies in developed countries looking to offset their emissions.\n\n2. Carbon footprinting: Technical consultants can assist organizations in Africa to conduct carbon footprint analysis of their products and services. This service provides companies with insights on their greenhouse gas emissions, and the opportunities for carbon reduction.\n\n3. Life cycle assessment: Technical consultants can conduct life cycle assessments on the high-technology clean cooking solutions produced by African organizations. This assessment helps to identify the environmental impact of the products across the entire value chain, providing opportunities for improvement.\n\n4. Greenhouse gas accounting: Technical consultants can help African organizations to measure, monitor and report their greenhouse gas emissions and reduction initiatives, in order to comply with international standards.\n\n5. Clean development mechanism registration: Technical consultants can assist organizations in getting their clean cooking solutions registered under the Clean Development Mechanism (CDM) process. The CDM allows organizations to earn carbon credits for projects that reduce emissions in developing countries.\n\n6. Energy efficiency audits: Technical consultants can conduct energy efficiency audits of production processes and facilities to identify energy-saving opportunities, reducing energy consumption and associated emissions.\n\n7. Renewable energy feasibility studies: Technical consultants can conduct feasibility studies to assess the viability of renewable energy projects, such as solar or wind power, for powering the production of high-technology clean cooking solutions. This can help to reduce reliance on fossil fuels and associated emissions.\n\n8. Supply chain sustainability: Technical consultants can help organizations to achieve sustainability throughout their supply chain, including raw material sourcing, transportation and logistics, waste management, and end-of-life disposal. This will help to reduce associated emissions and build a sustainable business model.",
+      "started_at": "2026-04-19T04:24:02.768000Z",
+      "duration_ms": 24000,
+      "tokens_in": 0,
+      "tokens_out": 580,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "workflow and budget of carbon finance related technical assistance services to be offered to organizations in Africa that produce high-technology clean cooking solutions",
+      "started_at": "2026-04-19T04:24:28.268000Z",
+      "duration_ms": 1304,
+      "tokens_in": 42,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Workflow:\n\n1. Initial consultation: The technical consultant will have an initial consultation with the organization to understand their current operations, goals, and needs.\n\n2. Gap analysis: The technical consultant will conduct a gap analysis to identify areas where carbon finance related technical assistance services can be offered.\n\n3. Proposal development: The technical consultant will develop a proposal detailing the technical assistance services to be provided, the timeline and budget.\n\n4. Agreement signing: The organization and technical consultant will sign an agreement detailing the scope of work and responsibilities of each party.\n\n5. Service delivery: The technical consultant will deliver the services according to the agreement, which may include conducting carbon footprint analysis, developing carbon offset projects, conducting energy efficiency audits, and developing sustainability initiatives.\n\n6. Reporting: The technical consultant will provide regular progress reports to the organization and any necessary reporting to third-party organizations or carbon markets.\n\n7. Project evaluation: The technical consultant will evaluate the effectiveness of the technical assistance services provided and provide recommendations for future improvements.\n\nBudget:\n\nThe budget for carbon finance related technical assistance services will depend on the scope of work and timeline required. The budget may include costs for the following:\n\n1. Consultant fees: This will vary based on the level of expertise required and the number of days or weeks needed to complete the work.\n\n2. Travel and accommodation: If the technical consultant is required to travel to the organization's site, expenses such as flights, accommodation, and meals will need to be budgeted for.\n\n3. Data collection and analysis: Costs associated with collecting and analyzing data for carbon footprint analysis and other technical assistance services should be included in the budget.\n\n4. Third-party fees: Some technical assistance services may require third-party fees such as carbon offset verification or carbon market registration fees.\n\n5. Evaluation: A portion of the budget should be allocated to evaluating the effectiveness of the technical assistance services provided.\n\nOverall, the budget for carbon finance related technical assistance services can range from a few thousand to tens of thousands of dollars, depending on the scope of work and timeline required.",
+      "started_at": "2026-04-19T04:24:31.072000Z",
+      "duration_ms": 25440,
+      "tokens_in": 0,
+      "tokens_out": 616,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3096,
+      "tokens_in": 1900,
+      "tokens_out": 1196,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 81,
+      "duration_ms": 52012,
+      "ai_wait_ms": 49440,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0027,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00YR8EWFFV2BYT1HKZ",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPHZPAR0A53Q0WBCVC1HZZHT",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "workflow and budget of carbon finance related technical assistance services to be offered to organizations in Africa that produce high-technology clean cooking solutions",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPHZPAR0A53Q0WBCVC1HZZHT.json",
+        "turn_uri": "data/sessions/sess_01KPHZPAR0A53Q0WBCVC1HZZHT.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.83).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

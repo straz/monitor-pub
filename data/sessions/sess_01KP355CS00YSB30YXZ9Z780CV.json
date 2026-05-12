@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP355CS00YSB30YXZ9Z780CV",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "I need a dispute letter to send to. Navy federal credit Union. Charger for account",
+  "started_at": "2026-04-13T10:11:00Z",
+  "ended_at": "2026-04-13T10:11:21.780000Z",
+  "duration_ms": 21780,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need a dispute letter to send to. Navy federal credit Union. Charger for account ",
+      "started_at": "2026-04-13T10:11:00Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Dear Sir/Madam,\n\nI am writing to dispute a charge that has been made to my account with Navy Federal Credit Union. The charge that I am referring to is the amount of $XXXXX, and it was charged to my account on XX/XX/XXXX.\n\nI want to take this opportunity to explain my position regarding this charge. I never authorized this payment and have no knowledge of the transaction. Furthermore, I have not received any goods or services, nor have I signed any contract relating to it.\n\nAs a result, I believe this charge is fraudulent, and I request that it be immediately removed from my account. I also request that you conduct an investigation into the transaction to identify the fraudulent entity responsible for this charge.\n\nI would appreciate it if you could provide me with written confirmation that you have received this letter and that my request is being acted upon.\n\nI would like to thank you for your attention to this matter and look forward to receiving a prompt resolution.\n\nSincerely,\n\n[Your name]",
+      "started_at": "2026-04-13T10:11:02.540000Z",
+      "duration_ms": 10880,
+      "tokens_in": 0,
+      "tokens_out": 252,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is the laws you used to? To dispute a charger of account",
+      "started_at": "2026-04-13T10:11:14.920000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have the ability to provide legal advice or refer to specific laws. However, as a general rule, the laws that govern disputes related to credit card charges are typically found in consumer protection laws and federal regulations, such as the Fair Credit Billing Act. This law provides consumers with the right to dispute billing errors, unauthorized charges, and certain charges that were not delivered as promised. The law also specifies procedures for resolving disputes with credit card companies and requires that consumers be notified of their rights and responsibilities in writing. It is always recommended to consult with an attorney or a legal expert to understand the specific laws that apply to your situation and to get advice on how to proceed with your dispute.",
+      "started_at": "2026-04-13T10:11:17.400000Z",
+      "duration_ms": 8880,
+      "tokens_in": 0,
+      "tokens_out": 202,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1961,
+      "tokens_in": 1507,
+      "tokens_out": 454,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 35,
+      "duration_ms": 21780,
+      "ai_wait_ms": 19760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

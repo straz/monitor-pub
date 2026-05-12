@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP7B07J0V580XYK56K65EVNR",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "i want to write a cover letter to a hotel company to show how much i am to join their respected company for the position\u2026",
+  "started_at": "2026-04-15T01:10:00Z",
+  "ended_at": "2026-04-15T01:10:28.064000Z",
+  "duration_ms": 28064,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "i want to write a cover letter to a hotel company to show how much i am to join their respected company for the position of reservations specialist ",
+      "started_at": "2026-04-15T01:10:00Z",
+      "duration_ms": 1244,
+      "tokens_in": 37,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Dear Hiring Manager,\n\nI am thrilled to submit my application for the position of Reservations Specialist at your esteemed hotel company. I believe that my passion for hospitality, combined with my skillset and experience, make me an excellent candidate.\n\nAs a hospitality enthusiast, I have constantly been drawn towards the hotel industry. I am familiar with your company's dedication to exemplary service, and I am eager to contribute to your team of skilled professionals. I am confident that I possess the technical know-how required to excel in this position, with a keen eye for paying attention to detail, and a drive to provide top-notch customer service.\n\nI have honed my customer service skills by working in various hospitality roles in the past, where I have demonstrated enthusiasm and a can-do attitude. I am very comfortable dealing with both existing and prospective guests, handling their questions, and I enjoy providing insightful advice on the hotel's services and generating bookings. I have a strong command of the computer system used in hospitality software systems and the natural aptitude for scheduling and organization.\n\nI would like to express my appreciation for considering my application for this position. I believe my enthusiasm, expertise, and experience, coupled with my drive for excellence and my passion for hospitality, make me an ideal fit for this challenging and exciting role.\n\nThank you for your consideration, and I am looking forward to your response.\n\nSincerely,\n\n[Your Name]",
+      "started_at": "2026-04-15T01:10:02.744000Z",
+      "duration_ms": 16000,
+      "tokens_in": 0,
+      "tokens_out": 380,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "i want to write an email to the front office manager Mr. Ron inquiring about my job application status",
+      "started_at": "2026-04-15T01:10:20.244000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Dear Mr. Ron,\n\nI hope this email finds you well. I am writing to inquire about the status of my job application for the position of Reservations Specialist at your hotel.\n\nI submitted my application a few weeks ago and have yet to hear back from the company. I am very excited and eager to join your team, and I was hoping to receive an update on the application process.\n\nI would be extremely grateful for any information you could provide me with about the status of my application. I am confident that my experience and skill set make me a strong candidate for this position, and I am eagerly looking forward to the opportunity to contribute as a member of your team.\n\nPlease let me know if there is any additional information you require from me to process my application. Thank you for considering my application, and I am looking forward to hearing from you soon.\n\nSincerely,\n\n[Your Name]",
+      "started_at": "2026-04-15T01:10:22.844000Z",
+      "duration_ms": 9720,
+      "tokens_in": 0,
+      "tokens_out": 223,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2282,
+      "tokens_in": 1679,
+      "tokens_out": 603,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 62,
+      "duration_ms": 28064,
+      "ai_wait_ms": 25720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

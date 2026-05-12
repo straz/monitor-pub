@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPZB2FF0MAABWFMFQF6Y7NKH",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_001",
+  "title": "Legal Letter to insurance company on behalf of client. ",
+  "started_at": "2026-04-24T08:53:00Z",
+  "ended_at": "2026-04-24T08:53:30.664000Z",
+  "duration_ms": 30664,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Legal Letter to insurance company on behalf of client. \nOur received a cheque of $380, along with the letter which states that:\n\u201c Further to our correspondence, please find enclosed our principal\u2019s loss draft in the amount of $ 380, which represents the actual cash value of the building structure per the documents provided by your office.\u201d Please see attached Annexure A \nFirst of all our office wants to clarify that neither my client nor our office has agreed or provided our consent to accept the actual cash value of the building.\nOur client wants to understand the relevance of this actual cash value of the building cheque when they have specified from day one that their intention is to rebuild the house which was agreed upon your office as well.\nPlease explain the significance of this Actual cash value cheque and why it has been sent to our office.\nSecondly Our office has not received any confirmation for the builders and bid amount approval as per our last conversation where my client as per your instruction in email dated April 18, 2023 have completed their part in reaching out and obtaining quotes from two reputable construction and provided to adjustor and insurance company. Please provide us an update on approval and selection of builder and bid amount for the rebuilding of house. So that rebuilding process start as soon as possible.\nFurthermore, we would like to remind you that the rental cheque payments for the months of February, March, and April 2023 are due and should be sent to our office as soon as possible. As previously stated, these rent cheques will be accepted as interim payments, subject to further discussion and retrospective revision with the insurance company.\nWe appreciate your prompt attention to this critical matter and look forward to hearing from you soon.\nSincerely \n",
+      "started_at": "2026-04-24T08:53:00Z",
+      "duration_ms": 6272,
+      "tokens_in": 456,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "[Your Name] \n[Your Company]",
+      "started_at": "2026-04-24T08:53:07.772000Z",
+      "duration_ms": 1040,
+      "tokens_in": 0,
+      "tokens_out": 6,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Legal Letter to insurance company on behalf of client. \nOur received a cheque of $380, along with the letter which states that:\n\u201c Further to our correspondence, please find enclosed our principal\u2019s loss draft in the amount of $ 380, which represents the actual cash value of the building structure per the documents provided by your office.\u201d Please see attached Annexure A \nFirst of all our office wants to clarify that neither my client nor our office has agreed or provided our consent to accept the actual cash value of the building.\nOur client wants to understand the relevance of this actual cash value of the building cheque when they have specified from day one that their intention is to rebuild the house which was agreed upon your office as well.\nPlease explain the significance of this Actual cash value cheque and why it has been sent to our office.\nSecondly Our office has not received any confirmation for the builders and bid amount approval as per our last conversation where my client as per your instruction in email dated April 18, 2023 have completed their part in reaching out and obtaining quotes from two reputable construction and provided to adjustor and insurance company. Please provide us an update on approval and selection of builder and bid amount for the rebuilding of house. So that rebuilding process start as soon as possible.\nFurthermore, we would like to remind you that the rental cheque payments for the months of February, March, and April 2023 are due and should be sent to our office as soon as possible. As previously stated, these rent cheques will be accepted as interim payments, subject to further discussion and retrospective revision with the insurance company.\nWe appreciate your prompt attention to this critical matter and look forward to hearing from you soon.\nSincerely \n",
+      "started_at": "2026-04-24T08:53:10.312000Z",
+      "duration_ms": 6272,
+      "tokens_in": 456,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "[Your Name] \n[Your Company]\n\n[Date]\n\n[Name of Insurance Company Representative]\n[Address of Insurance Company Representative]\n\nDear Sir/Madam,\n\nRe: Client Name, Policy Number\n\nI am writing on behalf of my client, Client Name, in relation to the cheque of $380 received from your company as the actual cash value of the building structure.\n\nFirstly, neither my client nor our office has provided any consent or agreement to accept the actual cash value of the building. It is our understanding that our client has always intended to rebuild the house, as agreed upon by your office. Therefore, we would appreciate a clear explanation of the relevance of this cheque and why it has been sent to our office.\n\nSecondly, we have not received any confirmation on the approval and selection of a builder and bid amount for rebuilding the house, despite our client's completion of their part in reaching out and obtaining quotes from two reputable contractors, as previously instructed in the email dated April 18, 2023. It is imperative that we receive an update on these matters so that the rebuilding process can commence as soon as possible.\n\nFurthermore, we would like to remind you that the rental cheque payments for the months of February, March, and April 2023 are due and should be sent to our office promptly. As we have previously stated, these rent cheques will be accepted as interim payments subject to further discussion and retrospective revision with the insurance company.\n\nWe would appreciate your urgent attention to these matters and look forward to your prompt response.\n\nYours sincerely,\n\n[Your Name]\n[Your Company]",
+      "started_at": "2026-04-24T08:53:18.084000Z",
+      "duration_ms": 17080,
+      "tokens_in": 0,
+      "tokens_out": 407,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2987,
+      "tokens_in": 2574,
+      "tokens_out": 413,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 912,
+      "duration_ms": 30664,
+      "ai_wait_ms": 18120,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00BB0YR17XJP6TDMJJ",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPZB2FF0MAABWFMFQF6Y7NKH",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Legal Letter to insurance company on behalf of client. \nOur received a cheque of $380, along with the letter which states that:\n\u201c Further to our correspondence, please find enclosed our principal\u2019s loss draft in the amount of $ 380, which r",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPZB2FF0MAABWFMFQF6Y7NKH.json",
+        "turn_uri": "data/sessions/sess_01KPZB2FF0MAABWFMFQF6Y7NKH.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 1.00).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:claims",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQET13D015GGE6HRGH86QRKF",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Need a sample scripted call owner operators with new authority",
+  "started_at": "2026-04-30T09:03:00Z",
+  "ended_at": "2026-04-30T09:03:52.396000Z",
+  "duration_ms": 52396,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Need a sample scripted call owner operators with new authority",
+      "started_at": "2026-04-30T09:03:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Hello, is this [Owner Operator Name]?\n\nHi [Owner Operator Name], this is [Your Name] from [Your Company Name]. Congratulations on obtaining your new authority! We are excited to have you on board.\n\nWe specialize in providing logistics solutions to businesses across the country and we believe your services could be a great addition to our network of carriers.\n\nAs an owner-operator with your own authority, you have the flexibility to run your business as you see fit. Our goal is to help you maximize your earning potential by providing you with consistent opportunities to haul freight.\n\nOur team will work with you to provide you with the tools, resources, and support you need to succeed in this industry. We have a wide range of transportation services available, including FTL, LTL, and intermodal, so we can tailor our offerings to meet your specific needs.\n\nIf you are interested in working with us, I would love to set up a time for us to discuss this opportunity further and answer any questions you may have.\n\nThank you for your time and consideration, and we look forward to hearing back from you soon.",
+      "started_at": "2026-04-30T09:03:02.480000Z",
+      "duration_ms": 11920,
+      "tokens_in": 0,
+      "tokens_out": 278,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "A contract for all salem properties",
+      "started_at": "2026-04-30T09:03:15.900000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "CONTRACT FOR ALL SALEM PROPERTIES\n\nThis contract (\u201cAgreement\u201d) is entered into on [Date] by and between [Seller Name] (\u201cSeller\u201d), and [Buyer Name] (\u201cBuyer\u201d), hereinafter collectively referred to as the \u201cParties.\u201d \n\nWHEREAS, the Seller is the owner of various commercial and residential properties located in [City, State] (the \u201cProperties\u201d); and \n\nWHEREAS, the Buyer desires to purchase all of the Properties owned by Seller; \n\nAND WHEREAS, the Parties agree to enter into this Agreement to document the terms and conditions of the transaction. \n\nNOW THEREFORE, in consideration of the mutual promises contained herein, the Parties agree as follows: \n\n1. Purchase Price and Payment Terms. The Buyer shall purchase all of the Properties from the Seller for the purchase price of [Dollar Amount] (the \u201cPurchase Price\u201d). The Purchase Price will be paid by the Buyer to the Seller as follows: [Insert Payment Terms].\n\n2. Closing Date. The closing date of the transaction shall be on [Closing Date]. \n\n3. Conditions Precedent to Closing. The Buyer\u2019s obligation to close the transaction is contingent upon the following conditions precedent being met: [Insert Conditions Precedent, if any].\n\n4. Seller Representations and Warranties. The Seller represents and warrants to the Buyer that: \n\na. Seller has good title to the Properties being sold hereunder, free and clear of any liens or encumbrances except as otherwise disclosed in writing to the Buyer prior to the execution of this Agreement; \n\nb. There is no pending litigation or other legal action against the Seller or involving the Properties; \n\nc. The Properties being sold are not subject to any condemnation or eminent domain proceedings or orders, and there is no notice of any such proceedings or orders outstanding; \n\nd. All taxes related to the Properties have been paid, and there are no outstanding tax liens or assessments on the Properties; and \n\ne. Seller has not received any notices of default or notices of violations with respect to the Properties. \n\n5. Buyer Representations and Warranties. The Buyer represents and warrants to the Seller that: \n\na. Buyer has the financial capacity to complete the transaction contemplated herein; \n\nb. The execution and performance of this Agreement by Buyer has been duly authorized by all necessary corporate action on the part of the Buyer; \n\nc. The execution and delivery of this Agreement by the Buyer does not constitute a violation of any agreement, instrument or other obligation to which the Buyer is a party or by which it is bound; and \n\nd. The Buyer has conducted its own independent investigation of the Properties and is satisfied that the Properties are in good condition and suitable for the Buyer\u2019s intended purpose. \n\n6. Default. In the event of a default by either party, the non-defaulting party may terminate this Agreement and take all necessary actions to preserve or enforce its rights under this Agreement. \n\n7. Governing Law and Jurisdiction. This Agreement shall be governed by and construed in accordance with the laws of the State of [State]. Any legal action arising out of or in connection with this Agreement shall be brought in the courts of [County, State]. \n\n8. Entire Agreement. This Agreement constitutes the entire agreement between the Parties and supersedes all prior agreements, representations and negotiations, whether oral or written, relating to the subject matter of this Agreement. \n\n9. Execution in Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. \n\nIN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first above written. \n\nSELLER:\n[Name]\n[Signature]\n\nBUYER:\n[Name]\n[Signature]",
+      "started_at": "2026-04-30T09:03:18.296000Z",
+      "duration_ms": 38600,
+      "tokens_in": 0,
+      "tokens_out": 945,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2739,
+      "tokens_in": 1516,
+      "tokens_out": 1223,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 23,
+      "duration_ms": 52396,
+      "ai_wait_ms": 50520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

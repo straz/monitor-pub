@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQKVSFY018GQB671NP20WQ9Z",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "What data cleaning can be done with the following data?",
+  "started_at": "2026-05-02T08:10:00Z",
+  "ended_at": "2026-05-02T08:10:52.800000Z",
+  "duration_ms": 52800,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What data cleaning can be done with the following data?\n\nHow old are you? What industry do you work in? Job title What is your annual salary? (You\u2019ll indicate the currency in a later question. If you are part-time or hourly, please enter an annualized equivalent \u2013 what you would earn if you worked the job 40 hours a week, 52 weeks a year.) Please indicate the currency If \u201cOther,\u201d please indicate the currency here: What country do you work in? If you\u2019re in the U.S., what state do you work in? What city do you work in? How many years of professional work experience do you have overall? How many years of professional work experience do you have in your field? What is your highest level of education completed?\n25-34 Education (Higher Education) Research and Instruction Librarian 55,000 USD United States Massachusetts Boston 5-7 years 5-7 years Master\u2019s degree\n25-34 Computing or Tech Change & Internal Communications Manager 54,600 GBP United Kingdom Cambridge 8 - 10 years 5-7 years College degree\n25-34 Accounting, Banking & Finance Marketing Specialist 34,000 USD US Tennessee . 2 - 4 years 2 - 4 years College degree\n25-34 Nonprofits Program Manager 62,000 USD USA Wisconsin Milwaukee 8 - 10 years 5-7 years College degree\n25-34 Accounting, Banking & Finance Accounting Manager 60,000 USD US South Carolina Greenville 8 - 10 years 5-7 years College degree\n25-34 Education (Higher Education) Scholarly Publishing Librarian 62,000 USD USA New Hampshire Hanover 8 - 10 years 2 - 4 years Master\u2019s degree\n25-34 Publishing Publishing Assistant 33,000 USD USA South Carolina Columbia 2 - 4 years 2 - 4 years College degree\n25-34 Education (Primary/Secondary) Librarian 50,000 USD United States Arizona Yuma 5-7 years 5-7 years Master\u2019s degree\n45-54 Computing or Tech Systems Analyst 112,000 USD US Missouri St. Louis 21 - 30 years 21 - 30 years College degree\n35-44 Accounting, Banking & Finance Senior Accountant 45,000 USD United States Florida Palm Coast 21 - 30 years 21 - 30 years College degree\n25-34 Nonprofits Office Manager 47,500 USD United States Boston, MA 5-7 years 5-7 years College degree\n35-44 Education (Higher Education) Deputy Title IX Coordinator/ Assistant Director Office of Equity and Diversity 62,000 USD USA Pennsylvania Scranton 11 - 20 years 5-7 years PhD\n35-44 Accounting, Banking & Finance Manager of Information Services 100,000 USD United States Michigan Detroit 11 - 20 years 11 - 20 years College degree\n25-34 Law Legal Aid Staff Attorney 52,000 USD United States Minnesota Saint Paul 2 - 4 years 2 - 4 years\n18-24 Health care Patient care coordinator 32,000 CAD Canada Remote 1 year or less 1 year or less College degree\n35-44 Utilities & Telecommunications Quality And Compliance Specialist 24,000 GBP United Kingdom Lincoln 11 - 20 years 5-7 years College degree\n35-44 Business or Consulting Executive Assistant 85,000 USD USA Illinois Chicago 8 - 10 years 8 - 10 years Some college\n45-54 Art & Design graphic designer 59,000 USD usa California Pomona 21 - 30 years 21 - 30 years College degree\n35-44 Business or Consulting Senior Manager 98,000 USD USA Georgia Atlanta 11 - 20 years 2 - 4 years Master\u2019s degree\n35-44 Education (Higher Education) Assistant Director of Academic Advising 54,000 USD United States Florida Boca Raton 11 - 20 years 11 - 20 years Master\u2019s degree\n25-34 Health care Data Programmer Analyst 74,000 USD USA Pennsylvania Philadelphia 5-7 years 5-7 years Master\u2019s degree\n35-44 Nonprofits Program Coordinator & Assistant Editor 50,000 USD United States Atlanta 5-7 years 2 - 4 years PhD\n35-44 Nonprofits Event Planner 63,000 CAD Canada Toronto 11 - 20 years 8 - 10 years Master\u2019s degree\n35-44 Government and Public Administration Researcher 96,000 USD United States Ohio Dayton 8 - 10 years 2 - 4 years PhD\n25-34 Public Library Teen Librarian 44,500 USD US Florida Bradenton 5-7 years 2 - 4 years\n35-44 Education (Higher Education) Communications Specialist 60,000 USD USA Michigan Ann Arbor 11 - 20 years 1 year or less Master\u2019s degree\n25-34 Nonprofits Program Director 62,000 USD US District of Columbia Washington DC 5-7 years 2 - 4 years College degree\n35-44 Law Bookkeeper/Billing Manager 48,000 USD USA Maryland Silver Spring 11 - 20 years 2 - 4 years College degree\n35-44 Government and Public Administration Economist 140,000 USD USA District of Columbia Washington 11 - 20 years 11 - 20 years Master\u2019s degree\n25-34 Engineering or Manufacturing Research Engineer 80,000 USD United States Texas San Antonio 5-7 years 5-7 years College degree\n25-34 Nonprofits Volunteer and Giving Coordinator 39,000 USD United States Minnesota Minneapolis 2 - 4 years 2 - 4 years College degree\n35-44 Media & Digital Editor 125,000 USD USA District of Columbia Washington, DC 11 - 20 years 8 - 10 years Master\u2019s degree\n25-34 Accounting, Banking & Finance Financial Advisor 230,000 USD USA Missouri St. Louis 11 - 20 years 11 - 20 years College degree",
+      "started_at": "2026-05-02T08:10:00Z",
+      "duration_ms": 15500,
+      "tokens_in": 1225,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Standardize categories: For the \"Age,\" \"Work Experience,\" and \"Education Level\" columns, make sure all responses are in the same format. For example, change \"18-24\" to \"18-24 years.\"\n\n2. Correct inconsistencies in text responses: For the \"Country,\" \"Industry,\" and \"City\" columns, standardize the responses. For example, change \"USA\" to \"United States\" or \"US\" to \"United States\".\n\n3. Fill in missing data: For any missing responses, either fill in the correct data if possible or mark the entry as \"N/A.\"\n\n4. Convert currencies: Convert all salary responses in different currencies (e.g., GBP, CAD) to a single currency (e.g., USD) for consistency and ease of comparison.\n\n5. Remove unnecessary columns: Remove any columns that are not needed for analysis, such as the \"If 'Other,' please indicate the currency here:\" column.\n\n6. Split combined columns: Split columns that contain more than one variable, such as the \"Job title and Responsibility\" column, into separate columns for easier analysis.\n\n7. Standardize job titles: Standardize job titles to a more general term for easier categorization and comparison (e.g., change \"Change & Internal Communications Manager\" to \"Communications Manager\").\n\n8. Remove special characters and extra spaces: Clean up any special characters or extra spaces in the data.\n\n9. Reorder columns: Reorder columns for easier readability and analysis. For example, group similar columns together (e.g., Age, Work Experience, and Education Level).\n\n10. Validate data: Check for any discrepancies, outliers, or errors in the data and correct them if necessary.",
+      "started_at": "2026-05-02T08:10:17Z",
+      "duration_ms": 16720,
+      "tokens_in": 0,
+      "tokens_out": 398,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Provide the code please",
+      "started_at": "2026-05-02T08:10:35.220000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here's Python code using the pandas library to clean the given data. This assumes the data is in a CSV file named \"raw_data.csv\". You can adjust the file name and paths as needed.\n\n```python\nimport pandas as pd\n\n# Read the CSV file\ndata = pd.read_csv(\"raw_data.csv\")\n\n# Standardize categories\ndata[\"Age\"] = data[\"Age\"].apply(lambda x: str(x) + \" years\")\ndata[\"Work Experience\"] = data[\"Work Experience\"].apply(lambda x: str(x) + \" years\")\n\n# Correct inconsistencies in text responses\ndata[\"Country\"] = data[\"Country\"].replace({\"USA\": \"United States\", \"US\": \"United States\"})\ndata[\"Industry\"] = data[\"Industry\"].replace(\"Computing or Tech\", \"Technology\")\ndata[\"City\"] = data[\"City\"].str.strip()\n\n# Fill in missing data with 'N/A'\ndata = data.fillna(\"N/A\")\n\n# Convert currencies to USD (Assuming 1 GBP = 1.39 USD and 1 CAD = 0.8 USD)\ncurrency_conversion = {\"USD\": 1, \"GBP\": 1.39, \"CAD\": 0.8}\ndata[\"Annual Salary (USD)\"] = data[\"Annual Salary\"].astype(float) * data[\"Currency\"].map(currency_conversion)\n\n# Remove unnecessary columns\ndata = data.drop(columns=[\"Annual Salary\", \"Currency\", \"If \u201cOther,\u201d please indicate the currency here:\"])\n\n# Rename and reorder columns for easier readability\ndata = data.rename(columns={\n    \"Age\": \"Age Range\",\n    \"Work Experience\": \"Work Experience Range\",\n    \"Job title\": \"Job Title\"\n})\ndata = data[[\n    \"Age Range\", \"Industry\", \"Job Title\", \"Annual Salary (USD)\", \"Country\",\n    \"City\", \"Work Experience Range\", \"Education Level\"\n]]\n\n# Save cleaned data to a new CSV file\ndata.to_csv(\"cleaned_data.csv\", index=False)\n```\n\nThis code will generate a new CSV file named \"cleaned_data.csv\" with the cleaned data. Note that some data cleaning tasks, such as standardizing job titles, require domain knowledge and may not be easily automated. In those cases, you may need to manually clean the data or use more advanced techniques like natural language processing.",
+      "started_at": "2026-05-02T08:10:37.580000Z",
+      "duration_ms": 19720,
+      "tokens_in": 0,
+      "tokens_out": 473,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 4924,
+      "tokens_in": 4053,
+      "tokens_out": 871,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 1230,
+      "duration_ms": 52800,
+      "ai_wait_ms": 36440,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1739,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

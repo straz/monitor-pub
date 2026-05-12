@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPCX7Z30KD65B79KN9ESJM34",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "Which statement is true about Agile and DevOps?",
+  "started_at": "2026-04-17T05:05:00Z",
+  "ended_at": "2026-04-17T05:05:10.660000Z",
+  "duration_ms": 10660,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which statement is true about Agile and DevOps?\n\n\nAgile and DevOps are important technologies that bring enormous value to our clients.\n\n\nAgile and DevOps both focus on reducing challenges and continuously delivering high value to the customer.\n\n\nAgile and DevOps are ways of implementing technology only in the software development world.\n\n\nAgile focuses on delivering customer value, while DevOps focuses on testing.",
+      "started_at": "2026-04-17T05:05:00Z",
+      "duration_ms": 2048,
+      "tokens_in": 104,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Agile and DevOps both focus on reducing challenges and continuously delivering high value to the customer.",
+      "started_at": "2026-04-17T05:05:03.548000Z",
+      "duration_ms": 1840,
+      "tokens_in": 0,
+      "tokens_out": 26,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "A major hospital uses an Agile approach to manage surgery schedules. A large board set up in a common office allows staff to quickly identify which procedures are scheduled, the times they are scheduled, and who is involved.\n\nWhich method is described in this scenario?\n\n\nJourney Mapping\n\n\nKanban\n\n\nWaterfall\n\n\nSprint",
+      "started_at": "2026-04-17T05:05:06.888000Z",
+      "duration_ms": 1748,
+      "tokens_in": 79,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Kanban.",
+      "started_at": "2026-04-17T05:05:10.136000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is a downside of using the traditional Waterfall approach?\n\n\nIt prevents the development team from quantifying the effort, time, and cost of delivering the final product.\n\n\nIt can increase costs and delays if updates are incorporated in the development process after the planning stage.\n\n\nIt lacks detailed documentation, leading to misunderstandings and difficulties between the team members.\n\n\nIt requires a larger commitment for collaboration between project team members than Agile.",
+      "started_at": "2026-04-17T05:05:12.476000Z",
+      "duration_ms": 2264,
+      "tokens_in": 122,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "It can increase costs and delays if updates are incorporated in the development process after the planning stage.",
+      "started_at": "2026-04-17T05:05:16.240000Z",
+      "duration_ms": 1920,
+      "tokens_in": 0,
+      "tokens_out": 28,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2500,
+      "tokens_in": 2445,
+      "tokens_out": 55,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 305,
+      "duration_ms": 10660,
+      "ai_wait_ms": 4600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

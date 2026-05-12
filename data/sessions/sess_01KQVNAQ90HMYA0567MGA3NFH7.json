@@ -1,0 +1,135 @@
+{
+  "id": "sess_01KQVNAQ90HMYA0567MGA3NFH7",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_008",
+  "title": "Prepare a one-page rebalancing memo for a client whose 70/30 portfolio",
+  "started_at": "2026-05-05T08:51:00Z",
+  "ended_at": "2026-05-05T08:51:44.568000Z",
+  "duration_ms": 44568,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, I need to draft a rebalancing memo for the Hendersons' portfolio review next week. They're currently at 78/20/2 equity/bonds/cash after a strong equity run-up. We started the year at their target 70/30, and they want to get back there. A couple constraints: the bond allocation can't go below 25% total, we need to look for tax-loss harvesting opportunities, and I want to keep transaction costs under $200. Can you help me build out the one-pager?",
+      "started_at": "2026-05-05T08:51:00Z",
+      "duration_ms": 2156,
+      "tokens_in": 113,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Absolutely, I can help you draft that. Before I pull together the memo framework, a couple clarifying questions:\n\n1. **Tax-loss harvesting scope**: Do you have access to the Hendersons' cost basis and realized gains/losses YTD? That'll let me flag which positions are viable for harvesting.\n\n2. **Current holdings**: Are they in a standard equity/bond index approach, or do they hold individual securities or sector funds? That affects which positions we'd recommend selling first and whether we have wash-sale exposure to worry about.\n\n3. **Rebalancing timeline**: Is there a preference to do this as a single trade or staged across a couple of weeks? That might impact fee structure.\n\nOnce I have those details, I can structure the memo with the drift explanation, proposed trades, tax implications, and fee impact clearly laid out.",
+      "started_at": "2026-05-05T08:51:03.656000Z",
+      "duration_ms": 9120,
+      "tokens_in": 0,
+      "tokens_out": 208,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Good questions. They're primarily in index funds\u2014Vanguard Total US (VTI) for large-cap and VXUS for international equity, plus VBTLX for bonds and a money market sweep. Cost basis is mixed; VTI is down about 3% from purchase price, VXUS is up 12%, bonds are basically flat. We can do this all at once\u2014they're okay with single rebalancing. And no wash-sale concerns; they haven't traded in over a year.\n\nAs for fees, Axiom's ETF trading is $8 per ticket, so I need to keep it tight. Their account value is approximately $2.1M.",
+      "started_at": "2026-05-05T08:51:14.276000Z",
+      "duration_ms": 2372,
+      "tokens_in": 131,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Perfect. Here's the tactical plan:\n\n**Rebalancing targets**: Move from 78/20/2 to 70/30/0 (or 70/27/3 if you prefer to keep a tiny cash buffer for dividends).\n\n**Dollar amounts**:\n- Equity reduction: $2.1M \u00d7 0.78 \u2013 $2.1M \u00d7 0.70 = $168,000 out of equities\n- Bond increase: $2.1M \u00d7 0.30 \u2013 $2.1M \u00d7 0.20 = $210,000 into bonds\n\n**Recommended trades**:\n1. **Sell $168K of VTI** (down 3%, tax-loss candidate). Realize ~$5,040 loss.\n2. **Buy $210K of VBTLX** (one ticket).\n3. Keep VXUS as-is (up 12%, don't harvest; it's performing).\n\n**Fee impact**: Two tickets \u00d7 $8 = $16. Well under budget.\n\n**Tax benefit**: $5,040 loss can offset other gains or carry forward. At the Hendersons' likely 24% bracket, that's roughly $1,210 in tax deferral.\n\n**Result**: Final allocation 70.2% equity / 29.8% bonds, within tolerance, bond floor respected (29.8% > 25%), and minimal fees.\n\nDoes this framework work for your memo?",
+      "started_at": "2026-05-05T08:51:18.148000Z",
+      "duration_ms": 9840,
+      "tokens_in": 0,
+      "tokens_out": 226,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "This is exactly what I needed. One small clarification: when we sell VTI and buy VBTLX, should I note in the memo that they might want to redeploy that VTI loss carryforward against Q4 gains if they have any other trading activity planned? And should I add a line about the swap not triggering any material tax drag?",
+      "started_at": "2026-05-05T08:51:29.488000Z",
+      "duration_ms": 1748,
+      "tokens_in": 79,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Yes, both good additions for the memo. I'd phrase it like this:\n\n**In the Tax Considerations section**:\n\"The VTI sale realizes approximately $5,040 in long-term capital losses. We recommend carrying these losses forward to offset any Q4 or 2025 gains. Given your current portfolio structure and buy-and-hold approach, no additional trading is anticipated this year, so this loss will be available as a tax buffer against future activity.\"\n\n**And in the Net Impact section**:\n\"The rebalancing incurs minimal tax drag. The VBTLX purchase does not trigger any taxable event, and the VTI reduction is offset by the realized loss. Combined with low trading costs ($16), the net cost to rebalance is economically neutral to favorable.\"\n\nThis signals to them that you've thought through both the mechanical and tax sides, and it sets expectations that losses are being used strategically rather than wasted. It also closes the door on any \"why didn't you harvest more\" pushback.\n\nDo you want me to pull together a quick one-paragraph executive summary for the top of the memo, or are you ready to draft it yourself from here?",
+      "started_at": "2026-05-05T08:51:32.736000Z",
+      "duration_ms": 11960,
+      "tokens_in": 0,
+      "tokens_out": 279,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "I've got it from here. This is solid\u2014I can write the summary and layout in a few minutes. Thanks for walking through the mechanics and keeping the fee constraint front and center. That made the difference.",
+      "started_at": "2026-05-05T08:51:46.196000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Happy to help. You've got a clean trade here\u2014good documentation of the logic, tax-smart execution, and fee discipline. When you do the memo, just make sure to date it, note the prices used for illustration (end-of-day yesterday or this morning), and include a standard reminder that account balances and allocations are subject to market movement. That'll cover you for the review.\n\nGood luck with the Hendersons next week. Feel free to reach out if you need a second set of eyes on the final memo before you send it.",
+      "started_at": "2026-05-05T08:51:49.108000Z",
+      "duration_ms": 5960,
+      "tokens_in": 0,
+      "tokens_out": 129,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 40,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5651,
+      "tokens_in": 4809,
+      "tokens_out": 842,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 374,
+      "duration_ms": 44568,
+      "ai_wait_ms": 36880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.009,
+      "model_class": "small"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "synthetic",
+    "spec:axb-wealth-clean-01",
+    "pattern:clean",
+    "function:wealth"
+  ],
+  "scenario": {
+    "spec_id": "axb-wealth-clean-01",
+    "pattern_label": "clean",
+    "severity_label": "low",
+    "user_persona": "wealth-management associate prepping for a client review",
+    "business_task": "Prepare a one-page rebalancing memo for a client whose 70/30 portfolio\nhas drifted to 78/22 due to a strong equity year. Constraints: keep\nthe bond floor at 25%, harvest tax losses where available, and stay\nunder $200 in trade fees.",
+    "rationale": "The assistant confirms successful completion of the business task with discipline across all constraints: rebalancing achieved, tax losses harvested, bond floor respected, and fees well under budget\u2014no failure or hedging present."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR667Z90WTTS0ZVHNM6JRFX4",
+  "tenant": "meridian-insurance",
+  "project": "riskbench",
+  "user": "u_mer_005",
+  "title": "If I paste my resume, can you improve it?",
+  "started_at": "2026-05-09T10:59:00Z",
+  "ended_at": "2026-05-09T10:59:25.156000Z",
+  "duration_ms": 25156,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "If I paste my resume, can you improve it?",
+      "started_at": "2026-05-09T10:59:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I can review your resume and suggest improvements. Please share your resume, and I will do my best to provide valuable feedback.",
+      "started_at": "2026-05-09T10:59:02.420000Z",
+      "duration_ms": 2320,
+      "tokens_in": 0,
+      "tokens_out": 38,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "SKILLS &amp; ASSETS\n\nWORK EXPERIENCE\n\n\uf0b7 Troubleshooting\n\uf0b7 Manual Testing\n\uf0b7 Automated Testing\n\uf0b7 Visual Inspection\n\uf0b7 Component R&amp;R\n\uf0b7 IPC Certified Solderer\n\uf0b7 Active Clearance 5 yrs\n\uf0b7 Windchill Experience\n\uf0b7 SAP Experience\n\uf0b7 Custodian\n\uf0b7 Indysoft &amp; GRC Exp.\n\uf0b7 PC/Linux proficient\n\nMicroelectronics Operator Sr, Lockheed Martin\nMissiles and Fire Control | Orlando, FL\n2017 \u2013 Present\n\u2022 Performed testing and troubleshooting of microelectronic devices using manual, pre-set\nbench, and automatic test stations and related equipment.\n\u2022 Utilized schematics, drawings, specifications, and related documentation of electrical,\nelectro-optical, and other functional systems and assemblies.\n\u2022 Tested, evaluated, and verified function and performance of assemblies and subsystems\nagainst test and assembly specifications and requirements.\n\u2022 Troubleshot production test failures and errors, and determined root cause at assembly,\nassisted operators in identifying root cause and how to implement corrective action.\n\u2022 Troubleshot test station and equipment failures and errors to determine cause, informed\nTest Engineering, and implemented corrective action.\n\u2022 Repaired test stations with failed sockets, components, damaged solder joints, as well as\nfabricated replacement thermocouples, and other maintenance-related tasks.\n\u2022 Utilized MPs, MPPs, and FTPs in the use of test stations, consoles, panels, and software.\n\u2022 Assisted TEs in performing in-depth failure investigations and maintaining equipment.\nConducted regular audits of test area to ensure audit readiness prior to commencing tests.\n\u2022 Recommended and formulated changes to test procedures to obtain accurate test data.\n\u2022 Maintained electronic and paper logs, demonstrated equipment operations to personnel.\n\u2022 Trained operators in electrical testing, environmental screening, and soldering processes.\n\nEDUCATION\nWestside Vocational Technical Center \u2013 Winter Garden, FL\nEnd User Support Technician\n\u2022 Built, repaired, and troubleshot PCs and servers. Installed &amp; troubleshot multiple operating\nsystems and a wide assortment of both end-user and commercial software.\n\u2022 AC/DC Electronics coursework included assembly and testing of PCBs and assemblies using\nplated-through hole and surface mount tech, soldering, and cable and wire harness.",
+      "started_at": "2026-05-09T10:59:06.240000Z",
+      "duration_ms": 7676,
+      "tokens_in": 573,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here are some suggestions for improving your resume:\n\n- Use bullet points instead of listing all your skills and assets in paragraph form. This will make it easier to read and highlight your key skills.\n\n- Use active verbs to describe your work experience, such as \"performed testing and troubleshooting,\" \"tested, evaluated, and verified function,\" \"troubleshot production test failures,\" \"recommended and formulated changes to test procedures,\" etc.\n\n- Provide specific examples of your achievements at work, such as how you improved a process or solved a problem. This will show potential employers how you can add value to their organization.\n\n- Consider adding a summary or objective section at the top of your resume to provide an overview of your skills and experience. This will also help you stand out from other applicants.\n\n- Add a section for education and training, including any certifications or coursework that are relevant to your field.\n\n- Use professional language and avoid using abbreviations or acronyms that may not be familiar to all readers.\n\nOverall, your resume appears to highlight valuable skills and experience in the fields of troubleshooting, testing, and soldering. By making some formatting and language changes, you can showcase your talents more effectively and enhance your chances of landing your desired job.",
+      "started_at": "2026-05-09T10:59:15.416000Z",
+      "duration_ms": 14240,
+      "tokens_in": 0,
+      "tokens_out": 336,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2205,
+      "tokens_in": 1831,
+      "tokens_out": 374,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 583,
+      "duration_ms": 25156,
+      "ai_wait_ms": 16560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:underwriting",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

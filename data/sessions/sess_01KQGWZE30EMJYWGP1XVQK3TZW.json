@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQGWZE30EMJYWGP1XVQK3TZW",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "For the following diseases, give me the common signs and symptoms, differential diagnosis, salient features, diagnostic \u2026",
+  "started_at": "2026-05-01T04:33:00Z",
+  "ended_at": "2026-05-01T04:34:08.920000Z",
+  "duration_ms": 68920,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "For the following diseases, give me the common signs and symptoms, differential diagnosis, salient features, diagnostic modalities and treatment.\n\n1. Bronchial Asthma\n2. Community-acquired Pneumonia\n3. Hypertension\n4. Hyperthyroidism\n5. Type 2 Diabetes Mellitus",
+      "started_at": "2026-05-01T04:33:00Z",
+      "duration_ms": 1580,
+      "tokens_in": 65,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Bronchial Asthma:\n- Common signs and symptoms: wheezing, coughing, shortness of breath, chest tightness \n- Differential diagnosis: chronic obstructive pulmonary disease (COPD), bronchitis, pneumonia, heart failure \n- Salient features: triggered by allergens or irritants, can be acute (exacerbation) or chronic \n- Diagnostic modalities: spirometry, peak flow measurement, allergy testing \n- Treatment: inhaled bronchodilators, inhaled corticosteroids, leukotriene modifiers, immunomodulators \n\n2. Community-acquired Pneumonia:\n- Common signs and symptoms: fever, cough, shortness of breath, chest pain \n- Differential diagnosis: bronchitis, tuberculosis, pulmonary embolism \n- Salient features: acquired outside of healthcare settings, can be caused by bacteria, viruses, or fungi \n- Diagnostic modalities: chest x-ray, sputum culture and analysis, blood tests \n- Treatment: antibiotics, oxygen therapy, cough suppressants, pain relievers \n\n3. Hypertension:\n- Common signs and symptoms: often asymptomatic, may cause headaches, blurred vision, chest pain \n- Differential diagnosis: white coat hypertension, hypotension, heart failure \n- Salient features: persistent high blood pressure readings above 140/90 mmHg \n- Diagnostic modalities: blood pressure monitoring, blood tests \n- Treatment: lifestyle changes (diet, exercise), antihypertensive medications \n\n4. Hyperthyroidism:\n- Common signs and symptoms: weight loss, increased appetite, trembling hands, sweating, heat intolerance \n- Differential diagnosis: hypothyroidism, menopause, anxiety disorders \n- Salient features: overactive thyroid gland, increased metabolism \n- Diagnostic modalities: thyroid function tests, radioactive iodine uptake test \n- Treatment: antithyroid medications, radioactive iodine therapy, surgery \n\n5. Type 2 Diabetes Mellitus:\n- Common signs and symptoms: increased thirst, frequent urination, blurred vision, fatigue \n- Differential diagnosis: type 1 diabetes, thyroid disorders, adrenal gland disorders \n- Salient features: insulin resistance, high blood sugar levels \n- Diagnostic modalities: blood tests (fasting glucose, HbA1c), oral glucose tolerance test \n- Treatment: lifestyle changes (diet, exercise), blood sugar monitoring, medications (oral hypoglycemics, insulin)",
+      "started_at": "2026-05-01T04:33:03.080000Z",
+      "duration_ms": 23440,
+      "tokens_in": 0,
+      "tokens_out": 566,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "do the same thing for the following diseases:\n\nGouty Arthritis\nPUD\nUTI\nHepatitis B\nCKD\nCOPD\nAcute Pancreatitis\nHeart Failure\nCholelithiasis\nACS",
+      "started_at": "2026-05-01T04:33:28.020000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Gouty Arthritis:\n- Common signs and symptoms: painful swelling and inflammation of the joints, especially the big toe, redness, tenderness \n- Differential diagnosis: rheumatoid arthritis, osteoarthritis, pseudogout \n- Salient features: caused by excess uric acid crystals in the joints \n- Diagnostic modalities: joint aspiration and analysis, blood tests \n- Treatment: NSAIDs, colchicine, corticosteroids, lifestyle changes (diet, hydration) \n\n2. PUD (Peptic Ulcer Disease):\n- Common signs and symptoms: abdominal pain, nausea, vomiting, bloating, indigestion \n- Differential diagnosis: GERD, pancreatitis, gastritis \n- Salient features: ulcers in the stomach or duodenum, caused by H. pylori infections or NSAID use \n- Diagnostic modalities: endoscopy, blood tests, breath test for H. pylori \n- Treatment: antibiotics for H. pylori, acid-reducing medications, lifestyle changes \n\n3. UTI (Urinary Tract Infection):\n- Common signs and symptoms: burning/difficulty during urination, frequent urination, cloudy/bloody urine, fever \n- Differential diagnosis: vaginitis, yeast infection, STIs \n- Salient features: infection of the bladder, urethra, or kidneys \n- Diagnostic modalities: urine culture and analysis \n- Treatment: antibiotics, hydration \n\n4. Hepatitis B:\n- Common signs and symptoms: fatigue, loss of appetite, nausea, abdominal pain, joint pain, jaundice \n- Differential diagnosis: other viral hepatitis (A, C, D, E), liver disease \n- Salient features: viral infection of the liver, transmitted through blood or bodily fluids \n- Diagnostic modalities: blood tests, liver function tests \n- Treatment: antiviral medications, rest, and hydration \n\n5. CKD (Chronic Kidney Disease):\n- Common signs and symptoms: fatigue, weakness, loss of appetite, neuropathy, swelling, hypertension \n- Differential diagnosis: acute kidney injury, diabetes \n- Salient features: gradual loss of kidney function over time, leading to kidney failure \n- Diagnostic modalities: blood tests, urine tests, imaging \n- Treatment: lifestyle changes (diet, exercise), blood pressure management, medications \n\n6. COPD (Chronic Obstructive Pulmonary Disease):\n- Common signs and symptoms: shortness of breath, wheezing, coughing, chest tightness \n- Differential diagnosis: asthma, bronchitis, pneumonia \n- Salient features: progressive lung disease caused by smoking or exposure to air pollution \n- Diagnostic modalities: spirometry, chest x-ray, CT scan \n- Treatment: bronchodilators, corticosteroids, oxygen therapy, lifestyle changes \n\n7. Acute Pancreatitis:\n- Common signs and symptoms: severe abdominal pain, nausea, vomiting, fever \n- Differential diagnosis: peptic ulcer disease, cholecystitis, appendicitis \n- Salient features: inflammation of the pancreas, potentially leading to organ failure \n- Diagnostic modalities: blood tests, imaging (CT, MRI, ultrasound) \n- Treatment: hospitalization, IV fluids, medication (pain management, antibiotics), surgery in severe cases \n\n8. Heart Failure:\n- Common signs and symptoms: shortness of breath, fatigue, swelling, coughing, chest pain \n- Differential diagnosis: pulmonary embolism, pneumonia, COPD \n- Salient features: heart unable to pump enough blood to meet the body's needs \n- Diagnostic modalities: electrocardiogram, echocardiogram, angiogram, blood tests \n- Treatment: lifestyle changes (diet, exercise), medication (diuretics, ACE inhibitors), surgery \n\n9. Cholelithiasis:\n- Common signs and symptoms: pain in upper right abdomen, nausea, vomiting, fever \n- Differential diagnosis: peptic ulcer disease, pancreatitis, hepatitis \n- Salient features: formation of gallstones in the gallbladder \n- Diagnostic modalities: ultrasound, CT scan, MRI \n- Treatment: surgery (removal of gallbladder), medication (to dissolve stones) \n\n10. ACS (Acute Coronary Syndrome):\n- Common signs and symptoms: chest pain or discomfort, shortness of breath, nausea, sweating \n- Differential diagnosis: heartburn, panic disorder \n- Salient features: sudden onset of reduced blood flow to the heart \n- Diagnostic modalities: electrocardiogram, cardiac biomarkers, angiogram \n- Treatment: urgent medical attention, medication (aspirin, nitroglycerin), angioplasty, surgery",
+      "started_at": "2026-05-01T04:33:30.740000Z",
+      "duration_ms": 42680,
+      "tokens_in": 0,
+      "tokens_out": 1047,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 23,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3544,
+      "tokens_in": 1931,
+      "tokens_out": 1613,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 100,
+      "duration_ms": 68920,
+      "ai_wait_ms": 66120,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0034,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

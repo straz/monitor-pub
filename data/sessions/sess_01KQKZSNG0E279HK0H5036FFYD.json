@@ -1,0 +1,87 @@
+{
+  "id": "sess_01KQKZSNG0E279HK0H5036FFYD",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "We have been working on a 10 slide presentation on the best practices when it comes to developing a Business Continuity \u2026",
+  "started_at": "2026-05-02T09:20:00Z",
+  "ended_at": "2026-05-02T09:20:45.844000Z",
+  "duration_ms": 45844,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "We have been working on a 10 slide presentation on the best practices when it comes to developing a Business Continuity plan in AWS. You have already provided the 10 slides. I now need you to provide 200 words on each of the following topics:  Slide 5: Implementing Backup Strategies\n- Configuring regular snapshot and backup schedules\n- Leverage AWS Backup for centralized backup management\n- Store backups across multiple AZs and regions\n- Use automated backup solutions or AWS Lambda functions",
+      "started_at": "2026-05-02T09:20:00Z",
+      "duration_ms": 2288,
+      "tokens_in": 124,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Slide 5: Implementing Backup Strategies\n\nIn order to ensure the availability and durability of your data in AWS, implementing a comprehensive backup strategy is crucial. This includes setting up regular snapshots and backup schedules, leveraging AWS Backup for centralized management, storing backups in multiple Availability Zones (AZs) and regions, and using automated backup solutions or AWS Lambda functions.\n\nConfiguring regular snapshot and backup schedules help in maintaining consistent copies of your data, enabling quick recovery in case of disasters. Amazon Elastic Block Store (EBS) and Amazon Relational Database Service (RDS) provide easy-to-use options to create and schedule snapshots.\n\nLeveraging AWS Backup enhances your ability to manage backups in a centralized manner, making it easier to track your backup activities and recover faster. AWS Backup works seamlessly with EBS, RDS, DynamoDB, and several other AWS services.\n\nStoring backups across multiple AZs and regions ensure a high level of redundancy and protects your data from being lost due to regional outages or other unexpected events. By replicating data across geographically diverse locations, you can maintain high availability and minimize the risk of data loss.\n\nUsing automated backup solutions or AWS Lambda functions can further optimize your backup strategy. Automated solutions, such as AWS Backup, Amazon Data Lifecycle Manager, or third-party tools, allow you to define policies and scheduling to automate the backup process. Additionally, AWS Lambda functions can be used to create custom backup workflows, such as triggering backups based on specific events or performing regular cleanups to remove old backups according to defined retention policies.\n\nBy carefully implementing these backup strategies, you can ensure the resilience of your Business Continuity plan and secure your data in AWS.",
+      "started_at": "2026-05-02T09:20:03.788000Z",
+      "duration_ms": 19720,
+      "tokens_in": 0,
+      "tokens_out": 473,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Thanks for that. Can I get 200 words on each of the following topics:Slide 6: Developing Recovery Strategies\n- Clearly define the Recovery Time Objective (RTO) and Recovery Point Objective (RPO)\n- Decide on appropriate recovery strategies (cold, warm or hot standby)\n- Test and update recovery process regularly\n- Incorporate recovery into application development lifecycle",
+      "started_at": "2026-05-02T09:20:25.008000Z",
+      "duration_ms": 1916,
+      "tokens_in": 93,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Slide 6: Developing Recovery Strategies\n\nDeveloping effective recovery strategies is a critical step in ensuring the robustness of your Business Continuity plan in AWS. These strategies involve defining your Recovery Time Objective (RTO) and Recovery Point Objective (RPO), deciding on the appropriate recovery approach (cold, warm, or hot standby), regularly testing and updating the recovery process, and incorporating recovery into the application development lifecycle.\n\nClearly defining the RTO and RPO enables you to understand how quickly you need to recover your system (RTO) and the amount of data loss you can tolerate (RPO). This helps you make informed decisions regarding your recovery strategies and allocate resources effectively.\n\nSelecting an appropriate recovery approach is crucial for meeting your RTO and RPO. Cold standby includes keeping a backup of your resources that can be quickly instantiated \u2013 it\u2019s cost-effective but has a longer recovery time. Warm standby involves having partially operational instances that can be scaled up quickly, providing a faster recovery. Hot standby consists of fully operational instances that can take over immediately if required, ensuring minimal downtime.\n\nTesting and updating your recovery process regularly ensures that your team is familiar with the process, and it allows you to identify and address any issues that may arise during a real disaster recovery situation. Scheduled testing helps maintain the effectiveness of your strategy and keeps your recovery process up-to-date.\n\nIncorporating recovery into the application development lifecycle ensures that your applications are designed to be resilient from the start. By integrating recovery considerations into the design, development, and deployment stages, you enable your applications to automatically handle failures or switch over to backup resources during an outage.\n\nA well-developed recovery strategy is essential for maintaining the reliability and resiliency of your Business Continuity plan in AWS, helping your business rapidly recover from disruptions and minimize data loss.",
+      "started_at": "2026-05-02T09:20:28.424000Z",
+      "duration_ms": 21920,
+      "tokens_in": 0,
+      "tokens_out": 528,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3015,
+      "tokens_in": 2014,
+      "tokens_out": 1001,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 217,
+      "duration_ms": 45844,
+      "ai_wait_ms": 41640,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1205,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat",
+    "dup"
+  ]
+}

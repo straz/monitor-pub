@@ -1,0 +1,153 @@
+{
+  "id": "sess_01KP353J60K9Q4EWF72AG7H675",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "edit: As a prime illustration, physical IT infrastructure has long been considered a key capability in various studies, \u2026",
+  "started_at": "2026-04-13T10:10:00Z",
+  "ended_at": "2026-04-13T10:10:17.820000Z",
+  "duration_ms": 17820,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: As a prime illustration, physical IT infrastructure has long been considered a key capability in various studies, but the rapid development of digital technologies, including cloud computing, has raised concerns about this conventional view. In addition, the advent of digital technologies has taken the challenge of achieving strategic alignment to a new level, and has made strategic alignment a critical factor for implantation of digital transformation (Jonathan et al., 2020) ",
+      "started_at": "2026-04-13T10:10:00Z",
+      "duration_ms": 2252,
+      "tokens_in": 121,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Physical IT infrastructure has traditionally been regarded as a crucial capability in numerous studies. However, the emergence of digital technologies, particularly cloud computing, has cast doubt on this traditional perspective. Moreover, the advent of digital technologies has not only elevated the difficulty of achieving strategic alignment but has also made it a crucial factor in implementing digital transformation successfully (Jonathan et al., 2020).",
+      "started_at": "2026-04-13T10:10:03.752000Z",
+      "duration_ms": 5360,
+      "tokens_in": 0,
+      "tokens_out": 114,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Due to the lack of empirical research on above discussions, this following question has raised:   ",
+      "started_at": "2026-04-13T10:10:10.612000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The lack of empirical research on the above-discussed topics has raised the following question:",
+      "started_at": "2026-04-13T10:10:13.224000Z",
+      "duration_ms": 1720,
+      "tokens_in": 0,
+      "tokens_out": 23,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "edit: The lack of empirical research on the above discussions has raised the following question:\n\n",
+      "started_at": "2026-04-13T10:10:16.444000Z",
+      "duration_ms": 1088,
+      "tokens_in": 24,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The absence of empirical research on the topics discussed above has led to the following query:",
+      "started_at": "2026-04-13T10:10:19.032000Z",
+      "duration_ms": 1720,
+      "tokens_in": 0,
+      "tokens_out": 23,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "edit: 1.\tWhat is the new role of IT capabilities dimensions in digital transformations of hospitals? In particular, is physical IT infrastructure still a capability in facilitating digital transformations in hospitals? ",
+      "started_at": "2026-04-13T10:10:22.252000Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "1. What is the updated role of IT capabilities dimensions in the digital transformation of hospitals? Specifically, is physical IT infrastructure still considered a pertinent capability in enabling digital transformations in hospitals?",
+      "started_at": "2026-04-13T10:10:25.200000Z",
+      "duration_ms": 3120,
+      "tokens_in": 0,
+      "tokens_out": 58,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 42,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3693,
+      "tokens_in": 3475,
+      "tokens_out": 218,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 225,
+      "duration_ms": 17820,
+      "ai_wait_ms": 11920,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ006HKBXN7F57QZQB89",
+      "tenant": "kurson-health",
+      "session": "sess_01KP353J60K9Q4EWF72AG7H675",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "edit: The lack of empirical research on the above discussions has raised the following question:\n\n",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP353J60K9Q4EWF72AG7H675.json",
+        "turn_uri": "data/sessions/sess_01KP353J60K9Q4EWF72AG7H675.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.53).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

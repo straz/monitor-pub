@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPMTNPT01EMTHSC7GE0CGCT7",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_007",
+  "title": "The Bill is not without its weaknesses,",
+  "started_at": "2026-04-20T06:54:00Z",
+  "ended_at": "2026-04-20T06:54:20.868000Z",
+  "duration_ms": 20868,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "The Bill is not without its weaknesses,\nhowever. One weakness which has been\nobserved is the fact that the accounting\nrequirements contained in Part VII of the\nCompanies Act 1985 are proposed to\napply to the LLP. Not only are these rules\nsome of the most demanding in Europe,\nthey will also prove expensive to comply\nwith for small and medium-sized LLPs. For\nexample, the LLP must submit an annual\nreturn to Companies House and maintain\na list of accounts according to Companies",
+      "started_at": "2026-04-20T06:54:00Z",
+      "duration_ms": 2228,
+      "tokens_in": 119,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Act standards, regardless of the size of the\nbusiness. This may place a significant burden\non small and medium-sized LLPs, causing\nthem to divert resources away from their\ncore business activities in order to comply\nwith regulatory requirements. Furthermore,\nthe liability limitations offered by the LLP\nstructure may not be seen as attractive to\npotential investors or lenders compared to\nother structures such as limited companies\nor partnerships. This could limit the ability\nof LLPs to raise capital or secure credit,\nparticularly in industries where access to\nfinance is crucial for growth and innovation.",
+      "started_at": "2026-04-20T06:54:03.728000Z",
+      "duration_ms": 6880,
+      "tokens_in": 0,
+      "tokens_out": 152,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Indeed, limited liability is often highly\nillusory or perhaps even over-rated,\nespecially when one considers that banks\noften require personal investment\nguarantees from directors in order to lift\nthe corporate veil which protects company\nofficers. The same will undoubtedly apply\nto LLPs.\nIn conclusion, the value of this new\ninstitution has been weakened by the\nproposed incorporation of the accounting\nrequirements. That is its single most\nnoticeable weakness; otherwise, it could\nbe said that the Bill is long overdue and\nwill hopefully have the effect of appearing\nthose businesses which are considering\nmoving their operations overseas.",
+      "started_at": "2026-04-20T06:54:12.108000Z",
+      "duration_ms": 2720,
+      "tokens_in": 160,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "While there are some weaknesses to the Bill, such as the accounting requirements and potentially limited liability, it still represents a positive step towards providing greater flexibility and choices for businesses operating in the UK. By offering an alternative to traditional partnerships and limited companies, LLPs can provide a suitable structure for certain types of businesses, particularly those in professional services where individual expertise and reputation are crucial. The ability to combine the benefits of a partnership, such as flexibility and shared responsibility, with the protection of limited liability is a powerful proposition. Overall, the LLP structure is a welcome addition to the UK business landscape and could help to encourage more businesses to remain in the UK and contribute to the economy.",
+      "started_at": "2026-04-20T06:54:16.328000Z",
+      "duration_ms": 9040,
+      "tokens_in": 0,
+      "tokens_out": 206,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2108,
+      "tokens_in": 1750,
+      "tokens_out": 358,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 279,
+      "duration_ms": 20868,
+      "ai_wait_ms": 15920,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR01SYY09ZWA50S2JNKR0XFA",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "what's vietnam's resolution to golden triangle drug issue",
+  "started_at": "2026-05-07T01:46:00Z",
+  "ended_at": "2026-05-07T01:46:27.780000Z",
+  "duration_ms": 27780,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "\nwhat's vietnam's resolution to golden triangle drug issue\n",
+      "started_at": "2026-05-07T01:46:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Sorry, as an AI language model, I don't have access to the current news or policies, and my training data only goes up to October 2021. However, historically, Vietnam has cooperated with neighboring countries to combat the production and trafficking of illegal drugs in the Golden Triangle region through joint operations, intelligence sharing, and drug demand reduction programs. They have also implemented stricter laws and increased border control measures to prevent the entry of drugs into the country.",
+      "started_at": "2026-05-07T01:46:02.468000Z",
+      "duration_ms": 5840,
+      "tokens_in": 0,
+      "tokens_out": 126,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Theme: Drugs and Their Effect on Human Health.\nUNODC: United Nations Office on Drugs and Crime\nTopic: Drugs distribution and transportation within the Golden Triangle.",
+      "started_at": "2026-05-07T01:46:09.808000Z",
+      "duration_ms": 1292,
+      "tokens_in": 41,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Golden Triangle, a region located in Southeast Asia where the borders of Myanmar, Laos, and Thailand meet, is notorious for the production and distribution of illegal drugs, primarily opium, heroin, and methamphetamine. The region's geographical location, rugged terrain, underdeveloped infrastructure, and political instability have made it a hub for drug production, transportation, and distribution.\n\nThe United Nations Office on Drugs and Crime (UNODC) has been working closely with the governments of the Golden Triangle region to combat drug production and trafficking. Despite these efforts, drug production has continued to rise over the years, primarily due to the region's economic dependence on the drug trade and the lack of viable alternative livelihoods.\n\nThe drugs produced in the Golden Triangle are primarily transported to other parts of the world through various means, including air, sea, and land routes. Large quantities of drugs are transported to neighboring countries such as China, Vietnam, and Malaysia, and from there, they are trafficked to other parts of the world, including Europe, North America, and Australia.\n\nThe UNODC has advocated for a comprehensive approach to combating drug production and trafficking in the Golden Triangle region. This approach includes alternative development programs to provide alternative livelihoods for farmers involved in drug production, law enforcement cooperation to dismantle drug trafficking networks, and demand reduction programs to reduce drug consumption.\n\nIn conclusion, the distribution and transportation of drugs within the Golden Triangle region pose significant challenges to global efforts to combat the production, trafficking, and consumption of illegal drugs. The UNODC is working closely with the governments of the region to address these challenges through a comprehensive and coordinated approach.",
+      "started_at": "2026-05-07T01:46:12.600000Z",
+      "duration_ms": 19680,
+      "tokens_in": 0,
+      "tokens_out": 472,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1993,
+      "tokens_in": 1395,
+      "tokens_out": 598,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 55,
+      "duration_ms": 27780,
+      "ai_wait_ms": 25520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPWY3PW0A87P47KP7X7VGFX1",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "to avoid piracy, which website should I keep in mind to avoid piracy of medical textbooks",
+  "started_at": "2026-04-23T10:28:00Z",
+  "ended_at": "2026-04-23T10:28:23.720000Z",
+  "duration_ms": 23720,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "to avoid piracy, which website should I keep in mind to avoid piracy of medical textbooks",
+      "started_at": "2026-04-23T10:28:00Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "You should purchase medical textbooks from official publishing websites, such as Elsevier, Wolters Kluwer, and Springer. Avoid downloading or accessing unauthorized copies of textbooks from websites that may have pirated content. It's also important to respect copyright laws and support authors and publishers by purchasing their products legally.",
+      "started_at": "2026-04-23T10:28:02.564000Z",
+      "duration_ms": 4280,
+      "tokens_in": 0,
+      "tokens_out": 87,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "list me 5 websites that i should specifically avoid",
+      "started_at": "2026-04-23T10:28:08.344000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot provide links to websites that promote piracy or promote illegal contents. However, here are some tips to identify such websites:\n- Avoid websites that offer free downloads of copyrighted material, such as medical textbooks.\n- Be wary of websites that are not from official publishing companies.\n- Avoid websites that require you to complete surveys or pay for access to textbooks.\n- Be cautious of websites that have a lot of pop-up ads or appear spammy in nature.\n- Avoid websites that have received multiple DMCA (Digital Millennium Copyright Act) takedown notices.",
+      "started_at": "2026-04-23T10:28:10.788000Z",
+      "duration_ms": 6800,
+      "tokens_in": 0,
+      "tokens_out": 150,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "in answering my questions please base it off of the knowledge contained within Schwartz Principles of Surgery and rationalize each choices I send\n",
+      "started_at": "2026-04-23T10:28:19.088000Z",
+      "duration_ms": 1232,
+      "tokens_in": 36,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have personal opinions or context-specific knowledge. However, I can provide general advice on avoiding piracy of medical textbooks, including Schwartz Principles of Surgery. The best way to ensure you avoid piracy is to purchase the textbooks through official channels or from reputable online retailers. This will ensure that you are receiving legal versions of the book and that you will have access to any updates or supplemental materials that may be available. If you are not purchasing the books directly from the publisher, make sure that the retailer is reputable and has a good track record of providing legitimate books. Avoid downloading any materials from sites that are not affiliated with the publisher or reputable sources, as these may be infringing on copyrights and may contain inaccuracies or harmful content.",
+      "started_at": "2026-04-23T10:28:21.820000Z",
+      "duration_ms": 9400,
+      "tokens_in": 0,
+      "tokens_out": 215,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 22,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2702,
+      "tokens_in": 2250,
+      "tokens_out": 452,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 70,
+      "duration_ms": 23720,
+      "ai_wait_ms": 20480,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

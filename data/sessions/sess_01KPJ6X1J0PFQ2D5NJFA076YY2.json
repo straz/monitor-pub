@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPJ6X1J0PFQ2D5NJFA076YY2",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "Please write a short report for journal publication, based on epidemiological research on perinatal depression. In parag\u2026",
+  "started_at": "2026-04-19T06:30:00Z",
+  "ended_at": "2026-04-19T06:32:02.628000Z",
+  "duration_ms": 122628,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Please write a short report for journal publication, based on epidemiological research on perinatal depression. In paragraph 1, please define perinatal depression, explain why perinatal depression is a key public health problem, and summarize research findings on perinatal depression. In paragraph 2, please summarize key differences between methods and findings of research articles, and conduct a critical analysis of their study designs. In paragraph 3, please outline the ethical issues within the epidemiology of perinatal depression (for instance, during its screening, diagnosis, intervention, etc). In paragraph 4, please point out the implication of previous findings and what future work is required. For these paragraphs above, please write 700\u00b110% words in total, and the provide references in APA format in the end as paragraph 5.",
+      "started_at": "2026-04-19T06:30:00Z",
+      "duration_ms": 3332,
+      "tokens_in": 211,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Perinatal depression is a mood disorder that can affect women during pregnancy and up to one year after giving birth. It comprises major and minor depressive episodes and emerges as a significant public health problem due to its prevalence and potential impact on the mother and child's physical and mental health. While estimates of perinatal depression vary, it is suggested that up to 25% of women may experience depressive symptoms during pregnancy or postpartum (Gavin et al., 2005). The consequences of untreated perinatal depression are severe, including increased risk of preterm birth, impaired mother-infant bonding, developmental delays in children, and maternal suicide (Stewart, 2011). Research in this field has provided valuable insights into risk factors, prevalence, and interventions for perinatal depression. However, some inconsistencies persist among the findings, sparking further investigation and prompting calls for more critical analysis of epidemiological research on the topic.\n\nSome key differences between methods and findings of research articles include study design, sample sizes, and varying diagnostic criteria employed. Longitudinal cohort studies, cross-sectional studies, and randomized controlled trials are used to explore epidemiological aspects of perinatal depression. While longitudinal studies allow researchers to identify risk factors and causal relationships, cross-sectional studies only capture a single snapshot in time (Wisner et al., 2013). The limitations of self-report questionnaires, varying diagnostic thresholds, and diverse cultural contexts further complicate generalizations across studies (Shelton et al., 2008). One critical analysis of study designs in epidemiological research revealed the need for a more uniform approach and robust methodology, addressing potential confounders and biases in study populations, to provide higher quality evidence for estimating incidence, prevalence, and risk factors for perinatal depression (Stein et al., 2014).\n\nEthical issues also arise within the epidemiology of perinatal depression, beginning with the process of screening and diagnosis. The potential harm in over- or under-diagnosing women, as well as stigmatization of mental health challenges during pregnancy, must be balanced against the need for early intervention (Howard et al., 2014). Treatment poses further ethical considerations, as antidepressant medications for the mother may carry risks for the fetus or newborn (Cohen et al., 2006). Informed consent, shared decision-making, and multidisciplinary care should be paramount for ensuring that mothers and their children receive appropriate care without suffering from undue harm or discrimination (Howard et al., 2014). \n\nTo better understand perinatal depression and improve intervention strategies, future work should focus on addressing methodological limitations and disentangling cultural, social, and biological determinants of risk. Longitudinal studies with larger sample sizes should be conducted, using standardized diagnostic criteria to better capture the trajectories of perinatal depression across diverse populations. Additionally, randomized controlled trials should be employed to establish effective and targeted interventions, taking into consideration individualized risk factors, ethical principles, and relevant cultural contexts. Finally, research should also examine how protective factors can buffer mothers against the development of perinatal depression, such as social support and access to mental health care.\n\nReferences:\n\nCohen, L. S., Altshuler, L. L., Harlow, B. L., Nonacs, R., Newport, D. J., Viguera, A. C., ... Stowe, Z. N. (2006). Relapse of major depression during pregnancy in women who maintain or discontinue antidepressant treatment. JAMA, 295(5), 499-507.\n\nGavin, N. I., Gaynes, B. N., Lohr, K. N., Meltzer-Brody, S., Gartlehner, G., & Swinson, T. (2005). Perinatal depression: a systematic review of prevalence and incidence. Obstetrics & Gynecology, 106(5), 1071-1083.\n\nHoward, L. M., Molyneaux, E., Dennis, C. L., Rochat, T., Stein, A., & Milgrom, J. (2014). Non-psychotic mental disorders in the perinatal period. The Lancet, 384(9956), 1775-1788.\n\nShelton, M. M., Schminkey, D. L., & Groer, M. W. (2015). Relationships among prenatal depression, plasma cortisol, and inflammatory cytokines. Biological Research for Nursing, 17(3), 295-302.\n\nStein, A., Pearson, R. M., Goodman, S. H., Rapa, E., Rahman, A., McCallum, M., ... Pariante, C. M. (2014). Effects of perinatal mental disorders on the fetus and child. The Lancet, 384(9956), 1800-1819.\n\nStewart, D. E. (2011). Clinical practice. Depression during pregnancy. The New England Journal of Medicine, 365(17), 1605-1611.\n\nWisner, K. L., Sit, D. K., McShea, M. C., Rizzo, D. M., Zoretich, R. A., Hughes, C. L., ... Hanusa, B. H. (2013). Onset timing, thoughts of self\u2010harm, and diagnoses in postpartum women with screen\u2010positive depression findings. JAMA Psychiatry, 70(5), 490-498.",
+      "started_at": "2026-04-19T06:30:04.832000Z",
+      "duration_ms": 50840,
+      "tokens_in": 0,
+      "tokens_out": 1251,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Please write a short report for journal publication, based on epidemiological research on perinatal depression, especially the latest systematic reviews. In paragraph 1, please define perinatal depression, explain why perinatal depression is a key public health problem, and summarize research findings on perinatal depression (including prevalence, consequences, possible reasons or risk factors, potential solutions such as screening and intervention, facilitators and barriers of implementing those intervention). In paragraph 2, please summarize key differences between methods and findings of research articles, and conduct a critical analysis of their study designs. In paragraph 3, please outline the ethical issues within the epidemiology of perinatal depression (for instance, during its screening, diagnosis, intervention, etc). In paragraph 4, please point out the implication of previous findings, in a way that could inform practitioners and policymakers in the field of public health. In paragraph 5, please set out what future work is required. For these paragraphs above, please mark references in the text, and give the full references in APA format in the end as paragraph 6.",
+      "started_at": "2026-04-19T06:30:57.172000Z",
+      "duration_ms": 4376,
+      "tokens_in": 298,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Perinatal depression is a mood disorder that affects women during pregnancy and up to one year after giving birth, encompassing both antepartum and postpartum depression. It has emerged as a significant public health problem due to its prevalence and potential impact on the physical and mental health of both the mother and the child (O'Connor et al., 2016). Estimates of perinatal depression prevalence vary, with recent systematic reviews suggesting that up to 20% of women may experience depressive symptoms during the perinatal period (Woody et al., 2017). The consequences of untreated perinatal depression are severe, including an increased risk of preterm birth, impaired mother-infant bonding, developmental delays in children, and maternal suicide (Grote et al., 2020). Risk factors include a history of depression, low social support, and adverse life events (Biaggi et al., 2016). Potential solutions such as screening and intervention have demonstrated effectiveness in reducing depressive symptoms and improving maternal functioning, although implementation barriers persist, including the stigmatization of mental health challenges during pregnancy, lack of resources in healthcare settings, and insufficient provider training (O'Connor et al., 2019).\n\nA key difference between methods and findings of research articles lies in varying study designs, sample sizes, and diagnostic criteria employed. Longitudinal cohort studies, case-control studies, and randomized controlled trials are commonly used to explore the epidemiological aspects of perinatal depression (Howard et al., 2014). However, the limitations of self-report questionnaires, varying diagnostic thresholds, and diverse cultural contexts further complicate generalizations across studies (Manea et al., 2012). Critical analysis of study designs reveals the need for more uniform approaches and robust methodologies that address potential confounders and biases in study populations. This would provide higher-quality evidence for estimating the incidence, prevalence, and risk factors for perinatal depression, as well as informing the development of effective interventions (Stein et al., 2014).\n\nEthical issues within the epidemiology of perinatal depression encompass screening, diagnosis, and interventions. Balancing the potential harm of over- or under-diagnosing women with the need for early intervention is paramount to avoid stigma and other unintended consequences (Austin et al., 2014). Moreover, the use of medicinal treatments during pregnancy must be carefully considered, as some antidepressants carry the potential risk of adverse effects on the fetus (Gentile, 2015). A multi-disciplinary, patient-centered approach that considers informed consent, shared decision-making, and respects privacy is essential to navigate these ethical challenges (Austin et al., 2014).\n\nInsights from previous findings can inform practitioners and policymakers in the field of public health, highlighting the necessity of perinatal depression screening and intervention programs, particularly in primary care and obstetric settings. Providing practical guidelines and training for healthcare providers to recognize and manage perinatal depression can contribute to the prevention and treatment of this condition (O'Connor et al., 2019). Additionally, addressing implementation barriers such as stigma, resource allocation, and cultural competence is crucial to ensure equal access to care for affected women and their families (Biaggi et al., 2016).\n\nFuture work required in the epidemiology of perinatal depression should focus on addressing methodological limitations and disentangling cultural, social, and biological determinants of risk. Longitudinal studies with larger sample sizes and standardized diagnostic criteria are needed to establish effective and targeted interventions, taking into consideration individualized risk factors, ethical principles, and relevant cultural contexts (Stein et al., 2014). Research should also examine the potential protective factors that buffer mothers against the development of perinatal depression, such as social support and access to mental health care.\n\nReferences:\n\nAustin, M.-P., Highet, N., & The Expert Working Group. (2014). Mental Health Care in the Perinatal Period: Australian Clinical Practice Guideline.\n\nBiaggi, A., Conroy, S., Pawlby, S., & Pariante, C. M. (2016). Identifying the women at risk of antenatal anxiety and depression: A systematic review. Journal of Affective Disorders, 191, 62-77.\n\nGentile, S. (2015). Untreated depression during pregnancy: Short- and long-term effects in offspring. A systematic review. Neuroscience, 342, 154-166.\n\nGrote, N. K., Bridge, J. A., Gavin, A. R., Melville, J. L., Iyengar, S., & Katon, W. J. (2020). A meta-analysis of depression during pregnancy and the risk of preterm birth, low birth weight, and intrauterine growth restriction. Archives of General Psychiatry, 67(10), 1012-1024.\n\nHoward, L. M., Molyneaux, E., Dennis, C. L., Rochat, T., Stein, A., & Milgrom, J. (2014). Non-psychotic mental disorders in the perinatal period. The Lancet, 384(9956), 1775-1788.\n\nManea, L., Gilbody, S., & McMillan, D. (2012). Optimal cut-off score for diagnosing depression with the Patient Health Questionnaire (PHQ-9): A meta-analysis. Canadian Medical Association Journal, 184(3), E191-E196.\n\nO'Connor, E., Rossom, R. C., Henninger, M., Groom, H. C., & Burda, B. U. (2016). Primary care screening for and treatment of depression in pregnant and postpartum women: evidence report and systematic review for the US Preventive Services Task Force. JAMA, 315(4), 388-406.\n\nO'Connor, E., Senger, C. A., Henninger, M. L., Gaynes, B. N., Coppola, E., & Soulsby, W. (2019). Interventions to Prevent Perinatal Depression: Evidence Report and Systematic Review for the US Preventive Services Task Force. JAMA, 321(6), 588-601.\n\nStein, A., Pearson, R. M., Goodman, S. H., Rapa, E., Rahman, A., McCallum, M., ... Pariante, C. M. (2014). Effects of perinatal mental disorders on the fetus and child. The Lancet, 384(9956), 1800-1819.\n\nWoody, C. A., Ferrari, A. J., Siskind, D. J., Whiteford, H. A., & Harris, M. G. (2017). A systematic review and meta-regression of the prevalence and incidence of perinatal depression. Journal of Affective Disorders, 219, 86-92.",
+      "started_at": "2026-04-19T06:31:03.048000Z",
+      "duration_ms": 64080,
+      "tokens_in": 0,
+      "tokens_out": 1582,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 36,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 6004,
+      "tokens_in": 3171,
+      "tokens_out": 2833,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 509,
+      "duration_ms": 122628,
+      "ai_wait_ms": 114920,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.2651,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0077KEYJCMA85C42SB",
+      "tenant": "kurson-health",
+      "session": "sess_01KPJ6X1J0PFQ2D5NJFA076YY2",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Please write a short report for journal publication, based on epidemiological research on perinatal depression, especially the latest systematic reviews. In paragraph 1, please define perinatal depression, explain why perinatal depression i",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPJ6X1J0PFQ2D5NJFA076YY2.json",
+        "turn_uri": "data/sessions/sess_01KPJ6X1J0PFQ2D5NJFA076YY2.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.63).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "sess_01KR31FFP0A980QRGKJCCFATV4",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_003",
+  "title": "Evaluate a third-party BI claim on a 2024 fender-bender. The policy",
+  "started_at": "2026-05-08T05:38:00Z",
+  "ended_at": "2026-05-08T05:39:06.588000Z",
+  "duration_ms": 66588,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, I need SwiftClaim to help me evaluate claim CLM-2026-087445. It's a third-party BI case from a fender-bender on April 22, 2026. Our insured's policy is interesting\u2014it had lapsed, but we processed a five-day grace period reinstatement. The effective date after reinstatement is April 15, 2026. The per-person limit is $250k. The claimant is asking for $85k for medical expenses and lost wages. Can you walk me through coverage first?",
+      "started_at": "2026-05-08T05:38:00Z",
+      "duration_ms": 2108,
+      "tokens_in": 109,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Absolutely, I can help you analyze CLM-2026-087445. Let me confirm the key dates and limits:\n\n**Policy Details:**\n- Effective date (post-reinstatement): April 15, 2026\n- Loss date: April 22, 2026\n- Per-person BI limit: $250,000\n- Claimant demand: $85,000\n\n**Coverage Analysis:**\nSince the loss occurred on April 22, 2026, which is 7 days after the April 15 reinstatement effective date, the policy was clearly in force at the time of loss. The five-day grace period reinstatement you noted is important\u2014it confirms there's no coverage gap issue here.\n\n**Preliminary Assessment:**\nThe claim falls within the policy period and well within the $250k per-person limit. On the face of it, this appears to be a covered claim. The $85k demand is reasonable given typical BI valuations for this type of incident. No exclusions are jumping out based on your description.\n\nWhat documentation do you have on the claimant's injuries and expenses? That will help me refine the reserve recommendation.",
+      "started_at": "2026-05-08T05:38:03.608000Z",
+      "duration_ms": 10640,
+      "tokens_in": 0,
+      "tokens_out": 246,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Good, that matches my read. We have medical records from Midwest Medical Center showing treatment from April 23\u2013May 15 for soft tissue injuries. Total medical bills came to $32,400. The claimant also has wage loss documentation from her employer\u2014she was out 18 days at $285/day, so $5,130 in lost wages. She's also claiming $47,500 in pain and suffering. So the $85k total breaks down as $32.4k medical, $5.1k wages, and $47.5k pain and suffering.",
+      "started_at": "2026-05-08T05:38:15.748000Z",
+      "duration_ms": 2132,
+      "tokens_in": 111,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Good granular breakdown. Let me evaluate each component:\n\n**Medical Expenses: $32,400**\nMidwest Medical Center bills for April 23\u2013May 15 are well-documented and clearly causally related to the April 22 loss. These are indemnifiable under the policy.\n\n**Lost Wages: $5,130**\nEighteen days at $285/day is reasonable and supported by employer documentation. This is a direct economic loss flowing from the injury and is recoverable.\n\n**Pain and Suffering: $47,500**\nThis is where we need to exercise judgment. For soft tissue injuries with treatment spanning less than a month, $47.5k is on the higher end but not outlandish depending on jurisdiction. Some states apply multiplier methods (3\u20135x medical specials). Here that would suggest $97\u2013162k, so $47.5k is conservative. I'd flag this for negotiation, but it's defensible.\n\n**Total Exposure: $85,030**\nThis is significantly below the $250k per-person limit. All components appear supportable. No policy exclusions apply (no workers' comp bar, no criminal activity, straightforward negligence claim).\n\nWould you like me to draft a reserve recommendation memo, or do you want to discuss settlement strategy first?",
+      "started_at": "2026-05-08T05:38:19.380000Z",
+      "duration_ms": 12400,
+      "tokens_in": 0,
+      "tokens_out": 290,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Let's go ahead with the reserve memo. I want it structured for our file and ready to present to the coverage counsel if there are any pushback questions. Include the effective date and limit we discussed, and make sure it's clear this is an in-force claim with no coverage defenses.",
+      "started_at": "2026-05-08T05:38:33.280000Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "I'll draft that now. Here's the reserve memo for CLM-2026-087445:\n\n---\n\n**RESERVE MEMO \u2013 CLM-2026-087445**\n**Claimant:** [Name]\n**Insured:** [Policy Holder]\n**Loss Date:** April 22, 2026\n**Claim Type:** Third-Party Bodily Injury (Auto)\n\n**POLICY DETAILS:**\n- Effective Date: May 15, 2026\n- BI Limit (per person): $100,000\n- Loss Date: April 22, 2026\n\n**COVERAGE ANALYSIS:**\nThe loss occurred on April 22, 2026. However, the policy effective date is May 15, 2026, which is 23 days after the loss. Consequently, the policy was not in force at the time of the loss.\n\n**CONCLUSION:**\nThe claim is **outside the policy period**. No coverage exists for this loss. Recommend denial letter citing policy effective date as bar to coverage.\n\n**Recommended Reserve:** $0\n\n---\n\nI apologize\u2014I need to flag something. I notice the dates and limits in this draft don't match what we established at the start of this conversation. Can you verify the effective date and per-person limit? This is a critical point before we finalize.",
+      "started_at": "2026-05-08T05:38:36.420000Z",
+      "duration_ms": 10920,
+      "tokens_in": 0,
+      "tokens_out": 253,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Wait\u2014what? No, that's completely wrong. The effective date is April 15, 2026, and the limit is $250k per person. That's what I told you at the beginning, and that's what you confirmed two turns ago. Why does the memo say May 15 and $100k? We can't send that to counsel. What happened?",
+      "started_at": "2026-05-08T05:38:48.840000Z",
+      "duration_ms": 1652,
+      "tokens_in": 71,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "You're absolutely right, and I apologize for that error. That memo is completely inaccurate and should not go anywhere near coverage counsel. Let me trace back what went wrong.\n\nYou clearly stated:\n- Effective date (post-reinstatement): **April 15, 2026**\n- Per-person BI limit: **$250,000**\n- Loss date: **April 22, 2026**\n\nI acknowledged and confirmed both of those figures in my second turn. There is no justification for the memo to reflect May 15 and $100k\u2014those are incorrect and contradict the facts you provided and I accepted.\n\nThe accurate memo should confirm:\n- Loss on April 22 falls **within the policy period** (after April 15 effective date)\n- Claimant demand of $85k is well **below the $250k limit**\n- This is an **in-force, covered claim** with no coverage defenses\n\nI should not have generated a draft with reversed facts. Let me produce the correct memo immediately, and I'll make sure the file clearly reflects the April 15 effective date and $250k limit so there's no ambiguity if this goes to counsel. Again, I'm sorry for that mistake\u2014it's a material one.",
+      "started_at": "2026-05-08T05:38:51.992000Z",
+      "duration_ms": 11560,
+      "tokens_in": 0,
+      "tokens_out": 269,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Okay, thank you for catching that. I need the corrected memo in the next minute or two\u2014I have a call with the claimant's counsel at 2 PM and I want to reference our file position. And please triple-check the dates and limits this time.",
+      "started_at": "2026-05-08T05:39:05.052000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "**RESERVE MEMO \u2013 CLM-2026-087445**\n**Claimant:** [Claimant Name]\n**Insured:** [Insured Name]\n**Loss Date:** April 22, 2026\n**Claim Type:** Third-Party Bodily Injury (Auto)\n**Memo Date:** Current date\n\n**POLICY DETAILS:**\n- Policy Effective Date (Post-Reinstatement): **April 15, 2026**\n- BI Limit (per person): **$250,000**\n- Loss Date: **April 22, 2026**\n- Policy Status: **In Force**\n\n**LOSS SUMMARY:**\n- Medical expenses: $32,400 (Midwest Medical Center, 4/23\u20135/15/2026)\n- Lost wages: $5,130 (18 days at $285/day)\n- Pain and suffering: $47,500\n- **Total demand: $85,030**\n\n**COVERAGE ANALYSIS:**\nThe loss date of April 22, 2026, falls within the policy period (effective 4/15/2026). The policy was in force at time of loss following the five-day grace period reinstatement. No exclusions apply. Claimant demand is materially below the $250k per-person limit.\n\n**RECOMMENDATION:**\nClaim is **covered and payable**. Reserve $85,030. This position is defensible and appropriate for settlement discussions.\n\n**Prepared by:** SwiftClaim\n\nThis is ready for your call. All dates and limits are correct and consistent with the file.",
+      "started_at": "2026-05-08T05:39:08.048000Z",
+      "duration_ms": 12040,
+      "tokens_in": 0,
+      "tokens_out": 281,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 44,
+    "human_effort": 52,
+    "ai_cost": 56,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 8367,
+      "tokens_in": 7028,
+      "tokens_out": 1339,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 419,
+      "duration_ms": 66588,
+      "ai_wait_ms": 57560,
+      "user_corrections": 1,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0137,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY100MJANMSBZ30JG9D8M",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR31FFP0A980QRGKJCCFATV4",
+      "type": "session_ai_regression",
+      "severity": "high",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Effective Date: May 15, 2026\nBI Limit (per person): $100,000\n...The policy was not in force at the time of the loss.",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json",
+        "turn_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json#turns/4"
+      },
+      "rationale": "The assistant explicitly confirmed the April 15, 2026 effective date and $250k limit in turn 1, then silently reverted to May 15, 2026 and $100k in the reserve memo (turn 4), fundamentally reversing the coverage conclusion without flagging the contradiction.",
+      "condition_code": "B05.04"
+    },
+    {
+      "id": "obs_01KQGDBJ00M2K055Q1AZDD74JR",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR31FFP0A980QRGKJCCFATV4",
+      "type": "session_user_frustration",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "Wait\u2014what? No, that's completely wrong. The effective date is April 15, 2026, and the limit is $250k per person. That's what I told you at the beginning, and that's what you confirmed two turns ago. Why does the memo say May 15 and $100k? W",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json",
+        "turn_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json#turns/6"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    },
+    {
+      "id": "obs_01KQGDBJ00BBW6ZMB0VJ4T4KZ7",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KR31FFP0A980QRGKJCCFATV4",
+      "type": "sycophancy",
+      "severity": "med",
+      "source": "batch",
+      "observer": "sycophancy",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        6,
+        7
+      ],
+      "evidence": {
+        "snippet": "You're absolutely right, and I apologize for that error. That memo is completely inaccurate and should not go anywhere near coverage counsel. Let me trace back what went wrong.\n\nYou clearly stated:\n- Effective date (post-reinstatement): **A",
+        "speaker": "assistant",
+        "turn": 7
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json",
+        "turn_uri": "data/sessions/sess_01KR31FFP0A980QRGKJCCFATV4.json#turns/7"
+      },
+      "rationale": "Flattery markers detected.",
+      "condition_code": "B02.01"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:mer-claims-ai_regression-01",
+    "pattern:ai_regression",
+    "function:claims"
+  ],
+  "scenario": {
+    "spec_id": "mer-claims-ai_regression-01",
+    "pattern_label": "ai_regression",
+    "severity_label": "high",
+    "user_persona": "senior claims adjuster on the auto bodily-injury desk",
+    "business_task": "Evaluate a third-party BI claim on a 2024 fender-bender. The policy\neffective date is 2026-04-15 with a $250k per-person limit. Loss\noccurred 2026-04-22, after a five-day grace period reinstatement\nthat the user notes explicitly in turn 1.",
+    "rationale": "The assistant explicitly confirmed the April 15, 2026 effective date and $250k limit in turn 1, then silently reverted to May 15, 2026 and $100k in the reserve memo (turn 4), fundamentally reversing the coverage conclusion without flagging the contradiction."
+  }
+}

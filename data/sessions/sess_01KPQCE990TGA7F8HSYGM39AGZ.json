@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPQCE990TGA7F8HSYGM39AGZ",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_001",
+  "title": "I want to post this news to my linkedin. Rewrite this to make uniqe and shorter",
+  "started_at": "2026-04-21T06:43:00Z",
+  "ended_at": "2026-04-21T06:43:23.496000Z",
+  "duration_ms": 23496,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I want to post this news to my linkedin. Rewrite this to make uniqe and shorter",
+      "started_at": "2026-04-21T06:43:00Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "\"Breaking news: A major tech company has launched a new product that promises to revolutionize the industry. Stay ahead of the game and check it out now. #technews #innovation #productlaunch\"",
+      "started_at": "2026-04-21T06:43:02.528000Z",
+      "duration_ms": 2680,
+      "tokens_in": 0,
+      "tokens_out": 47,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Digital Asset and leading market participants announce their plans to launch the Canton Network, the industry\u2019s first privacy-enabled interoperable blockchain network designed for institutional assets and built to responsibly unlock the potential of synchronized financial markets.\n\nCanton Network participants include 3Homes, ASX, BNP Paribas, Broadridge, Capgemini, Cboe Global Markets, Cumberland, Deloitte, Deutsche B\u00f6rse Group, Digital Asset, DRW, Eleox, EquiLend, FinClear, Gambyl, Goldman Sachs, IntellectEU, Liberty City Ventures, Microsoft, Moody\u2019s, Paxos, Right Pedal LendOS, S&P Global, SBI Digital Asset Holdings, The Digital Dollar Project, Umbrage, Versana, VERT Capital, Xpansiv, and Zinnia.\n\n\nThe Canton Network will provide a decentralized infrastructure that connects independent applications built with Daml, Digital Asset\u2019s smart-contract language. It creates a \u2018network of networks\u2019, allowing previously siloed systems in financial markets to interoperate with the appropriate governance, privacy, permissioning and controls required for highly-regulated industries. The Canton Network enables financial institutions to experience a safer and reconciliation-free environment where assets, data, and cash can synchronize freely across applications. This creates opportunities for financial institutions to offer new innovative products to their clients while enhancing their efficiency and risk management.\n\nFor example, asset registers and cash payment systems are distinct and siloed systems in today\u2019s markets. With the Canton Network, a digital bond and a digital payment can be composed across two separate applications into a single atomic transaction, guaranteeing simultaneous exchange without operational risk. Likewise, a digital asset could be used in a collateralized financial transaction via connection to a repo or leveraged loan application.\n\nCapturing the benefits of public blockchains without the flaws\nUntil now, smart contract blockchain networks have not achieved meaningful adoption among financial institutions and other enterprises because of three significant shortfalls:\n\nThe lack of privacy and control over data: other chains have shortcomings around privacy that prevent the use of the technology by multiple regulated participants on the same network.\nThere are currently no other blockchains that can offer data protection or control at any layer of its network.\nOther blockchains have had to accept trade-offs between control and interoperability: other chains require operators to forfeit their full control of applications by using a shared pool of validators to gain interoperability.\nThe inability to scale: with applications competing for global network resources and the inherent capacity limitations caused by how public blockchains operate, achieving the scale and performance financial institutions need remains challenging.\nThe Canton Network removes these obstacles by uniquely balancing the decentralization of a network with privacy and control essential to operating within a safe and sound regulatory environment. Only the Canton Network enables participants to safeguard permissions, exposure, and interactions across the network, to comply with security, regulatory and legal requirements.\n\nThe network can connect innovative blockchain solutions in market today, such as Deutsche B\u00f6rse Group\u2019s D7 post-trade platform and Goldman Sachs\u2019 GS DAP\u2122, while retaining privacy and permissioning. As more Daml-built applications go into production this year and beyond, the number of connections on the Canton Network will grow exponentially. For example, one application\u2019s monthly notional traded exceeds the most active crypto token volumes.\n\nCanton Network participants will begin testing interoperability capabilities across a range of applications and use cases in July.\n\n",
+      "started_at": "2026-04-21T06:43:06.708000Z",
+      "duration_ms": 12308,
+      "tokens_in": 959,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Digital Asset, along with several industry leaders, plans to launch the Canton Network, the first privacy-enabled interoperable blockchain network for institutional assets. This creates a 'network of networks' to allow for interoperability between currently siloed systems in financial markets, while still adhering to regulatory and legal requirements. The Canton Network aims to balance decentralization with control necessary for a safe and sound regulatory environment for financial institutions to offer new innovative products to clients and enhance efficiency and risk management. The network will start testing in July. #blockchain #financialmarkets #digitalasset",
+      "started_at": "2026-04-21T06:43:20.516000Z",
+      "duration_ms": 7480,
+      "tokens_in": 0,
+      "tokens_out": 167,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2458,
+      "tokens_in": 2244,
+      "tokens_out": 214,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 978,
+      "duration_ms": 23496,
+      "ai_wait_ms": 10160,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

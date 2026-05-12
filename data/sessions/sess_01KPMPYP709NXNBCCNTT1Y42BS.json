@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPMPYP709NXNBCCNTT1Y42BS",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Make an outline for this blog post: Escrow vs FE",
+  "started_at": "2026-04-20T05:49:00Z",
+  "ended_at": "2026-04-20T05:49:38.812000Z",
+  "duration_ms": 38812,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Make an outline for this blog post: Escrow vs FE",
+      "started_at": "2026-04-20T05:49:00Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I. Introduction\n- Background information\n- Definition of Escrow and FE\n- Explanation of the purpose of the blog post\n\nII. What is an Escrow?\n- Definition of Escrow\n- Explanation of how Escrow works\n- Advantages of using Escrow\n\nIII. What is FE?\n- Definition of FE\n- How it differs from Escrow\n- Advantages of using FE\n\nIV. Benefits of Escrow\n- Protection for both buyer and seller\n- Prevents fraudulent transactions\n- Efficient dispute resolution\n\nV. Benefits of FE\n- Faster transaction processing\n- Eliminates the middleman\n- Lower fees\n\nVI. When to use Escrow and FE\n- Explanation of scenarios where Escrow is recommended \n- Explanation of scenarios where FE is recommended\n\nVII. Conclusion\n- Summary of key points\n- Final thoughts on Escrow vs FE.",
+      "started_at": "2026-04-20T05:49:02.444000Z",
+      "duration_ms": 8280,
+      "tokens_in": 0,
+      "tokens_out": 187,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Write a blog post based on this outline",
+      "started_at": "2026-04-20T05:49:12.224000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Introduction:\nIn today's world, online transactions are becoming the norm, as more people seek convenient ways to buy and sell products. Two of the most popular options for securing transactions are Escrow and FE. If you're wondering which of these payment options is the best for you, this guide will take you through everything you need to know about them.\n\nWhat is an Escrow?\nEscrow is a financial arrangement where a third party entity holds and regulates funds until both parties involved in a transaction are satisfied with the outcome. The third party manages the flow of transactions between the buyer and the seller. Escrow is particularly useful in situations where a large sum of money or sensitive information is involved. This is because it guarantees that both parties will meet their obligations.\n\nWhat is FE?\nFE stands for \"Funds Escrow,\" and it's a payment method where funds are held in an escrow account until the transaction is completed. FE is different from traditional escrow because the funds are held only until the moment of payment. This allows for greater flexibility and speedier transactions.\n\nBenefits of Escrow\nOne substantial advantage of using Escrow is that it offers a great level of protection for both parties involved in the transaction. This is because the funds are held by a neutral third party who ensures that both parties meet their obligations before releasing the funds. It also helps in case of fraudulent transactions and provides efficient dispute resolution.\n\nBenefits of FE\nUsing FE comes with other benefits that make it a popular option for many people. Firstly, FE transactions are faster, which is great for urgent transactions. Secondly, it eliminates the need for a middleman or a third party, reducing the fees incurred during the transaction. Lastly, it offers greater flexibility since the funds are held only until the moment of payment.\n\nWhen to Use Escrow and FE\nTo decide which option is best, it's important to consider the type and value of the transaction. Escrow is the go-to option for transactions involving large sums of money, or where the items being sold are high in value or require a detailed inspection. On the other hand, FE is ideal for lower value transactions and situations that require speedier processing.\n\nConclusion:\nOverall, choosing between Escrow and FE can be challenging, but it all comes down to your specific requirements. If you're in a situation where you need quick processing, lower fees, and greater flexibility, then FE is the go-to option. However, if you need reliable protection against fraud and protection of your assets, Escrow is the way to go. Regardless of which option you choose, both Escrow and FE are great payment methods that can help streamline and secure your transactions.",
+      "started_at": "2026-04-20T05:49:14.632000Z",
+      "duration_ms": 28680,
+      "tokens_in": 0,
+      "tokens_out": 697,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2304,
+      "tokens_in": 1420,
+      "tokens_out": 884,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 21,
+      "duration_ms": 38812,
+      "ai_wait_ms": 36960,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

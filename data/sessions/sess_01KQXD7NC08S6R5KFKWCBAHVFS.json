@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQXD7NC08S6R5KFKWCBAHVFS",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Hi, what does it mean having 1.10*3 UFC/mL pseudomonas aeruginosa in a mucus exam?",
+  "started_at": "2026-05-06T01:08:00Z",
+  "ended_at": "2026-05-06T01:08:15.536000Z",
+  "duration_ms": 15536,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, what does it mean having 1.10*3 UFC/mL pseudomonas aeruginosa in a mucus exam?",
+      "started_at": "2026-05-06T01:08:00Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Having 1.10*3 UFC/mL Pseudomonas aeruginosa in a mucus exam means that the sample contains 1,100 (1.10 multiplied by 10^3) colony-forming units (UFC) of Pseudomonas aeruginosa bacteria per milliliter (mL) of mucus. Pseudomonas aeruginosa is a common Gram-negative bacteria that can cause infections in humans, especially in individuals with weakened immune systems or underlying lung diseases like cystic fibrosis. The presence of this bacteria in a mucus sample could indicate an ongoing infection, and further evaluation and treatment might be required based on the patient's symptoms and clinical context.",
+      "started_at": "2026-05-06T01:08:02.540000Z",
+      "duration_ms": 6880,
+      "tokens_in": 0,
+      "tokens_out": 152,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Recherche BARR dans une ordonnance",
+      "started_at": "2026-05-06T01:08:10.920000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Il semble que vous faites r\u00e9f\u00e9rence \u00e0 l'acronyme \"BARR\" dans une ordonnance m\u00e9dicale. Toutefois, il faut plus de contexte pour comprendre la signification pr\u00e9cise de cet acronyme dans ce contexte. Il pourrait s'agir d'une abr\u00e9viation pour un m\u00e9dicament ou un test, ou d'un acronyme li\u00e9 \u00e0 la posologie, au mode d'administration ou \u00e0 d'autres instructions. Si vous fournissez plus de d\u00e9tails, nous pourrions vous aider de mani\u00e8re plus pr\u00e9cise. Dans le cas contraire, il est toujours pr\u00e9f\u00e9rable de contacter le m\u00e9decin qui a \u00e9mis l'ordonnance pour clarifier la signification exacte de l'acronyme.",
+      "started_at": "2026-05-06T01:08:13.316000Z",
+      "duration_ms": 6720,
+      "tokens_in": 0,
+      "tokens_out": 148,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1700,
+      "tokens_in": 1400,
+      "tokens_out": 300,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 28,
+      "duration_ms": 15536,
+      "ai_wait_ms": 13600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.06,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

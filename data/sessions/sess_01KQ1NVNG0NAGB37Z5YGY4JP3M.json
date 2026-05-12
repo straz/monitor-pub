@@ -1,0 +1,213 @@
+{
+  "id": "sess_01KQ1NVNG0NAGB37Z5YGY4JP3M",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "A company purchased treasury stock with a cost of $55,000 during 2017. During the year, the company also paid dividends \u2026",
+  "started_at": "2026-04-25T06:40:00Z",
+  "ended_at": "2026-04-25T06:41:24.140000Z",
+  "duration_ms": 84140,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "A company purchased treasury stock with a cost of $55,000 during 2017. During the year, the company also paid dividends of $20,000 and issued bonds payable for proceeds of $876,000. Total cash flows from financing activities for 2017 were:\n\n\ta.\t\n$801,000 net cash inflow.\n\n\tb.\t\n$75,000 net cash outflow.\n\n\tc.\t\n$911,000 net cash inflow.\n\n\td.\t\n$856,000 net cash inflow.\n\n",
+      "started_at": "2026-04-25T06:40:00Z",
+      "duration_ms": 1904,
+      "tokens_in": 92,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The correct answer is b. $75,000 net cash outflow.\n\nTreasury stock repurchases and dividend payments are both considered outflows of cash from financing activities, while issuing bonds payable is considered an inflow of cash from financing activities. Therefore:\n\nNet cash flow from repurchasing treasury stock = $55,000 (outflow)\n\nNet cash flow from paying dividends = $20,000 (outflow)\n\nNet cash flow from issuing bonds payable = $876,000 (inflow)\n\nTotal cash flows from financing activities = ($55,000 + $20,000) + $876,000 = $841,000\n\nSince the net cash flow from financing activities is a result of inflows and outflows, it cannot be greater than the total inflows or outflows. Therefore, the correct answer is b. $75,000 net cash outflow.",
+      "started_at": "2026-04-25T06:40:03.404000Z",
+      "duration_ms": 8240,
+      "tokens_in": 0,
+      "tokens_out": 186,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "To prepare a complete Statement of Cash Flows, it is necessary to analyze\n\n\ta.\t\nthe current year's income statement.\n\n\tb.\t\na comparative balance sheet.\n\n\tc.\t\nadditional information.\n\n\td.\t\nall of these sources are necessary.\n\n",
+      "started_at": "2026-04-25T06:40:13.144000Z",
+      "duration_ms": 1472,
+      "tokens_in": 56,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The correct answer is d. all of these sources are necessary.\n\nTo prepare a complete Statement of Cash Flows, a company must use information from multiple sources, including:\n\n- The current year's income statement, which provides information on net income and non-cash transactions such as depreciation and amortization\n- A comparative balance sheet, which shows the changes in asset, liability, and equity accounts over time, revealing the company's sources and uses of cash\n- Additional information, such as details on significant transactions or changes in accounting policies\n\nBy analyzing all of these sources, a company can identify the cash inflows and outflows over a given period and use these to prepare an accurate and comprehensive Statement of Cash Flows.",
+      "started_at": "2026-04-25T06:40:16.116000Z",
+      "duration_ms": 8440,
+      "tokens_in": 0,
+      "tokens_out": 191,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "f accounts receivable have increased during the period\n\n\ta.\t\nrevenues on an accrual basis are less than cash collections from customers.\n\n\tb.\t\nrevenues on an accrual basis are greater than cash collections from customers.\n\n\tc.\t\nrevenues on an accrual basis are the same as cash collections from customers.\n\n\td.\t\nexpenses on an accrual basis are greater than expenses paid in cash.",
+      "started_at": "2026-04-25T06:40:26.056000Z",
+      "duration_ms": 1940,
+      "tokens_in": 95,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The correct answer is b. Revenues on an accrual basis are greater than cash collections from customers.\n\nWhen accounts receivable increase during a period, it indicates that a company has made sales on credit but has not yet received payment in cash. Under the accrual basis of accounting, revenue is recognized when it is earned, not necessarily when cash is received. Therefore, revenue on an accrual basis will include sales that have not yet been collected in cash, resulting in accrual accounting revenues being higher than cash collections from customers.\n\nFor example, if a company made $100,000 in sales on credit during a period, its revenues on an accrual basis would be $100,000, even if it had only collected $80,000 in cash from customers by the end of the period. The remaining $20,000 would be reflected as an increase in accounts receivable on the balance sheet.\n\nIt's important to note that while revenues on an accrual basis may be higher than cash collections from customers, they still represent the total amount of revenue earned during the period regardless of when payment is collected.",
+      "started_at": "2026-04-25T06:40:29.496000Z",
+      "duration_ms": 11880,
+      "tokens_in": 0,
+      "tokens_out": 277,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Which one of the following affects cash during a period?\n\n\ta.\t\nRecording depreciation expense.\n\n\tb.\t\nDeclaration of a cash dividend.\n\n\tc.\t\nPayment of an accounts payable.\n\n\td.\t\nWrite-off of an uncollectible account receivable.\n\n",
+      "started_at": "2026-04-25T06:40:42.876000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "The correct answer is c. Payment of an accounts payable.\n\nA payment of an accounts payable affects cash during a period because it involves the outflow of cash as the company pays off its debts to suppliers or vendors. The other options listed do not necessarily affect cash during a period in the following ways:\n\na. Recording depreciation expense: Depreciation is a non-cash expense that reduces the reported value of an asset over time. While depreciation affects net income, it does not involve any cash flow.\n\nb. Declaration of a cash dividend: The declaration of a cash dividend reduces the company's retained earnings and increases its current liabilities. However, it does not involve any cash outflow until the actual cash dividend is paid to shareholders.\n\nd. Write-off of an uncollectible account receivable: Writing off an uncollectible account receivable involves a reduction in assets and an increase in expenses, which affects net income. However, there is no cash flow involved in the actual write-off of the uncollectible account receivable.\n\nTherefore, the payment of an accounts payable is the only option listed that affects cash during a period.",
+      "started_at": "2026-04-25T06:40:45.860000Z",
+      "duration_ms": 12440,
+      "tokens_in": 0,
+      "tokens_out": 291,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "A company issued 10,000 shares $10 par value stock for $15/share. The journal entry to record this transaction would include a\n\n\ta.\t\ndebit to Cash for $100,000.\n\n\tb.\t\ncredit to Common Stock for $100,000.\n\n\tc.\t\ncredit to Common Stock for $150,000.\n\n\td.\t\ndebity to Additional Paid-in Capital for $50,000",
+      "started_at": "2026-04-25T06:40:59.800000Z",
+      "duration_ms": 1700,
+      "tokens_in": 75,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "The correct answer is c. Credit to Common Stock for $150,000.\n\nWhen a company issues shares of stock with a par value, the total amount of common stock is recorded at the par value of the shares issued. In this case, the par value of the shares is $10, so the company would record a credit to Common Stock for 10,000 shares x $10 par value = $100,000.\n\nHowever, the company issued the shares at a premium, or above par value. The premium amount, $5 per share, would be recorded as a credit to Additional Paid-in Capital, resulting in a total credit of 10,000 shares x $5 premium = $50,000.\n\nTherefore, the journal entry to record this transaction would be:\n\nDebit Cash for $150,000\n\nCredit Common Stock for $100,000\n\nCredit Additional Paid-in Capital for $50,000.",
+      "started_at": "2026-04-25T06:41:03Z",
+      "duration_ms": 8400,
+      "tokens_in": 0,
+      "tokens_out": 190,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "A company issued 10,000 shares $10 par value stock for $15/share. The journal entry to record this transaction would include a\n\n\ta.\t\ndebit to Cash for $100,000.\n\n\tb.\t\ncredit to Common Stock for $100,000.\n\n\tc.\t\ncredit to Common Stock for $150,000.\n\n\td.\t\ndebity to Additional Paid-in Capital for $50,000.\n\n",
+      "started_at": "2026-04-25T06:41:12.900000Z",
+      "duration_ms": 1712,
+      "tokens_in": 76,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "The correct answer is:\n\nDebit Cash $150,000\nCredit Common Stock $100,000\nCredit Additional Paid-In Capital $50,000\n\nThe company issued 10,000 shares of $10 par value stock for $15 per share, which is a premium of $5 per share. The $10 par value is recorded in the Common Stock account, and the excess over par value is recorded in the Additional Paid-In Capital account. \n\nThe total amount of cash received by the company is 10,000 shares x $15 per share = $150,000, which is recorded as a debit to Cash.\n\nThe Common Stock account is credited for the par value of the shares issued, which is $10 per share x 10,000 shares = $100,000.\n\nThe Additional Paid-In Capital account is credited for the amount received over par value, which is $5 per share x 10,000 shares = $50,000.\n\nTherefore, the journal entry to record the issuance of 10,000 shares of $10 par value stock for $15 per share is:\n\nDebit Cash $150,000\nCredit Common Stock $100,000\nCredit Additional Paid-In Capital $50,000.",
+      "started_at": "2026-04-25T06:41:16.112000Z",
+      "duration_ms": 10600,
+      "tokens_in": 0,
+      "tokens_out": 245,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Dividends declared reduces\n\n\ta.\t\ntreasury stock.\n\n\tb.\t\nretained earnings.\n\n\tc.\t\npaid-in capital in excess of par value.\n\n\td.\t\ncommon stock.",
+      "started_at": "2026-04-25T06:41:28.212000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "The correct answer is b. Retained earnings.\n\nDividends declared reduces retained earnings. Retained earnings represent the accumulated profits of a company that have not been paid out to shareholders in the form of dividends. When a company declares dividends, it is essentially distributing a portion of its earnings to shareholders. This distribution reduces the amount of accumulated earnings that the company has retained.\n\nFor example, if a company has retained earnings of $500,000 and declares a cash dividend of $50,000, its retained earnings would decrease to $450,000 ($500,000 - $50,000).\n\nDividends declared do not affect the other accounts listed:\n\na. Treasury stock: Treasury stock represents shares of a company's own stock that it has repurchased from shareholders. Dividends declared do not affect treasury stock.\n\nc. Paid-in capital in excess of par value: This account represents the amount of money that investors paid for shares of stock that exceeded the par value of the shares. It is not directly affected by dividends declared.\n\nd. Common stock: Common stock represents the par value of the shares issued by a company. It is not directly affected by dividends declared.",
+      "started_at": "2026-04-25T06:41:30.920000Z",
+      "duration_ms": 12720,
+      "tokens_in": 0,
+      "tokens_out": 298,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 66,
+    "ai_cost": 83,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 12649,
+      "tokens_in": 10971,
+      "tokens_out": 1678,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 485,
+      "duration_ms": 84140,
+      "ai_wait_ms": 72720,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.008,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00P3J3YZC1X3AVR9N0",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQ1NVNG0NAGB37Z5YGY4JP3M",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "A company issued 10,000 shares $10 par value stock for $15/share. The journal entry to record this transaction would include a\n\n\ta.\t\ndebit to Cash for $100,000.\n\n\tb.\t\ncredit to Common Stock for $100,000.\n\n\tc.\t\ncredit to Common Stock for $15",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ1NVNG0NAGB37Z5YGY4JP3M.json",
+        "turn_uri": "data/sessions/sess_01KQ1NVNG0NAGB37Z5YGY4JP3M.json#turns/10"
+      },
+      "rationale": "User restated content from turn 8 (Jaccard 0.94).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

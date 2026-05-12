@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQV9HGZ0V5GMA85Z79XZXPD5",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_005",
+  "title": "What are the essential points to be articulated in the Note for File to realize the payment of veterinary clinical who w\u2026",
+  "started_at": "2026-05-05T05:25:00Z",
+  "ended_at": "2026-05-05T05:25:44.572000Z",
+  "duration_ms": 44572,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are the essential points to be articulated in the Note for File to realize the payment of veterinary clinical who were part of vaccination campaigns",
+      "started_at": "2026-05-05T05:25:00Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Introduction: Begin the note with a brief introduction outlining the purpose of the document, which is to request the realization of payment for veterinary clinicians who participated in vaccination campaigns.\n\n2. Background information: Provide information about the vaccination campaign, such as its objectives, the participating veterinary clinics, number of animals vaccinated, and any other relevant details.\n\n3. Clinicians involved: List the names of the veterinary clinicians who were part of the vaccination campaign, their role in the campaign, and the clinics they are associated with.\n\n4. Services rendered: Describe the services provided by the veterinary clinicians during the vaccination campaign, including administering vaccinations, providing consultation and advice, monitoring animals for adverse reactions, and maintaining records.\n\n5. Compensation terms: Outline the agreed-upon payment terms for the veterinary clinicians involved in the campaign. This could include the rate of payment per animal vaccinated, any additional fees for services rendered, and the total amount to be paid to each clinician.\n\n6. Payment details: Provide the account details where payments should be sent, as well as any relevant deadlines or payment schedules.\n\n7. Supporting documents: Attach any relevant supporting documents, such as contracts, invoices, or receipts, that can be used to verify the services rendered and the agreed-upon compensation.\n\n8. Confirmation of payment realization: Include any necessary signatures or approvals from authorized personnel, affirming that the payment has been reviewed and is due to the veterinary clinicians in accordance with the terms laid out in the note.\n\n9. Contact information: Provide the contact details of the person responsible for handling any inquiries or concerns related to the payment realization. This could be a representative of the veterinary clinic, the vaccination campaign organizer, or a financial officer.\n\n10. Closing: Conclude the note by reiterating the importance of timely payment realization for the veterinary clinicians involved and expressing gratitude for their valuable contributions to the vaccination campaign.",
+      "started_at": "2026-05-05T05:25:02.756000Z",
+      "duration_ms": 22760,
+      "tokens_in": 0,
+      "tokens_out": 549,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are the essential points to be articulated in the closing part of Note for File for realizing the payment of veterinary clinical who were part of vaccination campaigns",
+      "started_at": "2026-05-05T05:25:27.016000Z",
+      "duration_ms": 1316,
+      "tokens_in": 43,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Summary of the main points: Briefly recap the main points discussed in the note, such as the services provided by veterinary clinicians during the vaccination campaigns, the agreed-upon compensation terms, and the total amount due for payment.\n\n2. Importance of timely payment: Emphasize the need for timely payment realization to acknowledge the veterinary clinicians' valuable contributions and to maintain good professional relationships with them.\n\n3. Gratitude for services: Express gratitude towards the veterinary clinicians for their participation in the vaccination campaigns and for their dedication to ensuring the health and welfare of animals.\n\n4. Acknowledgment of their role: Highlight the significance of the veterinary clinicians' role in the success of the vaccination campaigns and their positive impact on public health and disease prevention.\n\n5. Call to action: Encourage prompt action to be taken in realizing the payments, and request all relevant individuals or departments to expedite the payment process as per the terms discussed in the note.\n\n6. Availability for clarification: Mention the willingness to provide additional information or clarification if needed, and include contact details for any follow-up communication.\n\n7. Anticipation of smooth payment realization: Express your confidence in the smooth and timely realization of the payments as per the terms agreed upon with the veterinary clinicians who participated in the vaccination campaigns.\n\n8. Record-keeping: Reinforce the importance of properly documenting the payment realization in the files, ensuring transparency and accountability throughout the process.\n\n9. Closing remarks: End the note with a brief, professional closing, reiterating the gratitude towards the veterinary clinicians and your commitment to ensuring their timely payment.",
+      "started_at": "2026-05-05T05:25:29.832000Z",
+      "duration_ms": 19240,
+      "tokens_in": 0,
+      "tokens_out": 461,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2878,
+      "tokens_in": 1868,
+      "tokens_out": 1010,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 81,
+      "duration_ms": 44572,
+      "ai_wait_ms": 42000,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1166,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ001CAEHV9KCQQB4MP0",
+      "tenant": "kurson-health",
+      "session": "sess_01KQV9HGZ0V5GMA85Z79XZXPD5",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "What are the essential points to be articulated in the closing part of Note for File for realizing the payment of veterinary clinical who were part of vaccination campaigns",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQV9HGZ0V5GMA85Z79XZXPD5.json",
+        "turn_uri": "data/sessions/sess_01KQV9HGZ0V5GMA85Z79XZXPD5.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.88).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

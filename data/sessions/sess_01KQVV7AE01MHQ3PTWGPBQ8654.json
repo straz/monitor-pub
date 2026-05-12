@@ -1,0 +1,127 @@
+{
+  "id": "sess_01KQVV7AE01MHQ3PTWGPBQ8654",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_009",
+  "title": "I need a Data Classification policy based on soc 2. The policy should dictate how the data should be secured and what co\u2026",
+  "started_at": "2026-05-05T10:34:00Z",
+  "ended_at": "2026-05-05T10:35:55.964000Z",
+  "duration_ms": 115964,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need a Data Classification policy based on soc 2. The policy should dictate how the data should be secured and what controls should be in place to protect the data. The classification of data helps determine what baseline security controls should be put in place to safeguard the data.  Define roles and responsibilities including data protection officer, data owner, users, executives. Define four classification levels: public, internal, confidential, restricted.",
+      "started_at": "2026-05-05T10:34:00Z",
+      "duration_ms": 2192,
+      "tokens_in": 116,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Data Classification Policy\n\n1. Purpose\nThe purpose of this Data Classification Policy is to establish a framework for classifying and securing data based on the SOC 2 framework, ensuring that appropriate security controls are in place to protect the data and comply with regulatory requirements.\n\n2. Scope\nThis policy applies to all data generated, processed, stored, or transmitted by the organization, including data in digital, physical, and verbal formats.\n\n3. Roles and Responsibilities\n\n3.1 Data Protection Officer (DPO)\nThe DPO is responsible for overseeing the implementation, maintenance, and enforcement of the Data Classification Policy. The DPO ensures that all organizational employees adhere to the policy and remain compliant with SOC 2 requirements.\n\n3.2 Data Owner\nData Owners are responsible for identifying, categorizing, and assigning security classifications to the data under their purview. They are also responsible for ensuring that data is properly protected and handled according to its assigned classification.\n\n3.3 Users\nUsers are responsible for accessing and handling data according to the assigned classification and applicable security policies. Users must report any data breaches or incidents to their supervisors and/or the DPO immediately.\n\n3.4 Executives\nExecutives are responsible for supporting the implementation of the Data Classification Policy and ensuring that all business operations align with the organization's data protection and compliance requirements.\n\n4. Data Classification Levels\n\n4.1 Public\nPublic data is any information that may be freely disclosed to the general public without causing potential harm to the organization. Examples of public data include marketing materials, press releases, and published research findings.\n\n\u2022\tData handling: No special handling requirements.\n\u2022\tSecurity controls: Public data must have limited security controls, including proper publishing and transmission methods.\n\n4.2 Internal\nInternal data is information intended for internal use only and should be protected from unauthorized access or disclosure. Examples of internal data include employee names, organizational processes, and internal reports.\n\n\u2022\tData handling: Access to internal data should be restricted to authorized personnel only.\n\u2022\tSecurity controls: Internal data should be protected using appropriate access controls, secure storage, encryption, and monitoring as required by the organization's security policies.\n\n4.3 Confidential\nConfidential data includes sensitive information that, if disclosed, could cause harm to the organization and/or individuals. Examples of confidential data include financial records, customer data, proprietary research, and trade secrets.\n\n\u2022\tData handling: Access to confidential data should be strictly limited to individuals with a business need to know, and data should be handled in a secure manner.\n\u2022\tSecurity controls: Confidential data should be protected with robust authentication, encryption, access controls, secure transmission mechanisms, and regular monitoring.\n\n4.4 Restricted\nRestricted data is the highest level of data classification and includes information with severe legal, regulatory, or contractual obligations. Unauthorized disclosure of restricted data may result in significant financial, legal, or reputational damage to the organization. Examples of restricted data include healthcare records, personally identifiable information (PII), and payment card information.\n\n\u2022\tData handling: Access to restricted data should be extremely limited and require explicit authorization. Handling of restricted data should follow the principle of least privilege.\n\u2022\tSecurity controls: Restricted data is subject to the highest level of security controls, including advanced authentication, encryption, monitoring, and segmentation.\n\n5. Policy Compliance\nFailure to comply with this Data Classification Policy may result in disciplinary action, including termination of employment or legal penalties. All employees, contractors, and third parties with access to organizational data must adhere to this policy and all related security practices as mandated by the organization and SOC 2 requirements.",
+      "started_at": "2026-05-05T10:34:03.692000Z",
+      "duration_ms": 42840,
+      "tokens_in": 0,
+      "tokens_out": 1051,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "can i get an overview or executive summary for this policy?",
+      "started_at": "2026-05-05T10:34:48.032000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Executive Summary - Data Classification Policy\n\nThe Data Classification Policy establishes a SOC 2-based framework to ensure appropriate security controls are in place for protecting the company's data in compliance with regulatory requirements. This policy applies to all data generated, processed, stored, or transmitted by the organization in digital, physical, and verbal formats.\n\nKey roles and responsibilities include the Data Protection Officer (DPO), Data Owner, Users, and Executives, each playing critical roles in upholding the policy's implementation and adherence. The DPO oversees the policy enforcement, while Data Owners classify data and ensure its protection. Users access and handle data as per the assigned classification and compliance requirements, and Executives support the policy implementation throughout business operations.\n\nThe policy defines four classification levels: Public, Internal, Confidential, and Restricted. Public data can be disclosed without causing harm and requires limited security controls. Internal data is for internal use only and should be protected from unauthorized access. Confidential data, if disclosed, could cause harm to the organization or individuals and requires robust security measures. Restricted data, the highest classification level, carries severe consequences if inappropriately disclosed and necessitates the most stringent security controls.\n\nAdherence to the Data Classification Policy is crucial to prevent disciplinary actions such as termination of employment or legal consequences. All employees, contractors, and third parties with access to organizational data must adhere to this policy and related security practices.",
+      "started_at": "2026-05-05T10:34:50.500000Z",
+      "duration_ms": 17760,
+      "tokens_in": 0,
+      "tokens_out": 424,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Can I get an exception process for this policy? What is the process for requesting an exception? Who approves? Base the exceptions around the four classification levels. What artifacts need to be generated? How long are they stored for? What documentation is required to make a request? Are exceptions time based or time limited?",
+      "started_at": "2026-05-05T10:35:09.760000Z",
+      "duration_ms": 1784,
+      "tokens_in": 82,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Exception Process for Data Classification Policy\n\n1. Process for Requesting an Exception\n\n1.1 Identifying an exception need\nExceptions to the Data Classification Policy may arise due to unique business requirements, unforeseen circumstances, or legal obligations. Users should work with their supervisors and Data Owners to identify the need for an exception.\n\n1.2 Initiating a request\nTo request an exception, users must complete a Data Classification Exception Request Form, which includes information on the specific data classification level, the reason for the exception, and proposed security measures to mitigate risks. \n\n1.3 Submitting the request\nThe completed form should be submitted to the Data Protection Officer (DPO) for review and potential escalation to the senior management or designated Exception Approval Committee.\n\n2. Approval Process\n\n2.1 Review by the DPO\nThe DPO will evaluate the request, considering the potential risks and impacts of granting an exception. The DPO may consult with the requestor, Data Owners, or other stakeholders as necessary.\n\n2.2 Approval by the Exception Approval Committee\nIf the DPO deems the exception request valid, it will be escalated to the Exception Approval Committee, comprising senior management representatives or designated decision-makers. The committee will review the request and grant or deny the exception based on the risk and compliance assessments.\n\n3. Artifacts and Documentation\n\n3.1 Artifacts generated\nUpon approval, an exception certificate will be issued, documenting the specific exception granted, the classification level affected, and the duration of the exception. The certificate will also list any additional security measures required to protect the data during the exception period.\n\n3.2 Storage and duration\nException documents, including request forms, certificates, and any supporting materials, must be securely stored for a period of three years after the exception has expired or been revoked.\n\n4. Time-based and Limited Exceptions\n\n4.1 Time-based exceptions\nExceptions to the Data Classification Policy are time-limited based on the specific conditions and risks associated with the exception. The duration of the exception will be determined during the approval process and clearly documented on the exception certificate.\n\n4.2 Renewal or extension\nIf the exception is still required upon its expiration, the requestor must undergo the entire exception request process again. A thorough evaluation of the ongoing need for the exception will be conducted, and a new exception may be granted if necessary.\n\n5. Monitoring and Compliance\n\n5.1 Ongoing monitoring\nThe DPO and relevant Data Owners will monitor the handling of data affected by an exception to ensure adherence to the approved exception conditions and additional security measures.\n\n5.2 Non-compliance consequences\nFailure to comply with the conditions of an approved exception may result in disciplinary actions, including revocation of the exception, termination of employment, or legal penalties.",
+      "started_at": "2026-05-05T10:35:13.044000Z",
+      "duration_ms": 31320,
+      "tokens_in": 0,
+      "tokens_out": 763,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "I need additional text with regards to the scope of this policy",
+      "started_at": "2026-05-05T10:35:45.864000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "The scope of this Data Classification Policy extends to all data and information assets owned, managed, or processed by the organization, regardless of their format or location. This encompasses digital forms such as databases, files and folders, emails, and applications, as well as physical forms such as printed documents, meeting notes, and presentations. Verbal communication pertaining to the organization's data and any intellectual property also falls within the purview of this policy.\n\nMoreover, this policy is applicable to all employees, contractors, subcontractors, consultants, temporary workers, interns, and other third parties who access, process, or handle the organization's data. Responsibilities outlined in this policy extend to all levels of the organization, including management, teams, and individuals. Compliance with this policy is expected from all personnel who interact with the organization's data in any capacity.\n\nAdditionally, the scope of this policy covers the entire data lifecycle, from creation and collection to processing, storage, usage, transmission, archiving, and eventual disposal or destruction. The policy aims to ensure the comprehensive protection of data at all stages, adhering to specialized regulatory requirements, and meeting the organization's internal risk management objectives.\n\nIt is crucial to be cognizant of the fact that data handling requirements and associated security controls may evolve over time based on changes in regulations, business processes, or the organization's overall risk profile. Consequently, periodic reviews and updates to the Data Classification Policy and its implementation become critical in maintaining an effective data protection framework.",
+      "started_at": "2026-05-05T10:35:48.344000Z",
+      "duration_ms": 18120,
+      "tokens_in": 0,
+      "tokens_out": 433,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 64,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 10520,
+      "tokens_in": 7849,
+      "tokens_out": 2671,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 227,
+      "duration_ms": 115964,
+      "ai_wait_ms": 110040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.3957,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:compliance",
+    "src_model:gpt-4-0314",
+    "wildchat",
+    "dup"
+  ]
+}

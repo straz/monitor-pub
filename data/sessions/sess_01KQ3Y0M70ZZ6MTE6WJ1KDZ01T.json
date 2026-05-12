@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQ3Y0M70ZZ6MTE6WJ1KDZ01T",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "give me step by step instructions with code to create a payment service using nestjs, graphql, prisma & stripe. Users sh\u2026",
+  "started_at": "2026-04-26T03:41:00Z",
+  "ended_at": "2026-04-26T03:43:06.484000Z",
+  "duration_ms": 126484,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "give me step by step instructions with code to create a payment service using nestjs, graphql, prisma & stripe. Users should be able to request bookings and the payments will be pending until an admin confirms the booking then they will be charged. Use the latest versions of the technologies",
+      "started_at": "2026-04-26T03:41:00Z",
+      "duration_ms": 1676,
+      "tokens_in": 73,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "In this guide, we'll create a simple payment service with NestJS, GraphQL, Prisma, and Stripe. We'll use a basic booking system for an event, where users will request bookings, and the payments will be pending. Once an admin confirms the booking, the user will be charged.\n\nPrerequisites:\n\n1. Node.js version 14 or above\n2. A Stripe account\n\nStep 1: Install and set up NestJS CLI\n\n1.1. Install NestJS CLI globally:\n\n```\nnpm install -g @nestjs/cli\n```\n\n1.2. Create a new NestJS project:\n\n```\nnest new payment-service\n```\n\n1.3. Change to the project directory:\n\n```\ncd payment-service\n```\n\nStep 2: Set up GraphQL\n\n2.1. Install required packages:\n\n```\nnpm install @nestjs/graphql graphql-tools graphql apollo-server-express\n```\n\n2.2. Import `GraphQLModule` in `app.module.ts`:\n\n```typescript\nimport { GraphQLModule } from '@nestjs/graphql';\n\n@Module({\n  imports: [\n    GraphQLModule.forRoot({\n      autoSchemaFile: 'schema.gql',\n    }),\n  ],\n})\nexport class AppModule {}\n```\n\nStep 3: Set up Prisma\n\n3.1. Install Prisma CLI as a development dependency:\n\n```\nnpm install --save-dev prisma\nnpm install --save @prisma/client\n```\n\n3.2. Initialize Prisma:\n\n```\nnpx prisma init\n```\n\n3.3. Set up your database connection in `prisma/schema.prisma`:\n\n```\ndatasource db {\n  provider = \"postgresql\"\n  url      = env(\"DATABASE_URL\")\n}\n```\n\n3.4. Add your database models to `prisma/schema.prisma`. Example:\n\n```prisma\ngenerator client {\n  provider = \"prisma-client-js\"\n}\n\nmodel User {\n  id         Int      @id @default(autoincrement())\n  email      String   @unique\n  bookings   Booking[]\n}\n\nmodel Booking {\n  id          Int      @id @default(autoincrement())\n  user        User     @relation(fields: [userId], references: [id])\n  userId      Int\n  event       String\n  pending     Boolean  @default(true)\n  paymentId   String?\n}\n\nmodel Payment {\n  id          String   @id   @default(uuid())\n  bookingId   Int\n  amount      Float\n  createdAt   DateTime @default(now())\n}\n\n```\n\n3.5. Generate and apply the migrations:\n\n```\nnpx prisma migrate dev --name init\n```\n\nStep 4: Setup Stripe\n\n4.1. Install Stripe package:\n\n```\nnpm install stripe\n```\n\n4.2. Create a \"stripe.service.ts\" file in the \"src\" folder with the following content:\n\n```typescript\nimport { Injectable } from \"@nestjs/common\";\nimport Stripe from \"stripe\";\n\n@Injectable()\nexport class StripeService {\n  private stripe: Stripe;\n\n  constructor() {\n    this.stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {\n      apiVersion: \"2020-08-27\",\n    });\n  }\n\n  async createPaymentIntent(amount: number, currency: string): Promise<Stripe.PaymentIntent> {\n    return this.stripe.paymentIntents.create({\n      amount,\n      currency,\n    });\n  }\n\n  async confirmPaymentIntent(paymentIntentId: string): Promise<Stripe.PaymentIntent> {\n    return this.stripe.paymentIntents.confirm(paymentIntentId);\n  }\n}\n```\n\n4.3. In the \"app.module.ts\", import and add `StripeService` to the providers:\n\n```typescript\nimport { StripeService } from './stripe.service';\n\n@Module({\n  providers: [StripeService],\n})\nexport class AppModule {}\n```\n\nStep 5: Implement resolvers\n\n5.1. Create \"booking.resolver.ts\" in the \"src\" folder:\n\n```typescript\nimport { Resolver, Mutation, Args, Int } from '@nestjs/graphql';\nimport { StripeService } from './stripe.service';\nimport { PrismaService } from './prisma.service';\nimport { Booking } from '@prisma/client';\n\n@Resolver()\nexport class BookingResolver {\n  constructor(\n    private stripeService: StripeService,\n    private prisma: PrismaService,\n  ) {}\n\n  @Mutation(() => Booking)\n  async createBooking(\n    @Args('userId', { type: () => Int }) userId: number,\n    @Args('event', { type: () => String }) event: string,\n  ): Promise<Booking> {\n    // Amount and currency should be fetched from your system, based on the event.\n    const amount = 1000; // Example amount in cents\n    const currency = 'usd'; // Example currency\n\n    const paymentIntent = await this.stripeService.createPaymentIntent(amount, currency);\n\n    return this.prisma.booking.create({\n      data: {\n        user: { connect: { id: userId } },\n        event,\n        paymentId: paymentIntent.id,\n      },\n    });\n  }\n\n  @Mutation(() => Booking)\n  async confirmBooking(@Args('id', { type: () => Int }) id: number): Promise<Booking> {\n    const booking = await this.prisma.booking.findUnique({ where: { id } });\n\n    if (!booking || !booking.pending) {\n      throw new Error('Invalid booking');\n    }\n\n    await this.stripeService.confirmPaymentIntent(booking.paymentId);\n\n    return this.prisma.booking.update({\n      where: { id },\n      data: { pending: false },\n    });\n  }\n}\n```\n\n5.2. In \"app.module.ts\", import and add `BookingResolver` and `PrismaService` to the providers:\n\n```typescript\nimport { BookingResolver } from './booking.resolver';\nimport { PrismaService } from './prisma.service';\n\n@Module({\n  providers: [BookingResolver, StripeService, PrismaService],\n})\nexport class AppModule {}\n```\n\nNow you have a basic payment service ready to use. To test the application, run `npm run start:dev` and visit the GraphQL playground at `http://localhost:3000/graphql`. You can create bookings and confirm them using the NestJS, GraphQL, Prisma, and Stripe setup. Please note that this example lacks proper validation and error handling and should be used for educational purposes only.",
+      "started_at": "2026-04-26T03:41:03.176000Z",
+      "duration_ms": 54000,
+      "tokens_in": 0,
+      "tokens_out": 1330,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "How can I also create a checkout page that will interact with this new service ",
+      "started_at": "2026-04-26T03:41:58.676000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "To create a checkout page that interacts with your new payment service, you can use a frontend library or framework like React or Angular. In this example, we'll use React and Apollo Client to interact with the GraphQL server.\n\nStep 1: Set up a new React project\n\n1.1. Install `create-react-app` globally:\n\n```\nnpm install -g create-react-app\n```\n\n1.2. Create a new React project:\n\n```\ncreate-react-app payment-service-frontend\n```\n\n1.3. Change to the project directory:\n\n```\ncd payment-service-frontend\n```\n\nStep 2: Install required packages\n\n2.1. Install Apollo Client and related dependencies:\n\n```\nnpm install @apollo/client graphql\n```\n\n2.2. Install Stripe JS library:\n\n```\nnpm install @stripe/stripe-js\n```\n\nStep 3: Set up Apollo Client\n\n3.1. In `src/index.js`, import `ApolloClient`, `InMemoryCache`, and `ApolloProvider`, then set up a new instance of `ApolloClient`:\n\n```javascript\nimport { ApolloClient, InMemoryCache, ApolloProvider } from \"@apollo/client\";\n\nconst client = new ApolloClient({\n  uri: \"http://localhost:3000/graphql\",\n  cache: new InMemoryCache(),\n});\n```\n\n3.2. Wrap your App component with `ApolloProvider`:\n\n```javascript\nimport React from \"react\";\nimport ReactDOM from \"react-dom\";\nimport \"./index.css\";\nimport App from \"./App\";\nimport { ApolloClient, InMemoryCache, ApolloProvider } from \"@apollo/client\";\n\nconst client = new ApolloClient({\n  uri: \"http://localhost:3000/graphql\",\n  cache: new InMemoryCache(),\n});\n\nReactDOM.render(\n  <React.StrictMode>\n    <ApolloProvider client={client}>\n      <App />\n    </ApolloProvider>\n  </React.StrictMode>,\n  document.getElementById(\"root\")\n);\n```\n\nStep 4: Create a checkout page\n\n4.1. In `src/App.js`, create a new React component for the checkout page:\n\n```javascript\nimport { useMutation } from \"@apollo/client\";\nimport gql from \"graphql-tag\";\nimport { useEffect, useState } from \"react\";\nimport { loadStripe } from \"@stripe/stripe-js\";\n\nconst stripePromise = loadStripe(\"your_stripe_publishable_key\");\n\nconst CREATE_BOOKING = gql`\n  mutation CreateBooking($userId: Int!, $event: String!) {\n    createBooking(userId: $userId, event: $event) {\n      id\n      paymentId\n      pending\n    }\n  }\n`;\n\nfunction Checkout() {\n  const [createBooking] = useMutation(CREATE_BOOKING);\n  const [paymentId, setPaymentId] = useState(null);\n\n  const handleCheckout = async (userId, event) => {\n    const { data } = await createBooking({\n      variables: { userId, event },\n    });\n\n    if (data && data.createBooking) {\n      setPaymentId(data.createBooking.paymentId);\n    }\n  };\n\n  useEffect(() => {\n    if (!paymentId) {\n      return;\n    }\n\n    (async () => {\n      const stripe = await stripePromise;\n      const session = await fetch(\"/create-checkout-session\", {\n        method: \"POST\",\n        headers: { \"Content-Type\": \"application/json\" },\n        body: JSON.stringify({ paymentId }),\n      }).then((resp) => resp.json());\n\n      const result = await stripe.redirectToCheckout({\n        sessionId: session.id,\n      });\n\n      if (result.error) {\n        console.error(result.error.message);\n      }\n    })();\n  }, [paymentId]);\n\n  return (\n    <div>\n      <h1>Checkout</h1>\n      <button onClick={() => handleCheckout(1, \"Sample Event\")}>\n        Purchase Ticket\n      </button>\n    </div>\n  );\n}\n\nexport default Checkout;\n```\n\n4.2. Replace the contents of `src/App.js` with the following code:\n\n```javascript\nimport \"./App.css\";\nimport Checkout from \"./Checkout\";\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <Checkout />\n    </div>\n  );\n}\n\nexport default App;\n```\n\nNow, when a user clicks the \"Purchase Ticket\" button, a booking is created through the GraphQL server, and the user is redirected to the Stripe checkout page.\n\nPlease note that this example is for educational purposes only and lacks proper validation and error handling. Adjust this code according to your requirements before using it in production. Additionally, make sure to securely store Stripe API keys and do not expose them to the frontend. You may need to set up a backend route to create the Stripe checkout session.",
+      "started_at": "2026-04-26T03:42:01.204000Z",
+      "duration_ms": 41600,
+      "tokens_in": 0,
+      "tokens_out": 1020,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Where is the \u201c/create-checkout-session\u201d endpoint coming from?",
+      "started_at": "2026-04-26T03:42:44.304000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Apologies for the confusion. I didn't mention that you need to create that endpoint. To make a proper checkout, you should create a new backend route which will interact with the Stripe API to create the checkout session.\n\nIn the NestJS backend, you need to create a new route for `/create-checkout-session` that returns a Stripe checkout session. You can use the `stripe` instance created earlier in `stripe.service.ts`.\n\nHere's how to do that:\n\nStep 1: Create a new controller in the NestJS backend\n\n1.1. Generate a new controller using the NestJS CLI:\n\n```\nnest generate controller payment\n```\n\nStep 2: Create route `/create-checkout-session`\n\n2.1. Open the generated `payment.controller.ts` and import the required modules:\n\n```typescript\nimport { Controller, Post, Body, Res } from '@nestjs/common';\nimport { StripeService } from '../stripe.service';\n```\n\n2.2. Modify the `PaymentController` class to include the `/create-checkout-session` route:\n\n```typescript\n@Controller()\nexport class PaymentController {\n  constructor(private readonly stripeService: StripeService) {}\n\n  @Post('/create-checkout-session')\n  async createCheckoutSession(\n    @Body('paymentId') paymentId: string,\n    @Res() res: any,\n  ) {\n    // Here you can fetch amount and currency based on your system\n    const amount = 1000;\n    const currency = 'usd';\n\n    const session = await this.stripeService.stripe.checkout.sessions.create({\n      payment_method_types: ['card'],\n      line_items: [\n        {\n          price_data: {\n            currency,\n            product_data: {\n              name: 'Sample Event Ticket',\n            },\n            unit_amount: amount,\n          },\n          quantity: 1,\n        },\n      ],\n      mode: 'payment',\n      success_url: 'https://example.com/success',\n      cancel_url: 'https://example.com/cancel',\n      metadata: {\n        paymentId,\n      },\n    });\n\n    res.json(session);\n  }\n}\n\n```\n\nNow the `/create-checkout-session` route will be handled by the NestJS backend. Make sure to update the frontend's code to point to the newly created route:\n\n```javascript\nconst session = await fetch(\"http://localhost:3000/create-checkout-session\", { ... });\n```\n\nDon't forget to include the `PaymentController` in the `app.module.ts` file as well:\n\n```typescript\nimport { PaymentController } from './payment/payment.controller';\n\n@Module({\n  imports: [ ... ],\n  controllers: [PaymentController],\n  providers: [ ... ],\n})\nexport class AppModule {}\n```\n\nNow the `fetch(\"/create-checkout-session\")` call in the frontend will hit the new backend route in your NestJS application, and securely create the Stripe checkout session.",
+      "started_at": "2026-04-26T03:42:46.784000Z",
+      "duration_ms": 27200,
+      "tokens_in": 0,
+      "tokens_out": 660,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 52,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 8762,
+      "tokens_in": 5752,
+      "tokens_out": 3010,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 107,
+      "duration_ms": 126484,
+      "ai_wait_ms": 122800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.3532,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

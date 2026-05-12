@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ23ZY50YS7NE15YRR3CBXW7",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Business vocabulary for negotiation meeting",
+  "started_at": "2026-04-25T10:47:00Z",
+  "ended_at": "2026-04-25T10:47:30.380000Z",
+  "duration_ms": 30380,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Business vocabulary for negotiation meeting",
+      "started_at": "2026-04-25T10:47:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Proposal \u2013 a suggestion or offer made to another party during negotiations.\n\n2. Counterproposal \u2013 a response to a proposal made by the opposing party.\n\n3. Terms and conditions \u2013 the specific details of an agreement that are negotiated and agreed upon by both parties.\n\n4. Meeting agenda \u2013 a list of items to be discussed during the negotiation meeting.\n\n5. Concessions \u2013 compromises made by one party to reach a mutually acceptable agreement.\n\n6. Deadlock \u2013 a state of disagreement with no apparent solution.\n\n7. Bottom line \u2013 the final offer or agreement that both parties can accept.\n\n8. Protocol \u2013 the expected manner of conduct during a negotiation.\n\n9. Win-win situation \u2013 an agreement that benefits both parties involved in the negotiation.\n\n10. BATNA \u2013 Best Alternative To a Negotiated Agreement \u2013 the best alternative solution for both parties if the negotiation doesn't reach a mutually beneficial agreement.",
+      "started_at": "2026-04-25T10:47:02.420000Z",
+      "duration_ms": 10000,
+      "tokens_in": 0,
+      "tokens_out": 230,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are the questions asked by buyer in negotiation meeting and what are the answers of that questions",
+      "started_at": "2026-04-25T10:47:13.920000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to the specific negotiation meeting in question, so I cannot provide you with exact questions and answers. However, I can provide you with some general questions a buyer might ask during a negotiation meeting:\n\n1. Can you tell me more about the product/service you are offering?\n--Response: The seller would provide more details about the product/service, highlighting the benefits and features.\n\n2. What is your pricing structure?\n--Response: The seller would explain their pricing structure, detailing the costs included in the final price.\n\n3. Can you provide me with a discount or a better deal?\n--Response: The seller can offer a discount, but would need to explain why the price is at its current level and limit concessions that do not sacrifice much.\n\n4. What guarantees do you offer on your product/service?\n--Response: The seller would explain the warranty, guarantee, and after-sales service that they offer, reassuring the buyer of their commitment to satisfaction.\n\n5. What is your delivery schedule?\n--Response: The seller would explain their delivery schedule or timeframe, outlining any potential delays and how they would manage them.\n\n6. Can you provide references from satisfied customers?\n--Response: The seller would provide references and feedback from previous customers, inspiring trust in the buyer.\n\n7. What payment options do you provide?\n--Response: The seller would explain their payment options, including useful details on invoicing and records. \n\nThese are common questions but the specific questions will depend on the product and service offered as well as the concerns of the buyer. The seller's response would depend on the specific situation and the goals of the negotiation.",
+      "started_at": "2026-04-25T10:47:16.520000Z",
+      "duration_ms": 18360,
+      "tokens_in": 0,
+      "tokens_out": 439,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2144,
+      "tokens_in": 1475,
+      "tokens_out": 669,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 35,
+      "duration_ms": 30380,
+      "ai_wait_ms": 28360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

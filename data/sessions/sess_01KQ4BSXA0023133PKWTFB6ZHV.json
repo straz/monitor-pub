@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ4BSXA0023133PKWTFB6ZHV",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "please refine below sentences:",
+  "started_at": "2026-04-26T07:42:00Z",
+  "ended_at": "2026-04-26T07:42:24.856000Z",
+  "duration_ms": 24856,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "please refine below sentences:",
+      "started_at": "2026-04-26T07:42:00Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have previous context to refine the sentences provided. Please provide the sentences that need refinement.",
+      "started_at": "2026-04-26T07:42:02.384000Z",
+      "duration_ms": 2200,
+      "tokens_in": 0,
+      "tokens_out": 35,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Thanks XX for the introduction and thanks everyone for your time tonight. This is Tiger from CICC ECM and I would like to start with few things that has happened recently.\nFirst, after the deal team filed the main board listing on May 19 last Friday, we have taken several steps immediately. Over the weekend, we have gone through the list of existing strategic investors , and conducted 1on1 communication with each of them to update them the current project status. We have shared the new Main board prospectus, the IPO timeline with each of them and we standby 24x7 with the goal to secure their indicated investments.\nSecond, this week, we hosted a company wide sales teachin with all equity sales teams to update the project status and leverage our sales network to explore new strategic investors. The focus would be SOEs, mutual funds, insurance companies and QFII investors with strong financial capabilities.\nAnd so far, the feedback we have received are mainly two parts. \nThe first question we constantly get is related to our choice of STAR board IPO initially. We explained to clients that back in 2021 before the full registration-based IPO system rolls out, STAR Board was the market that accepts a variety of valuation methods and appreciate companies with advanced technology. Now, since the main board has also adopted the registration-based IPO system, it becomes a more suitable market for us because of better liquidity and the demonstrated capability to host large size IPO\u2019s like us.\nThe other question we get from clients is related to our 2023 financial performance and the 3 year growth forecast. \nNext Xuying will elaborate on the details of our adapted sales marketing strategy. But before that, lets see if BOCI team has anything to add\n",
+      "started_at": "2026-04-26T07:42:06.084000Z",
+      "duration_ms": 6092,
+      "tokens_in": 441,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Thank you, XX, for the introduction. I also appreciate everyone taking the time to join us tonight. My name is Tiger, and I'm from CICC ECM. First and foremost, I'd like to discuss a few recent developments. Following the filing of the main board listing on May 19th, we've immediately taken several steps. Over the weekend, we communicated with existing strategic investors one-on-one, keeping them updated on the project status, sharing the new Main board prospectus and IPO timeline, and ensuring their investment confirmation. We remain available 24/7 to provide any necessary support.\n\nSecondly, we hosted a company-wide sales meeting this week, with a focus on updating our sales network on the project's status and exploring new strategic investors. Specifically, the focus is on SOEs, mutual funds, insurance companies, and QFII investors with strong financial capabilities.\n\nSo far, we've received mainly two types of feedback from clients. The first is related to our choice of STAR board IPO initially. We explained the reasoning behind our decision and how the main board's registration-based IPO system makes it a more suitable market due to its better liquidity and track record of hosting large IPOs like ours. \n\nThe second question clients are asking us is related to our 2023 financial performance and three-year growth forecast. Xuying will be elaborating on our adapted sales marketing strategy specifics. But first, I'd like to see if the BOCI team has anything to add.",
+      "started_at": "2026-04-26T07:42:13.676000Z",
+      "duration_ms": 15680,
+      "tokens_in": 0,
+      "tokens_out": 372,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2097,
+      "tokens_in": 1690,
+      "tokens_out": 407,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 448,
+      "duration_ms": 24856,
+      "ai_wait_ms": 17880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

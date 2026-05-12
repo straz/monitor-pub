@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPWZFN4026J8T1F0NP0FB2G0",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "EXPAND THIS TEXT \"Objective of this case study id to introduce the Methicillin-resistant Staphylococcus aureus (MRSA) , \u2026",
+  "started_at": "2026-04-23T10:52:00Z",
+  "ended_at": "2026-04-23T10:52:35.704000Z",
+  "duration_ms": 35704,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "EXPAND THIS TEXT \"Objective of this case study id to introduce the Methicillin-resistant Staphylococcus aureus (MRSA) , its types, history symptoms, risks, treatment , evaluation, complication and how to prevent MRSA.\"",
+      "started_at": "2026-04-23T10:52:00Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Methicillin-resistant Staphylococcus aureus (MRSA) is a type of bacteria that is resistant to certain antibiotics and is becoming increasingly prevalent in healthcare settings. The objective of this case study is to provide a comprehensive introduction to MRSA, including information on its types, history, symptoms, risks, treatment, evaluation, complications and prevention.\n\nThere are two main types of MRSA: healthcare-associated MRSA (HA-MRSA) and community-associated MRSA (CA-MRSA). HA-MRSA typically affects people who have been hospitalized or underwent invasive medical procedures, while CA-MRSA commonly affects healthy people who are living in crowded or unsanitary conditions.\n\nThe history of MRSA can be traced back to the 1960s, when it was first identified. Over the years, the incidence of MRSA has steadily increased, and it is now a significant public health concern.\n\nSymptoms of MRSA may range from mild skin infections to more severe infections that result in sepsis, pneumonia, or other life-threatening conditions. Patients who are at increased risk for MRSA include those who have weakened immune systems, have previously been hospitalized, or have chronic medical conditions.\n\nTreatment options for MRSA include a variety of antibiotics, such as vancomycin, daptomycin, or linezolid. However, the increasing prevalence of MRSA has made it more difficult to treat, and healthcare providers must be mindful of the potential complications associated with antibiotic resistance.\n\nTo evaluate MRSA, doctors may conduct a physical exam, laboratory tests, or imaging studies. They may also use a culture or sensitivity test to help identify the specific strain of MRSA that is causing the infection.\n\nComplications of MRSA may range from mild to severe, and can include cellulitis, sepsis, and even death. Patients with MRSA infections may require hospitalization, surgery, or other specialized treatments to address their condition.\n\nPreventing MRSA is possible by adopting a range of strategies, including hand hygiene, infection control precautions, and appropriate use of antibiotics. Patients who are diagnosed with MRSA should follow their doctor's instructions carefully, and take steps to reduce their risk of spreading the infection to others.\n\nOverall, understanding MRSA is essential for healthcare providers, patients, and the general public, as it is a growing public health concern that requires ongoing attention and prevention efforts.",
+      "started_at": "2026-04-23T10:52:02.948000Z",
+      "duration_ms": 25480,
+      "tokens_in": 0,
+      "tokens_out": 617,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "wRITE INTRO ABOUT THIS ASSIGNMENT \"Objective of this case study iS to introduce the Methicillin-resistant Staphylococcus aureus (MRSA) , its types, history symptoms, risks, treatment , evaluation, complication and how to prevent MRSA \"",
+      "started_at": "2026-04-23T10:52:29.928000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Methicillin-resistant Staphylococcus aureus (MRSA) is a type of bacteria that is increasingly becoming prevalent in healthcare settings, causing concern among healthcare providers and the public. The objective of this case study is to provide a comprehensive introduction to MRSA by exploring its various aspects, including its types, history, symptoms, risks, treatment, evaluation, complications, and prevention measures. By doing so, this case study aims to help healthcare providers and the general public understand the significance of MRSA and the importance of prevention and treatment strategies to mitigate its impact on public health.",
+      "started_at": "2026-04-23T10:52:32.924000Z",
+      "duration_ms": 7280,
+      "tokens_in": 0,
+      "tokens_out": 162,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2762,
+      "tokens_in": 1983,
+      "tokens_out": 779,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 112,
+      "duration_ms": 35704,
+      "ai_wait_ms": 32760,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00DK2ZFGAFJKY2WQ67",
+      "tenant": "kurson-health",
+      "session": "sess_01KPWZFN4026J8T1F0NP0FB2G0",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "wRITE INTRO ABOUT THIS ASSIGNMENT \"Objective of this case study iS to introduce the Methicillin-resistant Staphylococcus aureus (MRSA) , its types, history symptoms, risks, treatment , evaluation, complication and how to prevent MRSA \"",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPWZFN4026J8T1F0NP0FB2G0.json",
+        "turn_uri": "data/sessions/sess_01KPWZFN4026J8T1F0NP0FB2G0.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.69).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

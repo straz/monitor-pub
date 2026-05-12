@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPPSEC5037ZT2NGEYF8E5XPH",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "What does EMS mean in medical imaging",
+  "started_at": "2026-04-21T01:11:00Z",
+  "ended_at": "2026-04-21T01:11:11.768000Z",
+  "duration_ms": 11768,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What does EMS mean in medical imaging",
+      "started_at": "2026-04-21T01:11:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "EMS stands for Electronic Medical System. It is a computerized system that is used to manage patient information and administrative tasks related to medical imaging. It allows healthcare professionals to store and retrieve patient data, including medical images and reports, electronically. EMS can also be used to track patient appointments, manage inventory, and generate billing statements.",
+      "started_at": "2026-04-21T01:11:02.408000Z",
+      "duration_ms": 4720,
+      "tokens_in": 0,
+      "tokens_out": 98,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Ems mean in ultrasound",
+      "started_at": "2026-04-21T01:11:08.628000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "In ultrasound, EMS does not have a specific meaning on its own. However, EMS can refer to Emergency Medical Services, which are medical care and transport services that deliver emergency medical care to patients who are injured or in critical condition. In the context of an ultrasound performed by EMS, it may refer to an ultrasound examination performed by paramedics or other emergency medical personnel while responding to an emergency situation.",
+      "started_at": "2026-04-21T01:11:10.988000Z",
+      "duration_ms": 5280,
+      "tokens_in": 0,
+      "tokens_out": 112,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1531,
+      "tokens_in": 1321,
+      "tokens_out": 210,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 14,
+      "duration_ms": 11768,
+      "ai_wait_ms": 10000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.001,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

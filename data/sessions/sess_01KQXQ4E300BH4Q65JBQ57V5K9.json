@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQXQ4E300BH4Q65JBQ57V5K9",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "edit in 90 words maxium : According to the resource-based view (RBV), IT capabilities are a source of competitive advant\u2026",
+  "started_at": "2026-05-06T04:01:00Z",
+  "ended_at": "2026-05-06T04:01:14.348000Z",
+  "duration_ms": 14348,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit in 90 words maxium : According to the resource-based view (RBV), IT capabilities are a source of competitive advantage that cannot be easily replicated by competitors, in contrast to IT resources. However, certain IT capabilities may lose their distinctiveness over time and become standardized and reclassified as IT resources. Physical IT infrastructure has long been viewed as a core capability in numerous studies, the rapid growth of digital technologies, such as cloud computing, has led to a question as to whether this traditional viewpoint remains valid in the context of hospitals, particularly during the process of DT, which this study addressed this doubt.  ",
+      "started_at": "2026-05-06T04:01:00Z",
+      "duration_ms": 2828,
+      "tokens_in": 169,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The RBV suggests that IT capabilities are a competitive advantage that cannot be replicated by competitors unlike IT resources. However, IT capabilities may become standardized and classified as IT resources over time. Despite physical IT infrastructure being viewed as a core capability, the rise of digital technologies has questioned this view in hospitals during the process of digital transformation. This study aims to address this issue and explore the validity of the traditional viewpoint.",
+      "started_at": "2026-05-06T04:01:04.328000Z",
+      "duration_ms": 5760,
+      "tokens_in": 0,
+      "tokens_out": 124,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Physical IT infrastructure has long been viewed as a core capability in numerous studies, the rapid growth of digital technologies, such as cloud computing, has questioned this traditional view. This study aimed to address this doubt in hospitals during the process of DT.  ",
+      "started_at": "2026-05-06T04:01:11.588000Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Numerous studies have traditionally viewed physical IT infrastructure as a core capability. However, with the rapid growth of digital technologies, including cloud computing, this viewpoint has been called into question. This study seeks to address this doubt specifically in the context of hospitals undergoing digital transformation.",
+      "started_at": "2026-05-06T04:01:14.728000Z",
+      "duration_ms": 4120,
+      "tokens_in": 0,
+      "tokens_out": 83,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1939,
+      "tokens_in": 1732,
+      "tokens_out": 207,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 239,
+      "duration_ms": 14348,
+      "ai_wait_ms": 9880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

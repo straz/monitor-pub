@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KR100RE0N2JAV30KRYQ1N409",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "SELECT",
+  "started_at": "2026-05-07T10:34:00Z",
+  "ended_at": "2026-05-07T10:34:34.288000Z",
+  "duration_ms": 34288,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "SELECT\nNULL GenelBilgiler,\n(CASE WHEN sd.EntryDate IS NULL THEN (Format(sd.ValueDate, N\u2019MMddyy\u2019)) ELSE sd.EntryDate + Format(sd.ValueDate, N\u2019yy\u2019) END) EntryDate,\nsd.ValueDate,\nra.BankAccountsId,\nra.SWIFTCode,\nra.AccountNumber,\nra.AccountSuffix,\nLEFT(c.CustomerName,100) CustomerName,\nf.FecCode,\nFORMAT((CONVERT(VARCHAR(50),(CASE WHEN DebitCreditCode IN (\u2018D\u2019,\u2018RC\u2019) THEN sd.Amount ELSE 0 END) )),\u2018N2\u2019,\u2018tr-tr\u2019) StatementDebit,\n(CASE WHEN DebitCreditCode IN (\u2018C\u2019,\u2018RD\u2019) THEN sd.Amount ELSE 0 END) StatementCredit,\n0.00 AccountingDebit,\n0.00 AccountingCredit,\nsd.AccountsReference + \u2019 \u2019 + sd.InstitutionsReference + \u2019 \u2019 + sd.SupplementaryDetails SharedReferanceDetails,\nsd.InformationToAccountOwner,\nsd.IdentificationCode,\nNULL AccSystemDate,\nNULL AccUserName,\nNULL ResourceName,\nNULL BusinessKey\nFROM BOA.RCC.BankAccounts ra WITH (NOLOCK)\nJOIN BOA.CUS.Customer c WITH (NOLOCK) ON c.Customerid=ra.AccountNumber\nJOIN BOA.COR.FEC f WITH (NOLOCK) ON f.FecId=ra.FEC\nJOIN BOA.RCC.SwiftDebit sd WITH (NOLOCK) ON sd.BankAccountsId=ra.BankAccountsId AND sd.Status=\u2018U\u2019\nWHERE ra.BankAccountsId = 21\u2013(SELECT BankAccountsId FROM #BankAccounts WHERE Id = @Incrementer) AND f.FecGroup IN (0,1) AND ra.IsActive = 1 . Argument data type varchar is invalid for argument 1 of format function hatas\u0131n\u0131 d\u00fczeltip tekrar yazar m\u0131s\u0131n",
+      "started_at": "2026-05-07T10:34:00Z",
+      "duration_ms": 4712,
+      "tokens_in": 326,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "SELECT\nNULL GenelBilgiler,\n(CASE WHEN sd.EntryDate IS NULL THEN (CONVERT(VARCHAR(10),sd.ValueDate, 101)) ELSE sd.EntryDate + RIGHT(CONVERT(VARCHAR(10),sd.ValueDate, 101),2) END) EntryDate,\nsd.ValueDate,\nra.BankAccountsId,\nra.SWIFTCode,\nra.AccountNumber,\nra.AccountSuffix,\nLEFT(c.CustomerName,100) CustomerName,\nf.FecCode,\nFORMAT((CASE WHEN DebitCreditCode IN ('D','RC') THEN sd.Amount ELSE 0 END ),'N2','tr-tr') StatementDebit,\n(CASE WHEN DebitCreditCode IN ('C','RD') THEN sd.Amount ELSE 0 END) StatementCredit,\n0.00 AccountingDebit,\n0.00 AccountingCredit,\nsd.AccountsReference + ' ' + sd.InstitutionsReference + ' ' + sd.SupplementaryDetails SharedReferanceDetails,\nsd.InformationToAccountOwner,\nsd.IdentificationCode,\nNULL AccSystemDate,\nNULL AccUserName,\nNULL ResourceName,\nNULL BusinessKey\nFROM BOA.RCC.BankAccounts ra WITH (NOLOCK)\nJOIN BOA.CUS.Customer c WITH (NOLOCK) ON c.Customerid=ra.AccountNumber\nJOIN BOA.COR.FEC f WITH (NOLOCK) ON f.FecId=ra.FEC\nJOIN BOA.RCC.SwiftDebit sd WITH (NOLOCK) ON sd.BankAccountsId=ra.BankAccountsId AND sd.Status='U'\nWHERE ra.BankAccountsId = 21--(SELECT BankAccountsId FROM #BankAccounts WHERE Id = @Incrementer) \nAND f.FecGroup IN (0,1) AND ra.IsActive = 1",
+      "started_at": "2026-05-07T10:34:06.212000Z",
+      "duration_ms": 12760,
+      "tokens_in": 0,
+      "tokens_out": 299,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "SELECT\n\t\tNULL GenelBilgiler,\n\t\t(CASE  WHEN sd.EntryDate  IS NULL THEN (Format(sd.ValueDate, N'MMddyy')) ELSE sd.EntryDate + Format(sd.ValueDate, N'yy') END) EntryDate,\n\t\tsd.ValueDate,\n\t\tra.BankAccountsId,\n\t\tra.SWIFTCode,\n\t\tra.AccountNumber,\n\t\tra.AccountSuffix,\n\t\tLEFT(c.CustomerName,100) CustomerName,\n\t\tf.FecCode,\n\t\tFORMAT((CAST((CASE WHEN DebitCreditCode IN ('D','RC') THEN sd.Amount ELSE 0 END) AS VARCHAR(20) )),'N2','tr-tr') StatementDebit,\n\t\t(CASE WHEN DebitCreditCode IN ('C','RD') THEN sd.Amount ELSE 0 END) StatementCredit,\n\t\t0.00 AccountingDebit,\n\t\t0.00 AccountingCredit,\n\t\tsd.AccountsReference + ' ' + sd.InstitutionsReference + ' ' + sd.SupplementaryDetails SharedReferanceDetails,\t\n\t\tsd.InformationToAccountOwner,\n\t\tsd.IdentificationCode,\n\t\tNULL AccSystemDate,\n\t\tNULL AccUserName,\n\t\tNULL ResourceName,\n\t\tNULL BusinessKey\n\tFROM BOA.RCC.BankAccounts ra WITH (NOLOCK)\n\tJOIN BOA.CUS.Customer c WITH (NOLOCK) ON c.Customerid=ra.AccountNumber\n\tJOIN BOA.COR.FEC f WITH (NOLOCK) ON f.FecId=ra.FEC\n\tJOIN BOA.RCC.SwiftDebit sd WITH (NOLOCK) ON sd.BankAccountsId=ra.BankAccountsId AND sd.Status='U'\n\tWHERE ra.BankAccountsId = 21 bu sp deki statementDebit kolonunu  sonucu \u2018999G999G999D99\u2019 format\u0131nda verecek \u015fekilde sp yi d\u00fczenle ",
+      "started_at": "2026-05-07T10:34:20.472000Z",
+      "duration_ms": 4496,
+      "tokens_in": 308,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "SELECT\n\t\tNULL GenelBilgiler,\n\t\t(CASE  WHEN sd.EntryDate  IS NULL THEN (Format(sd.ValueDate, N'MMddyy')) ELSE sd.EntryDate + Format(sd.ValueDate, N'yy') END) EntryDate,\n\t\tsd.ValueDate,\n\t\tra.BankAccountsId,\n\t\tra.SWIFTCode,\n\t\tra.AccountNumber,\n\t\tra.AccountSuffix,\n\t\tLEFT(c.CustomerName,100) CustomerName,\n\t\tf.FecCode,\n\t\tREPLACE(CONVERT(VARCHAR(20), CAST(CAST((CASE WHEN DebitCreditCode IN ('D','RC') THEN sd.Amount ELSE 0 END) AS MONEY),0),1),'.' , 'G') AS StatementDebit,\n\t\t(CASE WHEN DebitCreditCode IN ('C','RD') THEN sd.Amount ELSE 0 END) StatementCredit,\n\t\t0.00 AccountingDebit,\n\t\t0.00 AccountingCredit,\n\t\tsd.AccountsReference + ' ' + sd.InstitutionsReference + ' ' + sd.SupplementaryDetails SharedReferanceDetails,\t\n\t\tsd.InformationToAccountOwner,\n\t\tsd.IdentificationCode,\n\t\tNULL AccSystemDate,\n\t\tNULL AccUserName,\n\t\tNULL ResourceName,\n\t\tNULL BusinessKey\n\tFROM BOA.RCC.BankAccounts ra WITH (NOLOCK)\n\tJOIN BOA.CUS.Customer c WITH (NOLOCK) ON c.Customerid=ra.AccountNumber\n\tJOIN BOA.COR.FEC f WITH (NOLOCK) ON f.FecId=ra.FEC\n\tJOIN BOA.RCC.SwiftDebit sd WITH (NOLOCK) ON sd.BankAccountsId=ra.BankAccountsId AND sd.Status='U'\n\tWHERE ra.BankAccountsId = 21",
+      "started_at": "2026-05-07T10:34:26.468000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3046,
+      "tokens_in": 2459,
+      "tokens_out": 587,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 634,
+      "duration_ms": 34288,
+      "ai_wait_ms": 25080,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0063HPYFCWJFN7WWMN",
+      "tenant": "axiom-bank",
+      "session": "sess_01KR100RE0N2JAV30KRYQ1N409",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "SELECT\n\t\tNULL GenelBilgiler,\n\t\t(CASE  WHEN sd.EntryDate  IS NULL THEN (Format(sd.ValueDate, N'MMddyy')) ELSE sd.EntryDate + Format(sd.ValueDate, N'yy') END) EntryDate,\n\t\tsd.ValueDate,\n\t\tra.BankAccountsId,\n\t\tra.SWIFTCode,\n\t\tra.AccountNumber,",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR100RE0N2JAV30KRYQ1N409.json",
+        "turn_uri": "data/sessions/sess_01KR100RE0N2JAV30KRYQ1N409.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.53).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

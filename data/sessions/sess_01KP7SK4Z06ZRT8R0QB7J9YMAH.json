@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KP7SK4Z06ZRT8R0QB7J9YMAH",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "Which financial statement's structure is closest to that of the basic accounting equation?",
+  "started_at": "2026-04-15T05:25:00Z",
+  "ended_at": "2026-04-15T05:25:18.984000Z",
+  "duration_ms": 18984,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which financial statement's structure is closest to that of the basic accounting equation?\n\nIncome Statement\n\nStatement Of Stockholders\u2019 Equity\n\nBalance Sheet\n\nRetained Earnings",
+      "started_at": "2026-04-15T05:25:00Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Balance Sheet",
+      "started_at": "2026-04-15T05:25:02.828000Z",
+      "duration_ms": 920,
+      "tokens_in": 0,
+      "tokens_out": 3,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Your firm has a risk-free investment opportunity where it can invest $140,000 today and receive $150,000 in one year. For what level of interest rates is this project attractive?",
+      "started_at": "2026-04-15T05:25:05.248000Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "To determine the level of interest rates that would make this project attractive, we need to calculate the net present value (NPV) of the investment opportunity using different discount rates:\n\nNPV = -$140,000 + $150,000 / (1 + r)\n\nWhere r is the annual interest rate. \n\nSimplifying the equation, we get:\n\nNPV = -$140,000 + $150,000 / (1 + r) = $0 \n\nNow we can solve for r:\n\n$150,000 / (1 + r) = $140,000\n\n1 + r = $150,000 / $140,000\n\n1 + r = 1.0714\n\nr = 0.0714 or 7.14%\n\nTherefore, for interest rates below 7.14%, this investment opportunity is attractive, since the NPV would be positive. For interest rates above 7.14%, the NPV would be negative, indicating that the project would not generate a return that compensates for its initial cost.",
+      "started_at": "2026-04-15T05:25:08.076000Z",
+      "duration_ms": 8240,
+      "tokens_in": 0,
+      "tokens_out": 186,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "The changes that occurred during a recent year in the accounts Retained Earnings and Treasury Stock will be found in which financial statement?\n\nStatement Of Stockholders\u2019 Equity\n\nIncome Statement\n\nBalance Sheet\n\nAccounts Receivable",
+      "started_at": "2026-04-15T05:25:17.816000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Statement Of Stockholders\u2019 Equity",
+      "started_at": "2026-04-15T05:25:20.812000Z",
+      "duration_ms": 1120,
+      "tokens_in": 0,
+      "tokens_out": 8,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "The combination of Selling Expenses and Administrative Expenses is referred to as\n\nGeneral Expenses\n\nOperating Expenses\n\nTotal Expenses\n\nOperating Income",
+      "started_at": "2026-04-15T05:25:23.432000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Operating Expenses",
+      "started_at": "2026-04-15T05:25:26.188000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Engineering leadership is defined as the ability to join a group of engineers and technical personnel responsible for creating, designing, developing, implementing, and evaluating products, systems, or services\nSelect one:\nTrue\nFalse\n",
+      "started_at": "2026-04-15T05:25:28.648000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "True",
+      "started_at": "2026-04-15T05:25:31.644000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 37,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4496,
+      "tokens_in": 4294,
+      "tokens_out": 202,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 242,
+      "duration_ms": 18984,
+      "ai_wait_ms": 12080,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

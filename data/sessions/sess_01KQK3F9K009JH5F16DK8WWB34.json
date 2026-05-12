@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KQK3F9K009JH5F16DK8WWB34",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Salesforce zuora cpq interview questions for experianc",
+  "started_at": "2026-05-02T01:05:00Z",
+  "ended_at": "2026-05-02T01:05:34.748000Z",
+  "duration_ms": 34748,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Salesforce zuora cpq interview questions for experianc",
+      "started_at": "2026-05-02T01:05:00Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "ed candidates:\n\n1. What is the difference between Salesforce and Zuora CPQ?\n2. How do you integrate Salesforce and Zuora CPQ?\n3. Can you explain the process of setting up a product catalog in Zuora CPQ?\n4. What are some of the key features of Salesforce CPQ?\n5. Can you describe the pricing model used by Zuora CPQ and how it differs from other pricing models?\n6. How do you configure product bundles in Salesforce CPQ?\n7. What is the process for creating a quote in Zuora CPQ?\n8. Can you describe the different types of billing schedules available in Zuora CPQ and how they work?\n9. How do you handle discounts and promotions in Salesforce CPQ?\n10. Can you walk us through an example of how you would use the Salesforce-Zuora CPQ integration to create and process a new subscription for a customer?",
+      "started_at": "2026-05-02T01:05:02.456000Z",
+      "duration_ms": 8760,
+      "tokens_in": 0,
+      "tokens_out": 199,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "5. Can you describe the pricing model used by Zuora CPQ and how it differs from other pricing models?\n",
+      "started_at": "2026-05-02T01:05:12.716000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The pricing model used by Zuora CPQ is subscription-based pricing, which allows customers to purchase products or services on a recurring basis. This differs from other pricing models, such as one-time purchase pricing or consumption-based pricing. \n\nIn subscription-based pricing, customers are typically charged a recurring fee at regular intervals (such as monthly or annually) for continued access to the product or service. This can provide a more predictable revenue stream for the company and may be more affordable for the customer, as the cost is spread out over time.\n\nZuora CPQ also offers flexible pricing options, such as usage-based pricing, which allows customers to pay based on the amount of resources used. This can be particularly useful for companies offering cloud-based services or other types of digital platforms where usage can vary significantly.\n\nOverall, the pricing model used by Zuora CPQ is designed to be flexible and adaptable to different types of recurring revenue models, making it a popular choice for subscription-based businesses.",
+      "started_at": "2026-05-02T01:05:15.316000Z",
+      "duration_ms": 11480,
+      "tokens_in": 0,
+      "tokens_out": 267,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Interview questions for salesforce development",
+      "started_at": "2026-05-02T01:05:28.296000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. What inspired you to pursue a career in Salesforce development?\n2. How do you stay current with Salesforce technology and updates?\n3. How do you handle code version control and deployment in Salesforce?\n4. What is your experience with Apex development? Can you give us an example of a complex Apex trigger you've developed?\n5. What are some best practices for designing data models in Salesforce?\n6. Explain the relationship between a custom object and a custom tab. \n7. Have you worked with Visualforce pages? How do you ensure their performance is optimized?\n8. Can you explain the lightning component framework and how it differs from Visualforce?\n9. Have you worked with Salesforce API integrations? Can you describe the process of integrating Salesforce with an external application?\n10. How do you approach solving technical challenges in Salesforce development?\n\nNote: Depending on the level of experience required for the position, interviewers may ask more technical and complex questions to assess the candidate's skills and knowledge in Salesforce development.",
+      "started_at": "2026-05-02T01:05:30.728000Z",
+      "duration_ms": 11520,
+      "tokens_in": 0,
+      "tokens_out": 268,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 34,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3299,
+      "tokens_in": 2565,
+      "tokens_out": 734,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 49,
+      "duration_ms": 34748,
+      "ai_wait_ms": 31760,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ003C22QNE14009HCW1",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQK3F9K009JH5F16DK8WWB34",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Interview questions for salesforce development",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQK3F9K009JH5F16DK8WWB34.json",
+        "turn_uri": "data/sessions/sess_01KQK3F9K009JH5F16DK8WWB34.json#turns/4"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

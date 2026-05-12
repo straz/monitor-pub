@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPFG1G80KPMQQZCVMS3E89P3",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "give me a list of criteria for trading penny stocks that are profitable and successful and that stocks are ready to expl\u2026",
+  "started_at": "2026-04-18T05:12:00Z",
+  "ended_at": "2026-04-18T05:12:40.644000Z",
+  "duration_ms": 40644,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "give me a list of criteria for trading penny stocks that are profitable and successful and that stocks are ready to explode be more clear and specific and detailed ad practical",
+      "started_at": "2026-04-18T05:12:00Z",
+      "duration_ms": 1328,
+      "tokens_in": 44,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Volume: Look for penny stocks with high trading volumes, as this indicates that a large number of traders are interested in the stock and it is likely to have more liquidity.\n\n2. Catalysts: Identify stocks that have upcoming catalysts such as earnings releases, FDA approvals, or new product launches as they can trigger a sharp price increase.\n\n3. Technical Analysis: Utilize technical analysis to look for chart patterns, such as a breakout or a trend reversal, that indicate a stock is ripe for a surge.\n\n4. Fundamental Analysis: Analyze the company's financials, such as revenue growth, profitability, and debt levels, to estimate its future prospects.\n\n5. Industry and Sector Growth: Look for penny stocks in industries and sectors that are experiencing rapid growth as these companies are more likely to prosper over the long-term.\n\n6. Insider Buying: Keep an eye on insider buying as it is a sign of confidence from the top management of the company in their own company.\n\n7. Short Interest: Keep an eye on short interest as it indicates how many investors are betting against the stock. High short interest can set up for a short squeeze.\n\n8. Timely Exit Strategy: Determine your desired profit level and exit strategy before making any trade. Do not expect to hold onto penny stocks for long periods of time.\n\n9. Risk Management: Invest only what you can afford to lose. Risk management should be an integral part of your trading plan.\n\n10. Research and Due Diligence: Do thorough research and due diligence on every penny stock prior to investing. This will help you stay informed and make informed decisions about your investments.",
+      "started_at": "2026-04-18T05:12:02.828000Z",
+      "duration_ms": 17240,
+      "tokens_in": 0,
+      "tokens_out": 411,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": " be more clear and specific and detailed ad practical",
+      "started_at": "2026-04-18T05:12:21.568000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Volume: Look for penny stocks with high trading volumes. This means that there are a large number of buyers and sellers, which can provide more liquidity for your trades.\n\n2. Catalysts: Identify stocks that have upcoming catalysts. For example, earnings releases, FDA approvals, or new product launches can trigger sharp price increases. Keep a calendar of these events so you can plan your investments accordingly.\n\n3. Technical Analysis: Utilize technical analysis to look for chart patterns that suggest a stock is ready to make a move. For example, a bullish flag could indicate an upcoming breakout.\n\n4. Fundamental Analysis: Analyze the company's financials to estimate future prospects. Look for companies with strong fundamentals such as revenue growth, profitability, and manageable debt levels.\n\n5. Industry and Sector Growth: Look for penny stocks in industries and sectors that are experiencing rapid growth. These industries are likely to see more investor interest, leading to increased demand for the stocks.\n\n6. Insider Buying: Check to see if insiders are buying shares of the company. If insiders are purchasing shares, it could be a good sign that they believe in the company's future.\n\n7. Short Interest: Check the short interest on the stock. If there is high short interest, it could indicate that a short squeeze is possible if the stock price rises.\n\n8. Timely Exit Strategy: Determine your desired profit and exit strategy before making any trade. Since penny stocks can be volatile, it's important to have a plan in place for when to take profits or cut losses.\n\n9. Risk Management: Invest only what you can afford to lose. Penny stocks come with a higher risk of loss, so it's important to be realistic about how much you're willing to invest and how much you may lose.\n\n10. Research and Due Diligence: Do thorough research and due diligence on every penny stock prior to investing. Look at financial reports, analyst opinions, news articles, and more to make informed decisions about your investments.",
+      "started_at": "2026-04-18T05:12:24.024000Z",
+      "duration_ms": 21120,
+      "tokens_in": 0,
+      "tokens_out": 508,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2631,
+      "tokens_in": 1712,
+      "tokens_out": 919,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 57,
+      "duration_ms": 40644,
+      "ai_wait_ms": 38360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

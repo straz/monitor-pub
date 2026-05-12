@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KP7RJ69054FVKBER492FPN28",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "ow do I bring up compensation? Like if they ask how much I expect what\u2019s a good way to divert that back on them?",
+  "started_at": "2026-04-15T05:07:00Z",
+  "ended_at": "2026-04-15T05:07:34.600000Z",
+  "duration_ms": 34600,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "ow do I bring up compensation? Like if they ask how much I expect what\u2019s a good way to divert that back on them?",
+      "started_at": "2026-04-15T05:07:00Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, my objective is to provide helpful assistance to you. Here are a few tips on bringing up compensation during a job interview.\n\n1. Do your research beforehand. Before any job interview, it's important to research the company and the role you're applying for. This way, you'll have an idea of what the salary range might be for the position.\n\n2. Wait until the employer brings it up. Generally, it's best to wait for the interviewer to bring up salary and benefits first, or at least until they explain a bit more about the position and what it entails. However, if they ask what salary range you're looking for, be prepared with a range based on your research.\n\n3. Be honest. If the employer asks about your salary expectations, it's important to be honest but also flexible. State what you believe is a reasonable range based on your research and previous experience but be open to negotiating.\n\n4. Be confident. You should not be afraid to bring up compensation, particularly if it is part of the reason you are seeking employment. Confidence can be the key to getting the salary you deserve.\n\n5. Divert the conversation to your value. If the interviewer is hesitant to discuss compensation, you can try to redirect the conversation by talking about the value you can bring to the role and the company. This will help the employer understand why you are the right candidate for the job, and they may be more inclined to offer a higher salary to attract you.",
+      "started_at": "2026-04-15T05:07:02.636000Z",
+      "duration_ms": 15600,
+      "tokens_in": 0,
+      "tokens_out": 370,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": " but if they ask what I expect/want I don\u2019t want to under sell myself and would rather flip it on them and ask what it\u2019s paying",
+      "started_at": "2026-04-15T05:07:19.736000Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "If they ask what you expect or want, you can say something like \"I'm open to negotiations, but before we get into that, I would love to learn more about the role and the responsibilities it entails. Could you tell me more about the position, including the salary range you have in mind?\" This will allow you to gauge their expectations and have a better idea of what to expect. It's a good idea to have done some research on the salary range for the position before the interview so you know if their offer is reasonable or not.",
+      "started_at": "2026-04-15T05:07:22.408000Z",
+      "duration_ms": 6080,
+      "tokens_in": 0,
+      "tokens_out": 132,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "can you say that in a more professional range ",
+      "started_at": "2026-04-15T05:07:29.988000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Certainly. Here are some more professional ways to respond:\n\n1. \"While I do have certain compensation expectations, I am more interested in learning about the responsibilities and expectations of the role. When discussing compensation, I would prefer to work within a range that aligns with industry standards and is in line with the scope of the role. With that said, would you be comfortable sharing the salary range you have in mind?\"\n\n2. \"At this point, I am open to discussing compensation, but my priority is to learn more about the job and its responsibilities. Once I have a better understanding of the role, I believe I can more accurately assess my compensation expectations. Can you share with me how the salary is structured within the company?\"\n\nThese responses focus on the importance of the role and allow you to indirectly ask about compensation without sounding too pushy.",
+      "started_at": "2026-04-15T05:07:32.420000Z",
+      "duration_ms": 9680,
+      "tokens_in": 0,
+      "tokens_out": 222,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3553,
+      "tokens_in": 2829,
+      "tokens_out": 724,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 70,
+      "duration_ms": 34600,
+      "ai_wait_ms": 31360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

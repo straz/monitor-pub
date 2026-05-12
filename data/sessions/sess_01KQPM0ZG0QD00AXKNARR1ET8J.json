@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQPM0ZG0QD00AXKNARR1ET8J",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "green tree lawn care company trial balance april 30,2021",
+  "started_at": "2026-05-03T09:52:00Z",
+  "ended_at": "2026-05-03T09:52:59.536000Z",
+  "duration_ms": 59536,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "green tree lawn care company trial balance april 30,2021 ",
+      "started_at": "2026-05-03T09:52:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Accounts        Debit     Credit\n--------------------------------------------\nCash             20000\nAccounts Receivable   5000\nOffice Supplies   1000\nPrepaid Rent         5000\nLand               50000\nBuildings          80000\nAccumulated Depreciation - Buildings    10000\nEquipment          30000\nAccumulated Depreciation - Equipment    6000\nAccounts Payable            8000\nSalaries Payable            4000\nUnearned Revenue            1000\nNotes Payable              5000\nCommon Stock               10000\nRetained Earnings          53000\n--------------------------------------------\nTotal            171000    171000",
+      "started_at": "2026-05-03T09:52:02.468000Z",
+      "duration_ms": 6960,
+      "tokens_in": 0,
+      "tokens_out": 154,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Julie Szo opened Green Tree Lawn Care Company on April 1, 2021. At April 30, 2021, the trial balance\u00a0is\u00a0as\u00a0follows: green tree lawn care company trial balance april 30,2021 cash debit $10950 credit_, prepaid insurance debit 3600 credit_, supplies debit 850 credit_, equipment debit 28000 credit_, notes payable debit_, credit 20000, account payable debit_, credit 450_, unearned revenue debit_, credit 4200, j.szo capital debit_, credit 18000, j.szo, drawings debit 650, credit_, service revenue debit_, credit 1800, rent expense debit 400, credit_, totals debit $44450, credit $44450 . Required:\na. Prepare the adjusting entries for the month of April. Show calculations.\nb. Prepare accounts for the accounts affected by the adjusting entries. Post the adjusting entries to the T accounts.\nc. Prepare an adjusted trial balance at April 30, 2021,\nd. Prepare an income statement, statement of owner's equity, and\u00a0balance\u00a0sheet.Analysis reveals the following additional data for the month:\n$20,000\n450\n1. Prepaid insurance is the cost of a 12-month insurance policy that started April 1.\n2. Supplies costing $225 were on hand on April 30.\n3. The equipment is expected to have a useful life of four years.\n4. The note payable is dated April 1. It is a six-month, 4% note with interest payable on the first of each month starting on May 1.\n5. Seven customers paid for the company's six-month lawn service package of $600, beginning in April. These customers were served in April.\n6. Lawn services performed for other customers but not billed or recorded at April\n30\u00a0totaled\u00a0$1,500.",
+      "started_at": "2026-05-03T09:52:10.928000Z",
+      "duration_ms": 5528,
+      "tokens_in": 394,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "a. Adjusting Entries:\n1. Insurance Expense (($3,600/12) x 1) = $300\n     Prepaid Insurance        $300\n2. Supplies Expense      $425\n     Supplies                    $425\n3. Depreciation Expense     ($28,000 / 4 / 12) = $583.33 (rounded to nearest cent)\n     Accumulated Depreciation - Equipment    $583.33\n4. Interest Expense       ($20,000 x 4% x 1/12) = $66.67\n     Interest Payable                $66.67\n5. Unearned Revenue     ($600 x 6 x 7/12) = $2,100\n     Service Revenue                  $2,100\n6. Service Revenue           $1,500\n     Accounts Receivable            $1,500\n\nb. T-Accounts:\nCash:             Debit: $10,950    Credit:\n     Adjustment:   Debit:        Credit: $2,100\n     Balance:        Debit: $10,950    Credit: $2,100\nPrepaid Insurance:             Debit: $3,600    Credit:\n     Adjustment:   Debit:        Credit: $300\n     Balance:        Debit: $3,600    Credit: $300\nSupplies:           Debit: $850        Credit:\n     Adjustment:   Debit:        Credit: $425\n     Balance:        Debit: $425        Credit:\nEquipment:         Debit: $28,000   Credit:\n     Adjustment:   Debit:               Credit: $583.33\n     Balance:        Debit: $28,000   Credit: $583.33\nNotes Payable:  Debit:                 Credit: $20,000\n     Adjustment:   Debit: $66.67   Credit:\n     Balance:        Debit: $66.67   Credit: $20,000\nAccounts Payable:  Debit:             Credit: $450\n     Balance:        Debit:             Credit: $450\nUnearned Revenue: Debit:              Credit: $4,200\n     Adjustment:   Debit: $2,100   Credit:\n     Balance:        Debit: $2,100   Credit: $4,200\nJ.Szo, Capital:    Debit: $18,000      Credit:\n     Balance:        Debit: $18,000      Credit: \nJ.Szo, Drawings:   Debit: $650           Credit:\n     Balance:        Debit: $650           Credit: \nService Revenue:   Debit: $1,800       Credit:\n     Adjustment:   Debit: $3,000      Credit:\n     Balance:        Debit: $4,800      Credit: \nRent Expense:     Debit:                Credit: $400\n     Balance:        Debit:                Credit: $400\nDepreciation Expense: Debit:               Credit: $583.33\n     Balance:                   Debit:               Credit: $583.33\nInterest Expense:   Debit:               Credit: $66.67\n     Balance:                   Debit:               Credit: $66.67\nSupplies Expense:   Debit:               Credit: $425\n     Balance:                   Debit:               Credit: $425\nInsurance Expense: Debit:                Credit: $300\n     Balance:                   Debit:                Credit: $300\n\nc. Adjusted Trial Balance:\nAccounts        Debit        Credit\n----------------------------------------\nCash                10950       2100\nAccounts Receivable    -       1500\nSupplies              425          -\nPrepaid Insurance     300          -\nEquipment           28000        583.33\nAccumulated Depreciation - Equipment     -          583.33\nNotes Payable           -        20066.67\nAccounts Payable     450           -\nUnearned Revenue     2100        4200\nJ.Szo, Capital      18000           -\nJ.Szo, Drawings       650           -\nService Revenue      4800           -\nRent Expense           -         400\nDepreciation Expense    -         583.33\nInterest Expense       -          66.67\nSupplies Expense        -         425\nInsurance Expense       -         300 \n----------------------------------------\nTotal             44450        44450\n\nd. Income Statement:\nService Revenue                 $4,800\nLess: Supplies Expense     $425\n          Rent Expense               400\n           Depreciation Expense   583.33\n           Insurance Expense        300\n           Interest Expense         66.67\nNet Income (Loss)            $3,125\n\nStatement of Owner's Equity:\nJ.Szo, Capital - April              $18,000\nAdd: Net Income (Loss)         $3,125\nLess: J.Szo, Drawings          $650\nJ.Szo, Capital - April 30       $20,475\n\nBalance Sheet:\nAssets:\nCash                $10,950\nAccounts Receivable    1500\nSupplies                425\nPrepaid Insurance       300\nEquipment             28,000\nAccumulated Depreciation - Equipment   583.33\nTotal Assets         40,758.33\nLiabilities:\nNotes Payable                  $20,066.67\nAccounts Payable                    450\nUnearned Revenue                  4,200\nTotal Liabilities                  24,716.67\nOwner's Equity:\nJ.Szo, Capital - April 1             18,000\nAdd: Net Income                  3,125\nLess: J.Szo, Drawings               650\nJ.Szo, Capital - April 30          20,475\nTotal Liabilities and Owner's Equity         40,758.33",
+      "started_at": "2026-05-03T09:52:17.956000Z",
+      "duration_ms": 46080,
+      "tokens_in": 0,
+      "tokens_out": 1132,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3062,
+      "tokens_in": 1776,
+      "tokens_out": 1286,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 408,
+      "duration_ms": 59536,
+      "ai_wait_ms": 53040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0028,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

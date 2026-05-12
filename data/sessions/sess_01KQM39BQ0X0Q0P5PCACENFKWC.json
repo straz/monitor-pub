@@ -1,0 +1,214 @@
+{
+  "id": "sess_01KQM39BQ0X0Q0P5PCACENFKWC",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "how big is the US interest rate swap market",
+  "started_at": "2026-05-02T10:21:00Z",
+  "ended_at": "2026-05-02T10:22:20.504000Z",
+  "duration_ms": 80504,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "how big is the US interest rate swap market",
+      "started_at": "2026-05-02T10:21:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "According to data from the Bank for International Settlements, the United States interest rate swap market had a notional outstanding amount of $166.3 trillion as of June 2020.",
+      "started_at": "2026-05-02T10:21:02.420000Z",
+      "duration_ms": 2560,
+      "tokens_in": 0,
+      "tokens_out": 44,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "who are the users of the swap ",
+      "started_at": "2026-05-02T10:21:06.480000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The users of interest rate swaps can vary widely and include:\n\n1. Corporations: Corporations often use interest rate swaps to manage their interest rate risk exposure and help reduce financing costs for various projects or investments.\n\n2. Banks and Financial Institutions: Banks and other financial institutions use interest rate swaps to manage their balance sheets and hedge against interest rate risk.\n\n3. Governments: Governments also utilize interest rate swaps to manage their debt portfolios and reduce borrowing costs.\n\n4. Asset Managers: Asset managers use interest rate swaps to hedge against interest rate risk in their portfolios.\n\n5. Hedge Funds: Hedge funds use interest rate swaps for speculative purposes or to hedge against interest rate movements.\n\n6. Insurance Companies: Insurance companies use interest rate swaps to manage interest rate risk in their investment portfolios.\n\nOverall, interest rate swaps are used by a variety of market participants looking to manage various risks associated with interest rate fluctuations.",
+      "started_at": "2026-05-02T10:21:08.864000Z",
+      "duration_ms": 11240,
+      "tokens_in": 0,
+      "tokens_out": 261,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what is a asset swap spread",
+      "started_at": "2026-05-02T10:21:21.604000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "An asset swap spread is a financial metric that measures the difference between the yield on a specific bond and the yield on a comparable interest rate swap. It represents the additional yield that investors receive for holding a particular bond compared to synthetic exposure to the same bond through an interest rate swap contract.\n\nAsset swap spreads are commonly used in fixed-income markets, particularly in the valuation and analysis of credit-related securities, such as corporate bonds, asset-backed securities, and mortgage-backed securities. A narrower asset swap spread indicates that the bond is perceived to be of higher quality and more desirable, while a wider asset swap spread indicates that the bond is considered to be of lower quality and less attractive to investors.\n\nOverall, asset swap spreads are a useful tool for investors looking to evaluate the relative value of different fixed-income securities and to make informed investment decisions based on market conditions and trends.",
+      "started_at": "2026-05-02T10:21:23.976000Z",
+      "duration_ms": 10840,
+      "tokens_in": 0,
+      "tokens_out": 251,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "what is the asset swap spread for US treasuries",
+      "started_at": "2026-05-02T10:21:36.316000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "The asset swap spread for US Treasuries can vary depending on the specific Treasury security and market conditions. However, overall, US Treasuries are considered to be high-quality, low-risk investments and are typically used as benchmark securities for comparison with other fixed-income securities.\n\nAs of October 19, 2021, for example, the asset swap spread for the 10-year US Treasury note was approximately -4 basis points. This means that the yield on the 10-year Treasury note was about 4 basis points higher than the yield on a comparable interest rate swap. This negative asset swap spread indicates that investors were willing to accept a slightly lower yield on the Treasury note compared to an interest rate swap of similar duration, reflecting the perceived safety and quality of US Treasuries.\n\nOverall, asset swap spreads for US Treasuries can serve as an important indicator of market sentiment and risk appetite, as well as a benchmark for evaluating the relative value of other fixed-income securities.",
+      "started_at": "2026-05-02T10:21:38.748000Z",
+      "duration_ms": 11000,
+      "tokens_in": 0,
+      "tokens_out": 255,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "what's the bloomberg function to monitor swap spread of treasuries ",
+      "started_at": "2026-05-02T10:21:51.248000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "The Bloomberg function to monitor swap spread of Treasuries is \"SWPM <GO>\". This function displays current swap spreads for US Treasuries. It allows users to view swap spreads for a range of durations, from 2-year to 30-year benchmarks. The data can also be graphed and historical spreads can be analyzed. Users can also customize the swap spread view by selecting the specific Treasury securities and swap rates they want to monitor. The SWPM function is frequently used by fixed-income traders, analysts, and investors to monitor the current state of swap spreads, evaluate market trends, and make informed investment decisions.",
+      "started_at": "2026-05-02T10:21:53.740000Z",
+      "duration_ms": 7080,
+      "tokens_in": 0,
+      "tokens_out": 157,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "what the trading strategies to trade asset swap spread",
+      "started_at": "2026-05-02T10:22:02.320000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "There are several trading strategies that investors can use to trade asset swap spreads:\n\n1. Convergence Trade: In this strategy, an investor takes a view that the asset swap spread is too wide compared to its fair value, and will eventually collapse to that level. The investor would buy the bond and short the swap contract, anticipating that the spread will narrow. When the spread narrows, the investor can exit the position and realize a profit.\n\n2. Divergence Trade: In this strategy, an investor takes a view that the asset swap spread is too narrow compared to its fair value, and will eventually widen out. The investor would short the bond and buy the swap contract, anticipating that the spread will widen. When the spread widens, the investor can exit the position and realize a profit.\n\n3. Relative Value Trade: In this strategy, an investor compares the asset swap spreads of two or more similar bonds, and takes a position that exploits the discrepancy in spreads. The investor would buy the cheaper bond and sell the more expensive one, betting that the spread between the two will eventually converge, resulting in a profit.\n\n4. Yield Curve Trade: In this strategy, an investor takes a position based on the shape of the yield curve. If the yield curve flattens, an investor may sell short-dated swaps and buy long-dated swaps to bet on a wider asset swap spread. Similarly, if the yield curve steepens, an investor may buy short-dated swaps and sell long-dated swaps to bet on a narrower asset swap spread.\n\nOverall, trading asset swap spreads requires extensive knowledge of the fixed-income market, interest rate movements, and market sentiment. It is important for investors to carefully evaluate the risks and potential rewards of any trading strategy before implementing it.",
+      "started_at": "2026-05-02T10:22:04.776000Z",
+      "duration_ms": 18760,
+      "tokens_in": 0,
+      "tokens_out": 449,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "what does short the swap contract mean",
+      "started_at": "2026-05-02T10:22:25.036000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "\"Shorting\" a swap contract means that the investor is selling or agreeing to exchange the fixed rate payments for floating rate payments in the swap contract. In other words, the investor is taking the position of a fixed-rate payer and a floating rate receiver in the swap.\n\nWhen an investor shorts a swap contract, their goal is to profit from a decline in the asset swap spread, which is the difference between the yield on a bond and the yield on a comparable interest rate swap contract. Shorting the swap contract means that the investor expects the spread to narrow, resulting in a profit when the swap is eventually unwound.\n\nFor example, if a bond has a yield of 3% and the asset swap spread for that bond is 30 basis points, an investor can short the swap at a fixed rate of 3.3%. If the asset swap spread eventually declines to 20 basis points, the investor can unwind the swap position and receive a profit, as they will have effectively locked in a higher yield than the bond's original yield of 3%.\n\nIn summary, shorting a swap contract means that an investor is taking a position as a fixed-rate payer in order to profit from a decline in the asset swap spread.",
+      "started_at": "2026-05-02T10:22:27.444000Z",
+      "duration_ms": 12560,
+      "tokens_in": 0,
+      "tokens_out": 294,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 66,
+    "ai_cost": 71,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 10281,
+      "tokens_in": 8570,
+      "tokens_out": 1711,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 72,
+      "duration_ms": 80504,
+      "ai_wait_ms": 74040,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0069,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00CMC65B044XA2WQZE",
+      "tenant": "kurson-health",
+      "session": "sess_01KQM39BQ0X0Q0P5PCACENFKWC",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "what is the asset swap spread for US treasuries",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQM39BQ0X0Q0P5PCACENFKWC.json",
+        "turn_uri": "data/sessions/sess_01KQM39BQ0X0Q0P5PCACENFKWC.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat",
+    "dup"
+  ]
+}

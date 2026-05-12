@@ -1,0 +1,213 @@
+{
+  "id": "sess_01KQ6X9AT0R7B66VGXPDJJRBFG",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_002",
+  "title": "Based on the following scenarios, choose which company\u2019s loan request would have the least favorable loss given default \u2026",
+  "started_at": "2026-04-27T07:26:00Z",
+  "ended_at": "2026-04-27T07:26:44.716000Z",
+  "duration_ms": 44716,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Based on the following scenarios, choose which company\u2019s loan request would have the least favorable loss given default score.\n\nCompany Y is requesting a loan to finance the acquisition of a smaller company in their industry.\nCompany X is asking for a commercial mortgage that will be secured by the property.\nCompany Z is applying for a loan to finance a purchase of new equipment.",
+      "started_at": "2026-04-27T07:26:00Z",
+      "duration_ms": 1940,
+      "tokens_in": 95,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Company Y's loan request would have the least favorable loss given default score, as mergers and acquisitions are typically considered higher risk than property-secured loans or loans for equipment purchases.",
+      "started_at": "2026-04-27T07:26:03.440000Z",
+      "duration_ms": 2880,
+      "tokens_in": 0,
+      "tokens_out": 52,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which of the following is NOT part of the risk-adjusted return formula?\n\nExposure at Default\nCapital Requirement\nInterest Revenue\nClosing Fees",
+      "started_at": "2026-04-27T07:26:07.820000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Closing Fees are not a part of the risk-adjusted return formula.",
+      "started_at": "2026-04-27T07:26:10.540000Z",
+      "duration_ms": 1440,
+      "tokens_in": 0,
+      "tokens_out": 16,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Using the following information, calculate the risk-adjusted return.\n\n\u2022Loan Amount: $10,000,000\n\u2022Interest Rate: 5.0%\n\u2022Cost of Funds: 2.75%\n\u2022Fees: 10,000\n\u2022Expenses: 5,000\n\u2022Loss Given Default Rate: 25%\n\u2022Default Probability: 0.5%\n\n",
+      "started_at": "2026-04-27T07:26:13.480000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "First, we need to calculate the expected loss:\n\nExpected Loss = Loan Amount x Default Probability x Loss Given Default Rate\nExpected Loss = $10,000,000 x 0.5% x 25%\nExpected Loss = $12,500\n\nNext, we can calculate the interest revenue:\n\nInterest Revenue = Loan Amount x Interest Rate\nInterest Revenue = $10,000,000 x 5.0%\nInterest Revenue = $500,000\n\nNow, we can calculate the risk-adjusted return:\n\nRisk-Adjusted Return = (Interest Revenue - Cost of Funds - Expected Loss - Fees - Expenses) / Loan Amount\nRisk-Adjusted Return = ($500,000 - 2.75% x $10,000,000 - $12,500 - $10,000 - $5,000) / $10,000,000\nRisk-Adjusted Return = ($500,000 - $275,000 - $12,500 - $10,000 - $5,000) / $10,000,000\nRisk-Adjusted Return = $197,500 / $10,000,000\nRisk-Adjusted Return = 1.975%\n\nTherefore, the risk-adjusted return is 1.975%.",
+      "started_at": "2026-04-27T07:26:16.464000Z",
+      "duration_ms": 8920,
+      "tokens_in": 0,
+      "tokens_out": 203,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Using the following information, calculate the risk-adjusted capital.\n\n\u2022Loan Amount: $10,000,000\n\u2022Capital Requirement: 12%\n\u2022Capital Ratio: 25%",
+      "started_at": "2026-04-27T07:26:26.884000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "To calculate risk-adjusted capital, we need to multiply the loan amount by the capital requirement and divide the result by the capital ratio:\n\nRisk-Adjusted Capital = (Loan Amount x Capital Requirement) / Capital Ratio\nRisk-Adjusted Capital = ($10,000,000 x 12%) / 25%\nRisk-Adjusted Capital = $1,200,000 / 0.25\nRisk-Adjusted Capital = $4,800,000\n\nTherefore, the risk-adjusted capital is $4,800,000.",
+      "started_at": "2026-04-27T07:26:29.604000Z",
+      "duration_ms": 4760,
+      "tokens_in": 0,
+      "tokens_out": 99,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Using the following information, calculate the RAROC.\n\n\u2022Risk-Adjusted Return: $80,000\n\u2022Loan Amount: $3,000,000\n\u2022Capital Requirement: 10%\n\u2022Capital Ratio: 75%",
+      "started_at": "2026-04-27T07:26:35.864000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "To calculate the RAROC, we need to divide the risk-adjusted return by the risk-adjusted capital:\n\nRisk-Adjusted Capital = (Loan Amount x Capital Requirement) / Capital Ratio\nRisk-Adjusted Capital = ($3,000,000 x 10%) / 75%\nRisk-Adjusted Capital = $300,000 / 0.75\nRisk-Adjusted Capital = $400,000\n\nRAROC = Risk-Adjusted Return / Risk-Adjusted Capital\nRAROC = $80,000 / $400,000\nRAROC = 0.20 or 20%\n\nTherefore, the RAROC is 20%.",
+      "started_at": "2026-04-27T07:26:38.632000Z",
+      "duration_ms": 5040,
+      "tokens_in": 0,
+      "tokens_out": 106,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "\nWhich of the following was NOT discussed in this course within the context of client negotiation levers?\n\nLoan Type\nAmortization Period\nLoan-to-Value\nAll-in Rate",
+      "started_at": "2026-04-27T07:26:45.172000Z",
+      "duration_ms": 1280,
+      "tokens_in": 40,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Amortization Period was not discussed in this course within the context of client negotiation levers.",
+      "started_at": "2026-04-27T07:26:47.952000Z",
+      "duration_ms": 1800,
+      "tokens_in": 0,
+      "tokens_out": 25,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Why do private lenders generally operate lower down the capital stack compared to financial institutions?\n\nPrivate lenders obtain funding from investors that require a higher return so they purposely seek riskier borrowers to fulfill that return.\nFinancial institutions are readily accessible and are often the first place companies go for loans, leaving only more risky borrowers for private lenders.\nPrivate lenders prefer to work with riskier borrowers in exchange for higher returns.\nPrivate lenders do not operate lower on the capital stack and often deal in highly secured, low-risk lending transactions.",
+      "started_at": "2026-04-27T07:26:51.252000Z",
+      "duration_ms": 2624,
+      "tokens_in": 152,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Private lenders generally operate lower down the capital stack compared to financial institutions because they typically seek higher returns than those offered by more secured and lower-risk loans that financial institutions offer. Private lenders obtain funding from investors that require a higher return, and investing in riskier borrowers in exchange for higher returns is a way for these lenders to fulfill that requirement. Financial institutions, on the other hand, are often more readily accessible to borrowers and tend to be the first place that many companies go to for loans, which often leaves only more risky borrowers for private lenders. This results in private lenders tending to cater to these borrowers, as it is where they can shine and fulfill their own requirements for higher returns.",
+      "started_at": "2026-04-27T07:26:55.376000Z",
+      "duration_ms": 8840,
+      "tokens_in": 0,
+      "tokens_out": 201,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 66,
+    "ai_cost": 61,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 8289,
+      "tokens_in": 7587,
+      "tokens_out": 702,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 453,
+      "duration_ms": 44716,
+      "ai_wait_ms": 33680,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0048,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0047JV9CWH0GMQPGQD",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQ6X9AT0R7B66VGXPDJJRBFG",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "Using the following information, calculate the RAROC.\n\n\u2022Risk-Adjusted Return: $80,000\n\u2022Loan Amount: $3,000,000\n\u2022Capital Requirement: 10%\n\u2022Capital Ratio: 75%",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ6X9AT0R7B66VGXPDJJRBFG.json",
+        "turn_uri": "data/sessions/sess_01KQ6X9AT0R7B66VGXPDJJRBFG.json#turns/8"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.45).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

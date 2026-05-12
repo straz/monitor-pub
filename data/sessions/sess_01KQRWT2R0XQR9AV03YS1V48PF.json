@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQRWT2R0XQR9AV03YS1V48PF",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "provide in less than 100 words a summary of successfull completion of mu Alroda health care center project",
+  "started_at": "2026-05-04T07:04:00Z",
+  "ended_at": "2026-05-04T07:04:15.044000Z",
+  "duration_ms": 15044,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "provide in less than 100 words a summary of successfull completion of mu Alroda health care center project ",
+      "started_at": "2026-05-04T07:04:00Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Mu Alroda Health Care Center project has been successfully completed. The project aimed to provide quality and affordable health care services for the local community and has effectively achieved this goal. The center is fully equipped with advanced medical equipment and staffed by experienced medical professionals who are dedicated to providing exceptional health care services. The center has already positively impacted the lives of many individuals and has received great feedback and appreciation from the community it serves.",
+      "started_at": "2026-05-04T07:04:02.612000Z",
+      "duration_ms": 6160,
+      "tokens_in": 0,
+      "tokens_out": 134,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "please provide summary for my successful construction and completion of the project ",
+      "started_at": "2026-05-04T07:04:10.272000Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The construction and completion of your project have been an overwhelming success. The project aimed to create a functional and aesthetically pleasing structure that meets all your specifications and requirements. The final product has exceeded expectations, offering excellent quality and attention to detail. The team involved in the project consisted of experienced professionals who ensured that the construction process was timely and efficiently executed. The finished building stands as a testament to the dedication and hard work of all those involved in making this project a success.",
+      "started_at": "2026-05-04T07:04:12.824000Z",
+      "duration_ms": 6720,
+      "tokens_in": 0,
+      "tokens_out": 148,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1689,
+      "tokens_in": 1407,
+      "tokens_out": 282,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 47,
+      "duration_ms": 15044,
+      "ai_wait_ms": 12880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0011,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPT6NVM02QVTATVRK51RB8CR",
+  "tenant": "axiom-bank",
+  "project": "sentry_aml",
+  "user": "u_axb_003",
+  "title": "Write a code or script that will automatically analyze the source code of the token contract on https://bscscan.com/ and\u2026",
+  "started_at": "2026-04-22T09:00:00Z",
+  "ended_at": "2026-04-22T09:01:05.316000Z",
+  "duration_ms": 65316,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write a code or script that will automatically analyze the source code of the token contract on https://bscscan.com/ and display information about whether it is a fraudulent token or not\n\nFor implementation, refer to the https://moonarch.app resource, where there is a block that displays information about dubious methods that are in the contract code",
+      "started_at": "2026-04-22T09:00:00Z",
+      "duration_ms": 1856,
+      "tokens_in": 88,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "To analyze a token contract and display information about whether it is fraudulent or not, you can create a Python script using the bscscan-python and requests libraries for interacting with BscScan API and fetching contract source code.\n\nFirst, install the necessary packages:\n\n```shell\npip install bscscan-python requests\n```\n\nNext, create the Python script:\n\n```python\nimport os\nimport sys\nimport json\nimport requests\nfrom bscscan import BscScan\n\nAPI_KEY = 'YOUR_BSCSCAN_API_KEY'\nclient = BscScan(API_KEY)\n\ndef main(token_address):\n    contract_source_code = get_contract_source_code(token_address)\n    analyze_contract(contract_source_code)\n\ndef get_contract_source_code(token_address):\n    url = f\"https://api.bscscan.com/api?module=contract&action=getsourcecode&address={token_address}&apikey={API_KEY}\"\n    response = requests.get(url)\n    data = response.json()\n\n    if data[\"status\"] == \"0\":\n        print(\"Error: Could not retrieve contract source code\")\n        sys.exit(1)\n\n    contract_source_code = data[\"result\"][0][\"SourceCode\"]\n    return contract_source_code\n\ndef analyze_contract(contract_source_code):\n    warnings = []\n\n    # Check for dubious methods in the contract\n    suspicious_methods = [\n        \"rpc.acuOras(x_)\",\n        \"mint(_to, _amount)\",\n        \"erc20.ProtocolPreventer()\",\n        \"blacklist\",\n    ]\n\n    for method in suspicious_methods:\n        if method in contract_source_code:\n            warnings.append(f\"Warning: Suspicious method found: {method}\")\n\n    # Display warnings\n    if warnings:\n        for warning in warnings:\n            print(warning)\n        print(\"\\nThis token contract might be fraudulent.\")\n    else:\n        print(\"No suspicious methods found. This token contract seems to be safe.\")\n\nif __name__ == \"__main__\":\n    if len(sys.argv) != 2:\n        print(\"Usage: python analyze_contract.py <TOKEN_ADDRESS>\")\n        sys.exit(1)\n\n    token_address = sys.argv[1]\n    main(token_address)\n```\n\nReplace `'YOUR_BSCSCAN_API_KEY'` with your BscScan API key, which you can obtain by signing up for a free account on [BscScan](https://bscscan.com/).\n\nTo run the script, pass the token contract address as a command-line argument:\n\n```shell\npython analyze_contract.py <TOKEN_ADDRESS>\n```\n\nThis script fetches the contract source code from BscScan, analyzes it for any suspicious methods, and displays warnings if it detects any potentially fraudulent activities. Keep in mind that this script has a relatively basic analysis and might not detect all malicious contracts. It is always recommended to conduct a thorough manual review when assessing the safety of a token contract.",
+      "started_at": "2026-04-22T09:00:03.356000Z",
+      "duration_ms": 27080,
+      "tokens_in": 0,
+      "tokens_out": 657,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "The https://moonarch.app/ resource can detect the following suspicious functions in the source code of the contract\n\nSCAM CODE DETECTED\nrenounceOwnership might contain a hidden owner check, check it\nrenounceOwnership restricts calls to an address, check it\nsetAccountingAddress might contain a hidden owner check, check it\nsetAccountingAddress restricts calls to an address, check it\nCheck usage of hidden address accounting\nOpen holders page\n50% of the supply is burnt\n\nOwner has 100% of non-burnt supply\nrescueAnyBEP20Tokens has onlyOwner modifier\nrescueBNB has onlyOwner modifier\nupdateRouterAndPair has onlyOwner modifier\nbulkAntiBot has onlyOwner modifier\nsetAntibot has onlyOwner modifier\nupdateSwapEnabled has onlyOwner modifier\nupdateSwapTokensAtAmount has onlyOwner modifier\nupdatMaxSellAmt has onlyOwner modifier\nupdatMaxBuyAmt has onlyOwner modifier\nupdateMaxWalletBalance has onlyOwner modifier\nupdateDevWallet has onlyOwner modifier\nupdateMarketingWallet has onlyOwner modifier\nCheck usage of address devAddress\nCheck usage of address marketingAddress\nCheck usage of address pair\nContract not verified\nOwner has 100% of the PancakeSwap v2 liquidity\nsetIsPrivilegeAddress might contain a hidden owner check, check it\nsetIsPrivilegeAddress restricts calls to an address, check it\nUnusual mapping name isPrivilegeAddresses, check usage\nCheck code of function Ownable._transferOwnership\n_checkOwner restricts calls to an address, check it\nOwnable has unexpected field _uniswap\nUnusual approve, check it\nUnusual allowance, check it\nUnusual balanceOf, beware of hidden mint\nUnusual totalSupply, beware of hidden mint\nUnusual mapping name _routers, check usage\nUnusual mapping name _router, check usage\nSuspicious code in _transfer, check it\nsetLastBool might contain a hidden owner check, check it\nsetLastBool restricts calls to an address, check it\nsetIsFactor might contain a hidden owner check, check it\nsetIsFactor restricts calls to an address, check it\nSuspicious call to encodePacked in constructor\nHas deployed at least 20 other contracts\nCheck usage of address uniswap\nCheck usage of address addressDead\nCheck usage of address addressNull\nCheck usage of address addressPinksaleArbLock\nCheck usage of address addressPinksaleEthLock\nCheck usage of address addressPinksaleBnbLock\nCheck usage of address _uniswap\ninitializePair has onlyOwner modifier\nCheck usage of address lastAddress\nCheck usage of address addressBaseOwner\nFunction constructor has modifier Erc20C21Contract\n\nAdd code or script shown below so that it can also display these suspicious functions or their equivalents in the response\n\npip install bscscan-python requests\n\n\nNext, create the Python script:\n\nimport os\nimport sys\nimport json\nimport requests\nfrom bscscan import BscScan\n\nAPI_KEY = \u2018YOUR_BSCSCAN_API_KEY\u2019\nclient = BscScan(API_KEY)\n\ndef main(token_address):\n    contract_source_code = get_contract_source_code(token_address)\n    analyze_contract(contract_source_code)\n\ndef get_contract_source_code(token_address):\n    url = f\"https://api.bscscan.com/api?module=contract&action=getsourcecode&address={token_address}&apikey={API_KEY}\u201c\n    response = requests.get(url)\n    data = response.json()\n\n    if data[\u201cstatus\u201d] == \u201c0\u201d:\n        print(\u201cError: Could not retrieve contract source code\u201d)\n        sys.exit(1)\n\n    contract_source_code = data[\u201cresult\u201d][0][\u201cSourceCode\u201d]\n    return contract_source_code\n\ndef analyze_contract(contract_source_code):\n    warnings = []\n\n    # Check for dubious methods in the contract\n    suspicious_methods = [\n        \u201crpc.acuOras(x_)\u201d,\n        \u201cmint(_to, _amount)\u201d,\n        \u201cerc20.ProtocolPreventer()\u201d,\n        \u201cblacklist\u201d,\n    ]\n\n    for method in suspicious_methods:\n        if method in contract_source_code:\n            warnings.append(f\"Warning: Suspicious method found: {method}\u201d)\n\n    # Display warnings\n    if warnings:\n        for warning in warnings:\n            print(warning)\n        print(\u201c\\nThis token contract might be fraudulent.\u201d)\n    else:\n        print(\u201cNo suspicious methods found. This token contract seems to be safe.\u201d)\n\nif name == \u201cmain\u201d:\n    if len(sys.argv) != 2:\n        print(\u201cUsage: python analyze_contract.py <TOKEN_ADDRESS>\u201d)\n        sys.exit(1)\n\n    token_address = sys.argv[1]\n    main(token_address)\n\n\nReplace 'YOUR_BSCSCAN_API_KEY' with your BscScan API key, which you can obtain by signing up for a free account on BscScan.\n\nTo run the script, pass the token contract address as a command-line argument:\n\npython analyze_contract.py <TOKEN_ADDRESS>",
+      "started_at": "2026-04-22T09:00:31.936000Z",
+      "duration_ms": 14300,
+      "tokens_in": 1125,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "To expand the analysis to include the suspicious functions you've mentioned, add them to the `suspicious_methods` list in the `analyze_contract` function:\n\n```python\ndef analyze_contract(contract_source_code):\n    warnings = []\n\n    # Check for dubious methods in the contract\n    suspicious_methods = [\n        \"rpc.acuOras(x_)\",\n        \"mint(_to, _amount)\",\n        \"erc20.ProtocolPreventer()\",\n        \"blacklist\",\n        \"renounceOwnership\",\n        \"setAccountingAddress\",\n        \"rescueAnyBEP20Tokens\",\n        \"rescueBNB\",\n        \"updateRouterAndPair\",\n        \"bulkAntiBot\",\n        \"setAntibot\",\n        \"updateSwapEnabled\",\n        \"updateSwapTokensAtAmount\",\n        \"updatMaxSellAmt\",\n        \"updatMaxBuyAmt\",\n        \"updateMaxWalletBalance\",\n        \"updateDevWallet\",\n        \"updateMarketingWallet\",\n        \"setIsPrivilegeAddress\",\n        \"Ownable._transferOwnership\",\n        \"_checkOwner\",\n        \"approve\",\n        \"allowance\",\n        \"balanceOf\",\n        \"totalSupply\",\n        \"_routers\",\n        \"_router\",\n        \"_transfer\",\n        \"setLastBool\",\n        \"setIsFactor\",\n        \"encodePacked\",\n        \"initializePair\",\n        \"Erc20C21Contract\",\n    ]\n\n    for method in suspicious_methods:\n        if method in contract_source_code:\n            warnings.append(f\"Warning: Suspicious method or variable found: {method}\")\n\n    # Display warnings\n    if warnings:\n        for warning in warnings:\n            print(warning)\n        print(\"\\nThis token contract might be fraudulent.\")\n    else:\n        print(\"No suspicious methods found. This token contract seems to be safe.\")\n```\n\nThis modified `analyze_contract` function should now detect and report on more suspicious methods and variables in the contract source code.\n\nKeep in mind that the list of suspicious methods is just a starting point for analysis; some benign contracts might use these methods for legitimate purposes. Therefore, this script's assessment should not be taken as conclusive evidence of a contract's safety or maliciousness. Always perform additional manual review and due diligence when evaluating token contracts.",
+      "started_at": "2026-04-22T09:00:47.736000Z",
+      "duration_ms": 22080,
+      "tokens_in": 0,
+      "tokens_out": 532,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 27,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 4347,
+      "tokens_in": 3158,
+      "tokens_out": 1189,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 1213,
+      "duration_ms": 65316,
+      "ai_wait_ms": 49160,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1661,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:fraud",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQKHHQN04JZWB7QKZZX9FW29",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "activities involved in managing the work of a company or organisation",
+  "started_at": "2026-05-02T05:11:00Z",
+  "ended_at": "2026-05-02T05:11:22.104000Z",
+  "duration_ms": 22104,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "activities involved in managing the work of a company or organisation",
+      "started_at": "2026-05-02T05:11:00Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Planning and goal-setting: Developing a strategic plan, setting specific goals and targets, and establishing a roadmap to achieve them.\n\n2. Organizing resources: Allocating resources effectively, including financial, human, and technological resources, to achieve the company's objectives.\n\n3. Hiring, training, and managing personnel: Recruiting and nurturing talented individuals who are qualified for the job, holding them accountable for their work, and providing them with training and development opportunities to improve their performance.\n\n4. Communicating effectively: Maintaining open lines of communication throughout the organization to ensure that everyone is on the same page and aligned with the company's mission and goals.\n\n5. Implementing and monitoring policies and procedures: Ensuring that company policies and procedures are followed and updated regularly to keep up with changing business conditions.\n\n6. Establishing and maintaining relationships with stakeholders: Working closely with suppliers, customers, employees, and other stakeholders to build strong relationships based on trust and mutual benefit.\n\n7. Analyzing and managing risk: Assessing the risks associated with the company's operations and creating strategies to mitigate those risks.\n\n8. Monitoring and analyzing performance: Tracking the company's progress towards its goals, identifying areas of improvement, and taking corrective actions as needed.\n\n9. Reviewing and reporting financial data: Monitoring financial data such as budgets, cash flow, and profit and loss statements to ensure that the company is on track to achieve its financial objectives.\n\n10. Innovating and adapting to change: Embracing new technologies, processes, and business models to stay ahead of the competition and meet the changing needs of customers and markets.",
+      "started_at": "2026-05-02T05:11:02.504000Z",
+      "duration_ms": 19160,
+      "tokens_in": 0,
+      "tokens_out": 459,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "You ___ enjoy your job but it helps if you do. After all, we spend so many years of our lives working!",
+      "started_at": "2026-05-02T05:11:23.164000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "should",
+      "started_at": "2026-05-02T05:11:25.764000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2178,
+      "tokens_in": 1718,
+      "tokens_out": 460,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 42,
+      "duration_ms": 22104,
+      "ai_wait_ms": 20000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

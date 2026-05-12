@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPZHRPY0NTTK76T36WZQPFKH",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Profile screening questions for Oracle company for the below job description Job Description",
+  "started_at": "2026-04-24T10:50:00Z",
+  "ended_at": "2026-04-24T10:50:37.536000Z",
+  "duration_ms": 37536,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Profile screening questions for Oracle company for the below job description Job Description\nResponsibilities\n- Design and develop core components of the product\n- Follow coding standards, build appropriate unit tests, integration tests and deployment scripts.\n\nRequirements\n-  experience as a developer\n- Experience in delivering of complex Java based solutions\n- Fintech product development experience is preferred\n- Experience in Microservices Architecture is a must\n- Excellent verbal and written\n\nDesign, develop, troubleshoot and debug software programs for databases, applications, tools, networks etc.",
+      "started_at": "2026-04-24T10:50:00Z",
+      "duration_ms": 2624,
+      "tokens_in": 152,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Do you have experience as a developer? If so, please describe your experience.\n2. Have you delivered complex Java based solutions before? If yes, could you provide an example?\n3. Have you worked on Fintech product development before? If yes, what was your role and what did you learn during the experience?\n4. Do you have experience in working with Microservices Architecture? If yes, please describe your experience.\n5. Could you provide an example of how you ensure your coding standards are followed in your work?\n6. Can you tell us about a time when you faced a coding problem and debugged it? How did you go about doing it?\n7. How do you ensure that the software you develop is thoroughly tested, and how do you build appropriate unit tests, integration tests, and deployment scripts?\n8. How do you ensure effective communication and collaboration with team members, both verbally and in writing?",
+      "started_at": "2026-04-24T10:50:04.124000Z",
+      "duration_ms": 9840,
+      "tokens_in": 0,
+      "tokens_out": 226,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Answers to these questions, GPT-3.5 Chatbot\nThis app provides you full access to GPT-3.5 (4096 token limit). You don't need any OPENAI API key.\nChatbot\nProfile screening questions for Oracle company for the below job description Job Description\nResponsibilities\n- Design and develop core components of the product\n- Follow coding standards, build appropriate unit tests, integration tests and deployment scripts.\n\nRequirements\n- experience as a developer\n- Experience in delivering of complex Java based solutions\n- Fintech product development experience is preferred\n- Experience in Microservices Architecture is a must\n- Excellent verbal and written\n\nDesign, develop, troubleshoot and debug software programs for databases, applications, tools, networks etc.\n1. Do you have experience as a developer? If so, please describe your experience.\n2. Have you delivered complex Java based solutions before? If yes, could you provide an example?\n3. Have you worked on Fintech product development before? If yes, what was your role and what did you learn during the experience?\n4. Do you have experience in working with Microservices Architecture? If yes, please describe your experience.\n5. Could you provide an example of how you ensure your coding standards are followed in your work?\n6. Can you tell us about a time when you faced a coding problem and debugged it? How did you go about doing it?\n7. How do you ensure that the software you develop is thoroughly tested, and how do you build appropriate unit tests, integration tests, and deployment scripts?\n8. How do you ensure effective communication and collaboration with team members, both verbally and in writing?",
+      "started_at": "2026-04-24T10:50:15.464000Z",
+      "duration_ms": 5792,
+      "tokens_in": 416,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. As an AI chatbot, I don't personally have experience as a developer, but I have been programmed with knowledge and abilities to assist with coding and software development tasks.\n\n2. As an AI chatbot, I don't have personal experience delivering complex Java based solutions, but I can assist with understanding and troubleshooting the coding process.\n\n3. As an AI chatbot, I don't personally have experience working on fintech product development, but I have access to knowledge and resources regarding fintech products.\n\n4. As an AI chatbot, I can provide information and resources on microservices architecture and how it can be worked with in software development.\n\n5. Best practices for ensuring that coding standards are followed include setting up automated code reviews, utilizing coding guidelines and style guides, conducting peer code reviews, and using code quality metrics. I can also assist with any specific questions or concerns related to coding standards.\n\n6. As an AI chatbot, I am not capable of experiencing debugging issues firsthand. However, I can provide guidance on effective debugging techniques and tools, including stepping through code line by line, analyzing stack traces, and using debugging tools and applications.\n\n7. Thorough testing is essential for ensuring software quality, and unit tests, integration tests, and deployment scripts are important aspects of this process. Tools like test automation frameworks and continuous integration/delivery pipelines can assist with streamlining and automating testing processes.\n\n8. Effective communication and collaboration with team members can be supported through the use of communication platforms, project management tools, regular status updates, and team meetings. Effective communication skills are also important for building rapport and trust within the team.",
+      "started_at": "2026-04-24T10:50:22.756000Z",
+      "duration_ms": 19280,
+      "tokens_in": 0,
+      "tokens_out": 462,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 80,
+    "human_effort": 28,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2834,
+      "tokens_in": 2146,
+      "tokens_out": 688,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 568,
+      "duration_ms": 37536,
+      "ai_wait_ms": 29120,
+      "user_corrections": 1,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00ZS4XZAEM9RDSY2HW",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPZHRPY0NTTK76T36WZQPFKH",
+      "type": "session_user_frustration",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Answers to these questions, GPT-3.5 Chatbot\nThis app provides you full access to GPT-3.5 (4096 token limit). You don't need any OPENAI API key.\nChatbot\nProfile screening questions for Oracle company for the below job description Job Descrip",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPZHRPY0NTTK76T36WZQPFKH.json",
+        "turn_uri": "data/sessions/sess_01KPZHRPY0NTTK76T36WZQPFKH.json#turns/2"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

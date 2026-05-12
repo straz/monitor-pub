@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPJA1R70G1EEYE21JNWSPQDM",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Act like an expert in organ donation. I want to understand the full supply chain, from patient passes to transplantation\u2026",
+  "started_at": "2026-04-19T07:25:00Z",
+  "ended_at": "2026-04-19T07:26:01.436000Z",
+  "duration_ms": 61436,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Act like an expert in organ donation. I want to understand the full supply chain, from patient passes to transplantation of an organ to a new patient. Get me start on this process in as detailed of a fashion as possible.",
+      "started_at": "2026-04-19T07:25:00Z",
+      "duration_ms": 1460,
+      "tokens_in": 55,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Organ donation is a complex process that requires the involvement of various medical institutions and personnel. The supply chain of organ donation starts with the identification of potential organ donors. This can occur either in a hospital or through a donor registry. \n\nWhen a patient dies, their family or next of kin is approached by a medical professional about the possibility of donating organs. The decision to donate is entirely voluntary, and consent must be provided by the family or next of kin. If consent is provided, the donor is evaluated to determine which organs can be donated.\n\nDuring the evaluation process, various factors such as the donor\u2019s age, medical history, and current health status are considered. For example, if the donor had a history of hepatitis B, then any organs that could potentially carry the disease will be ruled out. \n\nOnce the organs have been selected, the donor is placed on a ventilator to keep their organs functioning. Surgery is then performed to harvest the organs. This is done by making incisions and carefully removing each organ. The organs are then packaged in sterile containers and transported to the transplant center.\n\nThe transport of organs is a critical part of the supply chain, as it requires precise timing and coordination. Organs must be transplanted within a certain time frame to ensure their viability. Medical personnel at the transplant center are typically notified of the arrival of the organ ahead of time to prepare for the surgery.\n\nAfter the organs have been transplanted, the recipient is closely monitored for any signs of rejection. If rejection is detected, various treatments such as immunosuppressants may be used to prevent further damage to the transplanted organ.\n\nFinally, it is important to note that the supply chain of organ donation does not end with the transplantation. Follow-up care is necessary to ensure that the recipient\u2019s body accepts the transplanted organ effectively and that they are on a path to good health. The ongoing support of the medical team in managing the recipient\u2019s care is key to keeping the transplanted organ healthy.",
+      "started_at": "2026-04-19T07:25:02.960000Z",
+      "duration_ms": 22200,
+      "tokens_in": 0,
+      "tokens_out": 535,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Okay, help me understand the funding related to the organ donation process. Specifically, I'm curious about how a company that handles organ transportation & logistics - for the trip from organ procurement organizations to transplant centers - how do they get paid?",
+      "started_at": "2026-04-19T07:25:26.660000Z",
+      "duration_ms": 1592,
+      "tokens_in": 66,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The funding for the organ donation process is dependent on multiple stakeholders. Organ procurement organizations (OPOs) and transplant centers are non-profit entities that receive funding from a variety of sources such as government grants, donations, and insurance reimbursement. \n\nRegarding the transportation and logistics of organs, there are several organizations that facilitate these operations, such as airlines, shipping companies, and ground transportation providers. These service providers are typically paid through a combination of fees charged to the OPO or transplant center and insurance reimbursement.\n\nFor example, an OPO or transplant center may contract with a transportation company to handle the logistics of delivering organs to the transplant center. The transportation company may charge a fee for their services that is then paid by the OPO or transplant center. Additionally, insurance can reimburse the transportation costs of organs, which are usually covered by Medicare.\n\nIt's worth noting that the costs associated with organ transportation and logistics can vary depending on the distance between the OPO and the transplant center, the condition of the organs being transported, and several other factors. However, typically the transportation and logistics companies will have pre-established fees for their services that will be agreed upon by the involved parties at the beginning of the contract. \n\nUltimately, the goal is to ensure that the logistics and transportation of the organ are conducted safely, efficiently, and with appropriate compensation for those involved in the process.",
+      "started_at": "2026-04-19T07:25:29.752000Z",
+      "duration_ms": 17040,
+      "tokens_in": 0,
+      "tokens_out": 406,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Give me an estimate on the monetary value of a successful organ donation - let's say for example a heart - to a organ procurement organization. Meaning, how much might it cost for them to handle the organ donation vs. how much they can expect to get back in the form of payment from either government or insurance reimbursement.",
+      "started_at": "2026-04-19T07:25:48.292000Z",
+      "duration_ms": 1784,
+      "tokens_in": 82,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "It is important to note that organs cannot be bought or sold, and therefore do not have a monetary value in the traditional sense. The organ donation process in the United States is regulated by the National Organ Transplant Act (NOTA), and the law explicitly prohibits the sale of organs.\n\nOrgan procurement organizations (OPOs) are non-profit entities that facilitate the organ donation process. These organizations receive funding through various sources such as Medicare reimbursement and private donations. The actual cost of organ donor management varies widely depending on the circumstances and can be difficult to estimate or predict.\n\nMoreover, organ donation is a complex process that involves multiple organizations and expenses beyond what the OPO incurs. These include medical care, transportation and logistics, personnel, and overhead costs. \n\nThe costs for organ transplantation itself can also vary considerably depending on a range of factors, including the medical condition of the recipient, the type of organ transplanted, and the region or country in which the transplant is being performed. In general, insurance policies typically cover at least some portion of the costs associated with organ transplantation, although the specific coverage and out-of-pocket expenses for the recipient can vary widely.\n\nTherefore, while organ donation involves significant expenses, it is not a profit-generating enterprise for OPOs or other organizations involved in the process. Rather, the focus of these entities is to facilitate the life-saving gift of organ donation and ensure that the process is conducted in a safe and respectful manner.",
+      "started_at": "2026-04-19T07:25:51.576000Z",
+      "duration_ms": 17360,
+      "tokens_in": 0,
+      "tokens_out": 414,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 34,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 5010,
+      "tokens_in": 3655,
+      "tokens_out": 1355,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 203,
+      "duration_ms": 61436,
+      "ai_wait_ms": 56600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0039,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

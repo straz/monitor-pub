@@ -1,0 +1,87 @@
+{
+  "id": "sess_01KPG2ZJS0ZHQK1S1WVZ32N7YD",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Hi, I am looking for ppt based account plan to sell IT services to ABSA Bank South Africa covering their IT spend, IT le\u2026",
+  "started_at": "2026-04-18T10:43:00Z",
+  "ended_at": "2026-04-18T10:43:29.416000Z",
+  "duration_ms": 29416,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Hi, I am looking for ppt based account plan to sell IT services to ABSA Bank South Africa covering their IT spend, IT leadership organogram.",
+      "started_at": "2026-04-18T10:43:00Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Unfortunately, as an AI language model, I am not able to provide a powerpoint presentation to you. However, I can provide you with a few tips for creating an account plan to sell IT services to ABSA Bank South Africa:\n\n1. Research: Gather information about ABSA Bank's IT spend, IT leadership organogram, and any specific IT needs they may have.\n\n2. Understand business objectives: Identify ABSA Bank's business objectives and how IT services can support those objectives.\n\n3. Develop a sales strategy: Create a strategy that aligns the IT services with the business objectives of ABSA Bank. Develop a unique value proposition to differentiate your IT services from your competitors.\n\n4. Create a compelling presentation: Use a combination of data, graphics, and content to create a compelling presentation that showcases the value of your IT services and highlights how they will solve ABSA Bank's IT challenges.\n\n5. Establish a timeline: Establish a timeline for the sales process, including setting milestones and deliverables.\n\n6. Build relationships: Finally, build a strong relationship with the decision-makers at ABSA Bank. Work to establish trust and credibility, understanding their needs while positioning your organization as a solution unique. \n\nI hope these tips help you in creating your account plan to sell IT services to ABSA Bank South Africa.",
+      "started_at": "2026-04-18T10:43:02.720000Z",
+      "duration_ms": 14400,
+      "tokens_in": 0,
+      "tokens_out": 340,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Please give me information about ABSA Bank South Africa IT spend, IT leadership organogram, and any specific IT needs they may have.",
+      "started_at": "2026-04-18T10:43:18.620000Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have current information about ABSA Bank's IT spend, IT leadership organogram, or their specific IT needs. \n\nHowever, here are some general points about ABSA Bank's IT operations:\n\n1. IT Spend: ABSA Bank is one of the leading banks in South Africa, and as such, its IT spend is substantial. Like most big banks, ABSA Bank allocates a significant portion of its budget to IT and technology-related initiatives to keep up with the fast-changing and tech-driven banking landscape.\n\n2. IT Leadership Organogram: From the publicly available literature, it is not clear what ABSA Bank's IT leadership organogram is like. However, it is reasonable to assume that the bank has a strong team dedicated to IT operations as IT plays a crucial role in the banking industry.\n\n3. Specific IT Needs: As for specific IT needs, like most African banks, ABSA Bank is continuously seeking to improve its IT operations to enhance customer experiences. One specific area the bank is likely to be looking into is improving its cybersecurity and digital offerings. With more customers banking online, the need for secure digital services is more critical than ever before.",
+      "started_at": "2026-04-18T10:43:21.316000Z",
+      "duration_ms": 12600,
+      "tokens_in": 0,
+      "tokens_out": 295,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2278,
+      "tokens_in": 1643,
+      "tokens_out": 635,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 68,
+      "duration_ms": 29416,
+      "ai_wait_ms": 27000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat",
+    "dup"
+  ]
+}

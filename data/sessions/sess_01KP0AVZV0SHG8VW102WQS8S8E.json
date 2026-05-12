@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP0AVZV0SHG8VW102WQS8S8E",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "Which Of The Following Is The Appropriate Treatment For A Sick Child With Cough Age 2 Months To 5 Yrs Of Age? *",
+  "started_at": "2026-04-12T07:53:00Z",
+  "ended_at": "2026-04-12T07:53:15.852000Z",
+  "duration_ms": 15852,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which Of The Following Is The Appropriate Treatment For A Sick Child With Cough Age 2 Months To 5 Yrs Of Age? *\nAntibiotic\nAntibiotic Plus A Beta 2 Agonist\nAntibiotic Plus An Expectorant\nAntibiotic Plus A Mucolytic Agent",
+      "started_at": "2026-04-12T07:53:00Z",
+      "duration_ms": 1460,
+      "tokens_in": 55,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "None of the above. The appropriate treatment for a sick child with cough aged 2 months to 5 years of age depends on the underlying cause of the cough. It is important to consult a healthcare provider for proper diagnosis and treatment. Antibiotics are only effective against bacterial infections and may not be necessary for viral or other types of infections that cause cough. Additionally, cough suppressants and expectorants should be used with caution in young children and only under the guidance of a healthcare provider.",
+      "started_at": "2026-04-12T07:53:02.960000Z",
+      "duration_ms": 6040,
+      "tokens_in": 0,
+      "tokens_out": 131,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "A 10 year old female adolescent was seen at neuro OPD for several episode of generalized spam followed by shaking of the body. This was associated with salivation. To diagnose her epilepsy the following criteria must be met : *\nTreat the seizures based on the type of the attack\n10 - 15 % of epilepsy has aura\nAside for good history and PE the ancillary procedures is EEG\nLoss of consciousness is a prequisite for the diagnosis of epilepsy\nAll the choices are correct",
+      "started_at": "2026-04-12T07:53:10.500000Z",
+      "duration_ms": 2192,
+      "tokens_in": 116,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Aside for good history and PE the ancillary procedures is EEG. An EEG is an important tool to diagnose epilepsy in patients who have had seizures. It helps detect abnormal brain activity that is characteristic of epilepsy. A good history and physical exam is also important in making a diagnosis of epilepsy. Seizures can have different types and presentations, therefore treatment will vary based on the type of seizure. Aura may or may not be present, and loss of consciousness is not always a prerequisite for a diagnosis of epilepsy.",
+      "started_at": "2026-04-12T07:53:14.192000Z",
+      "duration_ms": 6160,
+      "tokens_in": 0,
+      "tokens_out": 134,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1822,
+      "tokens_in": 1557,
+      "tokens_out": 265,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 171,
+      "duration_ms": 15852,
+      "ai_wait_ms": 12200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

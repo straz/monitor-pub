@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQYBSEE00DC6EEV8JE0492KZ",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Could you give me a simple staff development record for supporting staff in hospital?",
+  "started_at": "2026-05-06T10:02:00Z",
+  "ended_at": "2026-05-06T10:02:22.816000Z",
+  "duration_ms": 22816,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Could you give me a simple staff development record for supporting staff in hospital? ",
+      "started_at": "2026-05-06T10:02:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Here is an example of a simple staff development record for supporting staff in a hospital:\n\nName of Staff Member: _______________________________\n\nDepartment: _______________________________\n\nDate of Training: _______________________________\n\nTitle of Training or Program: _______________________________\n\nDuration of Training: _______________________________\n\nPurpose of Training or Program: _______________________________\n\nObjectives of Training or Program: _______________________________\n\nTopics Covered: _______________________________\n\nSkills Acquired: _______________________________\n\nAssessment of Staff Member: _______________________________\n\nRecommendations for Further Development: _______________________________\n\nSupervisor's Signature: _______________________________\n\nDate: _______________________________ \n\nThis record can be used to track and evaluate the effectiveness of staff development initiatives and to help identify areas where additional training may be necessary to support staff in hospital.",
+      "started_at": "2026-05-06T10:02:02.552000Z",
+      "duration_ms": 11000,
+      "tokens_in": 0,
+      "tokens_out": 255,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can you give me some simple comment on supporting sstaff in hospital?",
+      "started_at": "2026-05-06T10:02:15.052000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Certainly, here are some simple comments on supporting staff in a hospital:\n\n1. Regular training and development opportunities can help staff stay up to date with the latest practices and procedures in healthcare, which can ultimately lead to better patient outcomes.\n\n2. Showing appreciation and recognition for the hard work that staff do is important, and can help to boost morale and improve job satisfaction.\n\n3. Providing a supportive work environment and resources can help staff manage stress and burnout, which are common challenges in the healthcare industry.\n\n4. Effective communication between management and staff is crucial, and can help to identify and address any issues or concerns before they become major problems.\n\n5. Offering flexible work arrangements can help staff balance the demands of work and personal life, and ultimately lead to greater job satisfaction and retention.",
+      "started_at": "2026-05-06T10:02:17.556000Z",
+      "duration_ms": 9760,
+      "tokens_in": 0,
+      "tokens_out": 224,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1993,
+      "tokens_in": 1514,
+      "tokens_out": 479,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 38,
+      "duration_ms": 22816,
+      "ai_wait_ms": 20760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

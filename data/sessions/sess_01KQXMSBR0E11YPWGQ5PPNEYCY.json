@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KQXMSBR0E11YPWGQ5PPNEYCY",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "quatrain about a logistics company with great sustainability practices",
+  "started_at": "2026-05-06T03:20:00Z",
+  "ended_at": "2026-05-06T03:20:30.292000Z",
+  "duration_ms": 30292,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "quatrain about a logistics company with great sustainability practices",
+      "started_at": "2026-05-06T03:20:00Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A logistics firm, green at heart,\nEco-friendly practices set them apart,\nReducing waste and carbon footprint,\nTheir sustainability measures never skimp.\n\nEfficient transportation, renewable energy,\nCommitment to the planet, a clear strategy,\nSupply chain transparency, social responsibility,\nFor a brighter future, they lead the way dutifully.",
+      "started_at": "2026-05-06T03:20:02.504000Z",
+      "duration_ms": 4200,
+      "tokens_in": 0,
+      "tokens_out": 85,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "quatrain about a logistics company with great sustainability practices",
+      "started_at": "2026-05-06T03:20:08.204000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "This logistics company, through the years,\nHas shifted to more eco-friendly gears,\nReducing waste and carbon emissions,\nTheir sustainable practices, without omissions.\n\nFrom green packaging to electric trucks,\nTheir commitment to the planet never gets struck,\nOptimization of resources, reducing impact,\nTheir environmental goals, never to retract.\n\nWith innovative solutions and a green approach,\nThey're leading the way, setting a new reproach,\nFor logistics sustainability, as a primary goal,\nTheir practices, leaving a positive impact on the whole.",
+      "started_at": "2026-05-06T03:20:10.708000Z",
+      "duration_ms": 6320,
+      "tokens_in": 0,
+      "tokens_out": 138,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "quatrain about a logistics company with great sustainability practices",
+      "started_at": "2026-05-06T03:20:18.528000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "With a desire to build a sustainable world,\nThis logistics company takes strides bold,\nRenewable sources powering their operations,\nReducing their carbon footprint through innovations.\n\nTheir supply-chain solutions promote recycling,\nAnd they ensure that waste reduction practices are filling,\nWith a focus on creating circular economies,\nThis company's sustainable practices elicit ecologies.\n\nFrom green supply chains to clean energy use,\nTheir sustainability journey knows no excuse,\nWith every decision, they aim for a greener path,\nTheir commitment to sustainability brings commendable aftermath.",
+      "started_at": "2026-05-06T03:20:21.032000Z",
+      "duration_ms": 6800,
+      "tokens_in": 0,
+      "tokens_out": 150,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "optimizing your supply chain with air cargo",
+      "started_at": "2026-05-06T03:20:29.332000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "For fast-paced businesses that demand speed,\nAir cargo can fulfill the supply chain need,\nWith shorter transit times and quick delivery,\nOptimizing supply chain becomes an effortless discovery.\n\nAir cargo's advantages lie in its speed,\nSwift transport of goods in times of need,\nEnsures that products reach their destination with care,\nHelping businesses meet customer demands, beyond compare.\n\nThe flexibility of air cargo is highly admired,\nAs transportation requirements can be easily acquired,\nIt provides precise and customizable services,\nAssisting businesses to meet their desires and preferences.\n\nOptimizing your supply chain with air cargo,\nPromotes cost savings, as it helps avoid cargo backlog,\nImproved end-to-end visibility and better control,\nAir cargo boosts business productivity, making it a valuable goal.",
+      "started_at": "2026-05-06T03:20:31.752000Z",
+      "duration_ms": 9040,
+      "tokens_in": 0,
+      "tokens_out": 206,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 52,
+    "ai_cost": 31,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3823,
+      "tokens_in": 3244,
+      "tokens_out": 579,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 61,
+      "duration_ms": 30292,
+      "ai_wait_ms": 26360,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0018JNQD6ED71SW0VK",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQXMSBR0E11YPWGQ5PPNEYCY",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "quatrain about a logistics company with great sustainability practices",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQXMSBR0E11YPWGQ5PPNEYCY.json",
+        "turn_uri": "data/sessions/sess_01KQXMSBR0E11YPWGQ5PPNEYCY.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 1.00).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00CXTWWHD3JR69DM8Z",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQXMSBR0E11YPWGQ5PPNEYCY",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "quatrain about a logistics company with great sustainability practices",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQXMSBR0E11YPWGQ5PPNEYCY.json",
+        "turn_uri": "data/sessions/sess_01KQXMSBR0E11YPWGQ5PPNEYCY.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 1.00).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

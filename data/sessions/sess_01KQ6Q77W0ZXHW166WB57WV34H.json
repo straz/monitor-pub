@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQ6Q77W0ZXHW166WB57WV34H",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "I just graduated in Business Information Systems with a bachelor's degree, what type of jobs can I apply for?",
+  "started_at": "2026-04-27T05:40:00Z",
+  "ended_at": "2026-04-27T05:40:25.516000Z",
+  "duration_ms": 25516,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I just graduated in Business Information Systems with a bachelor's degree, what type of jobs can I apply for?",
+      "started_at": "2026-04-27T05:40:00Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, my training data only goes up until 2021, so it may not be up to date with the current job market. However, with your degree in Business Information Systems, you may be able to apply for roles such as:\n\n1. Business Analyst\n2. IT Consultant\n3. Systems Analyst\n4. Database Administrator\n5. Project Manager\n6. Data Analyst\n7. Operations Manager\n8. Enterprise Architect\n9. IT Project Manager\n10. Information Systems Manager\n\nThese are just a few examples, but there are many more options available depending on your interests and skillset. It's also worth noting that many companies value transferable skills, so it's important to highlight any relevant experience or projects on your resume. Good luck with your job search!",
+      "started_at": "2026-04-27T05:40:02.624000Z",
+      "duration_ms": 8240,
+      "tokens_in": 0,
+      "tokens_out": 186,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What kind of jobs can I apply for in Egypt if I don't know arabic",
+      "started_at": "2026-04-27T05:40:12.364000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "There are several types of jobs that you can apply for in Egypt even if you do not know Arabic. Some of the job options are:\n\n1. English Teacher: You can teach English to people who want to learn the language. Many language institutes in Egypt provide language teaching services.\n\n2. Customer Support Representative: Many multinational companies in Egypt hire English-speaking customer support representatives to serve English speaking customers.\n\n3. Sales Executive: Many international companies hire sales executives who speak English to target the English-speaking expat community in Egypt.\n\n4. IT Developer: Many IT companies in Egypt have an English-speaking work environment, where international projects require English-speaking developers.\n\n5. Marketing Manager: Companies operating in Egypt's tourism industry and International educational institutions require English-speaking marketing managers.\n\n6. Freelance Writer: There are several online platforms that offer freelance writing opportunities in different niches, especially for English writers.\n\n7. Tourist Guide: Qualified candidates can become a licensed tourist guide to show tourists around the ancient monuments.\n\nThese are just a few examples, but there are many more options available depending on your education, experience, and skillset. It's also worth noting that learning some basic Arabic phrases would be beneficial in integrating into the Egyptian culture.",
+      "started_at": "2026-04-27T05:40:14.856000Z",
+      "duration_ms": 15160,
+      "tokens_in": 0,
+      "tokens_out": 359,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 80,
+    "human_effort": 28,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2001,
+      "tokens_in": 1456,
+      "tokens_out": 545,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 43,
+      "duration_ms": 25516,
+      "ai_wait_ms": 23400,
+      "user_corrections": 1,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0015,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00261DGWJQD6DA66GZ",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQ6Q77W0ZXHW166WB57WV34H",
+      "type": "session_user_frustration",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "What kind of jobs can I apply for in Egypt if I don't know arabic",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ6Q77W0ZXHW166WB57WV34H.json",
+        "turn_uri": "data/sessions/sess_01KQ6Q77W0ZXHW166WB57WV34H.json#turns/2"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

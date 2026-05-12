@@ -1,0 +1,166 @@
+{
+  "id": "sess_01KQCAKK906QDYQH1JX1CVFTAS",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "Identify the most commonly used diagnostic technique in the virus laboratory:",
+  "started_at": "2026-04-29T09:55:00Z",
+  "ended_at": "2026-04-29T09:55:40.472000Z",
+  "duration_ms": 40472,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Identify the most commonly used diagnostic technique in the virus laboratory:\n\n\nIdentify the most commonly used diagnostic technique in the virus laboratory:\n\n\nImmuno-serology\n\n\nDeep next generation sequencing (NGS)\n\n\nReverse transcriptase (RT) PCR\n\n\nVirus isolation in cell culture",
+      "started_at": "2026-04-29T09:55:00Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Reverse transcriptase (RT) PCR",
+      "started_at": "2026-04-29T09:55:03.140000Z",
+      "duration_ms": 1080,
+      "tokens_in": 0,
+      "tokens_out": 7,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is the point of laboratory diagnosis of viruses? Choose two options.\n\n\nWhat is the point of laboratory diagnosis of viruses? Choose two options.\n\n\nAs a teaching adjunct for a clinical doctor.\n\n\nTo satisfy patient demand.\n\n\nTo determine if a virus is sensitive to new antiviral drugs.\n\n\nTo quantify virus load for chemotherapy.",
+      "started_at": "2026-04-29T09:55:05.720000Z",
+      "duration_ms": 1784,
+      "tokens_in": 82,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "To determine if a virus is sensitive to new antiviral drugs, and to quantify virus load for chemotherapy.",
+      "started_at": "2026-04-29T09:55:09.004000Z",
+      "duration_ms": 1840,
+      "tokens_in": 0,
+      "tokens_out": 26,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "is stignant a word",
+      "started_at": "2026-04-29T09:55:12.344000Z",
+      "duration_ms": 848,
+      "tokens_in": 4,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "No, \"stignant\" is not a word in English. The correct word is \"malignant,\" which refers to a medical condition that is typically dangerous and progressive in nature, such as cancer.",
+      "started_at": "2026-04-29T09:55:14.692000Z",
+      "duration_ms": 2600,
+      "tokens_in": 0,
+      "tokens_out": 45,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "how do i make subunits on google doc",
+      "started_at": "2026-04-29T09:55:18.792000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "To create subscripts in Google Docs, follow these steps:\n\n1. Open a Google Docs document.\n\n2. Click on the place in the document where you want to add the subscript.\n\n3. Highlight the text that you want to make into a subscript.\n\n4. Click on the \u201cFormat\u201d menu and select \"Text.\"\n\n5. From the dropdown menu, click on \"Subscript.\"\n\nAlternatively, you can use the keyboard shortcut \"Ctrl + ,\" on a PC or \"Cmd + ,\" on a Mac to create subscripts in Google Docs.\n\nNote that subscripts are commonly used in mathematical or chemical formulas, and they can also be used to represent footnotes, abbreviations, and certain symbols.",
+      "started_at": "2026-04-29T09:55:21.200000Z",
+      "duration_ms": 7000,
+      "tokens_in": 0,
+      "tokens_out": 155,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "what antispetics and disinfectants are good to test on",
+      "started_at": "2026-04-29T09:55:29.700000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "When testing disinfectants and antiseptics, it is important to choose those that are commonly used and have a wide spectrum of activity against different types of microorganisms. Some examples of commonly tested disinfectants and antiseptics include:\n\n1. Chlorine-based disinfectants (e.g., bleach)\n\n2. Alcohol-based hand sanitizers (e.g., ethanol, isopropyl alcohol)\n\n3. Hydrogen peroxide-based disinfectants\n\n4. Quaternary ammonium compounds (e.g., benzalkonium chloride)\n\n5. Iodine-based antiseptics (e.g., povidone-iodine)\n\n6. Phenol-based disinfectants (e.g., Lysol)\n\nWhen testing these disinfectants and antiseptics, it is important to follow established protocols and guidelines for testing microbial activity and efficacy, such as those set by the US Environmental Protection Agency (EPA), the European Committee for Standardization (CEN), or other recognized regulatory bodies.",
+      "started_at": "2026-04-29T09:55:32.156000Z",
+      "duration_ms": 9640,
+      "tokens_in": 0,
+      "tokens_out": 221,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "hypothesis for kirby bauer tests",
+      "started_at": "2026-04-29T09:55:43.296000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "The Kirby-Bauer test is a laboratory test that is used to determine the sensitivity or resistance of bacteria to various antimicrobial agents. A hypothesis for the Kirby-Bauer test could be:\n\n\"If a bacterial strain is sensitive to an antimicrobial agent, then there will be a zone of inhibition around the antimicrobial disk, indicating that the agent has prevented or inhibited bacterial growth. Conversely, if the bacterial strain is resistant to the antimicrobial agent, there will be no zone of inhibition, indicating that the agent has not prevented bacterial growth.\"\n\nThis hypothesis assumes that the antimicrobial agent will have a predictable effect on the growth of the bacterial strain being tested, and that the zone of inhibition around the antimicrobial disk will be a clear indicator of the agent's efficacy. The hypothesis can be tested experimentally by performing the Kirby-Bauer test on different bacterial strains and antimicrobial agents, and measuring the size of the zone of inhibition to determine sensitivity or resistance.",
+      "started_at": "2026-04-29T09:55:45.692000Z",
+      "duration_ms": 11280,
+      "tokens_in": 0,
+      "tokens_out": 262,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 48,
+    "ai_cost": 48,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 6028,
+      "tokens_in": 5312,
+      "tokens_out": 716,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 186,
+      "duration_ms": 40472,
+      "ai_wait_ms": 33440,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0037,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

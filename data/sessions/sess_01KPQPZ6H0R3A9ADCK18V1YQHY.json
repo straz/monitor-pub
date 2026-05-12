@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPQPZ6H0R3A9ADCK18V1YQHY",
+  "tenant": "meridian-insurance",
+  "project": "premium_pilot",
+  "user": "u_mer_007",
+  "title": "what are questions you should ask when viewing a house with a real estate agent?",
+  "started_at": "2026-04-21T09:47:00Z",
+  "ended_at": "2026-04-21T09:47:44.556000Z",
+  "duration_ms": 44556,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what are questions you should ask when viewing a house with a real estate agent?",
+      "started_at": "2026-04-21T09:47:00Z",
+      "duration_ms": 1040,
+      "tokens_in": 20,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. What is the asking price of the house and comparable sales in the neighborhood?\n2. How long has the house been on the market and have there been any price reductions?\n3. What are the annual property taxes, homeowners insurance, and utility costs?\n4. Can you provide a copy of the seller's property disclosure statement?\n5. Are there any known issues or defects with the house, such as foundation problems, drainage issues, or mold?\n6. How old is the roof and have there been any recent repairs or replacements made?\n7. What is the age and condition of the HVAC, electrical, and plumbing systems?\n8. Are there any restrictive covenants, easements or zoning regulations affecting the property?\n9. Is the house part of a homeowner's association, and if so, what are the fees and rules?\n10. Have there been any recent renovations or improvements made to the house?\n11. What is the local school district and how do nearby schools perform in comparison to others in the area?\n12. How is the neighborhood in terms of safety, traffic, and amenities like parks, shops, and transportation options?\n13. Are there any upcoming community developments or projects that could impact the property value or quality of life?\n14. Is there room for negotiation in the asking price or other terms, such as closing costs or move-in dates?\n15. How long does the typical home sale process take in this area, and what are the next steps if I decide to make an offer?\n\nRemember to also ask any specific questions you may have about the house or neighborhood based on your personal preferences and needs.",
+      "started_at": "2026-04-21T09:47:02.540000Z",
+      "duration_ms": 16600,
+      "tokens_in": 0,
+      "tokens_out": 395,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "List all the things I should look out for when viewing a house I may want to purchase with a real estate agent? for example, closet space or neighborhood noise levels, etc.",
+      "started_at": "2026-04-21T09:47:20.640000Z",
+      "duration_ms": 1316,
+      "tokens_in": 43,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Structural integrity: Check for cracks, settling issues, or signs of water damage in the foundation, walls, and ceilings.\n2. Roof condition: Look for signs of leaks, missing shingles or tiles, or sagging gutters.\n3. Plumbing system: Test water pressure, check for leaks, and assess the age and condition of the pipes.\n4. Electrical system: Ensure outlets and switches work, and ask about the age of the wiring and the electrical panel.\n5. HVAC system: Assess the age and condition of the heating and cooling units, and inquire about maintenance records.\n6. Windows and doors: Check for drafts, proper insulation, and the condition of window seals and door frames.\n7. Flooring: Assess the condition of carpets, hardwoods, or tile, and check for uneven or squeaky floors.\n8. Closet and storage space: Ensure there is adequate space for your belongings, and inspect built-in shelving or organizers.\n9. Room sizes and layout: Make sure the rooms are large enough for your needs and the flow of the house is functional.\n10. Natural light and ventilation: Check for the amount of sunlight entering the home and the effectiveness of air circulation.\n11. Odors and noises: Be aware of strong smells, like mold or cigarette smoke, and listen for neighborhood or traffic noise.\n12. Appliances and fixtures: Test all major home appliances and check for the condition of lighting and plumbing fixtures.\n13. Exterior and landscaping: Inspect siding, brickwork, or stucco for any visible issues, and consider the overall curb appeal of the property.\n14. Driveway and garage: Assess the condition of the driveway, walkways, and garage for signs of wear or damage.\n15. Neighborhood amenities: Consider the proximity of local schools, parks, shops, and public transportation options.\n16. Safety and security: Check the house's safety features, such as smoke detectors, carbon monoxide detectors, and security systems.\n17. Local community: Research the quality of local schools, crime rates, and the overall atmosphere of the neighborhood.\n18. Property boundaries and easements: Ask for a survey of the property to understand its boundaries and any applicable restrictions or easements.\n19. Zoning and future development: Learn about any zoning regulations and potential future developments that might impact the property or neighborhood.\n20. Homeowners association (HOA) restrictions and fees: If the house is part of an HOA, inquire about rules, fees, and the overall management of the community.",
+      "started_at": "2026-04-21T09:47:23.456000Z",
+      "duration_ms": 25600,
+      "tokens_in": 0,
+      "tokens_out": 620,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2693,
+      "tokens_in": 1678,
+      "tokens_out": 1015,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 63,
+      "duration_ms": 44556,
+      "ai_wait_ms": 42200,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1112,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:broker",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

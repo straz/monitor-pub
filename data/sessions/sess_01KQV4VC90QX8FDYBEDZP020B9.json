@@ -1,0 +1,127 @@
+{
+  "id": "sess_01KQV4VC90QX8FDYBEDZP020B9",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "rewrite to be pithy and professional: Concern of double-payment in APP model is overblow, but some potential AWM double-\u2026",
+  "started_at": "2026-05-05T04:03:00Z",
+  "ended_at": "2026-05-05T04:03:30.472000Z",
+  "duration_ms": 30472,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "rewrite to be pithy and professional: Concern of double-payment in APP model is overblow, but some potential AWM double-crediting issues\n",
+      "started_at": "2026-05-05T04:03:00Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Double-payment concerns in the APP model are overstated, while potential double-crediting issues in AWM exist.",
+      "started_at": "2026-05-05T04:03:02.708000Z",
+      "duration_ms": 1880,
+      "tokens_in": 0,
+      "tokens_out": 27,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "rewrite this headline to avoid word 'special': What Makes Avantax Special",
+      "started_at": "2026-05-05T04:03:06.088000Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "What Sets Avantax Apart",
+      "started_at": "2026-05-05T04:03:08.604000Z",
+      "duration_ms": 1000,
+      "tokens_in": 0,
+      "tokens_out": 5,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "you're developing a talk track over a slide that includes the following text.... how can you talk through this slide succinctly: ~15% Revenue CAGR (2018 to 2023E)\nConsecutive quarters of positive net flows despite challenging macro-environment\nDual-audience (Tax and Financial Professional) targeting creates a strong value prop\nM&A engine (HD Vest, HK FS, 1st Global) driving inorganic growth\nSmall-to-medium organization with flexibility to meet up-market customer demands\nStrong market understanding of how to recruit FPs and accounting firms to attract new assets\n",
+      "started_at": "2026-05-05T04:03:11.104000Z",
+      "duration_ms": 2504,
+      "tokens_in": 142,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "This slide highlights some key growth drivers for our business. Firstly, our revenue has been growing at an impressive compound annual growth rate of around 15% from 2018 to 2023E. This growth has been supported by consecutive quarters of positive net flows, even in a challenging macro-environment. \n\nWe have a unique value proposition targeting both tax and financial professionals, which has been well-received by our dual-audience approach. Additionally, our M&A engine has been driving inorganic growth, with our acquisitions of HD Vest, HK FS, and 1st Global. \n\nThough we are a small-to-medium organization, our flexibility allows us to meet up-market customer demands. Finally, we have a strong understanding of the market and are adept at recruiting both financial planners and accounting firms to attract new assets.",
+      "started_at": "2026-05-05T04:03:15.108000Z",
+      "duration_ms": 9040,
+      "tokens_in": 0,
+      "tokens_out": 206,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "whenever I do a big important readout.... I generally start with an Executive Summary Page that has a high-level summary of the key points and some detail on each. the problem is: when I start here.... it's a lot of text and you desire to get to the supporting analysis where you see interesting charts and graphs and insights. any presentation advice on how to navigate balancing the Exec Summary with the Supporting Analysis that is rich in detail?",
+      "started_at": "2026-05-05T04:03:25.648000Z",
+      "duration_ms": 2144,
+      "tokens_in": 112,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "One approach to balance the Executive Summary with the Supporting Analysis is to use a structure that gradually takes your audience from high-level to more detailed points. Start with a brief introduction that sets the context and highlights the key themes of the presentation. Then, move to the Executive Summary Slide, which should provide a concise overview of the key points, but avoid too much detail. \n\nAfter that, you can move to the Supporting Analysis slides that include charts, graphs, and other detailed insights. Group these slides by theme or topic, and use headings and subheadings to guide your audience through them. As you go through the Supporting Analysis section, remember to highlight the most relevant and salient points that support your Executive Summary.\n\nFinally, end the presentation with your key takeaways, recommendations, or call-to-actions that follow logically from the Supporting Analysis. This ensures your audience leaves with a clear understanding of the information presented, while leaving enough to support any subsequent questions or discussions.",
+      "started_at": "2026-05-05T04:03:29.292000Z",
+      "duration_ms": 11680,
+      "tokens_in": 0,
+      "tokens_out": 272,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3793,
+      "tokens_in": 3283,
+      "tokens_out": 510,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 306,
+      "duration_ms": 30472,
+      "ai_wait_ms": 23600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat",
+    "dup"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KP2JM4D05BA9DDP6R2KE31RM",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "what are the requirments of FATF",
+  "started_at": "2026-04-13T04:47:00Z",
+  "ended_at": "2026-04-13T04:47:50.168000Z",
+  "duration_ms": 50168,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what are the requirments of FATF",
+      "started_at": "2026-04-13T04:47:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Financial Action Task Force (FATF) has a few requirements that member nations must meet. They are as follows:\n\n1. Criminalization of Money Laundering: Member countries must enact laws that criminalize money laundering and related criminal activities.\n\n2. Customer Due Diligence: To prevent money laundering, FATF requires member countries to carry out customer due diligence, including identifying and verifying the identity of customers, keeping proper records, and monitoring transactions.\n\n3. Reporting Suspicious Activities: Financial institutions are required to report any suspicious activities, including transactions that they believe may be related to money laundering, to the appropriate authorities.\n\n4. Cooperation: FATF requires member countries to provide international cooperation in combating money laundering and terrorist financing.\n\n5. Risk Assessment: FATF requires countries to conduct periodic risk assessments to identify and assess the risks related to money laundering and terrorist financing.\n\n6. Sanctions and Enforcement: Member countries must have effective sanctions and enforcement mechanisms to ensure compliance with FATF standards.\n\n7. Non-Cooperative Countries: FATF also maintains a list of non-cooperative countries. Countries that fail to meet FATF's requirements could be subject to sanctions or restrictions.",
+      "started_at": "2026-04-13T04:47:02.396000Z",
+      "duration_ms": 14320,
+      "tokens_in": 0,
+      "tokens_out": 338,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "WHAT ARE the requiremnts for Customer Due Diligence according to the FATF ? ",
+      "started_at": "2026-04-13T04:47:18.216000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Financial Action Task Force (FATF) has outlined a set of customer due diligence (CDD) requirements that member countries must adhere to. These requirements are as follows:\n\n1. Identify and verify the customer\u2019s identity: Financial institutions must collect and verify a customer's identity information, such as name, address, date of birth, and identification number before establishing a business relationship.\n\n2. Identify and verify the beneficial ownership of the customer: Financial institutions must identify and verify the beneficial ownership of their customers, including the natural persons who ultimately have ownership or control of the customer.\n\n3. Understanding the nature and purpose of the business relationship: Financial institutions must understand the nature and purpose of the business relationship and carry out ongoing monitoring to ensure that transactions are consistent with this understanding.\n\n4. Conduct ongoing monitoring of the business relationship: Financial institutions must conduct ongoing monitoring of the business relationship to identify and report any suspicious transactions.\n\n5. Enhanced due diligence for higher risk customers: Financial institutions must carry out enhanced due diligence for higher-risk customers, including politically exposed persons (PEPs), non-resident customers, and customers from high-risk jurisdictions.\n\n6. Record-keeping: Financial institutions must keep records of their customers' identity, beneficial ownership, and ongoing monitoring activities.\n\nBy adhering to these customer due diligence requirements, financial institutions can mitigate their risk of being involved in money laundering and terrorist financing activities.",
+      "started_at": "2026-04-13T04:47:20.744000Z",
+      "duration_ms": 17840,
+      "tokens_in": 0,
+      "tokens_out": 426,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "please prepare notice letter to a recruitment agency who breached the agreement and contacted the candidate ",
+      "started_at": "2026-04-13T04:47:40.084000Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "[Your Name]\n[Your Address]\n[City, State ZIP Code]\n[Date]\n\n[Recruitment Agency Name]\n[Address]\n[City, State ZIP Code]\n\nDear Sir/Madam,\n\nI am writing to express my dissatisfaction with the way you handled our agreement. Our company had signed a contract with your agency for the provision of recruitment services for our open positions.\n\nUnfortunately, we have received information from the candidate that you contacted them directly, without our permission or consent. This is a clear breach of the agreement we had in place, and it has caused us great inconvenience.\n\nWe would like to remind you that the agreement stated that all communication with candidates was to be exclusively conducted through your agency. Direct contact with candidates outside of this arrangement is not permitted.\n\nWe considered your agency a trusted partner and assumed that you would respect the agreement that we had in place. Your disregard for this agreement has not only been unprofessional but has also compromised the integrity of our recruitment process.\n\nWe cannot continue with our current engagement, and we will be ending our agreement with immediate effect. We kindly request that you cease any further communication with our potential candidates and remove any information that pertains to our company.\n\nWe would expect a prompt response from you regarding this matter.\n\nThank you for your attention.\n\nSincerely,\n\n[Your Name]",
+      "started_at": "2026-04-13T04:47:42.708000Z",
+      "duration_ms": 14960,
+      "tokens_in": 0,
+      "tokens_out": 354,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 29,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4109,
+      "tokens_in": 2991,
+      "tokens_out": 1118,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 54,
+      "duration_ms": 50168,
+      "ai_wait_ms": 47120,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0032,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

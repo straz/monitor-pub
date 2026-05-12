@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR33A2P0DH8C162SF58TRCAM",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "explain to me the ecg abnormalities and their findings and criteria of each conditions of (narrow QRS and regular then i\u2026",
+  "started_at": "2026-05-08T06:10:00Z",
+  "ended_at": "2026-05-08T06:11:37.052000Z",
+  "duration_ms": 97052,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "explain to me the ecg abnormalities and their findings and criteria of each conditions of (narrow QRS and regular then if irregular, wide QRS regular and if irregular) and how to differentiates between the similarities",
+      "started_at": "2026-05-08T06:10:00Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "An Electrocardiogram (ECG) is a diagnostic tool that measures and records the electrical activity of the heart. It represents the electrical events during each beat of the heart that contribute to the normal heart rhythm. ECG abnormalities are deviations from the normal heart rhythm, and they can be indicative of various cardiovascular conditions. To understand ECG abnormalities and their findings, let's first discuss the different terms you mentioned: Narrow QRS, Wide QRS, and Regular vs. Irregular rhythms.\n\n1. Narrow QRS complex: The QRS complex is a part of the ECG waveform that represents the depolarization (electrical activation) of the ventricles. A narrow QRS complex (typically less than 120 milliseconds) indicates that ventricular depolarization occurs normally through the specialized conduction system.\n\n2. Wide QRS complex: A wide QRS complex (typically more than 120 milliseconds) indicates a delay in ventricular depolarization. It may be due to a conduction abnormality within the ventricles or a condition known as ventricular dysrhythmia.\n\n3. Regular rhythm: A regular rhythm is when the beats of the heart appear at consistent intervals. This indicates a stable and predictable heart rhythm.\n\n4. Irregular rhythm: An irregular rhythm is when the beats of the heart occur at variable intervals. This indicates an unstable or unpredictable heart rhythm.\n\nNow let's discuss the ECG abnormalities and their findings for each of the conditions:\n\nA) Narrow QRS complex and regular rhythm:\n1. Sinus tachycardia: Increase in heart rate (>100 beats per minute) with regular intervals. It occurs due to physiological reasons (e.g., exercise, anxiety) or pathological reasons (e.g., fever, dehydration, hyperthyroidism).\n\n2. Atrial flutter: Rapid and regular atrial contractions, resulting in a \"sawtooth\" pattern on the ECG. Ventricular response may be regular or irregular.\n\nB) Narrow QRS complex and irregular rhythm:\n1. Atrial fibrillation: Irregularly irregular rhythm without discernible P waves. It is the most common supraventricular arrhythmia, often seen in patients with hypertension, heart failure, or valvular heart disease.\n\n2. Premature atrial contractions (PACs): Early atrial beats with a normal QRS complex. Occasional PACs are usually benign, but frequent PACs can lead to other arrhythmias, such as atrial fibrillation.\n\nC) Wide QRS complex and regular rhythm:\n1. Ventricular tachycardia (VT): A rapid heart rate originating from the ventricles, resulting in wide QRS complexes. VT can be life-threatening and requires immediate medical attention.\n\n2. Bundle branch block (BBB): A delay in conduction within the ventricles, resulting in a widened QRS complex. BBB can be either left or right, and it may indicate structural heart disease or ischemia.\n\nD) Wide QRS complex and irregular rhythm:\n1. Ventricular fibrillation (VF): A chaotic, extremely irregular rhythm with wide QRS complexes. VF is a life-threatening emergency and requires immediate defibrillation.\n\n2. Torsades de pointes: A type of polymorphic ventricular tachycardia with a characteristic \"twisting\" pattern on the ECG. It is associated with a prolonged QT interval and can be triggered by certain medications, electrolyte imbalances, or congenital disorders.\n\nTo differentiate between the similarities in ECG abnormalities, it is essential to consider the patient's clinical history, ECG morphology, and rhythm characteristics. Pay close attention to the QRS complex duration, the shape of the P waves, and the regularity of the rhythm. Further diagnostic tests and consultation with a cardiologist may be necessary for accurate diagnosis and management.",
+      "started_at": "2026-05-08T06:10:02.948000Z",
+      "duration_ms": 37400,
+      "tokens_in": 0,
+      "tokens_out": 915,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "explain the (sinus tachycardia, focal atrial tachycardia and  multifocal atrial tachycardia, atrial flutter and Aflu variable block, paroxysmal svt (avrt, avnrt), AF) criteria indicated (rate, rhythm, p wave, PRI, QRS)  and types for each one if it contains types or other variants ",
+      "started_at": "2026-05-08T06:10:41.848000Z",
+      "duration_ms": 1640,
+      "tokens_in": 70,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here is an explanation of the ECG criteria for various atrial arrhythmias:\n\n1. Sinus tachycardia:\n- Rate: >100 beats per minute (bpm)\n- Rhythm: Regular\n- P wave: Present and normal in appearance, one P wave preceding each QRS complex\n- PR interval (PRI): 120-200 ms, constant\n- QRS complex: <120 ms, normal\n\n2. Focal Atrial Tachycardia (FAT):\n- Rate: 100-250 bpm\n- Rhythm: Regular or slightly irregular\n- P wave: Different morphology than sinus P wave, may be hidden within the T wave or occur after the T wave\n- PR interval: Can be shorter or longer than the normal range, depending on the site of the ectopic focus\n- QRS complex: <120 ms, normal\n\n3. Multifocal Atrial Tachycardia (MAT):\n- Rate: 100-250 bpm\n- Rhythm: Irregular\n- P wave: At least three different P wave morphologies\n- PR interval: Varying\n- QRS complex: <120 ms, normal\n\n4. Atrial Flutter:\n- Rate: Atrial rate is typically 250-350 bpm; ventricular rate depends on the conduction ratio and can be regular or irregular\n- Rhythm: Regular or irregular, depending on the conduction ratio\n- P wave: Not discernible, replaced by \"sawtooth\" flutter waves (F waves)\n- PR interval: Not measurable\n- QRS complex: <120 ms, normal\n\nAtrial Flutter with Variable Block:\n- The QRS complexes are irregularly spaced due to variable AV conduction (for example, 2:1, 3:2, or 3:1) making the ventricular response irregular.\n\n5. Paroxysmal Supraventricular Tachycardia (PSVT):\na. Atrioventricular Reentrant Tachycardia (AVRT):\n- Rate: 150-250 bpm\n- Rhythm: Regular\n- P wave: Often hidden within the QRS complex or inverted after the QRS complex\n- PR interval: Not measurable or very short if the P wave is visible\n- QRS complex: <120 ms, normal\n\nb. Atrioventricular Nodal Reentrant Tachycardia (AVNRT):\n- Rate: 150-250 bpm\n- Rhythm: Regular\n- P wave: Often hidden within the QRS complex, or retrograde P wave may follow the QRS complex, producing a short RP interval\n- PR interval: Not measurable or very short if the P wave is visible\n- QRS complex: <120 ms, normal\n\n6. Atrial fibrillation (AF):\n- Rate: Atrial rate >350 bpm; ventricular rate can be slow, normal, or rapid (variable)\n- Rhythm: Irregularly irregular ventricular response\n- P wave: Absent \u2013 fibrillatory waves may be seen instead\n- PR interval: Not measurable\n- QRS complex: <120 ms, normal\n\nEach of these arrhythmias can have different subtypes or variants, depending on various factors. For example, atrial fibrillation can be paroxysmal, persistent, or permanent based on its duration or response to treatment. Diagnosis and management often depend on multiple factors, including clinical presentation, duration, severity, presence of underlying conditions, and response to therapy.",
+      "started_at": "2026-05-08T06:10:44.988000Z",
+      "duration_ms": 27760,
+      "tokens_in": 0,
+      "tokens_out": 674,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "explain the (monomorphic VT, WPW antidromic AVRT, SVT+BBB, Af+WPW, AF+BBB, polymorphic VT if normal QT and if not) criteria indicated (rate, rhythm, p wave, PRI, QRS)  and types for each one if it contains types or other variants ",
+      "started_at": "2026-05-08T06:11:14.248000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Here is an explanation of the ECG criteria for various wide QRS complex tachycardias:\n\n1. Monomorphic Ventricular Tachycardia (VT):\n- Rate: 100-250 bpm\n- Rhythm: Regular\n- P wave: Not discernible, unrelated to QRS complexes\n- PR interval: Not measurable\n- QRS complex: >120 ms, wide and abnormal morphology\n\n2. Wolff-Parkinson-White (WPW) Antidromic Atrioventricular Reentrant Tachycardia (AVRT):\n- Rate: 150-250 bpm\n- Rhythm: Regular\n- P wave: Hidden within the QRS complex or inverted after the QRS complex\n- PR interval: Not measurable or very short if the P wave is visible\n- QRS complex: >120 ms, wide and abnormal due to preexcitation through the accessory pathway\n\n3. Supraventricular Tachycardia (SVT) with Bundle Branch Block (BBB):\n- Rate: 150-250 bpm\n- Rhythm: Regular\n- P wave: May be hidden within the QRS complex or visible with abnormal timing or morphology\n- PR interval: Not measurable or variable if the P wave is visible\n- QRS complex: >120 ms, wide due to underlying BBB\n\n4. Atrial Fibrillation (AF) with Wolff-Parkinson-White (WPW) Syndrome:\n- Rate: Variable ventricular rate\n- Rhythm: Irregularly irregular\n- P wave: Absent\n- PR interval: Not measurable\n- QRS complex: >120 ms, wide and abnormal due to preexcitation through the accessory pathway; variations can occur based on the degree of preexcitation\n\n5. Atrial Fibrillation (AF) with Bundle Branch Block (BBB):\n- Rate: Variable ventricular rate\n- Rhythm: Irregularly irregular\n- P wave: Absent\n- PR interval: Not measurable\n- QRS complex: >120 ms, wide and abnormal due to underlying BBB\n\n6. Polymorphic Ventricular Tachycardia (VT) with normal QT interval:\n- Rate: 150-250 bpm\n- Rhythm: Irregular\n- P wave: Not discernible, unrelated to QRS complexes\n- PR interval: Not measurable\n- QRS complex: Wide and varying in morphology\n\n7. Polymorphic Ventricular Tachycardia (VT) with prolonged QT interval (Torsades de Pointes):\n- Rate: 200-250 bpm\n- Rhythm: Irregular, continuously twisting axis\n- P wave: Not discernible, unrelated to QRS complexes\n- PR interval: Not measurable\n- QRS complex: Wide, abnormal, and varying in morphology with a twisting appearance (Torsades de Pointes)\n\nEach of these wide QRS complex tachycardias may have varying presentations depending on the specific features and underlying conditions of the patient. The key to differentiating among these is to analyze the rate, rhythm, and morphology of the QRS complex, as well as the presence or absence of P waves and their relationship to the QRS complexes. Considerations like clinical context, medical history, and response to therapy should also be taken into account when making a final diagnosis.",
+      "started_at": "2026-05-08T06:11:17.232000Z",
+      "duration_ms": 27320,
+      "tokens_in": 0,
+      "tokens_out": 663,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 43,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 6915,
+      "tokens_in": 4663,
+      "tokens_out": 2252,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 181,
+      "duration_ms": 97052,
+      "ai_wait_ms": 92480,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.275,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

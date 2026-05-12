@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQC4DV503P3XD1K7C0G704MA",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "Translate happy birthday in the languages spoken in kenya",
+  "started_at": "2026-04-29T08:07:00Z",
+  "ended_at": "2026-04-29T08:07:32.628000Z",
+  "duration_ms": 32628,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Translate happy birthday in the languages spoken in kenya",
+      "started_at": "2026-04-29T08:07:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Swahili: Heri ya Siku ya Kuzaliwa\nKikuyu: Mut\u0169 wa G\u0129k\u0169y\u0169 waku Gutir\u0129\nLuhya: Isikuti liwe! Nasi Lwandani\nKamba: Ndwiika mal\u0169l\u0169\nMaasai: Nasherot enkiyiopei\nTurkana: Naitwekoremurumur\nKipsigis: Koitonet Eminaiti\nMeru: Kithirtuneemi\nEmbu: Wimyandirere yene\nRendille: Eprite!iyaanatte akilellemu\nTaita: Okweyu osyandeaye\nPokomo: Koraisia hira lamukimutha \nSamburu: Neleei lenkunyenyei",
+      "started_at": "2026-04-29T08:07:02.468000Z",
+      "duration_ms": 4560,
+      "tokens_in": 0,
+      "tokens_out": 94,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "You are a universal agent acting as an English language teacher. Write to your nursing students a text that explain the importance of helping patients in their activities of daily living (ADLs). Then write 5 questions with four multiple choices to test the comprehension of the text. Only one answer is correct. Write the solutions at the end.",
+      "started_at": "2026-04-29T08:07:08.528000Z",
+      "duration_ms": 1820,
+      "tokens_in": 85,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Dear nursing students,\n\nAs healthcare professionals, our duty goes beyond simply treating medical conditions or administering medications. We also have an important responsibility to assist patients in their activities of daily living or ADLs. ADLs refer to the routine tasks that individuals perform daily in order to maintain their personal hygiene and live independently. These activities may include bathing or showering, dressing, toileting, transferring, and eating.\n\nAssisting patients in their ADLs is crucial, as it can help them maintain their dignity and sense of independence. Patients who are unable to perform these tasks on their own may feel helpless and depressed, leading to a decline in their physical and mental health. Additionally, helping patients with their ADLs can prevent certain medical complications, such as pressure ulcers and infections.\n\nAs nursing students, it is important to understand the significance of assisting patients in their ADLs. Be patient, empathetic and respectful when providing this care. Always involve the patient in the process, and ask for their help and input wherever possible.\n\nBy providing thorough ADL assistance, you can ensure that your patients lead happy and comfortable lives. Remember, as healthcare professionals, we must do everything in our power to ensure the health and well-being of every patient we encounter.\n\nBest of luck!\n\nQuestion 1: What do ADLs stand for?\nA. Adult Daily Living tasks\nB. Activities of Daily Lives\nC. Activities of Daily Living\nD. All Day Living tasks\n\nQuestion 2: Why is assisting patients in their ADLs important?\nA. It helps us finish our work faster\nB. It prevents medical complications\nC. It is not our duty as healthcare professionals\nD. It does not affect the patient's physical and mental health\n\nQuestion 3: What are some examples of ADLs?\nA. Medical procedures\nB. Room cleaning\nC. Bathing, dressing and toileting\nD. Cooking and cleaning\n\nQuestion 4: How can helping patients with their ADLs improve their well-being?\nA. It can prevent medical complications\nB. It can make our job easier\nC. It is not important for the patient\nD. It can cause depression and helplessness\n\nQuestion 5: What attitude should you have when providing ADL assistance to patients?\nA. Be impatient and disrespectful\nB. Be empathetic and respectful\nC. Only care about finishing the task quickly\nD. Do not involve the patient in the process\n\nAnswers:\n1. C\n2. B\n3. C\n4. A\n5. B",
+      "started_at": "2026-04-29T08:07:11.848000Z",
+      "duration_ms": 25280,
+      "tokens_in": 0,
+      "tokens_out": 612,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2113,
+      "tokens_in": 1407,
+      "tokens_out": 706,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 99,
+      "duration_ms": 32628,
+      "ai_wait_ms": 29840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0018,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

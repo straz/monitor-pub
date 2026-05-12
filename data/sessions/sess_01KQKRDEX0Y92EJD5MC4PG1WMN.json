@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQKRDEX0Y92EJD5MC4PG1WMN",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "Write the outline for a manuscript of a systematic review on the adverse events of SGLT2 inhibitors. This review include\u2026",
+  "started_at": "2026-05-02T07:11:00Z",
+  "ended_at": "2026-05-02T07:12:08.692000Z",
+  "duration_ms": 68692,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write the outline for a manuscript of a systematic review on the adverse events of SGLT2 inhibitors. This review included any RCTs with approved iSGLT2 versus placebo or no-treatment, for any condition, and studies the comparative risk of predefined adverse events of interest. Some particularities regarding this systematic review were that our search strategy didn't include bibliographic literature databases, but only clinical trial registries (ClinicalTrials.gov and EUCTR), and the data was extracted automatically from those registries.",
+      "started_at": "2026-05-02T07:11:00Z",
+      "duration_ms": 2420,
+      "tokens_in": 135,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Title: A Systematic Review on the Adverse Events of SGLT2 Inhibitors: Evidence from Clinical Trial Registries\n\nAbstract: \nThis systematic review aims to evaluate the adverse events of sodium-glucose cotransporter-2 (SGLT2) inhibitors based on data from randomized controlled trials (RCTs) within clinical trial registries (ClinicalTrials.gov and EUCTR). This comprehensive evaluation encompasses trials comparing approved iSGLT2 inhibitors against placebo or no-treatment, and measures the comparative risk of predefined adverse events of interest. Notably, our search strategy does not include bibliographic literature databases, but rather relies on automatic data extraction from clinical trial registries. \n\nOutline:\n\nI. Introduction\n   A. Background on SGLT2 inhibitors\n      1. Role in the treatment of type 2 diabetes and other conditions\n      2. Overview of currently approved iSGLT2 inhibitors\n   B. Safety concerns and reported adverse events\n      1. Reasons for systematic evaluation of safety\n   C. Rationale for using clinical trial registries\n      1. Advantages of registry-based data\n      2. Limitations of published literature\n\nII. Methods\n   A. Search strategy\n      1. Identification of clinical trial registries\n         a. ClinicalTrials.gov\n         b. EU Clinical Trials Register (EUCTR)\n      2. Inclusion and exclusion criteria\n      3. Keywords and search terms\n   B. Selection of studies\n      1. Inclusion of RCTs with approved iSGLT2 versus placebo or no-treatment\n      2. Exclusion of non-randomized studies, case-reports, and observational studies\n   C. Data extraction\n      1. Automatic extraction from clinical trial registries\n      2. Predefined adverse events of interest\n   D. Quality assessment\n      1. Evaluation of methodological quality and risk of bias\n   E. Data analysis\n      1. Calculation of risk ratios and associated confidence intervals\n      2. Heterogeneity assessment among studies\n      3. Subgroup analysis\n      4. Sensitivity analysis\n\nIII. Results\n   A. Description of included trials\n      1. Characteristics of identified RCTs\n      2. Patient demographics and baseline characteristics\n   B. Analysis of adverse events\n      1. Overall risk of predefined adverse events\n      2. Comparative risk between iSGLT2 inhibitors and placebo or no-treatment\n      3. Subgroup analysis results based on specific iSGLT2 inhibitors\n   C. Sensitivity analysis\n      1. Impact of study quality and risk of bias on results\n\nIV. Discussion\n   A. Interpretation of findings\n      1. Summary of the main findings\n      2. Comparison with previous literature\n   B. Clinical implications\n      1. Risk-benefit balance for the use of iSGLT2 inhibitors\n   C. Strengths and limitations\n      1. Use of clinical trial registries and automatic data extraction\n      2. Potential limitations\n   D. Future research\n      1. Recommendations for further investigation\n\nV. Conclusion\n   A. Summary of findings\n   B. Importance of systematic evaluation for patient safety\n   C. Need for continuous monitoring and updating of adverse event data\n\nVI. Appendices\n   A. Detailed search strategy\n   B. PRISMA flow diagram\n   C. Tables and figures",
+      "started_at": "2026-05-02T07:11:03.920000Z",
+      "duration_ms": 32560,
+      "tokens_in": 0,
+      "tokens_out": 794,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Elaborate on I. Introduction. Use bullet points and brief descriptions of what type of content should go into each section represented by the\u00a0bullet\u00a0points.",
+      "started_at": "2026-05-02T07:11:37.980000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "I. Introduction\n\n   A. Background on SGLT2 inhibitors\n      1. Role in the treatment of type 2 diabetes and other conditions\n         - Brief overview of type 2 diabetes and its global prevalence\n         - Explanation of SGLT2 inhibitors as a class of drugs for treating type 2 diabetes\n         - Mention of emerging evidence for their use in other conditions (e.g., heart failure, chronic kidney disease)\n\n      2. Overview of currently approved iSGLT2 inhibitors\n         - List of currently approved iSGLT2 inhibitors on the market, such as canagliflozin, empagliflozin, and dapagliflozin\n         - Brief description of their mechanism of action\n         - Comparison between different iSGLT2 inhibitors (if applicable)\n\n   B. Safety concerns and reported adverse events\n      1. Reasons for systematic evaluation of safety\n         - Overview of common adverse events reported for SGLT2 inhibitors (e.g., urinary tract infections, genital mycotic infections, diabetic ketoacidosis)\n         - Discussion of case reports and post-marketing surveillance data that have raised safety concerns\n         - Explanation of the importance of systematically evaluating safety data to guide clinical decision-making and inform patients about potential risks\n\n   C. Rationale for using clinical trial registries\n      1. Advantages of registry-based data\n         - Explanation of clinical trial registry as a source of data\n         - Discussion on the potential benefits of using registry data, including unbiased reporting, reduced publication bias, and more comprehensive data sets\n         - Mention of any previous systematic reviews using registry data\n      \n      2. Limitations of published literature\n         - Discussion of the limitations inherent in traditional literature searches (e.g., publication bias, selective reporting of outcomes, incomplete reporting of adverse events)\n         - Explanation of how registry data can help address some of these limitations\n         - Brief mention of the remaining limitations and challenges in using registry data (e.g., potential for missing or incomplete data, lack of standardization)",
+      "started_at": "2026-05-02T07:11:40.748000Z",
+      "duration_ms": 22200,
+      "tokens_in": 0,
+      "tokens_out": 535,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "For use in the discogs components of foobar2000, is there a tag/formatting string that I could use that would give me the original/master release date?",
+      "started_at": "2026-05-02T07:12:04.448000Z",
+      "duration_ms": 1244,
+      "tokens_in": 37,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Yes, you can use the %original_release_date% tag to display the original/master release date in your foobar2000 components. Keep in mind that this tag needs to be present in your files' metadata (i.e., you must populate the tag with the original release date information) for it to work. If you are using Discogs as a source data for tagging, you may have to ensure that the tag mapping is correct to automatically fetch this information when updating metadata.\n\nTo show the original/master release date in a playlist or other component, adding [%original_release_date%] to the set formatting string should suffice. This assumes the original release date is already populated in your file metadata. If it is not, you may need to add this information yourself or find an appropriate component or utility to fetch it for you.",
+      "started_at": "2026-05-02T07:12:07.192000Z",
+      "duration_ms": 9000,
+      "tokens_in": 0,
+      "tokens_out": 205,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 38,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 5977,
+      "tokens_in": 4443,
+      "tokens_out": 1534,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 211,
+      "duration_ms": 68692,
+      "ai_wait_ms": 63760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.2253,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPMDQWM09Y7NXE8EMY431S56",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_003",
+  "title": "lawlessness in early towns and settlements, when did a claims law come into existence",
+  "started_at": "2026-04-20T03:08:00Z",
+  "ended_at": "2026-04-20T03:08:21.352000Z",
+  "duration_ms": 21352,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "lawlessness in early towns and settlements, when did a claims law come into existence",
+      "started_at": "2026-04-20T03:08:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The concept of a claims law or the establishment of legal systems to govern land ownership and property rights in early towns and settlements varied across different regions and cultures. Some civilizations had sophisticated legal systems while others relied on customary laws and informal agreements.\n\nIn the United States, the first land claims law was passed in 1796, known as the Land Claims Acts. This law allowed individuals to claim ownership of land west of the Appalachian Mountains based on certain criteria, such as having lived on the land for a certain period of time. This law paved the way for the government to establish a more formal system of land ownership and property rights in the expanding nation.\n\nHowever, it's important to note that even with the establishment of legal systems, lawlessness and disputes over land ownership continued to be a persistent issue throughout history and in some regions, still exist today.",
+      "started_at": "2026-04-20T03:08:02.552000Z",
+      "duration_ms": 10200,
+      "tokens_in": 0,
+      "tokens_out": 235,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "lawlessness in early towns and settlements, c.1835 to c.1862. When did a claims law come into existence",
+      "started_at": "2026-04-20T03:08:14.252000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "During the period of c.1835 to c.1862, there were several factors that contributed to lawlessness in early towns and settlements in the United States, including the rapid expansion of the country, the influx of new settlers, and tensions between indigenous peoples and settlers.\n\nIn terms of land ownership and property rights, the Homestead Act of 1862 is considered a significant claims law that came into existence during this period. This law allowed individuals to claim up to 160 acres of land in the western United States and provided a pathway for settlers to obtain land ownership and establish new farms and homes. The Homestead Act helped to reduce some of the lawlessness and disorder that had previously existed in this part of the country and also contributed to the growth and expansion of the United States.",
+      "started_at": "2026-04-20T03:08:16.852000Z",
+      "duration_ms": 9000,
+      "tokens_in": 0,
+      "tokens_out": 205,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1942,
+      "tokens_in": 1502,
+      "tokens_out": 440,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 46,
+      "duration_ms": 21352,
+      "ai_wait_ms": 19200,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ008M1KCY2DCJT0MKA8",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPMDQWM09Y7NXE8EMY431S56",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "lawlessness in early towns and settlements, c.1835 to c.1862. When did a claims law come into existence",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPMDQWM09Y7NXE8EMY431S56.json",
+        "turn_uri": "data/sessions/sess_01KPMDQWM09Y7NXE8EMY431S56.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.82).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:claims",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

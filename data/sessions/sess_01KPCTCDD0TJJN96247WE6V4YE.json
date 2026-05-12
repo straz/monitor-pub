@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPCTCDD0TJJN96247WE6V4YE",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "What are the goals of the Bold Commerce company in Winnipeg Manitoba? Give examples.",
+  "started_at": "2026-04-17T04:15:00Z",
+  "ended_at": "2026-04-17T04:15:51.848000Z",
+  "duration_ms": 51848,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What are the goals of the Bold Commerce company in Winnipeg Manitoba? Give examples.",
+      "started_at": "2026-04-17T04:15:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Bold Commerce is a Winnipeg-based software development company that specializes in creating customizable e-commerce solutions for businesses. The company has several goals, some of which include:\n\n1. Developing innovative, scalable, and customizable e-commerce solutions: Bold Commerce aims to building effective e-commerce applications and integrations for businesses of varying sizes, so that they can streamline and grow their operations. Examples of their products include Bold Subscriptions, Bold Custom Pricing, and Bold Product Options.\n\n2. Focus on merchant success: One of Bold Commerce's main goals is to prioritize their customers' success by catering to their unique needs and providing dedicated customer support. They ensure that the businesses using their applications have the tools and knowledge required to achieve success in the digital marketplace.\n\n3. Empower entrepreneurs: Bold Commerce aims to empower entrepreneurs and businesses by providing robust tools that aid in managing and scaling their e-commerce operations. Their flexible and easily-integrated solutions can be tailored to suit business needs, giving merchants the opportunity to test different strategies and grow their businesses.\n\n4. Constant improvement: Bold Commerce focuses on continuous innovation and the improvement of their products. They gather feedback from businesses using their applications and work on enhancing these products, with the aim of ensuring that their solutions continue to meet evolving industry trends and requirements.\n\n5. Fostering a creative and supportive work environment: Bold Commerce is dedicated to creating a work culture that encourages creativity, collaboration, and professional growth. They believe that supporting employees in achieving their career goals will ultimately benefit both their staff and the company's growth.\n\n6. Community involvement: As a Winnipeg-based company, Bold Commerce is committed to making a positive impact on their local community. They participate in various events and initiatives to support the growth of the tech industry in Manitoba, as well as local charity work to give back to their community.",
+      "started_at": "2026-04-17T04:15:02.552000Z",
+      "duration_ms": 22400,
+      "tokens_in": 0,
+      "tokens_out": 540,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are some relevant skills related to Bold Commerce?",
+      "started_at": "2026-04-17T04:15:26.452000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "There are several relevant skills related to working at or engaging with Bold Commerce, particularly in the spheres of e-commerce, software development, and customer service. Some key skills include:\n\n1. Software development: Proficiency in programming languages like JavaScript, Ruby, Python, or PHP is crucial for developing e-commerce applications and integrations. Knowledge of web development frameworks like React or Ruby on Rails can also be beneficial.\n\n2. E-commerce platforms: Familiarity with popular e-commerce platforms like Shopify, BigCommerce, WooCommerce, or Magento can help employees understand the intricacies of various online store infrastructures and adapt Bold Commerce's solutions accordingly.\n\n3. Web design and user experience (UX): Creating visually appealing and functional user interfaces is important for e-commerce solutions. Skills in HTML, CSS, and design principles are essential, along with an understanding of UX best practices for optimal user interactions.\n\n4. Project management: Managing projects within deadline-driven environments is vital for coordinating development, implementation, and customer support efforts. Familiarity with project management tools like Asana, Trello, or Jira can be beneficial.\n\n5. Data analysis: Analytical skills are useful for understanding customer needs, e-commerce trends, and assessing the effectiveness of Bold Commerce's applications. Proficiency in tools like Google Analytics, SQL, or Excel can be advantageous.\n\n6. Customer success and support: As Bold Commerce emphasizes merchant success, strong communication and problem-solving skills are crucial for understanding customers' requirements and providing tailored e-commerce solutions. Experience in technical customer support or account management can be relevant.\n\n7. Marketing and sales: Promoting Bold Commerce's products and engaging customers requires skills in digital marketing, SEO, content creation, and social media. Additionally, experience in sales and business development can contribute to the company's growth.\n\n8. Strategic partnerships: Building relationships with e-commerce platform providers, app marketplace partners, and other industry stakeholders can be valuable for expanding the reach of Bold Commerce's solutions.\n\n9. Collaboration and teamwork: Being able to work effectively with cross-functional teams is essential for creating and supporting efficient e-commerce solutions.\n\n10. Adaptability and willingness to learn: The e-commerce industry is constantly evolving, and staying updated with the latest trends, technologies, and best practices is essential for success in a company like Bold Commerce.",
+      "started_at": "2026-04-17T04:15:28.908000Z",
+      "duration_ms": 27440,
+      "tokens_in": 0,
+      "tokens_out": 666,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3001,
+      "tokens_in": 1795,
+      "tokens_out": 1206,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 34,
+      "duration_ms": 51848,
+      "ai_wait_ms": 49840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1262,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

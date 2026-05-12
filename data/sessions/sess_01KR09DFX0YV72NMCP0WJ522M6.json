@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR09DFX0YV72NMCP0WJ522M6",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "Give me a differential diagnosis for extrapulmonary tuberculosis in tabulated format.",
+  "started_at": "2026-05-07T03:59:00Z",
+  "ended_at": "2026-05-07T03:59:33.288000Z",
+  "duration_ms": 33288,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Give me a differential diagnosis for extrapulmonary tuberculosis in tabulated format.",
+      "started_at": "2026-05-07T03:59:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "| No.  | Differential Diagnosis  | Key Features                                                                                       |\n|-----|------------------------|----------------------------------------------------------------------------------------------------|\n| 1.  | Lymphadenitis          | Swollen, tender lymph nodes; common in children; often caused by bacterial or viral infections      |\n| 2.  | Sarcoidosis            | Noncaseating granulomas; commonly affects the lungs, lymph nodes, and skin; may show elevated ACE levels |\n| 3.  | Brucellosis            | Flu-like symptoms; chronic fatigue; possible granulomas in organs; commonly transmitted from animals      |\n| 4.  | Cat-scratch disease    | Swollen lymph nodes, skin lesions at the site of a cat scratch; caused by Bartonella henselae        |\n| 5.  | Actinomycosis          | Chronic infection with suppurative abscesses and draining sinuses; caused by Actinomyces species     |\n| 6.  | Fungal infections      | Granulomatous lesions; possible dissemination in immunocompromised patients; e.g., histoplasmosis, coccidioidomycosis |\n| 7.  | Nocardiosis            | Suppurative and granulomatous lesions; may present as pulmonary, cutaneous or systemic infection      |\n| 8.  | Toxoplasmosis          | Enlarged lymph nodes; commonly associated with exposure to cats; may cause encephalitis in an immunocompromised patient |\n| 9.  | Lymphoma               | Malignant lymphoid cells leading to enlarged, painless lymph nodes; may be associated with B symptoms (fever, weight loss, night sweats) |\n| 10. | Metastatic cancer      | Lymphadenopathy in the setting of known primary malignancy or unknown primary and presence of multiple involved lymph nodes |",
+      "started_at": "2026-05-07T03:59:02.552000Z",
+      "duration_ms": 18120,
+      "tokens_in": 0,
+      "tokens_out": 433,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "| Disease/Condition | Symptoms | Diagnostic Tests | Treatment |\n\nFollow the format above and include only the 3 most common disease.",
+      "started_at": "2026-05-07T03:59:22.172000Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "| Disease/Condition      | Symptoms                                               | Diagnostic Tests                                         | Treatment                                     |\n|------------------------|--------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------|\n| Lymphadenitis          | Swollen, tender lymph nodes                            | Physical examination, blood tests, imaging, possible biopsy | Antibiotics, pain management, drainage of abscesses if needed |\n| Sarcoidosis            | Fatigue, shortness of breath, enlarged lymph nodes, skin rashes, joint pain | Chest X-ray, blood tests (including ACE levels), bronchoscopy with biopsy, possibly PET scan         | Corticosteroids, immunosuppressive medications, monitoring disease progression    |\n| Extrapulmonary Tuberculosis | Lymph node swelling, fever, weight loss, night sweats, fatigue | Tuberculin skin test, blood tests, imaging (e.g., CT scan), biopsy for histopathology and culture | Antitubercular medications (e.g., isoniazid, rifampin, pyrazinamide, and ethambutol) for a prolonged duration (at least 6 months) |",
+      "started_at": "2026-05-07T03:59:24.868000Z",
+      "duration_ms": 12920,
+      "tokens_in": 0,
+      "tokens_out": 303,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2444,
+      "tokens_in": 1708,
+      "tokens_out": 736,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 54,
+      "duration_ms": 33288,
+      "ai_wait_ms": 31040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0954,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

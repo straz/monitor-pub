@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPJHN960XVWJC8YDEFDAKW38",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Give short summary of the fire Scotland act 2015",
+  "started_at": "2026-04-19T09:38:00Z",
+  "ended_at": "2026-04-19T09:38:37.180000Z",
+  "duration_ms": 37180,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Give short summary of the fire Scotland act 2015",
+      "started_at": "2026-04-19T09:38:00Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Fire (Scotland) Act 2005 is a legislative framework that aims to establish fire safety regulations and promote fire prevention in Scotland. It consolidates and modernizes previous fire safety legislation and introduces new duties for non-domestic premises. The Act establishes the Scottish Fire and Rescue Service as the responsible authority for enforcing fire safety measures, and sets out various duties and powers related to fire safety, including risk assessment, fire prevention, and fire-fighting arrangements. The Act also outlines the enforcement powers of fire authorities, penalties for non-compliance, and the appeal process for those aggrieved by decisions made under the Act.",
+      "started_at": "2026-04-19T09:38:02.444000Z",
+      "duration_ms": 7720,
+      "tokens_in": 0,
+      "tokens_out": 173,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Create bullet points for the Christie Report",
+      "started_at": "2026-04-19T09:38:11.664000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "- The Christie Report, formally titled \"Commission on the Future Delivery of Public Services,\" was published in June 2011\n- Chaired by Dr. Campbell Christie, the report aimed to examine the public services in Scotland and recommend improvements for their future delivery.\n- The report identified four key pillars of public service reform:\n  1. A focus on outcomes and improving performance\n  2. A commitment to prevention and early intervention\n  3. Greater integration and partnership working among public services\n  4. Workforce development and empowering communities\n- The report emphasized the need for public services to adapt to the challenges of increasing demand and constrained resources.\n- It highlighted the importance of fostering a culture of continuous improvement and innovation within public services.\n- The Christie Report recommended a shift towards preventative spending to reduce future demand and inequality, and to invest in services that promote early intervention.\n- It called for greater collaboration and partnership between local authorities, health boards, and other public service providers to improve efficiency and outcomes.\n- The report recommended that the Scottish Government should take a more strategic approach to public service delivery, with a focus on sharing best practices and learning from successful models.\n- It emphasized the crucial role of workforce development and training in ensuring public service staff are appropriately skilled and motivated to deliver high-quality services.\n- Lastly, the Christie Report advocated for empowering communities and individuals, allowing them to participate in decision-making processes and tailoring services to meet local needs.",
+      "started_at": "2026-04-19T09:38:14.096000Z",
+      "duration_ms": 17920,
+      "tokens_in": 0,
+      "tokens_out": 428,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is time for change by Scottish Fire and Rescue",
+      "started_at": "2026-04-19T09:38:33.516000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Time for Change is an initiative by the Scottish Fire and Rescue Service (SFRS) to transform and modernize the organization to better adapt to a constantly evolving social landscape. As part of the SFRS Strategic Plan 2016-2019, the Time for Change initiative sets out to enhance service delivery, promote a culture of continuous improvement, and ensure the long-term sustainability of the SFRS. This includes redefining firefighter roles, integrating prevention and protection activities, revisiting operational response models, improving collaboration with partners, investing in technology, and developing the skills of the workforce. The initiative strives to create a more efficient and effective fire and rescue service aligned with the needs and expectations of the communities it serves.",
+      "started_at": "2026-04-19T09:38:35.960000Z",
+      "duration_ms": 8720,
+      "tokens_in": 0,
+      "tokens_out": 198,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3443,
+      "tokens_in": 2644,
+      "tokens_out": 799,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 35,
+      "duration_ms": 37180,
+      "ai_wait_ms": 34360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1273,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

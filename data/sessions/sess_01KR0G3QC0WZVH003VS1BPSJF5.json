@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR0G3QC0WZVH003VS1BPSJF5",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "I need to walk through Zoura's GL impact ... like, T accounts",
+  "started_at": "2026-05-07T05:56:00Z",
+  "ended_at": "2026-05-07T05:56:36.444000Z",
+  "duration_ms": 36444,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need to walk through Zoura's GL impact ... like, T accounts ",
+      "started_at": "2026-05-07T05:56:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'm sorry, as an AI language model, I don't have access to the specifics of Zoura's GL impact. Can you provide me with additional context or information so that I may be able to assist you better?",
+      "started_at": "2026-05-07T05:56:02.480000Z",
+      "duration_ms": 2760,
+      "tokens_in": 0,
+      "tokens_out": 49,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what journal entries Zoura triggers when and how those interface / make their way into QuickBooks",
+      "started_at": "2026-05-07T05:56:06.740000Z",
+      "duration_ms": 1088,
+      "tokens_in": 24,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Ah, I understand. Here are some general steps on how Zoura's GL impact can make its way into QuickBooks through journal entries:\n\n1. When transactions occur in Zoura, they are recorded in the Zoura system as individual journal entries by account and date.\n\n2. Zoura may have a connector or integration with QuickBooks, which enables the transfer of these journal entries directly into QuickBooks.\n\n3. Alternatively, Zoura may allow users to export the journal entries as a .csv file, which can then be imported into QuickBooks.\n\n4. Once in QuickBooks, the journal entries can be reviewed and adjusted as necessary to ensure they are properly recorded in the appropriate accounts.\n\n5. The journal entries will then update the balance in the corresponding accounts on the QuickBooks general ledger.\n\nNote that the specific journal entries and accounts impacted by Zoura's transactions will depend on the nature of the transactions and the account setup in both Zoura and QuickBooks. It's important to consult with a qualified accounting professional to ensure accuracy and compliance with accounting standards.",
+      "started_at": "2026-05-07T05:56:09.328000Z",
+      "duration_ms": 11880,
+      "tokens_in": 0,
+      "tokens_out": 277,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what are general dunning requirements from in zuora to create workflow /",
+      "started_at": "2026-05-07T05:56:22.708000Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Dunning is the process of pursuing delinquent accounts for payment or other required actions. In Zuora, you can set up dunning workflows to automate the process of contacting customers who have overdue balances. Here are some general requirements to create a dunning workflow in Zuora:\n\n1. Set up dunning settings: Before creating a dunning workflow, you need to configure dunning settings in Zuora. This includes setting up the dunning frequency, dunning template, and dunning notifications.\n\n2. Identify customer accounts for dunning: You can set up triggers in Zuora to identify accounts that require dunning. This could be based on the number of overdue invoices, the total past-due amount, or other criteria.\n\n3. Create dunning templates: Zuora provides pre-built dunning templates that you can customize to suit your needs. These templates include emails, letters, and other communication channels.\n\n4. Assign dunning actions: Zuora enables you to assign specific actions to specific dunning steps. For example, you might assign an email template to be sent to customers with overdue invoices in the first dunning step, and add a late-payment fee in the second step.\n\n5. Schedule dunning runs: You can specify when dunning runs occur as part of your workflow. This might be weekly, daily, or based on other criteria.\n\n6. Monitor dunning activity: Zuora provides dashboards and reports that allow you to track dunning activity, including the status of each dunning run and the success rates of each communication channel.\n\nOverall, creating an effective dunning workflow in Zuora requires a clear understanding of your dunning policies, knowledge of Zuora's dunning features and settings, and careful testing to ensure the workflow is working as expected for both you and your customers.",
+      "started_at": "2026-05-07T05:56:25.224000Z",
+      "duration_ms": 18720,
+      "tokens_in": 0,
+      "tokens_out": 448,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3060,
+      "tokens_in": 2286,
+      "tokens_out": 774,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 57,
+      "duration_ms": 36444,
+      "ai_wait_ms": 33360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

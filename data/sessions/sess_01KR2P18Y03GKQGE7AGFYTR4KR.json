@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR2P18Y03GKQGE7AGFYTR4KR",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "please, summarize the main thesises of the following text with lenght - up to 1200 simbols:",
+  "started_at": "2026-05-08T02:18:00Z",
+  "ended_at": "2026-05-08T02:18:35.256000Z",
+  "duration_ms": 35256,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "please, summarize the main thesises of the following text with lenght - up to 1200 simbols:\nSystems such as artificial intelligence (AI) ChatGPT will soon influence life and death decisions when they become a standard tool in the hands of doctors. Some are already experimenting with ChatGPT to see if it can diagnose patients and select treatments. Whether this is good or bad depends on how doctors use it.\n\nGPT-4, ChatGPT's latest update, can score A's in medical license exams. He's even good at tasks we thought required human compassion, like choosing the right words to break bad news to patients.\n\nThese systems also develop image processing capabilities. At the moment, you still need a real doctor to feel the bump or assess the condition of the torn ligaments, but the AI can read the MRI or CT scan and make a medical report. Ideally, AI should not replace practical medical work, but complement it, but we still do not understand when and where it will be practical or ethical to follow its recommendations.\n\nWhile we already have more information at our fingertips, public health experts recently cited an abundance of misinformation as one of the reasons for our relatively short life expectancy. And it could get better or worse with the advent of GPT-4.\n\nAccording to Harvard professor of biomedical informatics Andrew Beam, in fact, all such a system does is predict what words should be next, i.e. uses an autocomplete system. And yet it is very similar to thinking. \"The surprising thing is that a lot of the tasks that we think require general intelligence to solve are autocomplete tasks in disguise,\" he said. \"That includes some form of medical inference.\"\n\nA whole class of technology, large language models, must deal exclusively with language, but users have found that teaching them more language helps them solve increasingly complex mathematical equations.\n\nIsaac Kohane, chair of the biomedical informatics program at Harvard Medical School, says one of the most obvious benefits of using AI is that it will help reduce or eliminate the hours of paperwork that now prevents doctors from devoting enough time to patients, which often leads to burnout.\n\nBut he also used the system to help with diagnoses as a pediatric endocrinologist. In one case, he says, the baby was born with indeterminate genitalia, and GPT-4 recommended a hormone test and then a genetic test, which identified the cause as an 11-hydroxylase deficiency. He not only made a quick diagnosis, but also asked for a proper examination at every stage.\n\nLike a human doctor, GPT-4 can make mistakes and is not always honest about the limits of his \"understanding\". You can also get GPT-4 to give different answers by asking him to imagine that he is a doctor who considers surgery a last resort, rather than a less conservative doctor. But in some cases, he is quite stubborn. For example, Kohane tried to persuade him to tell him what medications would help him lose a few pounds, but he was adamant, arguing that no medications are recommended for people who are not more seriously overweight.\n\nDespite his amazing AI abilities, patients and doctors should not rely on him too much or trust him blindly. ChatGPT and others like it are tools that require a lot of skill to use properly. Even those who understand artificial intelligence are trying to understand how a process similar to thinking arises from a simple autocomplete system. The next version, GPT-5, will be even faster and smarter. We are facing big changes in medicine - and we better do everything possible to be ready for them.",
+      "started_at": "2026-05-08T02:18:00Z",
+      "duration_ms": 11576,
+      "tokens_in": 898,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Artificial intelligence (AI) systems like ChatGPT are increasingly being used by doctors to diagnose patients and select treatments. While this technology presents opportunities such as reducing paperwork and increasing efficiency, it also raises concerns about ethics and the potential for errors. AI systems like GPT-4 can read medical images to generate reports and even score highly in medical licensing exams, but they are not always reliable, and there is still debate over when and where it is appropriate to follow their recommendations. Despite their capabilities, AI systems are tools that require skilled and ethical usage by doctors. While the technology may complement practical medical work, it should not replace it entirely. As AI continues to advance, it is important for medical professionals to be prepared for the changes and use the technology responsibly and safely.",
+      "started_at": "2026-05-08T02:18:13.076000Z",
+      "duration_ms": 9680,
+      "tokens_in": 0,
+      "tokens_out": 222,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Please, offer 5 options for title of post with such text:\nArtificial intelligence (AI) systems like ChatGPT are increasingly being used by doctors to diagnose patients and select treatments. While this technology presents opportunities such as reducing paperwork and increasing efficiency, it also raises concerns about ethics and the potential for errors. AI systems like GPT-4 can read medical images to generate reports and even score highly in medical licensing exams, but they are not always reliable, and there is still debate over when and where it is appropriate to follow their recommendations. Despite their capabilities, AI systems are tools that require skilled and ethical usage by doctors. While the technology may complement practical medical work, it should not replace it entirely. As AI continues to advance, it is important for medical professionals to be prepared for the changes and use the technology responsibly and safely.",
+      "started_at": "2026-05-08T02:18:24.256000Z",
+      "duration_ms": 3632,
+      "tokens_in": 236,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. \"The Pros and Cons of Using AI in Medical Diagnosis and Treatment\"\n2. \"ChatGPT and GPT-4: AI's Impact on the Future of Medicine\"\n3. \"Ethical Considerations for AI in Healthcare\"\n4. \"The Role of Skilled Usage in AI-Assisted Medical Diagnosis and Treatment\"\n5. \"Preparing for Changes: How AI is Transforming the Medical Profession\"",
+      "started_at": "2026-05-08T02:18:29.388000Z",
+      "duration_ms": 4120,
+      "tokens_in": 0,
+      "tokens_out": 83,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Please, advise the Saudi cargo seaport on the coast of Gulf",
+      "started_at": "2026-05-08T02:18:35.008000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I am not aware of the latest developments, updates, or news in ongoing events or politics. However, Saudi Arabia has multiple seaports on its Gulf Coast, including King Abdul Aziz Port in Dammam, Jubail Commercial Port, and Yanbu Commercial Port. Depending on the specific needs and requirements of the Saudi cargo seaport, it may be best to consult with local officials or industry experts for personalized recommendations.",
+      "started_at": "2026-05-08T02:18:37.476000Z",
+      "duration_ms": 5280,
+      "tokens_in": 0,
+      "tokens_out": 112,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 38,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 5924,
+      "tokens_in": 5507,
+      "tokens_out": 417,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 1148,
+      "duration_ms": 35256,
+      "ai_wait_ms": 19080,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0034,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ9F97N0Y3B3EB2XM6RYB1C9",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Please list down the usage of IPA in pharmaceutical manufacturing",
+  "started_at": "2026-04-28T07:19:00Z",
+  "ended_at": "2026-04-28T07:19:25.264000Z",
+  "duration_ms": 25264,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Please list down the usage of IPA in pharmaceutical manufacturing",
+      "started_at": "2026-04-28T07:19:00Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Here are several uses of IPA in pharmaceutical manufacturing:\n\n1. Cleaning: IPA is commonly used as a cleaning agent in pharmaceutical manufacturing. It is effective at removing contaminants from equipment, surfaces, and other areas of the manufacturing facility.\n\n2. Disinfection: IPA is also useful as a disinfectant in the pharmaceutical industry. It can kill a wide range of bacteria, viruses, and fungi that may be present in the manufacturing environment.\n\n3. Solvent: IPA can be used as a solvent for various active pharmaceutical ingredients (APIs) and excipients. It is especially useful for dissolving hydrophobic compounds that are difficult to dissolve in water.\n\n4. Extraction: IPA can be used in the extraction of plant-based drugs and natural products. It can extract and concentrate specific compounds from plant materials, aiding in their analysis and production.\n\n5. Diluent: IPA can be used as a diluent for injectable medications. It is safe for use in the body and helps to reduce the viscosity of medications, making them easier to inject.\n\n6. Co-solvent: IPA can be used as a co-solvent for certain drug formulations. It can improve the solubility and bioavailability of certain drugs, making them more effective.\n\n7. Freeze-drying: IPA is used in the freeze-drying process of certain medications. It helps to preserve the stability of the drug during the drying process and prevents degradation.",
+      "started_at": "2026-04-28T07:19:02.492000Z",
+      "duration_ms": 14960,
+      "tokens_in": 0,
+      "tokens_out": 354,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "how to reply an email to ask other department to proceed activity?",
+      "started_at": "2026-04-28T07:19:18.952000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here's an example reply email to ask another department to proceed with an activity:\n\nDear [Recipient],\n\nI hope this email finds you well. I am writing to follow up on the status of the [activity] project. Our department is eagerly waiting for the completion of this activity since it's crucial for us to proceed with our plans.\n\nI am kindly requesting your esteemed department to proceed with the [activity] as soon as possible, as we are reaching our deadlines in our own project. If there is any issue that might hinder the process, kindly let me know so we can discuss it together and try to find a solution.\n\nThank you very much for your support in this matter. Please let me know if you have any concerns or questions.\n\nBest regards,\n\n[Your Name]",
+      "started_at": "2026-04-28T07:19:21.444000Z",
+      "duration_ms": 8320,
+      "tokens_in": 0,
+      "tokens_out": 188,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2144,
+      "tokens_in": 1602,
+      "tokens_out": 542,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 32,
+      "duration_ms": 25264,
+      "ai_wait_ms": 23280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

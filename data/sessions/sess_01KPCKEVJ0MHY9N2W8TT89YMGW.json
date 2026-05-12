@@ -1,0 +1,173 @@
+{
+  "id": "sess_01KPCKEVJ0MHY9N2W8TT89YMGW",
+  "tenant": "axiom-bank",
+  "project": "sentry_aml",
+  "user": "u_axb_004",
+  "title": "41 42 43 44 45 46 47 48 49 50",
+  "started_at": "2026-04-17T02:14:00Z",
+  "ended_at": "2026-04-17T02:14:13.788000Z",
+  "duration_ms": 13788,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": " 41 42 43 44 45 46 47 48 49 50\nTIME REMAINING\n02:43:56\nWhich best describes how advertising influences consumer choice in an oligopoly?\n\nAdvertising coaxes people to buy new products.\nAdvertising alerts consumers to price reductions.\nAdvertising undermines competition.\nAdvertising informs brand knowledge.\nMark this and return   ",
+      "started_at": "2026-04-17T02:14:00Z",
+      "duration_ms": 1784,
+      "tokens_in": 82,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Advertising informs brand knowledge.",
+      "started_at": "2026-04-17T02:14:03.284000Z",
+      "duration_ms": 1160,
+      "tokens_in": 0,
+      "tokens_out": 9,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": " 41 42 43 44 45 46 47 48 49 50\nTIME REMAINING\n02:43:22\nCorporate taxes are a type of\n\nincome tax.\nproperty tax.\nsales tax.\nexcise tax.\nMark this and return   ",
+      "started_at": "2026-04-17T02:14:05.944000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "income tax.",
+      "started_at": "2026-04-17T02:14:08.712000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "1 2 3 4 5 6 7 8 9 10 \nTIME REMAINING\n01:59:48\nWhich of these are ways that identity theft can happen? Check all that apply.\n\nby forgery\nby phishing\nby fraud\nby financial engineering\nby social engineering\nMark this and return   ",
+      "started_at": "2026-04-17T02:14:11.092000Z",
+      "duration_ms": 1472,
+      "tokens_in": 56,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "- by forgery\n- by phishing\n- by fraud\n- by financial engineering\n- by social engineering",
+      "started_at": "2026-04-17T02:14:14.064000Z",
+      "duration_ms": 1680,
+      "tokens_in": 0,
+      "tokens_out": 22,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "1 2 3 4 5 6 7 8 9 10 \nTIME REMAINING\n01:59:24\nWhich of these affect real investment value? Check all that apply.\n\nfees and expenses\ninflation\nnominal interest rate\npretax returns\ntaxes\nMark this and return   ",
+      "started_at": "2026-04-17T02:14:17.244000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "- fees and expenses\n- inflation\n- taxes",
+      "started_at": "2026-04-17T02:14:20.168000Z",
+      "duration_ms": 1160,
+      "tokens_in": 0,
+      "tokens_out": 9,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "1 2 3 4 5 6 7 8 9 10 \nTIME REMAINING\n01:59:12\nWhich statement best describes the role of a credit agency?\n\nIt tracks the use of credit for lenders.\nIt predicts future earning potential for lenders.\nIt teaches how to make smart financial decisions.\nIt shows how saving money makes financial sense.\nMark this and return   ",
+      "started_at": "2026-04-17T02:14:22.828000Z",
+      "duration_ms": 1760,
+      "tokens_in": 80,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "It tracks the use of credit for lenders.",
+      "started_at": "2026-04-17T02:14:26.088000Z",
+      "duration_ms": 1200,
+      "tokens_in": 0,
+      "tokens_out": 10,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 50,
+    "ai_cost": 35,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4065,
+      "tokens_in": 4013,
+      "tokens_out": 52,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 309,
+      "duration_ms": 13788,
+      "ai_wait_ms": 6080,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00ASSD7VDF4X35WPZ0",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPCKEVJ0MHY9N2W8TT89YMGW",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "1 2 3 4 5 6 7 8 9 10 \nTIME REMAINING\n01:59:24\nWhich of these affect real investment value? Check all that apply.\n\nfees and expenses\ninflation\nnominal interest rate\npretax returns\ntaxes\nMark this and return   ",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPCKEVJ0MHY9N2W8TT89YMGW.json",
+        "turn_uri": "data/sessions/sess_01KPCKEVJ0MHY9N2W8TT89YMGW.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.45).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:fraud",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

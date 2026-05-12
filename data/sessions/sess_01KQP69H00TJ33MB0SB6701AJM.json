@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQP69H00TJ33MB0SB6701AJM",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "HealthyApp, a new Accenture H&PS client, specializes in developing custom software for hospitals and other medical facil\u2026",
+  "started_at": "2026-05-03T05:52:00Z",
+  "ended_at": "2026-05-03T05:52:16.540000Z",
+  "duration_ms": 16540,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "HealthyApp, a new Accenture H&PS client, specializes in developing custom software for hospitals and other medical facilities. For the upcoming fiscal year, they want to move to a more agile and innovative software development model, in which their developers can focus on application features and functionality, rather than underlying environments and infrastructure.\n\nWhich Cloud computing model would provide HealthyApp with the framework to help achieve this goal?",
+      "started_at": "2026-05-03T05:52:00Z",
+      "duration_ms": 2204,
+      "tokens_in": 117,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The platform-as-a-service (PaaS) cloud computing model would provide HealthyApp with the framework to help achieve their goal. PaaS allows developers to focus on building applications without the need to manage the underlying infrastructure or hardware. This would allow HealthyApp\u2019s developers to focus on application features and functionality, resulting in a more agile and innovative software development model. PaaS also provides scalable and flexible computing resources that can easily meet the demands of a growing medical facility.",
+      "started_at": "2026-05-03T05:52:03.704000Z",
+      "duration_ms": 6200,
+      "tokens_in": 0,
+      "tokens_out": 135,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "HealthyApp, a new Accenture H&PS client, specializes in developing custom software for hospitals and other medical facilities. For the upcoming fiscal year, they want to move to a more agile and innovative software development model, in which their developers can focus on application features and functionality, rather than underlying environments and infrastructure.\n\nWhich Cloud computing model would provide HealthyApp with the framework to help achieve this goal?\n\n\nDatabase as a Service (DBaaS)\n\n\nPlatform as a Service (PaaS)\n\n\nNetwork as a Service (NaaS)\n\n\nSoftware as a Service (SaaS)",
+      "started_at": "2026-05-03T05:52:11.404000Z",
+      "duration_ms": 2576,
+      "tokens_in": 148,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Platform as a Service (PaaS) cloud computing model would provide HealthyApp with the framework to help achieve their goal. PaaS would allow developers to focus on application features and functionality without the need to manage the underlying infrastructure or hardware. This would result in a more agile and innovative software development model. PaaS also provides scalable and flexible computing resources that can easily meet the demands of a growing medical facility.",
+      "started_at": "2026-05-03T05:52:15.480000Z",
+      "duration_ms": 5560,
+      "tokens_in": 0,
+      "tokens_out": 119,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 15,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1971,
+      "tokens_in": 1717,
+      "tokens_out": 254,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 265,
+      "duration_ms": 16540,
+      "ai_wait_ms": 11760,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00R2ET5P8PWE7PM4GP",
+      "tenant": "kurson-health",
+      "session": "sess_01KQP69H00TJ33MB0SB6701AJM",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "HealthyApp, a new Accenture H&PS client, specializes in developing custom software for hospitals and other medical facilities. For the upcoming fiscal year, they want to move to a more agile and innovative software development model, in whi",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQP69H00TJ33MB0SB6701AJM.json",
+        "turn_uri": "data/sessions/sess_01KQP69H00TJ33MB0SB6701AJM.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.86).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

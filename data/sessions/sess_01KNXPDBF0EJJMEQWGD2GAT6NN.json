@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KNXPDBF0EJJMEQWGD2GAT6NN",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "show me sql coding interview patterns for Uber",
+  "started_at": "2026-04-11T07:17:00Z",
+  "ended_at": "2026-04-11T07:17:29.236000Z",
+  "duration_ms": 29236,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "show me sql coding interview patterns for Uber",
+      "started_at": "2026-04-11T07:17:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "There are many different types of SQL coding interview patterns that Uber might use in their interviews. However, some common patterns that might be used to assess a candidate's SQL skills could include:\n\n1. Query Optimization: In this pattern, the interviewer might ask the candidate to optimize a slow-performing query. The candidate would need to identify the root cause of the performance issues and suggest possible solutions to improve the query's performance.\n\n2. Data Modeling: The interviewer might present a real-world scenario and ask the candidate to design a database schema that can efficiently store and retrieve the required data. The candidate would need to demonstrate a good understanding of relational database concepts such as normalization and denormalization.\n\n3. Joins and Sub-Queries: The interviewer might ask the candidate to write SQL code that involves complex joins and sub-queries, requiring the candidate to demonstrate a good understanding of SQL syntax and be able to write complex queries on-the-fly.\n\n4. Data Manipulation Language (DML): The interviewer might ask the candidate to write SQL code using DML statements (such as INSERT, UPDATE or DELETE) and ask the candidate to demonstrate knowledge of transaction management and ACID properties.\n\n5. Window Functions: In this pattern, the interviewer might ask the candidate to write SQL code using window functions and demonstrate a good understanding of advanced SQL concepts such as ranking, aggregation, and percentage calculations.\n\n6. Data Analysis: The interviewer might present a dataset and ask the candidate to write SQL code to perform data analysis, such as identifying trends or patterns in the data. The candidate would need to demonstrate a good understanding of data analysis techniques and be able to communicate the insights obtained from the analysis.\n\nOverall, Uber is interested in candidates who are comfortable with SQL, have a deep understanding of database systems, and are able to write efficient, high-quality code. Candidates should be prepared to explain their thought process when approaching SQL problems and be able to communicate their solutions clearly and concisely.",
+      "started_at": "2026-04-11T07:17:02.432000Z",
+      "duration_ms": 22640,
+      "tokens_in": 0,
+      "tokens_out": 546,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Just show me the sql code patterns asked at Uber",
+      "started_at": "2026-04-11T07:17:26.572000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sorry, as an AI language model, I don't have access to the specific coding interview patterns used by Uber or any other company. However, I have provided some common SQL coding interview patterns that Uber might use as stated in my previous response. These patterns are not exhaustive and there could be many other patterns depending on the specific role a candidate is being interviewed for.",
+      "started_at": "2026-04-11T07:17:29.016000Z",
+      "duration_ms": 4720,
+      "tokens_in": 0,
+      "tokens_out": 98,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2424,
+      "tokens_in": 1780,
+      "tokens_out": 644,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 23,
+      "duration_ms": 29236,
+      "ai_wait_ms": 27360,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0019,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

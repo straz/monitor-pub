@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQRWPDJ0955D2N9TW4H2DR7V",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Is there something that teaches you on tax policies, im looking for something comparable to the courses on the MIT OpenC\u2026",
+  "started_at": "2026-05-04T07:02:00Z",
+  "ended_at": "2026-05-04T07:02:36.416000Z",
+  "duration_ms": 36416,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Is there something that teaches you on tax policies, im looking for something comparable to the courses on the MIT OpenCourseWare\n",
+      "started_at": "2026-05-04T07:02:00Z",
+      "duration_ms": 1184,
+      "tokens_in": 32,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Yes, there are several resources available online that can teach you about tax policies. Some of these resources include:\n\n1. Tax Foundation: The Tax Foundation is a non-profit organization that provides research and analysis on tax policies. Their website offers a variety of resources, including articles, reports, and data on tax policies at the federal, state, and local levels.\n\n2. IRS: The Internal Revenue Service (IRS) website offers a wealth of information on tax policies, including tax codes, forms, and publications. The IRS also offers free tax assistance programs for taxpayers who need help with their taxes.\n\n3. Coursera: Coursera offers several online courses on tax policies, including courses from top universities such as Stanford and the University of Illinois. These courses cover a range of topics, from basic tax concepts to more advanced tax policy issues.\n\n4. Tax Policy Center: The Tax Policy Center is a partnership between the Urban Institute and Brookings Institution that provides research and analysis on tax policies. Their website offers a variety of resources, including reports, papers, and data on tax policies.\n\nOverall, there are many resources available to learn about tax policies online, and you can find courses, reports, and data from top institutions to deepen your understanding of this complex topic.",
+      "started_at": "2026-05-04T07:02:02.684000Z",
+      "duration_ms": 14240,
+      "tokens_in": 0,
+      "tokens_out": 336,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What are the classes an accountant takes to get a bachelors degree",
+      "started_at": "2026-05-04T07:02:18.424000Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The classes for an accountant in a bachelor's degree program may vary slightly depending on the institution, but they generally cover the following areas:\n\n1. Accounting Principles: This course introduces students to the basic concepts of accounting, including the accounting cycle, financial statements, and the principles of accounting.\n\n2. Financial Accounting: This course covers the preparation and interpretation of financial statements, including the balance sheet, income statement, and statement of cash flows.\n\n3. Managerial Accounting: This course focuses on the use of accounting information for decision-making within organizations, including cost analysis, budgeting, and performance evaluation.\n\n4. Taxation: This course covers the basics of tax law, including individual and business taxes, tax planning, and tax compliance.\n\n5. Auditing: This course introduces students to the principles of auditing, including the role of professional auditors, audit procedures, and ethical considerations.\n\n6. Business Law: This course covers the legal environment in which businesses operate and focuses on topics such as contracts, torts, and intellectual property.\n\n7. Economics: This course covers the principles of micro and macroeconomics, including supply and demand, market structures, and economic indicators.\n\n8. Business Ethics: This course addresses ethical issues faced by accountants and other business professionals, including conflicts of interest and corporate social responsibility.\n\n9. Information Systems: This course covers the fundamentals of information technology, including databases, networks, and security, as well as accounting information systems and enterprise resource planning (ERP) systems.\n\n10. Electives: Depending on the program, students may be able to choose from a variety of elective courses, such as international accounting, forensic accounting, or financial statement analysis.",
+      "started_at": "2026-05-04T07:02:20.916000Z",
+      "duration_ms": 20000,
+      "tokens_in": 0,
+      "tokens_out": 480,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2432,
+      "tokens_in": 1616,
+      "tokens_out": 816,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 48,
+      "duration_ms": 36416,
+      "ai_wait_ms": 34240,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "id": "sess_01KP0DECJ0RX5ZEADXC5DXGJV9",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "What is the credit rating for Bank for international settlement",
+  "started_at": "2026-04-12T08:38:00Z",
+  "ended_at": "2026-04-12T08:38:29.356000Z",
+  "duration_ms": 29356,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is the credit rating for Bank for international settlement",
+      "started_at": "2026-04-12T08:38:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have access to the current credit rating of Bank for International Settlements (BIS). \n\nHowever, as per Moody's, BIS has a long-term credit rating of Aa1 as at 3 December 2020. The credit rating indicates the agency's assessment of the borrower's ability to repay its debts. An Aa1 rating denotes a high-quality, low credit risk investment-grade rating.",
+      "started_at": "2026-04-12T08:38:02.480000Z",
+      "duration_ms": 4640,
+      "tokens_in": 0,
+      "tokens_out": 96,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What about IMF?",
+      "started_at": "2026-04-12T08:38:08.620000Z",
+      "duration_ms": 836,
+      "tokens_in": 3,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The International Monetary Fund (IMF) has a long-term credit rating of Aaa according to Moody's as of May 2021. This rating signifies a very low credit risk and is the highest rating that Moody's assigns. The IMF's credit rating is based on its ability to meet its financial obligations on time and its strong financial position. The IMF's credit rating allows it to borrow at low-interest rates and provide loans to member countries at favorable terms.",
+      "started_at": "2026-04-12T08:38:10.956000Z",
+      "duration_ms": 5320,
+      "tokens_in": 0,
+      "tokens_out": 113,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is the credit rating for European Central Bank?",
+      "started_at": "2026-04-12T08:38:17.776000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have access to the current credit rating of European Central Bank (ECB).\n\nHowever, as per Moody's, ECB has a long-term credit rating of Aa2 as at 25 May 2021. The credit rating indicates the agency's assessment of the borrower's ability to repay its debts. An Aa2 rating denotes a high-quality, low credit risk investment-grade rating.",
+      "started_at": "2026-04-12T08:38:20.232000Z",
+      "duration_ms": 4480,
+      "tokens_in": 0,
+      "tokens_out": 92,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "What about the International Monetary Fund?",
+      "started_at": "2026-04-12T08:38:26.212000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "The International Monetary Fund (IMF) has a long-term credit rating of Aaa according to Moody's as of May 2021. This rating signifies a very low credit risk and is the highest rating that Moody's assigns. The IMF's credit rating is based on its ability to meet its financial obligations on time and its strong financial position. The IMF's credit rating allows it to borrow at low-interest rates and provide loans to member countries at favorable terms.",
+      "started_at": "2026-04-12T08:38:28.632000Z",
+      "duration_ms": 5320,
+      "tokens_in": 0,
+      "tokens_out": 113,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "What about the Bank for International Settlement?",
+      "started_at": "2026-04-12T08:38:35.452000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "As per Moody's, the Bank for International Settlements (BIS) has a long-term credit rating of Aa1 as at 3 December 2020. This rating denotes a high-quality, low credit risk investment-grade rating. Moody's considers BIS' role as a global cooperation platform for central banks, its well-diversified investment portfolio, conservative balance sheet, and very strong capitalization as supportive of its credit profile.",
+      "started_at": "2026-04-12T08:38:37.896000Z",
+      "duration_ms": 4960,
+      "tokens_in": 0,
+      "tokens_out": 104,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 50,
+    "ai_cost": 38,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4696,
+      "tokens_in": 4178,
+      "tokens_out": 518,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 53,
+      "duration_ms": 29356,
+      "ai_wait_ms": 24720,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0029,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00G7PDT88S94983Y8F",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP0DECJ0RX5ZEADXC5DXGJV9",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "What is the credit rating for European Central Bank?",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP0DECJ0RX5ZEADXC5DXGJV9.json",
+        "turn_uri": "data/sessions/sess_01KP0DECJ0RX5ZEADXC5DXGJV9.json#turns/4"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

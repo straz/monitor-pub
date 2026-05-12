@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP2NWG80PK2JS9QSKX1KBC5Y",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "Write a program code that, when entering the address of a token, will determine whether liquidity has been added to this\u2026",
+  "started_at": "2026-04-13T05:44:00Z",
+  "ended_at": "2026-04-13T05:44:39.704000Z",
+  "duration_ms": 39704,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write a program code that, when entering the address of a token, will determine whether liquidity has been added to this one and whether it has been blocked. Token on Binance Smart Chain. Use APIKey",
+      "started_at": "2026-04-13T05:44:00Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "To achieve this, you can use the Binance Smart Chain API provided by the BscScan. The code below is an implementation in Python:\n\n```python\nimport requests\n\n# Replace YOUR_APIKEY with your actual BscScan API key.\nAPIKEY = \"YOUR_APIKEY\"\n\ndef get_token_details(address):\n    url = f\"https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress={address}&address=0x0000000000000000000000000000000000001004&tag=latest&apikey={APIKEY}\"\n    \n    response = requests.get(url)\n    data = response.json()\n    return data\n\ndef get_total_supply(token_address):\n    url = f\"https://api.bscscan.com/api?module=stats&action=tokensupply&contractaddress={token_address}&apikey={APIKEY}\"\n\n    response = requests.get(url)\n    data = response.json()\n    return int(data[\"result\"])\n\ndef is_liquidity_added_and_locked(token_address):\n    contract_balance = int(get_token_details(token_address)[\"result\"])\n\n    # Check if token contract locked liquidity\n    locked_liquidity_percent = contract_balance / get_total_supply(token_address)\n    \n    if contract_balance > 0 and locked_liquidity_percent >= 0.9:\n        return True\n    return False\n\ntoken_address = \"TOKEN_CONTRACT_ADDRESS\"\nprint(is_liquidity_added_and_locked(token_address))\n```\n\nReplace the placeholder values with your BscScan API key and token contract address before running the code. This application uses BscScan API endpoints, fetches the token balance locked in the zero address, and checks if the percentage of locked liquidity is more than or equal to 90%. Adjust the percentage according to your requirements for deciding whether liquidity is locked or not.",
+      "started_at": "2026-04-13T05:44:02.888000Z",
+      "duration_ms": 17040,
+      "tokens_in": 0,
+      "tokens_out": 406,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Write a program code that, when entering the address of a token, will determine whether liquidity has been added to this token and whether it has been blocked. Token on Binance Smart Chain. Use APIKey\nFocus on method signatures\nLock Tokens 0x6167aa61\nAdd Liquidity ETH 0xf305d719\nLock 0x07279357",
+      "started_at": "2026-04-13T05:44:21.428000Z",
+      "duration_ms": 1676,
+      "tokens_in": 73,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Below is a Python implementation that checks whether the liquidity has been added and locked for a token on the Binance Smart Chain. This revised code includes specific method signatures corresponding to `Lock Tokens`, `Add Liquidity ETH`, and `Lock`. The code utilizes BscScan API and your API key.\n\n```python\nimport requests\n\n# Replace YOUR_APIKEY with your actual BscScan API key.\nAPIKEY = \"YOUR_APIKEY\"\n\n# Method signatures\nLOCK_TOKENS_SIGNATURE = \"0x6167aa61\"\nADD_LIQUIDITY_ETH_SIGNATURE = \"0xf305d719\"\nLOCK_SIGNATURE = \"0x07279357\"\n\ndef is_signature_present(address, signature, start_block=0, end_block=\"latest\"):\n    url = f\"https://api.bscscan.com/api?module=account&action=txlist&address={address}&startblock={start_block}&endblock={end_block}&sort=asc&apikey={APIKEY}\"\n\n    response = requests.get(url)\n    data = response.json()\n\n    for tx in data[\"result\"]:\n        if tx[\"input\"].startswith(signature):\n            return True\n    return False\n\ndef is_liquidity_added_and_locked(token_address):\n    lock_tokens_present = is_signature_present(token_address, LOCK_TOKENS_SIGNATURE)\n    add_liquidity_eth_present = is_signature_present(token_address, ADD_LIQUIDITY_ETH_SIGNATURE)\n    lock_present = is_signature_present(token_address, LOCK_SIGNATURE)\n\n    return lock_tokens_present and add_liquidity_eth_present and lock_present\n\ntoken_address = \"TOKEN_CONTRACT_ADDRESS\"\nprint(is_liquidity_added_and_locked(token_address))\n```\n\nThis code checks if the `Lock Tokens`, `Add Liquidity ETH`, and `Lock` method signatures are present in the token contract address transactions. Replace the placeholder values with your BscScan API key and the token contract address before running the code. If all three method signatures are found in the transactions, the code returns `True`, indicating the liquidity has been added and locked for the token. Otherwise, it returns `False`.",
+      "started_at": "2026-04-13T05:44:24.604000Z",
+      "duration_ms": 19600,
+      "tokens_in": 0,
+      "tokens_out": 470,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2653,
+      "tokens_in": 1777,
+      "tokens_out": 876,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 122,
+      "duration_ms": 39704,
+      "ai_wait_ms": 36640,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1059,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00FRFG6D6M5XQ4EMF6",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP2NWG80PK2JS9QSKX1KBC5Y",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Write a program code that, when entering the address of a token, will determine whether liquidity has been added to this token and whether it has been blocked. Token on Binance Smart Chain. Use APIKey\nFocus on method signatures\nLock Tokens ",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP2NWG80PK2JS9QSKX1KBC5Y.json",
+        "turn_uri": "data/sessions/sess_01KP2NWG80PK2JS9QSKX1KBC5Y.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.73).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

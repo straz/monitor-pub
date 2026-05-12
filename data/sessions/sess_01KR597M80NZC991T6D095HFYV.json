@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KR597M80NZC991T6D095HFYV",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "Oracle company PL SQL Developer Interview questions and answers",
+  "started_at": "2026-05-09T02:32:00Z",
+  "ended_at": "2026-05-09T02:33:43.712000Z",
+  "duration_ms": 103712,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Oracle company PL SQL Developer Interview questions and answers",
+      "started_at": "2026-05-09T02:32:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. What is the difference between a view and a table in Oracle?\n\nA table is a storage object that contains data in rows and columns that can be manipulated. A view is a virtual table that is derived from a query. It contains no data of its own and is defined by a SQL SELECT statement.\n\n2. What is the difference between a function and a procedure in Oracle?\n\nA function returns a value while a procedure does not. Functions are used to perform calculations or to return a value, while procedures are used to perform tasks such as modifying data or performing a series of SQL statements.\n\n3. What is a package in Oracle?\n\nA package is a database object that groups related procedures, functions, variables, and cursors together into a single unit. Packages provide a modular and well-organized structure for managing and maintaining code.\n\n4. What is the difference between a cursor and a cursor variable?\n\nA cursor is a database object that enables you to retrieve data from a table in a row-by-row manner. A cursor variable is a pointer to a cursor, which can be used to pass the cursor as a parameter to a procedure or function.\n\n5. What is a trigger in Oracle?\n\nA trigger is a database object that automatically executes a piece of code in response to certain events such as insert, update, or delete operations on a table.\n\n6. What is the difference between a primary key and a foreign key?\n\nA primary key is a unique identifier for a table that is used to enforce data integrity. A foreign key is a column in a table that refers to the primary key of another table, establishing a relationship between the two.\n\n7. What is an index in Oracle?\n\nAn index is a database object that improves the performance of queries by allowing the database to quickly locate data based on certain criteria.\n\n8. What is normalization in database design?\n\nNormalization is the process of organizing data in a database to reduce redundancy and improve data integrity. It involves breaking down a table into smaller tables and establishing relationships between them.\n\n9. What is the difference between a left outer join and a right outer join?\n\nA left outer join returns all records from the left table and the matching records from the right table. A right outer join returns all records from the right table and the matching records from the left table.\n\n10. What is the difference between a trigger and a stored procedure?\n\nA trigger automatically executes a piece of code in response to certain database events. A stored procedure is a precompiled block of code that can be executed on command.",
+      "started_at": "2026-05-09T02:32:02.480000Z",
+      "duration_ms": 26640,
+      "tokens_in": 0,
+      "tokens_out": 646,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Answer to why I would be a good resource for PL SQL developer after working in Delphi with Oracle database",
+      "started_at": "2026-05-09T02:32:30.620000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot assess your skills or experience, but assuming you have worked with Delphi programming language and an Oracle database, you may have a solid foundation in database design, SQL, and PL/SQL. This experience suggests that you have a working knowledge of relational databases, can write efficient code for data manipulation, and have experience working with Oracle-specific features.\n\nThus, you could be a good resource for an organization seeking a PL SQL developer, as you would bring valuable experience with related technologies, and a strong understanding of general database concepts. You would also have a good foundation for adapting to new tools and technologies used in PL SQL and quickly learn new programming languages, tools, and development methodologies.",
+      "started_at": "2026-05-09T02:32:33.232000Z",
+      "duration_ms": 8760,
+      "tokens_in": 0,
+      "tokens_out": 199,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Screening round questions and answers for Oracle India, for Senior Software Engineer role",
+      "started_at": "2026-05-09T02:32:43.492000Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to Oracle India's specific screening round questions and answers for the Senior Software Engineer role. However, based on my knowledge of screening rounds for software engineering roles, some common questions that may be asked include:\n\n1. What experience do you have with designing and implementing database solutions?\n\n2. How familiar are you with PL/SQL, and what are some of the most important features you have used in your projects?\n\n3. What kind of programming projects have you been involved in, and how have you made an impact?\n\n4. What is your experience with software development methodologies like Agile and Scrum?\n\n5. What tools and technologies have you worked with in the past that could be relevant to the Senior Software Engineer role?\n\n6. Describe your experience with testing and debugging code.\n\n7. Explain how you have managed or overcome difficult situations in previous projects.\n\n8. How do you keep up with new technologies and trends?\n\n9. Explain your approach to solving complex programming problems.\n\n10. Do you have experience with cloud infrastructure and integrating applications with cloud services?\n\nIt is important to come prepared with examples and scenarios that showcase your experience in the field and how it relates to the Senior Software Engineer position. Make sure you have a solid understanding of the required skills and qualifications listed in the job description, as well as a strong understanding of the company's products and industry.",
+      "started_at": "2026-05-09T02:32:46.056000Z",
+      "duration_ms": 16080,
+      "tokens_in": 0,
+      "tokens_out": 382,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "1. What experience do you have with designing and implementing database solutions?\n\n2. How familiar are you with PL/SQL, and what are some of the most important features you have used in your projects?\n\n3. What kind of programming projects have you been involved in, and how have you made an impact?\n\n4. What is your experience with software development methodologies like Agile and Scrum?\n\n5. What tools and technologies have you worked with in the past that could be relevant to the Senior Software Engineer role?\n\n6. Describe your experience with testing and debugging code.\n\n7. Explain how you have managed or overcome difficult situations in previous projects.\n\n8. How do you keep up with new technologies and trends?\n\n9. Explain your approach to solving complex programming problems.\n\n10. Do you have experience with cloud infrastructure and integrating applications with cloud services?",
+      "started_at": "2026-05-09T02:33:03.636000Z",
+      "duration_ms": 3476,
+      "tokens_in": 223,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "1. What experience do you have with designing and implementing database solutions?\nI have experience in designing and implementing database solutions using various platforms, including Oracle, MySQL, and Microsoft SQL Server. I have worked on projects involving database schema design, data modeling, query optimization, and performance tuning. I have also developed and maintained stored procedures, views, and triggers using PL/SQL.\n\n2. How familiar are you with PL/SQL, and what are some of the most important features you have used in your projects?\nI am highly proficient in PL/SQL and have used various features such as cursors, collections, exception handling, and dynamic SQL, among others. I have also implemented complex business logic using PL/SQL and delivered high-performance solutions.\n\n3. What kind of programming projects have you been involved in, and how have you made an impact?\nI have worked on various projects ranging from enterprise-level applications to small-scale solutions in different domains such as healthcare, finance, and retail. I have contributed to the design and development of applications, been a part of the testing and deployment process, and collaborated with cross-functional teams to deliver high-quality solutions.\n\n4. What is your experience with software development methodologies like Agile and Scrum?\nI have experience working with Agile methodologies such as Scrum, Kanban, and XP. I have been a part of Agile teams and have followed the Agile principles such as iterative development, continuous delivery, and customer collaboration. I have also taken ownership of stories and worked with the product owners to deliver high-quality software in sprints.\n\n5. What tools and technologies have you worked with in the past that could be relevant to the Senior Software Engineer role?\nI have worked with various tools and technologies such as Java, .NET, Spring, Hibernate, Angular, React, and Node.js. Additionally, I have experience working with various databases such as Oracle, MySQL, and Microsoft SQL Server. I am also highly proficient in Git and have used it for source code management and continuous integration.\n\n6. Describe your experience with testing and debugging code.\nI have experience in writing unit tests, integration tests, and end-to-end tests. I have worked with tools such as JUnit, TestNG, and Selenium. Additionally, I have experience in debugging code using IDEs such as Eclipse and IntelliJ IDEA, as well as other debugging tools. I also use loggers for debugging and have experience in analyzing logs to identify issues.\n\n7. Explain how you have managed or overcome difficult situations in previous projects.\nIn one of my previous projects, there was a complex business scenario that required adding a new module to an existing application. I had to understand the existing codebase, learn the new business logic, and ensure a smooth transition. I addressed this by working closely with the stakeholders to understand their requirements and proposed a solution that was functional and easy to maintain.\n\n8. How do you keep up with new technologies and trends?\nI keep up with new technologies and trends by reading industry blogs, attending conferences, and participating in online forums. I also take online courses to stay up to date with the latest technologies and experiment with new tools and frameworks. I continuously evaluate and recommend the adoption of new technologies that can enhance the performance, scalability, and security of applications.\n\n9. Explain your approach to solving complex programming problems.\nMy approach to solving complex programming problems involves breaking them down into smaller, manageable tasks that can be accomplished systematically. I take a structured approach to problem-solving, starting with identifying the root cause of the problem, developing a plan of attack, seeking out solutions, and testing my changes thoroughly before implementing them. I also collaborate with team members and stakeholders to ensure that the problem-solving process is optimized.\n\n10. Do you have experience with cloud infrastructure and integrating applications with cloud services?\nYes, I have experience working with cloud infrastructure and integrating applications with cloud services. I have worked with AWS, Azure, and GCP cloud platforms to deploy and manage applications. Additionally, I have implemented cloud-based services such as AWS Lambda, SNS, and SQS, to name a few.",
+      "started_at": "2026-05-09T02:33:08.612000Z",
+      "duration_ms": 45600,
+      "tokens_in": 0,
+      "tokens_out": 1120,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 51,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 7870,
+      "tokens_in": 5523,
+      "tokens_out": 2347,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 286,
+      "duration_ms": 103712,
+      "ai_wait_ms": 97080,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0063,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQVV951029XF4XVD9W26D8W3",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "generate a doctor's registration number",
+  "started_at": "2026-05-05T10:35:00Z",
+  "ended_at": "2026-05-05T10:35:20.112000Z",
+  "duration_ms": 20112,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "generate a doctor's registration number",
+      "started_at": "2026-05-05T10:35:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'm sorry, as an AI language model, I don't have access to specific or confidential information such as generating a doctor's registration number. This kind of information is unique and should be provided by the regulatory body in charge of overseeing medical professionals. Please contact the appropriate authority or organization within your country or region to obtain this information.",
+      "started_at": "2026-05-05T10:35:02.408000Z",
+      "duration_ms": 4680,
+      "tokens_in": 0,
+      "tokens_out": 97,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what are gp's education in uk",
+      "started_at": "2026-05-05T10:35:08.588000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "General Practitioners (GPs) in the UK undergo extensive education and training before they qualify to work. Here is an overview of their education:\n\n1. Medical School: All GPs in the UK must first complete a five-year medical degree course in an approved university or medical school.\n\n2. Foundation Programme: After medical school, newly qualified doctors must complete a two-year foundation programme, which includes rotations in different specialties and gives them a broad range of experience.\n\n3. General Practice Specialty Training: Following the foundation programme, aspiring GPs must complete a three-year General Practice Specialty Training Programme, which includes supervised placements in GP surgeries and other healthcare settings.\n\n4. MRCGP Exam: GPs must pass the Membership of the Royal College of General Practitioners (MRCGP) exam, which tests clinical knowledge, skills, and patient management.\n\n5. Continuing Professional Development (CPD): GPs are required to regularly update their clinical and professional knowledge and skills through ongoing learning and CPD activities.\n\nOverall, the education and training of GPs in the UK is rigorous, ensuring that they have the knowledge, skills, and experience necessary to provide high-quality primary care to patients.",
+      "started_at": "2026-05-05T10:35:10.972000Z",
+      "duration_ms": 13640,
+      "tokens_in": 0,
+      "tokens_out": 321,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1740,
+      "tokens_in": 1322,
+      "tokens_out": 418,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 16,
+      "duration_ms": 20112,
+      "ai_wait_ms": 18320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

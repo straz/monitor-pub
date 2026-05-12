@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQE9FXT067NZZM08GWAGGYVR",
+  "tenant": "meridian-insurance",
+  "project": "riskbench",
+  "user": "u_mer_004",
+  "title": "My true passion lies in collaborating and communicating with people from all over the world, providing them with solutio\u2026",
+  "started_at": "2026-04-30T04:14:00Z",
+  "ended_at": "2026-04-30T04:14:12.988000Z",
+  "duration_ms": 12988,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "My true passion lies in collaborating and communicating with people from all over the world, providing them with solutions that enable to turn business ideas into revolutionary software products. It is truly fulfilling to be part of a team that is dedicated to creating innovative solutions for clients from conception to deployment and maintenance.\n\nAt Elinext, I am able to thrive as a specialist who has a tremendous impact on the IT industry. The ability to participate in all phases of project implementation, from ideation to post-launch support, allows me to continually grow my skills and expertise. It is an honor to work for a company that puts client satisfaction and technological excellence at the forefront of their priorities.\n\nOverall, my work at Elinext allows me to do what I love every day. Contributing to the success of businesses around the world and bringing new ideas to life keeps me motivated and passionate about what I do.  Add call to action to send me email",
+      "started_at": "2026-04-30T04:14:00Z",
+      "duration_ms": 3752,
+      "tokens_in": 246,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "If you're interested in collaborating on a software project or have any questions about my experience and expertise, please don't hesitate to send me an email at [insert email address]. I can't wait to connect with like-minded individuals and take on exciting new challenges.",
+      "started_at": "2026-04-30T04:14:05.252000Z",
+      "duration_ms": 3520,
+      "tokens_in": 0,
+      "tokens_out": 68,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "shorter",
+      "started_at": "2026-04-30T04:14:10.272000Z",
+      "duration_ms": 812,
+      "tokens_in": 1,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "If you're interested in collaborating on a software project or have any questions for me, please email me at [insert email address]. Excited to connect and take on new challenges!",
+      "started_at": "2026-04-30T04:14:12.584000Z",
+      "duration_ms": 2560,
+      "tokens_in": 0,
+      "tokens_out": 44,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "one line",
+      "started_at": "2026-04-30T04:14:16.644000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Email me at [insert email address] for software collaboration or inquiries.",
+      "started_at": "2026-04-30T04:14:18.968000Z",
+      "duration_ms": 1520,
+      "tokens_in": 0,
+      "tokens_out": 18,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 23,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2852,
+      "tokens_in": 2722,
+      "tokens_out": 130,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 249,
+      "duration_ms": 12988,
+      "ai_wait_ms": 7600,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0016,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:underwriting",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

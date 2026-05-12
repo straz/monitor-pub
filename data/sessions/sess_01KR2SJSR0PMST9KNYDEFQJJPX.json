@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR2SJSR0PMST9KNYDEFQJJPX",
+  "tenant": "meridian-insurance",
+  "project": "swiftclaim",
+  "user": "u_mer_001",
+  "title": "map Map the customer journeys/scenarios of a business that will need or want help hiring top talent",
+  "started_at": "2026-05-08T03:20:00Z",
+  "ended_at": "2026-05-08T03:20:58.708000Z",
+  "duration_ms": 58708,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "map Map the customer journeys/scenarios of a business that will need or want help hiring top talent",
+      "started_at": "2026-05-08T03:20:00Z",
+      "duration_ms": 1088,
+      "tokens_in": 24,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Job Posting Journey: A company looking to hire top talent will first need to create and post job listings, targeting specific skills and experiences required for the job. They will also need to ensure that the job posting is visible and accessible to the right audience, such as through job boards, social media, and industry publications.\n\n2. Application Journey: Once a potential candidate applies for the job, the company needs to efficiently process the application, review resumes, assess their skills and experience, and determine whether the candidate is a good fit for the role. This may involve phone or video interviews, skills assessments, and reference checks.\n\n3. Interview Journey: If the candidate is shortlisted, the company will need to arrange for interviews, which could involve multiple rounds, panel interviews, and assessments to evaluate the candidate's abilities and suitability for the role. The company should also ensure that all interactions during the interview process are professional and responsive to the candidate's needs.\n\n4. Offer Journey: If the company decides to offer the job, they will need to ensure that the offer meets the candidate's needs, including salary, benefits, and work-life balance. They will also need to communicate the offer effectively and promptly, and negotiate with the candidate if necessary.\n\n5. Onboarding Journey: Once the candidate accepts the offer, the company will need to onboard them, including introducing them to the company's culture, values, and processes, and ensuring that they have the necessary tools, training, and support to excel in their role. This process may involve multiple stakeholders and touchpoints, including HR, managers, and colleagues.\n\n6. Retention Journey: Finally, the company will need to develop strategies and initiatives to retain top talent, such as career development opportunities, recognition and rewards, and work-life balance programs. This will help ensure that the company continues to attract and retain the best talent in the industry, and that employees feel valued and engaged.",
+      "started_at": "2026-05-08T03:20:02.588000Z",
+      "duration_ms": 21720,
+      "tokens_in": 0,
+      "tokens_out": 523,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "In what why could this journey be provided assistance, help, or taken over by a third-party to save money and time",
+      "started_at": "2026-05-08T03:20:25.808000Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "There are several ways a third-party can assist in the customer journey of hiring top talent and save time and money for the company. Here are a few examples:\n\n1. Job Posting: A third-party recruitment agency or job board can take over the task of creating and posting job listings, targeting the right audience, and optimizing them for maximum visibility. This can save time for the company and ensure that the job postings are seen by the best candidates.\n\n2. Application and Screening: Third-party recruiters can help screen candidates, conduct initial interviews, and perform background and reference checks, which can save time and money for the company and improve the hiring process's quality.\n\n3. Assessment and Interviewing: A third-party assessment provider can conduct online skills assessments and cognitive tests, which can save time and help ensure a more objective and accurate evaluation of candidates.\n\n4. Offer and Onboarding: A third-party HR consultant can help the company develop and negotiate employment contracts, offer letters, and benefits packages that meet the candidates' needs while also staying in line with the company's budget and legal requirements. They can also assist with the onboarding process, ensuring that the new hires receive the necessary training and support to become productive quickly.\n\n5. Retention: A third-party HR consultant or employee engagement agency can help the company with strategies for employee retention, such as creating a positive work culture, offering career development opportunities, and recognition and reward programs.\n\nBy outsourcing some or all of these tasks, the company can save time, resources, and money while ensuring that they are still attracting and hiring top talent in the industry.",
+      "started_at": "2026-05-08T03:20:28.444000Z",
+      "duration_ms": 18440,
+      "tokens_in": 0,
+      "tokens_out": 441,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What fee should the third party charge and at what point and frequency ",
+      "started_at": "2026-05-08T03:20:48.384000Z",
+      "duration_ms": 1004,
+      "tokens_in": 17,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The fee that a third party charges for their assistance in the hiring process may vary depending on the scope and complexity of the services provided. Here are a few examples of common types of fees:\n\n1. Retainer Fee: A retainer fee is a set amount that the company pays to the third party before the recruitment process starts. The fee covers the cost of the recruiter's time and resources and is typically non-refundable.\n\n2. Contingency Fee: A contingency fee is charged when the third party successfully places a candidate within the company. The fee is typically a percentage of the candidate's first-year salary or a fixed percentage of the placement fee.\n\n3. Hourly Rate: An hourly rate is a fee structure that charges the company based on the number of hours the third party spends assisting with specific tasks such as screening candidates, conducting initial interviews, and drafting job descriptions.\n\nThe frequency at which the third party should be paid depends on the fee structure. For example, a retainer fee is typically paid in advance, while a contingency fee is paid after a successful placement. If the third party charges an hourly rate, the company may be billed on a weekly or monthly basis for work performed during that period.\n\nIt's essential to negotiate the fee structure and payment terms with the third-party recruitment agency or consultant before starting the hiring process to ensure that all parties agree to the terms.",
+      "started_at": "2026-05-08T03:20:50.888000Z",
+      "duration_ms": 15320,
+      "tokens_in": 0,
+      "tokens_out": 363,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 32,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 4759,
+      "tokens_in": 3432,
+      "tokens_out": 1327,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 69,
+      "duration_ms": 58708,
+      "ai_wait_ms": 55480,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0037,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:claims",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KQVT6BR0TP99KAZGERVGDV6B",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "reformulate in a good english \"We have in this retrospective data analysis two groups: FAS vs UBPP.",
+  "started_at": "2026-05-05T10:16:00Z",
+  "ended_at": "2026-05-05T10:16:25.380000Z",
+  "duration_ms": 25380,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "reformulate in a good english \"We have in this retrospective data analysis two groups: FAS vs UBPP.\nThe UBPP is included in the FAS group. In other words, all patients in the UBPP group belong to the FAS. FAS and UPBB definitions are detailed in the \"Analysis population\" section (9.3). These groups are linked to the ITT and PP criteria. \nITT leads to FAS groups. \nPP leads to UBPP. \"",
+      "started_at": "2026-05-05T10:16:00Z",
+      "duration_ms": 1952,
+      "tokens_in": 96,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "In this retrospective data analysis, we have two distinct groups, FAS and UBPP. It is important to note that the UBPP group is a subset of the FAS group, meaning that all patients in the UBPP group belong to the FAS group as well. Detailed explanations of the FAS and UBPP definitions can be found in section 9.3 of the \"Analysis population\" portion. These groups are connected to two key criteria: ITT and PP. The ITT criterion leads to the formation of the FAS group, while the PP criterion results in the UBPP group.",
+      "started_at": "2026-05-05T10:16:03.452000Z",
+      "duration_ms": 5960,
+      "tokens_in": 0,
+      "tokens_out": 129,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "reformulate in a good english \"In Addition, the FAS group counts 102 patients of whom 91 reached hemostatis within 5 min and 11 were failure. \nInside this FAS group, we have the UBPP group which counts 89 patients of whom 81 were successful and 8 were failure. \"",
+      "started_at": "2026-05-05T10:16:10.912000Z",
+      "duration_ms": 1580,
+      "tokens_in": 65,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Furthermore, the FAS group consists of a total of 102 patients, 91 of whom successfully achieved hemostasis within 5 minutes, while 11 patients experienced failure. Within the FAS group, there is a subset referred to as the UBPP group, which comprises 89 patients. Of these 89 patients, 81 were successfully treated, while 8 patients experienced failure.",
+      "started_at": "2026-05-05T10:16:13.992000Z",
+      "duration_ms": 4320,
+      "tokens_in": 0,
+      "tokens_out": 88,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "reformulate in a good english \"I sent an email yesterday regarding the access for the sponsor of study 33784. \n\nHe forgot his password and the answer to his secret question, and he needs to access urgently to the study. \n\nHis email address is <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>\n\nAttached, you\u2019ll find the email I sent you Monday yesterday morning.\n\nCould you help, please?\"",
+      "started_at": "2026-05-05T10:16:19.812000Z",
+      "duration_ms": 1916,
+      "tokens_in": 93,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Yesterday, I reached out via email concerning study 33784 and access issues for the sponsor. Unfortunately, the sponsor has forgotten both their password and the answer to their secret question, which is impeding their urgent need to access the study. The sponsor's email address is <PRESIDIO_ANONYMIZED_EMAIL_ADDRESS>. Attached to this message, you will find a copy of the email I had sent on Monday morning. Could you kindly assist in this matter? Thank you.",
+      "started_at": "2026-05-05T10:16:23.228000Z",
+      "duration_ms": 5400,
+      "tokens_in": 0,
+      "tokens_out": 115,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "reformulate in a good english \"Sorry for that. I escalated the issue to their instructional Designer as per our discussion. Normally, they will react promptly. \n\nLet me know if you have something today. \"",
+      "started_at": "2026-05-05T10:16:30.128000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "I apologize for the inconvenience. As we discussed, I have escalated the issue to their instructional designer, and I anticipate a rapid response. Please keep me informed if you receive any updates today.",
+      "started_at": "2026-05-05T10:16:33.040000Z",
+      "duration_ms": 2840,
+      "tokens_in": 0,
+      "tokens_out": 51,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 33,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 4277,
+      "tokens_in": 3894,
+      "tokens_out": 383,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 305,
+      "duration_ms": 25380,
+      "ai_wait_ms": 18520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

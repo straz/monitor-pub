@@ -1,0 +1,193 @@
+{
+  "id": "sess_01KQHJFXB0A0ANA1W023BWXKKQ",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "At 10 months of age ,baby can now *",
+  "started_at": "2026-05-01T10:49:00Z",
+  "ended_at": "2026-05-01T10:49:21.872000Z",
+  "duration_ms": 21872,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "At 10 months of age ,baby can now *\nDraw straight line\nSays mama and dada\nArrange 3 cubes\nWalk few steps without support",
+      "started_at": "2026-05-01T10:49:00Z",
+      "duration_ms": 1160,
+      "tokens_in": 30,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Understand simple instructions",
+      "started_at": "2026-05-01T10:49:02.660000Z",
+      "duration_ms": 1080,
+      "tokens_in": 0,
+      "tokens_out": 7,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "One of the following is not an indication for surgical closure of VSD: *\nInfants 6-12 mo of age with large VSD associated with pulmonary HPN\nPatients at any age with large defects and cant be controlled medically\nSevere pulmonary vascular disease non responsive to pulmonary vasodilators\nPatients older than 24 mo with Qp:Qs ratio greater than 2:1",
+      "started_at": "2026-05-01T10:49:05.240000Z",
+      "duration_ms": 1832,
+      "tokens_in": 86,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Patients older than 24 mo with Qp:Qs ratio greater than 2:1. This is not an indication for surgical closure of VSD.",
+      "started_at": "2026-05-01T10:49:08.572000Z",
+      "duration_ms": 1920,
+      "tokens_in": 0,
+      "tokens_out": 28,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "A 10 year old female adolescent was seen at neuro OPD for several episode of generalized spam followed by shaking of the body. This was associated with salivation. To diagnose her epilepsy the following criteria must be met : *\nTreat the seizures based on the type of the attack\n10 - 15 % of epilepsy has aura\nAside for good history and PE the ancillary procedures is EEG\nLoss of consciousness is a prequisite for the diagnosis of epilepsy\nAll the choices are correct",
+      "started_at": "2026-05-01T10:49:11.992000Z",
+      "duration_ms": 2192,
+      "tokens_in": 116,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Aside from good history and PE, the ancillary procedure is EEG. This is the correct choice. \n\nThe other choices are incorrect. Treatment of the seizures is not a diagnostic criterion but is a therapeutic modality. Not all patients with epilepsy have an aura, so this is an incorrect statement. Loss of consciousness is not a prerequisite for the diagnosis of epilepsy, so this is also an incorrect statement.",
+      "started_at": "2026-05-01T10:49:15.684000Z",
+      "duration_ms": 4880,
+      "tokens_in": 0,
+      "tokens_out": 102,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Renal biopsy in Acute Post Strep GN should be considered in all the following except: *\nAcute renal failure\nNephrotic syndrome\nAbsence of evidence of streptococcal infection\nLow C3 level in the ist month",
+      "started_at": "2026-05-01T10:49:22.064000Z",
+      "duration_ms": 1400,
+      "tokens_in": 50,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Renal biopsy in Acute Post-Strep GN should be considered in all of the following except absence of evidence of streptococcal infection.",
+      "started_at": "2026-05-01T10:49:24.964000Z",
+      "duration_ms": 2120,
+      "tokens_in": 0,
+      "tokens_out": 33,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "A 17 yo female is affected by an inherited \ndisorder.She has two brothers who are not affected \nand two sisters who are also affected.Her father is \naffected but not his mother.What is the mode of \ninheritance? *\nAutosomal recessive\nX Linked dominant\nX linked recessive\nAutosomal dominant",
+      "started_at": "2026-05-01T10:49:28.584000Z",
+      "duration_ms": 1664,
+      "tokens_in": 72,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "The mode of inheritance is X-linked dominant.",
+      "started_at": "2026-05-01T10:49:31.748000Z",
+      "duration_ms": 1240,
+      "tokens_in": 0,
+      "tokens_out": 11,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "A 17 yo female is affected by an inherited disorder.She has two brothers who are not affected and two sisters who are also affected.Her father is affected but not his mother.What is the mode of inheritance? *\n",
+      "started_at": "2026-05-01T10:49:34.488000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "X-linked dominant.",
+      "started_at": "2026-05-01T10:49:37.412000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 58,
+    "ai_cost": 46,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 5735,
+      "tokens_in": 5550,
+      "tokens_out": 185,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 406,
+      "duration_ms": 21872,
+      "ai_wait_ms": 12200,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0031,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ004Q8KHCBZQB7JVPM8",
+      "tenant": "kurson-health",
+      "session": "sess_01KQHJFXB0A0ANA1W023BWXKKQ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "A 17 yo female is affected by an inherited disorder.She has two brothers who are not affected and two sisters who are also affected.Her father is affected but not his mother.What is the mode of inheritance? *\n",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQHJFXB0A0ANA1W023BWXKKQ.json",
+        "turn_uri": "data/sessions/sess_01KQHJFXB0A0ANA1W023BWXKKQ.json#turns/10"
+      },
+      "rationale": "User restated content from turn 8 (Jaccard 0.85).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

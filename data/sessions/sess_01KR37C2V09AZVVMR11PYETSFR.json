@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR37C2V09AZVVMR11PYETSFR",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Annotate this list of words with the part(s) of speech of each word:",
+  "started_at": "2026-05-08T07:21:00Z",
+  "ended_at": "2026-05-08T07:21:09.516000Z",
+  "duration_ms": 9516,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Annotate this list of words with the part(s) of speech of each word:\n\nThe words are:\naccess\ncapabilities\ndoesn\u2019t\ndone\nexploring\ngeneral\nGPT-4\nhave\nhave\nin\ninteresting\nits\nit\u2019s\nof\npublic\nreally\nresearchers\nsee\nsince\nterms\nthe\nto\nto\nwhat\n",
+      "started_at": "2026-05-08T07:21:00Z",
+      "duration_ms": 1508,
+      "tokens_in": 59,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "access (noun/verb)\ncapabilities (noun)\ndoesn\u2019t (contraction/verb)\ndone (adjective/verb)\nexploring (verb)\ngeneral (adjective/noun)\nGPT-4 (noun)\nhave (verb)\nhave (verb)\nin (preposition)\ninteresting (adjective)\nits (pronoun)\nit\u2019s (contraction/verb)\nof (preposition)\npublic (adjective/noun)\nreally (adverb)\nresearchers (noun)\nsee (verb)\nsince (preposition/conjunction)\nterms (noun)\nthe (article)\nto (preposition)\nto (infinitive marker)\nwhat (pronoun)",
+      "started_at": "2026-05-08T07:21:03.008000Z",
+      "duration_ms": 5240,
+      "tokens_in": 0,
+      "tokens_out": 111,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Review your answer.",
+      "started_at": "2026-05-08T07:21:09.748000Z",
+      "duration_ms": 848,
+      "tokens_in": 4,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "I reviewed my answer and it appears to be correct. Each word is annotated with its corresponding part(s) of speech.",
+      "started_at": "2026-05-08T07:21:12.096000Z",
+      "duration_ms": 1920,
+      "tokens_in": 0,
+      "tokens_out": 28,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1572,
+      "tokens_in": 1433,
+      "tokens_out": 139,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 63,
+      "duration_ms": 9516,
+      "ai_wait_ms": 7160,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0009,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

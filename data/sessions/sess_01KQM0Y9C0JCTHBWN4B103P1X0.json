@@ -1,0 +1,271 @@
+{
+  "id": "sess_01KQM0Y9C0JCTHBWN4B103P1X0",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "You are a finance expert that only speaks JSON. Do not write normal text.",
+  "started_at": "2026-05-02T09:40:00Z",
+  "ended_at": "2026-05-02T09:41:18.024000Z",
+  "duration_ms": 78024,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is irrelevant for finance\n- A score of 10 means the content is highly relevant for finance\n- Summarize the content in concise bullet points\n- Do not repeat yourself\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"most relevant bulletpoint\",\n\t\t\"second bulletpoint\",\n        \"least relevant bulletpoint\n\t]\n}\n\nEmail category: Finance\nEmail subject: SEC suing Coinbase\nEmail summary: The SEC has sued Coinbase in its crypto crackdown, the BoE has ended its corporate bond sale program, and European VC funding continues to drop. Sequoia is splitting into three, Jamie Dimon is not running for public office, and Sam Altman wants OpenAI to remain private. The market saw US stocks edge higher, with the financial and consumer discretionary sectors leading the way. Roots offers a community-focused real estate investing platform where investors can invest for as little as $100, and renters can get invested in the fund for paying their rent on time and taking care of the property. In deal flow news, Teck received several buyout proposals for its coal operations, and the PGA Tour agreed to merge with Saudi PIF-backed LIV Golf. Luxury fashion brands Prada and Ermenegildo Zegna acquire a 15% stake in Luigi Fedeli e Figlio, while Shell sells its household energy supply arm. Charm Industrial, GSoft, AAVantgarde Bio, Instabase, Curri, Ecovative, WaveBL, Sourcemap, Meanwhile Insurance Bitcoin, RxLightning, Mend, MyForest Foods, and Life5 all raised funding in various Series rounds. Hidroelectrica plans to raise $1.1B in Europe's biggest IPO YTD, while Julius Baer Group and AIA plan to raise $250M and $200M, respectively. The SEC sued Coinbase and Binance for alleged securities violations, and Fat Brands plans to IPO its Twin Peaks sports bar business.",
+      "started_at": "2026-05-02T09:40:00Z",
+      "duration_ms": 7148,
+      "tokens_in": 529,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 8,\n\t\"bullet_points\": [\n\t\t\"The SEC has sued Coinbase for alleged securities violations as part of its crypto crackdown\",\n\t\t\"Bank of England ended its corporate bond sale program\",\n\t\t\"European VC funding continues to decline\",\n\t\t\"Sequoia is splitting into three\",\n\t\t\"Jamie Dimon will not run for public office\",\n\t\t\"Sam Altman wants OpenAI to remain private\",\n\t\t\"Roots offers a community-focused real estate investing platform\",\n\t\t\"Teck received multiple buyout proposals for coal operations\",\n\t\t\"The PGA Tour agreed to merge with Saudi PIF-backed LIV Golf\",\n\t\t\"Prada and Ermenegildo Zegna acquire a 15% stake in Luigi Fedeli e Figlio\",\n\t\t\"Charm Industrial, GSoft, AAVantgarde Bio, Instabase, Curri, Ecovative, WaveBL, Sourcemap, Meanwhile Insurance Bitcoin, RxLightning, Mend, MyForest Foods, and Life5 raised funding in various Series rounds\",\n\t\t\"Hidroelectrica plans to raise $1.1B in Europe's biggest IPO YTD\",\n\t\t\"Julius Baer Group and AIA plan to raise $250M and $200M respectively\",\n\t\t\"The SEC sued Coinbase and Binance for alleged securities violations\",\n\t\t\"Fat Brands plans to IPO its Twin Peaks sports bar business\"\n\t]\n}",
+      "started_at": "2026-05-02T09:40:08.648000Z",
+      "duration_ms": 12160,
+      "tokens_in": 0,
+      "tokens_out": 284,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is irrelevant for finance\n- A score of 10 means the content is highly relevant for finance\n- Summarize the content in less than 5 concise bullet points\n- Do not repeat yourself\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"most relevant bulletpoint\",\n\t\t\"second bulletpoint\",\n        \"least relevant bulletpoint\n\t]\n}\n\nEmail category: Finance\nEmail subject: SEC suing Coinbase\nEmail summary: The SEC has sued Coinbase in its crypto crackdown, the BoE has ended its corporate bond sale program, and European VC funding continues to drop. Sequoia is splitting into three, Jamie Dimon is not running for public office, and Sam Altman wants OpenAI to remain private. The market saw US stocks edge higher, with the financial and consumer discretionary sectors leading the way. Roots offers a community-focused real estate investing platform where investors can invest for as little as $100, and renters can get invested in the fund for paying their rent on time and taking care of the property. In deal flow news, Teck received several buyout proposals for its coal operations, and the PGA Tour agreed to merge with Saudi PIF-backed LIV Golf. Luxury fashion brands Prada and Ermenegildo Zegna acquire a 15% stake in Luigi Fedeli e Figlio, while Shell sells its household energy supply arm. Charm Industrial, GSoft, AAVantgarde Bio, Instabase, Curri, Ecovative, WaveBL, Sourcemap, Meanwhile Insurance Bitcoin, RxLightning, Mend, MyForest Foods, and Life5 all raised funding in various Series rounds. Hidroelectrica plans to raise $1.1B in Europe's biggest IPO YTD, while Julius Baer Group and AIA plan to raise $250M and $200M, respectively. The SEC sued Coinbase and Binance for alleged securities violations, and Fat Brands plans to IPO its Twin Peaks sports bar business.",
+      "started_at": "2026-05-02T09:40:22.308000Z",
+      "duration_ms": 7184,
+      "tokens_in": 532,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 8,\n\t\"bullet_points\": [\n\t\t\"The SEC sues Coinbase over crypto crackdown\",\n\t\t\"BoE ends corporate bond sale program, VC funding in Europe continues to drop\",\n\t\t\"Sequoia is splitting into three, Sam Altman wants OpenAI private\",\n\t\t\"US stocks edge higher with financials and consumer discretionary leading\",\n\t\t\"Teck receives buyout proposals for coal operations, PGA Tour merges with LIV Golf, Prada and Ermenegildo Zegna acquire 15% stake in Luigi Fedeli e Figlio\"\n\t]\n}",
+      "started_at": "2026-05-02T09:40:30.992000Z",
+      "duration_ms": 5560,
+      "tokens_in": 0,
+      "tokens_out": 119,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is irrelevant for finance\n- A score of 10 means the content is highly relevant for finance\n- Summarize the content in a maximum of 5 concise bullet points\n- Each bullet point is only about one topic\n- Do not repeat yourself\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"most relevant bulletpoint\",\n\t\t\"second bulletpoint\",\n        \"least relevant bulletpoint\n\t]\n}\n\nEmail category: Finance\nEmail subject: SEC suing Coinbase\nEmail summary: The SEC has sued Coinbase in its crypto crackdown, the BoE has ended its corporate bond sale program, and European VC funding continues to drop. Sequoia is splitting into three, Jamie Dimon is not running for public office, and Sam Altman wants OpenAI to remain private. The market saw US stocks edge higher, with the financial and consumer discretionary sectors leading the way. Roots offers a community-focused real estate investing platform where investors can invest for as little as $100, and renters can get invested in the fund for paying their rent on time and taking care of the property. In deal flow news, Teck received several buyout proposals for its coal operations, and the PGA Tour agreed to merge with Saudi PIF-backed LIV Golf. Luxury fashion brands Prada and Ermenegildo Zegna acquire a 15% stake in Luigi Fedeli e Figlio, while Shell sells its household energy supply arm. Charm Industrial, GSoft, AAVantgarde Bio, Instabase, Curri, Ecovative, WaveBL, Sourcemap, Meanwhile Insurance Bitcoin, RxLightning, Mend, MyForest Foods, and Life5 all raised funding in various Series rounds. Hidroelectrica plans to raise $1.1B in Europe's biggest IPO YTD, while Julius Baer Group and AIA plan to raise $250M and $200M, respectively. The SEC sued Coinbase and Binance for alleged securities violations, and Fat Brands plans to IPO its Twin Peaks sports bar business.",
+      "started_at": "2026-05-02T09:40:38.052000Z",
+      "duration_ms": 7316,
+      "tokens_in": 543,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 7,\n\t\"bullet_points\": [\n\t\t\"The SEC sues Coinbase and Binance for alleged securities violations\",\n\t\t\"Bank of England ends corporate bond sale program, European VC funding falls\",\n\t\t\"Sequoia is splitting into three, Sam Altman wants OpenAI private\",\n\t\t\"US stocks rise with financials and consumer discretionary sectors leading\",\n\t\t\"Roots offers community-focused real estate investing platform, Prada and Ermenegildo Zegna acquire 15% stake in Luigi Fedeli e Figlio, and Fat Brands plans to IPO Twin Peaks\"\n\t]\n}",
+      "started_at": "2026-05-02T09:40:46.868000Z",
+      "duration_ms": 6000,
+      "tokens_in": 0,
+      "tokens_out": 130,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is irrelevant for finance\n- A score of 10 means the content is highly relevant for finance\n- Summarize the content in 3 concise bullet points\n- Each bullet point should only be about 1 topic\n- Do not repeat yourself\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"most relevant bulletpoint\",\n\t\t\"second bulletpoint\",\n        \"least relevant bulletpoint\n\t]\n}\n\nEmail category: Finance\nEmail subject: SEC suing Coinbase\nEmail summary: The SEC has sued Coinbase in its crypto crackdown, the BoE has ended its corporate bond sale program, and European VC funding continues to drop. Sequoia is splitting into three, Jamie Dimon is not running for public office, and Sam Altman wants OpenAI to remain private. The market saw US stocks edge higher, with the financial and consumer discretionary sectors leading the way. Roots offers a community-focused real estate investing platform where investors can invest for as little as $100, and renters can get invested in the fund for paying their rent on time and taking care of the property. In deal flow news, Teck received several buyout proposals for its coal operations, and the PGA Tour agreed to merge with Saudi PIF-backed LIV Golf. Luxury fashion brands Prada and Ermenegildo Zegna acquire a 15% stake in Luigi Fedeli e Figlio, while Shell sells its household energy supply arm. Charm Industrial, GSoft, AAVantgarde Bio, Instabase, Curri, Ecovative, WaveBL, Sourcemap, Meanwhile Insurance Bitcoin, RxLightning, Mend, MyForest Foods, and Life5 all raised funding in various Series rounds. Hidroelectrica plans to raise $1.1B in Europe's biggest IPO YTD, while Julius Baer Group and AIA plan to raise $250M and $200M, respectively. The SEC sued Coinbase and Binance for alleged securities violations, and Fat Brands plans to IPO its Twin Peaks sports bar business.",
+      "started_at": "2026-05-02T09:40:54.368000Z",
+      "duration_ms": 7292,
+      "tokens_in": 541,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"The SEC sues Coinbase and Binance for alleged securities violations\",\n\t\t\"Bank of England ends corporate bond sale program, while European VC funding drops\",\n\t\t\"Prada and Ermenegildo Zegna acquire 15% stake in Luigi Fedeli e Figlio\"\n\t]\n}",
+      "started_at": "2026-05-02T09:41:03.160000Z",
+      "duration_ms": 3520,
+      "tokens_in": 0,
+      "tokens_out": 68,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means it is irrelevant for finance\n- A score of 10 means it is highly relevant for finance\n- Summarize the most relevant content in 3 concise bullet points\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"first bulletpoint\",\n\t\t\"second bulletpoint\",\n        \"third bulletpoint\n\t]\n}\n\nEmail subject: Saudi Arabia and Tiger Global\nEmail summary: Saudi Arabia is cutting its oil output, China is cracking down on AI-driven fraud, and Suncor is cutting 1,500 jobs. UBS might delay its results, and Airbus has a new 500 jet order. The US stock market closed on a strong note thanks to a positive May jobs report. Airlines are making bank this summer, and Apple has a mixed reality headset. Today's sponsor, Eight Sleep, offers a high-tech smart bed system with a discount for Litquidity community members. In deal flow news, Subway is expected to sell for over $9B, and Capillary raised a $45M round. Saudi Arabia has announced a big output cut, and several startups have raised significant funding rounds. Atlas Cloud, a database schema management platform, raised $18 million in funding led by Tiger Global and TLV Partners. Fortify, a materials science and additive manufacturing startup, raised $12.5 million in funding from Lockheed Martin Ventures, RTX Ventures, Accel, Cota Capital, and more. Other startups that raised funding include Violet Therapeutics, Galvanik, Cytovation, Modulo Bio, MyRacehorse, Chamberlain Coffee, Fusionist, Squint, and Red Flag Alert. Additionally, there were several IPOs, direct listings, issuances, and block trades, including VTB seeking to raise up to $2.1 billion in a secondary public offering and Athens International Airport shareholders approving the sale of a 30% stake valued at $881 million to IPO in Athens.",
+      "started_at": "2026-05-02T09:41:08.180000Z",
+      "duration_ms": 7064,
+      "tokens_in": 522,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 8,\n\t\"bullet_points\": [\n\t\t\"Saudi Arabia cuts oil output\",\n\t\t\"Atlas Cloud, a database schema management platform, raised $18M in funding led by Tiger Global and TLV Partners\",\n\t\t\"Several startups raised significant funding rounds\"\n\t]\n}",
+      "started_at": "2026-05-02T09:41:16.744000Z",
+      "duration_ms": 3240,
+      "tokens_in": 0,
+      "tokens_out": 61,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means it is irrelevant for readers interested in finance\n- A score of 10 means it is highly relevant for readers interested in finance\n- Summarize the most important content in 5 concise bullet points\n- Strictly follow the response interface\n\n\nResponse interface:\n{\n\t\"score\": integer,\n\t\"bullet_points\": string[]\n}\n\nExample response:\n{\n\t\"score\": 6,\n\t\"bullet_points\": [\n\t\t\"first\",\n\t\t\"second\",\n        \"third\"\n\t]\n}\n\nEmail subject: Saudi Arabia and Tiger Global\nEmail summary: Saudi Arabia is cutting its oil output, China is cracking down on AI-driven fraud, and Suncor is cutting 1,500 jobs. UBS might delay its results, and Airbus has a new 500 jet order. The US stock market closed on a strong note thanks to a positive May jobs report. Airlines are making bank this summer, and Apple has a mixed reality headset. Today's sponsor, Eight Sleep, offers a high-tech smart bed system with a discount for Litquidity community members. In deal flow news, Subway is expected to sell for over $9B, and Capillary raised a $45M round. Saudi Arabia has announced a big output cut, and several startups have raised significant funding rounds. Atlas Cloud, a database schema management platform, raised $18 million in funding led by Tiger Global and TLV Partners. Fortify, a materials science and additive manufacturing startup, raised $12.5 million in funding from Lockheed Martin Ventures, RTX Ventures, Accel, Cota Capital, and more. Other startups that raised funding include Violet Therapeutics, Galvanik, Cytovation, Modulo Bio, MyRacehorse, Chamberlain Coffee, Fusionist, Squint, and Red Flag Alert. Additionally, there were several IPOs, direct listings, issuances, and block trades, including VTB seeking to raise up to $2.1 billion in a secondary public offering and Athens International Airport shareholders approving the sale of a 30% stake valued at $881 million to IPO in Athens.",
+      "started_at": "2026-05-02T09:41:21.484000Z",
+      "duration_ms": 7100,
+      "tokens_in": 525,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "{\n\t\"score\": 7,\n\t\"bullet_points\": [\n\t\t\"Saudi Arabia cuts oil output\",\n\t\t\"Several startups raised significant funding rounds, including Atlas Cloud led by Tiger Global and TLV Partners, and Fortify\",\n\t\t\"IPOs, direct listings, issuances, and block trades this week\",\n\t\t\"Subway expected to sell for over $9B\",\n\t\t\"Positive May jobs report boosts the US stock market\"\n\t]\n}",
+      "started_at": "2026-05-02T09:41:30.084000Z",
+      "duration_ms": 4440,
+      "tokens_in": 0,
+      "tokens_out": 91,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 18,
+    "human_effort": 88,
+    "ai_cost": 98,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 4
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 18034,
+      "tokens_in": 17281,
+      "tokens_out": 753,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 3192,
+      "duration_ms": 78024,
+      "ai_wait_ms": 34920,
+      "user_corrections": 4,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0098,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00GV16EY3Q7KPZPVRS",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQM0Y9C0JCTHBWN4B103P1X0",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json",
+        "turn_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.99).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00PNP8754P6FWSYSAN",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQM0Y9C0JCTHBWN4B103P1X0",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json",
+        "turn_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.97).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00KP1GPFHNX4TFC8F7",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQM0Y9C0JCTHBWN4B103P1X0",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means the content is",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json",
+        "turn_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.97).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00H01QKGTGVP0TDRSG",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQM0Y9C0JCTHBWN4B103P1X0",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "You are a finance expert that only speaks JSON. Do not write normal text.\n\nFollow the instructions:\n- Read the email newsletter summary and analyze the content\n- Give it a relevancy score between 0 and 10\n- A score of 0 means it is irreleva",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json",
+        "turn_uri": "data/sessions/sess_01KQM0Y9C0JCTHBWN4B103P1X0.json#turns/10"
+      },
+      "rationale": "User restated content from turn 8 (Jaccard 0.94).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

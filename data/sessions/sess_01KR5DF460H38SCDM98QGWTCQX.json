@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR5DF460H38SCDM98QGWTCQX",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "What is in an on boarding policy?",
+  "started_at": "2026-05-09T03:46:00Z",
+  "ended_at": "2026-05-09T03:46:37.408000Z",
+  "duration_ms": 37408,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is in an on boarding policy?",
+      "started_at": "2026-05-09T03:46:00Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "An onboarding policy typically includes:\n1. Welcome message from the company\n2. Job description and responsibilities\n3. Orientation schedule and agenda\n4. Introduction to team members and key stakeholders\n5. Workplace policies and procedures\n6. Company culture and values\n7. Performance expectations and feedback\n8. Benefits and compensation information\n9. IT access and security protocols\n10. Training and development opportunities\n11. Health and safety guidelines \n12. HR policies, such as leave policies and grievance procedures. \n13. Documentation and compliance requirements.",
+      "started_at": "2026-05-09T03:46:02.396000Z",
+      "duration_ms": 6600,
+      "tokens_in": 0,
+      "tokens_out": 145,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Sample on boarding policy",
+      "started_at": "2026-05-09T03:46:10.496000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here is a sample onboarding policy:\n\nWelcome to [Company Name],\n\nWe are thrilled to have you on board! The purpose of this onboarding policy is to help you make a smooth transition into your new role and become a valued member of our team. Please take the time to review and familiarize yourself with the following information:\n\nOrientation:\nYour first day will include a comprehensive orientation, where you will learn more about our company's mission, vision, objectives, and core values. You will also meet with members of our team, who will provide you with an overview of their roles, and ensure that you have all of the resources and tools necessary to perform your duties.\n\nJob Description and Responsibilities:\nPlease review your job description and responsibilities so that you have a clear understanding of your role and what is expected of you.\n\nTeam Introduction:\nWe encourage you to meet with your team members, as well as other key stakeholders within the organization to learn more about their roles, and how you will work collaboratively.\n\nWorkplace Policies and Procedures:\nWe have established policies and procedures that will guide your conduct as an employee of [Company Name]. These will include, but not limited to, working hours, dress code, code of conduct and communication policies. It is crucial to become familiar with them.\n\nPerformance Expectations and Feedback:\nOur organization encourages consistent feedback on your performance. This will help you understand how you are performing and identify areas for improvement.\n\nBenefits and Compensation:\nAs an employee of [Company Name], you are entitled to certain benefits. These include health benefits, retirement plans and bonuses, which you will learn about in more detail during orientation.\n\nIT Access and Security Protocols:\nAs an employee, you will have access to our IT systems and data. It is essential to understand our IT policies and procedures and to ensure your compliance with them.\n\nTraining and Development Opportunities:\nWe are committed to providing ongoing training and development opportunities to ensure our employees are equipped with the necessary skills and knowledge to thrive in their roles.\n\nHealth and Safety:\nWe prioritize the safety and well-being of our employees. As such, you will be expected to adhere to our health and safety policies to maintain a safe work environment.\n\nHR Policies:\nWe encourage our employees to familiarize themselves with our HR policies, including paid time off, parental leave, grievance procedures.\n\nDocumentation and Compliance:\nAs part of the onboarding process, you will be required to complete certain forms, including tax forms, employee confidentiality agreements, and background checks.\n\nWe hope that this policy helps you settle into your new role with ease. Welcome once again!",
+      "started_at": "2026-05-09T03:46:12.868000Z",
+      "duration_ms": 29040,
+      "tokens_in": 0,
+      "tokens_out": 706,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2218,
+      "tokens_in": 1367,
+      "tokens_out": 851,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 14,
+      "duration_ms": 37408,
+      "ai_wait_ms": 35640,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

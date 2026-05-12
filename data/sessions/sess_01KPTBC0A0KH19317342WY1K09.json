@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPTBC0A0KH19317342WY1K09",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "The Federal Reserve sells $12.00 million in Treasury securities. If the required reserve ratio is 35.00%, and all curren\u2026",
+  "started_at": "2026-04-22T10:22:00Z",
+  "ended_at": "2026-04-22T10:22:13.004000Z",
+  "duration_ms": 13004,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "The Federal Reserve sells $12.00 million in Treasury securities. If the required reserve ratio is 35.00%, and all currency is deposited into the banking system, and banks hold excess reserves of 10%, then the maximum amount the money supply can decrease is $  \n  million. (",
+      "started_at": "2026-04-22T10:22:00Z",
+      "duration_ms": 1616,
+      "tokens_in": 68,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Enter the answer as a number).\n\nTo calculate the maximum amount the money supply can decrease, we need to use the money multiplier formula:\n\nMoney Multiplier = 1 / (Required Reserve Ratio + Excess Reserve Ratio)\n\nFirst, let's find the money multiplier:\n\nMoney Multiplier = 1 / (0.35 + 0.10) = 1 / 0.45 = 2.22\n\nNow, let's use the money multiplier to find the maximum decrease in the money supply:\n\nMaximum Decrease = Treasury Securities Sold * Money Multiplier\n\nMaximum Decrease = $12,000,000 * 2.22 = $26,640,000\n\nThe maximum amount the money supply can decrease is $26,640,000 million.",
+      "started_at": "2026-04-22T10:22:03.116000Z",
+      "duration_ms": 6640,
+      "tokens_in": 0,
+      "tokens_out": 146,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Which of the following tools does the Federal Reserve no longer use for monetary policy?\n\nChoose one or more:\nA.\treserve requirements\nB.\tdiscount rate\nC.\topen market operations\nD.\tfederal funds rate\n",
+      "started_at": "2026-04-22T10:22:11.256000Z",
+      "duration_ms": 1388,
+      "tokens_in": 49,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "None of the tools listed are no longer used by the Federal Reserve for monetary policy. The Federal Reserve still uses all of the following tools for monetary policy:\n\nA. Reserve requirements\nB. Discount rate\nC. Open market operations\nD. Federal funds rate",
+      "started_at": "2026-04-22T10:22:14.144000Z",
+      "duration_ms": 3360,
+      "tokens_in": 0,
+      "tokens_out": 64,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1741,
+      "tokens_in": 1531,
+      "tokens_out": 210,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 117,
+      "duration_ms": 13004,
+      "ai_wait_ms": 10000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0585,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

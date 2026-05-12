@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KPWEFTS029XGHXNME0YHZVC0",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Check ETT is secure and at the right length  what dose that mean for physiotherapy ?",
+  "started_at": "2026-04-23T05:55:00Z",
+  "ended_at": "2026-04-23T05:55:32.812000Z",
+  "duration_ms": 32812,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Check ETT is secure and at the right length  what dose that mean for physiotherapy ?",
+      "started_at": "2026-04-23T05:55:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have a specialized knowledge in physiotherapy. However, ETT stands for Endotracheal Tube, a medical device used to maintain an open airway and provide assisted ventilation to patients in critical condition. Ensuring that the ETT is secure and at the right length is crucial in preventing airway complications during mechanical ventilation. In physiotherapy, the correct placement of ETT is essential for patients who require respiratory support during their rehabilitation process. Physiotherapists may work in collaboration with physicians and respiratory therapists to monitor the patient's airway and adjust the ETT as necessary.",
+      "started_at": "2026-04-23T05:55:02.552000Z",
+      "duration_ms": 7440,
+      "tokens_in": 0,
+      "tokens_out": 166,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "and what is the right length ?",
+      "started_at": "2026-04-23T05:55:11.492000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The right length for an endotracheal tube (ETT) depends on various factors, including the patient's age, gender, height, weight, and medical condition. Typically, the length of an ETT is determined by estimating the distance from the patient's teeth to the carina, which is a cartilage ring that marks the division of the trachea into the left and right bronchi. However, there are different formulas and methods to calculate the optimal ETT length, and the choice may also depend on the preference and experience of the clinician. The goal of selecting the appropriate ETT length is to ensure that the tube is securely placed in the trachea, without being too long or too short, which could cause complications such as accidental extubation, endobronchial intubation, or airway trauma.",
+      "started_at": "2026-04-23T05:55:13.876000Z",
+      "duration_ms": 8640,
+      "tokens_in": 0,
+      "tokens_out": 196,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what is the difference between nebulised and instilled?",
+      "started_at": "2026-04-23T05:55:24.016000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Nebulized and instilled are two methods of delivering medication directly into the lungs. The difference between the two methods lies in the way the medication is delivered.\n\nNebulized medications are converted into a mist or aerosol form by a nebulizer machine. The nebulizer machine is connected to a face mask or mouthpiece, which the patient wears during the treatment. The mist is inhaled by the patient, allowing the medication to reach the lungs directly. Nebulizers are often used to deliver bronchodilators, steroids, and other medications to treat respiratory conditions such as asthma, chronic obstructive pulmonary disease (COPD), or cystic fibrosis.\n\nInstilled medications, on the other hand, are delivered directly into the lungs by a catheter through the tracheostomy or endotracheal tube. Liquid medication is slowly-infused through the catheter, directly into the lungs. This method is often used in critically-ill patients who require ventilator support and have difficulty inhaling medication through a nebulizer. Instillation is also used for diagnostic purposes, such as collecting samples of lung fluid for analysis.\n\nIn summary, nebulized medications are inhaled from a mist created by a nebulizer machine, while instilled medications are delivered to the lungs through a catheter.",
+      "started_at": "2026-04-23T05:55:26.472000Z",
+      "duration_ms": 13840,
+      "tokens_in": 0,
+      "tokens_out": 326,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3106,
+      "tokens_in": 2418,
+      "tokens_out": 688,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 41,
+      "duration_ms": 32812,
+      "ai_wait_ms": 29920,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0022,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

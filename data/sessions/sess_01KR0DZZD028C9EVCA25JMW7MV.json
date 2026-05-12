@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR0DZZD028C9EVCA25JMW7MV",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_005",
+  "title": "Write an about section for LinkedIn - I am a P2 pharmacy student at Binghamton pharmacy school and pharmaceutical scienc\u2026",
+  "started_at": "2026-05-07T05:19:00Z",
+  "ended_at": "2026-05-07T05:19:27.132000Z",
+  "duration_ms": 27132,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Write an about section for LinkedIn - I am a P2 pharmacy student at Binghamton pharmacy school and pharmaceutical sciences, and have my intern license for reference ",
+      "started_at": "2026-05-07T05:19:00Z",
+      "duration_ms": 1292,
+      "tokens_in": 41,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Hi there! I'm a driven and ambitious P2 pharmacy student at Binghamton Pharmacy School and Pharmaceutical Sciences. With a keen interest in the field of pharmacy, I am driven to learn new concepts and skills, and apply them to real-world situations. My experience in the field has allowed me to garner valuable knowledge on various aspects of pharmaceuticals.\n\nCurrently, I hold an intern license, which allows me to gain hands-on experience in a professional environment. Moreover, I have acquired a wealth of knowledge on healthcare and the pharmaceutical industry through my coursework and practical experience. My skills include but are not limited to drug therapy management, medication dispensing, and patient counseling.\n\nI am committed to delivering high-quality services to my patients, and consistently strive to remain up-to-date with the latest developments in the field of pharmacy. My ultimate goal is to leverage my knowledge and experience to help make a positive impact on patients' lives. When I'm not studying or interning, I enjoy hiking, watching movies, and trying new restaurants.\n\nThank you for checking out my profile!",
+      "started_at": "2026-05-07T05:19:02.792000Z",
+      "duration_ms": 12200,
+      "tokens_in": 0,
+      "tokens_out": 285,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Can you make that sound more professional ",
+      "started_at": "2026-05-07T05:19:16.492000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here's a more formal version:\n\nGreetings, and thank you for visiting my profile. I am a highly motivated P2 pharmacy student at Binghamton Pharmacy School and Pharmaceutical Sciences, with a passion for the pharmaceutical industry. With a deep-seated interest in the field, I aim to learn new concepts and skills that can be applied to real-world situations.\n\nMy extensive experience in the field has furnished me with a comprehensive understanding of various aspects of pharmaceuticals, including drug therapy management, medication dispensing, and patient counseling. Currently, I possess an intern license that allows me to gain practical experience in a professional setting.\n\nAs a pharmacy student, it is my unwavering aim to provide high-quality services to my patients and remain up-to-date with the latest developments in healthcare and the pharmaceutical industry. My exceptional organizational skills and collaborative nature ensure that I deliver efficient and effective services to my patients.\n\nBeyond my academic pursuits, I enjoy outdoor activities such as hiking, as well as indulging in my passion for cinema and culinary exploration.\n\nThank you for viewing my profile.",
+      "started_at": "2026-05-07T05:19:18.912000Z",
+      "duration_ms": 12720,
+      "tokens_in": 0,
+      "tokens_out": 298,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2160,
+      "tokens_in": 1577,
+      "tokens_out": 583,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 51,
+      "duration_ms": 27132,
+      "ai_wait_ms": 24920,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

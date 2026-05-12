@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP2CNPN0ZFX21CYQ0C7XH6ZA",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "Which medication can be given to a pulmonary apsergillosis",
+  "started_at": "2026-04-13T03:03:00Z",
+  "ended_at": "2026-04-13T03:03:28.540000Z",
+  "duration_ms": 28540,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which medication can be given to a pulmonary apsergillosis ",
+      "started_at": "2026-04-13T03:03:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The medication of choice for pulmonary aspergillosis depends on the severity and type of infection. Some common medications used to treat pulmonary aspergillosis include:\n\n1. Voriconazole: This is a broad-spectrum antifungal agent that has been proven to be effective in treating invasive pulmonary aspergillosis. Voriconazole is the preferred first-line treatment for this condition.\n\n2. Amphotericin B: This is another antifungal agent that can be used to treat pulmonary aspergillosis. It is usually reserved for severe or refractory cases of the infection.\n\n3. Itraconazole: This medication is used as an alternative to voriconazole in patients who cannot tolerate the latter. It is also used as a prophylactic treatment to prevent the development of invasive aspergillosis in immunocompromised patients.\n\n4. Caspofungin: This medication is used to treat invasive aspergillosis in patients who have not responded to other antifungal agents.\n\n5. Posaconazole: This medication is used to treat invasive aspergillosis and is often used as a salvage therapy in patients who have not responded to other treatments.",
+      "started_at": "2026-04-13T03:03:02.468000Z",
+      "duration_ms": 11920,
+      "tokens_in": 0,
+      "tokens_out": 278,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What drug is used to treat pulmonary asperlogillosis with patient having renal failure ",
+      "started_at": "2026-04-13T03:03:15.888000Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "When a patient has renal failure, the selection of medication to treat pulmonary aspergillosis can be challenging. The choice of medication would depend on the severity of the infection and any other underlying medical condition that the patient may have. \n\nIn the case of pulmonary aspergillosis, some antifungal agents can be used, such as:\n\n1. Voriconazole: Though Voriconazole is excreted by the kidneys, it can be used in patients with mild to moderate renal impairment without dose adjustment. However, in severe renal impairment, the dose should be decreased.\n\n2. Isavuconazole: This medication can be used in patients with mild to moderate renal impairment without dose adjustment. However, caution should be exercised in patients with severe renal impairment.\n\n3. Liposomal amphotericin B: This antifungal medication is usually reserved for severe or refractory cases of pulmonary aspergillosis. It is less dependent on renal clearance, making it a safer option for patients with renal impairment.\n\n4. Posaconazole: This medication can be used in patients with mild to moderate renal impairment at a reduced dose and with monitoring. However, it is contraindicated in patients with severely impaired renal function.\n\nIt is crucial to consult a healthcare provider to determine the most appropriate treatment for a patient with renal impairment and pulmonary aspergillosis.",
+      "started_at": "2026-04-13T03:03:18.440000Z",
+      "duration_ms": 14600,
+      "tokens_in": 0,
+      "tokens_out": 345,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2150,
+      "tokens_in": 1527,
+      "tokens_out": 623,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 35,
+      "duration_ms": 28540,
+      "ai_wait_ms": 26520,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

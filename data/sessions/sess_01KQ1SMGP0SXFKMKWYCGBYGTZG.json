@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQ1SMGP0SXFKMKWYCGBYGTZG",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "According to a recent study conduct ed among 2,000 U . S . adults , about 88% said the y would be concerned about riding\u2026",
+  "started_at": "2026-04-25T07:46:00Z",
+  "ended_at": "2026-04-25T07:46:36.260000Z",
+  "duration_ms": 36260,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "According to a recent study conduct ed among 2,000 U . S . adults , about 88% said the y would be concerned about riding in a driverl ess car , most of whom worried that the system could fail . What are the factors that you think may prevent Google ' s self - driving cars from hit ting the mainstream market ?\n You are free to express your opinion and shoul d write at least 120 words . The composition ne ed to be finished on time . And the duplicate ch ecking rate should be less than 30%.",
+      "started_at": "2026-04-25T07:46:00Z",
+      "duration_ms": 2276,
+      "tokens_in": 123,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "There are several factors that could prevent Google's self-driving cars from hitting the mainstream market. One of the main concerns is safety. As mentioned in the study, many people are worried about the system failing, leading to accidents and injuries. While self-driving cars have proven to be generally safe, there have been some high-profile incidents that have caused public distrust.\n\nAnother factor is the cost. Self-driving technology is expensive, and it remains to be seen whether the cost will come down enough for it to be feasible for mass adoption. In addition to the cost of the technology itself, there will also be costs associated with maintenance and repair.\n\nConcerns over privacy and data security could also be a barrier to adoption. Self-driving cars collect a significant amount of data about their passengers' movements and behaviors, and there could be concerns about how that data is handled and used.\n\nFinally, there will be regulatory hurdles to overcome. Self-driving cars are still a relatively new technology, and it will take time for regulations to be developed and implemented. Additionally, there will be resistance from traditional automakers who may see self-driving technology as a threat to their businesses.\n\nOverall, while self-driving cars have the potential to revolutionize transportation, there are still several challenges that need to be overcome before they become mainstream.",
+      "started_at": "2026-04-25T07:46:03.776000Z",
+      "duration_ms": 15040,
+      "tokens_in": 0,
+      "tokens_out": 356,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "According to a recent study conducted among 2,000 U.S.adults,about 88% said they would be concerned about riding in a driverless car , most of whom worried that the system could fail.What are the factors that you think may prevent Google's self-driving cars from hitting the mainstream market ?\n  You are free to express your opinion and should write at least 120 words. ",
+      "started_at": "2026-04-25T07:46:20.316000Z",
+      "duration_ms": 1904,
+      "tokens_in": 92,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The autonomous vehicles technology has been one of the most talked about innovations in recent years, and while it has several benefits, there are also challenges associated with it that may prevent it from hitting the mainstream market. One of the main factors that could prevent self-driving cars from gaining widespread acceptance is the trust issue. As the study suggests, many people are worried about the technology's safety and fear the system may fail, putting their lives at risk.\n\nAnother factor contributing to the slow adoption of autonomous vehicles is the cost. The high cost associated with the technology and the lack of adequate infrastructure to support self-driving cars is a significant bottleneck. It will take years to make the technology affordable for the average individual.\n\nLegal hurdles and regulatory challenges also pose a significant threat to the growth of autonomous vehicles. Self-driving cars may require a new set of laws and regulations that ensure safety and security.\n\nPrivacy and security concerns are another issue that could prevent self-driving cars from gaining mainstream usage. As autonomous cars gather data to make better decisions, people worry about the security of their data, and who has access to it.\n\nLastly, cultural changes may also affect the growth of autonomous vehicles. Many people still enjoy the experience of driving and may need time to adapt to the new technology. \n\nIn conclusion, while autonomous vehicles have the potential to revolutionize transportation, several factors could slow down their adoption and prevent them from hitting the mainstream market.",
+      "started_at": "2026-04-25T07:46:23.720000Z",
+      "duration_ms": 17040,
+      "tokens_in": 0,
+      "tokens_out": 406,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2656,
+      "tokens_in": 1894,
+      "tokens_out": 762,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 215,
+      "duration_ms": 36260,
+      "ai_wait_ms": 32080,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00TDF7NHSAHFKTXHPZ",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQ1SMGP0SXFKMKWYCGBYGTZG",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "According to a recent study conducted among 2,000 U.S.adults,about 88% said they would be concerned about riding in a driverless car , most of whom worried that the system could fail.What are the factors that you think may prevent Google's ",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ1SMGP0SXFKMKWYCGBYGTZG.json",
+        "turn_uri": "data/sessions/sess_01KQ1SMGP0SXFKMKWYCGBYGTZG.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.52).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

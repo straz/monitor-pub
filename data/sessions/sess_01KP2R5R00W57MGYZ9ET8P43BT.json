@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP2R5R00W57MGYZ9ET8P43BT",
+  "tenant": "axiom-bank",
+  "project": "arc_underwriter",
+  "user": "u_axb_001",
+  "title": "is CCJs and defaults should be removed from credit reference agencies after 6 monts by law? which law is that?",
+  "started_at": "2026-04-13T06:24:00Z",
+  "ended_at": "2026-04-13T06:24:23.588000Z",
+  "duration_ms": 23588,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "is CCJs and defaults should be removed from credit reference agencies after 6 monts by law? which law is that?",
+      "started_at": "2026-04-13T06:24:00Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "There is no law stating that CCJs (County Court Judgments) and defaults should be removed from credit reference agencies after 6 months. In the UK, CCJs and most defaults are typically removed from your credit file after 6 years, not 6 months. This is regulated under the Data Protection Act 2018, which implements the General Data Protection Regulation (GDPR) in the UK.",
+      "started_at": "2026-04-13T06:24:02.624000Z",
+      "duration_ms": 4480,
+      "tokens_in": 0,
+      "tokens_out": 92,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "As I mentioned on my previous email. Amigo Loans has issued CCJ against me on 19 May 2017,\nbut is recorded as it was issued in June 2017 in your records. Because of this CCJ or default is\nvisible on your records and on TransUnion agency records. \n\nI will request that you remove Amigo Loans info as a default or CCJ from your credit reference database as more than 6 years has passed by the default date and it should be removed. \n\nIn the UK, CCJs and most defaults are typically removed from your credit file after 6 years. This is regulated under the Data Protection Act 2018, which implements the General Data Protection Regulation (GDPR) in the UK.\n\nPlease find attached as PDF fike the proof email between me and Amigo Loans customer services. In this email they inform me that they issued CCJ against me on 19 May 2017.\n\nKind regards,\n\n\n\n<PRESIDIO_ANONYMIZED_PERSON>\n\nPlease refrase this as an email to a reference agency.",
+      "started_at": "2026-04-13T06:24:08.604000Z",
+      "duration_ms": 3584,
+      "tokens_in": 232,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Subject: Request for Removal of CCJ and Default - Amigo Loans\n\nDear [Credit Reference Agency],\n\nI hope this email finds you well. I am writing to request the removal of a County Court Judgment (CCJ) and default from my credit file, as it has been over six years since the default date.\n\nAmigo Loans issued a CCJ against me on 19 May 2017. However, it is recorded in your database as if it was issued in June 2017. As a result, the CCJ and default are still visible on your records and on those of TransUnion agency.\n\nAccording to the Data Protection Act 2018, which implements the General Data Protection Regulation (GDPR) in the UK, CCJs and most defaults should typically be removed from credit files after six years. In my case, the default date is 19 May 2017, and as more than six years have passed since then, I kindly request that you remove all information related to this Amigo Loans default and CCJ from your credit reference database.\n\nFor your reference, I have attached a PDF file containing an email exchange between myself and Amigo Loans customer services. In this email, Amigo Loans confirms that they issued the CCJ against me on 19 May 2017.\n\nI look forward to your prompt response and the removal of the mentioned CCJ and default from my credit file.\n\nThank you for your attention to this matter.\n\nKind regards,\n\n<PRESIDIO_ANONYMIZED_PERSON>",
+      "started_at": "2026-04-13T06:24:13.688000Z",
+      "duration_ms": 14400,
+      "tokens_in": 0,
+      "tokens_out": 340,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2010,
+      "tokens_in": 1578,
+      "tokens_out": 432,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 259,
+      "duration_ms": 23588,
+      "ai_wait_ms": 18880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0733,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:lending",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

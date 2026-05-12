@@ -1,0 +1,139 @@
+{
+  "id": "sess_01KR56FQR0SA4CYMMR1G9N76Z5",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "-Organize the items in quotes into specific categories. \"1. AI-Powered Triage System",
+  "started_at": "2026-05-09T01:44:00Z",
+  "ended_at": "2026-05-09T01:44:28.568000Z",
+  "duration_ms": 28568,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "-Organize the items in quotes into specific categories. \"1. AI-Powered Triage System\n\t\t2. Drug Discovery Platform\n\t\t3. Precision Oncology Solution\n\t\t4. AI-based Epidemiological Modeling\n\t\t5. AI-Powered Medical Imaging Analysis\n\t\t6. Patient Monitoring and Alert Systems\n\t\t7. Virtual Mental Health Counseling\n\t\t8. IoT and AI-based Medical Device Management\n\t\t9. AI-Enabled Clinical Trial Optimization\n\t\t10. AI-Driven Telemedicine Platform\n\t\t11. AI-Driven Patient Engagement Platform\n\t\t12. Medical Billing and Coding Automation\n\t\t13. AI-Enabled Population Health Management\n\t\t14. AI-Driven Post-Acute Care Coordination\n\t\t15. AI-Powered Physical Therapy Platform\n\t\t16. AI-Enabled Health Coaching\n\t\t17. Robot-Assisted Surgery and Rehabilitation\n\t\t18. Predictive Analytics for Hospital Operations\n\t\t19. AI-Enabled Decision Support System\n\t\t20. AI-Powered Wearables for Chronic Disease Monitoring\"",
+      "started_at": "2026-05-09T01:44:00Z",
+      "duration_ms": 3464,
+      "tokens_in": 222,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "AI-Powered Healthcare Solutions:\n- AI-Powered Triage System\n- AI-based Epidemiological Modeling\n- AI-Powered Medical Imaging Analysis\n- AI-Enabled Clinical Trial Optimization\n- AI-Driven Telemedicine Platform\n- AI-Driven Patient Engagement Platform\n- AI-Enabled Population Health Management\n- AI-Driven Post-Acute Care Coordination\n- AI-Powered Physical Therapy Platform\n- AI-Enabled Health Coaching\n- AI-Enabled Decision Support System\n- AI-Powered Wearables for Chronic Disease Monitoring\n\nDrug and Treatment Development:\n- Drug Discovery Platform\n- Precision Oncology Solution\n\nPatient Care and Monitoring:\n- Patient Monitoring and Alert Systems\n- Virtual Mental Health Counseling\n- IoT and AI-based Medical Device Management\n- Robot-Assisted Surgery and Rehabilitation\n- AI-Driven Telemedicine Platform\n\nHospital Operations:\n- Medical Billing and Coding Automation\n- Predictive Analytics for Hospital Operations\n\nRehabilitation and Support:\n- AI-Powered Physical Therapy Platform\n- Robot-Assisted Surgery and Rehabilitation",
+      "started_at": "2026-05-09T01:44:04.964000Z",
+      "duration_ms": 11040,
+      "tokens_in": 0,
+      "tokens_out": 256,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "-Organize the items in quotes into specific categories. -Don't repeat items more than once. \u201c1. AI-Powered Triage System\n2. Drug Discovery Platform\n3. Precision Oncology Solution\n4. AI-based Epidemiological Modeling\n5. AI-Powered Medical Imaging Analysis\n6. Patient Monitoring and Alert Systems\n7. Virtual Mental Health Counseling\n8. IoT and AI-based Medical Device Management\n9. AI-Enabled Clinical Trial Optimization\n10. AI-Driven Telemedicine Platform\n11. AI-Driven Patient Engagement Platform\n12. Medical Billing and Coding Automation\n13. AI-Enabled Population Health Management\n14. AI-Driven Post-Acute Care Coordination\n15. AI-Powered Physical Therapy Platform\n16. AI-Enabled Health Coaching\n17. Robot-Assisted Surgery and Rehabilitation\n18. Predictive Analytics for Hospital Operations\n19. AI-Enabled Decision Support System\n20. AI-Powered Wearables for Chronic Disease Monitoring\u201d",
+      "started_at": "2026-05-09T01:44:17.504000Z",
+      "duration_ms": 3464,
+      "tokens_in": 222,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "AI-Powered Healthcare Solutions:\n- AI-Powered Triage System\n- AI-based Epidemiological Modeling\n- AI-Powered Medical Imaging Analysis\n- AI-Enabled Clinical Trial Optimization\n- AI-Driven Telemedicine Platform\n- AI-Driven Patient Engagement Platform\n- AI-Enabled Population Health Management\n- AI-Driven Post-Acute Care Coordination\n- AI-Powered Physical Therapy Platform\n- AI-Enabled Health Coaching\n- AI-Enabled Decision Support System\n- AI-Powered Wearables for Chronic Disease Monitoring\n\nDrug and Treatment Development:\n- Drug Discovery Platform\n- Precision Oncology Solution\n\nPatient Care and Monitoring:\n- Patient Monitoring and Alert Systems\n- Virtual Mental Health Counseling\n- IoT and AI-based Medical Device Management\n- AI-Driven Telemedicine Platform\n\nHospital Operations:\n- Medical Billing and Coding Automation\n- Predictive Analytics for Hospital Operations\n\nRehabilitation and Support:\n- AI-Powered Physical Therapy Platform\n- Robot-Assisted Surgery and Rehabilitation",
+      "started_at": "2026-05-09T01:44:22.468000Z",
+      "duration_ms": 10600,
+      "tokens_in": 0,
+      "tokens_out": 245,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 62,
+    "human_effort": 38,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2623,
+      "tokens_in": 2122,
+      "tokens_out": 501,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 444,
+      "duration_ms": 28568,
+      "ai_wait_ms": 21640,
+      "user_corrections": 2,
+      "frustration_hits": 1,
+      "dollars_estimate": 0.0937,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00NTH6RJ1PKWHEYCC0",
+      "tenant": "kurson-health",
+      "session": "sess_01KR56FQR0SA4CYMMR1G9N76Z5",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "-Organize the items in quotes into specific categories. -Don't repeat items more than once. \u201c1. AI-Powered Triage System\n2. Drug Discovery Platform\n3. Precision Oncology Solution\n4. AI-based Epidemiological Modeling\n5. AI-Powered Medical Im",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR56FQR0SA4CYMMR1G9N76Z5.json",
+        "turn_uri": "data/sessions/sess_01KR56FQR0SA4CYMMR1G9N76Z5.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.90).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00Y8CP8M6XRK31FVFK",
+      "tenant": "kurson-health",
+      "session": "sess_01KR56FQR0SA4CYMMR1G9N76Z5",
+      "type": "session_user_frustration",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_frustration",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "-Organize the items in quotes into specific categories. -Don't repeat items more than once. \u201c1. AI-Powered Triage System\n2. Drug Discovery Platform\n3. Precision Oncology Solution\n4. AI-based Epidemiological Modeling\n5. AI-Powered Medical Im",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR56FQR0SA4CYMMR1G9N76Z5.json",
+        "turn_uri": "data/sessions/sess_01KR56FQR0SA4CYMMR1G9N76Z5.json#turns/2"
+      },
+      "rationale": "User frustration markers in turn text.",
+      "condition_code": "B05.05"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQ1NXG30G3K2YSDN4JFM5N09",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_005",
+  "title": "write a paragraph Main Idea 1: Healthcare system",
+  "started_at": "2026-04-25T06:41:00Z",
+  "ended_at": "2026-04-25T06:41:18.292000Z",
+  "duration_ms": 18292,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "write a paragraph Main Idea 1: Healthcare system\nSupporting Detail1.1: excellent medical facilities\nEvidence: new facilities with advanced technology and equipment\nSupporting Detail1.2: publicly funded.\nEvidence: People pay taxes and receive care when needed, Free health insurance\nConclusion Sentence: Considered to be the best system all over the Asia.\n",
+      "started_at": "2026-04-25T06:41:00Z",
+      "duration_ms": 1856,
+      "tokens_in": 88,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The healthcare system in this country is highly praised for its excellent medical facilities. The government has invested in new facilities with advanced technology and equipment, providing patients with top-notch services. Moreover, the healthcare system is publicly funded, meaning that people pay taxes and receive care when needed. This includes free health insurance for citizens. Due to these factors, the healthcare system in this country is considered to be the best in Asia. It's clear that the government has prioritized the well-being of its citizens and has been successful in providing quality healthcare to those who need it.",
+      "started_at": "2026-04-25T06:41:03.356000Z",
+      "duration_ms": 7160,
+      "tokens_in": 0,
+      "tokens_out": 159,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Part 2: To understand how connected a paragraph and outline are, use the paragraph below to fill in the outline.\n\nPARAGRAPH:\n\nThere are three important qualities necessary in a good boss. The most important quality is fairness. If the boss is fair, workers can feel that if they do a good job, their work will be appreciated, and their efforts will be rewarded. The second important quality in a good boss is leadership. The boss should be a role-model and a teacher. This allows workers to learn from a boss so that they can increase their job skills and get promoted. The third most important factor is that the boss act with consistency. That way the workers know what to expect each day. They know how they will be treated and what their share of workload will be. Bosses with these qualities: fairness, leadership, and consistency will be successful at managing a staff that is well-skilled and satisfied. \n\n\nOUTLINE:\n\nMain Idea: \nSupporting Detail 1: \n\tEvidence: \n\nSupporting Detail 2: \n\tEvidence: \n\nSupporting Detail 3: \n\tEvidence: \n\nConclusion:\n",
+      "started_at": "2026-04-25T06:41:12.016000Z",
+      "duration_ms": 3956,
+      "tokens_in": 263,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Main Idea: Qualities necessary in a good boss\nSupporting Detail 1: Fairness\nEvidence: Workers feel appreciated and efforts rewarded\nSupporting Detail 2: Leadership\nEvidence: Boss as role-model and teacher to increase job skills and promotions\nSupporting Detail 3: Consistency\nEvidence: Workers know what to expect daily, including treatment and workload\nConclusion: Bosses with these qualities will be successful in managing a skilled and satisfied staff.",
+      "started_at": "2026-04-25T06:41:17.472000Z",
+      "duration_ms": 5320,
+      "tokens_in": 0,
+      "tokens_out": 113,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2070,
+      "tokens_in": 1798,
+      "tokens_out": 272,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 351,
+      "duration_ms": 18292,
+      "ai_wait_ms": 12480,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

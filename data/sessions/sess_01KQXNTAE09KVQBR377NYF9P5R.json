@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQXNTAE09KVQBR377NYF9P5R",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "how to dinamically check for disabled rows to be selected in an antd table, if I select a row with the record.bank == \u201ca\u2026",
+  "started_at": "2026-05-06T03:38:00Z",
+  "ended_at": "2026-05-06T03:39:03.004000Z",
+  "duration_ms": 63004,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "how to dinamically check for disabled rows to be selected in an antd table, if I select a row with the record.bank == \u201cagricola\u201d i should be only be able to select rows with the record.bank == \u201cagricola\u201d and disable the others, if I select another bank it should disable only the records with the bank ==\u201cagricola\u201d in react",
+      "started_at": "2026-05-06T03:38:00Z",
+      "duration_ms": 1760,
+      "tokens_in": 80,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "You can achieve this by controlling the row selection state and updating the `rowSelection` and `rowClassName` props of the Ant Design Table. I'll walk you through the steps.\n\n1. Create a state variable to hold the currently selected bank:\n\n```javascript\nconst [selectedBank, setSelectedBank] = useState(null);\n```\n\n2. Update the `onChange` function in the `rowSelection` prop to store the selected bank and filter the rows accordingly:\n\n```javascript\nconst rowSelection = {\n  onChange: (selectedRowKeys, selectedRows) => {\n    if (selectedRows.length > 0) {\n      setSelectedBank(selectedRows[0].bank);\n    } else {\n      setSelectedBank(null);\n    }\n  },\n  getCheckboxProps: (record) => ({\n    disabled: selectedBank !== null && record.bank !== selectedBank,\n  }),\n};\n```\n\nHere, we use the `getCheckboxProps` function to disable rows based on the selected bank.\n\n3. Set the `rowClassName` prop to apply a different className based on the selected state:\n\n```javascript\nconst rowClassName = (record) => {\n  return selectedBank !== null && record.bank !== selectedBank\n    ? \"disabled-row\"\n    : \"\";\n};\n```\n\n4. Apply the `rowSelection` and `rowClassName` props to the Ant Design Table component:\n\n```javascript\n<Table\n  rowSelection={rowSelection}\n  rowClassName={rowClassName}\n  columns={columns}\n  dataSource={data}\n/>\n```\n\n5. Style the disabled rows if necessary. Add the following CSS to apply a different background color for  disabled rows:\n\n```css\n.disabled-row {\n  background-color: #f5f5f5;\n  pointer-events: none;\n}\n```\n\nHere is a working example of the complete solution:\n\n```javascript\nimport React, { useState } from \"react\";\nimport { Table } from \"antd\";\nimport \"antd/dist/antd.css\";\nimport \"./styles.css\";\n\nexport default function App() {\n  const [selectedBank, setSelectedBank] = useState(null);\n\n  const rowSelection = {\n    onChange: (selectedRowKeys, selectedRows) => {\n      if (selectedRows.length > 0) {\n        setSelectedBank(selectedRows[0].bank);\n      } else {\n        setSelectedBank(null);\n      }\n    },\n    getCheckboxProps: (record) => ({\n      disabled: selectedBank !== null && record.bank !== selectedBank,\n    }),\n  };\n\n  const rowClassName = (record) => {\n    return selectedBank !== null && record.bank !== selectedBank\n      ? \"disabled-row\"\n      : \"\";\n  };\n\n  const columns = [\n    {\n      title: \"ID\",\n      dataIndex: \"id\",\n    },\n    {\n      title: \"Bank\",\n      dataIndex: \"bank\",\n    },\n  ];\n\n  const data = [\n    {\n      key: \"1\",\n      id: \"1\",\n      bank: \"agricola\",\n    },\n    {\n      key: \"2\",\n      id: \"2\",\n      bank: \"agricola\",\n    },\n    {\n      key: \"3\",\n      id: \"3\",\n      bank: \"other\",\n    },\n    {\n      key: \"4\",\n      id: \"4\",\n      bank: \"other\",\n    },\n  ];\n\n  return (\n    <div className=\"App\">\n      <Table\n        rowSelection={rowSelection}\n        rowClassName={rowClassName}\n        columns={columns}\n        dataSource={data}\n      />\n    </div>\n  );\n}\n```\n\nNow, when you select a row with a specific `bank`, all other rows with different `bank` values will be disabled, and you can only select rows with matching bank values. When no rows are selected, all rows will be enabled again.",
+      "started_at": "2026-05-06T03:38:03.260000Z",
+      "duration_ms": 32400,
+      "tokens_in": 0,
+      "tokens_out": 790,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "modify the code so I can select multiple records with different banks, it will only disable the others when I select a record with bank == \u201cagricola\u201d and when I select other banks it will disable the records with bank == \u201cagricola\u201d",
+      "started_at": "2026-05-06T03:38:37.160000Z",
+      "duration_ms": 1484,
+      "tokens_in": 57,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "To achieve this, you can modify the `onChange` function and the condition in `getCheckboxProps`:\n\n1. Update the `onChange` function in the `rowSelection` prop to enable/disable other rows based on the presence of a selected row with `bank` equal to \"agricola\":\n\n```javascript\nconst rowSelection = {\n  onChange: (selectedRowKeys, selectedRows) => {\n    if (selectedRows.some(row => row.bank === \"agricola\")) {\n      setSelectedBank(\"agricola\");\n    } else {\n      setSelectedBank(null);\n    }\n  },\n  getCheckboxProps: (record) => ({\n    disabled:\n      (selectedBank === \"agricola\" && record.bank !== \"agricola\") ||\n      (selectedBank !== \"agricola\" && selectedBank !== null && record.bank === \"agricola\"),\n  }),\n};\n```\n\nThis will only disable other banks when a row with `bank` equal to \"agricola\" is selected. When selecting other banks, it will disable the records with `bank` equal to \"agricola\".\n\nHere's the complete updated solution:\n\n```javascript\nimport React, { useState } from \"react\";\nimport { Table } from \"antd\";\nimport \"antd/dist/antd.css\";\nimport \"./styles.css\";\n\nexport default function App() {\n  const [selectedBank, setSelectedBank] = useState(null);\n\n  const rowSelection = {\n    onChange: (selectedRowKeys, selectedRows) => {\n      if (selectedRows.some(row => row.bank === \"agricola\")) {\n        setSelectedBank(\"agricola\");\n      } else {\n        setSelectedBank(null);\n      }\n    },\n    getCheckboxProps: (record) => ({\n      disabled:\n        (selectedBank === \"agricola\" && record.bank !== \"agricola\") ||\n        (selectedBank !== \"agricola\" && selectedBank !== null && record.bank === \"agricola\"),\n    }),\n  };\n\n  const rowClassName = (record) => {\n    return selectedBank !== null && record.bank !== selectedBank\n      ? \"disabled-row\"\n      : \"\";\n  };\n\n  const columns = [\n    {\n      title: \"ID\",\n      dataIndex: \"id\",\n    },\n    {\n      title: \"Bank\",\n      dataIndex: \"bank\",\n    },\n  ];\n\n  const data = [\n    {\n      key: \"1\",\n      id: \"1\",\n      bank: \"agricola\",\n    },\n    {\n      key: \"2\",\n      id: \"2\",\n      bank: \"agricola\",\n    },\n    {\n      key: \"3\",\n      id: \"3\",\n      bank: \"other\",\n    },\n    {\n      key: \"4\",\n      id: \"4\",\n      bank: \"other\",\n    },\n  ];\n\n  return (\n    <div className=\"App\">\n      <Table\n        rowSelection={rowSelection}\n        rowClassName={rowClassName}\n        columns={columns}\n        dataSource={data}\n      />\n    </div>\n  );\n}\n```\n\nNow, you can select multiple records with different banks, and it will only disable other rows when a row with `bank` equal to \"agricola\" is selected. When selecting other banks, it will disable the records with `bank` equal to \"agricola\".",
+      "started_at": "2026-05-06T03:38:40.144000Z",
+      "duration_ms": 27360,
+      "tokens_in": 0,
+      "tokens_out": 664,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 24,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3661,
+      "tokens_in": 2207,
+      "tokens_out": 1454,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 137,
+      "duration_ms": 63004,
+      "ai_wait_ms": 59760,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1535,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

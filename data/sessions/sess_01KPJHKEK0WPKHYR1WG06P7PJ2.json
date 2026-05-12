@@ -1,0 +1,193 @@
+{
+  "id": "sess_01KPJHKEK0WPKHYR1WG06P7PJ2",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "Synthesize below notes into key 3-5 bullets and be as concise as possible: MEDICARE will pay 100% cost of Kidney transpl\u2026",
+  "started_at": "2026-04-19T09:37:00Z",
+  "ended_at": "2026-04-19T09:38:11.128000Z",
+  "duration_ms": 71128,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Synthesize below notes into key 3-5 bullets and be as concise as possible: MEDICARE will pay 100% cost of Kidney transplant (5k-12k for kidney transplant)\n\u2022\tRest of organ funding:\n\u2022\tOrgan Funding Process: patient announced dead > talk to family about organ donation > family says yes, then organ stays on IV and systems\no\tNo insurance will pay for dead organs\no\tOPO will pay 100% of costs \u2013 pay for EKGs, anesthesia, hospital stay\no\tOPO will guarantee fixed rate\no\tOnce all organs are allocated \u2013 OPOs will then pay that fee\no\tOPOs recover fees: they will evaluate all costs associated with each organ > average cost > standardized physician charge\n\uf0a7\tEx. 45k for heart, 40k for lung\n\uf0a7\tThen when TC accepts an organ, OPO passes that estimated cost to TC\n\uf0a7\tTC accepts the price (TC has no choice)\n\uf0a7\tSometimes there is some negotiation between OPO and TC\no\tTC recouping:\n\uf0a7\tEvaluations: psychological, mental, physical\n\uf0a7\tThey can determine YES/NO if they will get their money back\n\uf0a7\tHospital and administrator\n\u2022\tQ: No recoupment risk?\no\tA: No, because ever player in supply chain gets funding (without insurance risk)\no\tA: Also unlikely to change in the future\n\u2022\tRepeat of TC process: TC will review patient\u2019s insurance. Insurance will have a different contract with each Payor.\no\tOnce patient comes up in donor list, need to check if patient is insured\n\uf0a7\tIf patient isn\u2019t adequately insured\n\uf0a7\tContract with Payors and Medicare\no\tDecisions are based on patient\u2019s ability to pay \u2013 pre-approved or plan in place for additional funding\n\u2022\tMore on funding flow\no\tNORA gets paid from all steps: OPO, TC, and Perfusion\no\tWhen you have negotiated price with OPO\n\uf0a7\tEx. Heart, 500 miles\n\uf0a7\tNo quoting \u2013 rate card tied to hourly air/ground transport\no\tSome rate/pricing changes:\n\uf0a7\tRate change between Philadelphia vs. Alabama (AL doesn\u2019t have hangar transport)\n\uf0a7\tOrgan-only\n\uf0a7\t$5k-$7k per\no\tSometimes we talk about Pricing; sometimes it\u2019s not even concern\n\uf0a7\tEvery 2-3 years, we\u2019ll review contract and renegotiate price\n\u2022\tQ: For first time contract, are people thinking price 1st or 5th?\no\tA: varies depending on size of OPO\no\tA: nothing standard about this industry\n\uf0a7\tDifferences between one OPO to another; differences between states; etc.\u2026\n",
+      "started_at": "2026-04-19T09:37:00Z",
+      "duration_ms": 7472,
+      "tokens_in": 556,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Medicare pays 100% of the cost of kidney transplant, which ranges from $5k-$12k.\n2. Organ funding process involves OPO paying 100% of the costs for EKGs, anesthesia, and hospital stays.\n3. OPO recovers fees by evaluating all costs associated with each organ, averaging the costs, and standardizing physician charges.\n4. TC evaluates patient's insurance and pre-approves or plans additional funding for those inadequately insured.\n5. Pricing in the organ donation industry varies from state to state and between OPOs, with contracts being renegotiated every 2-3 years.",
+      "started_at": "2026-04-19T09:37:08.972000Z",
+      "duration_ms": 6480,
+      "tokens_in": 0,
+      "tokens_out": 142,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Synthesize below notes into 3-5 key bullets and be concise: \u2022\tWild variation by district \u2013 lots of training with Dispatch to understand local nuance\n\u2022\tQ: for new customer and price is #1 concern, how do you address?\no\tA: we talk about local pricing and what we typically see\no\tA: we will negotiate upfront sometimes to get the deal done\no\tA: we will renegotiate at the 2-3 year renewal mark\n\u2022\tDuring fuel prices and inflationary period, NORA went back to customers and passed through price hikes\no\tA: 90% didn\u2019t budge on price increases\no\tA: we have\n\nRegarding Smaller OPOs, better discussion with OPOs to explain 1) you\u2019re not in budget now, 2) but here\u2019s how we can help you budget for us next year\n\n(RETURN TO \u201cNATIONWIDE INFRASTRUCTURE & CUSTOMER DENSITY\u201d SLIDE)\n\n\u2022\tQ: how will pricing change in the future?\no\tA: It will likely go up\no\tA\n\u2022\tOnly 54% of people are on the donation list \u2013 if we can get that number up to 70%, imagine how much more organs NORA can help transport\n\u2022\tConstantly adding vehicles / transport options:\no\tNetwork effect: Ohio transport > only 1x OH driver, then OH driver gets tired > but now NORA can pass off organ from OH drive to IL driver to MI driver, etc\u2026\n\u2022\tQ: new places in service network launched recently?\no\tA: Opened up KY (Louisville) and WV (Huntington); opened up Alabama (Birmingham, Mobile, Montgomery) \u2013 air and ground\no\tA: Currently in talks with Virginia\n\u2022\tQ: standing up a fleet?\no\tA: Process: recommend vehicles > recommend sites > time to stand up\no\tA: Took Alabama 4-5 months\n\u2022\tQ: airlines?\no\tA: 3 different tiers of flight\n",
+      "started_at": "2026-04-19T09:37:16.952000Z",
+      "duration_ms": 5516,
+      "tokens_in": 393,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Wild variation by district requires specific training with Dispatch to understand local pricing nuances.\n2. NORA negotiates pricing upfront with customers, but also renegotiates at the 2-3 year renewal mark.\n3. Only 54% of people are currently on the organ donation list and increasing that number to 70% would greatly benefit NORA's ability to transport organs.\n4. NORA is constantly adding vehicles and transport options to their network effect.\n5. NORA recently launched new service networks in Kentucky, West Virginia, and Alabama (air and ground) and is currently in talks with Virginia.",
+      "started_at": "2026-04-19T09:37:23.968000Z",
+      "duration_ms": 6720,
+      "tokens_in": 0,
+      "tokens_out": 148,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Synthesize below bullets into key 4-5 bullets and be concise: Perfusion Relationships\n\u2022\tNORA has insider knowledge \u2013 participates in roundtables, industry conferences\n\u2022\tNORA knows what OPOs are thinking about\n\u2022\tNORA was ahead of the UNOS changes happening to OPO/TC\no\tNone of those competitors were in the audience when those changes were announced in 2018\n\nQ: will Perfusion build up logistics network?\n\u2022\tA: They don\u2019t understand how hard it is \u2013 if the problem is that easy, many more would have solved it already\n\u2022\tA: hard to double-focus: are you a Perfusion co or a logistics co?\n\u2022\tA: challenge with understanding, for example, a 135 Operator\n\u2022\tQ: how far are they in developing a competitor?\no\tA: we talked to Perfusion partner (Ali?) and they\u2019re not even far along\no\tA: they might be mad\no\tA: TCs are coming down on Perfusion due to costs \u2013 process: pick up perfusion, set up perfusion, return perfusion\no\tA: Ali doesn\u2019t have capital, dispatch center, etc \u2013 \u201cgreat idea in theory\u201d\no\tA: they will bleed money, give up, and eventually return to NORA\no\tA: smaller fleets > smaller repos\no\tA: they are in 8-year journey and they\u2019re in year 2\n\nPerfusion Revenue Growth - $0.6M to $16.4M\n\u2022\tQ: how did you see such an inflection point?\no\tA: perfusion learning curve\n\uf0a7\tProcess: change airplanes to support Perfusion on flight > training process with OPO and TC to adjust to using perfusion machines\n\uf0a7\tNORA in the habit of providing perfusion-specific training (\u201centire module on perfusion use, handling, care and instruction)\n\uf0a7\tKeys: personnel, training, adjustment to existing service/processes\n\u2022\tQ: changes to fleet?\no\tA: less room in ambulance making it less comfortable\n\u2022\tQ: How has perfusion changed the process?\no\tA: 4-5 incremental legs to pickup and return perfusion machines\no\tA: NORA has already made all the infrastructure/training/process changes to accommodate\n\u2022\tYou can\u2019t operate a 135 unless you\u2019re based in US\n",
+      "started_at": "2026-04-19T09:37:32.188000Z",
+      "duration_ms": 6572,
+      "tokens_in": 481,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. NORA has insider knowledge of the industry and was ahead of UNOS changes.\n2. Perfusion partners are not expected to create a successful logistics network.\n3. Ali and Perfusion are struggling due to additional costs and lack of resources.\n4. Perfusion revenue growth was due to changing airplanes, personnel, and adjustments to existing services and processes.\n5. NORA has already made significant infrastructure, training, and process changes to accommodate perfusion.",
+      "started_at": "2026-04-19T09:37:40.260000Z",
+      "duration_ms": 5480,
+      "tokens_in": 0,
+      "tokens_out": 117,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Synthesize below bullets into 5-7 key bullets and be as concise as possible: \u2022\tWe own vehicles\n\u2022\tNORA process of getting them ready: \no\tRetrofitting with: wifi, beds, designed for creature comforts for doctors \n\u2022\tQ: do doctors travel themselves?\no\tA: Yes, sometimes Doctors travel themselves\n\u2022\tHigh volume areas: 50,000 miles\n\u2022\tNORA: we go to customer and say \u201cWhat do you like about our design?\u201d\no\tVehicle becomes designed and customized to fit the client\no\tBuy-in from TCs and OPOs and administrators of hospitals\no\tEx. Billboard on the side; tons of advertising space; QR codes on the vehicles\n\u2022\tBranded vehicles vs. Generic vehicles\no\tIn some areas when we launch with OPO or have long-time relationships (ex: New Jersey), we have branded/logo-d vehicles\no\tIn some areas, use Generic vehicles (\u2018Organ Transplant vehicle) when offering service to multiple clients/TCs in the area\n\u2022\tSometimes NORA will pull vehicles from other post to help with larger effort\n\u2022\t30K-50K mileage\n\u2022\tVehicles are being used EVERYDAY\no\tEx: Of 16 vehicles in one area, maybe huge day with 12 vehicles in use for the day\n\u2022\tQ: how do you handle extra capacity need?\no\tA: process: for example, we get a call in Cleveland > volume estimate (but generally hard to go off of) > start with backup third tier vehicle > needed more so added 2 more vehicles > see need in our system\no\tA: as we need more, we scale up.\no\tA: Cleveland started with 2-3, now we\u2019re up to 5 (based on service level)\no\tA: we do whatever we can to start that service ASAP > Then 6 months later, can you do X, can you do Y?\no\tA: we go back to client and say: \u201cHey, we have vehicle in these areas\u2026 we can cover all of these additional services\u2026 come work with us?\u201d\n",
+      "started_at": "2026-04-19T09:37:47.240000Z",
+      "duration_ms": 5924,
+      "tokens_in": 427,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "1. NORA owns and customizes their own vehicles, retrofitting them with wifi, beds, and creature comforts for doctors.\n2. NORA consults with customers to design and customize vehicles to fit their needs.\n3. Branded vehicles are used in areas for long-time relationships or single clients, while generic 'Organ Transplant vehicles' are used for multiple clients.\n4. Vehicles are used every day and can be added or scaled up as needed.\n5. NORA will pull vehicles from other posts to help with larger efforts.\n6. NORA consults with clients to provide additional services and coverage as needed.\n7. NORA advertises on vehicles with billboards and QR codes.",
+      "started_at": "2026-04-19T09:37:54.664000Z",
+      "duration_ms": 7280,
+      "tokens_in": 0,
+      "tokens_out": 162,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Synthesize below notes into key 5-7 bullets and be concise: \u2022\tEmployee requirements:\no\tMinimum 5 years of experience\no\tMin 25 years of age\no\t\u201cNo cowboys\u201d\no\tExperience operating emergency vehicles\no\tDrug screen annually and randomly\no\tDriver testing at beginning\no\t$15/hour (at training) up to $33/hour (for senior drivers)\n\u2022\tOPO training happens with hires in-person \u2013 this way OPO gets connected with reps and start building relationships\n\u2022\tTraining: central, then with Supervisor\no\tTeach: all the acronyms about donation; safety; medical training to understand EXACTLY what they\u2019ll be doing\no\tThis is not drop-shipping (\u201cIf you say this is like delivering a package, you can leave now\u201d)\no\tIf you fail, people lose lives \u2013 huge emphasis on mission\n\u2022\tScott\u2019s experience as OPO rep understands the detailed safety process \u2013 has gone into NORA\u2019s training programs\n\u2022\tInvolve OPO staff; OPO does presentation to the Staff; we are two orgs but we operate as 1 org\no\tStaff goal: earn the trust of the OPO\n\u2022\tExit interview feedback: \u201cthis was so much more than what I thought it would be\u201d\n\u2022\tQ: what\u2019s your typical Driver work?\no\tA: 24-hour shift from 8am to 8am\no\tA: can have 4-12 people on-call each day\no\tA: when Transport comes in, they must answer within 30min\no\tA: stipend for the day + hourly when actually Transporting\n\u2022\tReferral process\no\tHires bring in friends from past lives \u2013 building team with established relationships\no\tKey: hire right people > right people bring in more right people\n\u2022\tQ: average number of vehicles in an area?\no\tA: varies significantly \no\tA: we have bases with 2 vehicles and bases with 16 vehicles\no\tA: dedicated parking spots\no\tA: we structure vehicle volume based on call volume\no\tA: mix of vehicle counts by site \u2013stitch together for full state coverage\n\u2022\tQ: How many bases?\no\tA: 50 bases\no\tA: few garages, few parking spaces\no\tA: we always try to turn on parking at client location\n\uf0a7\tAlternative: parking garage; local garage; covered parking\no\tEx: Worcester, MA driver is very resourceful \u2013 secured 3x dedicated spots at site\n\u2022\tQ: Required to be exclusive?\no\tA: No exclusive; not required to work only with NORA\n\u2022\tQ: How often do we replace?\no\tA: 250K miles on Suburban\no\tA: 175K miles on Equinox (usually quicker wear because more frequent trips)\n\u2022\tQ: who does retrofitting?\no\tA: program Manager in Chicago handles the retrofitting\no\tA: we buy in Chicago\no\tA: they add sirens, refrigeration \u2013 then vehicle gets shipped to location or Driver/Supervisor comes in and drives it back to base\n\u2022\tQ: Who handles Maintenance?\no\tA: Supervisors log Maintenance issues and flag Maintenance issues\n\u2022\tQ: Deals for buying volume?\no\tA: sometimes\no\tA: during COVID, when we nobody could buy. Don wrote CEO of car dealership; she got Don 12 new vehicles within a short period of time.\n",
+      "started_at": "2026-04-19T09:38:03.444000Z",
+      "duration_ms": 9200,
+      "tokens_in": 700,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "1. Employee requirements include a minimum of 5 years of experience, a minimum age of 25, no \"cowboys,\" experience operating emergency vehicles, and annual/random drug screenings.\n2. OPO training happens in-person with new hires to build relationships and establish trust.\n3. NORA's training emphasizes mission, safety, and medical knowledge to understand the donation process.\n4. NORA works closely with OPO staff and presents as one organization to gain trust and establish relationships.\n5. NORA's referral process relies on hiring the right people who bring in more right people.\n6. NORA structures vehicle volume based on call volume and has 50 bases with a mix of counts per site.\n7. Maintenance issues are flagged by Supervisors, and NORA sometimes makes deals for buying volume vehicles.",
+      "started_at": "2026-04-19T09:38:14.144000Z",
+      "duration_ms": 8720,
+      "tokens_in": 0,
+      "tokens_out": 198,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "professional word for \"beef up\"",
+      "started_at": "2026-04-19T09:38:24.364000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Strengthen.",
+      "started_at": "2026-04-19T09:38:26.748000Z",
+      "duration_ms": 880,
+      "tokens_in": 0,
+      "tokens_out": 2,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 48,
+    "ai_cost": 98,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 16457,
+      "tokens_in": 15688,
+      "tokens_out": 769,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 2564,
+      "duration_ms": 71128,
+      "ai_wait_ms": 35560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.009,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0098HS4PZD0B7418ZB",
+      "tenant": "kurson-health",
+      "session": "sess_01KPJHKEK0WPKHYR1WG06P7PJ2",
+      "type": "greed_trap",
+      "severity": "med",
+      "source": "batch",
+      "observer": "greed_trap",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        4,
+        5
+      ],
+      "evidence": {
+        "snippet": "1. NORA has insider knowledge of the industry and was ahead of UNOS changes.\n2. Perfusion partners are not expected to create a successful logistics network.\n3. Ali and Perfusion are struggling due to additional costs and lack of resources.",
+        "speaker": "assistant",
+        "turn": 5
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPJHKEK0WPKHYR1WG06P7PJ2.json",
+        "turn_uri": "data/sessions/sess_01KPJHKEK0WPKHYR1WG06P7PJ2.json#turns/5"
+      },
+      "rationale": "Assistant absorbed correction while preserving original (incorrect) framing.",
+      "condition_code": "T04.01"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

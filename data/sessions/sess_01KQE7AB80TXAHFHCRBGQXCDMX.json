@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQE7AB80TXAHFHCRBGQXCDMX",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "What financial assets can be created and traded by family members?",
+  "started_at": "2026-04-30T03:36:00Z",
+  "ended_at": "2026-04-30T03:36:32.644000Z",
+  "duration_ms": 32644,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What financial assets can be created and traded by family members?",
+      "started_at": "2026-04-30T03:36:00Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Family members can create and trade various financial assets depending on their level of financial expertise, resources, and interests. Some financial assets that family members can create and trade include:\n\n1. Stocks: Family members can invest in public or private companies by purchasing their stocks, which represent partial ownership in the company. These stocks can be bought, sold, or held as an investment.\n\n2. Bonds: Family members can lend money to the government, municipalities, or corporations through bonds. In return, the issuer of the bond agrees to pay interest and repay a principal amount to the bondholder.\n\n3. Mutual funds: Family members can pool their money and invest in diverse financial assets such as stocks, bonds, or other securities through mutual funds.\n\n4. Exchange-traded funds (ETFs): Similar to mutual funds, ETFs are pooled investments that can be bought and sold on a stock exchange. They often track a specific index or sector and provide exposure to a diverse range of assets.\n\n5. Real estate: Family members can invest in residential or commercial properties to generate rental income or for potential capital appreciation.\n\n6. Business ventures: Family members can pool their money to create a business or invest in an existing one. This could involve the creation of goods and services or explore new market opportunities.\n\n7. Peer-to-peer lending: Family members can participate in online platforms that connect borrowers and investors, providing a way to lend money to individuals or small businesses as an alternative to banks.\n\n8. Cryptocurrencies: Family members with an interest in digital currencies can trade or invest in cryptocurrencies like Bitcoin, Ethereum, or other altcoins.\n\n9. Precious metals and commodities: Family members can invest in physical assets such as gold, silver, or other precious metals as well as commodities like oil or agricultural goods.\n\n10. Art and collectibles: Family members can invest in art, antiques, or other collectibles that may appreciate in value over time.\n\nIt's essential to take into consideration the level of knowledge, risk tolerance, and financial goals of each family member before creating or trading any financial assets. Consulting with a financial advisor or planner may be beneficial, especially when dealing with complex investments or making significant financial decisions.",
+      "started_at": "2026-04-30T03:36:02.492000Z",
+      "duration_ms": 24600,
+      "tokens_in": 0,
+      "tokens_out": 595,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is the Applicable Federal Rate in 2023?",
+      "started_at": "2026-04-30T03:36:28.592000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot provide real-time information or predict future applicable federal rates (AFRs). AFRs are determined and published by the Internal Revenue Service (IRS) each month based on the average market yield on outstanding marketable U.S. Treasury securities with varying maturities.\n\nTo find the Applicable Federal Rate for 2023, you can check the IRS website or consult with a financial professional near that time. You can also search for relevant publications or news sources that report changes in AFRs.",
+      "started_at": "2026-04-30T03:36:31.024000Z",
+      "duration_ms": 6120,
+      "tokens_in": 0,
+      "tokens_out": 133,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2566,
+      "tokens_in": 1838,
+      "tokens_out": 728,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 27,
+      "duration_ms": 32644,
+      "ai_wait_ms": 30720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0988,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

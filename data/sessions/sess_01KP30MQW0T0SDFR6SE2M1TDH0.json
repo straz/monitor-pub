@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KP30MQW0T0SDFR6SE2M1TDH0",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Management of diabetes mellitus",
+  "started_at": "2026-04-13T08:52:00Z",
+  "ended_at": "2026-04-13T08:52:27.356000Z",
+  "duration_ms": 27356,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Management of diabetes mellitus",
+      "started_at": "2026-04-13T08:52:00Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Diabetes mellitus is a metabolic disorder characterized by high levels of blood glucose due to the body's inability to produce or effectively use insulin. Diabetes management aims to control blood glucose levels and prevent or minimize the complications associated with the disease.\n\n1. Healthy Eating: A healthy and balanced diet plan can help control blood glucose and manage weight. The American Diabetes Association recommends a diet that is rich in fruits, vegetables, and whole grains and low in saturated and trans fats, added sugars, and sodium.\n\n2. Regular Physical Activity: Physical activity can help control blood glucose levels, promote weight loss, and reduce the risk of heart disease. Experts suggest moderate-intensity aerobic activity for at least 150 minutes per week, in addition to muscle-strengthening exercises twice per week.\n\n3. Medications: Diabetes medications are prescribed based on the type of diabetes and individual patient needs. Medications may include insulin and/or oral medications that help regulate blood glucose levels.\n\n4. Monitoring Blood Glucose Levels: It is essential to monitor blood glucose levels regularly to ensure that they remain within the target range. Patients may use glucose meters to measure their glucose levels.\n\n5. Check-Ups and Routine Medical Care: Regular check-ups with a healthcare provider can help identify and manage any complications or issues related to diabetes. Furthermore, routine medical care can include diabetes education, eye exams, dental exams, and cholesterol and blood pressure checks.\n\n6. Avoiding Smoking: Smoking can increase the risk of complications associated with diabetes, such as heart disease, so it is advisable to quit smoking or avoid it altogether.\n\nEffective diabetes management requires ongoing monitoring and adherence to self-care practices. Therefore, it is important to work closely with a healthcare provider to determine the most appropriate management plan for maintaining blood glucose levels within a healthy range.",
+      "started_at": "2026-04-13T08:52:02.384000Z",
+      "duration_ms": 21000,
+      "tokens_in": 0,
+      "tokens_out": 505,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Who are you?",
+      "started_at": "2026-04-13T08:52:24.884000Z",
+      "duration_ms": 836,
+      "tokens_in": 3,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "I'm an AI language model developed by OpenAI. I can understand natural language and help you with various tasks like answering questions, generating text, and assisting with research.",
+      "started_at": "2026-04-13T08:52:27.220000Z",
+      "duration_ms": 2600,
+      "tokens_in": 0,
+      "tokens_out": 45,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Atre you gpt3?",
+      "started_at": "2026-04-13T08:52:31.320000Z",
+      "duration_ms": 836,
+      "tokens_in": 3,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Yes, I am powered by OpenAI's GPT-3 API.",
+      "started_at": "2026-04-13T08:52:33.656000Z",
+      "duration_ms": 1200,
+      "tokens_in": 0,
+      "tokens_out": 10,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3445,
+      "tokens_in": 2885,
+      "tokens_out": 560,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 13,
+      "duration_ms": 27356,
+      "ai_wait_ms": 24800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

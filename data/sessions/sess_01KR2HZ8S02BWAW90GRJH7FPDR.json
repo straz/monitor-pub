@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR2HZ8S02BWAW90GRJH7FPDR",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "What is it like to work in the following cities: Irvine, city of Industry, and Riverside? Typically how long of a drive \u2026",
+  "started_at": "2026-05-08T01:07:00Z",
+  "ended_at": "2026-05-08T01:07:30.184000Z",
+  "duration_ms": 30184,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is it like to work in the following cities: Irvine, city of Industry, and Riverside? Typically how long of a drive is it if you live in Lakewood, CA? Are the cities relatively safe? What is there to do in these cities?",
+      "started_at": "2026-05-08T01:07:00Z",
+      "duration_ms": 1460,
+      "tokens_in": 55,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have personal experiences, emotions, or perceptions. But, I can provide factual information to some of your questions.\n\nIrvine: Irvine is a planned city located in Orange County, California. The city is known for its great schools, diverse communities, and plenty of parks and outdoor spaces. Many companies have headquarters in Irvine, creating a strong job market. The drive time from Lakewood to Irvine is approximately 30-40 minutes. Irvine is considered a safe city to live in, with a low crime rate. The city also offers a range of activities, including shopping, dining, and entertainment.\n\nCity of Industry: City of Industry is an industrial suburb located in the San Gabriel Valley, Los Angeles County, California. The city has a large industrial area that's home to many major corporations, including Walmart, Home Depot, and FedEx. The drive time from Lakewood to City of Industry is approximately 15-20 minutes. The city is relatively safe, with a low crime rate. There aren't many recreational activities in the city, but there are a few shopping centers and restaurants to check out.\n\nRiverside: Riverside is a historic city located in the Inland Empire region of Southern California. The city has a rich history, with many preserved buildings and landmarks. Riverside is known for its outdoor spaces, including the Santa Ana River Trail and Mount Rubidoux Park. The drive time from Lakewood to Riverside is approximately 40-50 minutes. The city is considered safe, with a low crime rate. There are plenty of things to do in Riverside, including visiting the Riverside Art Museum, Fox Performing Arts Center, or Riverside Plaza for shopping and dining.\n\nNote: The drive time may vary depending on traffic conditions.",
+      "started_at": "2026-05-08T01:07:02.960000Z",
+      "duration_ms": 18400,
+      "tokens_in": 0,
+      "tokens_out": 440,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "How long would it take to get to the city of industry via surface streets from Lakewood",
+      "started_at": "2026-05-08T01:07:22.860000Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The drive time from Lakewood to City of Industry via surface streets may vary depending on traffic conditions, the route taken, and the specific starting and ending points. However, on average, it can take between 15-25 minutes to travel the approximately 8 miles distance from Lakewood to City of Industry via surface streets.",
+      "started_at": "2026-05-08T01:07:25.412000Z",
+      "duration_ms": 4040,
+      "tokens_in": 0,
+      "tokens_out": 81,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What about using freeways?",
+      "started_at": "2026-05-08T01:07:30.952000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "If you take the freeways to travel from Lakewood to City of Industry, it typically takes 10-15 minutes, depending on the traffic and the route taken. The most straightforward route is to take the 605 freeway north and exit at Valley Blvd, then drive west on Valley Blvd to reach the City of Industry. However, traffic conditions may affect the commute time.",
+      "started_at": "2026-05-08T01:07:33.324000Z",
+      "duration_ms": 4360,
+      "tokens_in": 0,
+      "tokens_out": 89,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3584,
+      "tokens_in": 2974,
+      "tokens_out": 610,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 82,
+      "duration_ms": 30184,
+      "ai_wait_ms": 26800,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

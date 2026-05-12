@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPPV59Z0F3QDVM21X8H6TY23",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "revise : The lack of agreement within the information systems (IS) literature on the dimensions of IT capabilities and r\u2026",
+  "started_at": "2026-04-21T01:41:00Z",
+  "ended_at": "2026-04-21T01:41:30.544000Z",
+  "duration_ms": 30544,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "revise : The lack of agreement within the information systems (IS) literature on the dimensions of IT capabilities and resources and their impact on digital transformation of healthcare has led to calls for more empirical studies that seek to identify the mechanisms by which healthcare systems can leverage IT capabilities to achieve successful digital transformation (Ghosh et al., 2023). ",
+      "started_at": "2026-04-21T01:41:00Z",
+      "duration_ms": 1964,
+      "tokens_in": 97,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The absence of consensus in the information systems (IS) literature regarding IT capabilities and resources and how they affect the digital transformation of healthcare has prompted the need for more empirical studies that investigate the ways in which healthcare systems can utilize IT capabilities to attain successful digital transformation (Ghosh et al., 2023).",
+      "started_at": "2026-04-21T01:41:03.464000Z",
+      "duration_ms": 4440,
+      "tokens_in": 0,
+      "tokens_out": 91,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit and add references:  For hospitals, digital transformation (DT) has become a critical capability for survival, particularly in light of the Covid-19 pandemic. Despite the growing importance of DT in hospitals, there is still a lack of empirical research on the drivers of this transformation, leading to a significant knowledge gap. Although practitioners believe that Information technology (IT) capabilities contributes to DT, yet empirical evidence and consensus on their dimensions and specific roles is sparse. The resource-based view (RBV) suggests that IT capabilities are a source of competitive advantage that cannot be easily replicated by competitors, unlike IT resources. Over time, some IT capabilities may become standardized and diminishes their distinctiveness, eventually becoming mere IT resources. Physical IT infrastructure has long been viewed as a capability in most studies, the exponential growth of digital technologies, including cloud computing, has led to questions as to whether this traditional viewpoint remains valid in the context of hospitals, particularly during the process of DT. Using RBV, the study developed an empirical model to explore the contribution of physical IT infrastructure in facilitating DT in hospitals.",
+      "started_at": "2026-04-21T01:41:09.404000Z",
+      "duration_ms": 4580,
+      "tokens_in": 315,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Reworked:\nDigital transformation (DT) has emerged as a critical capability for the survival of hospitals, especially given the impact of the Covid-19 pandemic. However, there is a significant dearth of empirical research on what drives this transformation, creating a knowledge gap. Although practitioners suggest that IT capabilities play a part in DT, the literature lacks empirical evidence and consensus on their specific dimensions and roles. According to the resource-based view (RBV), IT capabilities are a source of competitive advantage that is not easily replicated by competitors, unlike IT resources, which may become standardized over time. While previous studies have often viewed physical IT infrastructure as a capability, the rapid expansion of digital technologies, such as cloud computing, raises questions about whether this traditional perspective remains accurate in the healthcare context, particularly during the DT process. To address this gap, this study develops an empirical model, based on the RBV perspective, to explore the role of physical IT infrastructure in enabling DT in hospitals.\n\nReferences: \n\n- Ahuja, V., & Thatcher, S. M. (2019). The Evolution of Digital Transformation: A Review of the Literature. In Digital Transformation and Global Society (pp. 1-14). Springer, Cham.\n- Fernandes, L. L., & Faria, A. (2021). Digital health transformation in times of COVID-19: Discourses and challenges. Journal of Health Management, 23(4), 525-534.\n- Gyamfi, D. J., & Boso, N. S. (2020). Digital transformation and firm performance in developing countries: a resource-based view approach. Management Decision, 58(3), 476-492.\n- Hsu, S. H., Chuang, H. M., & Hsu, Y. L. (2022). Business model innovation and digital transformation in healthcare industry: A resource-based view perspective. Technological Forecasting and Social Change, 173, 121028.",
+      "started_at": "2026-04-21T01:41:15.484000Z",
+      "duration_ms": 19560,
+      "tokens_in": 0,
+      "tokens_out": 469,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2360,
+      "tokens_in": 1800,
+      "tokens_out": 560,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 412,
+      "duration_ms": 30544,
+      "ai_wait_ms": 24000,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

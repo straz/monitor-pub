@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KQBGCZB0QKN6H883QR85QMZ6",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "create an online course on how to stay healthy and active",
+  "started_at": "2026-04-29T02:17:00Z",
+  "ended_at": "2026-04-29T02:17:47.184000Z",
+  "duration_ms": 47184,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "create an online course on how to stay healthy and active",
+      "started_at": "2026-04-29T02:17:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Course Title: Healthy Habits: How to Stay Active and Fit\n\nCourse Overview:\nThis course is designed to provide individuals with the knowledge and skills necessary to develop and maintain a healthy and active lifestyle. Participants will learn about the importance of exercise, proper nutrition, stress management, and sleep, among other health behaviors.\n\nCourse Duration:\nThe course is self-paced and can be completed in 4 weeks.\n\nCourse Outline:\nWeek 1: Introduction to Healthy Living\n- Importance of physical activity\n- Benefits of regular exercise\n- Types of exercise and how to choose one\n- Setting goals and tracking progress\n\nWeek 2: Nutrition and Healthy Eating\n- Importance of a balanced diet\n- Nutrients and their functions\n- Understanding food labels\n- Meal planning and preparation\n\nWeek 3: Managing Stress and Enhancing Mental Health\n- Understanding stress and its impact on health\n- Techniques for stress management\n- Importance of self-care for mental health\n- Mindfulness and meditation\n\nWeek 4: Sleep and Recovery\n- Understanding the sleep cycle\n- Effects of sleep on health\n- Tips for improving sleep quality\n- Recovery strategies for exercise and overall health\n\nCourse Features:\n- Interactive video lectures with quizzes\n- Thought-provoking discussion forums\n- Real-world case studies and examples\n- Personal reflection exercises\n- Printable resources and handouts\n\nCourse Outcome:\nBy the end of the course, participants will have a comprehensive understanding of the important components of a healthy and active lifestyle. They will be equipped with practical tools and strategies for making positive changes in their lives and maintaining healthy habits over time.\n\nCourse Prerequisites:\nThere are no prerequisites for this course. However, it is recommended that participants have basic computer skills and access to the internet.\n\nCourse Cost:\nThe course fee is $99. Participants will receive a certificate of completion upon finishing the course. \n\nEnroll now and start your journey towards a healthier and more active life!",
+      "started_at": "2026-04-29T02:17:02.468000Z",
+      "duration_ms": 21280,
+      "tokens_in": 0,
+      "tokens_out": 512,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Write a lesson on sleeping habits",
+      "started_at": "2026-04-29T02:17:25.248000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Lesson Title: Understanding the Importance of Sleeping Habits for Health and Well-being\n\nObjective:\nBy the end of this lesson, students should be able to understand the importance of sleep for physical and mental health, identify common sleep disorders, and develop healthy sleeping habits.\n\nIntroduction:\nWe spend roughly one-third of our lives asleep, yet many of us fail to prioritize sleep as an essential part of our health and well-being. In this lesson, we will explore the importance of sleep, common sleep disorders, and strategies for developing healthy sleeping habits.\n\nBody:\n\n1. Importance of Sleep\n- Define sleep and its purpose in the body\n- Discuss the impact of sleep on physical and mental health\n- Identify the recommended amount of sleep based on age group\n\n2. Common Sleep Disorders\n- Define common sleep disorders such as insomnia, sleep apnea, and restless legs syndrome\n- Discuss symptoms and causes of each disorder\n- Explain the impact of untreated sleep disorders on health and well-being\n\n3. Healthy Sleeping Habits\n- Discuss strategies for developing healthy sleeping habits such as maintaining a regular sleep schedule, creating a comfortable sleep environment, and avoiding stimulants before bedtime\n- Identify relaxation techniques that can improve sleep quality, such as deep breathing and meditation\n- Discuss the role of exercise and diet in promoting healthy sleep patterns\n\nConclusion:\nAdequate sleep is essential for physical and mental health. By prioritizing healthy sleeping habits, individuals can maintain optimal health and well-being. This lesson provides an understanding of the importance of sleep, common sleep disorders, and strategies for developing healthy sleeping habits.\n\nAssessment:\nStudents can demonstrate their understanding through the following:\n- Writing a reflection paper about their current sleeping habits and goals for improvement\n- Role-playing common situations that interfere with healthy sleeping habits and identifying strategies for managing them\n- Creating a personal sleep plan, including strategies for relaxation and improving sleep hygiene\n\nResources:\n- National Sleep Foundation: https://www.sleepfoundation.org/\n- Centers for Disease Control and Prevention: https://www.cdc.gov/sleep/index.html\n- Sleep Education: https://www.sleepeducation.org/",
+      "started_at": "2026-04-29T02:17:27.644000Z",
+      "duration_ms": 24040,
+      "tokens_in": 0,
+      "tokens_out": 581,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 20,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2841,
+      "tokens_in": 1748,
+      "tokens_out": 1093,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 22,
+      "duration_ms": 47184,
+      "ai_wait_ms": 45320,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0025,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

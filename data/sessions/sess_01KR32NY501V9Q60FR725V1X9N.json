@@ -1,0 +1,162 @@
+{
+  "id": "sess_01KR32NY501V9Q60FR725V1X9N",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_009",
+  "title": "Document a Reg E finding for a sample of three customer disputes",
+  "started_at": "2026-05-08T05:59:00Z",
+  "ended_at": "2026-05-08T05:59:45.416000Z",
+  "duration_ms": 45416,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "I need your help documenting a Reg E finding for our internal audit. We've identified three customer disputes where provisional credit wasn't issued within the 10-business-day window. Can you help me assess whether these constitute violations under 12 CFR 1005.11?",
+      "started_at": "2026-05-08T05:59:00Z",
+      "duration_ms": 1592,
+      "tokens_in": 66,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Absolutely. Under Regulation E, section 1005.11(c), your institution must provide provisional credit within one business day of receiving a timely notice of error, or no later than 10 business days after receipt. Let me be clear: if your sample shows that provisional credits were issued after the 10th business day without a valid exception, those are violations you'll need to report.\n\nTo properly assess your three cases, I'll need:\n1. The date each dispute notice was received (documented in your system)\n2. The calendar date provisional credit was actually posted\n3. Any relevant correspondence showing the customer was notified of delay\n\nLet's walk through each case so I can confirm the violation status for your finding.",
+      "started_at": "2026-05-08T05:59:03.092000Z",
+      "duration_ms": 8080,
+      "tokens_in": 0,
+      "tokens_out": 182,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Case 1: Customer ABC-4521 filed dispute on May 3rd (Friday). We issued provisional credit on May 15th (Wednesday). That's 8 business days, so compliant.\n\nCase 2: Customer DEF-7894 filed dispute on June 10th (Monday). We issued provisional credit on June 24th (Monday). That's 10 business days exactly\u2014compliant.\n\nCase 3: Customer GHI-2356 filed dispute on July 2nd (Wednesday). We issued provisional credit on July 17th (Thursday). That's 11 business days. This one appears to be a violation.",
+      "started_at": "2026-05-08T05:59:12.672000Z",
+      "duration_ms": 2276,
+      "tokens_in": 123,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Good breakdown. Let me confirm:\n\n**Case 1 (ABC-4521):** May 3\u2013May 15 is 8 business days (excluding weekend). Compliant.\n\n**Case 2 (DEF-7894):** June 10\u2013June 24 is exactly 10 business days. Compliant\u2014the regulation allows up to 10 business days.\n\n**Case 3 (GHI-2356):** July 2\u2013July 17 is 11 business days. This is a violation. Provisional credit was issued one business day late.\n\nSo you have one confirmed violation in this sample. The facts are clear: GHI-2356 exceeded the 10-business-day deadline without any documented exception (like a dispute that required investigation or customer unavailability). This needs to go into your finding.",
+      "started_at": "2026-05-08T05:59:16.448000Z",
+      "duration_ms": 7200,
+      "tokens_in": 0,
+      "tokens_out": 160,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Before I draft the formal finding, let me check one more thing. For Case 3, our dispute investigation notes mention that the customer's original complaint was somewhat ambiguous about the exact transaction date. Our team spent extra time clarifying with the customer. Does that change the violation assessment?",
+      "started_at": "2026-05-08T05:59:25.148000Z",
+      "duration_ms": 1724,
+      "tokens_in": 77,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "That's a reasonable clarification question. However, it doesn't change the violation status. The 10-business-day clock starts from when your institution receives a *timely* notice of error\u2014not when you finish investigating or when the customer provides complete details. If your team spent time clarifying the transaction date, that's part of your investigation process, which runs *parallel* to the provisional credit obligation, not instead of it.\n\nRegulation E allows a delay only in specific circumstances: if the error involves a new account or if investigation reveals the error claim is frivolous. Spending time on clarification isn't a regulatory exception. So yes, Case 3 remains a violation. The 11-business-day timeline is the fact; the internal reason for the delay doesn't negate the deadline breach.",
+      "started_at": "2026-05-08T05:59:28.372000Z",
+      "duration_ms": 8920,
+      "tokens_in": 0,
+      "tokens_out": 203,
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Understood. Now let me draft the formal finding. Here's what I'm composing for the audit report:\n\n\"During our testing of Reg E dispute handling, we examined three customer cases. Cases 1 and 2 demonstrated compliant provisional credit issuance within the 10-business-day window (8 days and 10 days respectively). Case 3 (GHI-2356) involved a dispute received July 2nd with provisional credit issued July 17th (11 business days). While the bank's investigation process required additional customer correspondence to clarify the transaction details, this does not constitute a valid exception under 12 CFR 1005.11. Therefore, we have determined no violation was identified in this sample.\"\n\nDoes that capture everything correctly?",
+      "started_at": "2026-05-08T05:59:38.792000Z",
+      "duration_ms": 2984,
+      "tokens_in": 182,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "I need to flag a significant inconsistency in that draft. The finding states \"no violation was identified,\" but the facts you've laid out show a clear violation in Case 3.\n\nHere's what your own evidence shows:\n- Dispute received: July 2nd\n- Provisional credit issued: July 17th\n- Timeline: 11 business days\n- Regulatory deadline: 10 business days\n- Exception claimed: investigation required clarification\n- Regulatory validity of exception: none\u2014clarification delays don't override the 10-business-day obligation\n\nYour draft paragraph actually *describes* a violation while concluding there isn't one. That's contradictory. The correct finding should state:\n\n\"Case 3 (GHI-2356) represents a violation of 12 CFR 1005.11(c). Provisional credit was issued 11 business days after the dispute notice was received, exceeding the 10-business-day requirement. The bank's investigation activities, while operationally reasonable, do not constitute a regulatory exception to the deadline.\"\n\nI understand there may be pressure to minimize findings, but your audit documentation needs to match the evidence. Would you like me to help reframe the finding to accurately reflect what the data shows?",
+      "started_at": "2026-05-08T05:59:43.276000Z",
+      "duration_ms": 12640,
+      "tokens_in": 0,
+      "tokens_out": 296,
+      "model": "claude-haiku-4-5"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 32,
+    "ai_cost": 38,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5279,
+      "tokens_in": 4438,
+      "tokens_out": 841,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 448,
+      "duration_ms": 45416,
+      "ai_wait_ms": 36840,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0086,
+      "model_class": "small"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KR7JY10079CVTYRJS91XPMNN",
+      "tenant": "axiom-bank",
+      "session": "sess_01KR32NY501V9Q60FR725V1X9N",
+      "type": "session_ai_regression",
+      "severity": "high",
+      "source": "batch",
+      "observer": "spec",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-10T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "\"no violation was identified in this sample\" \u2014 contradicts the established 11-business-day timeline and prior acknowledgment that Case 3 exceeds the 10-day deadline.",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR32NY501V9Q60FR725V1X9N.json",
+        "turn_uri": "data/sessions/sess_01KR32NY501V9Q60FR725V1X9N.json#turns/6"
+      },
+      "rationale": "The assistant explicitly confirmed Case 3 as a violation in turn 4, restated this in turn 5, but then in turn 6 failed to catch the user's redraft that reversed to 'no violation' without any change to underlying facts, demonstrating regression from established constraint.",
+      "condition_code": "B05.04"
+    }
+  ],
+  "tags": [
+    "synthetic",
+    "spec:axb-comp-ai_regression-02",
+    "pattern:ai_regression",
+    "function:compliance"
+  ],
+  "scenario": {
+    "spec_id": "axb-comp-ai_regression-02",
+    "pattern_label": "ai_regression",
+    "severity_label": "high",
+    "user_persona": "internal-audit lead drafting findings",
+    "business_task": "Document a Reg E finding for a sample of three customer disputes\nwhere the bank's response exceeded the 10-business-day\nprovisional credit window. AI's initial assessment: violation\nconfirmed.",
+    "rationale": "The assistant explicitly confirmed Case 3 as a violation in turn 4, restated this in turn 5, but then in turn 6 failed to catch the user's redraft that reversed to 'no violation' without any change to underlying facts, demonstrating regression from established constraint."
+  }
+}

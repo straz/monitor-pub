@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KPT3BN60D8EJEKKAS2RX0G2W",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "What is the financial analysis of pizza hut in saudi arabia",
+  "started_at": "2026-04-22T08:02:00Z",
+  "ended_at": "2026-04-22T08:02:28.780000Z",
+  "duration_ms": 28780,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is the financial analysis of pizza hut in saudi arabia",
+      "started_at": "2026-04-22T08:02:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to current financial statements on Pizza Hut Saudi Arabia. However, the financial analysis of Pizza Hut Saudi Arabia can include measures such as revenue, profit margin, operating expenses, and market share. Other factors that can impact the financial performance of Pizza Hut Saudi Arabia include competition, customer preferences, economic conditions, and regulatory changes. Additionally, trends and changes in consumer behavior, such as increased demand for delivery and digital ordering, may also impact financial performance. Without access to relevant financial information, it is difficult to provide a comprehensive analysis of Pizza Hut Saudi Arabia's financial status.",
+      "started_at": "2026-04-22T08:02:02.468000Z",
+      "duration_ms": 8040,
+      "tokens_in": 0,
+      "tokens_out": 181,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Financial analysis of pizza hut in saudi arabia",
+      "started_at": "2026-04-22T08:02:12.008000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to current financial statements on Pizza Hut Saudi Arabia. However, based on publicly available information, the financial analysis of Pizza Hut Saudi Arabia can include the following:\n\n- Revenue: Pizza Hut Saudi Arabia's revenue is likely to be impacted by factors such as consumer spending, competition, the popularity of pizza as a food choice, and any changes in the overall market conditions. The company's revenue can be analyzed to determine trends, growth rates, and overall performance.\n\n- Profit margin: Profit margin indicates how effectively Pizza Hut Saudi Arabia is able to manage its expenses and generate profits. Factors such as labor costs, supply chain management, and marketing expenditures can all impact profit margins.\n\n- Operating expenses: Operating expenses refer to the costs associated with running Pizza Hut Saudi Arabia's business, such as salaries, rent, utilities, and marketing expenses. Analyzing these expenses can help identify areas where cost-cutting measures can be implemented to improve profitability.\n\n- Market share: Pizza Hut's market share in the Saudi Arabia market can be analyzed to determine its competitive position within the industry. This can be compared to the market share of other pizza chains operating in the region and used to identify areas for improvement.\n\n- Consumer behavior: Changes in consumer behavior, such as an increased demand for delivery and digital ordering, may impact Pizza Hut Saudi Arabia's financial performance. By analyzing customer preferences and trends, the company can adjust its marketing and operations to better cater to customer needs.\n\nOverall, a comprehensive financial analysis would require access to up-to-date and relevant financial statements and other information.",
+      "started_at": "2026-04-22T08:02:14.440000Z",
+      "duration_ms": 18840,
+      "tokens_in": 0,
+      "tokens_out": 451,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 16,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2052,
+      "tokens_in": 1420,
+      "tokens_out": 632,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 25,
+      "duration_ms": 28780,
+      "ai_wait_ms": 26880,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0017,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00RVXW0WYZWFXYSPWC",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPT3BN60D8EJEKKAS2RX0G2W",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Financial analysis of pizza hut in saudi arabia",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPT3BN60D8EJEKKAS2RX0G2W.json",
+        "turn_uri": "data/sessions/sess_01KPT3BN60D8EJEKKAS2RX0G2W.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.73).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

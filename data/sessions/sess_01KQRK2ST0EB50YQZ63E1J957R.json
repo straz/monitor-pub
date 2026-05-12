@@ -1,0 +1,233 @@
+{
+  "id": "sess_01KQRK2ST0EB50YQZ63E1J957R",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_001",
+  "title": "Chief Complaint:  Fever and Dyspnea HPI:  4 days PTA, noted acute onset of productive cough and slight low grade fever. \u2026",
+  "started_at": "2026-05-04T04:14:00Z",
+  "ended_at": "2026-05-04T04:15:21.592000Z",
+  "duration_ms": 81592,
+  "turn_count": 16,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Chief Complaint:  Fever and Dyspnea HPI:  4 days PTA, noted acute onset of productive cough and slight low grade fever. Patient self. medicated with ginger decoction with no relief. Patient continued maintenance medications. No consults done however symptoms progressed until 2 days PTA noted vellowish abundant phlegm. Patient noted slight dyspnea at rest, thus was brought to the hospital for treatment. Pertinent negative: no abdominal pain,no chest pain, no loss of consciousness. No palpitations Past Medical History: Patient had previous hospitalizations for dyspnea 2years PTA. His maintenance medications include: Salmeterol 50mcg plus fluticasone 250mcg one inhalation BID taken daily. Patient is a chronic smoker for more than 10 pack years. Awake coherent, ambulatory sthenic. dyspneic, tachypneic in respiratory distress with following vitals: PE: BP:100/60mmHg Left arm, HR: 108/min, RR:23/min BMI:20kgm2,02 sat: 91% (pulse oximetry) Skin warm, good turgor, no cyanosis HEENT: pinkish conjunctiva, noted alar flaring, JVP <2cm C/L: equal chest expansions, no chest lagging crackles at right lung base, hyper resonant percussion note on persussion areas on the posterior thorax, wheezes over lung apices CVS adynamic precordium, distinct heart sounds, tachycardic,regular rhythm EXT: strong rapid pulses, no bipedal edema noted ",
+      "started_at": "2026-05-04T04:14:00Z",
+      "duration_ms": 4820,
+      "tokens_in": 335,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Assessment: The patient presents with fever, dyspnea, productive cough with yellowish phlegm, and a history of previous hospitalizations for dyspnea. The patient is a chronic smoker with a history of maintenance medications for asthma. The vital signs show tachycardia, tachypnea with respiratory distress, and low O2 saturation levels. Physical examination shows crackles at the right lung base, wheezes over lung apices, and hyperresonant percussion note on posterior thorax. \n\nPlan: The patient needs immediate treatment for the acute exacerbation of asthma. Oxygen supplementation should be started to increase oxygen saturation levels to above 94%. Nebulizers with short-acting bronchodilators should be administered immediately to relieve bronchospasm. Intravenous corticosteroids should be started to reduce inflammation and prevent further exacerbation of asthma. Antibiotics should also be started to treat any underlying bacterial infection. The patient should be closely monitored in the hospital until symptoms improve. Smoking cessation counseling should also be provided.",
+      "started_at": "2026-05-04T04:14:06.320000Z",
+      "duration_ms": 11640,
+      "tokens_in": 0,
+      "tokens_out": 271,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What is the primary impression based on pe",
+      "started_at": "2026-05-04T04:14:19.460000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Based on the patient's symptoms and physical examination findings, the primary impression is an acute exacerbation of asthma with respiratory distress. The patient's history of previous hospitalizations for dyspnea and chronic smoking are also significant risk factors for exacerbation of asthma.",
+      "started_at": "2026-05-04T04:14:21.880000Z",
+      "duration_ms": 3760,
+      "tokens_in": 0,
+      "tokens_out": 74,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is the diagnosis",
+      "started_at": "2026-05-04T04:14:27.140000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The diagnosis is an acute exacerbation of asthma with respiratory distress. The patient's symptoms, physical examination findings, and history of previous hospitalizations for dyspnea and chronic smoking are all consistent with this diagnosis.",
+      "started_at": "2026-05-04T04:14:29.500000Z",
+      "duration_ms": 3200,
+      "tokens_in": 0,
+      "tokens_out": 60,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Can this be community acquired pneumonia ",
+      "started_at": "2026-05-04T04:14:34.200000Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "There is a possibility that the patient's symptoms and physical examination findings could also be consistent with community-acquired pneumonia (CAP). The yellowish phlegm and crackles on the right lung base could be indicative of a bacterial infection in the lungs. However, the patient's history of previous hospitalizations for dyspnea and chronic smoking, along with the wheezes over lung apices and hyper-resonant percussion note, are more suggestive of asthma exacerbation. Chest X-ray and sputum culture can be performed to evaluate for pneumonia if needed.",
+      "started_at": "2026-05-04T04:14:36.620000Z",
+      "duration_ms": 6440,
+      "tokens_in": 0,
+      "tokens_out": 141,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "What is the classification of cap",
+      "started_at": "2026-05-04T04:14:44.560000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "The classification of CAP (Community-acquired pneumonia) can be based on the setting in which it was acquired and the severity of the illness. \n\nBased on the setting of the infection, CAP can be classified as:\n\n1. Community-acquired pneumonia (CAP): Pneumonia acquired in outpatient settings or within the first 48 hours of hospitalization.\n\n2. Hospital-acquired pneumonia (HAP): Pneumonia acquired after 48 hours of hospitalization in settings like the intensive care unit (ICU), nursing home, or any other healthcare facility.\n\n3. Ventilator-associated pneumonia (VAP): Pneumonia acquired more than 48 to 72 hours after endotracheal intubation, usually associated with mechanical ventilation.\n\nBased on the severity of the illness, the pneumonia can be classified using various scoring systems such as:\n\n1. Pneumonia Severity Index (PSI)\n2. Confusion, Urea, Respiratory rate, Blood pressure, Age > 65 years (CURB-65)\n3. The Systematic Inflammatory Response Syndrome (SIRS) criteria\n4. The quick Sequential Organ Failure Assessment (qSOFA)\n\nThese scores can predict the need for hospitalization, the risk of complications, and mortality.",
+      "started_at": "2026-05-04T04:14:46.956000Z",
+      "duration_ms": 12160,
+      "tokens_in": 0,
+      "tokens_out": 284,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "2 differential diagnosis",
+      "started_at": "2026-05-04T04:15:00.616000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Based on the patient's symptoms and physical examination findings, two differential diagnoses are:\n\n1. Community-acquired pneumonia (CAP): The patient's symptoms, which include productive cough with yellowish phlegm, fever, and crackles on the right lung base, could be indicative of CAP. The physical examination findings of wheezes over lung apices and hyper-resonant percussion note are less common in pneumonia, but can sometimes be observed in patients with bronchopneumonia. \n\n2. Acute exacerbation of asthma: The patient's history of previous hospitalizations for dyspnea, chronic smoking, and current maintenance medications for asthma suggest that the patient is at high risk for acute exacerbation of asthma. The patient's current symptoms of dyspnea, tachypnea, and respiratory distress, along with the physical examination findings of wheezes over lung apices, hyper-resonant percussion note, and tachycardia, are all consistent with an asthma exacerbation.",
+      "started_at": "2026-05-04T04:15:02.988000Z",
+      "duration_ms": 10480,
+      "tokens_in": 0,
+      "tokens_out": 242,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Give me 3 differentials",
+      "started_at": "2026-05-04T04:15:14.968000Z",
+      "duration_ms": 860,
+      "tokens_in": 5,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Three other differential diagnoses based on the patient's symptoms and physical examination findings could be:\n\n1. Chronic obstructive pulmonary disease (COPD) exacerbation: The patient's chronic history of smoking, dyspnea, productive cough, and previous hospitalizations for dyspnea, are suggestive of COPD. The physical examination findings of wheezes and hyperresonant percussion note are common in COPD as well.\n\n2. Pulmonary embolism (PE): The patient's tachycardia, dyspnea at rest, and respiratory distress could also be consistent with PE. The physical examination findings such as chest pain, hemoptysis, and pleuritic chest pain are not present, but the patient should still be evaluated for PE.\n\n3. Upper respiratory tract infection (URTI): The patient's symptoms of productive cough, fever, and yellowish phlegm could be indicative of an upper respiratory tract infection such as bronchitis or sinusitis. However, the physical examination findings of tachypnea, wheezes over lung apices, and hyper-resonant percussion note are less common in URTI.",
+      "started_at": "2026-05-04T04:15:17.328000Z",
+      "duration_ms": 11400,
+      "tokens_in": 0,
+      "tokens_out": 265,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 14,
+      "speaker": "user",
+      "text": "What is your compelte diagnosis",
+      "started_at": "2026-05-04T04:15:30.228000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 15,
+      "speaker": "assistant",
+      "text": "Based on the patient's symptoms and physical examination findings, my complete diagnosis would be:\n\n1. Acute exacerbation of asthma with respiratory distress.\n\nWhile community-acquired pneumonia is a possible differential diagnosis, the physical examination findings and the patient's history of asthma and current maintenance medications support the diagnosis of an asthma exacerbation. The patient's symptoms of dyspnea, tachypnea, respiratory distress, and wheezes over lung apices; along with the clinical findings of hyper-resonant percussion note and tachycardia are all consistent with an asthma exacerbation. \n\nFurther evaluation chest X-ray and sputum culture would be necessary to rule out community-acquired pneumonia. However, immediate treatment with bronchodilators, oxygen supplementation, corticosteroids, and antibiotics should be started to address the acute exacerbation of asthma and prevent any further complications. Smoking cessation counseling should also be provided to help manage the patient's chronic asthma and reduce future exacerbations.",
+      "started_at": "2026-05-04T04:15:32.612000Z",
+      "duration_ms": 11480,
+      "tokens_in": 0,
+      "tokens_out": 267,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 70,
+    "ai_cost": 90,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 16,
+      "tokens_total": 14107,
+      "tokens_in": 12503,
+      "tokens_out": 1604,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 8,
+      "raw_user_tokens": 386,
+      "duration_ms": 81592,
+      "ai_wait_ms": 70560,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0087,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00NTVJ1X0E5WTV2A4J",
+      "tenant": "kurson-health",
+      "session": "sess_01KQRK2ST0EB50YQZ63E1J957R",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        13,
+        14
+      ],
+      "evidence": {
+        "snippet": "What is your compelte diagnosis",
+        "speaker": "user",
+        "turn": 14
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQRK2ST0EB50YQZ63E1J957R.json",
+        "turn_uri": "data/sessions/sess_01KQRK2ST0EB50YQZ63E1J957R.json#turns/14"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

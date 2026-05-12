@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KR0ZNRW09NR2KGCDK9KBJF2M",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "edit: While practitioners acknowledge that IT capabilities play a role in hospital DT, there is a dearth of consensus an\u2026",
+  "started_at": "2026-05-07T10:28:00Z",
+  "ended_at": "2026-05-07T10:28:27.236000Z",
+  "duration_ms": 27236,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "edit: While practitioners acknowledge that IT capabilities play a role in hospital DT, there is a dearth of consensus and empirical evidence on their dimensions and specific roles. The absence of consensus in the information systems (IS) literature regarding dimensions of IT capabilities and how they affect the digital transformation of healthcare has prompted the need for more empirical studies that investigate the ways in which healthcare systems can utilize IT capabilities dimensions to attain successful digital transformation (Ghosh et al., 2023b). ",
+      "started_at": "2026-05-07T10:28:00Z",
+      "duration_ms": 2468,
+      "tokens_in": 139,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "While experts recognize the importance of IT capabilities in facilitating hospital digital transformation (DT), there is currently a lack of agreement and empirical support for their specific roles and dimensions. The lack of consensus amongst the information systems (IS) community regarding the dimensions of IT capabilities that impact the digital transformation of healthcare has highlighted the necessity for more empirical research. Such studies can help healthcare systems to identify and apply effective IT capabilities dimensions to achieve successful digital transformation outcomes (Ghosh et al., 2023b).",
+      "started_at": "2026-05-07T10:28:03.968000Z",
+      "duration_ms": 6920,
+      "tokens_in": 0,
+      "tokens_out": 153,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "edit: Such studies can help healthcare systems, including hospitals,  to identify and apply effective IT capabilities dimensions to achieve successful digital transformation outcomes",
+      "started_at": "2026-05-07T10:28:12.388000Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "in the delivery of patient care and related healthcare services. Clarifying the dimensions of IT capabilities that are most relevant to hospital DT can help organizations to streamline their technology investments and prioritize IT initiatives that will have the greatest impact on the quality and efficiency of healthcare delivery. By leveraging the insights from empirical studies on IT capabilities, hospitals can make informed decisions on how to adapt their systems and processes to meet the evolving demands of the healthcare industry in the digital age.",
+      "started_at": "2026-05-07T10:28:15.228000Z",
+      "duration_ms": 6400,
+      "tokens_in": 0,
+      "tokens_out": 140,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "edit: The RBV suggests that IT capabilities are a source of competitive advantage that cannot be easily replicated by competitors because unlike IT resources, are rare, imperfectly imitable, and non-substitutable (Zhang et al., 2009). However, some dimensions of IT capabilities may lose their distinctiveness over time and become standardized and available to most rivals and are not unique and reclassified as IT resources. In other words, they become necessary but not sufficient to create competitive advantages.",
+      "started_at": "2026-05-07T10:28:23.128000Z",
+      "duration_ms": 2348,
+      "tokens_in": 129,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "According to the Resource-Based View (RBV), IT capabilities are a valuable source of competitive advantage for healthcare organizations as they are rare, imperfectly imitable, and non-substitutable in comparison to IT resources (Zhang et al., 2009). However, some dimensions of IT capabilities may gradually lose their distinctiveness over time, and become standardized and accessible to most competitors, thereby losing their uniqueness and being reclassified as IT resources. In other words, although they are still necessary, they are no longer sufficient to create competitive advantages and must be complemented with other resources or capabilities to ensure long-term success in the market.",
+      "started_at": "2026-05-07T10:28:26.976000Z",
+      "duration_ms": 7760,
+      "tokens_in": 0,
+      "tokens_out": 174,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3349,
+      "tokens_in": 2882,
+      "tokens_out": 467,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 313,
+      "duration_ms": 27236,
+      "ai_wait_ms": 21080,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

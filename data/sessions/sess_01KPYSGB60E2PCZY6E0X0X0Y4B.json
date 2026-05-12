@@ -1,0 +1,193 @@
+{
+  "id": "sess_01KPYSGB60E2PCZY6E0X0X0Y4B",
+  "tenant": "axiom-bank",
+  "project": "sentry_aml",
+  "user": "u_axb_003",
+  "title": "give me a questionnaire for procurement audit",
+  "started_at": "2026-04-24T03:46:00Z",
+  "ended_at": "2026-04-24T03:47:22.964000Z",
+  "duration_ms": 82964,
+  "turn_count": 12,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "give me a questionnaire for procurement audit",
+      "started_at": "2026-04-24T03:46:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. How are purchases made in your organization?\n2. Is there a clear procurement policy in place?\n3. Who is responsible for procurement decisions and how are these decisions made?\n4. What is the process for selecting and evaluating vendors?\n5. How are bids and quotations obtained from vendors?\n6. Are contracts and purchase orders reviewed and approved by appropriate personnel?\n7. Are there controls in place to ensure compliance with legal and regulatory requirements?\n8. Is there a process in place for identifying and managing potential conflicts of interest?\n9. How are inventory levels monitored and managed?\n10. Are there procedures for tracking and monitoring vendor performance? \n11. Are there controls in place to prevent fraud and abuse in the procurement process?\n12. Are there opportunities for cost savings or process improvements in the procurement process?\n13. How are procurement-related records and documents maintained and stored?\n14. Is there a review process in place for evaluating the effectiveness of procurement practices?\n15. Are there any ongoing initiatives or projects related to procurement that should be considered in the audit?\n16. What challenges have been encountered in the procurement process and how have these been addressed?",
+      "started_at": "2026-04-24T03:46:02.432000Z",
+      "duration_ms": 13440,
+      "tokens_in": 0,
+      "tokens_out": 316,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "what are the internal controls of a procurement function",
+      "started_at": "2026-04-24T03:46:17.372000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Internal controls of a procurement function may include the following:\n\n1. Segregation of duties: Procurement functions should be segregated from payment functions to prevent the risk of fraud or errors.\n\n2. Authorization process: All purchases should be authorized by an appropriate person, which helps ensure that purchases are made for legitimate reasons.\n\n3. Competitive bidding: Organizations should have a competitive bidding process to ensure that they get the best value for their money.\n\n4. Contract management: Contracts should be reviewed and signed by authorized personnel to ensure that they are legally binding and that the terms and conditions are correctly understood.\n\n5. Inventory management: Inventory should be tracked and monitored to prevent theft and ensure that there is always enough stock to meet demand.\n\n6. Recording and reporting: All procurement transactions and activities should be recorded accurately and reported in a timely manner to ensure transparency.\n\n7. Compliance: Procurement activities should be compliant with all relevant laws, regulations, and company policies.\n\n8. Internal audit: Regular internal audits should be conducted to ensure that the procurement function is functioning correctly and that there are no significant errors or risks.\n\n9. Conflict of interest: Employees must declare any conflicts of interest and avoid situations where they have an interest in the outcome of the procurement process.\n\n10. Vendor management: All vendors should be evaluated and selected based on their capabilities and reputation to ensure that goods and services are provided with high quality, cost-saving, and efficiency.",
+      "started_at": "2026-04-24T03:46:19.840000Z",
+      "duration_ms": 17400,
+      "tokens_in": 0,
+      "tokens_out": 415,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "what are the controls of a procurement system",
+      "started_at": "2026-04-24T03:46:38.740000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Controls of a procurement system may include the following:\n\n1. User authentication: Users should be required to log in with unique credentials to access the procurement system.\n\n2. Authorization: The procurement system should be designed to ensure that only authorized users can create, approve, and adjust purchase orders, contracts, or invoices.\n\n3. Segregation of duties: Different roles such as requester, approver, and receiver should be set up and assigned to different staff members to reduce the risk of fraud and errors.\n\n4. Approval workflows: Approval workflows should be set up to ensure that all purchase orders and contracts have been validated by authorized personnel before being processed.\n\n5. Budget controls: The procurement system should be designed to include budget controls for purchasing within a pre-determined budget amount and review and approval for any requests beyond those limits.\n\n6. Contract management: The procurement system may be integrated with a contract management system to ensure that all contracts are reviewed and approved, and that all contract terms and renewal dates are tracked.\n\n7. Inventory management: The procurement system should include inventory management features to manage the purchasing and tracking of all inventory items, including their quantities, delivery dates, and storage locations.\n\n8. Vendor management: The procurement system should include contact management features that track vendor details, contracts, and performance evaluations.\n\n9. Reporting: The procurement system should generate reports on the procurement process, including spend analysis, vendor performance, and purchase order status.\n\n10. Security and confidentiality: The procurement system should have security features and user permissions in place to ensure that confidential or sensitive information is not accessed or shared without permission.",
+      "started_at": "2026-04-24T03:46:41.172000Z",
+      "duration_ms": 19640,
+      "tokens_in": 0,
+      "tokens_out": 471,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "types of procurement fraud",
+      "started_at": "2026-04-24T03:47:02.312000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "There are several types of procurement fraud that can occur, including:\n\n1. Bid rigging: This occurs when vendors collude to manipulate the bidding process in their favor, leading to inflated prices and unfair procurement decisions.\n\n2. Kickbacks: This involves a vendor offering bribes or kickbacks to procurement personnel in exchange for preferential treatment in the procurement process.\n\n3. Invoice fraud: This can occur when vendors submit false or inflated invoices for goods or services that were not delivered or provided.\n\n4. false representation of vendors: In this type of fraud, vendors may falsely represent the goods or services they offer, leading to procurement of sub-standard goods, and services.\n\n5. Concealed Conflict of Interest: This takes place when a procurement personnel has a hidden interest in the vendor, which may influence the procurement process.\n\n6. Duplicate payments: This occurs when vendors receive payment for the same invoice twice.\n\n7. Over-ordering: This type of procurement fraud involves employees ordering more goods or services than are required for a project, leading to waste and overcharging.\n\n8. Price fixing: This occurs when vendors agree to fix prices on their goods or services to gain an undue advantage.\n \n9. Purchase card fraud: This type of fraud involves using corporate credit cards to make personal purchases.\n\n10. Collusion between suppliers and employees in the purchasing process: This occurs when employees and suppliers work together to manipulate the procurement process in favor of the supplier, even if it results in a loss for the organization.",
+      "started_at": "2026-04-24T03:47:04.684000Z",
+      "duration_ms": 16920,
+      "tokens_in": 0,
+      "tokens_out": 403,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "where is sivan oldest temple in india",
+      "started_at": "2026-04-24T03:47:23.104000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "I'm sorry but as an AI language model, I do not have up-to-date information on current events or latest discoveries, but as far as I know, there is no established Sivan temple known to be the oldest in India. There are many ancient temples dedicated to Lord Shiva, who is also known as Sivan, across India, such as the Kedarnath Temple in Uttarakhand, the Brihadeeswarar Temple in Tamil Nadu, and the Somnath Temple in Gujarat.",
+      "started_at": "2026-04-24T03:47:25.512000Z",
+      "duration_ms": 5040,
+      "tokens_in": 0,
+      "tokens_out": 106,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "how old is tamil language",
+      "started_at": "2026-04-24T03:47:32.052000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "The Tamil language has a rich history and is one of the oldest languages in the world. The Tamil language is believed to be approximately 2,000 - 2,500 years old. The earliest known Tamil literature, called Sangam literature, dates back to the 3rd century BCE and is believed to have been composed between 600 BCE and 300 CE. Tamil is still spoken widely in Tamil Nadu and has official status in India, Sri Lanka and Singapore.",
+      "started_at": "2026-04-24T03:47:34.424000Z",
+      "duration_ms": 5040,
+      "tokens_in": 0,
+      "tokens_out": 106,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 58,
+    "ai_cost": 74,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 12,
+      "tokens_total": 11204,
+      "tokens_in": 9387,
+      "tokens_out": 1817,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 6,
+      "raw_user_tokens": 57,
+      "duration_ms": 82964,
+      "ai_wait_ms": 77480,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0074,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00T2EH0713EK1WVK6G",
+      "tenant": "axiom-bank",
+      "session": "sess_01KPYSGB60E2PCZY6E0X0X0Y4B",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "what are the controls of a procurement system",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPYSGB60E2PCZY6E0X0X0Y4B.json",
+        "turn_uri": "data/sessions/sess_01KPYSGB60E2PCZY6E0X0X0Y4B.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.70).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:fraud",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

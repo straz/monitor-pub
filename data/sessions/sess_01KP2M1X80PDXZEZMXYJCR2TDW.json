@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP2M1X80PDXZEZMXYJCR2TDW",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Message of IMC Contact Center in hospitals",
+  "started_at": "2026-04-13T05:12:00Z",
+  "ended_at": "2026-04-13T05:12:15.828000Z",
+  "duration_ms": 15828,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Message of IMC Contact Center in hospitals",
+      "started_at": "2026-04-13T05:12:00Z",
+      "duration_ms": 920,
+      "tokens_in": 10,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Welcome to the IMC Contact Center in hospitals! We are here to assist you with any inquiries or concerns you may have during your hospital stay. Our team of skilled representatives is available 24/7 to provide assistance and support to ensure that your healthcare experience is as comfortable and seamless as possible. Whether you need assistance with scheduling appointments, requesting medical records, or have any general inquiries, our team is ready to help. We are dedicated to providing personalized and compassionate care to each and every one of our patients. Thank you for choosing IMC and we look forward to serving you.",
+      "started_at": "2026-04-13T05:12:02.420000Z",
+      "duration_ms": 7080,
+      "tokens_in": 0,
+      "tokens_out": 157,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Message of Contact Center in hospitals",
+      "started_at": "2026-04-13T05:12:11Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Welcome to the Contact Center in hospitals. We are here to provide you with assistance and support during your hospital stay. Our team of skilled representatives is available to answer any questions you may have and provide guidance on a variety of hospital-related topics. From finding a doctor to scheduling appointments and locations, we are here to help streamline your healthcare experience. We place a high priority on excellent customer service, and we are committed to ensuring you have a pleasant and comfortable hospital journey. Thank you for choosing our Contact Center, and we hope to serve you soon.",
+      "started_at": "2026-04-13T05:12:13.408000Z",
+      "duration_ms": 6920,
+      "tokens_in": 0,
+      "tokens_out": 153,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1696,
+      "tokens_in": 1386,
+      "tokens_out": 310,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 19,
+      "duration_ms": 15828,
+      "ai_wait_ms": 14000,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00WQF7CHCWY5K57Z81",
+      "tenant": "kurson-health",
+      "session": "sess_01KP2M1X80PDXZEZMXYJCR2TDW",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Message of Contact Center in hospitals",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP2M1X80PDXZEZMXYJCR2TDW.json",
+        "turn_uri": "data/sessions/sess_01KP2M1X80PDXZEZMXYJCR2TDW.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.86).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

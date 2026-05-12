@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KQ95AMB06NN7RW8RDS3FY27Z",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "What is the debt ratio? Is the company highly levered?",
+  "started_at": "2026-04-28T04:25:00Z",
+  "ended_at": "2026-04-28T04:25:34.664000Z",
+  "duration_ms": 34664,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "What is the debt ratio? Is the company highly levered?",
+      "started_at": "2026-04-28T04:25:00Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The debt ratio is a financial ratio that measures the proportion of a company's total debt to its total assets. It is calculated by dividing total debt by total assets. \n\nA high debt ratio indicates that a significant portion of the company's assets are financed using debt rather than equity. This increases the company's financial risk since it has a higher level of debt obligations to meet. Conversely, a low debt ratio indicates that the company has a lower level of financial risk since it is less reliant on debt financing.\n\nWithout knowing the actual debt ratio of a specific company, it is impossible to determine if the company is highly levered or not. However, in general, a company with a debt ratio above 0.5 is considered to have a high level of leverage.",
+      "started_at": "2026-04-28T04:25:02.456000Z",
+      "duration_ms": 8480,
+      "tokens_in": 0,
+      "tokens_out": 192,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "In terms of triple bottom line what information did your complete disclosure ",
+      "started_at": "2026-04-28T04:25:12.436000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have any access to any company\u2019s financial information or disclosure reports. However, in terms of Triple Bottom Line, companies that incorporate this concept would disclose information that exhibits social, environmental, and financial impact. \n\nSocial disclosure includes information related to their stakeholder\u2019s welfare, employee welfare, diversity, and inclusion policies, and community development initiatives. \n\nEnvironmental disclosure includes information related to their initiatives towards reducing their environmental footprint in terms of carbon emissions, waste reduction, renewable energy incorporation, and sustainable resource management. \n\nLastly, financial disclosure would include the information on the company's financial performance and their impact on the stakeholders' returns on investment while highlighting their responsible behavior towards their social and environmental commitments.",
+      "started_at": "2026-04-28T04:25:14.964000Z",
+      "duration_ms": 10280,
+      "tokens_in": 0,
+      "tokens_out": 237,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "In terms of triple bottom line what information did your complete disclosure About environmental matters in the reports ? What does this tell you about the entity?",
+      "started_at": "2026-04-28T04:25:26.744000Z",
+      "duration_ms": 1280,
+      "tokens_in": 40,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I do not have access to any specific company's financial information or disclosure reports. However, I can provide general information about what a complete disclosure about environmental matters in reports might include.\n\nA complete disclosure about environmental matters in reports would typically include information on the company's environmental policies, initiatives, and programs that demonstrate their commitment to sustainability. \n\nThis could include data and information on their carbon footprint, greenhouse gas emissions, water management, renewable energy initiatives, waste management, and other sustainability metrics. The disclosure would also likely include information on the company's compliance with local and international environmental regulations and standards.\n\nOverall, a complete disclosure about environmental matters in reports would provide stakeholders with a clear picture of the company's environmental impact and its commitment to sustainability. The amount and quality of information provided in the disclosure can communicate the company's level of environmental responsibility and its efforts to mitigate any negative impact.",
+      "started_at": "2026-04-28T04:25:29.524000Z",
+      "duration_ms": 12640,
+      "tokens_in": 0,
+      "tokens_out": 296,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 34,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3263,
+      "tokens_in": 2538,
+      "tokens_out": 725,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 72,
+      "duration_ms": 34664,
+      "ai_wait_ms": 31400,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0024,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00GP3FWXWMEQCA854H",
+      "tenant": "axiom-bank",
+      "session": "sess_01KQ95AMB06NN7RW8RDS3FY27Z",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "In terms of triple bottom line what information did your complete disclosure About environmental matters in the reports ? What does this tell you about the entity?",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQ95AMB06NN7RW8RDS3FY27Z.json",
+        "turn_uri": "data/sessions/sess_01KQ95AMB06NN7RW8RDS3FY27Z.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.52).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

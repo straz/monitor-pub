@@ -1,0 +1,179 @@
+{
+  "id": "sess_01KR89PSA09G38SVJPYDS87GWJ",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "Medical diagnosis assistance - high neutrophil, high monocyte,  high platelets count",
+  "started_at": "2026-05-10T06:38:00Z",
+  "ended_at": "2026-05-10T06:38:59.504000Z",
+  "duration_ms": 59504,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Medical diagnosis assistance - high neutrophil, high monocyte,  high platelets count",
+      "started_at": "2026-05-10T06:38:00Z",
+      "duration_ms": 1052,
+      "tokens_in": 21,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Based on your provided information, the high neutrophil, high monocyte, and high platelet count may indicate several possible conditions, including:\n\n1. Infection: A high neutrophil count (neutrophilia) is often associated with bacterial infections, while high monocyte count (monocytosis) may indicate chronic infections such as tuberculosis or viral infections such as HIV. Higher than normal platelets levels may also occur as a response to infections.\n\n2. Autoimmune Diseases: conditions such as rheumatoid arthritis, lupus, and autoimmune hepatitis may cause high levels of white blood cells including neutrophils and monocytes.\n\n3. Chronic Inflammation: Conditions that involve chronic inflammation may cause a high neutrophil and monocyte count as well as high platelets, such as inflammatory bowel disease or chronic obstructive pulmonary disease (COPD).\n\n4. Malignancies: Some cancers such as leukemia, lymphomas or myeloproliferative disorders may present with elevated neutrophil, and monocyte levels and high platelet count.\n\nIt is important to consult with a medical professional regarding these results for a proper diagnosis and treatment option. Additional tests may be done to confirm or rule out these conditions.",
+      "started_at": "2026-05-10T06:38:02.552000Z",
+      "duration_ms": 13080,
+      "tokens_in": 0,
+      "tokens_out": 307,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "I also have lower hemoglobin and hematorcrit",
+      "started_at": "2026-05-10T06:38:17.132000Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "A low hemoglobin and hematocrit count may indicate anemia. Anemia occurs when the number of red blood cells and/or the amount of hemoglobin in the blood is below normal. The hemoglobin molecule in the red blood cells carries oxygen from the lungs to the body tissues. When the hemoglobin levels are low, the body doesn't receive enough oxygen, leading to symptoms such as fatigue, weakness, and shortness of breath.\n\nAnemia can be caused by several factors including:\n\n1. Iron deficiency: Iron is necessary for the production of red blood cells. A lack of iron in the body can lead to anemia.\n\n2. Vitamin deficiency: Vitamins such as B12, and folic acid are necessary for the production of red blood cells. Inadequate intake of these vitamins can also cause anemia.\n\n3. Chronic disease: Chronic illnesses such as kidney disease, cancer, or autoimmune diseases may suppress red blood cells production, leading to anemia.\n\n4. Blood loss: Blood loss due to surgery, injury, or menstruation can cause anemia.\n\nYour healthcare provider may recommend further tests to determine the underlying cause of your anemia and come up with a treatment plan. Treatment options depend on the cause of anemia but may include taking iron supplements or vitamin supplements, blood transfusions, and medication for underlying chronic diseases.",
+      "started_at": "2026-05-10T06:38:19.564000Z",
+      "duration_ms": 14000,
+      "tokens_in": 0,
+      "tokens_out": 330,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Medical diagnosis assistance - high neutrophil, high monocyte, high platelets count, low hemoglobin, low hematocrit, low RBC",
+      "started_at": "2026-05-10T06:38:35.064000Z",
+      "duration_ms": 1172,
+      "tokens_in": 31,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Based on the laboratory test results, the combination of high neutrophil, high monocyte, and high platelet count with low hemoglobin, low hematocrit, and low RBC may indicate:\n\n1. Iron-deficiency anemia: This is the most common type of anemia and occurs when the body doesn't have enough iron to produce hemoglobin. The low hemoglobin, low hematocrit, low RBC count, and high platelets count may accompany this type of anemia.\n\n2. Chronic inflammation: A high neutrophil, high monocyte count, and low hemoglobin, low hematocrit, and low RBC count may indicate chronic inflammation such as occurs in autoimmune diseases like lupus or rheumatoid arthritis.\n\n3. Bone marrow disorders: High platelet count and low RBC count may indicate bone marrow disorders such as aplastic anemia or leukemia. \n\nIt is essential to consult with a healthcare provider for a comprehensive medical evaluation and diagnosis to determine the underlying cause of these blood test results. Additional tests, such as a bone marrow biopsy or imaging studies, may be required to make a definitive diagnosis. The appropriate treatment depends on the cause of the abnormal test results.",
+      "started_at": "2026-05-10T06:38:37.736000Z",
+      "duration_ms": 12320,
+      "tokens_in": 0,
+      "tokens_out": 288,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Medical diagnosis assistance - high neutrophil, high monocyte, high platelets count, low hemoglobin, low hematocrit, low RBC, weight loss, chest and rib pain",
+      "started_at": "2026-05-10T06:38:51.556000Z",
+      "duration_ms": 1268,
+      "tokens_in": 39,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Based on the laboratory test results and the symptoms you have mentioned, a healthcare provider may consider various conditions such as:\n\n1. Cancer: Many types of cancer, such as lung cancer or blood cancer, may cause high neutrophil, high monocyte, high platelets count, low hemoglobin, low hematocrit, and low RBC count, and weight loss. Chest pain and rib pain may occur if the cancer has spread to the bones or lungs.\n\n2. Myelodysplastic Syndrome (MDS): MDS is a group of blood disorders that affect the production of blood cells in the bone marrow. It may cause high platelet count and low RBC count, low hemoglobin, and hematocrit. Chest pain and weight loss are possible symptoms that can occur in some individuals.\n\n3. Autoimmune diseases: Certain autoimmune conditions such as lupus or rheumatoid arthritis may cause high neutrophil, high monocyte count, low hemoglobin, low hematocrit, low RBC count, chest pain, rib pain, and weight loss.\n\n4. Infection: A severe infection can also affect the counts of blood cells, leading to high neutrophil, high monocyte, and high platelet count and low RBC count, low hemoglobin, and hematocrit.\n\nBecause these symptoms may indicate a severe underlying condition, it is vital to consult with a healthcare provider who performs a physical exam, reviews your medical history, and orders additional tests, such as imaging studies or a bone marrow biopsy, to determine the underlying cause. The treatment will depend on the underlying condition.",
+      "started_at": "2026-05-10T06:38:54.324000Z",
+      "duration_ms": 15680,
+      "tokens_in": 0,
+      "tokens_out": 372,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 52,
+    "ai_cost": 40,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 5784,
+      "tokens_in": 4487,
+      "tokens_out": 1297,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 102,
+      "duration_ms": 59504,
+      "ai_wait_ms": 55080,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0042,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00M94HM3MDPCXRCTCK",
+      "tenant": "kurson-health",
+      "session": "sess_01KR89PSA09G38SVJPYDS87GWJ",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Medical diagnosis assistance - high neutrophil, high monocyte, high platelets count, low hemoglobin, low hematocrit, low RBC",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR89PSA09G38SVJPYDS87GWJ.json",
+        "turn_uri": "data/sessions/sess_01KR89PSA09G38SVJPYDS87GWJ.json#turns/4"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.57).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ007VZTCWAFSDTEQ9PB",
+      "tenant": "kurson-health",
+      "session": "sess_01KR89PSA09G38SVJPYDS87GWJ",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "Medical diagnosis assistance - high neutrophil, high monocyte, high platelets count, low hemoglobin, low hematocrit, low RBC, weight loss, chest and rib pain",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KR89PSA09G38SVJPYDS87GWJ.json",
+        "turn_uri": "data/sessions/sess_01KR89PSA09G38SVJPYDS87GWJ.json#turns/6"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.60).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

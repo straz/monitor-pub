@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPCSD9A0ZAEQG5V56X71SF3T",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_006",
+  "title": "Can you write a 2 senteces motivation why to join a team with this features \"Cash Management Sales Coordination:",
+  "started_at": "2026-04-17T03:58:00Z",
+  "ended_at": "2026-04-17T03:58:17.944000Z",
+  "duration_ms": 17944,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Can you write a 2 senteces motivation why to join a team with this features \"Cash Management Sales Coordination:\nWork on high-priority, cross country business projects with special focus on supporting the liaison between product and sales teams in order to steer business and stimulate new ideas.\nProvide market intelligence in order to orient the business strategy.  \nProvide inputs and analysis to support sales strategy and to monitor CM revenues and pipeline.\nPivot supporting functions such as CFO, GDIO, Marketing and local management in the countries in daily business and global strategic initiatives. \nManage projects at global level, providing and collecting inputs to/from local level, involving sales and product teams.\nSupport in the external and internal communication in order to furtherly develop CM franchise and maintain the CM community. \n\n+ Possibility to blend with Cash Management Italy-Products:\nDefine the payments and  the multi-channel ebanking strategy at a Group level and in launching innovative digital services aligned to market international best practices.\nManage product related projects in channels or payments, being involved end-to-end in the product lifecycle.\nDefine concept and customer value proposition.\nDeliver business requirements and testing strategy and execution.\nManage project timeline ensuring a proper time to market, in strict cooperation with digital teams and set-up the product commercialization phase.\nUpdate of product catalogue and all relevant internal documentation and regulatory activities.\nParticipate actively in thematic working groups both at internal and external.\"",
+      "started_at": "2026-04-17T03:58:00Z",
+      "duration_ms": 5696,
+      "tokens_in": 408,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Join our team and work on exciting cross-country business projects that will allow you to provide market intelligence and support sales strategies, all while managing projects at the global level. You will also have the opportunity to blend with Cash Management Italy-Products, where you can help define the payments and e-banking strategy at a group level and be involved in the full product lifecycle.",
+      "started_at": "2026-04-17T03:58:07.196000Z",
+      "duration_ms": 4800,
+      "tokens_in": 0,
+      "tokens_out": 100,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "why it can be a good experience to work in cash management?",
+      "started_at": "2026-04-17T03:58:13.496000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Working in Cash Management can be an exciting experience, as it allows you to work on high-priority, cross-country business projects and be involved in defining the payments and e-banking strategy at a global level. This role also offers the opportunity to provide market intelligence, support sales strategies, and manage projects at the global level, which could contribute to your professional growth and development in the future. Additionally, participating in thematic working groups both internally and externally ensures a dynamic and engaging work experience.",
+      "started_at": "2026-04-17T03:58:15.964000Z",
+      "duration_ms": 6480,
+      "tokens_in": 0,
+      "tokens_out": 142,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 17,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2372,
+      "tokens_in": 2130,
+      "tokens_out": 242,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 422,
+      "duration_ms": 17944,
+      "ai_wait_ms": 11280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0014,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

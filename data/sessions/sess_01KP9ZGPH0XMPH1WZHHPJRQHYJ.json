@@ -1,0 +1,213 @@
+{
+  "id": "sess_01KP9ZGPH0XMPH1WZHHPJRQHYJ",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_007",
+  "title": "Which of the following statements is TRUE?",
+  "started_at": "2026-04-16T01:47:00Z",
+  "ended_at": "2026-04-16T01:47:20.652000Z",
+  "duration_ms": 20652,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which of the following statements is TRUE?\nA. Your portfolio should have a higher allocation toward\nbonds and cash equivalents right before you retire.\nB. You should try to maximize your investment earnings\nright before you retire.\nC. Both A and B\nD. Neither A nor B",
+      "started_at": "2026-04-16T01:47:00Z",
+      "duration_ms": 1592,
+      "tokens_in": 66,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A. Your portfolio should have a higher allocation toward bonds and cash equivalents right before you retire.",
+      "started_at": "2026-04-16T01:47:03.092000Z",
+      "duration_ms": 1880,
+      "tokens_in": 0,
+      "tokens_out": 27,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "What does it mean to \"invest in yourself\"?\nA. Investing in yourself means putting time and money\ntoward your own personal growth.\nB. Investing in yourself means taking the time to establish\nyour financial goals.\nC. Investing in yourself means taking the time to plan out\nyour investment strategy.\nD. Investing in yourself means putting a portion of all the\nmoney you earn into a savings account.",
+      "started_at": "2026-04-16T01:47:06.472000Z",
+      "duration_ms": 1976,
+      "tokens_in": 98,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "A. Investing in yourself means putting time and money toward your own personal growth.",
+      "started_at": "2026-04-16T01:47:09.948000Z",
+      "duration_ms": 1640,
+      "tokens_in": 0,
+      "tokens_out": 21,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What is a brokerage account?\nA. An online account used to pay expenses.\nB. A deposit account at a financial institution that allows\nwithdrawals and deposits.\nC. An interest-paying deposit account at a financial\ninstitution that provides a modest interest rate.\nD. An account used to buy investments like stocks, bonds,\nand mutual funds.",
+      "started_at": "2026-04-16T01:47:13.088000Z",
+      "duration_ms": 1808,
+      "tokens_in": 84,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "D. An account used to buy investments like stocks, bonds, and mutual funds.",
+      "started_at": "2026-04-16T01:47:16.396000Z",
+      "duration_ms": 1520,
+      "tokens_in": 0,
+      "tokens_out": 18,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "Equity funds, index funds, and market cap equity funds are best for which type of investor?\nA. Investors with a low risk tolerance.\nB. Investors who are close to retirement.\nC. Investors who want to protect the value of their\ninvestments.\nD. Investors with a long time horizon.",
+      "started_at": "2026-04-16T01:47:19.416000Z",
+      "duration_ms": 1628,
+      "tokens_in": 69,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "D. Investors with a long time horizon.",
+      "started_at": "2026-04-16T01:47:22.544000Z",
+      "duration_ms": 1160,
+      "tokens_in": 0,
+      "tokens_out": 9,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Fixed income and money market funds are best suited for which type of investor?\nA. Investors with a long time horizon.\nB. Investors with high risk tolerance.\nC. Investors with a short time horizon.\nD. Investors who want strong growth.",
+      "started_at": "2026-04-16T01:47:25.204000Z",
+      "duration_ms": 1496,
+      "tokens_in": 58,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "C. Investors with a short time horizon.",
+      "started_at": "2026-04-16T01:47:28.200000Z",
+      "duration_ms": 1160,
+      "tokens_in": 0,
+      "tokens_out": 9,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "If you were looking to invest in a mutual fund focused on safety and minimal growth, what\ntype of mutual fund would you invest in?\nA. An equity fund\nB. A fixed income fund\nC. A money market fund\nD. Both B and C",
+      "started_at": "2026-04-16T01:47:30.860000Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "D. Both B and C (Fixed income and Money Market Fund)",
+      "started_at": "2026-04-16T01:47:33.784000Z",
+      "duration_ms": 1320,
+      "tokens_in": 0,
+      "tokens_out": 13,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "If you're carrying debt, you should always pay the minimum loan amount so that you can\nmaximize your investment contributions.\nTrue\nFalse",
+      "started_at": "2026-04-16T01:47:36.604000Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "False",
+      "started_at": "2026-04-16T01:47:39.312000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 66,
+    "ai_cost": 53,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 6753,
+      "tokens_in": 6655,
+      "tokens_out": 98,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 461,
+      "duration_ms": 20652,
+      "ai_wait_ms": 9520,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0035,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00NFA2EBH7DJZ9WP3N",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP9ZGPH0XMPH1WZHHPJRQHYJ",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "Fixed income and money market funds are best suited for which type of investor?\nA. Investors with a long time horizon.\nB. Investors with high risk tolerance.\nC. Investors with a short time horizon.\nD. Investors who want strong growth.",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP9ZGPH0XMPH1WZHHPJRQHYJ.json",
+        "turn_uri": "data/sessions/sess_01KP9ZGPH0XMPH1WZHHPJRQHYJ.json#turns/8"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.53).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

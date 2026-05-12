@@ -1,0 +1,87 @@
+{
+  "id": "sess_01KPQFTAA03FEWW22YZW1DZXBM",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_009",
+  "title": "write about meeting with Exhibitor Paxes TBO.com with Mr .Mohideen. at Arabian Travel Market | Travel & Tourism Trade Sh\u2026",
+  "started_at": "2026-04-21T07:42:00Z",
+  "ended_at": "2026-04-21T07:42:46.360000Z",
+  "duration_ms": 46360,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "write about meeting with Exhibitor Paxes TBO.com with Mr .Mohideen. at Arabian Travel Market | Travel & Tourism Trade Show. Talking about Paxes TBO.com artificial intelligence Travel Technology in their company uses.\n\nPaxes is a Software as a Service (SaaS) based platform for corporates & TMCs (Travel Management Companies) to manage business travel globally.\n\nPaxes transforms travel agencies into an online TMC\u2019s and make them successful with technology, content, robust implementation, and impeccable customer service. Some of the key features includes:\n\nMobile app on IOS and Android platform for employees to manage bookings, approvals, flight notifications, post-booking support etc.\nEmployees can save their credit cards under PCI DSS complaint vault for personal bookings\nCorporate administrators can set up multiple dynamic policies and approvals\nTMC\u2019s manages the entire gambit of functionalities like corporate profiling, implementation, inventory type, forms of payment etc.\nCorporate administrators can create multiple invoice profiles, do Calculate Return on Investment (ROI) calculations on the budget vs money spent, can create dynamic custom fields for granule reporting and can analyze every expense through the spend analyzer",
+      "started_at": "2026-04-21T07:42:00Z",
+      "duration_ms": 4532,
+      "tokens_in": 311,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": ".\n\nDuring my meeting with Exhibitor Paxes TBO.com and Mr. Mohideen at the Arabian Travel Market, I was impressed with the company's use of artificial intelligence in their travel technology platform. The use of AI is becoming more and more prevalent in the travel industry, providing travelers with the ability to improve their experience and access better deals. \n\nMr. Mohideen explained that their AI system is used to optimize travel itineraries, based on the preferences and behaviors of the traveler. The software uses machine learning algorithms to analyze data and recommend personalized travel experiences. The Paxes system also provides real-time travel updates, offering travelers with up-to-date information on their flights, weather conditions and other factors that may affect their travel plans. \n\nMoreover, Paxes TBO.com's platform is designed to streamline corporate travel management, allowing companies to manage their travel bookings more effectively and efficiently. The system offers a range of features, including mobile apps, credit card storage, dynamic policies, and customizable reporting. \n\nIn summary, my meeting with Exhibitor Paxes TBO.com and Mr. Mohideen at the Arabian Travel Market was insightful, and I was impressed with their use of AI in their travel technology platform. Their technology offers a comprehensive solution for corporate travel management and personalized travel experiences that take advantage of AI's capabilities. It is exciting to see such technology in the travel industry and the value it brings to travelers and travel management companies.",
+      "started_at": "2026-04-21T07:42:06.032000Z",
+      "duration_ms": 16760,
+      "tokens_in": 0,
+      "tokens_out": 399,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "repeat the same above add more details",
+      "started_at": "2026-04-21T07:42:24.292000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "During my visit to the Arabian Travel Market, I had the pleasure of meeting with Exhibitor Paxes TBO.com and Mr. Mohideen to learn more about their travel technology platform for corporate travel management.\n\nPaxes TBO.com is a Software as a Service (SaaS) based platform that simplifies global business travel. The platform serves as a comprehensive solution for Travel Management Companies (TMCs) and corporates and assists in creating an online TMC and restructuring the existing travel agency.\n\nOne of the features that particularly impressed me was the use of Artificial Intelligence (AI) in their platform. The AI technology provides enhanced travel experiences for employees by analyzing their preferences and habits, and optimizing travel itineraries based on their behavior. The machine learning algorithms also provide real-time updates on flights, weather conditions, and other relevant information that may affect travel plans.\n\nThe mobile app, available on both IOS and Android, offers various features to the employees such as managing bookings, approvals, and flight notifications post-booking. Additionally, the app allows users to save their credit card information in a PCI DSS complaint vault for personal bookings.\n\nThe corporate administrators can set up multiple dynamic policies and approvals, including setting up multiple invoice profiles. The managers can analyze expenses and ROI calculations, create custom fields for specific reporting, and analyze every expense through the spend analyzer.\n\nI also appreciated the robust implementation, content, and impeccable customer service provided by Paxes TBO.com. The technology streamlines the entire process of TMC management, including corporate profiling, inventory type, and payment options.\n\nThe use of artificial intelligence in the travel industry is rapidly increasing, and it was great to see how Paxes TBO.com is taking advantage of this technology in their travel platform. Their comprehensive travel management solution offers travelers personalized experiences and simplifies the corporate travel process.\n\nIn conclusion, I left the meeting impressed by Paxes TBO.com and their travel technology platform. Their innovative use of AI technology is a significant step forward in enhancing travel experiences and streamlining corporate travel management.",
+      "started_at": "2026-04-21T07:42:26.700000Z",
+      "duration_ms": 24160,
+      "tokens_in": 0,
+      "tokens_out": 584,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 22,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3213,
+      "tokens_in": 2230,
+      "tokens_out": 983,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 320,
+      "duration_ms": 46360,
+      "ai_wait_ms": 40920,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:compliance",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat",
+    "dup"
+  ]
+}

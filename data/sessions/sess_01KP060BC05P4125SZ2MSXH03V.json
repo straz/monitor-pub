@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KP060BC05P4125SZ2MSXH03V",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "A patient presented with shortness of breath. His examination showed early diastolic murmur increasing with leaning forw\u2026",
+  "started_at": "2026-04-12T06:28:00Z",
+  "ended_at": "2026-04-12T06:28:14.924000Z",
+  "duration_ms": 14924,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "A patient presented with shortness of breath. His examination showed early diastolic murmur increasing with leaning forward. What is the most likely diagnosis? \n\nMR. \n\nMS. \n\nAR. \n\nAS. ",
+      "started_at": "2026-04-12T06:28:00Z",
+      "duration_ms": 1352,
+      "tokens_in": 46,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "AR.",
+      "started_at": "2026-04-12T06:28:02.852000Z",
+      "duration_ms": 840,
+      "tokens_in": 0,
+      "tokens_out": 1,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "he government wishes to raise its population\u2019s awareness and knowledge regarding various common topics of the community. How can this be achieved? \n\nSurvey. \n\nHealth education. \n\n ",
+      "started_at": "2026-04-12T06:28:05.192000Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Health education.",
+      "started_at": "2026-04-12T06:28:08.032000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "A pregnant lady came to you in her first antenatal visit. Which of the following vaccines can you give her? \n\nVaricella. \n\nRubella. \n\nInfluenza. \n\n TDAP",
+      "started_at": "2026-04-12T06:28:10.492000Z",
+      "duration_ms": 1256,
+      "tokens_in": 38,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Influenza and TDAP.",
+      "started_at": "2026-04-12T06:28:13.248000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "A child came suffering from a toxic dose of paracetamol. The physician requests an acetaminophen level. The lab technician calls to report the results. He says: \u201ctwo\u201d stops and pauses then says: \u201cone, three\u201d. The nurse mistakenly writes it as \u201c2.13\u201d while the real results was \u201c213\u201d. The patient went into irreversible liver damage. What was wrong? \n\nPoor communication. \n\nNurse who failed to repeat the result and double checked that she got the accurate result. \n\nLab technician who didn\u2019t repeat or double check that the nurse heard him and recorded correctly. ",
+      "started_at": "2026-04-12T06:28:15.708000Z",
+      "duration_ms": 2492,
+      "tokens_in": 141,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "All of the above (Poor communication, Nurse who failed to repeat the result and double-checked that she got the accurate result, and Lab technician who didn't repeat or double-check that the nurse heard him and recorded correctly).",
+      "started_at": "2026-04-12T06:28:19.700000Z",
+      "duration_ms": 3080,
+      "tokens_in": 0,
+      "tokens_out": 57,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "A patient diagnosed with non-hodgkin lymphoma on current medication. He developed tumor lysis syndrome. What is the expected electrolyte disturbance? \n\nHypokalemia, hypocalcemia. \n\nHypokalemia, hypercalcemia. \n\nHyperkalemia, hypocalcemia. \n\nHyperkalemia, hypercalcemia. ",
+      "started_at": "2026-04-12T06:28:24.280000Z",
+      "duration_ms": 1604,
+      "tokens_in": 67,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "Hyperkalemia, hypocalcemia.",
+      "started_at": "2026-04-12T06:28:27.384000Z",
+      "duration_ms": 1040,
+      "tokens_in": 0,
+      "tokens_out": 6,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 35,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 4026,
+      "tokens_in": 3954,
+      "tokens_out": 72,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 337,
+      "duration_ms": 14924,
+      "ai_wait_ms": 6880,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1229,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPJ87570EBX2ZQ9GYZ5ZHEVD",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "Explain Journal entries in most simplest way with example and anecdotes.",
+  "started_at": "2026-04-19T06:53:00Z",
+  "ended_at": "2026-04-19T06:53:37.048000Z",
+  "duration_ms": 37048,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Explain Journal entries in most simplest way with example and anecdotes.",
+      "started_at": "2026-04-19T06:53:00Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Journal entries are simply the recordings of business transactions in a company's accounting system. They are written documents that include debits and credits, as well as the date of the transaction, the account name, and the amount.\n\nFor example, let's say a company buys office supplies on credit. The journal entry would look like this:\n\nDate: January 1, 2021\nAccount: Office Supplies\nDebit: $500\nAccount: Accounts Payable\nCredit: $500\n\nIn this case, the company debited the Office Supplies account by $500 to reflect the increase in their office supplies, and credited the Accounts Payable account by $500 to reflect the increase in their liabilities. This means that they owe $500 to their supplier for the office supplies they bought on credit.\n\nAnecdote: Imagine you are a cashier in a retail store and a customer buys a pair of shoes worth $50. You would write a journal entry that includes the date, the account name for Cash (or if credit card is used, then Account Receivable), and the amount that you received. The journal entry would look like this:\n\nDate: January 1, 2021\nAccount: Cash\nDebit: $50\nAccount: Sales Revenue\nCredit: $50\n\nIn this case, you debited the Cash account to document the increase in the amount of cash that you have received from the customer, and credited the Sales Revenue account to record the increase in your sales revenue. This means that your company has earned $50 from the sale of the shoes.",
+      "started_at": "2026-04-19T06:53:02.516000Z",
+      "duration_ms": 15160,
+      "tokens_in": 0,
+      "tokens_out": 359,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Golden rules of accounting",
+      "started_at": "2026-04-19T06:53:19.176000Z",
+      "duration_ms": 872,
+      "tokens_in": 6,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The Golden Rules of Accounting are basic principles that outline the core concepts and guidelines for recording financial transactions. These rules help ensure consistency, accuracy, and reliability in financial reporting and analysis. \n\nThe three Golden Rules of Accounting are:\n\n1. Debit the receiver, credit the giver: This principle means that when a business receives something, it will debit the account that received it, and when a business gives something, it will credit the account that gave it. \n\nFor example, if a company receives cash from a customer, it will debit the cash account (since the company received the cash) and credit the accounts receivable account (since the company gave the customer a product or service in exchange for the cash).\n\n2. Debit what comes in, credit what goes out: This rule requires businesses to debit accounts for anything that comes into the business and to credit accounts for anything that goes out of the business. \n\nFor example, if a company purchases supplies on credit, it will debit the supplies account (since supplies come into the business) and credit the accounts payable account (since the supplies will go out of the business when paid for).\n\n3. Debit expenses and losses, credit income and gains: This rule relates to the concept that expenses and losses are debited and income and gains are credited. \n\nFor example, if a company incurs expenses for salaries and wages, it will debit the salaries and wages expense account (since it is an expense) and credit the cash account (since it is a reduction in cash). On the other hand, if a company generates revenue from a sale, it will debit the cash account (since cash comes in) and credit the sales revenue account (since it is an increase in revenue).\n\nRemembering these golden rules can help prevent errors in recording financial transactions and ensure that financial statements are consistent and accurate.",
+      "started_at": "2026-04-19T06:53:21.548000Z",
+      "duration_ms": 20000,
+      "tokens_in": 0,
+      "tokens_out": 480,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 18,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2440,
+      "tokens_in": 1601,
+      "tokens_out": 839,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 24,
+      "duration_ms": 37048,
+      "ai_wait_ms": 35160,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

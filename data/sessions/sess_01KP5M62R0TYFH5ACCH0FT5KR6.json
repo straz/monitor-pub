@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP5M62R0TYFH5ACCH0FT5KR6",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Which one is better PhD in haematology or a PhD in a Medical laboratory?",
+  "started_at": "2026-04-14T09:12:00Z",
+  "ended_at": "2026-04-14T09:12:17.692000Z",
+  "duration_ms": 17692,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Which one is better PhD in haematology or a PhD in a Medical laboratory?",
+      "started_at": "2026-04-14T09:12:00Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot have personal preferences or opinions. Both PhD programs have their own unique features, and the decision on which one is \"better\" would depend on individual interests and career goals. Candidates aspiring to advance in research and management positions in clinical, pharmaceutical or academic settings can consider pursuing a PhD in Haematology. On the other hand, a PhD in Medical Laboratory Science can provide opportunities to specialize in various sub-fields of laboratory science, such as molecular diagnostics, clinical chemistry, microbiology, and immunology, etc. Ultimately, it is advisable to conduct independent research and evaluate the curriculum, opportunities, and faculty to make an informed decision.",
+      "started_at": "2026-04-14T09:12:02.516000Z",
+      "duration_ms": 8320,
+      "tokens_in": 0,
+      "tokens_out": 188,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Where can I find Msc in medical laboratory program? ",
+      "started_at": "2026-04-14T09:12:12.336000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "There are various universities and colleges that offer MSc programs in Medical Laboratory Science. Here are a few options:\n\n1. University of Alberta, Canada\n2. University of Saskatchewan, Canada\n3. University of Manchester, UK\n4. University of Leeds, UK\n5. Karolinska Institutet, Sweden\n6. Monash University, Australia\n7. University of Melbourne, Australia\n\nYou can research each university's program, admission requirements, and tuition fees to determine which program best fits your needs. Additionally, you can also search for MSc programs in Medical Laboratory Science on education search engine websites such as Masters Portal, PhD Portal, and Studyportals.",
+      "started_at": "2026-04-14T09:12:14.792000Z",
+      "duration_ms": 7400,
+      "tokens_in": 0,
+      "tokens_out": 165,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1790,
+      "tokens_in": 1437,
+      "tokens_out": 353,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 31,
+      "duration_ms": 17692,
+      "ai_wait_ms": 15720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

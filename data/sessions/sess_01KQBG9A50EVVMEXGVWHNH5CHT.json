@@ -1,0 +1,126 @@
+{
+  "id": "sess_01KQBG9A50EVVMEXGVWHNH5CHT",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "rewrite to be pithy and professional: $75K-$150K \u2018Homegrown\u2019 FPC base range is wider and dips further below-market relat\u2026",
+  "started_at": "2026-04-29T02:15:00Z",
+  "ended_at": "2026-04-29T02:15:20.228000Z",
+  "duration_ms": 20228,
+  "turn_count": 8,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "rewrite to be pithy and professional: $75K-$150K \u2018Homegrown\u2019 FPC base range is wider and dips further below-market relative to competition\n",
+      "started_at": "2026-04-29T02:15:00Z",
+      "duration_ms": 1208,
+      "tokens_in": 34,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Our 'Homegrown' FPC base range of $75K-$150K boasts a wider range and greater below-market value compared to competitors.",
+      "started_at": "2026-04-29T02:15:02.708000Z",
+      "duration_ms": 2000,
+      "tokens_in": 0,
+      "tokens_out": 30,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "review all of this and summarize into 3 salient points",
+      "started_at": "2026-04-29T02:15:06.208000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. The FPC base range of $75K-$150K is wider and offers more value than the competition.\n2. The range dips further below-market, making it an attractive option for cost-conscious customers.\n3. The 'Homegrown' aspect of the range suggests a unique and differentiated offering compared to other FPC options available.",
+      "started_at": "2026-04-29T02:15:08.664000Z",
+      "duration_ms": 3920,
+      "tokens_in": 0,
+      "tokens_out": 78,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "review all of these notes and summarize into 3 key takeway sentences: Unsupervised and siloed plan creation results in wide variation in plans.\nPlans are seldom declined by Finance or Sales Ops and this tendency can be attributed to the admin load that leaves little room for proposal evaluation.\nBest-in-class sales orgs deploy a cascading communication plan, beginning with ELT and trickling down to BU Leads, to ensure full endorsement & commitment across firm.\nSome plans are official letters; some plans are plan calculators; some are purely via informal documentation or verbal.\nFrequent payout problems arise from systems failures and human calculation errors, which erode the credibility of BU Leaders and Finance.\nOften BU Leaders will ask reps to double and triple-check their own payouts, even after Finance consult.\n",
+      "started_at": "2026-04-29T02:15:14.084000Z",
+      "duration_ms": 3284,
+      "tokens_in": 207,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "1. Unsupervised and siloed plan creation leads to varying plan outcomes.\n2. Sales organizations tend to accept plans due to administrative workload, leaving little room for evaluation, but the best-in-class organizations use a cascading communication plan to ensure full endorsement and commitment.\n3. Frequent payout problems due to system failures and human errors erode the credibility of BU Leaders and Finance, leading to the need for reps to double-check their own payouts even after consulting with Finance.",
+      "started_at": "2026-04-29T02:15:18.868000Z",
+      "duration_ms": 5920,
+      "tokens_in": 0,
+      "tokens_out": 128,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "rewrite to be pithy and professional: Disparate comp practices results in low visibility into teams/individuals that may be \u2018\u2019unprofitable\u2019\n",
+      "started_at": "2026-04-29T02:15:26.288000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Disparate compensation practices lead to poor visibility of unprofitable individuals or teams.",
+      "started_at": "2026-04-29T02:15:29.008000Z",
+      "duration_ms": 1720,
+      "tokens_in": 0,
+      "tokens_out": 23,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 32,
+    "ai_cost": 30,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 8,
+      "tokens_total": 3657,
+      "tokens_in": 3398,
+      "tokens_out": 259,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 4,
+      "raw_user_tokens": 289,
+      "duration_ms": 20228,
+      "ai_wait_ms": 13560,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

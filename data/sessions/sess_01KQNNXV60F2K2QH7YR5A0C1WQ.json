@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQNNXV60F2K2QH7YR5A0C1WQ",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_010",
+  "title": "Briefly describe the role of the Universal Declaration of Human Rights for human rights law",
+  "started_at": "2026-05-03T01:06:00Z",
+  "ended_at": "2026-05-03T01:06:43.576000Z",
+  "duration_ms": 43576,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Briefly describe the role of the Universal Declaration of Human Rights for human rights law ",
+      "started_at": "2026-05-03T01:06:00Z",
+      "duration_ms": 1076,
+      "tokens_in": 23,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "The Universal Declaration of Human Rights (UDHR) is widely recognized as the foundation of international human rights law. It was adopted by the United Nations General Assembly in 1948 and sets out the fundamental rights and freedoms that should be universally protected for all individuals. The UDHR has since become the basis for a range of conventions, treaties, and regional agreements that have contributed to the development of human rights law worldwide. It has also served as a source of inspiration for many national constitutions and human rights codes. Overall, the UDHR plays a critical role in promoting and protecting human rights globally.",
+      "started_at": "2026-05-03T01:06:02.576000Z",
+      "duration_ms": 7320,
+      "tokens_in": 0,
+      "tokens_out": 163,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "write more",
+      "started_at": "2026-05-03T01:06:11.396000Z",
+      "duration_ms": 824,
+      "tokens_in": 2,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "The UDHR is a significant landmark in the evolution of human rights law. Its provisions encompass a range of civil, political, economic, social, and cultural rights that are essential for the dignity and well-being of every individual. The Declaration has been translated into over 500 languages and has been ratified by almost every country in the world, making it the most widely accepted and recognized normative framework for the protection of human rights.\n\nThe UDHR represents a powerful call to action, inspiring people worldwide to fight for the full realization of human rights for all. It has influenced the development of numerous human rights instruments, including the International Covenant on Civil and Political Rights, the International Covenant on Economic, Social and Cultural Rights, and the Convention on the Rights of the Child. These instruments build on the principles of the UDHR, providing more comprehensive protections for specific groups and issues.\n\nWhile the UDHR is not legally binding, it has served as a foundation for the development of customary international law and has been used extensively by international tribunals in their interpretation of human rights standards. Its provisions are also reflected in the domestic laws and constitutions of many countries, serving as a benchmark for the protection of human rights at the national level.\n\nIn addition to its legal significance, the UDHR has played a critical role in raising awareness about human rights issues and promoting a culture of human rights. Its principles have been incorporated into education curricula, public policies, and advocacy campaigns worldwide, empowering people to demand greater respect for their rights and the rights of others.\n\nOverall, the UDHR represents a critical milestone in the history of human rights law, providing a universal framework for the protection and promotion of fundamental rights and freedoms for all individuals, regardless of race, gender, religion, or nationality. Its enduring legacy and ongoing relevance demonstrate the importance of upholding human rights as a cornerstone of a just and equitable society.",
+      "started_at": "2026-05-03T01:06:13.720000Z",
+      "duration_ms": 22320,
+      "tokens_in": 0,
+      "tokens_out": 538,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "What body supervises the implementation of the ICCPR?",
+      "started_at": "2026-05-03T01:06:37.540000Z",
+      "duration_ms": 956,
+      "tokens_in": 13,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "The International Covenant on Civil and Political Rights (ICCPR) is a treaty overseen by the United Nations Human Rights Committee (HRC). The HRC is a body of independent experts that monitors the implementation of the ICCPR by state parties. The Committee is composed of 18 members who are elected by the states parties to the ICCPR and serve in their personal capacity. The HRC is responsible for reviewing periodic reports submitted by state parties on the measures undertaken to implement the ICCPR, as well as individual communications and complaints submitted by individuals or groups claiming to be victims of human rights violations. The HRC also issues general comments on the interpretation and implementation of the ICCPR, which serve as authoritative guidance on the human rights obligations of state parties. The decisions and recommendations of the HRC are not legally binding, but they carry significant moral and political weight and can be influential in shaping the human rights policies and practices of states.",
+      "started_at": "2026-05-03T01:06:39.996000Z",
+      "duration_ms": 11080,
+      "tokens_in": 0,
+      "tokens_out": 257,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 27,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3708,
+      "tokens_in": 2750,
+      "tokens_out": 958,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 38,
+      "duration_ms": 43576,
+      "ai_wait_ms": 40720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0028,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

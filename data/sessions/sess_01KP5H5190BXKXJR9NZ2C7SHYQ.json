@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP5H5190BXKXJR9NZ2C7SHYQ",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "please draft this section better ",
+  "started_at": "2026-04-14T08:19:00Z",
+  "ended_at": "2026-04-14T08:19:17.316000Z",
+  "duration_ms": 17316,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "please draft this section better \ncomplies with all applicable laws, rules and regulation",
+      "started_at": "2026-04-14T08:19:00Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "This service is committed to ensuring that it operates in full compliance with all relevant laws, regulations and rules. We aim to provide clients with a secure and transparent platform that adheres to industry standards and best practices in order to maintain a high level of trust and confidence in our services. Our team works tirelessly to monitor and implement changes to ensure we meet all legal requirements and standards as they evolve over time. Additionally, we strive to maintain open communication with regulatory bodies to ensure we remain compliant and up-to-date on any changes that may impact our operations.",
+      "started_at": "2026-04-14T08:19:02.564000Z",
+      "duration_ms": 7040,
+      "tokens_in": 0,
+      "tokens_out": 156,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "please draft it as a legal clause \nshall be liable to pay the Client liquidated damages of 10,000 GBP + 50% the first year's total gross remuneration of the candidate",
+      "started_at": "2026-04-14T08:19:11.104000Z",
+      "duration_ms": 1292,
+      "tokens_in": 41,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "In the event of any breach of applicable laws, regulations, or rules by the service, the service shall be considered in default of its obligations under this agreement. In such an event, the service shall be liable to pay the client liquidated damages in the amount of 10,000 GBP, in addition to 50% of the first year's total gross remuneration of the candidate who was subject to the breach. The client's entitlement to liquidated damages shall be without prejudice to any other rights or remedies available under this agreement or by law. The service shall take all necessary precautions to ensure strict compliance with all applicable laws, regulations, and rules during the course of the recruitment process.",
+      "started_at": "2026-04-14T08:19:13.896000Z",
+      "duration_ms": 7920,
+      "tokens_in": 0,
+      "tokens_out": 178,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1775,
+      "tokens_in": 1441,
+      "tokens_out": 334,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 63,
+      "duration_ms": 17316,
+      "ai_wait_ms": 14960,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0012,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

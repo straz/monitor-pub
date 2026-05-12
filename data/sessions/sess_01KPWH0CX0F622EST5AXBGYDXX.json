@@ -1,0 +1,159 @@
+{
+  "id": "sess_01KPWH0CX0F622EST5AXBGYDXX",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "write a review for soul food resturant",
+  "started_at": "2026-04-23T06:39:00Z",
+  "ended_at": "2026-04-23T06:39:38.728000Z",
+  "duration_ms": 38728,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "write a review for soul food resturant",
+      "started_at": "2026-04-23T06:39:00Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have any personal preferences or experiences. However, here's a sample review for a soul food restaurant: \n\nIf you're looking for a soulful and soulful dining experience, look no further than this amazing restaurant. From the moment you walk in, you feel transported back in time to a cozy and welcoming atmosphere. The staff is incredibly friendly and attentive, making you feel right at home. \n\nThe menu is full of classic soul food dishes that are prepared with the utmost care and attention to detail. The fried chicken is crispy and flavorful, while the collard greens are perfectly seasoned and cooked to perfection. The mac and cheese is rich and creamy, and the cornbread is moist and buttery. \n\nTo top it off, the desserts are nothing short of heavenly. The sweet potato pie and peach cobbler are both must-tries, and the banana pudding is a fan favorite. \n\nIf you're a fan of soul food or just looking for a delicious meal in a warm and inviting atmosphere, this restaurant is definitely worth a visit.",
+      "started_at": "2026-04-23T06:39:02.408000Z",
+      "duration_ms": 11240,
+      "tokens_in": 0,
+      "tokens_out": 261,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "write a review for a contractor",
+      "started_at": "2026-04-23T06:39:15.148000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have any personal experiences or preferences. Here's a sample review for a contractor: \n\nI recently hired a contractor for a major home renovation project, and I could not be happier with the results. This contractor was professional, reliable, and skilled at their craft. \n\nThey communicated with me throughout the entire process, answering all of my questions and addressing any concerns that I had promptly. They also provided detailed and transparent pricing, so there were no surprises or hidden costs at the end of the project. \n\nThe quality of their work was top-notch. They completed the project on time and within budget, all while maintaining a high level of attention to detail. I was impressed with their ability to problem-solve when unexpected challenges arose, and their creativity and expertise in finding solutions that worked for my specific needs. \n\nOverall, I highly recommend this contractor to anyone looking for a reliable and skilled professional to tackle their home renovation project. They provided exceptional service and exceeded my expectations in every way.",
+      "started_at": "2026-04-23T06:39:17.532000Z",
+      "duration_ms": 12000,
+      "tokens_in": 0,
+      "tokens_out": 280,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "write a review for a auto service ",
+      "started_at": "2026-04-23T06:39:31.032000Z",
+      "duration_ms": 896,
+      "tokens_in": 8,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "As an AI language model, I don't have any personal experiences or preferences. Here's a sample review for an auto service: \n\nI recently took my car to this auto service for a routine maintenance check and I was beyond impressed with their level of service. From the moment I walked in the door, the staff was incredibly friendly, welcoming, and knowledgeable. \n\nMy car was serviced promptly and efficiently, and the staff kept me informed every step of the way. They let me know what was being done to my car, how long it would take, and the cost of the service. They also provided me with recommendations for future services that may be needed, but were not pushy or overly aggressive in their sales tactics. \n\nThe pricing was fair and reasonable, and I was happy to see that there were no unexpected charges or hidden fees. The quality of the work done on my car was exceptional and it ran better than ever after the service. \n\nOverall, I highly recommend this auto service to anyone looking for a reliable and professional team to take care of their vehicle. The staff provides excellent service, transparent pricing, and exceptional workmanship \u2013 all of the hallmarks of a top-notch auto service.",
+      "started_at": "2026-04-23T06:39:33.428000Z",
+      "duration_ms": 12800,
+      "tokens_in": 0,
+      "tokens_out": 300,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 44,
+    "ai_cost": 26,
+    "issue_count": {
+      "low": 0,
+      "med": 2,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3492,
+      "tokens_in": 2651,
+      "tokens_out": 841,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 24,
+      "duration_ms": 38728,
+      "ai_wait_ms": 36040,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0026,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00HF55N093Y4N3NFY5",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPWH0CX0F622EST5AXBGYDXX",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "write a review for a contractor",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPWH0CX0F622EST5AXBGYDXX.json",
+        "turn_uri": "data/sessions/sess_01KPWH0CX0F622EST5AXBGYDXX.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ002GB3XPMYA2CRMV8R",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KPWH0CX0F622EST5AXBGYDXX",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "write a review for a auto service ",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPWH0CX0F622EST5AXBGYDXX.json",
+        "turn_uri": "data/sessions/sess_01KPWH0CX0F622EST5AXBGYDXX.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.57).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

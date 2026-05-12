@@ -1,0 +1,146 @@
+{
+  "id": "sess_01KR5RZ5H0SNWPET527V963V5V",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "\ufeff",
+  "started_at": "2026-05-09T07:07:00Z",
+  "ended_at": "2026-05-09T07:07:17.672000Z",
+  "duration_ms": 17672,
+  "turn_count": 10,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "\ufeff\nIn the medical field, a could house the pre-\ninformation, lower level data of the data pyramid.\nA. patient chart\nC. patient prescription\nB. patient medical plan\nD. general monitor",
+      "started_at": "2026-05-09T07:07:00Z",
+      "duration_ms": 1340,
+      "tokens_in": 45,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "A. patient chart",
+      "started_at": "2026-05-09T07:07:02.840000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "\ufeff\nThe process of gathering large amounts of Internet (Web) data is called\nA. data cleaning\nB. data scraping\nC. data analytics\nD. data gathering",
+      "started_at": "2026-05-09T07:07:05.300000Z",
+      "duration_ms": 1220,
+      "tokens_in": 35,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "B. data scraping",
+      "started_at": "2026-05-09T07:07:08.020000Z",
+      "duration_ms": 960,
+      "tokens_in": 0,
+      "tokens_out": 4,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "\ufeff\nBig data websites generate data at the\nlevel of\nthe data pyramid?\nA. middle\nC. bottom\nB. top\nD. second",
+      "started_at": "2026-05-09T07:07:10.480000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "B. top. Big data websites generate a large amount of data, which falls under the top level of the data pyramid, including structured, semi-structured, and unstructured data.",
+      "started_at": "2026-05-09T07:07:13.092000Z",
+      "duration_ms": 2520,
+      "tokens_in": 0,
+      "tokens_out": 43,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "\ufeff\nIn order to convey information to someone who needs it, data often has to be\nA. presented in raw form\nB. presented visually\nC. presented in numbers\nD. compressed",
+      "started_at": "2026-05-09T07:07:17.112000Z",
+      "duration_ms": 1280,
+      "tokens_in": 40,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "B. presented visually. \n\nVisual presentation of data enables better understanding and interpretation of the information. It can take the forms of charts, graphs, diagrams, and maps. This can help convey complex data in a simple and easy-to-understand way.",
+      "started_at": "2026-05-09T07:07:19.892000Z",
+      "duration_ms": 3320,
+      "tokens_in": 0,
+      "tokens_out": 63,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "\ufeff\nA _________\nis the common\nname of a computer file composed of rows and columns for storing and organizing data.\nA. spreadsheet\nC. budget\nB. balance sheet\nD. list",
+      "started_at": "2026-05-09T07:07:24.712000Z",
+      "duration_ms": 1280,
+      "tokens_in": 40,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "A. spreadsheet. \n\nA spreadsheet is a computer file composed of rows and columns that allows you to organize, manipulate, and analyze data. It can perform calculations, create charts and graphs, and perform a range of other functions. It is commonly used in business, finance, and science.",
+      "started_at": "2026-05-09T07:07:27.492000Z",
+      "duration_ms": 3680,
+      "tokens_in": 0,
+      "tokens_out": 72,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 40,
+    "ai_cost": 34,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 10,
+      "tokens_total": 3926,
+      "tokens_in": 3740,
+      "tokens_out": 186,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 5,
+      "raw_user_tokens": 186,
+      "duration_ms": 17672,
+      "ai_wait_ms": 11440,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "id": "sess_01KPZ24TV0TJ56ZMPN7VMN5BS5",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_002",
+  "title": "please condense this resume section, keeping only the most important information, understanding that I am a recent under\u2026",
+  "started_at": "2026-04-24T06:17:00Z",
+  "ended_at": "2026-04-24T06:18:50.280000Z",
+  "duration_ms": 110280,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "please condense this resume section, keeping only the most important information, understanding that I am a recent undergraduate graduate and need this resume for my medical school application:Asian Pacific Health Corps\tLos Angeles, CA\nClub Member\tSep 2019 - Present\nAssisted in preparing free materials to be presented and distributed at health fairs across communities in the Greater Los Angeles Area\nCollaborate with a diverse team of passionate individuals to address health disparities in the Asian American and Pacific Islander (AAPI) community, increasing health education and awareness\nContribute to organizing and implementing health outreach initiatives, such as health fairs, screenings, and workshops, to provide vital information and resources to the AAPI community\n",
+      "started_at": "2026-04-24T06:17:00Z",
+      "duration_ms": 3128,
+      "tokens_in": 194,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Asian Pacific Health Corps, Los Angeles, CA\nClub Member, Sep 2019 - Present\n- Prepared and distributed free materials at health fairs in the Greater Los Angeles Area\n- Addressed health disparities in the AAPI community by increasing health education and awareness\n- Organized and implemented health outreach initiatives, such as fairs, screenings, and workshops",
+      "started_at": "2026-04-24T06:17:04.628000Z",
+      "duration_ms": 4400,
+      "tokens_in": 0,
+      "tokens_out": 90,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "eliminate redundant info in this resume entry: Closely observed physicians during patient encounters and documented all relevant information on their behalf, ensuring accurate and comprehensive records\nEntered patient history, physical exam, and other relevant patient health information into electronic charts under physician guidance\nDemonstrated strong knowledge and proficiency in Electronic Medical Record (EMR) systems, leveraging the ability to locate past medical records, lab/radiology results, and visit histories as requested by the physician\n",
+      "started_at": "2026-04-24T06:17:10.528000Z",
+      "duration_ms": 2456,
+      "tokens_in": 138,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Observed physicians during patient encounters and documented comprehensive information for electronic records\nEntered patient history and exam details under physician guidance using Electronic Medical Record (EMR) systems\nLeveraged strong EMR proficiency to locate medical records, lab/radiology results, and visit histories as needed",
+      "started_at": "2026-04-24T06:17:14.484000Z",
+      "duration_ms": 4120,
+      "tokens_in": 0,
+      "tokens_out": 83,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "provide feedback on this resume, understanding it is for a recent undergraduate graduate who is planning on applying to medical school:\nEducation\nUniversity of California, Los Angeles\tLos Angeles, CA\nBS Biochemistry, GPA: 3.93, Dean\u2019s List, Cum Laude\tSep 2019 - Dec 2022\n\nWork Experience\nScribeAmerica\tDec 2022 - Present\nOrthopedic Surgery Medical Scribe at Cedars-Sinai\t\nClosely observed physicians during patient encounters and documented all relevant patient information on their behalf, ensuring accurate and comprehensive records\nDemonstrated strong knowledge and proficiency in Electronic Medical Record (EMR) systems, leveraging the ability to locate past medical records, lab/radiology results, and visit histories as requested by the physician\n\nExtracurricular Activities\nKendall N. Houk Group\tMar 2022 - Present\nUndergraduate Researcher\t\nStudied the electrophilicity of octafluorocyclopentene (OFCP) using Gaussian 16 to perform quantum mechanical calculations, visualize molecular structures, and explore reaction mechanisms in collaboration with students from UCLA and Nankai University in China\nEngaged in lab meetings to discuss and seek feedback on computational findings, as well as present other current event organic chemistry research\nUCLA Learning Assistant\tJan 2022 - Dec 2022\nLearning Assistant\t\nRonald Reagan UCLA Medical Center\tSep 2021 - Oct 2022\nPatient Escort Volunteer\t\nPrepared and assembled hundreds of mask boxes for distribution\nCommunicated with nurses and hospital staff to efficiently transfer equipment and timely discharge patients, prioritizing patient safety, care, and comfort process\nUCLA Cycling Club\tSep 2021 - Present\nClub Member and Safety Officer\t\nCommunity Emergency Response Team\tSep 2019 - Present\nTeam Member, Vice President, and President\t\nOrganized a disaster preparedness fair, attracting over a hundred students and community members, emphasizing earthquake and fire safety awareness, distributing materials to equip individuals with the necessary knowledge and resources to handle these disasters effectively\nLed and taught workshops and classes to educate UCLA students about essential disaster preparedness initiatives, including basic first aid care\nAsian Pacific Health Corps\tSep 2019 - Present\nClub Member\t\nPrepared and distributed information and materials about health education and awareness to address AAPI community health disparities in the Greater Los Angeles Area\nOrganized and implemented health outreach initiatives, such as fairs, screenings, and workshops, with an emphasis on preventive health measures\nAmerican Red Cross\tSep 2019 - Present",
+      "started_at": "2026-04-24T06:17:20.104000Z",
+      "duration_ms": 8636,
+      "tokens_in": 653,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Overall, this resume provides a strong representation of your undergraduate achievements and extracurricular involvement in preparation for medical school. Here are a few suggestions for improvement:\n\n1. Consider adding a brief summary at the beginning to highlight your key skills, accomplishments, and goals before listing your education and experience.\n\n2. For your work experience section, consider adding more specifics on your contributions and responsibilities as a Medical Scribe at Cedars-Sinai, such as the types of encounters you observed or any major projects you completed.\n\n3. Your extracurricular activities showcase an impressive range of experiences, but try to on focus on the aspects that are most relevant to medical school applications - such as research, volunteer work, and health education. You may want to prioritize those experiences by listing them at the top of the section to make it easy for an admissions reviewer to see your most relevant contributions.\n\n4. Formatting should be consistent throughout the resume. For example, some titles and organization names are followed by their location, whereas others are not. It's essential to maintain a consistent format for clarity and readability.\n\n5. Be sure to include any awards, honors, or scholarships you may have received throughout your undergraduate career to showcase your academic achievements.\n\n6. Adding a skills section could help highlight your proficiency in specific areas, such as computer applications or language skills.\n\n7. Finally, consider proofreading the resume one more time to catch any small errors (e.g., a minor typo in your experience with the UCLA Learning Assistant position).\n\nBy implementing these suggestions, your resume can stand out even more to medical school admissions committees. Good luck!",
+      "started_at": "2026-04-24T06:17:30.240000Z",
+      "duration_ms": 18880,
+      "tokens_in": 0,
+      "tokens_out": 452,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "create a one line resume entry based on this description: The Learning Assistants (LA) Program in the Sciences at UCLA is an evidence-based, multidisciplinary instructional strategy, in which undergraduate students who have succeeded in a given course receive credit to learn how to help the next group of students succeed in that course. It is specifically geared toward large introductory science, engineering and math courses. LAs thus help facilitate active learning and collaborative instruction in lecture, discussion and/or lab.\n\nThe program aims to strengthen a few key aspects of UCLA courses:\n\nEnhance the ability of faculty to effectively scale active learning, collaborative learning, and other interactive activities to more effectively teach a large and diverse student body.\n\nIncrease the success and skills of the LAs themselves, as they refine content knowledge, while gaining new communication skills and a sense of community.\nIncrease the level of student satisfaction and belonging in these courses, and for the LAs themselves.\n\nProvide feedback to instructors and TAs about ways to improve instruction, since LAs are often more aware of student perspectives and interests than the faculty and TAs teaching the courses.",
+      "started_at": "2026-04-24T06:17:50.620000Z",
+      "duration_ms": 4508,
+      "tokens_in": 309,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "UCLA Learning Assistants Program: Facilitated active learning and collaborative instruction in large introductory science, engineering, and math courses, while refining content knowledge and enhancing student success and satisfaction.",
+      "started_at": "2026-04-24T06:17:56.628000Z",
+      "duration_ms": 3120,
+      "tokens_in": 0,
+      "tokens_out": 58,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "write a resume entry based on this description: The Learning Assistants (LA) Program in the Sciences at UCLA is an evidence-based, multidisciplinary instructional strategy, in which undergraduate students who have succeeded in a given course receive credit to learn how to help the next group of students succeed in that course. It is specifically geared toward large introductory science, engineering and math courses. LAs thus help facilitate active learning and collaborative instruction in lecture, discussion and/or lab.\n\nThe program aims to strengthen a few key aspects of UCLA courses:\n\nEnhance the ability of faculty to effectively scale active learning, collaborative learning, and other interactive activities to more effectively teach a large and diverse student body.\n\nIncrease the success and skills of the LAs themselves, as they refine content knowledge, while gaining new communication skills and a sense of community.\nIncrease the level of student satisfaction and belonging in these courses, and for the LAs themselves.\n\nProvide feedback to instructors and TAs about ways to improve instruction, since LAs are often more aware of student perspectives and interests than the faculty and TAs teaching the courses.",
+      "started_at": "2026-04-24T06:18:01.248000Z",
+      "duration_ms": 4484,
+      "tokens_in": 307,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "UCLA Learning Assistants Program, Los Angeles, CA\nLearning Assistant: Assisted in facilitating active learning and collaborative instruction for large introductory science, engineering, and math courses; refined content knowledge and gained communication skills; improved student satisfaction and belonging; and provided valuable feedback to instructors and TAs for instructional improvement.",
+      "started_at": "2026-04-24T06:18:07.232000Z",
+      "duration_ms": 4720,
+      "tokens_in": 0,
+      "tokens_out": 98,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "Please provide feedback and suggestions about the following resume, understanding that it is a part of a college graduate's application for medical school: \nEducation\nUniversity of California, Los Angeles\tLos Angeles, CA\nBS Biochemistry, GPA: 3.93, Dean\u2019s List, Cum Laude\tSep 2019 - Dec 2022\n\nWork Experience\nScribeAmerica\tDec 2022 - Present\nOrthopedic Surgery Medical Scribe at Cedars-Sinai\t\nClosely observed physicians during patient encounters and documented all relevant patient information on their behalf, ensuring accurate and comprehensive records\nDisplayed strong proficiency and knowledge in Electronic Medical Record systems, adeptly locating previous medical records, lab/radiology results, and visit histories\n\nExtracurricular Activities\nKendall N. Houk Group\tMar 2022 - Present\nUndergraduate Researcher\t\nStudied the electrophilicity of octafluorocyclopentene using Gaussian 16 to perform quantum mechanical calculations, visualize molecular structures, and explore reaction mechanisms in collaboration with students from UCLA and Nankai University in China\nEngaged in lab meetings to discuss and seek feedback on computational findings, as well as present other current event organic chemistry research\nUCLA Learning Assistant\tJan 2022 - Dec 2022\nLearning Assistant\t\nFacilitated active learning and collaborative instruction in chemistry courses, while refining content knowledge and enhancing student success and satisfaction\nRonald Reagan UCLA Medical Center\tSep 2021 - Oct 2022\nPatient Escort Volunteer\t\nPrepared and assembled hundreds of mask boxes for distribution\nCommunicated with nurses and hospital staff to efficiently transfer equipment and timely discharge patients, prioritizing patient safety, care, and comfort process\nUCLA Cycling Club\tSep 2021 - Present\nClub Member and Safety Officer\t\nOrganized team rides, raced collegiately, and advocated for safe riding habits\nCommunity Emergency Response Team\tSep 2019 - Present\nTeam Member, Vice President, and President\t\nOrganized a disaster preparedness fair, engaging 100+ students and community members, promoting earthquake and fire safety awareness, and distributing informative materials to empower individuals with effective disaster response skills\nLed and taught workshops and classes to educate UCLA students about essential disaster preparedness initiatives, including basic first aid care and disaster response protocols\nAsian Pacific Health Corps\tSep 2019 - Present\nClub Member\t\nPrepared and distributed information and materials about health education and awareness to address AAPI community health disparities in the Greater Los Angeles Area\nOrganized and implemented health outreach initiatives, including fairs, screenings, and workshops that emphasized preventive health measures\n",
+      "started_at": "2026-04-24T06:18:13.452000Z",
+      "duration_ms": 9104,
+      "tokens_in": 692,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Your resume does a good job showcasing your education, work experience, and extracurricular activities as a recent college graduate applying for medical school. Here are some suggestions for improvement:\n\n1. Add a summary or objective statement at the beginning of your resume highlighting your key skills, achievements, and goals relevant to your medical school application.\n\n2. Consider reorganizing your experience and extracurricular activities into separate sections, such as \"Research Experience,\" \"Volunteer Experience,\" \"Leadership Experience,\" and \"Clubs and Organizations.\"\n\n3. For your work experience section, try to quantify your responsibilities and achievements. For example, how many patient encounters did you observe during your time as a Medical Scribe?\n\n4. In your extracurricular activities section, consider focusing on the most relevant experiences for medical school, such as research, volunteer work, and health education. You may want to prioritize these experiences by listing them at the top of the section.\n\n5. Make your bullet points more concise and impactful. You can achieve this by starting each bullet point with a strong action verb and focusing on your key contributions and achievements.\n\n6. Include any additional skills or certifications relevant to the medical field, such as first aid, CPR, or proficiency in a foreign language. You can add them in a \"Skills\" section at the end of your resume.\n\n7. Proofread your resume for any grammar, punctuation, or formatting inconsistencies and address them to ensure a polished final version.\n\nBy implementing these suggestions, your resume will be an even more effective representation of your qualifications for medical school. Best of luck with your application!",
+      "started_at": "2026-04-24T06:18:24.056000Z",
+      "duration_ms": 18280,
+      "tokens_in": 0,
+      "tokens_out": 437,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Provide a scaffolding on how I can write a personal statement for medical school, with my greatest qualities being compassion and a strong work ethic. I would like to include experiences of being in the cycling club at UCLA to demonstrate my strong work ethic, working with AAPI communities in the LA area with Asian Pacific Health Corps to demonstrate my compassion, and working with the Community Emergency Response Team to demonstrate both my strong work ethic and compassion. There should be an interaction with a patient physician interaction I witnessed while scribing towards the end of the scaffolding, which reaffirmed my decision to pursue medicine as a career.",
+      "started_at": "2026-04-24T06:18:43.836000Z",
+      "duration_ms": 2804,
+      "tokens_in": 167,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "Introduction:\n- Begin with a compelling anecdote or moment of insight that sparked your interest in pursuing medicine.\n- Briefly mention your greatest qualities (compassion and strong work ethic) and how they have guided you throughout your journey towards medical school.\n\nBody:\n- Discuss your experiences with the UCLA Cycling Club, detailing how the dedication and hard work it required have strengthened your work ethic.\n  - Share a specific example of a significant accomplishment or challenge you overcame during your time in the club, highlighting the connection between your experiences in the club and the perseverance needed in the medical profession.\n\n- Describe your involvement with the Asian Pacific Health Corps, focusing on your compassion for the AAPI communities in the LA area.\n  - Provide a specific example of an encounter or moment in which your compassionate approach impacted the health and wellbeing of an individual or the community as a whole.\n  - Reflect on how these experiences solidified your commitment to serving underprivileged and diverse populations in the future as a healthcare professional.\n\n- Share your experiences working with the Community Emergency Response Team to showcase both your strong work ethic and compassion.\n  - Include a particular event or project that exemplifies your dedication to both emergency preparedness and the wellbeing of the community.\n  - Explain how your involvement in the organization has prepared you to face the challenges of medical school and a career in medicine, emphasizing your ability to balance compassion and hard work in the face of adversity.\n\nConclusion:\n- Tie your experiences together with an impactful patient-physician interaction you witnessed while scribing.\n  - Explain how this encounter reaffirmed your decision to pursue medicine as a career, highlighting the physician's integration of strong work ethic and compassion.\n  - End with a reflection on how your background, qualities, and experiences have shaped your motivations and prepared you for a successful journey in the medical field.",
+      "started_at": "2026-04-24T06:18:48.140000Z",
+      "duration_ms": 21640,
+      "tokens_in": 0,
+      "tokens_out": 521,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 76,
+    "ai_cost": 100,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 18668,
+      "tokens_in": 16929,
+      "tokens_out": 1739,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 2460,
+      "duration_ms": 110280,
+      "ai_wait_ms": 75160,
+      "user_corrections": 2,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.6122,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00RD7YYRYM2SC4ZB1G",
+      "tenant": "kurson-health",
+      "session": "sess_01KPZ24TV0TJ56ZMPN7VMN5BS5",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "Please provide feedback and suggestions about the following resume, understanding that it is a part of a college graduate's application for medical school: \nEducation\nUniversity of California, Los Angeles\tLos Angeles, CA\nBS Biochemistry, GP",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPZ24TV0TJ56ZMPN7VMN5BS5.json",
+        "turn_uri": "data/sessions/sess_01KPZ24TV0TJ56ZMPN7VMN5BS5.json#turns/10"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.73).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00D79QGYADZQYKN4S5",
+      "tenant": "kurson-health",
+      "session": "sess_01KPZ24TV0TJ56ZMPN7VMN5BS5",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "write a resume entry based on this description: The Learning Assistants (LA) Program in the Sciences at UCLA is an evidence-based, multidisciplinary instructional strategy, in which undergraduate students who have succeeded in a given cours",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KPZ24TV0TJ56ZMPN7VMN5BS5.json",
+        "turn_uri": "data/sessions/sess_01KPZ24TV0TJ56ZMPN7VMN5BS5.json#turns/8"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.97).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

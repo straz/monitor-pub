@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KR59MED0NQNVT7PGDWM2M63P",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_005",
+  "title": "Make a detailed course for \u201cpersonal finance management\u201d. Divide this topic into multiple sub topics and make list of sk\u2026",
+  "started_at": "2026-05-09T02:39:00Z",
+  "ended_at": "2026-05-09T02:39:35.136000Z",
+  "duration_ms": 35136,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Make a detailed course for \u201cpersonal finance management\u201d. Divide this topic into multiple sub topics and make list of skills required for each sub topic. for each sub topic suggest top online courses from free platform.",
+      "started_at": "2026-05-09T02:39:00Z",
+      "duration_ms": 1448,
+      "tokens_in": 54,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Course: Personal Finance Management\n\nIntroduction: \n\nIn this course, you will learn the basics of personal finance management. You will learn how to manage your income, expenses, debt and investments. This course will provide you with practical skills that you can use to improve your financial situation. \n\nSub Topics: \n\n1. Budgeting\n2. Managing Debt \n3. Savings and Investments \n4. Retirement Planning \n5. Tax Planning \n\nSkills Required: \n\n1. Budgeting: \n- Creating a personal budget \n- Tracking expenses \n- Setting financial goals \n- Sticking to a budget \n\n2. Managing Debt: \n- Understanding types of debt (credit card, student loans, etc.) \n- Creating a debt repayment plan \n- Prioritizing debt payments \n- Building and maintaining credit \n\n3. Savings and Investments: \n- Identifying investment options (stocks, bonds, mutual funds, etc.) \n- Understanding risk and return \n- Creating an investment plan \n- Monitoring investment performance \n\n4. Retirement Planning: \n- Understanding retirement planning options (401k, IRA, etc.) \n- Calculating retirement expenses \n- Estimating retirement income \n- Creating a retirement savings plan \n\n5. Tax Planning: \n- Understanding tax laws \n- Identifying tax savings opportunities \n- Estimating tax liability \n- Filing taxes accurately \n\nOnline Courses: \n\n1. Budgeting: \n- How to Create a Budget (Free course on Udemy) \n- Budgeting 101: How to Start Budgeting for Beginners (Free course on Skillshare) \n\n2. Managing Debt: \n- Debt Management: How to Pay off Debt (Free course on Udemy) \n- Debt Reduction Course (Free course on Coursera) \n\n3. Savings and Investments: \n- Investing in Stocks and Bonds (Free course on Coursera) \n- Introduction to Personal Financial Planning (Free course on edX) \n\n4. Retirement Planning: \n- Personal Finance Essentials: Retirement Planning (Free course on Coursera) \n- Financial Planning for Retirement (Free course on Udemy) \n\n5. Tax Planning: \n- Tax Planning Strategies for Beginners (Free course on Udemy) \n- Personal Finance: Income Taxes for Beginners (Free course on Skillshare) \n\nConclusion: \n\nManaging personal finances is important for financial stability and long-term security. This course will teach you the basics of personal finance management and provide you with practical skills that you can use to improve your financial situation. By understanding the topics covered in this course, you will be able to make informed decisions about your finances and achieve your financial goals.",
+      "started_at": "2026-05-09T02:39:02.948000Z",
+      "duration_ms": 25520,
+      "tokens_in": 0,
+      "tokens_out": 618,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Suggest best course name for \"personal finance management\".",
+      "started_at": "2026-05-09T02:39:29.968000Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Here are some course name suggestions for \"personal finance management\":\n\n1. Mastering Personal Finance: A Comprehensive Course \n2. Financial Fitness: Managing Your Personal Finances \n3. The Ultimate Personal Finance Management Course \n4. Money Mastery: Learn to Manage Your Finances \n5. Personal Finance 101: Fundamentals for Financial Success \n6. The Complete Personal Finance Management Blueprint \n7. Money Matters: A Practical Guide to Personal Finance \n8. Personal Finance Bootcamp: Get Your Finances in Shape \n9. Budgeting & Investing Strategies for Smart Personal Finance \n10. Financial Freedom: The Personal Finance Management Course",
+      "started_at": "2026-05-09T02:39:32.436000Z",
+      "duration_ms": 7200,
+      "tokens_in": 0,
+      "tokens_out": 160,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2718,
+      "tokens_in": 1940,
+      "tokens_out": 778,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 68,
+      "duration_ms": 35136,
+      "ai_wait_ms": 32720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0021,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:treasury",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

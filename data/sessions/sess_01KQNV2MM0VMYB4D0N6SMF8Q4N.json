@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQNV2MM0VMYB4D0N6SMF8Q4N",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "list 200 advanced terms used by 3d designers .",
+  "started_at": "2026-05-03T02:36:00Z",
+  "ended_at": "2026-05-03T02:38:32.752000Z",
+  "duration_ms": 152752,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "list 200 advanced terms used by 3d designers .",
+      "started_at": "2026-05-03T02:36:00Z",
+      "duration_ms": 932,
+      "tokens_in": 11,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Ambient occlusion\n2. Anisotropic filtering\n3. Anti-aliasing\n4. Arch viz\n5. Asset\n6. Atmospherics\n7. Automatic UV mapping\n8. Axis\n9. Bake\n10. B\u00e9zier curve\n11. Bitmap\n12. Boolean\n13. Bump map\n14. Camera\n15. Capsule\n16. Cartesian coordinates\n17. Catmull-Clark\n18. Chamfer\n19. Chunks\n20. Clipping plane\n21. Cloth simulation\n22. Color grading\n23. Composite\n24. Concave\n25. Cone\n26. Conversion factor\n27. Co-planar\n28. CSG (Constructive Solid Geometry)\n29. Cubic spline\n30. Cylinder\n31. Decal\n32. Default object\n33. Depth of field\n34. Diffuse\n35. Dilation\n36. Displacement map\n37. Dissolve\n38. Double precision\n39. Edge\n40. Edge loop\n41. Environment map\n42. Extrude\n43. Faceting\n44. Filter\n45. Final gather\n46. Fog\n47. Forward kinematics\n48. Frustum\n49. Geodesic\n50. Gizmo\n51. Glow\n52. Gradient\n53. Grayscale\n54. Greedy\n55. Grid\n56. Group\n57. Hair\n58. HDRI\n59. Hierarchy\n60. Hull\n61. HyperNURBS\n62. IK (Inverse Kinematics)\n63. Incident angle\n64. Inertial space\n65. Instance\n66. Inverse kinematics\n67. Isoline\n68. Joint\n69. KD tree\n70. Keyframe\n71. Kinematics\n72. Kartesian coordinates\n73. Lattice\n74. Layer\n75. Lightmap\n76. Line (geometry)\n77. Linear interpolation\n78. Low poly\n79. Luminance\n80. Material\n81. Matrix\n82. Merge\n83. Mesh\n84. Metaballs\n85. Mirror\n86. Modifier\n87. Motion blur\n88. Multiresolution\n89. Normal map\n90. Null object\n91. Occlusion\n92. Occlusion culling\n93. Offset\n94. OpenSubdiv\n95. Orthographic projection\n96. Outline\n97. Paint Layers\n98. Pass\n99. Path\n100. PBR (Physically Based Rendering)\n101. Perspective distortion\n102. Pixel\n103. Point light\n104. Polygon\n105. Polyline\n106. PopcornFX\n107. Power of 2\n108. Precision\n109. Primary ray\n110. Procedural\n111. Projectile motion\n112. PSD (Photoshop Document)\n113. Quad\n114. Quality settings\n115. Radius\n116. Ray tracing\n117. Reflectivity\n118. Refraction\n119. Render\n120. Rendering\n121. Rig\n122. Rope simulation\n123. Rotation\n124. Scaling\n125. Scattering\n126. SDF (Signed Distance Field)\n127. Shader\n128. Shadow\n129. Shading\n130. Shape\n131. Shared vertex\n132. Shear\n133. Skeleton\n134. Skin\n135. Skydome\n136. Smooth shading\n137. Snapping\n138. Soft body\n139. Solid\n140. Spline\n141. Split\n142. Spot light\n143. Squash and stretch\n144. Static mesh\n145. Stereoscopic\n146. Subdivision surface\n147. Subsurface scattering\n148. Supersampling\n149. Surface noise\n150. Symmetry\n151. System unit\n152. Tangent space\n153. Target\n154. Tesselation\n155. Texel\n156. Textures\n157. Third-person camera\n158. Threshold\n159. Timeline\n160. Topology\n161. Torus\n162. Transformations\n163. Transparency\n164. Triangulation\n165. Triangle strips\n166. Trilinear filtering\n167. Triple-A\n168. Tris\n169. Tweak\n170. Type\n171. Undefined\n172. Unit\n173. Unity 3D\n174. UV\n175. UV map\n176. Vector\n177. Vertex\n178. Viewport\n179. Virtual camera\n180. Visible range\n181. Volume lighting\n182. VR (Virtual Reality)\n183. Voxel\n184. Walkthrough\n185. Warping\n186. Weight paint\n187. Wireframe\n188. Wrap deformer\n189. X-axis\n190. Y-axis\n191. Z-axis\n192. ZBrush\n193. Z-curve\n194. Z-depth\n195. Z-up\n196. Zygote Body\n197. Defocus\n198. Albedo\n199. Ambiguity\n200. Anaglyph.",
+      "started_at": "2026-05-03T02:36:02.432000Z",
+      "duration_ms": 31600,
+      "tokens_in": 0,
+      "tokens_out": 770,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "list 100 advanced terms used by 3d designers  with definition .",
+      "started_at": "2026-05-03T02:36:35.532000Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Ambient Occlusion - The shading of objects in 3D graphics to create the impression of contact shadows, or the dark areas where objects meet.\n\n2. Anisotropic filtering - A technique used to improve the sharpness and clarity of textures by smoothing out the edges of objects in 3D graphics.\n\n3. Anti-aliasing - The technique of smoothing out jagged edges in 3D graphics, so that lines and edges appear smoother and more natural.\n\n4. Arch viz - Abbreviation of architectural visualization, the process of creating 3D models and renders of buildings and structures to visualize and communicate design concepts.\n\n5. Asset - A 3D model, texture, or other digital resource used in the creation of 3D graphics.\n\n6. Atmospherics - A set of techniques used to create atmospheric effects such as fog, mist, and haze in 3D graphics.\n\n7. Automatic UV mapping - A technique used to automatically create texture coordinates for a 3D model, based on its shape and topology.\n\n8. Axis - An imaginary line around which an object rotates or moves in 3D space.\n\n9. Bake - The process of transferring the color, lighting, and other details of a high-resolution 3D model onto a lower-resolution version of the same model, usually for use in real-time applications.\n\n10. B\u00e9zier curve - A mathematical curve used to represent smooth curves and shapes in 3D graphics.\n\n11. Bitmap - A digital image file consisting of a grid of pixels, or small dots of color.\n\n12. Boolean - A type of operation used to combine or subtract shapes in 3D modeling, typically used to create complex shapes and forms.\n\n13. Bump map - A texture map used to create the illusion of small bumps or ridges on a 3D object's surface, without actually changing its geometry.\n\n14. Camera - A virtual camera used to capture the view and perspective of a 3D scene, typically used to create renders and animations.\n\n15. Capsule - A geometric shape used in 3D modeling, consisting of a cylinder with hemispherical ends.\n\n16. Cartesian coordinates - A system used to describe the position of objects in 3D space, based on three coordinates (x, y, z).\n\n17. Catmull-Clark - A subdivision surface algorithm used to create smooth, rounded shapes in 3D modeling.\n\n18. Chamfer - A technique used to round off the corners of objects in 3D modeling.\n\n19. Chunks - Divisions of a larger 3D scene or object, used to optimize performance and manage complex scenes.\n\n20. Clipping plane - A boundary used to define which parts of a 3D object or scene are visible and which are not.\n\n21. Cloth simulation - A technique used to simulate the dynamic behavior of fabric and other flexible materials in 3D graphics.\n\n22. Color grading - The process of adjusting the color and tone of a 3D image or video to create a desired look or mood.\n\n23. Composite - The process of combining multiple layers of 3D graphics or effects into a single image or video.\n\n24. Concave - A shape in 3D graphics that has an indented or hollowed-out portion.\n\n25. Cone - A geometric shape used in 3D modeling, consisting of a circular base and a pointed tip.\n\n26. Conversion factor - A numerical value used to convert from one unit of measurement to another in 3D modeling and design.\n\n27. Co-planar - A term used to describe two or more points or shapes in 3D space that lie in the same plane.\n\n28. CSG (Constructive Solid Geometry) - A modeling technique used to create complex 3D shapes and forms by combining simple shapes through Boolean operations.\n\n29. Cubic spline - A mathematical curve used to represent smooth curves and shapes in 3D graphics, more flexible than a B\u00e9zier curve.\n\n30. Cylinder - A geometric shape used in 3D modeling, consisting of a circular base and a cylindrical body.\n\n31. Decal - A 2D image applied to a 3D object to add details or textures.\n\n32. Default object - A pre-existing 3D object or shape that is used as a starting point in 3D modeling and design.\n\n33. Depth of field - The distance between the nearest and farthest objects in 3D space that are in focus at any given time, used to create a sense of depth and realism in 3D graphics.\n\n34. Diffuse - The property of a surface that determines how it reflects light in 3D graphics.\n\n35. Dilation - The process of expanding a 3D object or shape to make it larger.\n\n36. Displacement map - A type of texture map used to create the illusion of depth and detail on the surface of a 3D object.\n\n37. Dissolve - A technique used to make parts of a 3D object or scene gradually disappear or fade away.\n\n38. Double precision - A numerical representation used in 3D graphics and design that provides greater accuracy and precision than single precision.\n\n39. Edge - A line that defines the boundary of a 3D surface or object.\n\n40. Edge loop - A continuous chain of edges in a 3D model that define its shape and topology.\n\n41. Environment map - A type of texture map used to create the illusion of reflections and lighting in 3D graphics.\n\n42. Extrude - The process of extending or stretching a 2D shape into a 3D object.\n\n43. Faceting - The process of dividing a 3D object into flat, planar surfaces, often used to create low-poly models.\n\n44. Filter - A digital tool used to modify the quality or appearance of a 3D image or video.\n\n45. Final gather - A technique used in 3D graphics to calculate the lighting and shading of a scene, typically used in global illumination.\n\n46. Fog - A natural atmospheric effect used to add depth and atmosphere to 3D graphics.\n\n47. Forward kinematics - A technique used to define the motion of a 3D object based on the position and trajectory of its limbs and joints.\n\n48. Frustum - A 3D shape used to define the viewing volume of a camera in 3D graphics.\n\n49. Geodesic - A geometric shape used in 3D modeling, consisting of a surface divided into a network of triangles.\n\n50. Gizmo - A set of icons or widgets used to manipulate and transform 3D objects in a 3D software.\n\n51. Glow - A special lighting effect used to create a glowing or luminous appearance in 3D graphics.\n\n52. Gradient - A smooth transition between two or more colors or values in 3D graphics.\n\n53. Grayscale - A type of image or texture that uses shades of gray to represent levels of brightness in 3D graphics.\n\n54. Greedy - A term used to describe an algorithm or technique that tries to optimize performance or minimize resource usage in 3D graphics and design.\n\n55. Grid - A network of evenly spaced lines used to define the position and scale of a 3D scene or object.\n\n56. Group - A collection of 3D objects or shapes that are treated as a single unit in a 3D software.\n\n57. Hair - A type of simulation used to create the appearance of hair or fur on 3D objects.\n\n58. HDRI - High Dynamic Range Imaging, a type of image capture and processing technique used to create more realistic lighting and reflections in 3D graphics.\n\n59. Hierarchy - The arrangement of 3D objects and shapes in a hierarchical structure, based on their relationships and dependencies.\n\n60. Hull - The outer surface or boundary of a 3D object or shape.\n\n61. HyperNURBS - A type of subdivision surface algorithm used to create smooth, rounded shapes in 3D modeling.\n\n62. IK (Inverse Kinematics) - A technique used to determine the motion of a 3D object based on the desired position of its end effector, typically used in animation.\n\n63. Incident angle - The angle at which light rays strike a surface in 3D graphics and design.\n\n64. Inertial space - The reference frame used to describe the motion and position of 3D objects and shapes.\n\n65. Instance - A copy of a 3D object or shape that shares the same properties and attributes as the original.\n\n66. Inverse kinematics - A technique used to determine the motion of a 3D object based on the desired position of its end effector, typically used in animation.\n\n67. Isoline - A curve that connects points of equal value or intensity in a 3D surface or object.\n\n68. Joint - A point of articulation or movement in a 3D object or shape, used to create realistic motion and animation.\n\n69. KD tree - A data structure used to organize and search complex 3D objects and scenes.\n\n70. Keyframe - A specific point in time in a 3D animation that defines the position, rotation, and other properties of a 3D object or shape.\n\n71. Kinematics - The study of the motion and movement of 3D objects and shapes, typically used in animation and robotics.\n\n72. Kartesian coordinates - The system used to describe the position of objects in 3D space, based on three coordinates (x, y, z).\n\n73. Lattice - A type of modifier used to deform and manipulate 3D objects or shapes in complex ways.\n\n74. Layer - A virtual layer that contains one or more 3D objects or shapes, used to organize and manage complex scenes.\n\n75. Lightmap - A texture map used to enhance the lighting and shading of a 3D scene or object.\n\n76. Line (geometry) - A straight or curved line that defines the boundary or shape of a 3D object or scene.\n\n77. Linear interpolation - A mathematical technique used to linearly interpolate between two or more values in 3D graphics and design.\n\n78. Low poly - A type of 3D modeling that uses fewer polygons to create simple, stylized shapes and forms.\n\n79. Luminance - The brightness or intensity of light in 3D graphics and design.\n\n80. Material - The virtual material or texture applied to a 3D object or scene, used to create the appearance and properties of its surface.\n\n81. Matrix - A mathematical representation used to describe the position, rotation, and scale of 3D objects and shapes.\n\n82. Merge - The process of combining two or more 3D objects or shapes into a single object or shape.\n\n83. Mesh - A network of vertices, edges, and faces that define the shape and surface of a 3D object.\n\n84. Metaballs - A type of modeling technique used to create organic and fluid shapes in 3D graphics.\n\n85. Mirror - A tool or modifier used to create symmetrical copies of 3D objects and shapes in 3D modeling.\n\n86. Modifier - A virtual tool or function used to modify and manipulate 3D objects and shapes in a 3D software.\n\n87. Motion blur - A technique used to create the appearance of motion or movement in 3D animation.\n\n88. Multiresolution - A technique used to create detailed 3D objects and shapes by gradually adding more polygons to their mesh.\n\n89. Normal map - A type of texture map used to create the illusion of depth and detail on the surface of a 3D object, based on the orientation of its normals.\n\n90. Null object - A virtual object or shape used as a reference point or placeholder in 3D animation and design.\n\n91. Occlusion - The process of modeling or calculating the shadow and occlusion effects of objects in 3D graphics and design.\n\n92. Occlusion culling - A technique used to optimize performance in 3D graphics by culling or hiding objects that are not visible due to occlusion.\n\n93. Offset - The process of moving or shifting a 3D object or shape in 3D space, typically used to align objects or create animation effects.\n\n94. OpenSubdiv - A subdivision surface algorithm used to create smooth, rounded shapes in 3D modeling, developed by Pixar Animation Studios.\n\n95. Orthographic projection - A type of projection used to create 3D graphics with a fixed and consistent perspective.\n\n96. Outline - A thin or thick line that defines the silhouette or boundary of a 3D object or shape.\n\n97. Paint Layers - A type of modifier used to create and manipulate 3D textures and materials in a 3D software.\n\n98. Pass - A discrete step or stage in the rendering pipeline of 3D graphics, used to optimize performance and manage complex scenes.\n\n99. Path - A pre-defined set of points or nodes used to define the motion or trajectory of a 3D object in animation.\n\n100. PBR (Physically Based Rendering) - A rendering technique used to create more realistic and physically accurate 3D graphics, based on real-world physics and materials.",
+      "started_at": "2026-05-03T02:36:38.012000Z",
+      "duration_ms": 119240,
+      "tokens_in": 0,
+      "tokens_out": 2961,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 34,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 5738,
+      "tokens_in": 2007,
+      "tokens_out": 3731,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 26,
+      "duration_ms": 152752,
+      "ai_wait_ms": 150840,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0066,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00WDPETFB8QBH9NYZB",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQNV2MM0VMYB4D0N6SMF8Q4N",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "list 100 advanced terms used by 3d designers  with definition .",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQNV2MM0VMYB4D0N6SMF8Q4N.json",
+        "turn_uri": "data/sessions/sess_01KQNV2MM0VMYB4D0N6SMF8Q4N.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.67).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

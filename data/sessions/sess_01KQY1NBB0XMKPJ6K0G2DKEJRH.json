@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQY1NBB0XMKPJ6K0G2DKEJRH",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "provide a list of companies that help find the best residential electric home contracts",
+  "started_at": "2026-05-06T07:05:00Z",
+  "ended_at": "2026-05-06T07:05:51.376000Z",
+  "duration_ms": 51376,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "provide a list of companies that help find the best residential electric home contracts\n",
+      "started_at": "2026-05-06T07:05:00Z",
+      "duration_ms": 1064,
+      "tokens_in": 22,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Choose Energy - Choose Energy is an online platform that compares electricity plans and rates from various providers, helping consumers find the best possible electric home contracts. \nWebsite: https://www.chooseenergy.com\n\n2. EnergySage - EnergySage is a leading energy marketplace which partners with solar providers and other energy companies to offer competitive residential electricity contracts. \nWebsite: https://www.energysage.com\n\n3. Power to Choose - Power to Choose is an online platform that enables users to compare electric plans, rates, and providers in Texas, helping residents find the ideal contractual agreement. \nWebsite: https://www.powertochoose.org\n\n4. SaveOnEnergy - SaveOnEnergy is a top energy marketplace for locating and comparing providers of electric home contracts. \nWebsite: https://www.saveonenergy.com\n\n5. ElectricityRates.com - ElectricityRates.com is an online marketplace that allows users to compare electric companies, rates, and plans, enabling them to choose the best residential electric home contract. \nWebsite: https://www.electricityrates.com\n\n6. ElectricRate - ElectricRate.com connects customers with various electricity suppliers, offering detailed information on different plans to help users find the best home electrical contracts. \nWebsite: https://www.electricrate.com\n\n7. The Electric Connection - The Electric Connection is a platform that compares electricity providers and plans, making it easy for homeowners to find the best company for residential electric home contracts. \nWebsite: https://www.electricconnection.com\n\n8. MAKE THE SWITCH USA - This platform simplifies the process of finding and evaluating the best residential electric home contracts by offering multiple supplier options and rates. \nWebsite: https://www.maketheswitchusa.com\n\n9. Allconnect - Allconnect is a provider comparison tool that allows users to compare rates, plans, and providers from popular residential electric companies. \nWebsite: https://www.allconnect.com\n\n10. Utility Warehouse - Utility Warehouse is a service that helps customers find the best deals on residential electric home contracts, offering easy comparisons between providers and plans. \nWebsite: https://www.utilitywarehouse.co.uk",
+      "started_at": "2026-05-06T07:05:02.564000Z",
+      "duration_ms": 23200,
+      "tokens_in": 0,
+      "tokens_out": 560,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "provide a list of companies that help find and compare the best texas residential electric home contracts\n",
+      "started_at": "2026-05-06T07:05:27.264000Z",
+      "duration_ms": 1112,
+      "tokens_in": 26,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "1. Power to Choose - Power to Choose is an online platform that enables users to compare electric plans, rates, and providers specifically in Texas, helping residents find the ideal contractual agreement.\nWebsite: https://www.powertochoose.org\n\n2. Choose Texas Power - Choose Texas Power compares electricity plans and rates from various providers in Texas, helping consumers make informed decisions when selecting residential electric home contracts.\nWebsite: https://www.choosetexaspower.org\n\n3. Energy Ogre - Energy Ogre is a Texas-based company that helps users find the best electricity plans in their area, offering personalized recommendations and assistance with switching providers.\nWebsite: https://www.energyogre.com\n\n4. SaveOnEnergy - SaveOnEnergy has a dedicated Texas page that allows users to compare electric rates and plans from top providers in the state, making it easy for residents to find the best home electrical contracts.\nWebsite: https://www.saveonenergy.com/texas/\n\n5. ElectricityPlans - ElectricityPlans is a platform that focuses on Texas and Connecticut, providing users an easy way to compare rates, plans, and providers from popular residential electric companies in Texas.\nWebsite: https://www.electricityplans.com\n\n6. Awesome Power Texas - Awesome Power Texas offers a simple and easy-to-use platform for comparing electric rates and plans from different providers in the state, helping users find the right residential electric home contract.\nWebsite: https://www.awesomepowertexas.com\n\n7. Texas Electric Rates - Texas Electric Rates provides a comparison shopping platform for residential electricity plans, featuring a wide range of providers and easy-to-understand information about each plan.\nWebsite: https://www.texaselectricrates.com\n\n8. Texas Energy Rates - Texas Energy Rates offers detailed comparisons of electricity plans and providers in Texas, making it straightforward for users to find and switch to the best residential electric home contracts.\nWebsite: https://www.texasenergyrates.net\n\n9. Vault Electricity - Vault Electricity offers an extensive comparison of electricity rates, plans, and providers in Texas, enabling users to find the best energy contract for their home.\nWebsite: https://www.vaultelectricity.com\n\n10. ComparePower - ComparePower is an independent marketplace dedicated to helping Texans compare electric providers and plans, allowing users to find the best residential electric home contract based on their needs.\nWebsite: https://comparepower.com",
+      "started_at": "2026-05-06T07:05:29.876000Z",
+      "duration_ms": 26000,
+      "tokens_in": 0,
+      "tokens_out": 630,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 26,
+    "ai_cost": 21,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 3020,
+      "tokens_in": 1830,
+      "tokens_out": 1190,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 48,
+      "duration_ms": 51376,
+      "ai_wait_ms": 49200,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.1263,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00RVEPH4EZ0RFGZCC9",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KQY1NBB0XMKPJ6K0G2DKEJRH",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "provide a list of companies that help find and compare the best texas residential electric home contracts\n",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQY1NBB0XMKPJ6K0G2DKEJRH.json",
+        "turn_uri": "data/sessions/sess_01KQY1NBB0XMKPJ6K0G2DKEJRH.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.82).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

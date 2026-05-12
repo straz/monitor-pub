@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KPN85TY0QMCXZRM0713KNK6M",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_009",
+  "title": "what is the least expensive hipaa-compliant email service?",
+  "started_at": "2026-04-20T10:50:00Z",
+  "ended_at": "2026-04-20T10:50:18.632000Z",
+  "duration_ms": 18632,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "what is the least expensive hipaa-compliant email service?",
+      "started_at": "2026-04-20T10:50:00Z",
+      "duration_ms": 968,
+      "tokens_in": 14,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an AI language model, I cannot provide a specific recommendation for the least expensive HIPAA-compliant email service as it can vary depending on a number of factors such as business size, user requirements, storage, etc. However, some cost-efficient email service providers that offer HIPAA-compliant email services are LuxSci, Paubox, and MD OfficeMail. It is advisable to research and compare different service providers based on their features, security, compliance, and pricing before making a decision.",
+      "started_at": "2026-04-20T10:50:02.468000Z",
+      "duration_ms": 5920,
+      "tokens_in": 0,
+      "tokens_out": 128,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "where can i get the most free cloud storage space?",
+      "started_at": "2026-04-20T10:50:09.888000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "There are various online cloud storage services that offer free storage space for their users. Here are some of the cloud storage services that provide the most free space:\n\n1. Google Drive: Google Drive offers 15GB of free storage space to its users.\n\n2. Microsoft OneDrive: Microsoft OneDrive provides 5GB of free storage space, and if you use Microsoft Office, you can receive an additional 1TB of storage.\n\n3. Box: Box provides 10GB of free storage space to its users.\n\n4. Dropbox: Dropbox offers 2GB of free storage space, but you can increase it up to 16GB by referring friends or completing certain tasks.\n\n5. Mega: Mega provides 50GB of free storage space to its users.\n\nIt's essential to note that some of these free cloud storage services might have limitations like file size, bandwidth usage, or limited time availability. Therefore, it's advisable to research each provider, their terms of service, and their suitability to your needs before selecting a particular cloud storage service.",
+      "started_at": "2026-04-20T10:50:12.332000Z",
+      "duration_ms": 10800,
+      "tokens_in": 0,
+      "tokens_out": 250,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1746,
+      "tokens_in": 1368,
+      "tokens_out": 378,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 26,
+      "duration_ms": 18632,
+      "ai_wait_ms": 16720,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0013,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:compliance",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

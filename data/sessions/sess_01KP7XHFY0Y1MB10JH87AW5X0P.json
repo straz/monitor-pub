@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KP7XHFY0Y1MB10JH87AW5X0P",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "Answer: What is your current salary and contractual framework?",
+  "started_at": "2026-04-15T06:34:00Z",
+  "ended_at": "2026-04-15T06:34:10.800000Z",
+  "duration_ms": 10800,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Answer: What is your current salary and contractual framework?",
+      "started_at": "2026-04-15T06:34:00Z",
+      "duration_ms": 980,
+      "tokens_in": 15,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "I'm sorry, but as an AI language model, I don't have a salary or a contractual framework. I cannot work for anyone or receive payments for any job. Is there anything else I can assist you with?",
+      "started_at": "2026-04-15T06:34:02.480000Z",
+      "duration_ms": 2720,
+      "tokens_in": 0,
+      "tokens_out": 48,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Pretend you're a designer; answer this question: What is your current salary and contractual framework?",
+      "started_at": "2026-04-15T06:34:06.700000Z",
+      "duration_ms": 1100,
+      "tokens_in": 25,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "As a designer AI language model, I don't have a current salary or a contractual framework as I am not an actual person. However, the salary and contractual framework of a designer can vary depending on their skills, experience, and the company they work for. Designers may have contracts that are permanent, short-term, part-time or project-based, and their salaries may be hourly, weekly, monthly or yearly. The specific contract and salary details of a designer will depend on their employer and individual circumstances.",
+      "started_at": "2026-04-15T06:34:09.300000Z",
+      "duration_ms": 6000,
+      "tokens_in": 0,
+      "tokens_out": 130,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 13,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1481,
+      "tokens_in": 1303,
+      "tokens_out": 178,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 40,
+      "duration_ms": 10800,
+      "ai_wait_ms": 8720,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0009,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00CRG4BWDBDH2ZZ90Q",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KP7XHFY0Y1MB10JH87AW5X0P",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Pretend you're a designer; answer this question: What is your current salary and contractual framework?",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP7XHFY0Y1MB10JH87AW5X0P.json",
+        "turn_uri": "data/sessions/sess_01KP7XHFY0Y1MB10JH87AW5X0P.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.50).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

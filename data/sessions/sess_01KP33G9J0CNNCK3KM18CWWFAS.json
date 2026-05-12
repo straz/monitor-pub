@@ -1,0 +1,291 @@
+{
+  "id": "sess_01KP33G9J0CNNCK3KM18CWWFAS",
+  "tenant": "axiom-bank",
+  "project": "chatgpt_general",
+  "user": "u_axb_010",
+  "title": "If you were to write a book about applications of SVM to solve problems in marketing. The book is comprehensive and acce\u2026",
+  "started_at": "2026-04-13T09:42:00Z",
+  "ended_at": "2026-04-13T09:44:52.720000Z",
+  "duration_ms": 172720,
+  "turn_count": 14,
+  "status": "closed",
+  "model_class": "frontier",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "If you were to write a book about applications of SVM to solve problems in marketing. The book is comprehensive and accessible and focus on case studies with dataset. What the table of contents might be?",
+      "started_at": "2026-04-13T09:42:00Z",
+      "duration_ms": 1400,
+      "tokens_in": 50,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Title: SVM-Based Marketing Analytics: Case Studies and Datasets\n\nTable of Contents\n\n1. Introduction\n    1.1 Marketing Analytics\n    1.2 Support Vector Machines: An Overview\n    1.3 Case Studies and Datasets\n    1.4 Organization of the Book\n\n2. Basics of Support Vector Machines\n    2.1 Introduction to Machine Learning\n    2.2 SVM Concepts and Theory\n    2.3 Kernel Functions\n    2.4 Model Selection and Parameter Tuning\n\n3. Data Preparation and Processing in Marketing Analytics\n    3.1 Data Collection\n    3.2 Data Cleaning and Preprocessing\n    3.3 Feature Selection and Extraction\n    3.4 Splitting Data for Training and Testing\n\n4. Customer Segmentation and Targeting\n    4.1 Introduction to Customer Segmentation\n    4.2 Case Study: Using SVM for Clustering Market Segments\n    4.3 Analyzing and Validating the Results\n    4.4 Applications in Marketing Strategies\n\n5. Churn Prediction and Customer Retention\n    5.1 Churn Prediction and Its Importance in Marketing\n    5.2 Case Study: Predicting Churn Using SVM\n    5.3 Analyzing and Validating the Results\n    5.4 Strategies for Customer Retention\n\n6. Customer Lifetime Value Estimation\n    6.1 Introduction to Customer Lifetime Value\n    6.2 Case Study: Estimating Customer Lifetime Value using SVM\n    6.3 Analyzing and Validating the Results\n    6.4 Implications in Marketing Strategies\n\n7. Sentiment Analysis for Market Research\n    7.1 Sentiment Analysis and Its Importance in Marketing\n    7.2 Case Study: Performing Sentiment Analysis using SVM\n    7.3 Analyzing and Validating the Results\n    7.4 Using Sentiment Analysis in Market Research\n\n8. Sales Forecasting and Optimization\n    8.1 Introduction to Sales Forecasting\n    8.2 Case Study: Sales Forecasting Using SVM\n    8.3 Analyzing and Validating the Results\n    8.4 Implications in Marketing and Sales Strategies\n\n9. Product Recommendations\n    9.1 Introduction to Recommender Systems\n    9.2 Case Study: Product Recommendation using SVM\n    9.3 Analyzing and Validating the Results\n    9.4 Boosting Sales with Quality Recommendations\n\n10. Social Media Analytics\n    10.1 Introduction to Social Media in Marketing\n    10.2 Case Study: Social Media Analytics using SVM\n    10.3 Analyzing and Validating the Results\n    10.4 Strategies for Social Media Marketing\n\n11. Comparison with Other Machine Learning Techniques\n    11.1 Key Differentiators of SVM\n    11.2 Comparing Performance for Marketing Problems\n    11.3 Choosing the Right Algorithm for Marketing Analytics\n\n12. Conclusion and Future Trends\n    12.1 Recap of Case Studies\n    12.2 Future Trends and Emerging Applications\n    12.3 Personalization and AI in Marketing Analytics",
+      "started_at": "2026-04-13T09:42:02.900000Z",
+      "duration_ms": 27360,
+      "tokens_in": 0,
+      "tokens_out": 664,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Write a complete outline of all the key points you gonna discuss in 9.4 Boosting Sales with Quality Recommendations",
+      "started_at": "2026-04-13T09:42:31.760000Z",
+      "duration_ms": 1136,
+      "tokens_in": 28,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "9.4 Boosting Sales with Quality Recommendations\n\n9.4.1 Introduction\n    a) Importance of Product Recommendations in Sales\n    b) Factors Affecting Recommendations\n\n9.4.2 Analyzing Customer Behavior for Recommendations\n    a) Customer Demographics\n    b) Past Purchase History\n    c) Customer Interests and Preferences\n    d) Browsing Behavior and Online Activity\n\n9.4.3 Personalizing Recommendations\n    a) Collaborative Filtering\n        i) User-User Collaborative Filtering\n        ii) Item-Item Collaborative Filtering\n    b) Content-Based Filtering\n    c) Hybrid Recommendation Systems\n\n9.4.4 Improving Recommendation Quality\n    a) Using SVM for Recommendations\n    b) Optimizing Kernel Functions and Parameters\n    c) Evaluating Recommendation Performance\n    d) Updating Recommendations Based on User Feedback\n\n9.4.5 User Interface and Presentation of Recommendations\n    a) Understanding Customer Decision-Making\n    b) Visually Appealing and Engaging Interfaces\n    c) Contextual and Situation-Based Recommendations\n\n9.4.6 Cross-Platform Consistency\n    a) Synchronizing Recommendations across Devices\n    b) Integrating Recommendations with Omnichannel Marketing\n\n9.4.7 Evaluation and Monitoring of Recommendation Strategies\n    a) Key Performance Indicators for Recommendations\n    b) Impact of Recommendations on Sales Metrics\n    c) A/B Testing and Iterative Improvement\n\n9.4.8 Challenges and Limitations\n    a) Cold Start Problem\n    b) Scalability and Performance\n\n9.4.9 Conclusion\n    a) Recap of Steps to Boost Sales with Quality Recommendations\n    b) Importance of Continuous Improvement and Experimentation",
+      "started_at": "2026-04-13T09:42:34.396000Z",
+      "duration_ms": 17040,
+      "tokens_in": 0,
+      "tokens_out": 406,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Write complete outline of all the key points you gonna discuss in User-User Collaborative Filtering",
+      "started_at": "2026-04-13T09:42:52.936000Z",
+      "duration_ms": 1088,
+      "tokens_in": 24,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "User-User Collaborative Filtering\n\nI. Introduction to User-User Collaborative Filtering\n    A. Overview of Collaborative Filtering\n    B. Importance of User-User Collaborative Filtering in Recommendation Systems\n\nII. Basics of User-User Collaborative Filtering\n    A. Concept and Theory\n    B. Finding Similar Users\n        1. Cosine Similarity\n        2. Pearson Correlation Coefficient\n        3. Jaccard Index\n    C. Generating Recommendations\n\nIII. Data Requirements and Preparation\n    A. User Interaction Data\n       1. Explicit Feedback (e.g., ratings, likes)\n       2. Implicit Feedback (e.g., browsing history, clicks)\n    B. Data Preprocessing and Cleaning\n        1. Handling Missing Data\n        2. Normalization\n    C. Construction of User-Item Matrix\n\nIV. Implementation of User-User Collaborative Filtering\n    A. Calculating User Similarity\n        1. Similarity Metrics\n        2. Selecting the Appropriate Metric\n    B. Predicting User Ratings\n        1. Weighted Sum of Ratings\n        2. Adjusted Cosine Similarity\n    C. Generating Top-N Recommendations\n\nV. Improvement of User-User Collaborative Filtering\n    A. Addressing the Sparsity Problem\n        1. Dimensionality Reduction (e.g., Singular Value Decomposition)\n        2. Neighborhood Selection (e.g., k-Nearest Neighbors)\n    B. Incorporating Temporal Dynamics\n        1. Time-Weighted Ratings\n        2. User Drift\n\nVI. Integrating User-User Collaborative Filtering with SVM\n    A. Combining Similarity Scores with SVM Predictions\n    B. Enhanced Recommendation Quality\n\nVII. Evaluation of User-User Collaborative Filtering Performance\n    A. Splitting Data for Training and Testing\n    B. Metrics for Recommendation Evaluation\n        1. Mean Absolute Error (MAE)\n        2. Root Mean Squared Error (RMSE)\n        3. Precision and Recall\n    C. Cross-Validation and Model Selection\n\nVIII. Challenges and Limitations of User-User Collaborative Filtering\n    A. Scalability\n    B. Cold Start Problem\n    C. Diversity and Serendipity\n\nIX. Conclusion\n    A. Recap of Key Points in User-User Collaborative Filtering\n    B. Importance of User-User Collaborative Filtering in Recommender Systems",
+      "started_at": "2026-04-13T09:42:55.524000Z",
+      "duration_ms": 22480,
+      "tokens_in": 0,
+      "tokens_out": 542,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 6,
+      "speaker": "user",
+      "text": "If you were to write a book about applications of SVM to solve problems in finance. The book is comprehensive and accessible and focus on case studies with dataset. What the table of contents might be?",
+      "started_at": "2026-04-13T09:43:19.504000Z",
+      "duration_ms": 1400,
+      "tokens_in": 50,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 7,
+      "speaker": "assistant",
+      "text": "Title: SVM Applications in Finance: Case Studies and Datasets\n\nTable of Contents\n\n1. Introduction\n    1.1 Financial Analytics\n    1.2 Support Vector Machines: An Overview\n    1.3 Case Studies and Datasets\n    1.4 Organization of the Book\n\n2. Basics of Support Vector Machines\n    2.1 Introduction to Machine Learning\n    2.2 SVM Concepts and Theory\n    2.3 Kernel Functions\n    2.4 Model Selection and Parameter Tuning\n\n3. Data Preparation and Processing in Financial Analytics\n    3.1 Data Collection\n    3.2 Data Cleaning and Preprocessing\n    3.3 Feature Selection and Extraction\n    3.4 Splitting Data for Training and Testing\n\n4. Credit Scoring and Risk Analysis\n    4.1 Introduction to Credit Scoring\n    4.2 Case Study: Credit Scoring using SVM\n    4.3 Analyzing and Validating the Results\n    4.4 Applications in Risk Management\n\n5. Fraud Detection and Prevention\n    5.1 Introduction to Fraud Detection in Finance\n    5.2 Case Study: Detecting Fraud using SVM\n    5.3 Analyzing and Validating the Results\n    5.4 Strategies for Fraud Prevention\n\n6. Algorithmic Trading and Market Prediction\n    6.1 Introduction to Algorithmic Trading\n    6.2 Case Study: Financial Market Prediction using SVM\n    6.3 Analyzing and Validating the Results\n    6.4 Implementing Trading Strategies\n\n7. Portfolio Optimization and Asset Allocation\n    7.1 Introduction to Portfolio Optimization\n    7.2 Case Study: Portfolio Optimization using SVM\n    7.3 Analyzing and Validating the Results\n    7.4 Asset Allocation and Risk Management\n\n8. Bankruptcy Prediction\n    8.1 Introduction to Bankruptcy Prediction\n    8.2 Case Study: Bankruptcy Prediction using SVM\n    8.3 Analyzing and Validating the Results\n    8.4 Implications for Investors and Creditors\n\n9. Financial Sentiment Analysis\n    9.1 Introduction to Sentiment Analysis in Finance\n    9.2 Case Study: Financial Sentiment Analysis using SVM\n    9.3 Analyzing and Validating the Results\n    9.4 Implications for Investment Strategies\n\n10. Economic Forecasting\n    10.1 Introduction to Economic Forecasting\n    10.2 Case Study: Economic Forecasting Using SVM\n    10.3 Analyzing and Validating the Results\n    10.4 Applications in Financial Decision-Making\n\n11. Comparison with Other Machine Learning Techniques\n    11.1 Key Differentiators of SVM\n    11.2 Comparing Performance for Financial Problems\n    11.3 Choosing the Right Algorithm for Financial Analytics\n\n12. Conclusion and Future Trends\n    12.1 Recap of Case Studies\n    12.2 Future Trends and Emerging Applications\n    12.3 The Role of AI and SVM in Finance",
+      "started_at": "2026-04-13T09:43:22.404000Z",
+      "duration_ms": 26440,
+      "tokens_in": 0,
+      "tokens_out": 641,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 8,
+      "speaker": "user",
+      "text": "Write complete outline of all the key points you gonna discuss in \"6.2 Case Study: Financial Market Prediction using SVM\"",
+      "started_at": "2026-04-13T09:43:50.344000Z",
+      "duration_ms": 1160,
+      "tokens_in": 30,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 9,
+      "speaker": "assistant",
+      "text": "6.2 Case Study: Financial Market Prediction using SVM\n\n6.2.1 Introduction\n    A. Overview of Financial Market Prediction\n    B. Importance of Accurate Market Predictions\n    C. Role of SVM in Financial Market Prediction\n\n6.2.2 Data Collection and Preparation for Market Prediction\n    A. Sources of Financial Data\n        1. Stock Prices\n        2. Technical Indicators\n        3. Macroeconomic Variables\n        4. News and Sentiment Data\n    B. Data Preprocessing and Cleaning\n        1. Handling Missing Data\n        2. Data Transformation\n        3. Feature Scaling and Normalization\n\n6.2.3 Feature Selection and Engineering\n    A. Importance of Feature Selection\n    B. Techniques for Selecting Relevant Features\n        1. Correlation Analysis\n        2. Dimensionality Reduction\n        3. Wrapper and Filter Methods\n    C. Creating New Features from Raw Data\n        1. Technical Indicators\n        2. Sentiment Features\n\n6.2.4 SVM Model Implementation for Market Prediction\n    A. Choosing the Right Kernel Function\n    B. Parameter Tuning for Optimal Performance\n        1. Regularization Parameter (C)\n        2. Kernel-Specific Parameters (e.g., gamma)\n    C. Model Training and Validation\n        1. Time-Series Cross-Validation\n        2. Grid Search for Hyperparameter Optimization\n\n6.2.5 Handling Market Prediction Challenges with SVM\n    A. Addressing Non-Stationarity in Financial Data\n    B. Managing the Imbalanced-Class Problem\n\n6.2.6 Performance Evaluation and Benchmarking\n    A. Evaluation Metrics for Market Prediction\n        1. Mean Absolute Error (MAE)\n        2. Mean Squared Error (MSE)\n        3. Directional Accuracy\n        4. Profitability Metrics (e.g., Sharpe Ratio)\n    B. Comparing SVM Performance with Alternative Models\n        1. Linear Regression\n        2. Time Series Models (e.g., ARIMA, GARCH)\n        3. Other Machine Learning Models (e.g., Random Forest, Neural Networks)\n\n6.2.7 Implementing Predictive Trading Strategies\n    A. Designing Algorithmic Trading Rules Based on SVM Predictions\n    B. Managing Risk and Position Sizing\n    C. Evaluating Trading Strategy Performance\n\n6.2.8 Practical Considerations and Limitations\n    A. Computational Complexity and Real-Time Predictions\n    B. Data Quality and Market Efficiency Assumptions\n    C. Overfitting and Robust Model Selection\n\n6.2.9 Conclusion\n    A. Recap of Key Points in Financial Market Prediction using SVM\n    B. Importance of Continuous Improvement and Experimentation in Predictive Modeling",
+      "started_at": "2026-04-13T09:43:53.004000Z",
+      "duration_ms": 25840,
+      "tokens_in": 0,
+      "tokens_out": 626,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 10,
+      "speaker": "user",
+      "text": "If you were to write a book about applications of proximal opertator in deep learning . The book is comprehensive and accessible and focus on case studies with dataset. What the table of contents might be?",
+      "started_at": "2026-04-13T09:44:20.344000Z",
+      "duration_ms": 1412,
+      "tokens_in": 51,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 11,
+      "speaker": "assistant",
+      "text": "Title: Proximal Operators in Deep Learning: Case Studies and Datasets\n\nTable of Contents\n\n1. Introduction\n    1.1 Deep Learning Overview\n    1.2 Proximal Operators: An Overview\n    1.3 Case Studies and Datasets\n    1.4 Organization of the Book\n\n2. Basics of Deep Learning\n    2.1 Introduction to Neural Networks\n    2.2 Convolutional Neural Networks (CNNs)\n    2.3 Recurrent Neural Networks (RNNs)\n    2.4 Generative Models (GANs, VAEs)\n    2.5 Optimization Algorithms in Deep Learning\n\n3. Fundamentals of Proximal Operators\n     3.1 Introduction to Proximal Operators\n     3.2 Properties and Key Principles\n     3.3 Connections with Optimization Techniques\n     3.4 Proximal Algorithms\n\n4. Data Preparation and Processing in Deep Learning\n    4.1 Data Collection\n    4.2 Data Cleaning and Preprocessing\n    4.3 Feature Selection and Extraction\n    4.4 Data Augmentation\n\n5. Regularization in Deep Learning with Proximal Operators\n    5.1 The Role of Regularization\n    5.2 L1 and L2 Regularization\n    5.3 Case Study: Implementing Regularization with Proximal Operators\n    5.4 Analyzing and Validating the Results\n\n6. Sparse Representation and Denoising in Deep Learning\n    6.1 Sparse Representations in Deep Learning\n    6.2 Denoising Autoencoders\n    6.3 Case Study: Sparse Denoising using Proximal Operators\n    6.4 Analyzing and Validating the Results\n\n7. Optimization Algorithms with Proximal Operators in Deep Learning\n    7.1 Background of Optimization Algorithms\n    7.2 Proximal Gradient Descent\n    7.3 Proximal ADMM\n    7.4 Case Study: Optimization with Proximal Operators\n    7.5 Analyzing and Validating the Results\n\n8. Training Robust Models with Proximal Operators\n    8.1 Challenges in Model Robustness\n    8.2 Proximal Operators for Robustness\n    8.3 Case Study: Improving Model Robustness with Proximal Operators\n    8.4 Analyzing and Validating the Results\n\n9. Compressed Sensing and Reconstruction in Deep Learning\n    9.1 Introduction to Compressed Sensing\n    9.2 Proximal Algorithms for Compressed Sensing\n    9.3 Case Study: Compressed Sensing and Reconstruction with Deep Learning\n    9.4 Analyzing and Validating the Results\n\n10. Domain Adaptation and Transfer Learning with Proximal Operators\n    10.1 Introduction to Domain Adaptation and Transfer Learning\n    10.2 Proximal Operators for Domain Adaptation\n    10.3 Case Study: Transfer Learning with Proximal Operators\n    10.4 Analyzing and Validating the Results\n\n11. Comparison with Other Deep Learning Techniques\n    11.1 Key Differentiators of Proximal Operators\n    11.2 Comparing Performance for Deep Learning Problems\n    11.3 Choosing the Right Technique for Deep Learning Applications\n\n12. Conclusion and Future Trends\n    12.1 Recap of Case Studies\n    12.2 Future Trends and Emerging Applications\n    12.3 The Role of Proximal Operators in Advancing Deep Learning",
+      "started_at": "2026-04-13T09:44:23.256000Z",
+      "duration_ms": 29360,
+      "tokens_in": 0,
+      "tokens_out": 714,
+      "model": "gpt-4-0314"
+    },
+    {
+      "index": 12,
+      "speaker": "user",
+      "text": "Write a complete outlike of all the key points you gonna discuss in \"3.1 Introduction to Proximal Operators,\n",
+      "started_at": "2026-04-13T09:44:54.116000Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 13,
+      "speaker": "assistant",
+      "text": "3.1 Introduction to Proximal Operators\n\n3.1.1 Background and Motivation\n    A. Emergence of Proximal Operators\n    B. Importance in Optimization and Deep Learning\n    C. Challenges Addressed by Proximal Operators\n\n3.1.2 Definition of Proximal Operators\n    A. Mathematical Formulation\n    B. The Proximal Mapping\n    C. Role of Regularization Functions\n\n3.1.3 Key Properties of Proximal Operators\n    A. Non-Expansiveness\n    B. Monotonicity and Lipschitz Continuity\n    C. Convergence Properties\n\n3.1.4 Role of Proximal Operators in Convex Optimization\n    A. Introduction to Convex Optimization\n    B. Proximal Gradient Descent\n    C. Proximal Algorithms for Composite Optimization Problems\n    D. Convergence Guarantees and Acceleration Techniques\n\n3.1.5 Applications of Proximal Operators in Deep Learning\n    A. Regularization in Neural Networks\n    B. Sparse Representations in Deep Learning Models\n    C. Robust Training and Model Generalization\n\n3.1.6 Advantages of Using Proximal Operators\n    A. Improved Algorithm Convergence\n    B. Handling Non-Smooth and Non-Differentiable Functions\n    C. Encouraging Sparsity and Robustness in Models\n\n3.1.7 Limitations and Challenges\n    A. Computational Complexity\n    B. Selection of Regularization Functions\n    C. Scalability to Large-Scale Problems\n\n3.1.8 Conclusion\n    A. Recap of Key Points in Introduction to Proximal Operators\n    B. Rationale for Implementing Proximal Operators in Deep Learning Applications",
+      "started_at": "2026-04-13T09:44:56.740000Z",
+      "duration_ms": 15480,
+      "tokens_in": 0,
+      "tokens_out": 367,
+      "model": "gpt-4-0314"
+    }
+  ],
+  "scores": {
+    "overall_success": 54,
+    "human_effort": 96,
+    "ai_cost": 100,
+    "issue_count": {
+      "low": 0,
+      "med": 2,
+      "high": 2
+    },
+    "raw": {
+      "turn_count": 14,
+      "tokens_total": 21288,
+      "tokens_in": 17328,
+      "tokens_out": 3960,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 7,
+      "raw_user_tokens": 260,
+      "duration_ms": 172720,
+      "ai_wait_ms": 164000,
+      "user_corrections": 4,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.7574,
+      "model_class": "legacy_gpt4"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ0012TFWA66XM8YA05F",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP33G9J0CNNCK3KM18CWWFAS",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        5,
+        6
+      ],
+      "evidence": {
+        "snippet": "If you were to write a book about applications of SVM to solve problems in finance. The book is comprehensive and accessible and focus on case studies with dataset. What the table of contents might be?",
+        "speaker": "user",
+        "turn": 6
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json",
+        "turn_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json#turns/6"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.94).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00K4NYJP7X0V0JCVFH",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP33G9J0CNNCK3KM18CWWFAS",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Write complete outline of all the key points you gonna discuss in User-User Collaborative Filtering",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json",
+        "turn_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.55).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00TN8749DXRR13V293",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP33G9J0CNNCK3KM18CWWFAS",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        7,
+        8
+      ],
+      "evidence": {
+        "snippet": "Write complete outline of all the key points you gonna discuss in \"6.2 Case Study: Financial Market Prediction using SVM\"",
+        "speaker": "user",
+        "turn": 8
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json",
+        "turn_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json#turns/8"
+      },
+      "rationale": "User restated content from turn 4 (Jaccard 0.52).",
+      "condition_code": "B05.02"
+    },
+    {
+      "id": "obs_01KQGDBJ00VK742PAHFQ85MNWY",
+      "tenant": "axiom-bank",
+      "session": "sess_01KP33G9J0CNNCK3KM18CWWFAS",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        9,
+        10
+      ],
+      "evidence": {
+        "snippet": "If you were to write a book about applications of proximal opertator in deep learning . The book is comprehensive and accessible and focus on case studies with dataset. What the table of contents might be?",
+        "speaker": "user",
+        "turn": 10
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json",
+        "turn_uri": "data/sessions/sess_01KP33G9J0CNNCK3KM18CWWFAS.json#turns/10"
+      },
+      "rationale": "User restated content from turn 6 (Jaccard 0.75).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-4-0314",
+    "wildchat"
+  ]
+}

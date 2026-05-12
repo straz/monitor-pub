@@ -1,0 +1,133 @@
+{
+  "id": "sess_01KP2XNH004PYXBBHZ4M02S7RS",
+  "tenant": "meridian-insurance",
+  "project": "claude_general",
+  "user": "u_mer_010",
+  "title": "A text ads to get new owners operators to dispute for the truck",
+  "started_at": "2026-04-13T08:00:00Z",
+  "ended_at": "2026-04-13T08:00:28.716000Z",
+  "duration_ms": 28716,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "A text ads to get new owners operators to dispute for the truck ",
+      "started_at": "2026-04-13T08:00:00Z",
+      "duration_ms": 992,
+      "tokens_in": 16,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "\"Looking for your own business opportunity? Want to be your own boss? Become a truck owner-operator! We are looking for motivated individuals to join our team. Our company provides you with the tools and support you need to succeed. With a competitive lease program and top quality equipment, you have everything you need to start your new career. Don't miss out on this chance to own your own truck and control your own destiny. Apply now!\"",
+      "started_at": "2026-04-13T08:00:02.492000Z",
+      "duration_ms": 5200,
+      "tokens_in": 0,
+      "tokens_out": 110,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Cold calling script to dispute for new owner operators with new authority ",
+      "started_at": "2026-04-13T08:00:09.192000Z",
+      "duration_ms": 1016,
+      "tokens_in": 18,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Hi, this is [Your Name] calling from [Company Name]. I hope you're having a great day.\n\nI'm reaching out to you because we're currently looking for new owner-operators with new authority to join our team. We believe that you would be a great addition to our fleet.\n\nAs an owner-operator, you have the freedom to choose your own loads and schedules, and with new authority, you have the opportunity to build your business and grow your income.\n\nOur company provides top-quality equipment, a competitive lease program, and a supportive team to help you succeed. We also offer training and resources to ensure you have the tools you need to be successful.\n\nWould you be interested in learning more about this opportunity and how you can become a part of our team? Let me know, and we can set up a time for a more in-depth conversation.\n\nThank you for your time and consideration. Have a great day!",
+      "started_at": "2026-04-13T08:00:11.708000Z",
+      "duration_ms": 9720,
+      "tokens_in": 0,
+      "tokens_out": 223,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Cold calling script to dispatching for new owner operators with new authority",
+      "started_at": "2026-04-13T08:00:22.928000Z",
+      "duration_ms": 1028,
+      "tokens_in": 19,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Hi, this is [Your Name] calling from [Company Name]. I hope I'm not catching you at a bad time.\n\nThe reason I'm calling you today is that our company is currently looking for new owner-operators with new authority to partner with and help grow our business. We are a rapidly growing company with multiple contracts, and we're looking to expand our fleet.\n\nWith our competitive rates, excellent customer service, and cutting-edge technology, we help our owner-operators build successful and profitable businesses.\n\nWe provide top-quality equipment, a supportive team of dispatchers, and the resources and training you need to succeed. We are committed to the success of our partner-operators, and strive to create long-term and mutually beneficial relationships.\n\nWould you be interested in learning more about this opportunity and how we can help you grow your business? Let me know, and we can set up a time to discuss in more detail.\n\nThank you for your time and consideration. Have a great day!",
+      "started_at": "2026-04-13T08:00:25.456000Z",
+      "duration_ms": 10760,
+      "tokens_in": 0,
+      "tokens_out": 249,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 72,
+    "human_effort": 34,
+    "ai_cost": 23,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 1
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 2928,
+      "tokens_in": 2346,
+      "tokens_out": 582,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 53,
+      "duration_ms": 28716,
+      "ai_wait_ms": 25680,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.002,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ00MHXMECFEA4K2XDE3",
+      "tenant": "meridian-insurance",
+      "session": "sess_01KP2XNH004PYXBBHZ4M02S7RS",
+      "type": "session_user_repetition",
+      "severity": "high",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        3,
+        4
+      ],
+      "evidence": {
+        "snippet": "Cold calling script to dispatching for new owner operators with new authority",
+        "speaker": "user",
+        "turn": 4
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KP2XNH004PYXBBHZ4M02S7RS.json",
+        "turn_uri": "data/sessions/sess_01KP2XNH004PYXBBHZ4M02S7RS.json#turns/4"
+      },
+      "rationale": "User restated content from turn 2 (Jaccard 0.83).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:cross_functional",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

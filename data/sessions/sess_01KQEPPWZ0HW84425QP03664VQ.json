@@ -1,0 +1,113 @@
+{
+  "id": "sess_01KQEPPWZ0HW84425QP03664VQ",
+  "tenant": "kurson-health",
+  "project": "vital_scribe",
+  "user": "u_kur_003",
+  "title": "Is there any free  paper that perform all the preprocessing techniques used in mit bih database ecg signals",
+  "started_at": "2026-04-30T08:05:00Z",
+  "ended_at": "2026-04-30T08:05:41.320000Z",
+  "duration_ms": 41320,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Is there any free  paper that perform all the preprocessing techniques used in mit bih database ecg signals ",
+      "started_at": "2026-04-30T08:05:00Z",
+      "duration_ms": 1124,
+      "tokens_in": 27,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "Yes, there are many open-source papers and software available that perform the preprocessing techniques used in the MIT-BIH database ECG signals. Some of the popular ones are:\n\n1. PhysioNet: This is an open-source platform that provides various software and tools for ECG signal processing, including preprocessing techniques. It includes tools like WFDB (Waveform Database) software package for reading, writing and processing physiological signals in various formats, and the ECG-kit, which provides a collection of scripts for ECG analysis and processing.\n\n2. PyECG: This is a Python-based open-source library for ECG signal processing, which includes a variety of preprocessing techniques like filtering, baseline correction, and signal normalization. It also provides tools for feature extraction and visualization of ECG signals.\n\n3. OpenECG: This is a web-based platform that allows ECG signal processing and analysis. It includes preprocessing tools like filtering, baseline correction, and signal normalization. It also provides tools for extracting features, classifying ECG signals, and generating reports.\n\n4. Biosignal Tools: This is an open-source MATLAB-based toolbox for biosignal processing, including ECG signals. It provides various preprocessing techniques like filtering, denoising, and artifact removal. It also includes tools for feature extraction and visualization of ECG signals.\n\n5. WFDB Toolbox for MATLAB: This is a MATLAB-based toolbox for reading, writing, and processing physiological signals, including ECG signals from the MIT-BIH database. It includes preprocessing tools like filtering, baseline correction, and signal normalization. It also provides tools for feature extraction and visualization of ECG signals.\n\nAll of these resources are available for free and can help in preprocessing ECG signals from the MIT-BIH database.",
+      "started_at": "2026-04-30T08:05:02.624000Z",
+      "duration_ms": 19440,
+      "tokens_in": 0,
+      "tokens_out": 466,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Is there any paper that perform all the preprocessing techniques similar to the one performed on the ecg signal from mit bih database ",
+      "started_at": "2026-04-30T08:05:23.564000Z",
+      "duration_ms": 1196,
+      "tokens_in": 33,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Yes, there are several papers that describe the preprocessing techniques used on ECG signals from the MIT-BIH database. These papers typically provide detailed descriptions of the preprocessing steps, along with the algorithms and parameters used.\n\nHere are a few examples of papers that describe the preprocessing steps used in ECG signals from the MIT-BIH database:\n\n1. \"Comparison of ECG Preprocessing Techniques for QRS Detection,\" by Gabriel e Silva et al. This paper compares several preprocessing techniques for QRS detection in ECG signals, including filtering, baseline correction, and signal normalization. The techniques are evaluated on the MIT-BIH Arrhythmia Database and other datasets.\n\n2. \"ECG Preprocessing Techniques for Arrhythmia Detection,\" by Remu Tomy et al. This paper describes the preprocessing techniques used for arrhythmia detection in ECG signals, including filtering, baseline correction, and signal normalization. The techniques are evaluated on the MIT-BIH Arrhythmia Database and other datasets.\n\n3. \"ECG Signal Preprocessing using Wavelet Transform and Independent Component Analysis,\" by Shitala Prasad et al. This paper describes a preprocessing technique based on wavelet transform and independent component analysis (ICA). The technique is evaluated on the MIT-BIH Arrhythmia Database and other datasets.\n\n4. \"ECG Signal Processing Techniques for Noise Reduction and QRS Detection,\" by N. S. Gadhe et al. This paper describes preprocessing techniques for noise reduction and QRS detection in ECG signals, including filtering, baseline correction, and signal normalization. The techniques are evaluated on the MIT-BIH Arrhythmia Database.\n\nThese papers can provide useful information on the preprocessing techniques used on ECG signals from the MIT-BIH database and can be used as a reference for developing similar preprocessing pipelines.",
+      "started_at": "2026-04-30T08:05:26.260000Z",
+      "duration_ms": 19560,
+      "tokens_in": 0,
+      "tokens_out": 469,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 26,
+    "ai_cost": 19,
+    "issue_count": {
+      "low": 0,
+      "med": 1,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 2688,
+      "tokens_in": 1753,
+      "tokens_out": 935,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 60,
+      "duration_ms": 41320,
+      "ai_wait_ms": 39000,
+      "user_corrections": 1,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [
+    {
+      "id": "obs_01KQGDBJ008YKN7SC22SKT28F7",
+      "tenant": "kurson-health",
+      "session": "sess_01KQEPPWZ0HW84425QP03664VQ",
+      "type": "session_user_repetition",
+      "severity": "med",
+      "source": "batch",
+      "observer": "session_user_repetition",
+      "observer_version": "0.1.0",
+      "created_at": "2026-05-06T12:00:00Z",
+      "turn_range": [
+        1,
+        2
+      ],
+      "evidence": {
+        "snippet": "Is there any paper that perform all the preprocessing techniques similar to the one performed on the ecg signal from mit bih database ",
+        "speaker": "user",
+        "turn": 2
+      },
+      "reference": {
+        "session_uri": "data/sessions/sess_01KQEPPWZ0HW84425QP03664VQ.json",
+        "turn_uri": "data/sessions/sess_01KQEPPWZ0HW84425QP03664VQ.json#turns/2"
+      },
+      "rationale": "User restated content from turn 0 (Jaccard 0.56).",
+      "condition_code": "B05.02"
+    }
+  ],
+  "tags": [
+    "wildchat:clinical",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

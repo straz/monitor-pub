@@ -1,0 +1,106 @@
+{
+  "id": "sess_01KQV180W0AZACQPCNZEB1NBZP",
+  "tenant": "axiom-bank",
+  "project": "atlas_advisor",
+  "user": "u_axb_007",
+  "title": "Assuming you are a finance professional and portfolio manager trying to start a blog to sell investment and finance rela\u2026",
+  "started_at": "2026-05-05T03:00:00Z",
+  "ended_at": "2026-05-05T03:00:31.496000Z",
+  "duration_ms": 31496,
+  "turn_count": 6,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "Assuming you are a finance professional and portfolio manager trying to start a blog to sell investment and finance related products, please provide me with a list of underserved blog topics in the finance niche",
+      "started_at": "2026-05-05T03:00:00Z",
+      "duration_ms": 1424,
+      "tokens_in": 52,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "1. Sustainable investing and ESG (environmental, social, and governance) funds\n2. Behavioral finance and investor psychology\n3. Alternative investments, such as private equity and hedge funds\n4. Financial planning for young adults and millennials\n5. Investment strategies for retirees and those nearing retirement\n6. Impact investing and social entrepreneurship\n7. Cryptocurrencies and blockchain technology\n8. Real estate investing and rental property management\n9. Tax-efficient investing and strategies for minimizing taxes\n10. Personal finance and budgeting for families with children.",
+      "started_at": "2026-05-05T03:00:02.924000Z",
+      "duration_ms": 6680,
+      "tokens_in": 0,
+      "tokens_out": 147,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "Make it more beginner friendly ",
+      "started_at": "2026-05-05T03:00:11.104000Z",
+      "duration_ms": 884,
+      "tokens_in": 7,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Sure, here are some beginner-friendly blog topics in the finance niche that may be underserved:\n\n1. Simple steps to improve your credit score: tips on how to build and maintain a good credit score\n2. A beginner's guide to investing: introducing the basic concepts of investing, such as stocks, bonds, and mutual funds\n3. Budgeting basics: how to create and stick to a budget, including tips on saving money and reducing expenses\n4. How to pay off debt: strategies and tools for paying off debt and becoming debt-free \n5. Exploring different types of savings accounts: understanding the differences between high-yield savings accounts, money market accounts, and certificates of deposit\n6. Financial planning for life events: advice on how to plan and save for major life events such as buying a house, getting married, having kids, and retirement\n7. Understanding insurance policies: breaking down different types of insurance such as auto, home, and health insurance and how they work\n8. Financial scams to avoid: educating readers on the common financial scams and how to avoid them \n9. Investing in the stock market with little money: tips on how to invest in the stock market with a small amount of money \n10. Introduction to financial terms: introducing commonly used financial terms and definitions to help readers understand financial concepts and jargon.",
+      "started_at": "2026-05-05T03:00:13.488000Z",
+      "duration_ms": 14400,
+      "tokens_in": 0,
+      "tokens_out": 340,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 4,
+      "speaker": "user",
+      "text": "Provide these as long tailed keywords",
+      "started_at": "2026-05-05T03:00:29.388000Z",
+      "duration_ms": 908,
+      "tokens_in": 9,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 5,
+      "speaker": "assistant",
+      "text": "Sure, here are the same topics as long tail keywords:\n\n1. \"Tips for improving credit score for beginners\"\n2. \"Beginner's guide to investing in stocks, bonds, and mutual funds\"\n3. \"Simple budgeting strategies for beginners\"\n4. \"Strategies to pay off debt for beginners\"\n5. \"Comparison of different high-yield savings accounts for beginners\"\n6. \"Financial planning tips for major life events for beginners\"\n7. \"Understanding different types of insurance policies for beginners\"\n8. \"Avoiding financial scams: tips for beginners\"\n9. \"Investing in the stock market with little money: beginner's guide\"\n10. \"Financial terms explained for beginners\".",
+      "started_at": "2026-05-05T03:00:31.796000Z",
+      "duration_ms": 7200,
+      "tokens_in": 0,
+      "tokens_out": 160,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 24,
+    "ai_cost": 25,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 6,
+      "tokens_total": 3260,
+      "tokens_in": 2613,
+      "tokens_out": 647,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 3,
+      "raw_user_tokens": 68,
+      "duration_ms": 31496,
+      "ai_wait_ms": 28280,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.0023,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:wealth",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "sess_01KP06D5H00CWJS5SHXRXDAQ0Z",
+  "tenant": "kurson-health",
+  "project": "chatgpt_general",
+  "user": "u_kur_004",
+  "title": "rewrite this for me As someone who is interested in pursuing a career in hospital pharmacy, it was very insightful to le\u2026",
+  "started_at": "2026-04-12T06:35:00Z",
+  "ended_at": "2026-04-12T06:35:12.516000Z",
+  "duration_ms": 12516,
+  "turn_count": 4,
+  "status": "closed",
+  "model_class": "small",
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "user",
+      "text": "rewrite this for me As someone who is interested in pursuing a career in hospital pharmacy, it was very insightful to learn about the backgrounds of the presenters so that I can start to implement similar efforts to be successful in the field. ",
+      "started_at": "2026-04-12T06:35:00Z",
+      "duration_ms": 1532,
+      "tokens_in": 61,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 1,
+      "speaker": "assistant",
+      "text": "As an individual with a keen interest in hospital pharmacy as a career, gaining an understanding of the presenters' backgrounds proved to be enlightening as it will enable me to adopt comparable strategies for achieving success within the field.",
+      "started_at": "2026-04-12T06:35:03.032000Z",
+      "duration_ms": 3240,
+      "tokens_in": 0,
+      "tokens_out": 61,
+      "model": "gpt-3.5-turbo-0301"
+    },
+    {
+      "index": 2,
+      "speaker": "user",
+      "text": "why do hospital pharmacists need to be versitile",
+      "started_at": "2026-04-12T06:35:07.772000Z",
+      "duration_ms": 944,
+      "tokens_in": 12,
+      "tokens_out": 0,
+      "model": ""
+    },
+    {
+      "index": 3,
+      "speaker": "assistant",
+      "text": "Hospital pharmacists need to be versatile because they are required to perform various roles and responsibilities, ranging from dispensing and reviewing medications to collaborating with other healthcare professionals in patient care. They must possess strong communication and organizational skills, as well as the ability to adapt to changes in medication prescriptions, patient conditions, and treatment plans. Additionally, hospital pharmacists may also be involved in medication safety initiatives, research, and education, further highlighting the importance of versatility in their profession.",
+      "started_at": "2026-04-12T06:35:10.216000Z",
+      "duration_ms": 6800,
+      "tokens_in": 0,
+      "tokens_out": 150,
+      "model": "gpt-3.5-turbo-0301"
+    }
+  ],
+  "scores": {
+    "overall_success": 90,
+    "human_effort": 16,
+    "ai_cost": 14,
+    "issue_count": {
+      "low": 0,
+      "med": 0,
+      "high": 0
+    },
+    "raw": {
+      "turn_count": 4,
+      "tokens_total": 1606,
+      "tokens_in": 1395,
+      "tokens_out": 211,
+      "system_prompt_tokens": 600,
+      "system_prompt_calls": 2,
+      "raw_user_tokens": 73,
+      "duration_ms": 12516,
+      "ai_wait_ms": 10040,
+      "user_corrections": 0,
+      "frustration_hits": 0,
+      "dollars_estimate": 0.001,
+      "model_class": "legacy_gpt35"
+    }
+  },
+  "observations": [],
+  "tags": [
+    "wildchat:nursing",
+    "src_model:gpt-3.5-turbo-0301",
+    "wildchat"
+  ]
+}
